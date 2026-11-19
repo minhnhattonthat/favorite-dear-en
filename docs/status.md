@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 2. Debug tool in progress (event, save-load, hub, credits, epilog, minigame warps work; town events, battle and game over left). Last build: none yet.
+- **Phase:** 2. Debug tool in progress (event, save-load, hub, credits, epilog, minigame and battle warps work; town events left, then the --all regen). Last build: none yet.
 - **Done:**
   - Step 0 and phase 1 recon (see git history; `docs/re/README.md` indexes the notes; `tbl/jp.tbl` complete).
   - Phase 2 so far (`docs/re/debug.md` has the how and the addresses):
@@ -23,18 +23,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
       --week 5 --name ミカエルアン`).
     - Program chain mapped (`debug.md` §Programs): all switches go through _LOADE.EXE with an index at 0x1F800020;
       `game_clear` 0x8003ABB8; GOVER.EXE is referenced by no code (looks like an old main-program build).
+    - 2026-11-20: **battles** (`battle_castle` SS0204:2, `battle_forest` SS0501:5, proofs checked). Scripts start
+      battles with sub-command 0xD3 for the current hero (byte 0x80020991); MYH16's slot leaves hero 16 (Reiv),
+      whose sprite crashes the loader, so `NAME:HERO` in a scene arg / warp.lua `HERO` sets it. The old `battle`
+      kind is removed. **No game over exists**: GOVER.EXE is never exec'd and draws nothing; the OVER_* TIMs are
+      only in the name list (`debug.md` §Programs). `warp.py --lua/--var/--debugger` runs hooks with a warp;
+      new helpers `tools/lua/cmdlog.lua`, `stateat.lua`, `pcsample.lua`, `excatch.lua`.
 - **Next (finish phase 2):**
-  1. Battle: `battle_start` 0x800D08E4 is only called by two event-script opcode handlers (0x800CC5A0/0x800CC5F8).
-     Calling it from the vsync loop hangs the emulator (warp kind `battle`, experimental). Find the opcode number
-     (VM compare chain at 0x800CCB50), find events whose scripts use it, and warp to one with kind `event`.
-  2. Game over: the real screen uses OVER640/OVER_JI/OVER_BAK.TIM (GDATA name list at PSX.EXE RAM 0x80014440) inside
-     PSX.EXE; find its trigger (xref the GDATA index of OVER_BAK, or watch loads with `tools/lua/loadlog.lua`) and
-     add a scene. A real ending (EPILOG with params): game_clear's opcode (0x800C4680) is the legit path; find an
-     event using it, or set scratchpad 0x1F800000/0x14/0x1C before exec (needs scratchpad write from Lua).
-  3. Town events (T0101.., TxxSEN) stick on a blank box in MYH16's slot. Start routines 0x800CFDC8 / 0x800CFF28
-     store a context byte (0x80020991) first; set that context or patch the slot those routines use. A hub-map town
-     visit loads no event (probe 2026-11-20).
-  4. Then run `warp.py --all --state`, check every arrived/post shot, update scenes.tsv notes: phase 2 done.
+  1. Town events (T0101.., TxxSEN): with HERO=1 T0101 now runs its commands (cmdlog from
+     `work/states/event_pre13000.sstate`, standalone EVENT/HERO vars) up to sub-command **0xE0** (sets byte
+     0x80184170 = 1) and **0xE1** (calls 0x800CD5E8(a, b)) at f623, then the screen stays on a blank box: it likely
+     waits for the town screen. Read 0x800CD5E8 and who reads 0x80184170; either set what it waits for or warp in
+     through the town (hub map -> town; in week 1 a town visit loads no event, so find the unlock flag). TxxSEN are
+     the stage table's 0-12 (BD8 table), so T01SEN may need battle_start's path too (try `T01SEN:1` after T0101).
+     If a town event can't be reached cleanly, record why in `debug.md` and list it as a known gap.
+  2. A real ending (EPILOG with params): game_clear's opcode (0x800C4680) is the legit path; find an event using it,
+     or set scratchpad 0x1F800000/0x14/0x1C before exec (needs scratchpad write from Lua).
+  3. Then run `warp.py --all --state`, check every arrived/post shot, update scenes.tsv notes: phase 2 done.
 - **Open questions for later phases (not blocking):**
   - Phase 4: VM opcode argument counts (dispatch 0x800CCB50) are not decoded; the extractor needs them (`events.md`).
     Event names map to GDATA files through the name lookup at 0x8003B680 (462 ids, 444 unique names vs 468 files).

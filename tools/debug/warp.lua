@@ -12,6 +12,8 @@
 --          scene. Shot post.png when they are done; STATE is then saved there instead.
 --   STATE  absolute path: save a savestate here 60 frames after arrival
 --   TRACE  any value: log every change of the MODE/PHASE flags ("TRACE mode/phase 5/1 f1234")
+--   HERO   KIND 'event': current-hero index (byte 0x80020991) the swapped-in script sees (MYH16 leaves 16, Reiv)
+local CUR_HERO = 0x80020991
 -- Shots: arrived.png 30 frames after arrival (the proof); AFTER 'hold' ends the run 90 frames after arrival.
 -- Log lines: "WARP <stage> f<frame>"; "WARP OK" once the scene is reached (warp.py fails the run without it).
 --
@@ -52,8 +54,6 @@ end
 -- _LOADE.EXE, which loads the program), with a0 = the path string "\<EXE>.EXE;1" found in PSX.EXE's data.
 -- Arrival = the CPU has gone through _LOADE.EXE (0x801C0000-0x801C6800) and left it again.
 local EXEC_FN, EXEC_FIRST = 0x8003C7D4, 0x27BDFFE8   -- addiu sp, sp, -0x18 (checked before jumping)
-local BATTLE_FN = 0x800D08E4
-BATTLE = BATTLE or 1
 local function rd32(a) a = a & 0x1FFFFF; return rd16(a) | (rd16(a + 2) << 16) end
 local function find_str(s, lo, hi)
   local b1 = s:byte(1)
@@ -167,22 +167,6 @@ L.on_frame(function(n)
     if n - arrived_at >= 30 then
       if KIND == "week" then
         arrive()
-      elseif KIND == "battle" then
-        -- EXPERIMENTAL, does not work yet: the emulator produces no frame after this call (docs/re/debug.md).
-        -- call battle_start(a0 = index into the battle table at 0x80174BD8, a1 = 0) from the vsync wait loop
-        -- (0x800E5D88..0x800E5DCC); it returns to 0x800E5D84, which reloads the loop's v1 the call clobbers.
-        local r = PCSX.getRegisters()
-        local pc = tonumber(r.pc)
-        if pc >= 0x800E5D88 and pc <= 0x800E5DCC then
-          assert(rd32(BATTLE_FN) == 0x27BDFFE8, "battle_start moved: no addiu sp at 0x800D08E4")
-          L.log(string.format("WARP battle %d (pc was %08x) f%d", BATTLE, pc, n))
-          r.GPR.n.a0 = BATTLE
-          r.GPR.n.a1 = 0
-          r.GPR.n.ra = 0x800E5D84
-          r.pc = BATTLE_FN
-          go("battle_wait")
-          arrived_at = n
-        end
       elseif KIND == "exec" then
         local path = assert(EXE_PATHS[EXE], "unknown EXE " .. tostring(EXE))
         local s = find_str(path .. "\0", 0x80030000, 0x80040000)
@@ -197,9 +181,6 @@ L.on_frame(function(n)
         route(WEEK1); go("week1")
       end
     end
-  elseif stage == "battle_wait" then
-    -- the battle has its own screen; arrival once the week-screen flag has dropped for 300 frames
-    if week_screen() then arrived_at = n elseif n - arrived_at >= 300 then arrive() end
   elseif stage == "exec_wait" then
     local pc = tonumber(PCSX.getRegisters().pc)
     if in_loader(pc) then exec_seen = true
@@ -219,6 +200,12 @@ L.on_frame(function(n)
     end
   elseif stage == "arrived" then
     local dt = n - arrived_at
+    if HERO and KIND == "event" and dt <= 10 then
+      -- the script's command 0x79 reads the current hero (0x800CF5EC: byte 0x80020991 unless gp+0x2940 or
+      -- 0x80020996 is set); MYH16's start routine left 16 (Reiv) there. Set it before the script's first command.
+      mem[CUR_HERO & 0x1FFFFF] = HERO
+      if dt == 0 then L.log(string.format("WARP hero %d f%d", HERO, n)) end
+    end
     if dt == PROOF then
       L.shot("arrived.png")
       if POST then

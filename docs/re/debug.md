@@ -84,15 +84,28 @@ id 32 showing up in the loaded-event table. From cold boot to the event takes ~1
 - PS_MOV.EXE is the boot/title program (logos, OP.STR, title menu): it execs PSX.EXE (New Game/Load) and FD_BALL.EXE.
 - **GOVER.EXE is not referenced by any code** (no exec of its path in any program): it looks like an older build of
   the main program (same sound list, OVER_BAK/OVER_JI.TIM). Exec'd directly it shows black for ~1300 frames and
-  returns to the title. The real game-over screen uses OVER640/OVER_JI/OVER_BAK.TIM from GDATA inside PSX.EXE
-  (name list at PSX.EXE RAM 0x80014440); its trigger is not found yet.
+  returns to the title. No game-over screen is reachable (see Battles below).
 - Battles run inside PSX.EXE: `battle(a0)` = 0x800C3FD4 (debug prints "BT_result after battle"), called from
-  0x80113450 (in 0x801132C4, called from the VM at 0x800D090C) and via 0x80113844(a0 byte) from 0x80113720.
-  `battle_start(a0 idx, a1)` = 0x800D08E4 looks the battle up in the u16 table at 0x80174BD8 (0..12, 201, 301...)
-  and calls 0x801132C4; its only callers are two event-script opcode handlers (0x800CC5A0, 0x800CC5F8), so battles
-  are started by event scripts. **Warp kind `battle` (call 0x800D08E4 from the vsync loop, return to 0x800E5D84)
-  hangs the emulator**: no frame after the call (probe 2026-11-20, idx 1/13/27). Next: find which event scripts
-  use that opcode (the handler's opcode number in the VM compare chain at 0x800CCB50) and warp to such an event.
+  0x80113450 (in 0x801132C4) and via 0x80113844(a0 byte) from 0x80113720.
+  `battle_start(a0 idx, a1 hero)` = 0x800D08E4 maps idx through the u16 table at 0x80174BD8 (the "stage" table:
+  0-12 TxxSEN, 13+ SYxxxx/SSxxxx event ids, 192 -> 97 ...) and calls 0x801132C4, which puts hero a1 in party slot 0
+  (0x8002139C, via 0x80112C1C) and loads the battle (KANRI14.BIN, bg_NN.pss, BX_NN__.BIN, bt_pac.pac, the party's
+  battle sprites). **Verified 2026-11-20 (`tools/lua/cmdlog.lua`):** event scripts start battles with sub-command
+  **0xD3** (or 0xE3), two args: `0079 8003 00D3 00C0 8003` = cmd 0x79 (store the current hero in work word 3), then
+  battle 0xC0 for the hero in word 3. 16 story files (SSxxxx) contain it (SS0204, SS0305, SS0406, SS0407, SS0501,
+  SS0704, SS07051, SS1106, SS1206, SS07053, SS0608, SS0609, SS0207, SS1208, SS0908, SS0607).
+  - Sub-commands: 0x800CA570(a0 work base, a1 &pos) dispatches `script[pos] - 0x3B` (0..0xAA) through the jump table
+    at 0x80039108; args are read by 0x800C855C (bit 15 set = a reference to that work word, followed). Command
+    words sit in a separate stream from the FFxx text opcodes; separators 0x8002/0x8003/0x8005 follow them.
+  - Current hero = 0x800CF5EC: gp+0x2938 if gp+0x2940, else byte 0x80020990 if 0x80020996, else **byte
+    0x80020991**, which the start routines (0x800CFDC8 etc.) set. In MYH16's slot it is 16 (Reiv): his battle
+    sprite path (yo16a.pss through the raw loader 0x8003D39C) crashes into the BIOS. With warp.lua `HERO` (scenes
+    `battle_castle` SS0204:2, `battle_forest` SS0501:5) the battle plays: map, units, HUD, battle dialogue.
+  - Calling battle_start from the vsync loop (the old `battle` warp kind, removed) hung for the same reason.
+- **No game-over screen is reachable.** OVER640/OVER_JI/OVER_BAK.TIM are referenced in PSX.EXE only by the GDATA name
+  list (indexes 0x37E-0x381; no code or script loads them). GOVER.EXE's code (0x800132D4) loads OVER_BAK/OVER_JI
+  into VRAM with the display off and then execs \PS_MOV.EXE (the title); nothing execs GOVER.EXE. An exec warp of
+  it shows black, then the title (probe 2026-11-20). The images can still be checked from the files (`tim.py`).
 - Event start routines (all call `start_event` 0x800C8688): 0x800CFDC8(a0) = table 0x80174828[a0*2 + byte
   0x8001F5EA] (SMxx/SWxx hero events, T0101.., TxxSEN); 0x800CFF28(key) searches {u16 idx, u16 key} pairs at
   0x8017485C (0xFFFF end) and starts 0x801749E4[idx]. Town (T*) events still stick on a blank box when swapped
@@ -110,5 +123,11 @@ id 32 showing up in the loaded-event table. From cold boot to the event takes ~1
 
 Limits: the target runs in MYH16's context (week 1, the guild room background, Shelly/Florinda as the fairies,
 default flags). Scripts that read state they expect (town, hero, story flags) may show wrong portraits or
-backgrounds or stop (see the survey results in `tools/debug/scenes.tsv` notes). Battles, game over, the endings'
-EXE chain (EPILOG/FIN.EXE credits) and FD_BALL.EXE are separate programs: see the scene list for which are covered.
+backgrounds or stop (see the survey results in `tools/debug/scenes.tsv` notes). `NAME:HERO` in a scene's arg
+(warp.lua `HERO`) sets the current hero the script sees; battles need it. The endings' EXE chain (EPILOG/FIN.EXE
+credits) and FD_BALL.EXE are separate programs (`exec` scenes).
+
+Hook helpers in `tools/lua/` (ride along a warp with `warp.py --lua FILE [--debugger] [--var X=Y]`):
+`cmdlog.lua` (sub-commands and battle_start calls; standalone EVENT/HERO from an early state), `stateat.lua`
+(state at frame N of a deterministic warp), `pcsample.lua` (pc + flags every N frames: finds crashes into the
+BIOS), `excatch.lua` (CPU exceptions; slow), `loadlog.lua` (GDATA loads).

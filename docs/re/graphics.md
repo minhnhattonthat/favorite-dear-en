@@ -35,5 +35,5 @@ the AP/LV panel on the angel column.
 Movies: NEIC.STR / SOFIX1.STR are the company logos (English); OP.STR sampled every 150 frames of a cold boot
 (work/qa/opmovie, f2550-f3300) showed no text, but it was cut short by the title. Not checked yet: the rest of
 OP.STR, DEMO.STR, ENDING.STR (burned-in text, lyrics); graphics of
-GOVER.EXE (game over), FD_BALL.EXE (Slime Ball), EPILOG.EXE, PS_MOV.EXE, FIN.EXE beyond what they load from the disc
+GOVER.EXE (game over; never shown in play, `debug.md` §Programs: OVER_*.TIM need no translation), FD_BALL.EXE (Slime Ball), EPILOG.EXE, PS_MOV.EXE, FIN.EXE beyond what they load from the disc
 root; the 107 non-image GDATA entries (maps, 3D, battle data). Do these with the debug tool's warps (phase 2/8).

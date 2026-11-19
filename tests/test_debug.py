@@ -27,10 +27,11 @@ def test_scenes_tsv_shape():
         assert len(c) == 9, r
         assert c[0] not in names, c[0]
         names.add(c[0])
-        assert c[1] in {"title", "load", "option", "newgame", "week", "map", "event", "exec", "save", "battle"}, r
-        assert (c[1] in {"event", "exec", "save", "battle"}) == bool(c[2]), r
-        if c[1] == "battle":
-            assert int(c[2]) >= 0, r
+        assert c[1] in {"title", "load", "option", "newgame", "week", "map", "event", "exec", "save"}, r
+        assert (c[1] in {"event", "exec", "save"}) == bool(c[2]), r
+        if c[1] == "event" and ":" in c[2]:  # NAME:HERO
+            name, hero = c[2].split(":")
+            assert name and 1 <= int(hero) <= 255, r
         if c[1] == "exec":
             assert c[2] in {"GOVER", "FD_BALL", "EPILOG", "FIN", "FD_MOV", "PS_MOV"}, r
         if c[1] == "save":
@@ -90,7 +91,7 @@ def test_event_name_table():
     for r in rows:
         c = r.split("\t")
         if len(c) == 9 and c[1] == "event":
-            assert c[2] in names, f"scene {c[0]}: unknown event {c[2]}"
+            assert c[2].split(":")[0] in names, f"scene {c[0]}: unknown event {c[2]}"
 
 
 def test_blank_card():

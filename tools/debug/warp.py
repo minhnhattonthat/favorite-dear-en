@@ -28,12 +28,13 @@ import sheet  # noqa: E402
 ORIG_CUE = os.path.join(REPO, "rom", "Favorite Dear (Japan).cue")
 SCENES = os.path.join(HERE, "scenes.tsv")
 COLS = ["scene", "kind", "arg", "after", "frames", "card", "post", "proof", "note"]
-# arg: the event name (kind event), program name (kind exec: GOVER FD_BALL EPILOG FIN FD_MOV PS_MOV) or save
+# arg: the event name (kind event; NAME:HERO also sets the current hero, e.g. SS0204:2 for a battle), program name (kind exec: GOVER FD_BALL EPILOG FIN FD_MOV PS_MOV) or save
 # number on the card (kind save). card: a memory card image (repo-relative) given to the emulator as a copy.
 # post: presses after arrival (route steps joined by ';'), shot as post.png. proof: frames from arrival to
 # arrived.png (default 30).
-ARG_VAR = {"event": "EVENT", "exec": "EXE", "save": "SAVE", "battle": "BATTLE"}
-NUMERIC = {"SAVE", "BATTLE"}
+ARG_VAR = {"event": "EVENT", "exec": "EXE", "save": "SAVE"}
+NUMERIC = {"SAVE"}
+EXTRA = []  # extra emu.py args from --lua / --debugger / --var (hooks riding along a warp)
 
 
 def load_scenes():
@@ -66,7 +67,11 @@ def run(sc, cue, state, timeout):
     lua = [f"KIND='{sc['kind']}'", f"AFTER='{sc['after'] or 'mash'}'"]
     if sc["arg"]:
         var = ARG_VAR[sc["kind"]]
-        lua.append(f"{var}={int(sc['arg'])}" if var in NUMERIC else f"{var}='{sc['arg']}'")
+        arg = sc["arg"]
+        if sc["kind"] == "event" and ":" in arg:  # NAME:HERO runs the event for that hero (warp.lua HERO)
+            arg, hero = arg.split(":")
+            lua.append(f"HERO={int(hero)}")
+        lua.append(f"{var}={int(arg)}" if var in NUMERIC else f"{var}='{arg}'")
     if sc.get("post"):
         lua.append(f"POST='{sc['post']}'")
     if sc.get("proof"):
@@ -87,6 +92,7 @@ def run(sc, cue, state, timeout):
            "--shot-every", "150", "--timeout", str(timeout)] + card
     for v in lua:
         cmd += ["--var", v]
+    cmd += EXTRA
     with open(os.path.join(out, "emu.txt"), "w", encoding="utf-8") as fo:
         rc = subprocess.call(cmd, stdout=fo, stderr=subprocess.STDOUT)
     logp = os.path.join(out, "log.txt")
@@ -127,7 +133,16 @@ def main():
     ap.add_argument("--state", action="store_true", help="also save work/states/<scene>.sstate")
     ap.add_argument("-j", type=int, default=3)
     ap.add_argument("--timeout", type=int, default=900)
+    ap.add_argument("--lua", action="append", default=[], help="extra Lua hook appended after warp.lua (repeatable)")
+    ap.add_argument("--var", action="append", default=[], help="extra NAME=LUA global (repeatable)")
+    ap.add_argument("--debugger", action="store_true", help="interpreter mode (needed for L.on_exec hooks)")
     a = ap.parse_args()
+    for f in a.lua:
+        EXTRA.extend(["--script", os.path.abspath(f)])
+    for v in a.var:
+        EXTRA.extend(["--var", v])
+    if a.debugger:
+        EXTRA.append("--debugger")
     table = load_scenes()
     if a.list:
         for s in table.values():
@@ -139,7 +154,7 @@ def main():
             sys.exit(f"unknown scene {name}; --list shows them")
         todo.append(table[name])
     for ev in a.event:
-        todo.append({"scene": "ev_" + ev, "kind": "event", "arg": ev, "after": "mash", "frames": "16500",
+        todo.append({"scene": "ev_" + ev.replace(":", "_"),"kind": "event", "arg": ev, "after": "mash", "frames": "16500",
                      "card": "", "post": "", "proof": "", "note": ""})
     if not todo:
         ap.error("name a scene, --event NAME or --all")

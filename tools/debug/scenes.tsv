@@ -48,3 +48,5 @@ credits	exec	FIN	hold	16000			900	FIN.EXE staff roll (DATA/STAFF.TXT)
 epilog	exec	EPILOG	mash	20000			1450	EPILOG.EXE with no ending parameters: blue screen with one text box (real endings need the scratchpad params game_clear sets)
 ending_movie	exec	FD_MOV	hold	16000			600	FD_MOV.EXE ending movie (ENDING.STR)
 minigame	exec	FD_BALL	mash	20000			1000	FD_BALL.EXE Slime Ball minigame (menu, then play)
+battle_castle	event	SS0204:2	mash	17000			1500	story SS0204 for hero 2: command D3 starts battle 192 (castle interior, battle HUD and battle dialogue)
+battle_forest	event	SS0501:5	mash	17000			1500	story SS0501 for hero 5: forest battle

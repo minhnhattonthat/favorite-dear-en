@@ -168,6 +168,7 @@ L.on_frame(function(n)
       if KIND == "week" then
         arrive()
       elseif KIND == "battle" then
+        -- EXPERIMENTAL, does not work yet: the emulator produces no frame after this call (docs/re/debug.md).
         -- call battle_start(a0 = index into the battle table at 0x80174BD8, a1 = 0) from the vsync wait loop
         -- (0x800E5D88..0x800E5DCC); it returns to 0x800E5D84, which reloads the loop's v1 the call clobbers.
         local r = PCSX.getRegisters()

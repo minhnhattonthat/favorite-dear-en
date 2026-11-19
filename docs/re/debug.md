@@ -87,8 +87,16 @@ id 32 showing up in the loaded-event table. From cold boot to the event takes ~1
   returns to the title. The real game-over screen uses OVER640/OVER_JI/OVER_BAK.TIM from GDATA inside PSX.EXE
   (name list at PSX.EXE RAM 0x80014440); its trigger is not found yet.
 - Battles run inside PSX.EXE: `battle(a0)` = 0x800C3FD4 (debug prints "BT_result after battle"), called from
-  0x80113450 (in 0x801132C4, called from the VM at 0x800D090C) and via 0x80113844(a0 byte) from 0x80113720. Not
-  warped yet.
+  0x80113450 (in 0x801132C4, called from the VM at 0x800D090C) and via 0x80113844(a0 byte) from 0x80113720.
+  `battle_start(a0 idx, a1)` = 0x800D08E4 looks the battle up in the u16 table at 0x80174BD8 (0..12, 201, 301...)
+  and calls 0x801132C4; its only callers are two event-script opcode handlers (0x800CC5A0, 0x800CC5F8), so battles
+  are started by event scripts. **Warp kind `battle` (call 0x800D08E4 from the vsync loop, return to 0x800E5D84)
+  hangs the emulator**: no frame after the call (probe 2026-11-20, idx 1/13/27). Next: find which event scripts
+  use that opcode (the handler's opcode number in the VM compare chain at 0x800CCB50) and warp to such an event.
+- Event start routines (all call `start_event` 0x800C8688): 0x800CFDC8(a0) = table 0x80174828[a0*2 + byte
+  0x8001F5EA] (SMxx/SWxx hero events, T0101.., TxxSEN); 0x800CFF28(key) searches {u16 idx, u16 key} pairs at
+  0x8017485C (0xFFFF end) and starts 0x801749E4[idx]. Town (T*) events still stick on a blank box when swapped
+  into MYH16's slot; they probably need the town context these routines set (0x80020991 = a0 is stored first).
 
 ## Warp kinds `exec` and `save` (tools/debug/warp.lua)
 

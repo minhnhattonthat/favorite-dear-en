@@ -63,7 +63,42 @@ id 32 showing up in the loaded-event table. From cold boot to the event takes ~1
   week-2 RAM).
 - Week 1 -> week 2 differences: 0x199C 0x64 -> 0x96 (angel AP 100 -> 150), 0x275C 01 -> 02 (week?), plus
   0x22C-0x321 (a table rewritten), 0x29DC-0x29E8 (a 13-entry list rotated).
-- Not done: `tools/debug/save.py` (edit + fix c0/c1, then prove an edited save loads with no error message).
+- Names: the angel's name is 6 u16 font codes (tbl/jp.tbl, 0xFFFF padded) at 0x204 and again at 0x19AE. Week:
+  0x215 (header) and 0x275C. AP: u16 0x199C.
+- **`tools/debug/save.py`** (`ls`, `check`, `set --week --ap --name --poke --bad-sum`) edits a game-written card and
+  fixes c0/c1. Verified 2026-11-20: `save_edit` scene (week2.mcd edited to week 5, AP 999, name ミカエルアン) loads
+  through title -> Load Game to the week screen showing AP 999 and the new name; the same edit with `--bad-sum`
+  (c0 off by one) never reaches the week screen, so c0 is checked and the formula is right.
+
+## Programs (EXE chain; verified by disassembly and the `exec` warps)
+
+- Every program switch goes through `\_LOADE.EXE` (loaded at 0x801C0000): the caller looks the path up in an
+  8-entry table (PSX.EXE 0x80175E98, 12 bytes each: PS_MOV 0, PSX 1, FD_MOV 2, FIN 3, EPILOG 4, GOVER 5, FD_BALL 6,
+  _LOADE 7), writes the index to scratchpad 0x1F800020 and execs _LOADE, which loads that program.
+- PSX.EXE `exec(path)` = 0x8003C7D4 (4 callers). `game_clear(a0)` = 0x8003ABB8: writes a0+1 to scratchpad
+  0x1F800000, then a0=0 -> FD_MOV.EXE (ending movie), 1 -> FIN.EXE (staff roll), 2 -> EPILOG.EXE if scratchpad
+  0x14 == 0x1C else PS_MOV.EXE. Called by an event-script opcode (0x800C4680), by 0x801042A8 (when 0x8001F5F1 ==
+  0xFF) and at PSX.EXE start (0x8003AF64, when 0x80010008 is 1 or 2: the program restarted after FD_MOV/FIN).
+  Calling it by hand from the week screen with a0=0 hangs (the opcode does sound fades first); exec'ing the program
+  directly works.
+- PS_MOV.EXE is the boot/title program (logos, OP.STR, title menu): it execs PSX.EXE (New Game/Load) and FD_BALL.EXE.
+- **GOVER.EXE is not referenced by any code** (no exec of its path in any program): it looks like an older build of
+  the main program (same sound list, OVER_BAK/OVER_JI.TIM). Exec'd directly it shows black for ~1300 frames and
+  returns to the title. The real game-over screen uses OVER640/OVER_JI/OVER_BAK.TIM from GDATA inside PSX.EXE
+  (name list at PSX.EXE RAM 0x80014440); its trigger is not found yet.
+- Battles run inside PSX.EXE: `battle(a0)` = 0x800C3FD4 (debug prints "BT_result after battle"), called from
+  0x80113450 (in 0x801132C4, called from the VM at 0x800D090C) and via 0x80113844(a0 byte) from 0x80113720. Not
+  warped yet.
+
+## Warp kinds `exec` and `save` (tools/debug/warp.lua)
+
+- `exec`: at the week-1 screen, warp.lua sets the CPU's a0 to the program's path string (found in PSX.EXE data) and
+  pc to `exec` 0x8003C7D4 (`PCSX.getRegisters()` is writable; the CPU is then in the vsync wait loop, a safe place).
+  Arrival = the pc has been inside _LOADE.EXE and left it. Scenes: credits (FIN), ending_movie (FD_MOV), epilog,
+  minigame (FD_BALL).
+- `save`: title -> Load Game -> slot 1 -> card check -> save N -> "ロードしますか？" (left, circle) -> hub -> circle
+  (予定) until the week-screen flag. Card from the scene's `card` column (copied into the run's folder). Hub scenes
+  add `post` presses from the week screen (cross twice = hub).
 
 Limits: the target runs in MYH16's context (week 1, the guild room background, Shelly/Florinda as the fairies,
 default flags). Scripts that read state they expect (town, hero, story flags) may show wrong portraits or

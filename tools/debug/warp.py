@@ -12,6 +12,7 @@ work/qa/warp/results.tsv. The Lua side is tools/debug/warp.lua; how it works: do
 import argparse
 import csv
 import os
+import shutil
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -26,7 +27,13 @@ import sheet  # noqa: E402
 
 ORIG_CUE = os.path.join(REPO, "rom", "Favorite Dear (Japan).cue")
 SCENES = os.path.join(HERE, "scenes.tsv")
-COLS = ["scene", "kind", "event", "after", "frames", "note"]
+COLS = ["scene", "kind", "arg", "after", "frames", "card", "post", "proof", "note"]
+# arg: the event name (kind event), program name (kind exec: GOVER FD_BALL EPILOG FIN FD_MOV PS_MOV) or save
+# number on the card (kind save). card: a memory card image (repo-relative) given to the emulator as a copy.
+# post: presses after arrival (route steps joined by ';'), shot as post.png. proof: frames from arrival to
+# arrived.png (default 30).
+ARG_VAR = {"event": "EVENT", "exec": "EXE", "save": "SAVE", "battle": "BATTLE"}
+NUMERIC = {"SAVE", "BATTLE"}
 
 
 def load_scenes():
@@ -57,15 +64,27 @@ def run(sc, cue, state, timeout):
         if f.endswith(".png"):
             os.remove(os.path.join(out, f))
     lua = [f"KIND='{sc['kind']}'", f"AFTER='{sc['after'] or 'mash'}'"]
-    if sc["event"]:
-        lua.append(f"EVENT='{sc['event']}'")
+    if sc["arg"]:
+        var = ARG_VAR[sc["kind"]]
+        lua.append(f"{var}={int(sc['arg'])}" if var in NUMERIC else f"{var}='{sc['arg']}'")
+    if sc.get("post"):
+        lua.append(f"POST='{sc['post']}'")
+    if sc.get("proof"):
+        lua.append(f"PROOF={int(sc['proof'])}")
+    card = []
+    if sc.get("card"):
+        src = os.path.join(REPO, sc["card"])
+        assert os.path.exists(src), f"{sc['scene']}: card {src} missing (tools/debug/save.py, docs/re/debug.md)"
+        dst = os.path.join(out, "card.mcd")
+        shutil.copyfile(src, dst)
+        card = ["--sav", dst]
     if state:
         p = os.path.join(REPO, "work", "states", sc["scene"] + ".sstate").replace("\\", "/")
         os.makedirs(os.path.dirname(p), exist_ok=True)
         lua.append(f"STATE='{p}'")
     cmd = [sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "emu.py"), os.path.abspath(cue),
            "--out", out, "--script", os.path.join(HERE, "warp.lua"), "--frames", sc["frames"] or "16000",
-           "--shot-every", "150", "--timeout", str(timeout)]
+           "--shot-every", "150", "--timeout", str(timeout)] + card
     for v in lua:
         cmd += ["--var", v]
     with open(os.path.join(out, "emu.txt"), "w", encoding="utf-8") as fo:
@@ -112,7 +131,7 @@ def main():
     table = load_scenes()
     if a.list:
         for s in table.values():
-            print(f"{s['scene']:<16} {s['kind']:<8} {s['event']:<9} {s['note']}")
+            print(f"{s['scene']:<16} {s['kind']:<8} {s['arg']:<9} {s['note']}")
         return 0
     todo = list(table.values()) if a.all else []
     for name in a.scenes:
@@ -120,8 +139,8 @@ def main():
             sys.exit(f"unknown scene {name}; --list shows them")
         todo.append(table[name])
     for ev in a.event:
-        todo.append({"scene": "ev_" + ev, "kind": "event", "event": ev, "after": "mash", "frames": "16500",
-                     "note": ""})
+        todo.append({"scene": "ev_" + ev, "kind": "event", "arg": ev, "after": "mash", "frames": "16500",
+                     "card": "", "post": "", "proof": "", "note": ""})
     if not todo:
         ap.error("name a scene, --event NAME or --all")
     with ThreadPoolExecutor(max_workers=a.j) as ex:

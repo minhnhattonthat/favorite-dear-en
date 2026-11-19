@@ -26,15 +26,17 @@ then pixels. The stream ends exactly at the file end (no padding inside PSS file
 ## GDATA.BIN directory (verified: entries line up with LZSS/TIM starts)
 
 PSX.EXE 0x4C50 (also in FD_BALL/GOVER/PS_MOV/EPILOG EXEs): 423 entries of `u32 sector, u32 size` (size sector-rounded),
-contiguous from sector 0, covering only the first 0x16BA800 bytes (23 MB) of GDATA.BIN. Another table follows at
-PSX.EXE 0x5988 in a different form (not decoded). Most entries are uncompressed TIMs (176 of 195 checked start 10 00 00 00);
+contiguous from sector 0, covering only the first 0x16BA800 bytes (23 MB) of GDATA.BIN. The script tables follow
+at 0x5988 (below). Most entries are uncompressed TIMs (176 of 195 checked start 10 00 00 00);
 entries 0-2, 8-10, 15-16, 64-65, 137-140, 151-153, 204-296 are LZSS images; 308+ look like map/3D records
 (header 0x48/0x50 + offsets). Only 158 sector-aligned LZSS blocks exist in the whole file; the rest is raw.
+All GDATA tables in PSX.EXE (verified: every entry lines up with a TIM, LZSS block or script header, no overlaps):
+0x4C50 (423 entries, sectors 0-0x3559: images, maps, 3D/battle data), 0x5988 (229), 0x60B8 (71) and 0x62F8 (171)
+(sectors 0x3559-0xA0EC: event scripts, `events.md`). 0x3BA0 (85 entries) is the same format for SDATA.BIN.
 A name table at PSX.EXE ~0x1E480-0x29F18 lists ~660 development file names (TIM/BIN/VAB/SEQ/SEP), and a pointer table
 at PSX.EXE 0x3A3C (90 entries: GDATA.BIN, SDATA.BIN, then sound names) - how names map to GDATA entries is not decoded.
 
-## Graphics text seen so far (survey not done)
+## Graphics text
 
-- Title screen: "FAVORITE DEAR" logo is English already with フェイバリットディア kana under it (TITLE.PSS, LZSS).
-  Title menu "New Game / Load Game / Option" is already English. "Now Loading..." English (NOWLOAD.PSS).
-- First event: name/menu panel with Japanese labels (seen at f6600 of `tools/routes/newgame.txt`), source not found.
+See `graphics.md` (the survey). The first event's name/menu panel (f6600 of `tools/routes/newgame.txt`) is likely
+GDATA e015/e016 (name entry).

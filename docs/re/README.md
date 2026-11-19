@@ -12,11 +12,15 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise. PSX.EXE: 
 
 | File | Covers | State |
 |---|---|---|
-| `disc.md` | disc layout, GDATA.BIN directory, LZSS (*.PSS) | directory + LZSS verified; most of GDATA unmapped |
-| `text.md` | script location, 16-bit encoding, control codes, font | encoding + font verified; table and pointer tables not done |
+| `disc.md` | disc layout, GDATA.BIN directory tables, LZSS (*.PSS) | tables + LZSS verified |
+| `text.md` | 16-bit encoding (`tbl/jp.tbl`), printer control codes, PSX.EXE strings, credits, font | verified (tests/test_text.py) |
+| `events.md` | the 468 event-script files in GDATA (the bulk of the dialogue), load buffer, VM | location verified; opcode args not decoded |
+| `graphics.md` | graphics-text survey | done for GDATA images and disc-root images; movies not checked |
+| `space.md` | free-space candidates, RAM limits | candidates only |
 
 Prior work: no earlier English patch or community tools found (web search 2026-11-20).
 
 Helpers: `tools/retools.py` (capstone dis, lui/addiu xref), `tools/lzss.py` (codec, roundtrip-tested on PSS files),
-`tools/font.py` (glyph sheet), `tools/lua/dumpram_at.lua` (RAM+VRAM dump at a frame). Watch probe:
+`tools/font.py` (glyph sheet), `tools/fontmatch.py` + `tools/mktbl.py` (build tbl/jp.tbl), `tools/scantext.py`
+(FFFF-terminated strings in any file), `tools/events.py` (event scripts), `tools/tim.py` (TIM -> PNG, GDATA image dump), `tools/lua/dumpram_at.lua` (RAM+VRAM dump at a frame). Watch probe:
 `$SKILL/scripts/lua/probes/watch.lua` with `--debugger`; write breakpoints fire on KSEG0 or physical addresses.

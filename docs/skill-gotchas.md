@@ -5,3 +5,7 @@
 - emulator-qa.md (PCSX-Redux): `L.dump_ppu` writes 2 MB, not 1 MB: the first 1 MB is VRAM 1024x512 16-bit, the rest is padding/second copy.
 - emulator-qa.md (PCSX-Redux): read breakpoints on script text in RAM never fired for this game while write breakpoints (watch.lua, --debugger) did; trace the draw path from the output buffer backwards.
 - platform-ps1.md: emu.py `L.shot(name)` on PCSX writes a file without .png extension (`dump_7650`), and it is a raw-size file the Read tool rejects; use --shots instead.
+- pipeline.md §Recon: a scan for FFFF-terminated strings found only 28 KB of text and the dialogue looked missing; the real script was inline in VM bytecode (no terminator, opcode-delimited). Search RAM for an on-screen line encoded with the table before concluding text is compressed.
+- pipeline.md §Recon (code = font cell): kana read by eye from a sheet misread 々 as ゞ; decode a long script sample and read it as Japanese (数々の) before trusting the table.
+- platform-ps1.md: the font image had 0x66C cells, not the 0x5E0 an earlier session assumed; find the font end by matching every cell (scores collapse on non-font data) rather than by eye.
+- context-mode (Claude Code plugin): Bash output above ~4 KB comes back as a stub; keep disassembly/sample prints under that or use ctx_execute.

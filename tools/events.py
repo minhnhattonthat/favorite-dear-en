@@ -2,6 +2,7 @@
 
     python -X utf8 tools/events.py list   [--disc work/disc/tree]       one line per file: table, index, sector, size, text
     python -X utf8 tools/events.py text N [--disc work/disc/tree]       decoded text runs of file N (global index)
+    python -X utf8 tools/events.py names                                event id -> script name (what warp.py takes)
 
 Recon-grade (phase 1): files are found through three (u32 sector, u32 byte size) tables in PSX.EXE whose entries
 start with the u16 magic 6; text = runs of >= 3 non-zero font codes (< 0x66C) holding >= 2 kana, between 0xFFxx
@@ -50,13 +51,31 @@ def text_runs(data):
     return runs
 
 
+NAMES_VA = 0x80173640  # event-name table: 9-byte ASCII names, index = event id (docs/re/debug.md)
+
+
+def event_names(exe):
+    """[name] indexed by event id, from the PSX.EXE event-name table (462 ids; some names repeat)."""
+    o = NAMES_VA - 0x80010000 + 0x800
+    out = []
+    while True:
+        name = exe[o + 9 * len(out):o + 9 * len(out) + 9].split(b"\0")[0]
+        if not name or any(c < 0x20 or c > 0x7E for c in name):
+            return out
+        out.append(name.decode())
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["list", "text"])
+    ap.add_argument("cmd", choices=["list", "text", "names"])
     ap.add_argument("n", nargs="?", type=int)
     ap.add_argument("--disc", default=str(ROOT / "work/disc/tree"))
     a = ap.parse_args()
     exe = (Path(a.disc) / "PSX.EXE").read_bytes()
+    if a.cmd == "names":
+        for i, name in enumerate(event_names(exe)):
+            print(f"{i}\t{name}")
+        return
     gdata = (Path(a.disc) / "GDATA.BIN").read_bytes()
     fs = files(exe, gdata)
     if a.cmd == "list":

@@ -17,6 +17,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise. PSX.EXE: 
 | `events.md` | the 468 event-script files in GDATA (the bulk of the dialogue), load buffer, VM | location verified; opcode args not decoded |
 | `graphics.md` | graphics-text survey | done for GDATA images and disc-root images; movies not checked |
 | `space.md` | free-space candidates, RAM limits | candidates only |
+| `debug.md` | debug warp: event loader, event-name table, RAM mode flags, hub/save menus, memory-card save layout | warp verified; save checksum partly |
 
 Prior work: no earlier English patch or community tools found (web search 2026-11-20).
 

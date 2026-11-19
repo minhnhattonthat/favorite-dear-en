@@ -9,3 +9,6 @@
 - pipeline.md §Recon (code = font cell): kana read by eye from a sheet misread 々 as ゞ; decode a long script sample and read it as Japanese (数々の) before trusting the table.
 - platform-ps1.md: the font image had 0x66C cells, not the 0x5E0 an earlier session assumed; find the font end by matching every cell (scores collapse on non-font data) rather than by eye.
 - context-mode (Claude Code plugin): Bash output above ~4 KB comes back as a stub; keep disassembly/sample prints under that or use ctx_execute.
+- emulator-qa.md §Hooks (scripts/sheet.py): `--crop` past the image edge crashes with struct.error in write_png; PS1 shots switch between 320 and 640 wide per screen, so check the size first.
+- translation.md / ground rules (Claude Code Edit tool): an Edit whose old/new string ends in a tab dropped that tab and merged two TSV columns; rewrite small TSVs whole.
+- emulator-qa.md §Debug tool (PS1): a game that loads event scripts by name from a name table in RAM can be warped by overwriting the name slot of the first event the game loads; no debugger and no code patch needed (Favorite Dear, docs/re/debug.md).

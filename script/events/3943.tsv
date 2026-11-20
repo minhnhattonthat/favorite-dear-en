@@ -19,6 +19,6 @@ id	jp	en	notes
 3943.168A	{e0:4A01}{spk:0080}{fa:0180}{n}・・・ガープ！{n}なぜ、インフォスを襲い{n}天界の天使たちと争うのだ？{n}{wait}{clear}{end}	{e0:4A01}{spk:0080}{fa:0180}{n}...Gaap! Why do you attack Infos and{n}fight the angels of the Heavens?{n}{wait}{clear}{end}	
 3943.16E6	{e0:4B01}{spk:0080}{fa:0180}{n}貴様を倒し、インフォスを守る！{n}{wait}{clear}{end}	{e0:4B01}{spk:0080}{fa:0180}{n}I will defeat you and protect Infos!{n}{wait}{clear}{end}	
 3943.171E	{e0:4C01}{spk:0080}{fa:0180}{n}・・・終わったな。{n}{wait}{clear}{end}	{e0:4C01}{spk:0080}{fa:0180}{n}...It's over.{n}{wait}{clear}{end}	
-3943.1746	{spk:0080}{fa:0180}{n}つかまってるのでなし！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}(None: not captured!){n}{wait}{clear}{end}	
+3943.1746	{spk:0080}{fa:0180}{n}つかまってるのでなし！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}(None: I've been captured!){n}{wait}{clear}{end}	
 3943.176E	{spk:0080}{fa:0180}{n}なし{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}(None){n}{wait}{clear}{end}	
 3943.1784	{spk:0080}{fa:0180}{n}{name:0080}、{n}・・・どうやら{n}まだこいつの仲間がいるようだな。{n}{wait}{clear}・・・。{n}とらわれた娘は、任せる。{n}俺は、奴等をかたづけよう・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}{name:0080}, ...it seems this one still{n}has allies about.{n}{wait}{clear}... I leave the captive girl to you.{n}I'll deal with them...{n}{wait}{clear}{end}	

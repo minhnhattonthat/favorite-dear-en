@@ -85,3 +85,17 @@ def test_exe_marker_in_place(disc):
         allowed[off:off + n] = b"\1" * n
     bad = [i for i in range(len(exe)) if exe[i] != new[i] and not allowed[i]]
     assert not bad, f"marker wrote outside string slots at {bad[:5]}"
+
+
+NAME_TABLE = (0x163E40, 0x164E7A)  # event names, 9-byte ASCII records at RAM 0x80173640 ("SEND12" ends it)
+
+
+@disc_only
+@pytest.mark.parametrize("mode", ["marker", "ruler"])
+def test_exe_data_untouched(disc, mode):
+    """non-text the event engine reads by name must survive every mode: a marker in the name table's tail crashed
+    the game at the next event load (strcpy of an unterminated name wiped RAM)"""
+    exe, _ = disc
+    new = insert.exe_text(exe, mode, extract.exe_table())
+    for lo, hi in [NAME_TABLE, (0x164E7A, 0x1660E0)] + extract.EXE_DATA:
+        assert new[lo:hi] == exe[lo:hi], f"{mode} wrote into data {lo:#x}-{hi:#x}"

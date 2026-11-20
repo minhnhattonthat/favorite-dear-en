@@ -76,10 +76,13 @@ def event_rows(exe, gdata, table=None):
 
 # --- PSX.EXE --------------------------------------------------------------------------------------------------------
 
-EXE_REGIONS = [(0x155F3C, 0x15CAB0), (0x164E7A, 0x16667E)]  # docs/re/text.md
+# docs/re/text.md. The second region starts at 0x1660E0: before it, 0x164E7A-0x1660E0 is the tail of the event-name
+# table (RAM 0x80173640, "SEND12"), u16 code tables that decode as glyph soup, and a palette. The first marker build
+# wrote into them and the next event-name lookup strcpy'd an unterminated name over all of RAM.
+EXE_REGIONS = [(0x155F3C, 0x15CAB0), (0x1660E0, 0x16667E)]
 EXE_GRIDS = [(0x17DA4, 0x17E0A), (0x17E64, 0x1801A)]  # name-entry character grids (fixed layout)
-# Non-text inside EXE_REGIONS (u32 pointer tables, layout records, a palette): the coverage test allows these only.
-EXE_DATA = [(0x156818, 0x156A94), (0x159F78, 0x15A858), (0x15C7D8, 0x15C968), (0x1656D6, 0x1660E0)]
+# Non-text inside EXE_REGIONS (u32 pointer tables, layout records): the coverage test allows these only.
+EXE_DATA = [(0x156818, 0x156A94), (0x159F78, 0x15A858), (0x15C7D8, 0x15C968)]
 EXE_ARGS = {0xFFFE: 0, 0xFFFC: 0, 0xFFFD: 0, 0xFFFB: 0, 0xFF00: 1, 0xFF10: 1, 0xFF20: 1, 0xFF90: 2, 0xFFE0: 2}
 EXE_VA = 0x80010000 - 0x800  # vaddr = file offset + EXE_VA
 

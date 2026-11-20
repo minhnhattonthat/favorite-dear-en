@@ -3,7 +3,7 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = the directory holding its SKILL.md, printed by `python tools/skill.py`). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 tools/build.py`        -> build/favorite_dear_en.bin/.cue (checks the dump against `rom.sha1` first; not written yet, see docs/status.md)
+- Build:    `python -X utf8 tools/build.py`        -> build/favorite_dear_en.bin/.cue (checks the dump against `rom.sha1`, unpacks to `work/disc/` if missing, mkpsxiso; `--identity` = no edits, must match `rom/`)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/favorite_dear_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 tools/debug/warp.py <scene>|--event <NAME>|--all [--state] [--cue build/favorite_dear_en.cue]` (cold boot, no save; scenes: `tools/debug/scenes.tsv`, how: `docs/re/debug.md`; never ask the user to play to a scene)

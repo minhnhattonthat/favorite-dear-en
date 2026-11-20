@@ -6,6 +6,11 @@ then `_LOADE.EXE` chains PSX.EXE (main game, 1.6 MB, t_addr 0x80010000), FD_BALL
 TITLE/EPILOG.EXE, TITLE/FD_MOV.EXE, DATA/FIN.EXE (credits: DATA/STAFF.TXT is plain Shift-JIS with 0E 0B line breaks
 and some 84xx box/Cyrillic codes; 01-13.TIM + FONTCLUT.TIM).
 
+Rebuild (verified 2026-11-20, `tests/test_build.py`): mkpsxiso 2.30 on the dumpsxiso layout gives the original .bin
+byte for byte (sha1 509ffd8f...). `tools/build.py` writes `build/<name>.xml` with absolute paths (paths in the XML
+are relative to the XML) and a `source=` per edited file; work/disc/tree is never written. Files are laid out in
+layout order, so a file that grows past its sector count shifts every later LBA (savestates then go stale).
+
 | File | What | State |
 |---|---|---|
 | PSX.EXE | main game code, the 12x12 font, and (at least part of) the dialogue script | verified (see text.md) |

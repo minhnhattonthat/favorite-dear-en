@@ -1,28 +1,28 @@
 id	jp	en	notes
-3953.155C	{e0:E0FF}{spk:0080}{fa:0180}{n}天使様のはなしだと、{n}たしか、このあたりだけど・・・。{n}{wait}{clear}{end}		
-3953.15AC	{e0:E0FF}{spk:0080}{fa:0180}{n}言いたい事はそれだけかい？{n}じゃ、こっちからいくよ！{n}{wait}{clear}{end}		
-3953.15FA	{e0:E0FF}{spk:0080}{fa:0180}{n}ひどい！！{n}{wait}{clear}{end}		
-3953.161E	{e0:3704}{spk:0080}{fa:0180}{n}人をそんなに殺しておいて！{n}お前なんかに負けるもんか！！{n}{wait}{clear}{end}		
-3953.1670	{e0:DD03}{spk:0080}{fa:0180}{n}・・・ごめんよ。でも、この人、{n}ライザって人にきっと会えるよね。{n}{wait}{clear}{end}		
-3953.16CA	{e0:3904}{spk:0080}{fa:0180}{n}そうだよ、だから何？{n}{wait}{clear}{end}		
-3953.16F8	{e0:3A04}{spk:0080}{fa:0180}{n}堕天使め、何のために{n}インフォスのみんなを困らせるんだ！{n}{wait}{clear}{end}		
-3953.174A	{e0:3B04}{spk:0080}{fa:0180}{n}なんだか、怖そうなところだね・・・。{n}{wait}{clear}{end}		
-3953.1788	{e0:3C04}{spk:0080}{fa:0180}{n}ああ、そうだよ。僕は勇者さ！{n}お前を倒しに来たんだ！{n}{wait}{clear}{end}		
-3953.17D6	{e0:3D04}{spk:0080}{fa:0180}{n}父さん・・・仇はうったよ。{n}{wait}{clear}{end}		
-3953.180A	{e0:3E04}{spk:0080}{fa:0180}{n}そんなこけおどし、{n}僕は信じないぞ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
-3953.1870	{e0:3F04}{spk:0080}{fa:0180}{n}何で、お前は戦うんだ！{n}{wait}{clear}{end}		
+3953.155C	{e0:E0FF}{spk:0080}{fa:0180}{n}天使様のはなしだと、{n}たしか、このあたりだけど・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}From what the Angel said, it should be{n}around here...{n}{wait}{clear}{end}	
+3953.15AC	{e0:E0FF}{spk:0080}{fa:0180}{n}言いたい事はそれだけかい？{n}じゃ、こっちからいくよ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}That all you got to say? Then here I{n}come!{n}{wait}{clear}{end}	
+3953.15FA	{e0:E0FF}{spk:0080}{fa:0180}{n}ひどい！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}That's awful!!{n}{wait}{clear}{end}	
+3953.161E	{e0:3704}{spk:0080}{fa:0180}{n}人をそんなに殺しておいて！{n}お前なんかに負けるもんか！！{n}{wait}{clear}{end}	{e0:3704}{spk:0080}{fa:0180}{n}After killing so many people! I won't{n}lose to the likes of you!!{n}{wait}{clear}{end}	
+3953.1670	{e0:DD03}{spk:0080}{fa:0180}{n}・・・ごめんよ。でも、この人、{n}ライザって人にきっと会えるよね。{n}{wait}{clear}{end}	{e0:DD03}{spk:0080}{fa:0180}{n}...Sorry. But he'll get to see that Liza{n}lady now, right?{n}{wait}{clear}{end}	
+3953.16CA	{e0:3904}{spk:0080}{fa:0180}{n}そうだよ、だから何？{n}{wait}{clear}{end}	{e0:3904}{spk:0080}{fa:0180}{n}Yeah, so what?{n}{wait}{clear}{end}	
+3953.16F8	{e0:3A04}{spk:0080}{fa:0180}{n}堕天使め、何のために{n}インフォスのみんなを困らせるんだ！{n}{wait}{clear}{end}	{e0:3A04}{spk:0080}{fa:0180}{n}Fallen angel, why are you making trouble{n}for everyone in Infos!{n}{wait}{clear}{end}	
+3953.174A	{e0:3B04}{spk:0080}{fa:0180}{n}なんだか、怖そうなところだね・・・。{n}{wait}{clear}{end}	{e0:3B04}{spk:0080}{fa:0180}{n}This place looks kind of scary...{n}{wait}{clear}{end}	
+3953.1788	{e0:3C04}{spk:0080}{fa:0180}{n}ああ、そうだよ。僕は勇者さ！{n}お前を倒しに来たんだ！{n}{wait}{clear}{end}	{e0:3C04}{spk:0080}{fa:0180}{n}Yeah, that's right. I'm a hero! I came{n}to beat you!{n}{wait}{clear}{end}	
+3953.17D6	{e0:3D04}{spk:0080}{fa:0180}{n}父さん・・・仇はうったよ。{n}{wait}{clear}{end}	{e0:3D04}{spk:0080}{fa:0180}{n}Dad... I avenged you.{n}{wait}{clear}{end}	
+3953.180A	{e0:3E04}{spk:0080}{fa:0180}{n}そんなこけおどし、{n}僕は信じないぞ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:3E04}{spk:0080}{fa:0180}{n}I don't believe a bluff like that!{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	
+3953.1870	{e0:3F04}{spk:0080}{fa:0180}{n}何で、お前は戦うんだ！{n}{wait}{clear}{end}	{e0:3F04}{spk:0080}{fa:0180}{n}Why do you fight!{n}{wait}{clear}{end}	
 3953.18A0	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
-3953.18C2	{spk:0080}{fa:0180}{n}・・・っ！！{n}{wait}{clear}{end}		
-3953.18E4	{e0:4104}{spk:0080}{fa:0180}{n}・・・口ほどにもないヤツ！{n}{wait}{clear}{end}		
-3953.1918	{e0:4204}{spk:0080}{fa:0180}{n}ガープとか言うヤツだな！　出てこい！{n}{wait}{clear}{end}		
-3953.1956	{e0:4304}{spk:0080}{fa:0180}{n}うわぁ！{n}{wait}{clear}{end}		
-3953.1978	{e0:4404}{spk:0080}{fa:0180}{n}ガープ！{n}なんで、どうして、お前は{n}インフォスに攻めてきたんだ！{n}{wait}{clear}{end}		
-3953.19D2	{e0:4504}{spk:0080}{fa:0180}{n}お前なんかにインフォスを渡すものか！{n}{wait}{clear}{end}		
-3953.1A10	{e0:4604}{spk:0080}{fa:0180}{n}終わった・・・。{n}ラッシュ、これでインフォスは{n}平和になるよ・・・きっと。{n}{wait}{clear}{end}		
-3953.1A70	{spk:0080}{fa:0180}{n}やいやい！{n}騎士レイヴをかえせ！{n}{wait}{clear}{end}		
-3953.1AA2	{spk:0080}{fa:0180}{n}天使様！{n}騎士レイヴは、地下牢にいるみたい。{n}でも・・・。{n}{wait}{clear}ここ臭くって、鼻がまがりそうだよ。{n}ラッシュが苦しんでるから{n}天使様だけで、行ってもらっていい？{n}{wait}{clear}{end}		
-3953.1B54	{spk:0080}{fa:0180}{n}お姉ちゃん！{n}騎士レイヴは、地下牢にいるみたい。{n}でも・・・。{n}{wait}{clear}ここ臭くって、鼻がまがりそうだよ。{n}ラッシュが苦しんでるから{n}お姉ちゃんだけで、行ってもらっていい？{n}{wait}{clear}{end}		
-3953.1C0E	{spk:0080}{fa:0180}{n}天使様{n}騎士レイヴは、地下牢にいるみたい。{n}{wait}{clear}ここは天使様にまかせちゃっていい？{n}ちょっと、この島を探検したいんだ。{n}{wait}{clear}{spk:E783}{fa:0180}{n}ラッシュのことが気になるのですか？{n}{wait}{clear}{spk:0080}{fa:0180}{n}ち、ちがうよ！{n}そ、そんなんじゃないよ。{n}じゃぁね！{n}{wait}{clear}{end}		
-3953.1D0C	{spk:0080}{fa:0180}{n}お姉ちゃん。{n}騎士レイヴは、地下牢にいるみたい。{n}{wait}{clear}ここは、お姉ちゃんにまかせていい？{n}ちょっと、この島を探検したいんだ。{n}{wait}{clear}{spk:E783}{fa:0180}{n}ラッシュのことが気になるのですか？{n}{wait}{clear}{spk:0080}{fa:0180}{n}ち、ちがうよ！{n}そ、そんなんじゃないよ。{n}じゃぁね！{n}{wait}{clear}{end}		
-3953.1E10	{spk:0080}{fa:0180}{n}天使様！　後ろにも敵がいるみたいだ！{n}僕、後ろの敵を倒してくるから、{n}ここはお願いするよ！{n}{wait}{clear}{end}		
-3953.1E7C	{spk:0080}{fa:0180}{n}お姉ちゃん！　後ろにも敵がいるみたい！{n}僕、後ろの敵を倒してくるから、{n}ここはお願いするね！{n}{wait}{clear}{end}		
+3953.18C2	{spk:0080}{fa:0180}{n}・・・っ！！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}...!!{n}{wait}{clear}{end}	
+3953.18E4	{e0:4104}{spk:0080}{fa:0180}{n}・・・口ほどにもないヤツ！{n}{wait}{clear}{end}	{e0:4104}{spk:0080}{fa:0180}{n}...All talk!{n}{wait}{clear}{end}	
+3953.1918	{e0:4204}{spk:0080}{fa:0180}{n}ガープとか言うヤツだな！　出てこい！{n}{wait}{clear}{end}	{e0:4204}{spk:0080}{fa:0180}{n}You're that Gaap guy! Come out!{n}{wait}{clear}{end}	
+3953.1956	{e0:4304}{spk:0080}{fa:0180}{n}うわぁ！{n}{wait}{clear}{end}	{e0:4304}{spk:0080}{fa:0180}{n}Whoa!{n}{wait}{clear}{end}	
+3953.1978	{e0:4404}{spk:0080}{fa:0180}{n}ガープ！{n}なんで、どうして、お前は{n}インフォスに攻めてきたんだ！{n}{wait}{clear}{end}	{e0:4404}{spk:0080}{fa:0180}{n}Gaap! Why, how come you attacked Infos!{n}{wait}{clear}{end}	
+3953.19D2	{e0:4504}{spk:0080}{fa:0180}{n}お前なんかにインフォスを渡すものか！{n}{wait}{clear}{end}	{e0:4504}{spk:0080}{fa:0180}{n}I won't hand Infos over to the likes of{n}you!{n}{wait}{clear}{end}	
+3953.1A10	{e0:4604}{spk:0080}{fa:0180}{n}終わった・・・。{n}ラッシュ、これでインフォスは{n}平和になるよ・・・きっと。{n}{wait}{clear}{end}	{e0:4604}{spk:0080}{fa:0180}{n}It's over... Rush, Infos is gonna be at{n}peace now... I'm sure of it.{n}{wait}{clear}{end}	
+3953.1A70	{spk:0080}{fa:0180}{n}やいやい！{n}騎士レイヴをかえせ！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Hey, hey! Give Reiv the knight back!{n}{wait}{clear}{end}	
+3953.1AA2	{spk:0080}{fa:0180}{n}天使様！{n}騎士レイヴは、地下牢にいるみたい。{n}でも・・・。{n}{wait}{clear}ここ臭くって、鼻がまがりそうだよ。{n}ラッシュが苦しんでるから{n}天使様だけで、行ってもらっていい？{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel! It looks like Reiv the knight is{n}in the dungeon. But...{n}{wait}{clear}It stinks so bad in here, my nose is{n}gonna fall off. Rush is suffering, so{n}can you go on your own, Angel?{n}{wait}{clear}{end}	
+3953.1B54	{spk:0080}{fa:0180}{n}お姉ちゃん！{n}騎士レイヴは、地下牢にいるみたい。{n}でも・・・。{n}{wait}{clear}ここ臭くって、鼻がまがりそうだよ。{n}ラッシュが苦しんでるから{n}お姉ちゃんだけで、行ってもらっていい？{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Hey! It looks like Reiv the knight is in{n}the dungeon. But...{n}{wait}{clear}It stinks so bad in here, my nose is{n}gonna fall off. Rush is suffering, so{n}can you go on your own?{n}{wait}{clear}{end}	
+3953.1C0E	{spk:0080}{fa:0180}{n}天使様{n}騎士レイヴは、地下牢にいるみたい。{n}{wait}{clear}ここは天使様にまかせちゃっていい？{n}ちょっと、この島を探検したいんだ。{n}{wait}{clear}{spk:E783}{fa:0180}{n}ラッシュのことが気になるのですか？{n}{wait}{clear}{spk:0080}{fa:0180}{n}ち、ちがうよ！{n}そ、そんなんじゃないよ。{n}じゃぁね！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel, it looks like Reiv the knight is{n}in the dungeon.{n}{wait}{clear}Can I leave this to you, Angel? I kinda{n}want to explore this island.{n}{wait}{clear}{spk:E783}{fa:0180}{n}Are you worried about Rush?{n}{wait}{clear}{spk:0080}{fa:0180}{n}N-no way! I-it's nothing like that. See{n}ya!{n}{wait}{clear}{end}	
+3953.1D0C	{spk:0080}{fa:0180}{n}お姉ちゃん。{n}騎士レイヴは、地下牢にいるみたい。{n}{wait}{clear}ここは、お姉ちゃんにまかせていい？{n}ちょっと、この島を探検したいんだ。{n}{wait}{clear}{spk:E783}{fa:0180}{n}ラッシュのことが気になるのですか？{n}{wait}{clear}{spk:0080}{fa:0180}{n}ち、ちがうよ！{n}そ、そんなんじゃないよ。{n}じゃぁね！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Hey, it looks like Reiv the knight is in{n}the dungeon.{n}{wait}{clear}Can I leave this to you? I kinda want to{n}explore this island.{n}{wait}{clear}{spk:E783}{fa:0180}{n}Are you worried about Rush?{n}{wait}{clear}{spk:0080}{fa:0180}{n}N-no way! I-it's nothing like that. See{n}ya!{n}{wait}{clear}{end}	
+3953.1E10	{spk:0080}{fa:0180}{n}天使様！　後ろにも敵がいるみたいだ！{n}僕、後ろの敵を倒してくるから、{n}ここはお願いするよ！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel! Looks like there are enemies{n}behind us too! I'll go beat the ones in{n}back, so I'm counting on you here!{n}{wait}{clear}{end}	
+3953.1E7C	{spk:0080}{fa:0180}{n}お姉ちゃん！　後ろにも敵がいるみたい！{n}僕、後ろの敵を倒してくるから、{n}ここはお願いするね！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Hey! Looks like there are enemies behind{n}us too! I'll go beat the ones in back,{n}so I'm counting on you here, OK?{n}{wait}{clear}{end}	

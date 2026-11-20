@@ -7,18 +7,18 @@ id	jp	en	notes
 3947.142E	{e0:C701}{spk:0080}{fa:0180}{n}関係あんのか？　テメェに？{n}{wait}{clear}{end}	{e0:C701}{spk:0080}{fa:0180}{n}What's it to you?{n}{wait}{clear}{end}	
 3947.1462	{e0:C801}{spk:0080}{fa:0180}{n}インフォスを狙うテメェらの{n}目的はなんだ！　堕天使。{n}{wait}{clear}{end}	{e0:C801}{spk:0080}{fa:0180}{n}What are you after, going for Infos?{n}Answer me, fallen angel!{n}{wait}{clear}{end}	
 3947.14B0	{e0:C901}{spk:0080}{fa:0180}{n}ここだな？　堕天使がいんのは。{n}{wait}{clear}{end}	{e0:C901}{spk:0080}{fa:0180}{n}This the place? Where the fallen angel{n}is?{n}{wait}{clear}{end}	
-3947.14E8	{e0:CA01}{spk:0080}{fa:0180}{n}おうよ、オレは勇者グリフィン。{n}てめえをブッ倒しにやって来たぜ。{n}{wait}{clear}{end}		
-3947.1542	{e0:CB01}{spk:0080}{fa:0180}{n}へっ、口ほどにもねえ野郎だ。{n}{wait}{clear}{end}		
-3947.1578	{e0:CC01}{spk:0080}{fa:0180}{n}フン、どんな奴が出てこようと{n}俺は必ず勝つぜ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
-3947.15E8	{e0:CD01}{spk:0080}{fa:0180}{n}なぜ、テメェは戦うんだ？{n}{wait}{clear}{end}		
-3947.161A	{e0:CE01}{spk:0080}{fa:0180}{n}・・・お前らは・・・。{n}{wait}{clear}{end}		
-3947.164A	{e0:CF01}{spk:0080}{fa:0180}{n}勝手なことをいけしゃあしゃあと{n}並べやがって！　こっちから行くぜ！{n}{wait}{clear}{end}		
-3947.16A6	{e0:D001}{spk:0080}{fa:0180}{n}どうだ！　ラスエル！{n}{wait}{clear}{end}		
-3947.16D4	{e0:D101}{spk:0080}{fa:0180}{n}ガープだな！　何処にいやがる！{n}{wait}{clear}{end}		
-3947.170C	{e0:D201}{spk:0080}{fa:0180}{n}な、何だ！{n}{wait}{clear}{end}		
+3947.14E8	{e0:CA01}{spk:0080}{fa:0180}{n}おうよ、オレは勇者グリフィン。{n}てめえをブッ倒しにやって来たぜ。{n}{wait}{clear}{end}	{e0:CA01}{spk:0080}{fa:0180}{n}Damn right. I'm Griffin, hero. I came{n}here to take you down.{n}{wait}{clear}{end}	
+3947.1542	{e0:CB01}{spk:0080}{fa:0180}{n}へっ、口ほどにもねえ野郎だ。{n}{wait}{clear}{end}	{e0:CB01}{spk:0080}{fa:0180}{n}Heh, all talk.{n}{wait}{clear}{end}	
+3947.1578	{e0:CC01}{spk:0080}{fa:0180}{n}フン、どんな奴が出てこようと{n}俺は必ず勝つぜ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:CC01}{spk:0080}{fa:0180}{n}Hmph. Whoever shows up, I'm winning.{n}Count on it.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	
+3947.15E8	{e0:CD01}{spk:0080}{fa:0180}{n}なぜ、テメェは戦うんだ？{n}{wait}{clear}{end}	{e0:CD01}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}	
+3947.161A	{e0:CE01}{spk:0080}{fa:0180}{n}・・・お前らは・・・。{n}{wait}{clear}{end}	{e0:CE01}{spk:0080}{fa:0180}{n}...You people...{n}{wait}{clear}{end}	
+3947.164A	{e0:CF01}{spk:0080}{fa:0180}{n}勝手なことをいけしゃあしゃあと{n}並べやがって！　こっちから行くぜ！{n}{wait}{clear}{end}	{e0:CF01}{spk:0080}{fa:0180}{n}Spouting whatever you like with a{n}straight face! I'm coming at you!{n}{wait}{clear}{end}	
+3947.16A6	{e0:D001}{spk:0080}{fa:0180}{n}どうだ！　ラスエル！{n}{wait}{clear}{end}	{e0:D001}{spk:0080}{fa:0180}{n}How's that! Rasuel!{n}{wait}{clear}{end}	
+3947.16D4	{e0:D101}{spk:0080}{fa:0180}{n}ガープだな！　何処にいやがる！{n}{wait}{clear}{end}	{e0:D101}{spk:0080}{fa:0180}{n}You're Gaap! Where are you hiding!{n}{wait}{clear}{end}	
+3947.170C	{e0:D201}{spk:0080}{fa:0180}{n}な、何だ！{n}{wait}{clear}{end}	{e0:D201}{spk:0080}{fa:0180}{n}Wh-what the!{n}{wait}{clear}{end}	
 3947.1730	{e0:D301}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ天界の天使たちと戦う？{n}{wait}{clear}{end}	{e0:D301}{spk:0080}{fa:0180}{n}Gaap! Why did you attack Infos? Why do{n}you fight the angels of the Heavens?{n}{wait}{clear}{end}	
-3947.178A	{e0:D401}{spk:0080}{fa:0180}{n}そんな勝手なマネをさせるかよ！{n}{wait}{clear}{end}		
-3947.17C2	{e0:D501}{spk:0080}{fa:0180}{n}・・・クソったれが、これで終わりだ！{n}{wait}{clear}{end}		
-3947.17FC	{spk:0080}{fa:0180}{n}どうも、アンデット系ってのは{n}くさくていけないぜ！{n}{wait}{clear}さっさと騎士レイヴを{n}こっちに引き渡してもらおうか！{n}{wait}{clear}{end}		
-3947.187A	{spk:0080}{fa:0180}{n}{name:0080}、{n}レイヴは地下牢にいるようだぜ。{n}早く行ってやれよ。{n}{wait}{clear}オレはここで別れるぜ。{n}何か金目のものがありそうだしな・・・。{n}じゃあな！　後は任せたぜ！{n}{wait}{clear}{end}		
-3947.1926	{spk:0080}{fa:0180}{n}{name:0080}、{n}何だ、後ろにも{n}こいつらの仲間がいるのか？{n}{wait}{clear}とらわれてた娘のほうは、お前に任せる。{n}オレは、敵をけちらしておくからな！{n}じゃな、後は頼んだぜ。{n}{wait}{clear}{end}		
+3947.178A	{e0:D401}{spk:0080}{fa:0180}{n}そんな勝手なマネをさせるかよ！{n}{wait}{clear}{end}	{e0:D401}{spk:0080}{fa:0180}{n}Like I'd let you do as you please!{n}{wait}{clear}{end}	
+3947.17C2	{e0:D501}{spk:0080}{fa:0180}{n}・・・クソったれが、これで終わりだ！{n}{wait}{clear}{end}	{e0:D501}{spk:0080}{fa:0180}{n}...You bastard, this is the end!{n}{wait}{clear}{end}	
+3947.17FC	{spk:0080}{fa:0180}{n}どうも、アンデット系ってのは{n}くさくていけないぜ！{n}{wait}{clear}さっさと騎士レイヴを{n}こっちに引き渡してもらおうか！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Undead types sure stink. Can't stand it!{n}{wait}{clear}Hand over Reiv the knight, and make it{n}quick!{n}{wait}{clear}{end}	
+3947.187A	{spk:0080}{fa:0180}{n}{name:0080}、{n}レイヴは地下牢にいるようだぜ。{n}早く行ってやれよ。{n}{wait}{clear}オレはここで別れるぜ。{n}何か金目のものがありそうだしな・・・。{n}じゃあな！　後は任せたぜ！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}{name:0080}, looks like Reiv's in the{n}dungeon. Hurry up and go to him.{n}{wait}{clear}I'll split off here. Looks like there{n}might be some valuables around... See{n}ya! I'm leaving the rest to you!{n}{wait}{clear}{end}	
+3947.1926	{spk:0080}{fa:0180}{n}{name:0080}、{n}何だ、後ろにも{n}こいつらの仲間がいるのか？{n}{wait}{clear}とらわれてた娘のほうは、お前に任せる。{n}オレは、敵をけちらしておくからな！{n}じゃな、後は頼んだぜ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}{name:0080}, what, there's more of these{n}guys behind us?{n}{wait}{clear}I'll leave the captive girl to you. I'll{n}scatter the enemy. See ya, I'm counting{n}on you.{n}{wait}{clear}{end}	

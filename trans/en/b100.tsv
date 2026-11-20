@@ -1,0 +1,130 @@
+id	en
+3947.14E8	{e0:CA01}{spk:0080}{fa:0180}{n}Damn right. I'm Griffin, hero. I came here to take you down.{n}{wait}{clear}{end}
+3947.1542	{e0:CB01}{spk:0080}{fa:0180}{n}Heh, all talk.{n}{wait}{clear}{end}
+3947.1578	{e0:CC01}{spk:0080}{fa:0180}{n}Hmph. Whoever shows up, I'm winning. Count on it.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}
+3947.15E8	{e0:CD01}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}
+3947.161A	{e0:CE01}{spk:0080}{fa:0180}{n}...You people...{n}{wait}{clear}{end}
+3947.164A	{e0:CF01}{spk:0080}{fa:0180}{n}Spouting whatever you like with a straight face! I'm coming at you!{n}{wait}{clear}{end}
+3947.16A6	{e0:D001}{spk:0080}{fa:0180}{n}How's that! Rasuel!{n}{wait}{clear}{end}
+3947.16D4	{e0:D101}{spk:0080}{fa:0180}{n}You're Gaap! Where are you hiding!{n}{wait}{clear}{end}
+3947.170C	{e0:D201}{spk:0080}{fa:0180}{n}Wh-what the!{n}{wait}{clear}{end}
+3947.178A	{e0:D401}{spk:0080}{fa:0180}{n}Like I'd let you do as you please!{n}{wait}{clear}{end}
+3947.17C2	{e0:D501}{spk:0080}{fa:0180}{n}...You bastard, this is the end!{n}{wait}{clear}{end}
+3947.17FC	{spk:0080}{fa:0180}{n}Undead types sure stink. Can't stand it!{n}{wait}{clear}Hand over Reiv the knight, and make it quick!{n}{wait}{clear}{end}
+3947.187A	{spk:0080}{fa:0180}{n}{name:0080}, looks like Reiv's in the dungeon. Hurry up and go to him.{n}{wait}{clear}I'll split off here. Looks like there might be some valuables around... See ya! I'm leaving the rest to you!{n}{wait}{clear}{end}
+3947.1926	{spk:0080}{fa:0180}{n}{name:0080}, what, there's more of these guys behind us?{n}{wait}{clear}I'll leave the captive girl to you. I'll scatter the enemy. See ya, I'm counting on you.{n}{wait}{clear}{end}
+394B.12D6	{e0:E0FF}{spk:0080}{fa:0180}{n}From what the Angel said, it should be around here...{n}{wait}{clear}{end}
+394B.131C	{e0:E0FF}{spk:0080}{fa:0180}{n}I understand what you're saying. It seems talking won't work.{n}{wait}{clear}{end}
+394B.1368	{e0:E0FF}{spk:0080}{fa:0180}{n}How cruel...{n}{wait}{clear}{end}
+394B.1396	{e0:9D02}{spk:0080}{fa:0180}{n}Somehow... he seems like a lonely person.{n}{wait}{clear}{end}
+394B.13D4	{e0:DC03}{spk:0080}{fa:0180}{n}...I'm so sorry. May you rest in peace.{n}{wait}{clear}{end}
+394B.1410	{e0:E0FF}{spk:0080}{fa:0180}{n}!!NG!!{n}{wait}{clear}{end}
+394B.1436	{e0:9F02}{spk:0080}{fa:0180}{n}Fallen angel, what is it you are after?{n}{wait}{clear}{end}
+394B.1474	{e0:A002}{spk:0080}{fa:0180}{n}So this is where... the fallen angel is.{n}{wait}{clear}{end}
+394B.14B2	{e0:A102}{spk:0080}{fa:0180}{n}That's right. I am Felimi, the angel's hero. I have come to defeat you.{n}{wait}{clear}{end}
+394B.1508	{e0:A202}{spk:0080}{fa:0180}{n}...I beat it... a fallen angel... Me...{n}{wait}{clear}{end}
+394B.1552	{e0:A302}{spk:0080}{fa:0180}{n}...No. The ones who will perish are you, the fallen angels...{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}
+394B.15C8	{e0:A402}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}
+394B.15FE	{e0:A502}{spk:0080}{fa:0180}{n}How frightening...{n}{wait}{clear}{end}
+394B.1628	{e0:A602}{spk:0080}{fa:0180}{n}...I have to defeat... you!{n}{wait}{clear}{end}
+394B.1670	{e0:A702}{spk:0080}{fa:0180}{n}Wicked fallen angel, perish!{n}{wait}{clear}{end}
+394B.16A6	{e0:A802}{spk:0080}{fa:0180}{n}That voice... Gaap!?{n}{wait}{clear}{end}
+394B.16F8	{e0:AA02}{spk:0080}{fa:0180}{n}Gaap! Why did you attack Infos? Why do you fight the angels of the Heavens?{n}{wait}{clear}{end}
+394B.175E	{e0:AB02}{spk:0080}{fa:0180}{n}You demon... this is the end!{n}{wait}{clear}{end}
+394B.1792	{e0:AC02}{spk:0080}{fa:0180}{n}It's over now...{n}{wait}{clear}{end}
+394B.17C4	{spk:0080}{fa:0180}{n}Please. Hand Reiv the knight over to us.{n}{wait}{clear}{end}
+394B.180E	{spk:0080}{fa:0180}{n}Angel, it seems Reiv the knight is held in the dungeon. Please go to him.{n}{wait}{clear}It's true of my sister too: warriors find it painful to let others see them like that.{n}{wait}{clear}I'll stay here and play a song to comfort the souls of the dead.{n}{wait}{clear}{end}
+394B.1900	{spk:0080}{fa:0180}{n}Angel, there seem to be monsters on our way out too. May I leave the captive girl to you?{n}{wait}{clear}I'll defeat the monsters so she can get home safely.{n}{wait}{clear}{end}
+394F.1274	{e0:E0FF}{spk:0080}{fa:0180}{n}...Hm, something's coming!{n}{wait}{clear}{end}
+394F.12A4	{e0:E0FF}{spk:0080}{fa:0180}{n}Is that all you have to say?{n}{wait}{clear}{e0:E0FF}It seems the medicine of persuasion has no effect. Then shall we proceed to major surgery?{n}{wait}{clear}{end}
+394F.136C	{e0:5F03}{spk:0080}{fa:0180}{n}And if I am?{n}{wait}{clear}{end}
+394F.1392	{e0:6003}{spk:0080}{fa:0180}{n}Why do you bring chaos to the surface, fallen angel?{n}{wait}{clear}{end}
+394F.13D8	{e0:6103}{spk:0080}{fa:0180}{n}A fallen angel, in this place...{n}{wait}{clear}{end}
+394F.140C	{e0:6203}{spk:0080}{fa:0180}{n}Yes, I am the angel's hero. I have come to bury you.{n}{wait}{clear}{end}
+394F.145A	{e0:6303}{spk:0080}{fa:0180}{n}Repent of your sins... No, I suppose that's beyond you...{n}{wait}{clear}{end}
+394F.14BE	{e0:6403}{spk:0080}{fa:0180}{n}I didn't think it would end this easily either...{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}
+394F.1532	{e0:6503}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}
+394F.1566	{e0:6603}{spk:0080}{fa:0180}{n}A sick way of thinking...{n}{wait}{clear}{end}
+394F.1598	{e0:6703}{spk:0080}{fa:0180}{n}It seems the only cure is to defeat you, fallen angel Rasuel!{n}{wait}{clear}{end}
+394F.15EE	{e0:6803}{spk:0080}{fa:0180}{n}...This is the end, Rasuel.{n}{wait}{clear}{end}
+394F.162A	{e0:6903}{spk:0080}{fa:0180}{n}At last, the leader of the fallen angels appears.{n}{wait}{clear}{end}
+394F.1688	{e0:6B03}{spk:0080}{fa:0180}{n}Gaap! Why do you attack Infos and fight the angels of the Heavens?{n}{wait}{clear}{end}
+394F.16E2	{e0:6C03}{spk:0080}{fa:0180}{n}I'll defeat you even if it costs my life! Gaap!{n}{wait}{clear}{end}
+394F.171E	{e0:6D03}{spk:0080}{fa:0180}{n}...It's all over.{n}{wait}{clear}{end}
+394F.1750	{spk:0080}{fa:0180}{n}I'd like the dead to behave like the dead. Hand over Reiv the knight at once, and rest in peace!{n}{wait}{clear}{end}
+394F.17C0	{spk:0080}{fa:0180}{n}Angel, it seems Reiv the knight is held in the dungeon. Please go on ahead.{n}{wait}{clear}He's surely hurt, so I'll gather some of the medicinal herbs that grow on this island.{n}{wait}{clear}{end}
+394F.186C	{spk:0080}{fa:0180}{n}Angel, I still sense monsters. I'm worried about how the captive girl is doing, but I'll hold off the monsters behind us.{n}{wait}{clear}I'll leave this to you, Angel.{n}{wait}{clear}{end}
+3953.155C	{e0:E0FF}{spk:0080}{fa:0180}{n}From what the Angel said, it should be around here...{n}{wait}{clear}{end}
+3953.15AC	{e0:E0FF}{spk:0080}{fa:0180}{n}That all you got to say? Then here I come!{n}{wait}{clear}{end}
+3953.15FA	{e0:E0FF}{spk:0080}{fa:0180}{n}That's awful!!{n}{wait}{clear}{end}
+3953.161E	{e0:3704}{spk:0080}{fa:0180}{n}After killing so many people! I won't lose to the likes of you!!{n}{wait}{clear}{end}
+3953.1670	{e0:DD03}{spk:0080}{fa:0180}{n}...Sorry. But he'll get to see that Liza lady now, right?{n}{wait}{clear}{end}
+3953.16CA	{e0:3904}{spk:0080}{fa:0180}{n}Yeah, so what?{n}{wait}{clear}{end}
+3953.16F8	{e0:3A04}{spk:0080}{fa:0180}{n}Fallen angel, why are you making trouble for everyone in Infos!{n}{wait}{clear}{end}
+3953.174A	{e0:3B04}{spk:0080}{fa:0180}{n}This place looks kind of scary...{n}{wait}{clear}{end}
+3953.1788	{e0:3C04}{spk:0080}{fa:0180}{n}Yeah, that's right. I'm a hero! I came to beat you!{n}{wait}{clear}{end}
+3953.17D6	{e0:3D04}{spk:0080}{fa:0180}{n}Dad... I avenged you.{n}{wait}{clear}{end}
+3953.180A	{e0:3E04}{spk:0080}{fa:0180}{n}I don't believe a bluff like that!{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}
+3953.1870	{e0:3F04}{spk:0080}{fa:0180}{n}Why do you fight!{n}{wait}{clear}{end}
+3953.18C2	{spk:0080}{fa:0180}{n}...!!{n}{wait}{clear}{end}
+3953.18E4	{e0:4104}{spk:0080}{fa:0180}{n}...All talk!{n}{wait}{clear}{end}
+3953.1918	{e0:4204}{spk:0080}{fa:0180}{n}You're that Gaap guy! Come out!{n}{wait}{clear}{end}
+3953.1956	{e0:4304}{spk:0080}{fa:0180}{n}Whoa!{n}{wait}{clear}{end}
+3953.1978	{e0:4404}{spk:0080}{fa:0180}{n}Gaap! Why, how come you attacked Infos!{n}{wait}{clear}{end}
+3953.19D2	{e0:4504}{spk:0080}{fa:0180}{n}I won't hand Infos over to the likes of you!{n}{wait}{clear}{end}
+3953.1A10	{e0:4604}{spk:0080}{fa:0180}{n}It's over... Rush, Infos is gonna be at peace now... I'm sure of it.{n}{wait}{clear}{end}
+3953.1A70	{spk:0080}{fa:0180}{n}Hey, hey! Give Reiv the knight back!{n}{wait}{clear}{end}
+3953.1AA2	{spk:0080}{fa:0180}{n}Angel! It looks like Reiv the knight is in the dungeon. But...{n}{wait}{clear}It stinks so bad in here, my nose is gonna fall off. Rush is suffering, so can you go on your own, Angel?{n}{wait}{clear}{end}
+3953.1B54	{spk:0080}{fa:0180}{n}Hey! It looks like Reiv the knight is in the dungeon. But...{n}{wait}{clear}It stinks so bad in here, my nose is gonna fall off. Rush is suffering, so can you go on your own?{n}{wait}{clear}{end}
+3953.1C0E	{spk:0080}{fa:0180}{n}Angel, it looks like Reiv the knight is in the dungeon.{n}{wait}{clear}Can I leave this to you, Angel? I kinda want to explore this island.{n}{wait}{clear}{spk:E783}{fa:0180}{n}Are you worried about Rush?{n}{wait}{clear}{spk:0080}{fa:0180}{n}N-no way! I-it's nothing like that. See ya!{n}{wait}{clear}{end}
+3953.1D0C	{spk:0080}{fa:0180}{n}Hey, it looks like Reiv the knight is in the dungeon.{n}{wait}{clear}Can I leave this to you? I kinda want to explore this island.{n}{wait}{clear}{spk:E783}{fa:0180}{n}Are you worried about Rush?{n}{wait}{clear}{spk:0080}{fa:0180}{n}N-no way! I-it's nothing like that. See ya!{n}{wait}{clear}{end}
+3953.1E10	{spk:0080}{fa:0180}{n}Angel! Looks like there are enemies behind us too! I'll go beat the ones in back, so I'm counting on you here!{n}{wait}{clear}{end}
+3953.1E7C	{spk:0080}{fa:0180}{n}Hey! Looks like there are enemies behind us too! I'll go beat the ones in back, so I'm counting on you here, OK?{n}{wait}{clear}{end}
+3957.12F2	{e0:E0FF}{spk:0080}{fa:0180}{n}From what the Angel said, it should be around here...{n}{wait}{clear}{end}
+3957.1338	{e0:E0FF}{spk:0080}{fa:0180}{n}Um, well then, may we start fighting now?{n}{wait}{clear}{end}
+3957.1388	{e0:E0FF}{spk:0080}{fa:0180}{n}This is... so cruel...{n}{wait}{clear}{end}
+3957.13BC	{e0:E309}{spk:0080}{fa:0180}{n}Such sad eyes... I don't want to fight you, but... it can't be helped.{n}{wait}{clear}{end}
+3957.1424	{e0:E303}{spk:0080}{fa:0180}{n}I... don't know what to say...{n}{wait}{clear}{end}
+3957.145C	{e0:E509}{spk:0080}{fa:0180}{n}That's right...{n}{wait}{clear}{end}
+3957.1486	{e0:E609}{spk:0080}{fa:0180}{n}Why do you fallen angels attack the surface?{n}{wait}{clear}{end}
+3957.14CA	{e0:E709}{spk:0080}{fa:0180}{n}A fallen angel is here...{n}{wait}{clear}{end}
+3957.14FA	{e0:E809}{spk:0080}{fa:0180}{n}I am Tia, the angel's hero. ...I have come to defeat you.{n}{wait}{clear}{end}
+3957.154C	{e0:E909}{spk:0080}{fa:0180}{n}Angel... I did it.{n}{wait}{clear}{end}
+3957.157E	{e0:EA09}{spk:0080}{fa:0180}{n}There are still more of them... fallen angels.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}
+3957.15E6	{e0:EB09}{spk:0080}{fa:0180}{n}Why do you fight us?{n}{wait}{clear}{end}
+3957.1642	{e0:EC09}{spk:0080}{fa:0180}{n}...Angel, lend me the strength to drive away this demon!{n}{wait}{clear}{end}
+3957.16B8	{e0:ED09}{spk:0080}{fa:0180}{n}...That voice...{n}{wait}{clear}{end}
+3957.170A	{e0:EF09}{spk:0080}{fa:0180}{n}Why do you attack our Infos and fight the angels?{n}{wait}{clear}{end}
+3957.175E	{e0:F009}{spk:0080}{fa:0180}{n}...This is the final battle... Angel...{n}{wait}{clear}{end}
+3957.17A4	{e0:F109}{spk:0080}{fa:0180}{n}Now Infos will be at peace, won't it, Angel!{n}{wait}{clear}{end}
+3957.17EA	{spk:0080}{fa:0180}{n}Everyone, please rest in eternal peace. And I'd like you to give Reiv the knight back to us right away.{n}{wait}{clear}{end}
+3957.1868	{spk:0080}{fa:0180}{n}Angel, it seems Reiv the knight is in the dungeon ahead. Please go to him.{n}{wait}{clear}I don't think a knight would want anyone to see him hurt, so I'll wait outside.{n}{wait}{clear}{end}
+395B.12DA	{e0:E0FF}{spk:0080}{fa:0180}{n}If I heard right... it should be around here...{n}{wait}{clear}{end}
+395B.1322	{e0:E0FF}{spk:0080}{fa:0180}{n}Quit rattling on and come at me! I'll sell that head of yours for a good price!{n}{wait}{clear}{end}
+395B.1380	{e0:E0FF}{spk:0080}{fa:0180}{n}...What's this.{n}{wait}{clear}{end}
+395B.13A8	{e0:D005}{spk:0080}{fa:0180}{n}What is it, {name:0080}? Some kind of history? Well, I'm not about to get killed in a place like this either!!{n}{wait}{clear}{end}
+395B.141A	{e0:DF03}{spk:0080}{fa:0180}{n}I refuse to believe dying was his only way out...{n}{wait}{clear}{end}
+395B.1470	{e0:D205}{spk:0080}{fa:0180}{n}That's right. But what's it to you?{n}{wait}{clear}{end}
+395B.14AA	{e0:D305}{spk:0080}{fa:0180}{n}Apollyon, why do the fallen angels target the surface?{n}{wait}{clear}{end}
+395B.14EA	{e0:D405}{spk:0080}{fa:0180}{n}Creepy... Just the sort of place a fallen angel would be.{n}{wait}{clear}{end}
+395B.1544	{e0:D505}{spk:0080}{fa:0180}{n}That's right, you ugly fallen angel! I came to take you down!{n}{wait}{clear}{end}
+395B.1592	{e0:D605}{spk:0080}{fa:0180}{n}The end of a fallen angel, huh...{n}{wait}{clear}{end}
+395B.15C2	{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}
+395B.160E	{e0:D805}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}
+395B.163C	{e0:D905}{spk:0080}{fa:0180}{n}...This one... leaves me speechless.{n}{wait}{clear}{end}
+395B.1676	{e0:DA05}{spk:0080}{fa:0180}{n}You're the one who really needs punishing!{n}{wait}{clear}{end}
+395B.16B0	{e0:DB05}{spk:0080}{fa:0180}{n}Rasuel, this is where your smart mouth ends.{n}{wait}{clear}{end}
+395B.16F6	{e0:DC05}{spk:0080}{fa:0180}{n}...Gaap, is it?{n}{wait}{clear}{end}
+395B.1742	{e0:DE05}{spk:0080}{fa:0180}{n}Gaap! Why attack Infos and fight the angels of the Heavens?{n}{wait}{clear}{end}
+395B.179A	{e0:DF05}{spk:0080}{fa:0180}{n}This ends here... Gaap, I'm taking you down!{n}{wait}{clear}{end}
+395B.17E8	{e0:E005}{spk:0080}{fa:0180}{n}It's over, all of it...{n}{wait}{clear}{end}
+395B.1816	{spk:0080}{fa:0180}{n}Undead really stink! I'm doing this for no pay, so stay out of my way!{n}{wait}{clear}Hand Reiv the knight back, and be quick about it!{n}{wait}{clear}{end}
+395B.18AC	{spk:0080}{fa:0180}{n}Looks like Reiv the knight is in the dungeon. Hurry and go to him.{n}{wait}{clear}{name:0080}, I'm heading back. If it were me, I wouldn't want anyone seeing me weak.{n}{wait}{clear}{end}
+395B.1952	{spk:0080}{fa:0180}{n}Huh? There are monsters behind us too... We beat the boss and still this. Can't be helped.{n}{wait}{clear}I'll secure our way out. From here on, it's up to you, Angel! See ya!{n}{wait}{clear}{end}
+395F.12E6	{e0:E0FF}{spk:0080}{fa:0180}{n}Heh heh! Go on, come at me from anywhere you like!{n}{wait}{clear}{e0:E0FF}But you'd better be stronger than me!{n}{wait}{clear}{end}
+395F.1362	{e0:E0FF}{spk:0080}{fa:0180}{n}Heh heh, you look strong! But I won't lose!{n}{wait}{clear}{end}
+395F.13AA	{e0:E0FF}{spk:0080}{fa:0180}{n}That's ugly...{n}{wait}{clear}{end}
+395F.13D4	{e0:B707}{spk:0080}{fa:0180}{n}When you say you'll kill me, I can't exactly run away...{n}{wait}{clear}{end}
+395F.1426	{e0:E103}{spk:0080}{fa:0180}{n}Pitiful man...{n}{wait}{clear}{end}
+395F.1450	{e0:B907}{spk:0080}{fa:0180}{n}What, that's none of your business.{n}{wait}{clear}{end}
+395F.1482	{e0:BA07}{spk:0080}{fa:0180}{n}Fallen angel! Why are you after the surface?{n}{wait}{clear}{end}

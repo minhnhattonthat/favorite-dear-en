@@ -28,3 +28,5 @@
 - emulator-qa.md §Debug tool: warp scenes with AFTER=hold stop at PROOF+60, so a long sequence (a staff roll) never shows its text; override with `--var "AFTER='idle'"` (any value but mash/hold runs to the frame limit) and pick the proof frame from the original.
 docs/re/graphics.md (this repo): GDATA e009 small labels (信頼度 信仰心 ...) are NOT what the hi-res status screens (hub_ability2/3) draw; find the real source by VRAM dump before redrawing.
 references/platform-ps1.md: a leading % in FIN.EXE STAFF.TXT (x=64 line mode) freezes the credits roll; check a new line code over the whole roll, not one page.
+- references/emulator-qa.md (PCSX hooks): pcsx_lib L.dump_ppu writes PCSX.GPU.getVRAM() as 2 MB (1024x1024 halfwords) on nightly 32119; only the first 512 rows are the PS1 VRAM, the rest is filler. Slice [:512*1024] before rendering (2026-11-21).
+- references/graphics.md (Edit and re-import): PS1 status screens here print labels into 8bpp TIM backgrounds on a textured panel; 'clear the rect' wipes the texture. Erasing only the label's ink index (each pixel takes the nearest non-ink pixel of its row) keeps the panel looking untouched (tools/gfx.py bg=ink).

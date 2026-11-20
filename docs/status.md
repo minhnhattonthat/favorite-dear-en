@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress. Done 2026-11-20 (worker 3): (a) credits: the FIN `%` line code
+- **Phase:** 8. QA in the emulator: in progress (worker 6: tutorial charts English; next the title Option PSS). Done 2026-11-20 (worker 3): (a) credits: the FIN `%` line code
   froze the roll after "Backgrounds" (found by `warp.py credits_roll`, 13000 frames); painter rows now one name per
   line (`|` in `trans/staff/en.tsv`), roll verified to the closing cards (`work/qa/p8/cred_fixed.png`,
   `cred_card.png`). Review #5 is fully done. (b) graphics pipeline: `tools/gfx.py` + `gfx/eNNN.tsv` (rect, ink,
@@ -25,9 +25,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   only; narrow font now has the capitals they use), D16. e144: logo kana kept (Waiting on the user). Build sha1
   bdde2b23ea6f22f8b905a7ed6fe1ac3934b9a2e1, check ok, smoke ok (name-entry build). `tools/lua/peek.lua` logs RAM
   halfwords per frame. Name entry left: odd-length names still end in a pair with a space (the old "Tia 's" gap).
-  **Next:** the rest of `docs/re/graphics.md` (rows without **English**: e203 flow chart (tutorial, 8bpp 320x240,
-  lots of text), e204-e206 8x8 font, TTL_OPT/TTL_OPT2/TTL_INFO PSS (option memory-card notice, Slime Ball help),
-  平和度 on the map), then (3) below. Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
+  Worker 6 (2026-11-21): tutorial charts done. e203 (outlined lettering, small boxes widened by `copy` rows; image
+  only: the "2. See the overall flow." choice, PSX.EXE 0x80166390 via pointer 0x80169798, is not reached by any warp)
+  and three charts that live OUTSIDE the GDATA directory: `tools/timscan.py` sector-scans GDATA for TIMs (~800 not in
+  the 423-entry table: event pictures, portraits, face parts; all looked at, survey note in graphics.md); sectors
+  40127/40203/40279 = ゲームの流れ 其の一/二/三, shown by the SETUMEI event, now English in game
+  (`warp.py ev_setumei`, `work/qa/warp/ev_setumei/f013800.png`). gfx.py: `gfx/sNNNNN.tsv` sector images, shadow
+  `oN` (outline), bg `i:A,B[@dx,dy]`, `lum:LO,HI,D[,teal][@dx,dy]` (diffuse refill over paintings), font `label2`
+  (double width for 640 hi-res), `copy` rows, en `-` erase-only rows; tests in test_gfx.py. GAME OVER pictures
+  (sectors 15228/41039/41115, ゲーム・オーバー kana under English) left: unreachable. Build sha1
+  27c9047bedcb52d885d3aa338b7ff4c94c76b735, check ok, smoke ok.
+  **Next:** the rest of `docs/re/graphics.md`: TTL_OPT/TTL_OPT2/TTL_INFO PSS (title Option). Found: each PSS is a
+  12-byte header + 8bpp 128x256 (header w = 64 halfwords, so gfx.py's "64 hw = 4bpp" rule is wrong for PSS; add a
+  PSS image kind reading TITLE/*.PSS, recompressed with lzss.compress, must fit the file's sectors or grow the file in
+  layout). No CLUT in the file (loaded elsewhere): find inks in a VRAM dump on the Option screen. TTL_OPT rows 84-118
+  x 0-128: 3 lines "メモリーカードの / チェックを… / 電源を切らないでください"-like (indices 1/16/17); TTL_INFO rows
+  110-200 Slime Ball help box; TTL_OPT2 rows 50-110 a help box (勇者…). Then e204-e206 8x8 font, 平和度 on the map,
+  then (3) below. Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
   area x 10-47 y 91-99 per button; gfx.py needs a `bg` column (it clears to 0 now). Proposed: Plan Visit Status Map
   Scout System Back Mission Talk Gift. Build sha1 ac73a4b73fb8f746817a2bf7067a44b525be7970, fitcheck ok.
   Older, worker 1: review #5 PSX.EXE part. Grown list

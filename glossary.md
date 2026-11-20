@@ -135,6 +135,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | 時の淀み | Stagnation of Time | | the calamity eroding Infos ("the Stagnation of Time") | |
 | 神獣 | sacred beast | | Yaruru's companion | |
 | 竜の使い | the Dragon's Messenger | | Ryudral's local title | |
+| 建国祭 | Founding Festival | | Fangam's national festival (Ashe event) | |
 | アストラル界 | the Astral Plane | | the inner world of a heart, where an angel can be attacked directly | |
 | 竜の洞 | the Dragon's Den | | Aul's cave; only dragonkind may enter | |
 | 闇馬車 | Dark Carriage | | slaver bandit ring, in quotes ("Dark Carriage") | |

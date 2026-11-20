@@ -57,7 +57,9 @@ id 32 showing up in the loaded-event table. From cold boot to the event takes ~1
 
 - 0x000-0x1FF: "SC" title frame + icon frames.
 - 0x200 u16 **c0** = (sum of bytes 0x204-0x3FFF) & 0x0FFF (matches both cards; guess until an edited save loads).
-- 0x202 u16 **c1** = sum of bytes 0x204-0x22B (verified on both cards).
+- 0x202 u16 **c1** = (sum of bytes 0x204-0x22B) & 0x0FFF (verified 2026-11-21: a game-written save named "R", one
+  halfword + 5 x 0xFFFF, header sum 0x10E9, stores 0x0E9 and loads; save.py's old unmasked c1 made every 1-code name
+  load as "This Data is corrupted". Scenes `name1_write` + `tools/lua/setname.lua`, `name1_load`, `stress_name1_week`).
 - 0x204-0x22B: a 40-byte header (changes week to week); 0x22C+: game data, copied from RAM chunks (save 0xB04-0x1804
   matches RAM 0x801C3DE4 + offset; 0x1A04-0x25FF matches 0x8001DC48 + offset; 0x2604+ matches 0x8001E410 + offset,
   week-2 RAM).

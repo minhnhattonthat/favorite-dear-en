@@ -10,7 +10,7 @@ save file on the card (1-3, in directory order). --poke writes raw hex bytes at 
 --bad-sum writes a deliberately wrong c0 (negative test: the game must reject it).
 
 Save file (16 KB, two card blocks; offsets from the file start; docs/re/debug.md "Save file layout"):
-  0x200 u16 c0 = sum(bytes 0x204..0x3FFF) & 0x0FFF      0x202 u16 c1 = sum(bytes 0x204..0x22B)
+  0x200 u16 c0 = sum(bytes 0x204..0x3FFF) & 0x0FFF      0x202 u16 c1 = sum(bytes 0x204..0x22B) & 0x0FFF
   0x204 angel name, 6 u16 font codes (tbl/jp.tbl), 0xFFFF padded    0x215 u8 week (header copy)
   0x199C u16 angel AP    0x19AE angel name again (same codes, 0xFFFF padded)    0x275C u8 week"""
 import argparse
@@ -54,7 +54,8 @@ def saves(card):
 
 
 def sums(f):
-    return sum(f[0x204:FILE]) & 0x0FFF, sum(f[0x204:0x22C]) & 0xFFFF
+    # both 12-bit: a game-written 1-halfword name (header sum 0x10E9) stores c1 0x0E9 (tests/test_debug.py)
+    return sum(f[0x204:FILE]) & 0x0FFF, sum(f[0x204:0x22C]) & 0x0FFF
 
 
 def fix(f, bad=False):

@@ -74,10 +74,22 @@ def test_save_editor_roundtrip(tmp_path):
     assert save.sums(g)[0] != int.from_bytes(g[0x200:0x202], "little")
 
 
+def test_header_sum_is_12_bits():
+    """c1 is masked to 12 bits like c0: a game-written save named "R" (one halfword, 5 x 0xFFFF padding, header sum
+    0x10E9) stores c1 = 0x0E9 (work/saves/edit/name1_game.mcd, name1_write scene); 0x10E9 loads as corrupted."""
+    save = load("save", ROOT / "tools/debug/save.py")
+    f = bytearray(16384)
+    f[0x204:0x22C] = b"\xff" * 40
+    assert sum(f[0x204:0x22C]) > 0xFFF
+    assert save.sums(f)[1] == sum(f[0x204:0x22C]) & 0x0FFF
+
+
 @pytest.mark.skipif(not (ROOT / "work/saves/week2.mcd").exists(), reason="game-written card not present")
 def test_game_written_cards_checksum():
     save = load("save", ROOT / "tools/debug/save.py")
-    for name in ("week1", "week2"):
+    for name in ("week1", "week2", "edit/name1_game"):
+        if not (ROOT / f"work/saves/{name}.mcd").exists():
+            continue
         card = (ROOT / f"work/saves/{name}.mcd").read_bytes()
         for _, at in save.saves(card):
             f = card[at:at + 16384]

@@ -122,6 +122,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | レーゼル | Resel | | Mount Resel near Garf, the riddle Fiend (Yaruru) | |
 | アルプ | Alp | | place in Kimbalt with frequent monsters (Yaruru mission) | |
 | アーテム | Artem | | town in Kvaal attacked by Leraje (Yaruru mission) | |
+| ボルサ | Borsa | | the Borsa Forest, home of winged monsters (Nasadia mission) | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

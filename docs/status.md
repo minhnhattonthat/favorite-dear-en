@@ -2,8 +2,30 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 8: battle name plates English; next the tours, item (3)
-  below). Worker 8 (2026-11-21): e204-e206 = bt_font1-3.pss, the 8x8 font of the battle name plates (every enemy
+- **Phase:** 8. QA in the emulator: in progress (worker 9: first full tour + visual QA done, fixes in; next a
+  fresh tour on the new build, the JP tour, the 16 open sheets below, inkbox, stress saves, textcover).
+  Worker 9 (2026-11-21): `warp.py --all --root work/qa/tour` on build 64ee6f64: 97/98 scenes ok (`epilog`, no
+  ending set, times out: covered by epilog_end1-23). `tools/qa_sheets.py` makes full-size review pages (warp's
+  sheet.png is half size); 258 pages in `work/qa/manifest.tsv`, all read by 9 read-only reviewer passes (Explore,
+  `docs/visual-qa-brief.md`), verdicts in `work/qa/verdicts/` (202 ok, 56 issue; `recheck_1.tsv` marks 40 fixed).
+  Fixed (build a870a1cfc9a5b3c17a1f0d844e1b40f5c4657b1f, check ok 72 tests, fitcheck ok; seen in game in
+  `work/qa/fix1/`): (a) "My name isRaviel": wrap.py dropped the space before {name} (`_fix_odd`); (b) wrap.py
+  `_balance`: no box ends on a one-word line (2601 -> 96 rows, the rest are "Name:/Huh?!" boxes), 2457 rows rewrapped;
+  (c) 3B77.0260 EPILOG clear-data save menu translated (line 6 halves "Slot 1 card "/"Slot 2 card " + line 7 "is
+  being checked." work); (d) epilogue "watch them / grow." and "happy / smile."; (e) card dialog line 3 is the first
+  8 cells of PSX.1661D6 + PSX.166288, now "Please wait...  Don't remove card."; (f) plate E115 Borunga.
+  **Open sheets (re-check on the next tour; compare with the JP tour first):** stray "P1" / ". ." in an empty box
+  at the end of ev_an, ev_kaiwa1, ev_s0000ok, ev_s01ok, ev_evfum02 (likely the warp's mash on a leftover box); garbage
+  tiles in ev_slove01, ev_ss0101, ev_tm02all (likely warp-state VRAM); battle_t0201 plates show only "Lv 8" (no
+  name: check btname rows for that battle's enemies); battle_t0901 status badge ポイズン by the REIV gauge (a battle
+  graphic, not e243: find it, D16 says POISON); ev_bos_clr "Peace level up 20 points" drawn over the art (compare
+  JP). ev_sy0101 "Right, Angel?" and the "duties to the order" rows were reworded (not yet seen in game).
+  **Next:** (1) tour again on a870a1cf with `--root work/qa/tour`, `qa_sheets.py`, `qa_gate.py init ... --glob
+  "qa_sheet*.png" --build build/favorite_dear_en.bin` (unchanged pages keep verdicts); (2) JP tour `--root
+  work/qa/tour_jp` (default cue) for comparisons; run tours at -j 2: the host killed this worker's -j 3 runs for low
+  memory twice; (3) the open sheets; (4) inkbox, stress saves, textcover (no text log exists yet: hook the printer
+  0x800CC9EC and log `TEXT <file>.<offset>` from the script buffer 0x8016C608, `docs/re/events.md`).
+  Worker 8 (2026-11-21): e204-e206 = bt_font1-3.pss, the 8x8 font of the battle name plates (every enemy
   and hero name under its unit was Japanese: さんぞく, おやぶん ...). `asm/btname.inc` replaces the plate routine
   0x80042448 with an English renderer (upper case, new proportional `fonts/caps4x7.txt`, 64 px, LoadImage);
   names in `trans/btname.tsv` (201 enemies + 17 heroes, `tools/btname.py extract|check|png`, tests
@@ -238,4 +260,4 @@ Updated at the end of every session. Keep it to what the next session needs; his
   フェイバリット・ディア under the English FAVORITE DEAR logo (GDATA e144 background watermark, TITLE.PSS,
   TTL_LOGO.PSS) is kept as part of the logo under D5; say if you want it removed. (not blocking) D16: save-list hero
   icons read MIA/KIA (11x10 px), status stamps POISON..PARALYZE, name entry keeps the kana pages.
-- **Open bugs:** none.
+- **Open bugs:** none from players; tour issues are under Phase (open sheets).

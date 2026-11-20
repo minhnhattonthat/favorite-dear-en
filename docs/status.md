@@ -2,7 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress. Done 2026-11-20 (worker 1): review #5 PSX.EXE part. Grown list
+- **Phase:** 8. QA in the emulator: in progress. Done 2026-11-20 (worker 3): (a) credits: the FIN `%` line code
+  froze the roll after "Backgrounds" (found by `warp.py credits_roll`, 13000 frames); painter rows now one name per
+  line (`|` in `trans/staff/en.tsv`), roll verified to the closing cards (`work/qa/p8/cred_fixed.png`,
+  `cred_card.png`). Review #5 is fully done. (b) graphics pipeline: `tools/gfx.py` + `gfx/eNNN.tsv` (rect, ink,
+  shadow, jp, en; 4bpp LZSS images redrawn in place with en6x12 set proportionally; `insert.edits` and fitcheck
+  wired; `tests/test_gfx.py`). `gfx/e009.tsv` has 9 small labels (Trust Justice Stress Attack Guard Stamina Speed
+  Faith Wisdom), but **e009 is not what the status screens draw**: `warp.py hub_ability2` (angel) and the new
+  `hub_ability3` (fairy Shelly) are hi-res 640-px screens whose labels (天使/妖精 headers, 信仰心 知力 素早さ, 体力
+  攻撃力 防御力 ストレス, アイテム, 好感度, 能力, 勇者発見 敵の探索, 男) are still Japanese in the English build
+  (`work/qa/p8/status_en.png`). Where e009 shows in game is unknown. **Next:** find that source (VRAM dump with
+  `ppudump.lua`-style probe at hub_ability3 + `vramfind.py` over `work/gfx/gdata` and decompressed LZSS blocks;
+  e012-e014 are 320x240 status backgrounds with printed labels, check them first), add its gfx tsv, verify zoomed.
+  e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
+  area x 10-47 y 91-99 per button; gfx.py needs a `bg` column (it clears to 0 now). Proposed: Plan Visit Status Map
+  Scout System Back Mission Talk Gift. Build sha1 ac73a4b73fb8f746817a2bf7067a44b525be7970, fitcheck ok.
+  Older, worker 1: review #5 PSX.EXE part. Grown list
   strings (places, items, ranks, mission titles) now move to 0x80125500-0x80125AF0 with their pointer-table entry
   repointed (`insert.exe_text` REPOINT, `extract.table_pointers`, test `test_grown_exe_string_moves`, fitcheck allows
   it); `exetext.py check` lets a list entry grow up to 2 letters per cell of the list's widest Japanese entry
@@ -10,9 +25,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   "Jr. X" (準X翼宮, 13 letters needed) and "Mt.X"; 盗賊・闇馬車 is "Dark Carriage". In game: rank "Chief Seraph" drawn
   from the moved copy on the status screen (`work/qa/p8/rank_chief_seraph.png`). Build sha1
   6ba5501e280b1ff1827293805e82f59328a35850, fitcheck ok, check ok, smoke ok.
-  **Next, in order:** (1) review #5 credits part: FIN pair-glyph hook (`text.md` §Credits, 28 letters) so the
-  painter lines STAFF.289-292/345-347 and initial-cut names get full length; (2) graphics text (D5): pilot one group
-  (GDATA e009 status labels: 天使 信仰心 知力 素早さ アイテム 男 are Japanese on `hub_ability2`), then the rest of
+  **Next, in order (after worker 3's next above):** (1) done (credits, worker 3); (2) graphics text (D5): finish
+  the pilot (status-screen labels, source unknown, see above), then the rest of
   `docs/re/graphics.md`; new, not in the survey: 平和度 in the world-map coordinate box (`warp.py hub_map`, likely
   the 8x8 font e204-e206 or a sprite); (3) tours of every scene in `tools/debug/scenes.tsv` on the English build
   (`warp.py --all --cue build/favorite_dear_en.cue`; NB the default cue is the Japanese disc), `qa_gate.py init`,

@@ -20,6 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import evscript  # noqa: E402
 import extract  # noqa: E402
+import gfx  # noqa: E402
 import insert  # noqa: E402
 import romdiff  # noqa: E402
 
@@ -66,6 +67,7 @@ def allowed(name, orig, new, orig_psx, patterns):
         secs = {int(p.stem, 16) for p in (extract.SCRIPT / "events").glob("*.tsv")}
         r = [range(sec * insert.SECTOR, sec * insert.SECTOR + size)
              for sec, size, _, _ in evscript.script_files(orig_psx, orig) if sec in secs]
+        r += [range(off, off + size) for off, size in (gfx.slot(orig_psx, e) for e in gfx.entries())]  # gfx/*.tsv
         return r + [range(len(orig), max(len(orig), len(new)))]
     r = entries(orig, patterns)
     if name == "PSX.EXE":

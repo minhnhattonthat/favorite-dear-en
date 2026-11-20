@@ -1,0 +1,10 @@
+x	y	w	h	ink	shadow	jp	en
+0	0	40	16	1	14	信頼度	Trust
+0	16	40	16	1	14	正義感	Justice
+0	32	40	16	1	14	ストレス	Stress
+0	48	40	16	1	14	攻撃力	Attack
+0	64	40	16	1	14	防御力	Guard
+0	80	40	16	1	14	体力	Stamina
+0	96	40	16	1	14	素早さ	Speed
+96	96	40	16	1	14	信仰心	Faith
+96	112	40	16	1	14	知力	Wisdom

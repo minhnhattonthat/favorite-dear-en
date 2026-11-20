@@ -26,6 +26,7 @@ import en  # noqa: E402
 import evscript  # noqa: E402
 import extract  # noqa: E402
 import font_en  # noqa: E402
+import gfx  # noqa: E402
 from tbl import TOKEN  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -342,6 +343,8 @@ def edits(mode="en", report=None):
     gdata = (TREE / "GDATA.BIN").read_bytes()
     relocs = []
     new_gdata = event_edits(gdata, exe, mode, extract.event_table(), report, relocs)
+    if mode == "en":
+        new_gdata = gfx.gdata_edit(new_gdata, exe)  # graphics text, gfx/*.tsv (in place, each in its own slot)
     out = {"PSX.EXE": assemble(exe_text(exe, mode, extract.exe_table())),
            "TITLE/EPILOG.EXE": assemble((TREE / "TITLE" / "EPILOG.EXE").read_bytes(), "epilog.asm"),
            "DATA/FIN.EXE": assemble((TREE / "DATA" / "FIN.EXE").read_bytes(), "fin.asm")}

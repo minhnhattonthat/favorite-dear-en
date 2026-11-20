@@ -15,11 +15,11 @@ Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot 
 | GDATA e012-e014 | TIM 8bpp 320x240 (raw, one copy on the disc) | status-screen backgrounds: e012 fairy, e013 angel, e014 hero; labels in one ink index (43/203/154) on a textured panel | **English** (phase 8, gfx/e012-e014.tsv, ink erased by row inpainting, `warp.py hub_ability2/3`). Status-screen values: 男/女 is PSX.EXE 0x80183FA4, one cell on screen ("M"/"F") |
 | GDATA e015, e016 | LZSS 4bpp 256 px | name entry: カタカナ ひらがな 英字 END YES NO (months/zodiac English) | new game name entry. **English** (phase 8, gfx/e015.tsv: Katakana Hiragana ABC, erase `>=10` on the textured buttons; `warp.py newgame_grid`, `work/qa/warp/newgame_grid/post.png`). e016 holds no Japanese. The grid itself is PSX.EXE: `asm/name.inc` |
 | GDATA e142 | TIM 4bpp | fairy panel: ストレス 発見 索敵 移動中 待機中 行方不明 | week screen (seen f10000 of ng2). **English** (phase 8, gfx/e142.tsv: Stress (narrow 3x7 font, the label sprite is 24 px), Hero, Foe, Moving, Standby, Missing, Dead; `warp.py week1` shows the first three; the four status plates checked as an image only) |
-| GDATA e143 | TIM 8bpp | status icons 失 死 (and "Data.1-6") | map/battle sprites |
+| GDATA e143 | TIM 8bpp | status icons 失 死 (and "Data.1-6") | map/battle sprites. **English** (phase 8, gfx/e143.tsv: MIA / KIA in the narrow font, D16; checked as an image, `gfx.py png 143`: no warp shows a lost or dead hero yet) |
 | GDATA e144 | TIM 4bpp | patterned background with the logo and フェイバリット・ディア kana | load screen? |
-| GDATA e145 | TIM 4bpp | save/load: この「Data」はこわれています 新規作成 容量がたりません 「Data」がありません | memory-card screens |
+| GDATA e145 | TIM 4bpp | save/load: この「Data」はこわれています 新規作成 容量がたりません 「Data」がありません | memory-card screens. **English** (phase 8, gfx/e145.tsv, D16; in game: `warp.py load_list` "No Data", `hub_save_list` "New Data") |
 | GDATA e203 | TIM 8bpp 320x240 | game-flow chart (the tutorial's "全体のながれ") | tutorial option at the start |
-| GDATA e243 | LZSS 4bpp | battle status ポイズン チャーム スリープ コンフュ パライズ (e225 has English Poison/Charm/...) | battles |
+| GDATA e243 | LZSS 4bpp | battle status ポイズン チャーム スリープ コンフュ パライズ (e225 has English Poison/Charm/...) | battles. **English** (phase 8, gfx/e243.tsv: POISON CHARM SLEEP CONFUSE PARALYZE, narrow font, D16; checked as an image only: no warp inflicts a status yet) |
 | GDATA e204-e206 | LZSS 4bpp 256x16 x3 | a second, 8x8 font: A-Z 0-9 katakana hiragana (encoding not found yet) | small labels (battle/map?) |
 | TITLE.PSS, TITLE/TTL_LOGO.PSS | LZSS 8bpp | フェイバリット・ディア kana under the English logo | title, load |
 | TITLE/TTL_OPT.PSS | LZSS 8bpp | memory-card notice (メモリーカードのチェックをして...) | title Option |

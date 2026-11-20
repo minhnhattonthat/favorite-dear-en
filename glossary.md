@@ -117,6 +117,9 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | サルファ | Sulfa | | region near Hebron where a rebellion breaks out (Reiv mission) | |
 | トリニテ | Trinite | | town linked to Niesen by a highway (Griffin mission) | |
 | ティアズ | Tiaz | | town where "that kid" lives (Griffin mission) | |
+| ソルダム | Soldam | | village attacked by bandits (Dian mission) | |
+| オフランド | Offland | | the Offland Mountains, spring for the epidemic cure (Dian) | |
+| レーゼル | Resel | | Mount Resel near Garf, the riddle Fiend (Yaruru) | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

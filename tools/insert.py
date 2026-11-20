@@ -180,6 +180,21 @@ def event_edits(gdata, exe, mode, table, report=None):
 # --- PSX.EXE --------------------------------------------------------------------------------------------------------
 
 
+def fit_slot(row, mode, size, table):
+    """marker/ruler text for an in-place PSX.EXE slot of `size` bytes: shorten the first text run two letters at a
+    time; every control code and its arguments stay (a byte cut once dropped the {wait}{end} and hung the opening)"""
+    pieces = runs(row_text(row, mode))
+    first = next(i for i, (is_text, _) in enumerate(pieces) if is_text)
+    while True:
+        new = en.encode("".join(p for _, p in pieces), table)
+        if len(new) <= size or not pieces[first][1]:
+            break
+        pieces[first] = (True, pieces[first][1][:-2])
+    if len(new) > size:
+        raise FitError(f"{row['id']}: control codes alone need {len(new)} bytes > {size}")
+    return new
+
+
 def exe_text(exe, mode, table):
     out = bytearray(exe)
     for row in extract.read_tsv(extract.SCRIPT / "exe.tsv"):
@@ -194,7 +209,7 @@ def exe_text(exe, mode, table):
         if len(new) > len(old):
             if mode == "en":
                 raise FitError(f"{row['id']}: {len(new)} bytes > {len(old)} (no repointing yet)")
-            new = new[:len(old) - 2] + b"\xff\xff"  # marker ids in short slots get cut
+            new = fit_slot(row, mode, len(old), table)
         out[off:off + len(old)] = new + bytes(len(old) - len(new))
     return bytes(out)
 

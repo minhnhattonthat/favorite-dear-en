@@ -87,6 +87,33 @@ def test_exe_marker_in_place(disc):
     assert not bad, f"marker wrote outside string slots at {bad[:5]}"
 
 
+@disc_only
+@pytest.mark.parametrize("mode", ["marker", "ruler"])
+def test_exe_codes_kept(disc, mode):
+    """a marker or ruler cut to fit its slot keeps every control code of the row ({wait}{end} included)"""
+    exe, _ = disc
+    table = extract.exe_table()
+    new = insert.exe_text(exe, mode, table)
+    for row in extract.read_tsv(extract.SCRIPT / "exe.tsv"):
+        if "name-entry grid" in row["notes"]:
+            continue
+        off = int(row["id"].split(".")[1], 16)
+        n = len(table.encode(row["jp"]))
+        def codes(b):  # control codes with their arguments; glyphs (Japanese < 0x670, pairs <= 0x8484) skipped
+            hw, out, i = struct.unpack("<%dH" % (len(b) // 2), b), [], 0
+            while i < len(hw):
+                if hw[i] >= 0xFF00:
+                    k = extract.EXE_ARGS.get(hw[i], 0)
+                    out.append(hw[i:i + 1 + k])
+                    if hw[i] == 0xFFFF:
+                        break
+                    i += 1 + k
+                else:
+                    i += 1
+            return out
+        assert codes(new[off:off + n]) == codes(exe[off:off + n]), row["id"]
+
+
 NAME_TABLE = (0x163E40, 0x164E7A)  # event names, 9-byte ASCII records at RAM 0x80173640 ("SEND12" ends it)
 
 

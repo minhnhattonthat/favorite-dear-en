@@ -48,6 +48,8 @@ hub_ability3	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;6
 hub_ability4	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -;6 down;60 -;6 down;60 -;6 circle;600 -		hub -> 能力 -> third character's status (a hero if the card has one: GDATA e014 background, 勇者 装備 特殊能力)
 hub_map	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 circle;1200 -		hub -> 地図 (world map, town cursor)
 hub_system	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -		hub -> システム (save/load angel)
+hub_save_list	save	1	hold	14000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -;6 circle;300 -;6 circle;600 -		hub -> システム -> Save -> slot 1: the memory-card list (e145 panels: New Data)
+load_list	load		hold	7500		6 circle;600 -		title -> Load Game -> slot 1: memory-card list (e145: No Data with no card)
 credits	exec	FIN	hold	16000			1800	FIN.EXE staff roll (DATA/STAFF.TXT)
 credits_roll	exec	FIN	hold	25000			13000	the whole staff roll to its closing cards (~13000 frames after arrival)
 epilog	exec	EPILOG	mash	20000			1450	EPILOG.EXE with no ending parameters: blue screen with one text box (ending 0)

@@ -2,8 +2,12 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 7: title PSS English; next e204-e206 8x8 font / 平和度, then
-  the tours, item (3)). Worker 7 (2026-11-21): TTL_OPT/TTL_OPT2/TTL_INFO PSS done. They are 4bpp 256x256 (the
+- **Phase:** 8. QA in the emulator: in progress (worker 7: title PSS and map 平和度 English; next find where the
+  e204-e206 8x8 kana font shows, then the tours, item (3)). Worker 7 also: the map box's 平和度 is a PSX.EXE string
+  at 0x1747B4 (outside EXE_REGIONS, found in a VRAM dump: `warp.py hub_map --lua tools/lua/dumpram_at.lua --var
+  DUMP_AT=11150`, render the .vram.bin as 4bpp to read the text engine's drawn labels), now "Peace" in
+  asm/font.asm (in game: hub_map post.png). Other text-engine labels in that VRAM dump were all English already.
+  Final build sha1 3d1fdaab83968d72f059a02d19037ad7c71f6680. Worker 7 (2026-11-21): TTL_OPT/TTL_OPT2/TTL_INFO PSS done. They are 4bpp 256x256 (the
   old "8bpp 128" note was wrong: bytes 0x01/0x10/0x11 are nibble pairs; on screen the glyphs are 12 px), the GDATA
   LZSS form. gfx.py: `gfx/TTL_*.tsv` = TITLE/<name>.PSS (kind `pss4`), recompressed with the new
   `lzss.compress_optimal` (optimal parse; greedy overshot TTL_OPT's 3 sectors) and zero-padded to the file's own
@@ -43,7 +47,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (double width for 640 hi-res), `copy` rows, en `-` erase-only rows; tests in test_gfx.py. GAME OVER pictures
   (sectors 15228/41039/41115, ゲーム・オーバー kana under English) left: unreachable. Build sha1
   27c9047bedcb52d885d3aa338b7ff4c94c76b735, check ok, smoke ok.
-  **Next:** e204-e206 8x8 font, 平和度 on the map (`warp.py hub_map`), then (3) below. Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
+  **Next:** e204-e206 8x8 kana font (where shown? battles likely: `warp.py --battle T0101`, VRAM dump as above),
+  then (3) below. Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
   area x 10-47 y 91-99 per button; gfx.py needs a `bg` column (it clears to 0 now). Proposed: Plan Visit Status Map
   Scout System Back Mission Talk Gift. Build sha1 ac73a4b73fb8f746817a2bf7067a44b525be7970, fitcheck ok.
   Older, worker 1: review #5 PSX.EXE part. Grown list

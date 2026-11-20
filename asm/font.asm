@@ -36,6 +36,12 @@ NAME_FREE equ 0x80125980          ; tail of the same zero run, after the grown s
     .ascii  "F "
     .halfword 0xFFFF
 
+; World-map coordinate box label 平和度{end} (peace level), right after the Sex slots and outside extract.py's
+; EXE_REGIONS: three glyph cells, so three pair cells (`warp.py hub_map`: "X: 41 Y: 23 Peace 150").
+.org 0x80183FB4
+    .ascii  "Peace "
+    .halfword 0xFFFF
+
 .if pair_end > 0x80125500
     .error "font hook overflows into the grown-string space (tools/insert.py REPOINT)"
 .endif

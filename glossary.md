@@ -85,6 +85,9 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | バルト | Balt | | Apollyon's servant (Fiana event) | |
 | ラッシュ | Rush | | Yaruru's sacred beast ("he") | |
 | グレイ | Gray | | Beasia's family and her dojo ("the Gray-style dojo", グレイ流道場) | |
+| ステレンス | Sterens | | usurper king of Fangam, empowered by Apollyon (Ashe event); "Lord Sterens" to his soldiers | |
+| バーンズ | Barnes | | guardian beast of the fairy world, servant of Iuvart (Tia event); broken speech ("Me... beat you") | |
+| ティタニア | Titania | | fairy queen ("Lady Titania") | |
 
 ## Places
 | JP | EN | max | notes | Avoid |

@@ -24,6 +24,10 @@ Examples are from `trans/en/`; reuse the stock lines word for word so repeated s
 - Dian: courteous doctor, "Good day." for 失礼; 天使さん -> "Angel".
 - Felimi: timid, stammering ("W-who are you?"), self-deprecating.
 - Griffin: rough thief, dropped g's and slang ("Shaddup", "ain't", "y'know"); ド派手野郎 -> "Flashy".
+- Beasia: tomboy dojo-breaker, オレ voice, rough ("Here I come!!", "Damn it!!"); 親父 -> "my old man" / "Dad".
+- Tia: gentle, timid, polite ("Oh dear...", "I'll do my best."); calls the angel "Angel".
+- Sylphe: bratty fairy, Tia's friend ("Nooothing.", "So there! Hmph!!").
+- Rasuel: soft-spoken former angel, calls Nasadia "Nasa".
 - Maids / walk-ons with `{f7:0080}NAME：` prefixes -> "Maid: ...".
 
 ## Dev leftovers

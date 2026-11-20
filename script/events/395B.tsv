@@ -15,7 +15,7 @@ id	jp	en	notes
 395B.1676	{e0:DA05}{spk:0080}{fa:0180}{n}罰が本当に必要なのはアンタだよ！{n}{wait}{clear}{end}		
 395B.16B0	{e0:DB05}{spk:0080}{fa:0180}{n}ラスエル、アンタのへらず口も{n}ここまでだね。{n}{wait}{clear}{end}		
 395B.16F6	{e0:DC05}{spk:0080}{fa:0180}{n}・・・ガープね？{n}{wait}{clear}{end}		
-395B.1720	{e0:DD05}{spk:0080}{fa:0180}{n}なに！？{n}{wait}{clear}{end}		
+395B.1720	{e0:DD05}{spk:0080}{fa:0180}{n}なに！？{n}{wait}{clear}{end}	{e0:DD05}{spk:0080}{fa:0180}{n}What?!{n}{wait}{clear}{end}	
 395B.1742	{e0:DE05}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを攻め。{n}天界の天使たちと戦うんだ？{n}{wait}{clear}{end}		
 395B.179A	{e0:DF05}{spk:0080}{fa:0180}{n}ここで終わりにするんだ・・・{n}ガープ、アンタを倒す！{n}{wait}{clear}{end}		
 395B.17E8	{e0:E005}{spk:0080}{fa:0180}{n}終わったな、全部・・・。{n}{wait}{clear}{end}		

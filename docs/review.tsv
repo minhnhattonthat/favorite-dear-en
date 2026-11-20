@@ -12,3 +12,43 @@ b010	ok	all glyph soup (-), nothing to review until phase 7 re-batches it
 b011	ok	all glyph soup (-)
 b012	ok	all glyph soup (-)
 b013	ok	fairy mission briefings
+b014	ok	mission offers, Sievas talk menus
+b015	ok	Sievas/Ryudral talk menus
+b016	ok	Ryudral/Ashe talk menus
+b017	ok	Nasadia talk menus, Florin scouting reports
+b018	ok	scouting reports (JP itself says カノーア王国 here, EN Kanoa Kingdom follows it)
+b019	ok	scouting reports, Sievas/Adramelech, Ryudral/Macula
+b020	ok	Ryudral story battles, Tia recruit
+b021	ok	Tia/Beasia recruit
+b022	ok	Beasia/Fiana recruit
+b023	ok	Yaruru/Dian recruit
+b024	ok	Dian/Felimi/Reiv recruit
+b025	ok	Reiv/Griffin recruit
+b026	ok	female-angel twins: Reiv/Griffin
+b027	ok	female-angel twins: Felimi/Dian
+b028	ok	Yaruru Big Sis lines
+b029	ok	Fiana/Beasia/Tia re-recruit, Reiv mission
+b030	ok	Reiv/Griffin/Felimi story battles
+b031	ok	Felimi/Miraya, Dian/Sierra
+b032	ok	Dian fallen, Yaruru riddle fiend, Rush/Jackhound
+b033	ok	Yaruru/Leraje, Fiana/Zebia/Balt/Apollyon, Ashe/Incubus
+b034	ok	Ashe/Sterens, Beasia and her father
+b035	fixed	3647.1280 "the hero of the you who was an angel" -> "I was your hero back when you were an angel"
+b036	ok	Belphegor, Gaap, Tia/Sylphe/Barnes
+b037	ok	Sylphe farewell, Sievas/Reiv mission offers
+b038	ok	Reiv/Griffin mission offers
+b039	ok	Tia/Felimi offers, former-hero offers
+b040	ok	Dian/Yaruru offers
+b041	ok	Yaruru/Ryudral offers
+b042	ok	Ryudral/Fiana offers
+b043	ok	Fiana/Ashe offers
+b044	ok	Ashe/Beasia/Nasadia offers
+b045	ok	Nasadia/Tia offers
+b046	ok	Tia offers, rescue replies
+b047	ok	one line
+b048	ok	Reiv/Griffin talk menus
+b049	ok	Griffin/Felimi/Dian talk menus
+b050	ok	Dian/Yaruru talk menus
+b051	ok	Yaruru/Fiana/Beasia talk menus
+b052	ok	Beasia/Tia talk menus
+b053	ok	Tia talk, Sievas soiree event

@@ -10,3 +10,6 @@ fixed or `waived: reason`; the release script refuses to run while any line is u
   ("a just-perfect-o hero"), the same in each scouting report.
 - [ ] 34CF.1432 - "I shall avenge your bitterness..." stiff; "I shall settle your grudge..."
 - [ ] 34C6.1096 - "Yes, I'm in yours too. Nasadia." stiff; e.g. "Yes. I'm counting on you, Nasadia." as in 34AE.108C.
+- [ ] 35A0.24CC - Griffin "wait, you'd be crazy to buy that" (納得する方が変だぞ): he means himself; "wait, I'd be nuts to buy that, y'know."
+- [ ] 3685.0306 - Griffin "Helpin' people kinda tickles" (くすぐってえ): means embarrassing; "Helpin' people's kinda embarrassin', but..."
+- [ ] Fiend/fiend: mission offers capitalise "Fiend" (36A7, 36D7, 3639), battle text has "the weird fiend" (3605); pick one.

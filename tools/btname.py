@@ -19,7 +19,8 @@ TREE = ROOT / "work" / "disc" / "tree"
 FONT = ROOT / "fonts" / "caps4x7.txt"
 TSV = ROOT / "trans" / "btname.tsv"
 EXE_VA = 0x8000F800  # RAM address of PSX.EXE file offset 0
-ENEMY_VA, N_ENEMY = 0x8013BFCC, 201
+ENEMY_VA, N_ENEMY = 0x8013BFCC, 254  # E000-E253; E254 (0x8013C7BC) is all zero (end). Bosses and dragons sit in
+# E201-E253 (battle T0201's Siren is type 0xD8 = 216): a 201-entry table left their plates as garbage.
 HERO_TABLE, N_HERO = 0x80146210, 19
 GLYPHS = 0x80154CF4  # code -> descriptor (u32 page, u32 u, u16 v, ...): the 8x8 font cell a code draws
 PLATE_W, ROWS, REC = 64, 7, 16
@@ -69,7 +70,7 @@ def decode(exe, codes):
 
 
 def jp_names(exe):
-    """[(id, jp)]: heroes H00-H18 (empty where the table has no record), enemies E000-E200"""
+    """[(id, jp)]: heroes H00-H18 (empty where the table has no record), enemies E000-E253"""
     out = []
     for i in range(N_HERO):
         p = u32(exe, HERO_TABLE + 4 * i)

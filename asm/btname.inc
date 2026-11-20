@@ -8,7 +8,7 @@
 ; proportional caps4x7 glyphs with 1-px gaps, ink = colour 1 like the kana) into a 4bpp RAM buffer and LoadImages
 ; that to the same label.
 ;
-; Space: the old enemy table (201 x 8 bytes) holds the font, hero names and the buffer; the enemy names (16 bytes
+; Space: the old enemy table (254 x 8 bytes; the guard below keeps to its first 0x648) holds the font, hero names and the buffer; the enemy names (16 bytes
 ; each) go over the descriptors of font codes 0x25-0xBF (the kana; a read watch over a whole battle saw no reads
 ; there, while the HUD reads codes 0x00-0x24: docs/re/graphics.md).
 
@@ -150,7 +150,7 @@ bt_data_end:
 .endif
 
 .org BT_NAMES
-    .incbin BTENEMY_BIN            ; 201 x 16 bytes, by enemy type
+    .incbin BTENEMY_BIN            ; 254 x 16 bytes, by enemy type (0-253)
 bt_names_end:
 .if bt_names_end > 0x80154CF4
     .error "battle enemy names overflow into the font code table"

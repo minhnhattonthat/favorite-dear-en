@@ -52,7 +52,8 @@ root; the 107 non-image GDATA entries (maps, 3D, battle data). Do these with the
   from 0x80046098 and 0x8005D5C8) then MoveImaged 8 font cells per unit slot (6 slots, records of 0x78 bytes at
   0x80196A20, +0x16 > 0 = shown) to x 0x1E0 + (slot&1)*16 halfwords, y 0x40 + (slot>>1)*8.
 - Names are 8 one-byte codes (0 = blank): heroes at the start of the record that 0x80146210[hero id] points to
-  (19 entries; the record also names the hero's battle sprite file), enemies at 0x8013BFCC + type*8 (201 types,
+  (19 entries; the record also names the hero's battle sprite file), enemies at 0x8013BFCC + type*8 (254 types E000-E253, then a zero entry; the first extraction stopped at 201 and
+  left every boss/dragon plate as garbage, e.g. T0201's Siren = type 0xD8,
   type = u16 at 0x80182B2C + (slot-3)*2). A code picks a 0x1C-byte descriptor through 0x80154CF4[code] (page,
   u, v, ..., w, h) at 0x801537F4 + code*0x1C; `tools/btname.py` decodes them (A-Z = 0x0B-0x24, 0-9 = 0x01-0x0A).
 - The HUD (LV digits, HP; 0x8005AF20, 0x8005B208 -> 0x8003C8A8) reads only codes 0x00-0x24 and the pointer table:

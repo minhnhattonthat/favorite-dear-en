@@ -40,18 +40,20 @@ def cstr(exe, va):
     return exe[o:exe.index(b"\0", o)].decode("ascii", "replace")
 
 
+def name_sectors(exe):
+    """{upper-case GDATA name without extension: original sector}."""
+    names = [cstr(exe, struct.unpack_from("<I", exe, va2off(NAMEPTRS_VA) + 4 * i)[0]) for i in range(NNAMES)]
+    out = {}
+    for i, n in enumerate(names):
+        out.setdefault(n.split(".")[0].split(";")[0].upper(),
+                       struct.unpack_from("<I", exe, va2off(TABLE_VA) + 8 * i)[0])
+    return out
+
+
 def id_sectors(exe):
     """{event id: original GDATA sector} for every event id whose name resolves to a directory entry."""
-    names = [cstr(exe, struct.unpack_from("<I", exe, va2off(NAMEPTRS_VA) + 4 * i)[0]) for i in range(NNAMES)]
-    bare = {}
-    for i, n in enumerate(names):
-        bare.setdefault(n.split(".")[0].split(";")[0].upper(), i)
-    out = {}
-    for eid, name in enumerate(events.event_names(exe)):
-        i = bare.get(name.upper())
-        if i is not None:
-            out[eid] = struct.unpack_from("<I", exe, va2off(TABLE_VA) + 8 * i)[0]
-    return out
+    bare = name_sectors(exe)
+    return {eid: bare[name.upper()] for eid, name in enumerate(events.event_names(exe)) if name.upper() in bare}
 
 
 def row_offsets():
@@ -98,7 +100,7 @@ def cmd_strings(a):
 
 def cmd_convert(a):
     exe, offs = row_offsets()
-    ids = id_sectors(exe)
+    ids0, bare = id_sectors(exe), name_sectors(exe)
     starts = {sec: [o for o, _ in v] for sec, v in offs.items()}
     for d in a.logdirs:
         log = Path(d) / "log.txt"
@@ -106,8 +108,13 @@ def cmd_convert(a):
             continue
         lines = log.read_text(encoding="utf-8", errors="replace").splitlines()
         lines = [x for x in lines if not x.startswith("TEXT ")]
-        slots, keys = {}, []
+        slots, keys, ids = {}, [], dict(ids0)
         for x in lines:
+            # warp.lua --event renames event id SLOT to EVENT in the name table: that id now loads EVENT's file
+            m = re.search(r"WARP patched slot (\d+) -> (\S+)", x)
+            if m and m[2].upper() in bare:
+                ids[int(m[1])] = bare[m[2].upper()]
+                continue
             m = re.search(r"SCR (\d+) (\d+) (\d+)", x)
             if m:
                 slots[int(m[1])] = (int(m[2]), int(m[3]))

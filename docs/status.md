@@ -2,8 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 13: boss/dragon plates fixed, build 816bdf57, stress saves
-  started; next: finish the re-tour + gate on 816bdf57, 1-code name save bug, open sheets, inkbox, textcover).
+- **Phase:** 8. QA in the emulator: in progress (worker 14: 1-code name bug closed (save.py), battle POISON stamp
+  fixed, build 0da4affb; next: finish re-tour + gate, inkbox, textcover sweep, stress sheets).
+  Worker 14 (2026-11-21): build **0da4affb58dffa13e5d14fe0c4984b816887dafb** (check ok 79, fitcheck ok, smoke ok).
+  (a) **1-code name bug closed, not a game bug:** c1 at save+0x202 is `sum(0x204..0x22B) & 0x0FFF` like c0; save.py
+  stored it unmasked, which only differs when the header sum passes 0xFFF (a 1-halfword name has 5 x 0xFFFF padding).
+  Proof: `name1_write` + `tools/lua/setname.lua` (loads Ivy, renames the angel "R" in RAM 0x8001F5F6, the game saves)
+  wrote c1 0x0E9 for sum 0x10E9 and `name1_load` reaches the week screen with "R"; the fixed save.py's "I" card
+  (`stress_name1_week`) loads too. No name.inc change needed. (b) **Battle status stamps:** battles draw the copy of
+  e243 inside pack e207 (block 3), so ポイズン stayed; `gfx.MIRRORS` repacks it (POISON in `work/qa/fix4/battle_t0901`).
+  `tools/gfxdup.py` sweeps the disc for copies of every redrawn image: none other. (c) Runs started: the re-tour of the
+  81 scenes missing since run3 on a **frozen copy of 816bdf57** (`work/qa/tour_build/`, log `work/qa/tour_run5.txt`;
+  the only difference to 0da4affb is e207, so after it: `qa_sheets.py`, `qa_gate.py init --build
+  work/qa/tour_build/favorite_dear_en.bin`, review, re-run the battle_* scenes on 0da4affb and `qa_gate.py waive`
+  with that reason, or re-tour); cover sweep resumed at -j 3 (`work/qa/cover_run6.txt`); JP tour of the compare-JP
+  scenes into `work/qa/tour_jp` (`tour_jp_run2.txt`).
   Worker 13 (2026-11-21): build **816bdf579192cc263f175c544a931b3ad626fe66** (check ok 76, fitcheck ok, smoke ok).
   (a) **t0201 plate bug fixed:** the enemy name table has **254** types (E000-E253, then a zero entry), not 201;
   types 201-253 (sea serpents, dragons, Siren, and the bosses Belphegor, Iuvart, Apollyon, Gaap, Adramelech...)
@@ -23,7 +36,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   regen commands in the scene notes; new scenes `stress_w10_week/_ability/_save`, `stress_i_week/_save` (not in the
   running tour: they were added after it started). Run in `work/qa/stress/`: 10 W's fit the week-screen name box and
   the save slot ("WWWWWWWWWW LV01"), AP 999 shows, "Ivy" fine (zoomed by me; add them to a manifest for the gate).
-  **Open bug (name length):** a save whose name is ONE halfword loads as "This Data is corrupted" (EN "I"; JP 1-kana
+  **(Closed by worker 14: save.py's c1, see above.)** A save whose name is ONE halfword loads as "This Data is corrupted" (EN "I"; JP 1-kana
   ラ the same on the JP disc; 2 codes load). The JP entry refuses only an empty name (0x80104B80), and in English
   1-2 letters pack into one code, so a player naming the angel "Al" may get an unloadable save, IF a game-written
   save fails like the edited one. Next: a new-game route that names the angel "R" and saves (the opening before the

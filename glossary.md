@@ -22,7 +22,9 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
   天使様 -> "Angel" (capitalised as an address), voiced by the speaker ("Hey, Angel!").
 - Common terms (not lint-enforced): 天使 angel; 勇者 hero (the angel's chosen champion); 妖精 fairy; 堕天使 fallen
   angel; 天界 the Heavens; 地上 the surface / the world below; 魔物/怪物/モンスター monster; 災い calamity;
-  魂 soul; 相性 compatibility (between heroes); 経験 experience; ボーナスＡＰ Bonus AP; 行方不明 missing.
+  魂 soul; 相性 compatibility (between heroes); 経験 experience; ボーナスＡＰ Bonus AP; 行方不明 missing;
+  平和度 peace level ("Peace level down 10 points!"); 地獄の騎士 Knight of Hell (Regal's title; b058 "Knights of
+  Hell"); 翼を持つ者 winged ones; 逆臣 traitor (逆臣ステレンス "the traitor Sterens").
 - Voices: docs/style-reference.md.
 
 ## Characters

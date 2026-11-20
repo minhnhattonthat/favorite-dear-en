@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, 133 of 144 event batches done (b001-b133; `batches.py todo` lists the 11 left; b103-b104 are all glyph soup `-`), pilot checked in game.
+- **Phase:** 6. Translate: in progress, 135 of 144 event batches done (b001-b135; `batches.py todo` lists the 9 left; b103-b104 are all glyph soup `-`), pilot checked in game.
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)
@@ -10,7 +10,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   ~300) and parts of 393D, 3976-3986 decode as kana/kanji soup under `tbl/jp.tbl` (codes parse; a substitution,
   likely a per-scene glyph set). Batched as `-` (b009-b013); find their table, re-extract, re-batch, translate.
   Glossary "Decisions from earlier batches" has the detail.
-- **Mission-title table 3AD6.2C44 (b130, left `-`):** one `{fc}`-wrapped row holding every mission title
+- **Mission-title tables 3AD6.2C44 (b130), 3B01.0CEC (b134) and 3B05.1212 (b135), left `-`:** one `{fc}`-wrapped row holding every mission title
   (盗賊・闇馬車, タンブール教会襲撃, ...) run together with full-width numbers as fillers for unused ids. The game
   must index into it some other way (no row cuts), so lengths cannot change until phase 7 finds that index; translate
   it then.

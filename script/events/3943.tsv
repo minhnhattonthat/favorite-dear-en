@@ -1,24 +1,24 @@
 id	jp	en	notes
-3943.12E0	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・？{n}あれか！！{n}{wait}{clear}{end}		
-3943.1314	{e0:E0FF}{spk:0080}{fa:0180}{n}へらず口はそのぐらいにしておけ！{n}ゆくぞ！{n}{wait}{clear}{end}		
+3943.12E0	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・？{n}あれか！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......? Is that it!!{n}{wait}{clear}{end}	
+3943.1314	{e0:E0FF}{spk:0080}{fa:0180}{n}へらず口はそのぐらいにしておけ！{n}ゆくぞ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Enough of your insolence! Here I come!{n}{wait}{clear}{end}	
 3943.1358	{e0:E0FF}{spk:0080}{fa:0180}{n}これは・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}What's this...{n}{wait}{clear}{end}	
-3943.1380	{e0:3E01}{spk:0080}{fa:0180}{n}・・・向かって来るのであれば仕方がない。{n}{wait}{clear}{end}		
+3943.1380	{e0:3E01}{spk:0080}{fa:0180}{n}・・・向かって来るのであれば仕方がない。{n}{wait}{clear}{end}	{e0:3E01}{spk:0080}{fa:0180}{n}...If you come at me, you leave me no{n}choice.{n}{wait}{clear}{end}	
 3943.13C2	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
-3943.13E4	{e0:3F01}{spk:0080}{fa:0180}{n}・・・答える必要を感じんな・・・。{n}{wait}{clear}{end}		
-3943.1420	{e0:4001}{spk:0080}{fa:0180}{n}・・・お前らの目的は何だ、{n}堕天使。{n}{wait}{clear}{end}		
-3943.145E	{e0:4101}{spk:0080}{fa:0180}{n}ここか・・・奴らがいるのは。{n}{wait}{clear}{end}		
-3943.1494	{e0:4201}{spk:0080}{fa:0180}{n}そうだ・・・、俺は天使の勇者だ。{n}だが、貴様に名乗る名はない・・・。{n}{wait}{clear}{end}		
-3943.14F2	{e0:4301}{spk:0080}{fa:0180}{n}・・・己のおごりを思い知ったか、{n}堕天使。{n}{wait}{clear}{end}		
-3943.1536	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
-3943.1586	{e0:4401}{spk:0080}{fa:0180}{n}なぜ、お前は戦う？{n}{wait}{clear}{end}		
-3943.15B2	{e0:4501}{spk:0080}{fa:0180}{n}・・・救い難いな。{n}{wait}{clear}{end}		
-3943.15DE	{e0:4601}{spk:0080}{fa:0180}{n}・・・お前を斬る！{n}{wait}{clear}{end}		
-3943.160A	{e0:4701}{spk:0080}{fa:0180}{n}・・・終わりだ、ラスエル。{n}{wait}{clear}{end}		
-3943.163E	{e0:4801}{spk:0080}{fa:0180}{n}ガープだな・・・。{n}{wait}{clear}{end}		
-3943.166A	{e0:4901}{spk:0080}{fa:0180}{n}何っ！{n}{wait}{clear}{end}		
-3943.168A	{e0:4A01}{spk:0080}{fa:0180}{n}・・・ガープ！{n}なぜ、インフォスを襲い{n}天界の天使たちと争うのだ？{n}{wait}{clear}{end}		
-3943.16E6	{e0:4B01}{spk:0080}{fa:0180}{n}貴様を倒し、インフォスを守る！{n}{wait}{clear}{end}		
-3943.171E	{e0:4C01}{spk:0080}{fa:0180}{n}・・・終わったな。{n}{wait}{clear}{end}		
-3943.1746	{spk:0080}{fa:0180}{n}つかまってるのでなし！{n}{wait}{clear}{end}		
-3943.176E	{spk:0080}{fa:0180}{n}なし{n}{wait}{clear}{end}		
-3943.1784	{spk:0080}{fa:0180}{n}{name:0080}、{n}・・・どうやら{n}まだこいつの仲間がいるようだな。{n}{wait}{clear}・・・。{n}とらわれた娘は、任せる。{n}俺は、奴等をかたづけよう・・・。{n}{wait}{clear}{end}		
+3943.13E4	{e0:3F01}{spk:0080}{fa:0180}{n}・・・答える必要を感じんな・・・。{n}{wait}{clear}{end}	{e0:3F01}{spk:0080}{fa:0180}{n}...I see no need to answer...{n}{wait}{clear}{end}	
+3943.1420	{e0:4001}{spk:0080}{fa:0180}{n}・・・お前らの目的は何だ、{n}堕天使。{n}{wait}{clear}{end}	{e0:4001}{spk:0080}{fa:0180}{n}...What is your goal, fallen angel?{n}{wait}{clear}{end}	
+3943.145E	{e0:4101}{spk:0080}{fa:0180}{n}ここか・・・奴らがいるのは。{n}{wait}{clear}{end}	{e0:4101}{spk:0080}{fa:0180}{n}So this is it... where they are.{n}{wait}{clear}{end}	
+3943.1494	{e0:4201}{spk:0080}{fa:0180}{n}そうだ・・・、俺は天使の勇者だ。{n}だが、貴様に名乗る名はない・・・。{n}{wait}{clear}{end}	{e0:4201}{spk:0080}{fa:0180}{n}Yes... I am the angel's hero. But I have{n}no name to give you...{n}{wait}{clear}{end}	
+3943.14F2	{e0:4301}{spk:0080}{fa:0180}{n}・・・己のおごりを思い知ったか、{n}堕天使。{n}{wait}{clear}{end}	{e0:4301}{spk:0080}{fa:0180}{n}...Now you know the price of your{n}arrogance, fallen angel.{n}{wait}{clear}{end}	
+3943.1536	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	
+3943.1586	{e0:4401}{spk:0080}{fa:0180}{n}なぜ、お前は戦う？{n}{wait}{clear}{end}	{e0:4401}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}	
+3943.15B2	{e0:4501}{spk:0080}{fa:0180}{n}・・・救い難いな。{n}{wait}{clear}{end}	{e0:4501}{spk:0080}{fa:0180}{n}...You're beyond saving.{n}{wait}{clear}{end}	
+3943.15DE	{e0:4601}{spk:0080}{fa:0180}{n}・・・お前を斬る！{n}{wait}{clear}{end}	{e0:4601}{spk:0080}{fa:0180}{n}...I will cut you down!{n}{wait}{clear}{end}	
+3943.160A	{e0:4701}{spk:0080}{fa:0180}{n}・・・終わりだ、ラスエル。{n}{wait}{clear}{end}	{e0:4701}{spk:0080}{fa:0180}{n}...It's over, Rasuel.{n}{wait}{clear}{end}	
+3943.163E	{e0:4801}{spk:0080}{fa:0180}{n}ガープだな・・・。{n}{wait}{clear}{end}	{e0:4801}{spk:0080}{fa:0180}{n}Gaap, I take it...{n}{wait}{clear}{end}	
+3943.166A	{e0:4901}{spk:0080}{fa:0180}{n}何っ！{n}{wait}{clear}{end}	{e0:4901}{spk:0080}{fa:0180}{n}What!{n}{wait}{clear}{end}	
+3943.168A	{e0:4A01}{spk:0080}{fa:0180}{n}・・・ガープ！{n}なぜ、インフォスを襲い{n}天界の天使たちと争うのだ？{n}{wait}{clear}{end}	{e0:4A01}{spk:0080}{fa:0180}{n}...Gaap! Why do you attack Infos and{n}fight the angels of Heaven?{n}{wait}{clear}{end}	
+3943.16E6	{e0:4B01}{spk:0080}{fa:0180}{n}貴様を倒し、インフォスを守る！{n}{wait}{clear}{end}	{e0:4B01}{spk:0080}{fa:0180}{n}I will defeat you and protect Infos!{n}{wait}{clear}{end}	
+3943.171E	{e0:4C01}{spk:0080}{fa:0180}{n}・・・終わったな。{n}{wait}{clear}{end}	{e0:4C01}{spk:0080}{fa:0180}{n}...It's over.{n}{wait}{clear}{end}	
+3943.1746	{spk:0080}{fa:0180}{n}つかまってるのでなし！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}(None: not captured!){n}{wait}{clear}{end}	
+3943.176E	{spk:0080}{fa:0180}{n}なし{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}(None){n}{wait}{clear}{end}	
+3943.1784	{spk:0080}{fa:0180}{n}{name:0080}、{n}・・・どうやら{n}まだこいつの仲間がいるようだな。{n}{wait}{clear}・・・。{n}とらわれた娘は、任せる。{n}俺は、奴等をかたづけよう・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}{name:0080}, ...it seems this one still{n}has allies about.{n}{wait}{clear}.... I leave the captive girl to you.{n}I'll deal with them...{n}{wait}{clear}{end}	

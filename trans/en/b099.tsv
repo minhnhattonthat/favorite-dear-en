@@ -1,0 +1,61 @@
+id	en
+3939.0A02	{fb:AA80}{n}{spk:0080}{n}A girl from Omron is being held captive in Kurumena (37, 47), on the border of the Kingdom of Kimbalt.{n}{wait}{clear}She is unharmed, but surrounded by monsters... We cannot save her without a hero's help!{n}{wait}{clear}{end}
+3939.0ACE	{fb:AB80}{n}{spk:0080}{n}Angel, let us hurry and ask a hero to rescue her.{n}{wait}{clear}{end}
+3939.0B82	{fb:AD80}{n}{spk:0080}{n}But right now we can do nothing until we find a hero first, can we.{n}{wait}{clear}{end}
+393B.04A2	{fb:8C80}{n}{spk:0080}{n}I hear a magical beast is rampaging in Omron (43, 47) in Kvaal territory.{n}{wait}{clear}It is a very strong beast, and at this rate the village will be wiped out. I believe it must be defeated.{n}{wait}{clear}{end}
+393B.0560	{fb:8D80}{n}Omron is Tia's hometown, so why not try asking her, Angel?{n}{wait}{clear}{end}
+393B.0684	{fb:9680}{n}{spk:0080}{n}A magical beast is rampaging in Omron (43, 47) in Kvaal territory.{n}{wait}{clear}It's super strong, so if we don't do something fast the village will be wiped out!{n}{wait}{clear}{end}
+393B.0726	{fb:9780}{n}Omron is Tia's hometown, right? So I think asking Tia would be good.{n}{wait}{clear}{end}
+393B.0794	{fb:9880}{n}{spk:0080}{n}Angel, why not start by asking a hero?{n}{wait}{clear}{end}
+393B.0854	{fb:A080}{n}{spk:0080}{n}A magical beast is rampaging in Omron (43, 47) in Kvaal territory!{n}{wait}{clear}It's super strong, and at this rate it looks like the village will be wiped out!{n}{wait}{clear}{end}
+393B.08F0	{fb:A180}{n}It's a case in Omron, so I think asking Tia would be good here. What do you say?{n}{wait}{clear}{end}
+393B.09F2	{fb:AA80}{n}{spk:0080}{n}I hear a magical beast is rampaging in Omron (43, 47) in Kvaal territory.{n}{wait}{clear}It is extremely powerful, and at this rate the village will be wiped out.{n}{wait}{clear}{end}
+393B.0A8A	{fb:AB80}{n}Omron is Tia's hometown, so why not entrust it to her by all means?{n}{wait}{clear}{end}
+3943.12E0	{e0:E0FF}{spk:0080}{fa:0180}{n}......? Is that it!!{n}{wait}{clear}{end}
+3943.1314	{e0:E0FF}{spk:0080}{fa:0180}{n}Enough of your insolence! Here I come!{n}{wait}{clear}{end}
+3943.1380	{e0:3E01}{spk:0080}{fa:0180}{n}...If you come at me, you leave me no choice.{n}{wait}{clear}{end}
+3943.13E4	{e0:3F01}{spk:0080}{fa:0180}{n}...I see no need to answer...{n}{wait}{clear}{end}
+3943.1420	{e0:4001}{spk:0080}{fa:0180}{n}...What is your goal, fallen angel?{n}{wait}{clear}{end}
+3943.145E	{e0:4101}{spk:0080}{fa:0180}{n}So this is it... where they are.{n}{wait}{clear}{end}
+3943.1494	{e0:4201}{spk:0080}{fa:0180}{n}Yes... I am the angel's hero. But I have no name to give you...{n}{wait}{clear}{end}
+3943.14F2	{e0:4301}{spk:0080}{fa:0180}{n}...Now you know the price of your arrogance, fallen angel.{n}{wait}{clear}{end}
+3943.1536	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}
+3943.1586	{e0:4401}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}
+3943.15B2	{e0:4501}{spk:0080}{fa:0180}{n}...You're beyond saving.{n}{wait}{clear}{end}
+3943.15DE	{e0:4601}{spk:0080}{fa:0180}{n}...I will cut you down!{n}{wait}{clear}{end}
+3943.160A	{e0:4701}{spk:0080}{fa:0180}{n}...It's over, Rasuel.{n}{wait}{clear}{end}
+3943.163E	{e0:4801}{spk:0080}{fa:0180}{n}Gaap, I take it...{n}{wait}{clear}{end}
+3943.166A	{e0:4901}{spk:0080}{fa:0180}{n}What!{n}{wait}{clear}{end}
+3943.168A	{e0:4A01}{spk:0080}{fa:0180}{n}...Gaap! Why do you attack Infos and fight the angels of Heaven?{n}{wait}{clear}{end}
+3943.16E6	{e0:4B01}{spk:0080}{fa:0180}{n}I will defeat you and protect Infos!{n}{wait}{clear}{end}
+3943.171E	{e0:4C01}{spk:0080}{fa:0180}{n}...It's over.{n}{wait}{clear}{end}
+3943.1746	{spk:0080}{fa:0180}{n}(None: not captured!){n}{wait}{clear}{end}
+3943.176E	{spk:0080}{fa:0180}{n}(None){n}{wait}{clear}{end}
+3943.1784	{spk:0080}{fa:0180}{n}{name:0080}, ...it seems this one still has allies about.{n}{wait}{clear}.... I leave the captive girl to you. I'll deal with them...{n}{wait}{clear}{end}
+3947.12F2	{e0:E0FF}{spk:0080}{fa:0180}{n}Is it really somewhere like this?{n}{wait}{clear}{end}
+3947.132A	{e0:E0FF}{spk:0080}{fa:0180}{n}You sure talk a lot! Let's go!{n}{wait}{clear}{end}
+3947.1368	{e0:E0FF}{spk:0080}{fa:0180}{n}...That's ugly.{n}{wait}{clear}{end}
+3947.1392	{e0:C501}{spk:0080}{fa:0180}{n}{name:0080}, stay back!! Talking won't get through to a guy like this!{n}{wait}{clear}{end}
+3947.13F6	{e0:DB03}{spk:0080}{fa:0180}{n}...Sad sort of guy, wasn't he.{n}{wait}{clear}{end}
+3947.142E	{e0:C701}{spk:0080}{fa:0180}{n}What's it to you?{n}{wait}{clear}{end}
+3947.1462	{e0:C801}{spk:0080}{fa:0180}{n}What are you after, going for Infos? Answer me, fallen angel!{n}{wait}{clear}{end}
+3947.14B0	{e0:C901}{spk:0080}{fa:0180}{n}This the place? Where the fallen angel is?{n}{wait}{clear}{end}
+393D.0C58	-
+393D.0DEC	-
+393D.0E2C	-
+393D.0E64	-
+393D.0FA4	-
+393D.1050	-
+393D.10A8	-
+393D.10E4	-
+393D.1242	-
+393D.14D4	-
+393D.17A2	-
+393D.1A14	-
+393D.1BE4	-
+393D.1C18	-
+393D.1D3C	-
+393D.1E3A	-
+393D.1FD2	-
+393D.2268	-
+393D.2538	-

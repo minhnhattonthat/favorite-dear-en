@@ -14,7 +14,7 @@ id	jp	en	notes
 394F.1598	{e0:6703}{spk:0080}{fa:0180}{n}倒すことでしか{n}治療はできないようですね、{n}堕天使ラスエル！{n}{wait}{clear}{end}		
 394F.15EE	{e0:6803}{spk:0080}{fa:0180}{n}・・・これで終わりです、ラスエル。{n}{wait}{clear}{end}		
 394F.162A	{e0:6903}{spk:0080}{fa:0180}{n}とうとう、堕天使の長が現れましたね。{n}{wait}{clear}{end}		
-394F.1668	{e0:6A03}{spk:0080}{fa:0180}{n}何っ！{n}{wait}{clear}{end}		
+394F.1668	{e0:6A03}{spk:0080}{fa:0180}{n}何っ！{n}{wait}{clear}{end}	{e0:6A03}{spk:0080}{fa:0180}{n}What!{n}{wait}{clear}{end}	
 394F.1688	{e0:6B03}{spk:0080}{fa:0180}{n}ガープ！　なぜ、インフォスを襲い、{n}天界の天使たちと戦うのです？{n}{wait}{clear}{end}		
 394F.16E2	{e0:6C03}{spk:0080}{fa:0180}{n}命をかけても貴方を倒す！　ガープ！{n}{wait}{clear}{end}		
 394F.171E	{e0:6D03}{spk:0080}{fa:0180}{n}・・・すべて終わりましたね。{n}{wait}{clear}{end}		

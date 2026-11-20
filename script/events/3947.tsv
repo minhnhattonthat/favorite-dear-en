@@ -1,12 +1,12 @@
 id	jp	en	notes
-3947.12F2	{e0:E0FF}{spk:0080}{fa:0180}{n}ホントに、こんな所にいるのか？{n}{wait}{clear}{end}		
-3947.132A	{e0:E0FF}{spk:0080}{fa:0180}{n}グダグダとうるさい奴だな！{n}行くぜ！{n}{wait}{clear}{end}		
-3947.1368	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・ひでえな。{n}{wait}{clear}{end}		
-3947.1392	{e0:C501}{spk:0080}{fa:0180}{n}{name:0080}は、さがってな！！{n}こういうやつには、{n}口で言ってもわかりゃしねえよ！{n}{wait}{clear}{end}		
-3947.13F6	{e0:DB03}{spk:0080}{fa:0180}{n}・・・悲しいヤツだったんだな。{n}{wait}{clear}{end}		
-3947.142E	{e0:C701}{spk:0080}{fa:0180}{n}関係あんのか？　テメェに？{n}{wait}{clear}{end}		
-3947.1462	{e0:C801}{spk:0080}{fa:0180}{n}インフォスを狙うテメェらの{n}目的はなんだ！　堕天使。{n}{wait}{clear}{end}		
-3947.14B0	{e0:C901}{spk:0080}{fa:0180}{n}ここだな？　堕天使がいんのは。{n}{wait}{clear}{end}		
+3947.12F2	{e0:E0FF}{spk:0080}{fa:0180}{n}ホントに、こんな所にいるのか？{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Is it really somewhere like this?{n}{wait}{clear}{end}	
+3947.132A	{e0:E0FF}{spk:0080}{fa:0180}{n}グダグダとうるさい奴だな！{n}行くぜ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}You sure talk a lot! Let's go!{n}{wait}{clear}{end}	
+3947.1368	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・ひでえな。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}...That's ugly.{n}{wait}{clear}{end}	
+3947.1392	{e0:C501}{spk:0080}{fa:0180}{n}{name:0080}は、さがってな！！{n}こういうやつには、{n}口で言ってもわかりゃしねえよ！{n}{wait}{clear}{end}	{e0:C501}{spk:0080}{fa:0180}{n}{name:0080}, stay back!! Talking won't{n}get through to a guy like this!{n}{wait}{clear}{end}	
+3947.13F6	{e0:DB03}{spk:0080}{fa:0180}{n}・・・悲しいヤツだったんだな。{n}{wait}{clear}{end}	{e0:DB03}{spk:0080}{fa:0180}{n}...Sad sort of guy, wasn't he.{n}{wait}{clear}{end}	
+3947.142E	{e0:C701}{spk:0080}{fa:0180}{n}関係あんのか？　テメェに？{n}{wait}{clear}{end}	{e0:C701}{spk:0080}{fa:0180}{n}What's it to you?{n}{wait}{clear}{end}	
+3947.1462	{e0:C801}{spk:0080}{fa:0180}{n}インフォスを狙うテメェらの{n}目的はなんだ！　堕天使。{n}{wait}{clear}{end}	{e0:C801}{spk:0080}{fa:0180}{n}What are you after, going for Infos?{n}Answer me, fallen angel!{n}{wait}{clear}{end}	
+3947.14B0	{e0:C901}{spk:0080}{fa:0180}{n}ここだな？　堕天使がいんのは。{n}{wait}{clear}{end}	{e0:C901}{spk:0080}{fa:0180}{n}This the place? Where the fallen angel{n}is?{n}{wait}{clear}{end}	
 3947.14E8	{e0:CA01}{spk:0080}{fa:0180}{n}おうよ、オレは勇者グリフィン。{n}てめえをブッ倒しにやって来たぜ。{n}{wait}{clear}{end}		
 3947.1542	{e0:CB01}{spk:0080}{fa:0180}{n}へっ、口ほどにもねえ野郎だ。{n}{wait}{clear}{end}		
 3947.1578	{e0:CC01}{spk:0080}{fa:0180}{n}フン、どんな奴が出てこようと{n}俺は必ず勝つぜ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		

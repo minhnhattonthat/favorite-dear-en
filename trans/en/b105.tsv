@@ -1,0 +1,84 @@
+id	en
+398A.06E6	{fb:1480}{n}{spk:0080}{n}What is it? Is there something you want to talk about?{n}{wait}{clear}{end}
+398A.071A	{fb:1580}{n}{spk:0080}{n}That's enough talk. I have no time to play around.{n}{wait}{clear}{end}
+398A.07C6	{fb:2880}{n}{spk:0080}{n}What's wrong?{n}{wait}{clear}{end}
+398A.07E4	{fb:2980}{n}{spk:0080}{n}...Is that all? Then let's go...{n}{wait}{clear}{end}
+398A.087A	{fb:3C80}{n}{spk:0080}{n}Huh? Talk about what?{n}{wait}{clear}{end}
+398A.08A6	{fb:3D80}{n}{spk:0080}{n}Well then, let's get going.{n}{wait}{clear}{end}
+398A.091E	{fb:5080}{n}{spk:0080}{n}Oh... Are you tired, Angel? Or is there something you'd like to talk about?{n}{wait}{clear}{end}
+398A.0978	{fb:5180}{n}{spk:0080}{n}I see. Then let's hurry on.{n}{wait}{clear}{end}
+398A.0A46	{fb:6480}{n}{spk:0080}{n}What is it, Angel? Something to discuss?{n}{wait}{clear}{end}
+398A.0A84	{fb:6580}{n}{spk:0080}{n}Then let us continue our journey.{n}{wait}{clear}{end}
+398A.0B1A	{fb:7880}{n}{spk:0080}{n}What's up? Why'd you stop?{n}{wait}{clear}{end}
+398A.0B50	{fb:7980}{n}{spk:0080}{n}OK. Let's go, then.{n}{wait}{clear}{end}
+398A.0BEA	{fb:8C80}{n}{spk:0080}{n}Huh, what's wrong? Stopping like that... Are you tired?{n}{wait}{clear}{end}
+398A.0C42	{fb:8D80}{n}{spk:0080}{n}All done? Let's go, then.{n}{wait}{clear}{end}
+398A.0D0E	{fb:A080}{n}{spk:0080}{n}Hm? What is it? Something to talk about?{n}{wait}{clear}{end}
+398A.0D42	{fb:A180}{n}{spk:0080}{n}I see. Let's go, then.{n}{wait}{clear}{end}
+398A.0DDA	{fb:B480}{n}{spk:0080}{n}Huh, what? Did you say something?{n}{wait}{clear}{end}
+398A.0E06	{fb:B580}{n}{spk:0080}{n}Well then. Let's go.{n}{wait}{clear}{end}
+398A.0E9A	{fb:C880}{n}{spk:0080}{n}Talk? What's this all of a sudden?{n}{wait}{clear}{end}
+398A.0EC8	{fb:C980}{n}{spk:0080}{n}All right! Let's go, then!{n}{wait}{clear}{end}
+398A.0F4E	{fb:DC80}{n}{spk:0080}{n}Oh, what's the matter? Stopping all of a sudden.{n}{wait}{clear}{end}
+398A.0F8E	{fb:DD80}{n}{spk:0080}{n}All done? Then let's go...{n}{wait}{clear}{end}
+398A.104A	{fb:F080}{n}{spk:0080}{n}What is it, Angel?{n}{wait}{clear}{end}
+398A.1078	{fb:F180}{n}{spk:0080}{n}Then shall we hurry on?{n}{wait}{clear}{end}
+398A.1104	{fb:1480}{n}{spk:0080}{n}Well. Coming even this late at night. What do you mean by it...{n}{wait}{clear}{end}
+398A.115C	{fb:1580}{n}{spk:0080}{n}Next time, I'd like you to take care not to come so late.{n}{wait}{clear}{end}
+398A.1258	{fb:2880}{n}{spk:0080}{n}...Visiting at this hour... Angels are rather rude, it seems. ...Is it something important?{n}{wait}{clear}{end}
+398A.12C4	{fb:2980}{n}{spk:0080}{n}.... Done, then. Next time, choose your hour.{n}{wait}{clear}{end}
+398A.13CC	{fb:3C80}{n}{spk:0080}{n}You sure stay up late. So, got something to talk about at this hour?{n}{wait}{clear}{end}
+398A.1426	{fb:3D80}{n}{spk:0080}{n}See ya. I'm going to bed.{n}{wait}{clear}{end}
+398A.14E0	{fb:5080}{n}{spk:0080}{n}Angel... Coming at this hour, has something happened?{n}{wait}{clear}{end}
+398A.153A	{fb:5180}{n}{spk:0080}{n}I see. Then let's get some rest, Angel.{n}{wait}{clear}{end}
+398A.160C	{fb:6480}{n}{spk:0080}{n}So late at night... Forgive me, but I'd like to get some sleep now...{n}{wait}{clear}{end}
+398A.166A	{fb:6580}{n}{spk:0080}{n}It seems your business is all done. Good night, then.{n}{wait}{clear}{end}
+398A.176C	{fb:7880}{n}{spk:0080}{n}Huh... Angel. It's bedtime already. What do you want?{n}{wait}{clear}{end}
+398A.17B0	{fb:7980}{n}{spk:0080}{n}Good night, then...{n}{wait}{clear}{end}
+398A.1850	{fb:8C80}{n}{spk:0080}{n}Huh... It's pretty late at night. What's wrong?{n}{wait}{clear}{end}
+398A.18A8	{fb:8D80}{n}{spk:0080}{n}Done talking? Then it's late, so I think I'll get some sleep.{n}{wait}{clear}{end}
+398A.1998	{fb:A080}{n}{spk:0080}{n}Oh, it's you... ...What do you want...?{n}{wait}{clear}{end}
+398A.19DC	{fb:A180}{n}{spk:0080}{n}I see... Good night, then...{n}{wait}{clear}{end}
+398A.1A9C	{fb:B480}{n}{spk:0080}{n}Aww, whaaat? I wanna sleep already... Sorry! Make it tomorrow. Bye!{n}{wait}{clear}{end}
+398A.1BA4	{fb:C880}{n}{spk:0080}{n}Whoa, whoa. Don't scare me like that. Coming in the middle of the night... So, got something to say?{n}{wait}{clear}{end}
+398A.1C10	{fb:C980}{n}{spk:0080}{n}Guess I'll hit the sack too.{n}{wait}{clear}{end}
+398A.1CF0	{fb:DC80}{n}{spk:0080}{n}What is it, at this hour... Even for you, that's a bit too familiar. ...What do you want?{n}{wait}{clear}{end}
+398A.1D6A	{fb:DD80}{n}{spk:0080}{n}I see. Good night, then.{n}{wait}{clear}{spk:0080}{n}If you want to talk, do it while I'm awake, won't you...{n}{wait}{clear}{end}
+398A.1ED4	{fb:F080}{n}{spk:0080}{n}Oh... A-Angel... Y-you mustn't... not at this hour...{n}{wait}{clear}{spk:0080}{n}Not even you, Angel. Please come back tomorrow...{n}{wait}{clear}{end}
+398A.1F96	{fb:FA80}{n}{spk:0080}{n}Oh, Angel... I'm sorry, when you've come all this way, but...{n}{wait}{clear}{spk:0080}{n}I'm really sleepy. I'm sorry.{n}{wait}{clear}{end}
+398A.2044	{fb:1480}{n}{spk:0080}{n}Oh, it's you? Are you here to keep me company for after-dinner conversation?{n}{wait}{clear}{end}
+398A.2098	{fb:1580}{n}{spk:0080}{n}Then I'll relax here a while longer.{n}{wait}{clear}{end}
+398A.2170	{fb:2880}{n}{spk:0080}{n}.... You even follow me to meals?{n}{wait}{clear}{end}
+398A.21A8	{fb:2980}{n}{spk:0080}{n}Is that all?{n}{wait}{clear}{end}
+398A.2224	{fb:3C80}{n}{spk:0080}{n}Oh, it's you. I want to grab some grub, so make it quick.{n}{wait}{clear}{end}
+398A.2276	{fb:3D80}{n}{spk:0080}{n}Right, time to eat.{n}{wait}{clear}{end}
+398A.2328	{fb:5080}{n}{spk:0080}{n}Oh, Angel. I'm about to have my meal. ...Is there something to discuss?{n}{wait}{clear}{end}
+398A.2380	{fb:5180}{n}{spk:0080}{n}I see. Well then.{n}{wait}{clear}{end}
+398A.242C	{fb:6480}{n}{spk:0080}{n}Oh, have you already eaten, Angel? I was just about to...{n}{wait}{clear}{spk:0080}{n}Something to discuss?{n}{wait}{clear}{end}
+398A.24AC	{fb:6580}{n}{spk:0080}{n}Are we finished? Then, if you'll excuse me, I'll have my meal.{n}{wait}{clear}{end}
+398A.25D8	{fb:7880}{n}{spk:0080}{n}Oh, Angel. I'm just going to get something to eat. What do you want?{n}{wait}{clear}{end}
+398A.2632	{fb:7980}{n}{spk:0080}{n}That's it, right! Then food time!{n}{wait}{clear}{end}
+398A.2708	{fb:8C80}{n}{spk:0080}{n}Now, food. Food! Man, I'm starving!! Huh? What is it?{n}{wait}{clear}{end}
+398A.2754	{fb:8D80}{n}{spk:0080}{n}Well, now that we're done talking... Food time!{n}{wait}{clear}{end}
+398A.2834	{fb:A080}{n}{spk:0080}{n}Huh? You're even following me to meals? Or is it something else?{n}{wait}{clear}{end}
+398A.287C	{fb:A180}{n}{spk:0080}{n}That all? Then it's mealtime.{n}{wait}{clear}{end}
+398A.2930	{fb:B480}{n}{spk:0080}{n}Oh, you followed me here too? I'm about to eat, you know.{n}{wait}{clear}{end}
+398A.298A	{fb:B580}{n}{spk:0080}{n}W-wait a sec! I can't take it!! I'm so hungry my stomach's touching my back!! L-later, OK!!{n}{wait}{clear}{end}
+398A.2AC4	{fb:C880}{n}{spk:0080}{n}Huh? Talk now? Geez! Give me a break at least while I'm eating.{n}{wait}{clear}{end}
+398A.2B1E	{fb:C980}{n}{spk:0080}{n}Well, we're done talking. Time to eat.{n}{wait}{clear}{end}
+398A.2BFC	{fb:DC80}{n}{spk:0080}{n}Oh my. So angels even follow you to meals. Heh heh.{n}{wait}{clear}{end}
+398A.2C48	{fb:DD80}{n}{spk:0080}{n}All done? Now then, where shall I go today?{n}{wait}{clear}{end}
+398A.2D20	{fb:F080}{n}{spk:0080}{n}I was just about to go have a meal. Is there something you need?{n}{wait}{clear}{end}
+3986.07DC	-
+3986.08D8	-
+3986.0A20	-
+3986.0B26	-
+3986.0F10	-
+3986.104A	-
+3986.1114	-
+3986.11D4	-
+3986.131A	-
+3986.148C	-
+3986.16DA	-
+3986.1CCE	-
+3986.1ECA	-

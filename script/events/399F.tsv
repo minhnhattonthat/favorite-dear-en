@@ -1,5 +1,5 @@
 id	jp	en	notes
-399F.0F0C	{fb:FE81}{n}{spk:0080}{n}どうした？　何か話でもあるのか？{n}{wait}{clear}{end}		
+399F.0F0C	{fb:FE81}{n}{spk:0080}{n}どうした？　何か話でもあるのか？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}What is it? Is there something you want{n}to talk about?{n}{wait}{clear}{end}	
 399F.0F40	{fb:0080}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800080}{n}余計な心配はするな。{n}それに、目的地までもう少しある。{n}ここで休んではいられんだろう。{n}{wait}{clear}{end}		
 399F.0FD4	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800080}{n}ああ、疲れているとも。{n}・・・で、君がこの疲れを{n}いやしてくれるとでも言うのか？{n}{wait}{clear}{end}		
 399F.1060	{fb:1480}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}それほど空いてない。{n}つまらん事を気にするな。{n}{wait}{clear}{end}		
@@ -17,7 +17,7 @@ id	jp	en	notes
 399F.1682	{fb:8C80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}飛びたいと思ったところで、{n}飛べはしないからな。{n}思うだけむだというものだ。{n}{wait}{clear}{end}		
 399F.1712	{fb:9680}{n}{spk:E783}{n}ずいぶん歩きましたね。{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}そうだな。だが、安心するのは{n}まだ早い。残念だが、{n}目的地はもう少し先だ。{n}{wait}{clear}{end}		
 399F.179C	{fb:A080}{n}{spk:E783}{n}私達のような旅人を見かけませんね。{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}そうだな。{n}旅人が少ないのは、世の中が{n}荒れているからだろう。{n}{wait}{clear}{spk:0080}{n}いやな時代だ。{n}{wait}{clear}{end}		
-399F.1840	{fb:FF81}{n}{spk:0080}{n}どうした？　何か話でもあるのか？{n}{wait}{clear}{end}		
+399F.1840	{fb:FF81}{n}{spk:0080}{n}どうした？　何か話でもあるのか？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}What is it? Is there something you want{n}to talk about?{n}{wait}{clear}{end}	
 399F.1874	{fb:0180}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}{fd:018000800280}{n}そうだな。確かに悪くない。{n}{wait}{clear}{end}		
 399F.18CE	{fb:1580}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}余計な心配はするな。{n}それに、目的地までもう少しある。{n}ここで休んではいられんだろう。{n}{wait}{clear}{end}		
 399F.1958	{fb:1580}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}それほど空いてない。{n}つまらん事を気にするな。{n}{wait}{clear}{end}		
@@ -35,7 +35,7 @@ id	jp	en	notes
 399F.1F50	{fb:8D80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}飛びたいと思ったところで、{n}飛べはしないからな。{n}思うだけむだというものだ。{n}{wait}{clear}{end}		
 399F.1FE0	{spk:E783}{n}{fb:9780}{n}ずいぶん歩きましたね。{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}そうだな。だが、安心するのは{n}まだ早い。残念だが、{n}目的地はもう少し先だ。{n}{wait}{clear}{end}		
 399F.206A	{fb:A180}{n}{spk:E783}{n}私達のような旅人を見かけませんね。{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}そうだな。{n}旅人が少ないのは、世の中が{n}荒れているからだろう。{n}{wait}{clear}{spk:0080}{n}いやな時代だ。{n}{wait}{clear}{end}		
-399F.2110	{fb:FE81}{n}{spk:0080}{n}ほう。{n}こんな夜遅くにも、やってくるとは。{n}どういうつもりだ・・・。{n}{wait}{clear}{end}		entry point inside the previous row's message
+399F.2110	{fb:FE81}{n}{spk:0080}{n}ほう。{n}こんな夜遅くにも、やってくるとは。{n}どういうつもりだ・・・。{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Well. Coming even this late at night.{n}What do you mean by it...{n}{wait}{clear}{end}	entry point inside the previous row's message
 399F.2168	{fb:0080}{n}{spk:E783}{n}何をしてるのかな？　と思いまして。{n}{wait}{clear}{spk:0080}{n}{fe:018000800180}{n}そう思っても、こんな時間には{n}来ないのが礼儀というものだ。{n}{wait}{clear}{end}		
 399F.21EE	{fb:0A80}{n}{spk:E783}{n}今日もおつかれさまでした。{n}{wait}{clear}{spk:0080}{n}それが用件か？{n}・・・なら、よく分かった。{n}{wait}{clear}{spk:0080}{n}よく分かったから、{n}もういいだろう？{n}{wait}{clear}{end}		
 399F.2282	{fb:1480}{n}{spk:E783}{n}おじゃま、でしたか・・・？{n}{wait}{clear}{spk:0080}{n}{fe:018000800180}{n}ハッキリ言わないと{n}分からないのか？　君は。{n}{wait}{clear}{end}		
@@ -43,7 +43,7 @@ id	jp	en	notes
 399F.2364	{fb:2880}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{spk:0080}{n}悪いが、とても話をする気にはなれん。{n}明日にしてくれ。{n}{wait}{clear}{end}		
 399F.23DE	{fb:3C80}{n}{spk:E783}{n}今夜は夜会はないのですか？{n}{wait}{clear}{spk:0080}{n}見ての通りだ。{n}今夜は一人静かに眠りたい。{n}{wait}{clear}{end}		
 399F.2442	{fb:3C80}{n}{spk:E783}{n}今夜は夜会はないのですか？{n}{wait}{clear}{spk:0080}{n}見ての通りだ。{n}今夜は一人静かに眠りたい。{n}{wait}{clear}{end}		
-399F.24A6	{fb:FF81}{n}{spk:0080}{n}ほう。{n}こんな夜遅くにも、やってくるとは。{n}どういうつもりだ・・・。{n}{wait}{clear}{end}		
+399F.24A6	{fb:FF81}{n}{spk:0080}{n}ほう。{n}こんな夜遅くにも、やってくるとは。{n}どういうつもりだ・・・。{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Well. Coming even this late at night.{n}What do you mean by it...{n}{wait}{clear}{end}	
 399F.24FE	{fb:0180}{n}{spk:E783}{n}何をしてるのかな？　と思いまして。{n}{wait}{clear}{spk:0080}{n}{fe:018000800180}{n}そう思っても、こんな時間には{n}来ないのが礼儀というものだ。{n}{wait}{clear}{end}		
 399F.2584	{fb:0B80}{n}{spk:E783}{n}今日もおつかれさまでした。{n}{wait}{clear}{spk:0080}{n}それが用件か？{n}・・・なら、よく分かった。{n}{wait}{clear}{spk:0080}{n}よく分かったから、{n}もういいだろう？{n}{wait}{clear}{end}		
 399F.2618	{fb:1580}{n}{spk:E783}{n}おじゃま、でしたか・・・？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}ハッキリ言わないと{n}分からないのか？　君は。{n}{wait}{clear}{end}		

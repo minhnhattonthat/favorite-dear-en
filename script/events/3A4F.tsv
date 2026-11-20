@@ -3,7 +3,7 @@ id	jp	en	notes
 3A4F.1124	{spk:0080}{fa:0080}{n}なに、礼には及ばん。{n}人として当然の事をしたまで。{n}{wait}{clear}それに、助けを求めている女性を救うのは、{n}騎士として当然の役目だ。{n}{wait}{clear}{spk:0180}{fa:0180}{n}あの・・・。{n}{wait}{clear}{spk:0080}{fa:0080}{n}・・・それより、{n}ティア殿、君は今、忙しいのか？{n}{wait}{clear}{end}		
 3A4F.120C	{spk:0180}{fa:0180}{n}え？　いえ・・・忙しくは・・・。{n}でも、それがなにか？{n}{wait}{clear}{end}		
 3A4F.1254	{spk:0080}{fa:0080}{n}これから少し休もうと{n}思っていたところなのだが・・・。{n}{wait}{clear}ご一緒にどうかな？{n}{wait}{clear}{spk:0180}{fa:0180}{n}え？　いえ、あの・・・。{n}{wait}{clear}私、お礼を言いたかった{n}だけですから・・・。{n}{wait}{clear}あの、失礼します！{n}{wait}{clear}{end}		
-3A4F.1326	{spk:0080}{fa:0080}{n}・・・・・・。{n}{wait}{clear}{end}		
+3A4F.1326	{spk:0080}{fa:0080}{n}・・・・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0080}{n}......{n}{wait}{clear}{end}	
 3A4F.1346	{spk:0080}{fa:0080}{n}何か誤解されてしまった{n}ようだな・・・。{n}{wait}{clear}{end}		
 3A4F.142C	{spk:0180}{fa:0180}{n}あの、レイヴ様・・・ですよね？{n}{wait}{clear}{spk:0080}{fa:0080}{n}ああ、そうだが。{n}ん？　君はたしか、ティア・・・。{n}{wait}{clear}{end}		
 3A4F.149E	{spk:0180}{fa:0180}{n}はい。ティア・ターンゲリです。{n}先日は助けていただいて、{n}ありがとうございました。{n}{wait}{clear}{end}		

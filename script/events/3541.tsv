@@ -1,5 +1,5 @@
 id	jp	en	notes
-3541.2A30	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3541.2A30	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	
 3541.2A46	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}それだけなの？{n}{wait}{clear}{e5:0080}{n}{end}		
 3541.2A74	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}気にしないで。{n}慣れてるから、そういうの。{n}{wait}{clear}{e5:0080}{n}{end}		
 3541.2AEC	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}平気よ。ぜんぜん。{n}天使サマは、大丈夫なの？{n}ふわふわしてるけど・・・。{n}{wait}{clear}{e5:0080}{n}{end}		

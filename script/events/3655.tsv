@@ -15,4 +15,4 @@ id	jp	en	notes
 3655.1970	{e0:AC09}{spk:0080}{fa:0180}{n}ち、ちがうわよ。{n}そんなんじゃ・・・。{n}ま、待ってよ！　シルフェっ！！{n}{wait}{clear}{e0:AD09}{spk:0080}{fa:0180}{n}もう・・・。{n}どうしたのかしら、{n}シルフェったら・・・。{n}{wait}{clear}{end}		
 3655.1B60	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}やさいどろぼう：{n}{f7:0380}{n}ウガァーーーッッッ！！{n}{wait}{clear}{end}		
 3655.1BAC	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}やさいどろぼう：{n}{f7:0380}{n}ウガァーーーッッッ！！{n}{wait}{clear}{end}		
-3655.1BF8	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+3655.1BF8	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

@@ -6,4 +6,4 @@ id	jp	en	notes
 35E5.0CEE	{e0:E0FF}{spk:0080}{fa:0180}{n}お前、無事だったんだな！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}男の子：{n}{f7:0380}{n}うん。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}ケガはなかったか？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}男の子：{n}{f7:0380}{n}へっちゃらだよ、お兄ちゃん！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}お兄ちゃん、本当に{n}カッコ良かったなあ・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}あ、ああ・・・そ、そうか？{n}ありがとよ。{n}{wait}{clear}{end}		
 35E5.0F86	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}キャプテンオーク：{n}{f7:0380}{n}ぐががが～！！{n}{wait}{clear}{end}		
 35E5.0FCC	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}キャプテンオーク：{n}{f7:0380}{n}ぐが、ぐががが～！！{n}{wait}{clear}{end}		
-35E5.1018	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+35E5.1018	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

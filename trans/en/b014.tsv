@@ -1,0 +1,78 @@
+id	en
+350F.0672	{fb:9680}{n}{spk:0080}{n}A monster has appeared in the marshes (65, 19) of the Duminas Empire!{n}{wait}{clear}It happened so suddenly that everyone's confused. If we don't do something soon, it'll be terrible!{n}{wait}{clear}{end}
+350F.0722	{fb:9780}{n}I think asking Ryudral would be good for this one. What do you think?{n}{wait}{clear}{end}
+350F.0836	{fb:A080}{n}{spk:0080}{n}A monster has appeared in the marshes (65, 19) of the Duminas Empire!{n}{wait}{clear}It was super sudden, and it's total chaos! Leaving it alone would be suuuper dangerous!{n}{wait}{clear}{end}
+350F.08E8	{fb:A180}{n}I think Ryudral is the right one for this case. Why not leave it to him?{n}{wait}{clear}{end}
+350F.09DA	{fb:AA80}{n}{spk:0080}{n}A monster has appeared in the marshes (65, 19) of the Duminas Empire.{n}{wait}{clear}It happened without any warning, and the area is in great confusion. I believe something must be done.{n}{wait}{clear}{end}
+350F.0A90	{fb:AB80}{n}I believe Ryudral is the right one for this incident. Why not entrust it to him?{n}{wait}{clear}{end}
+3511.04A2	{fb:8C80}{n}{spk:0080}{n}In the village of Copa (15, 17) in Fangam, slimes have been stealing the villagers' food, one incident after another.{n}{wait}{clear}At this rate the damage will only spread. It must be resolved as soon as possible.{n}{wait}{clear}{end}
+3511.056A	{fb:8D80}{n}I believe Ashe is the best suited for this task. What do you think?{n}{wait}{clear}{end}
+3511.067E	{fb:9680}{n}{spk:0080}{n}In the village of Copa (15, 17) in Fangam, slimes keep stealing the villagers' food!{n}{wait}{clear}At this rate everyone's gonna be in trouble, so we have to do something!{n}{wait}{clear}{end}
+3511.074A	{fb:9780}{n}For this case, how about asking Ashe?{n}{wait}{clear}{end}
+3511.0858	{fb:A080}{n}{spk:0080}{n}In the village of Copa (15, 17) in Fangam, there have been tons of cases of slimes stealing the villagers' food.{n}{wait}{clear}At this rate the damage will just keep spreading. We can't just leave it, right?!{n}{wait}{clear}{end}
+3511.0916	{fb:A180}{n}I think Ashe is the right one for this case. Why not leave it to her?{n}{wait}{clear}{end}
+3511.0A06	{fb:AA80}{n}{spk:0080}{n}In the village of Copa (15, 17) in Fangam, slimes have been stealing the villagers' food, one incident after another.{n}{wait}{clear}At this rate the damage will only spread, and the villagers are in great distress. Shouldn't something be done?{n}{wait}{clear}{end}
+3511.0AEA	{fb:AB80}{n}I believe Ashe is the right one for this incident. Why not entrust it to her?{n}{wait}{clear}{end}
+3513.04A2	{fb:8C80}{n}{spk:0080}{n}In the Kingdom of Hebron (38, 23), a monster calling itself Drakken has appeared and is attacking traveling merchants one after another.{n}{wait}{clear}Many merchants have already suffered. To prevent further harm, it must be defeated as soon as possible.{n}{wait}{clear}{end}
+3513.058C	{fb:8D80}{n}I believe Nasadia is the best suited for this task. What do you think?{n}{wait}{clear}{end}
+3513.06A6	{fb:9680}{n}{spk:0080}{n}In the Kingdom of Hebron (38, 23), a monster called Drakken showed up, and it keeps attacking traveling merchants!{n}{wait}{clear}Lots of merchants have had awful things happen to them already. We have to do something!{n}{wait}{clear}{end}
+3513.077A	{fb:9780}{n}For this case, I think asking Nasadia would be good. What do you think?{n}{wait}{clear}{end}
+3513.089C	{fb:A080}{n}{spk:0080}{n}In the Kingdom of Hebron (38, 23), a monster called Drakken has appeared, and it's attacking traveling merchants one after another.{n}{wait}{clear}Lots of merchants have already been hurt. We can't just leave it, right?!{n}{wait}{clear}{end}
+3513.0970	{fb:A180}{n}I think Nasadia is the right one for this case. Why not leave it to her?{n}{wait}{clear}{end}
+3513.0A66	{fb:AA80}{n}{spk:0080}{n}In the Kingdom of Hebron (38, 23), a mountain bandit calling himself Drakken has appeared and is attacking traveling merchants one after another.{n}{wait}{clear}Many merchants have already suffered. Shouldn't something be done before the harm grows any worse?{n}{wait}{clear}{end}
+3513.0B54	{fb:AB80}{n}I believe Nasadia is the right one for this incident. Why not entrust it to her?{n}{wait}{clear}{end}
+3515.0C22	{e0:E0FF}{spk:E783}{fa:0080}{n}Grrgah, grrgah.{n}{wait}{clear}{end}
+3515.0C4C	{e0:E0FF}{spk:0080}{fa:0180}{n}This is the place, right?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}It should be.{n}{wait}{clear}{end}
+3515.0C96	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Chimera:{n}{f7:0380}{n}Grrgah, grrgah.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Hey, why are you doin' this?{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Wait, I just want you to hear me out!{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}...It's dangerous to go any further, Ryudral!{n}{wait}{clear}{end}
+3515.0D7C	{e0:E0FF}{spk:E783}{fa:0180}{n}...Well done, Ryudral.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Why'd they start attacking humans, anyway...?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}You still have regrets, don't you?{n}{wait}{clear}{end}
+3515.0E28	{e0:E0FF}{spk:0080}{fa:0180}{n}That thing... wouldn't even try to listen to me.{n}{wait}{clear}{end}
+3515.0F9C	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Chimera:{n}{f7:0380}{n}Grrgah, grrgah.{n}{wait}{clear}{end}
+3515.1018	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}
+3518.0C1E	{e0:E0FF}{spk:E783}{fa:0080}{n}Pshhhhh.{n}{wait}{clear}{end}
+3518.0C46	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, gross, gross. Is there seriously something in a place like this?{n}{wait}{clear}{end}
+3518.0C94	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Slime:{n}{f7:0380}{n}Pshhhh.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Ewww! It's heeere!{n}{wait}{clear}{end}
+3518.0CF6	{e0:E0FF}{spk:0080}{fa:0180}{n}What, that was a total breeze! Monster hunting's pretty easy, huh?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Thank you, Ashe. You fought well.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Hey, {name:0080}. Are you... making fun of me?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Huh...?{n}{wait}{clear}{end}
+3518.0DF6	{e0:E0FF}{spk:0080}{fa:0180}{n}Seriously, you! Don't make me fight such disgusting things!{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}And it was sooo weak! Get somebody else to do this kinda stuff, not me!!{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}But...{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}No buts! That thing's no match for me at all.{n}{wait}{clear}{end}
+3518.1054	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Slime:{n}{f7:0380}{n}Pshhhh-shhh.{n}{wait}{clear}{end}
+3518.1098	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Slime{n}{f7:0380}{n}Pshhhh-shhh.{n}{wait}{clear}{end}
+3518.10DA	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the slime.{n}{wait}{clear}{end}
+351B.0CAE	{e0:E0FF}{spk:E783}{fa:0080}{n}Fool!{n}{wait}{clear}{end}
+351B.0CD0	{e0:E0FF}{spk:0080}{fa:0180}{n}Seems I drank a little too much yesterday.{n}{wait}{clear}{e0:E0FF}Ugh, honestly! My head is pounding.{n}{wait}{clear}{end}
+351B.0D38	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Bandit:{n}{f7:0380}{n}Heh heh heh heh, what's a drunk doin' here?!{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Stop your fussing. It's going straight to my hangover!{n}{wait}{clear}{end}
+351B.0DCE	{e0:E0FF}{spk:0080}{fa:0180}{n}Phew... Some bandit, if you can't even handle me while I'm drunk.{n}{wait}{clear}{end}
+351B.1094	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Bandit:{n}{f7:0380}{n}Hey, you!! Hand over every coin you got!{n}{wait}{clear}{e0:E0FF}Or you're gonna get hurt!! Gweh heh heh...{n}{wait}{clear}{end}
+351B.1128	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Bandit:{n}{f7:0380}{n}Comin' out here all alone, little lady? You got some nerve!!{n}{wait}{clear}{end}
+351B.1194	{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}
+351B.11B4	{spk:E783}{fa:0080}{n}{f7:0080}Bandit:{n}{f7:0380}{n}Huh?!{n}{wait}{clear}Take a good look, and you're a guy!! Well, now that I know that, no mercy!!{n}{wait}{clear}{end}
+351B.122E	{spk:E783}{fa:0080}{n}{name:0180} defeated the bandit.{n}{wait}{clear}{end}
+351E.1754	{spk:0080}{n}...{n}{wait}{clear}{end}
+351E.176A	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}And?{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1792	{fb:0080}{n}{spk:E783}{n}Am I bothering you?{n}{wait}{clear}{spk:0080}{n}{e5:0580}{n}You really are a stiff one. Perhaps you ought to learn to relax a little.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1832	{fb:0A80}{n}{spk:E783}{n}Aren't you tired?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Yes, I'm tired indeed. ...And are you saying you'll ease this weariness of mine?{n}{wait}{clear}{e5:0080}{n}{end}
+351E.18C0	{fb:1480}{n}{fd:E78300800280}{n}{spk:E783}{n}Do you like traveling?{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}Yes. Traveling is most enjoyable. Thanks to the lovely ladies I meet wherever I go.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1956	{fb:1E80}{n}{spk:E783}{n}Are you getting proper rest?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0380}{n}What a busybody. I know my own body well enough. Without you telling me.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.19F4	{fb:2880}{n}{spk:E783}{n}How are you feeling?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Same as always, without you needing to ask.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1A5C	{fb:3280}{n}{spk:E783}{n}I was worried, so I came to see you.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0380}{n}Needless worry. There's nothing wrong.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1AD2	{fb:3C80}{n}{spk:E783}{n}It's nice to walk outside, isn't it?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}Oh? You say some rather good things.{n}{wait}{clear}{spk:0080}{n}I like walking outside too. Being close to nature soothes the heart.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1B92	{fb:4680}{n}{spk:E783}{n}Weren't you hoping to see me?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}I wasn't particularly hoping to see you...?{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1C1C	{fb:5080}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}Hmph. You show up out of nowhere, and this is what you ask...{n}{wait}{clear}{spk:0080}{n}I'm not especially hungry, but...{n}{wait}{clear}{e5:0080}{n}{spk:0080}{n}...Will that do?{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1CEE	{fb:5A80}{n}{spk:E783}{n}It's been a while, hasn't it?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Yes. It has been a while. You seem the same as ever.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1D5E	{fb:6480}{n}{spk:E783}{n}Have you come across any beautiful scenery?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}...You show up out of nowhere, and that's what you ask?{n}{wait}{clear}{spk:0080}{n}As it happens, I've come across beautiful scenery many times, but what an odd question.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1E40	{fb:6E80}{n}{spk:E783}{n}Did I startle you, showing up so suddenly?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}No. You always do, don't you? If I were startled every time you appeared out of nowhere, I'd never survive.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1EE0	{fb:7880}{n}{spk:E783}{n}I was wondering how you were doing.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}And so you came all this way to check on me? How dutiful. Earnest, or meddlesome...{n}{wait}{clear}{spk:0080}{n}...Well? Do you sense anything unusual?{n}{wait}{clear}{e5:0080}{n}{end}
+351E.1FCC	{fb:8280}{n}{spk:E783}{n}If there's anything I can do, I'll help.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Sorry, but I'll decline for now. I don't care to rely on others much.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.2072	{fb:8C80}{n}{spk:E783}{n}I thought you might have lost your way.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}...Good grief, how rude. To think you took me for a lost child.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.2106	{fb:9680}{n}{spk:E783}{n}How do you feel about becoming a hero?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}A hero... hm.{n}{wait}{clear}{spk:0080}{n}If I'm to fight as a hero, I'd at least rather not do anything that would tarnish my name...{n}{wait}{clear}{e5:0080}{n}{end}
+351E.21C6	{fb:A080}{n}{spk:E783}{n}Do even nobles have hardships?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}Naturally, plenty. They're especially fussy about pointless customs. It's tiresome.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.23BC	{fb:1580}{n}{spk:E783}{n}Do you like traveling?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}{e5:0680}{n}Yes. Traveling is most enjoyable. Thanks to the lovely ladies I meet wherever I go.{n}{wait}{clear}{e5:0080}{n}{end}
+351E.2718	{fb:5180}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}Hmph. You show up out of nowhere, and this is what you ask...{n}{wait}{clear}{spk:0080}{n}I'm not especially hungry, but...{n}{wait}{clear}{spk:0080}{n}...Will that do?{n}{wait}{clear}{e5:0080}{n}{end}
+351E.2D5E	{fb:FE81}{n}{spk:0080}{n}{e5:0580}{n}That's enough now, isn't it?{n}{wait}{clear}{e5:0580}{n}{end}
+351E.2D90	{fb:0080}{n}{spk:E783}{n}I hope you have sweet dreams.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0380}{n}That's none of your concern, is it?{n}{wait}{clear}{spk:0080}{n}You disturb a man's sleep and then have the nerve to say that.{n}{wait}{clear}{e5:0580}{n}{end}
+351E.2E48	{fb:0A80}{n}{spk:E783}{n}Was I that much of a nuisance?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0380}{n}...An utter nuisance. I'd like you to leave at once.{n}{wait}{clear}{e5:0580}{n}{end}
+351E.2ED2	{fb:1480}{n}{spk:E783}{n}I was a little worried.{n}{wait}{clear}{spk:0080}{n}{e5:0580}{n}I see... That's all very well, but spare me the trouble your uninvited worries cause.{n}{wait}{clear}{e5:0580}{n}{end}
+351E.2F76	{fb:1E80}{n}{spk:E783}{n}Don't you like staying up late?{n}{wait}{clear}{spk:0080}{n}{e5:0580}{n}It's not that... Sorry, but I want to sleep early tonight.{n}{wait}{clear}{e5:0580}{n}{end}
+351E.2FEC	{fb:2880}{n}{spk:E783}{n}Let's do our best tomorrow too.{n}{wait}{clear}{spk:0080}{n}{e5:0580}{n}...Good grief. I know that much without being told.{n}{wait}{clear}{e5:0580}{n}{end}
+351E.3072	{fb:3280}{n}{spk:E783}{n}I'm sorry. I'll leave right away.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...For today, I'd appreciate that.{n}{wait}{clear}{e5:0580}{n}{end}
+351E.3100	{fb:3C80}{n}{spk:E783}{n}It seems I came at the wrong time.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}The wrong time?! Hmph, spare me.{n}{wait}{clear}{spk:0080}{n}...Still, it's very like you. Oddly convincing.{n}{wait}{clear}{e5:0580}{n}{end}
+351E.31FC	{fb:0180}{n}{spk:E783}{n}I hope you have sweet dreams.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}That's none of your concern, is it?{n}{wait}{clear}{spk:0080}{n}You disturb a man's sleep and then have the nerve to say that.{n}{wait}{clear}{e5:0580}{n}{end}
+351E.3638	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}Is that all? Anything else?{n}{wait}{clear}{e5:0080}{n}{end}

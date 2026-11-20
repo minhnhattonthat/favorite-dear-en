@@ -1,5 +1,5 @@
 id	jp	en	notes
-375D.2788	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+375D.2788	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	
 375D.279E	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}まだ、ほかになにかありますか？{n}{wait}{clear}{e5:0080}{n}{end}		
 375D.27DC	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0180}{n}いいえ！　とんでもない。{n}こうして天使様とお話ができて、{n}とてもうれしいです。{n}{wait}{clear}{e5:0080}{n}{end}		
 375D.2878	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0580}{n}あ、だ、大丈夫です。{n}すみません・・・。{n}天使様に心配ばかりかけてしまって。{n}{wait}{clear}{e5:0080}{n}{end}		

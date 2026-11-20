@@ -1,5 +1,5 @@
 id	jp	en	notes
-3750.2788	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3750.2788	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	
 3750.279E	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}他にも何かあるか？{n}{wait}{clear}{e5:0080}{n}{end}		
 3750.27D0	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}よく言うぜ。そっちから来たくせに。{n}別にじゃまなんかじゃねえよ。{n}{wait}{clear}{spk:0080}{n}お前、気ぃ使いすぎなんじゃねえのか？{n}{wait}{clear}{e5:0080}{n}{end}		
 3750.288E	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}これぐらい、なんともねーよ。{n}鍛え方が違うからな、オレは。{n}{wait}{clear}{e5:0080}{n}{end}		

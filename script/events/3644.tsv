@@ -6,4 +6,4 @@ id	jp	en	notes
 3644.1408	{e0:8708}{spk:E783}{fa:0080}{n}{f7:0080}ラスエル：{n}{f7:0380}{n}さよなら、ナーサ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
 3644.15AA	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}キシャーー！！{n}{wait}{clear}{end}		
 3644.15EA	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}キシャアアア！！{n}{wait}{clear}{end}		
-3644.162C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+3644.162C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

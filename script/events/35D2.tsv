@@ -6,4 +6,4 @@ id	jp	en	notes
 35D2.0EEE	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}村人：{n}{f7:0380}{n}大国の騎士様は{n}さすが違うなぁ・・・。{n}{wait}{clear}{end}		
 35D2.1084	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}サイレン：{n}{f7:0380}{n}・・・キシャー！！{n}{wait}{clear}{end}		
 35D2.10C6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}サイレン：{n}{f7:0380}{n}・・・キシャー！！{n}{wait}{clear}{end}		
-35D2.1108	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+35D2.1108	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

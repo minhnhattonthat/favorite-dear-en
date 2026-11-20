@@ -7,4 +7,4 @@ id	jp	en	notes
 35E8.0E74	{e0:B201}{spk:0080}{fa:0180}{n}おい！　おい！　しっかりしろったら！！{n}{wait}{clear}{e0:B301}{spk:E783}{fa:0080}{n}{f7:0080}イダヴェル：{n}{f7:0380}{n}・・・う、う～ん。{n}{wait}{clear}{end}		
 35E8.1042	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}スカルリーダー：{n}{f7:0380}{n}ぐががが～！！{n}{wait}{clear}{end}		
 35E8.1086	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}スカルリーダー：{n}{f7:0380}{n}ぐが、ぐががが～！！{n}{wait}{clear}{end}		
-35E8.10D0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+35E8.10D0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

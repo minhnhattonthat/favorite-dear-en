@@ -5,4 +5,4 @@ id	jp	en	notes
 3620.0C7E	{e0:E0FF}{spk:0080}{fa:0180}{n}ふう・・・。{n}こんなモンかしらね。{n}{wait}{clear}{end}		
 3620.0DE0	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}キシャーー！！{n}{wait}{clear}{end}		
 3620.0E20	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}キシャーー！！{n}{wait}{clear}{end}		
-3620.0E60	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+3620.0E60	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

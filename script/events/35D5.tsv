@@ -10,4 +10,4 @@ id	jp	en	notes
 35D5.12F2	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}女の子：{n}{f7:0380}{n}あ、レイヴ様！{n}{wait}{clear}{end}		
 35D5.1454	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}グヘヘヘヘ。{n}{wait}{clear}{end}		
 35D5.1494	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}グヘヘヘヘ。{n}{wait}{clear}{end}		
-35D5.14D4	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+35D5.14D4	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

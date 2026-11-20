@@ -1,5 +1,5 @@
 id	jp	en	notes
-370B.2568	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+370B.2568	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	
 370B.257E	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}・・・。{n}ほかには？{n}{wait}{clear}{e5:0080}{n}{end}		
 370B.25B2	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}気にするな。{n}用があって来たのだろう。{n}{wait}{clear}{e5:0080}{n}{end}		
 370B.2626	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}・・・心配するな。{n}{wait}{clear}{e5:0080}{n}{end}		
@@ -36,10 +36,10 @@ id	jp	en	notes
 370B.336A	{fb:8D80}{n}{spk:E783}{n}道に迷ってるんじゃないかと思って。{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}なにをくだらないことを言っている。{n}{wait}{clear}{e5:0080}{n}{end}		
 370B.33E4	{fb:9780}{n}{spk:E783}{n}旅の楽しさってなんだと思いますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}知らぬ土地を訪れて、{n}己の知識を深めることだと思っているが。{n}{wait}{clear}{e5:0080}{n}{end}		
 370B.3478	{fb:A180}{n}{spk:E783}{n}旅で困る事はありますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}長旅の場合は、{n}馬が病気にかかると厄介だが。{n}{wait}{clear}{e5:0080}{n}{end}		
-370B.34F4	{fb:FE81}{n}・・・{n}{clear}{end}		entry point inside the previous row's message
-370B.3506	{fb:0080}{n}・・・{n}{clear}{end}		
-370B.3518	{fb:FF81}{n}・・・{n}{clear}{end}		
-370B.352A	{fb:0180}{n}・・・{n}{clear}{end}		
+370B.34F4	{fb:FE81}{n}・・・{n}{clear}{end}	{fb:FE81}{n}...{n}{clear}{end}	entry point inside the previous row's message
+370B.3506	{fb:0080}{n}・・・{n}{clear}{end}	{fb:0080}{n}...{n}{clear}{end}	
+370B.3518	{fb:FF81}{n}・・・{n}{clear}{end}	{fb:FF81}{n}...{n}{clear}{end}	
+370B.352A	{fb:0180}{n}・・・{n}{clear}{end}	{fb:0180}{n}...{n}{clear}{end}	
 370B.353E	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}それだけか？{n}{wait}{clear}{e5:0080}{n}{end}		entry point inside the previous row's message
 370B.356A	{fb:0080}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}そうだな・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
 370B.35C8	{fb:0A80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}それだけのために来たのなら、{n}じゃまかもしれんな。{n}{wait}{clear}{e5:0080}{n}{end}		

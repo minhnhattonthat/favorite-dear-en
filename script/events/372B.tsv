@@ -1,5 +1,5 @@
 id	jp	en	notes
-372B.2920	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+372B.2920	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	
 372B.2936	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}まだ何かあればお聞きしますよ。{n}{wait}{clear}{e5:0080}{n}{end}		
 372B.2974	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}いいえ。そんなことはありません。{n}気になさらずとも、けっこうですよ。{n}{wait}{clear}{e5:0080}{n}{end}		
 372B.2A06	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}お気遣いありがとう。{n}でも、だいじょうぶ、まだまだ歩けますよ。{n}{wait}{clear}{e5:0080}{n}{end}		

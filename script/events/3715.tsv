@@ -1,5 +1,5 @@
 id	jp	en	notes
-3715.0FA0	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3715.0FA0	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	
 3715.0FB6	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}まだ、何かあんのか？{n}{wait}{clear}{e5:0080}{n}{end}		
 3715.0FEA	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}別に構わねえよ。{n}でもよ、妙にかしこまんなよな。{n}こっちまで疲れちまう。{n}{wait}{clear}{e5:0080}{n}{end}		
 3715.1080	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0380}{n}冗談だろう！{n}このぐらい、どうってことねぇよ。{n}{wait}{clear}{e5:0080}{n}{end}		

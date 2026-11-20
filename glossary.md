@@ -68,6 +68,8 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ガープ | Gaap | | | |
 | レライエ | Leraje | | | |
 | ベルフェゴール | Belphegor | | | |
+| ドラッケン | Drakken | | mountain bandit / monster preying on merchants in Hebron | |
+| キメラ | Chimera | | monster in the Duminas marshes | |
 
 ## Places
 | JP | EN | max | notes | Avoid |
@@ -93,6 +95,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ノバ | Nova | | town in Kimbalt (Beasia) | |
 | トラスト | Trust | | town in Kanoa (Nasadia) | |
 | オムロン | Omron | | village in Kvaal (Tia) | |
+| コパ | Copa | | village in Fangam (slime thefts) | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

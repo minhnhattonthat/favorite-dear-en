@@ -11,4 +11,4 @@ id	jp	en	notes
 3647.183E	{e0:A308}{spk:0080}{fa:0180}{n}・・・・・・最低ね。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}・・・。{n}{wait}{clear}{e0:A408}{spk:0080}{fa:0180}{n}こんな、再会なんて・・・。{n}{wait}{clear}{end}		
 3647.19DC	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}ぐぎゃ、ぐぎゃ！{n}{wait}{clear}{end}		
 3647.1A1E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}ぐぎゃ、ぐぎゃ！{n}{wait}{clear}{end}		
-3647.1A60	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+3647.1A60	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

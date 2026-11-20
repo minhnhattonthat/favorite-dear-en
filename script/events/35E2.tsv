@@ -11,4 +11,4 @@ id	jp	en	notes
 35E2.1284	{e0:E0FF}{spk:0080}{fa:0180}{n}ちっ、シケてやがんなあ{n}・・・まあ、いいだろ。おっさん！{n}次はもちっと高いぜ！　憶えときな！！{n}{wait}{clear}{end}		
 35E2.142E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ゾンビマチャント：{n}{f7:0380}{n}ぐががががーーー。{n}{wait}{clear}{end}		
 35E2.1478	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ゾンビマチャント：{n}{f7:0380}{n}ぐが、ぐがががが。{n}{wait}{clear}{end}		
-35E2.14C2	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+35E2.14C2	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

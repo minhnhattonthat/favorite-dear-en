@@ -35,10 +35,10 @@ id	jp	en	notes
 3ACC.3134	{fb:8D80}{n}{spk:E783}{n}道に迷ってるんじゃないかと思って。{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}なにをくだらないことを言っている。{n}{wait}{clear}{end}		
 3ACC.31A2	{fb:9780}{n}{spk:E783}{n}旅の楽しさってなんだと思いますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}知らぬ土地を訪れて、{n}己の知識を深めることだと思っているが。{n}{wait}{clear}{end}		
 3ACC.322A	{fb:A180}{n}{spk:E783}{n}旅で困る事はありますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}長旅の場合は、{n}馬が病気にかかると厄介だが。{n}{wait}{clear}{end}		
-3ACC.329A	{fb:FE81}{n}・・・{n}{clear}{end}		entry point inside the previous row's message
-3ACC.32AC	{fb:0080}{n}・・・{n}{clear}{end}		
-3ACC.32BE	{fb:FF81}{n}・・・{n}{clear}{end}		
-3ACC.32D0	{fb:0180}{n}・・・{n}{clear}{end}		
+3ACC.329A	{fb:FE81}{n}・・・{n}{clear}{end}	{fb:FE81}{n}...{n}{clear}{end}	entry point inside the previous row's message
+3ACC.32AC	{fb:0080}{n}・・・{n}{clear}{end}	{fb:0080}{n}...{n}{clear}{end}	
+3ACC.32BE	{fb:FF81}{n}・・・{n}{clear}{end}	{fb:FF81}{n}...{n}{clear}{end}	
+3ACC.32D0	{fb:0180}{n}・・・{n}{clear}{end}	{fb:0180}{n}...{n}{clear}{end}	
 3ACC.32E4	{fb:FE81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}		entry point inside the previous row's message
 3ACC.3304	{fb:0080}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}そうだな・・・。{n}{wait}{clear}{end}		
 3ACC.3356	{fb:0A80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{spk:0080}{n}それだけのために来たのなら、{n}じゃまかもしれんな。{n}{wait}{clear}{end}		

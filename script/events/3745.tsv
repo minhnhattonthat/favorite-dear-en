@@ -1,5 +1,5 @@
 id	jp	en	notes
-3745.2788	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3745.2788	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	
 3745.279E	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}ほかには、なにかあるの？{n}{wait}{clear}{e5:0080}{n}{end}		
 3745.27D6	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}{e5:0680}{n}じゃまってことはないよ。{n}ちょうど話し相手が欲しかったところさ。{n}{wait}{clear}{e5:0080}{n}{end}		
 3745.2864	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}大丈夫だよ。{n}私はそんなにヤワじゃないって。{n}{wait}{clear}{e5:0080}{n}{end}		
@@ -36,12 +36,12 @@ id	jp	en	notes
 3745.389E	{fb:8D80}{n}{spk:E783}{n}道に迷ってるんじゃないかと思って。{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}ちょっとちょっと、やだなぁ。{n}私はそんなにドジじゃないって！{n}{wait}{clear}{e5:0080}{n}{end}		
 3745.3932	{fb:9780}{n}{spk:E783}{n}旅先で、誰かに会ったりしますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}ああ、あるよ。{n}賞金首の盗人にばったり！　ってことも{n}あったなぁ・・・。{n}{wait}{clear}{spk:0080}{n}あれ、そういう意味じゃないのかい？{n}{wait}{clear}{e5:0080}{n}{end}		
 3745.39FE	{fb:A180}{n}{spk:E783}{n}夜も移動されたりしますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}そういうこともあるよ。{n}急ぎたい時ってのもあるからさ。{n}{wait}{clear}{spk:0080}{n}ただね、昔、逆うらみされた奴に、{n}夜道でおそわれた事があってね。{n}今は、昼だけにしてるよ。{n}{wait}{clear}{e5:0080}{n}{end}		
-3745.3AEC	{fb:FE81}{n}・・・{n}{clear}{end}		entry point inside the previous row's message
-3745.3AFE	{fb:0080}{n}・・・{n}{clear}{end}		
-3745.3B10	{fb:0A80}{n}・・・{n}{clear}{end}		
-3745.3B22	{fb:FE81}{n}・・・{n}{clear}{end}		
-3745.3B34	{fb:0180}{n}・・・{n}{clear}{end}		
-3745.3B46	{fb:0B80}{n}・・・{n}{clear}{end}		
+3745.3AEC	{fb:FE81}{n}・・・{n}{clear}{end}	{fb:FE81}{n}...{n}{clear}{end}	entry point inside the previous row's message
+3745.3AFE	{fb:0080}{n}・・・{n}{clear}{end}	{fb:0080}{n}...{n}{clear}{end}	
+3745.3B10	{fb:0A80}{n}・・・{n}{clear}{end}	{fb:0A80}{n}...{n}{clear}{end}	
+3745.3B22	{fb:FE81}{n}・・・{n}{clear}{end}	{fb:FE81}{n}...{n}{clear}{end}	
+3745.3B34	{fb:0180}{n}・・・{n}{clear}{end}	{fb:0180}{n}...{n}{clear}{end}	
+3745.3B46	{fb:0B80}{n}・・・{n}{clear}{end}	{fb:0B80}{n}...{n}{clear}{end}	
 3745.3B5A	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}ほかには？{n}{wait}{clear}{e5:0080}{n}{end}		entry point inside the previous row's message
 3745.3B84	{fb:0080}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0180}{n}そうだね。{n}場所によって食べ物も違うからね。{n}楽しみなんだ。{n}{wait}{clear}{e5:0080}{n}{end}		
 3745.3C0E	{fb:0A80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}ははっ。そんなことないよ。{n}気にしなくていいって。{n}{wait}{clear}{e5:0080}{n}{end}		

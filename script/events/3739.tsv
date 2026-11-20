@@ -1,5 +1,5 @@
 id	jp	en	notes
-3739.2A30	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3739.2A30	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	
 3739.2A46	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}それだけ？{n}{wait}{clear}{e5:0080}{n}{end}		
 3739.2A70	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}{e5:0080}{n}そんなことないさ！{n}僕も天使様に会いたいと{n}思ってたところだったんだ。{n}{wait}{clear}{e5:0080}{n}{end}		
 3739.2B04	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}大丈夫だよ。{n}このくらいなんでもないよ！{n}{wait}{clear}{e5:0080}{n}{end}		

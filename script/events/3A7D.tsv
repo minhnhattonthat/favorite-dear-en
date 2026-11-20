@@ -42,7 +42,7 @@ id	jp	en	notes
 3A7D.239C	{fb:C980}{n}{spk:0080}{n}{e5:0080}{n}・・・そうか。{n}あまり必要のないものだったか？{n}{wait}{clear}{spk:0080}{n}次は、もう少しまともなものを{n}探してこよう。{n}{fd:028000800380}{n}{wait}{clear}{end}		
 3A7D.2426	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}戒律か・・・。{n}ならば仕方がない。{n}{wait}{clear}{end}		
 3A7D.2462	{fb:2D81}{n}{spk:0080}{n}{e5:0080}{n}戒律か・・・。{n}ならば仕方がない。{n}{wait}{clear}{end}		
-3A7D.24A0	{spk:0080}{n}・・・。{n}{wait}{clear}{end}		entry point inside the previous row's message
+3A7D.24A0	{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{spk:0080}{n}...{n}{wait}{clear}{end}	entry point inside the previous row's message
 3A7D.24B6	{fb:0080}{n}{spk:E783}{n}なんでしょう、レイヴ。{n}{wait}{clear}{end}		
 3A7D.24E0	{fb:0180}{n}{spk:E783}{n}どうしました、レイヴ。{n}{wait}{clear}{end}		
 3A7D.250A	{spk:0080}{n}{e5:0280}{n}俺はお前に、勇者をやると、{n}返事をした・・・。{n}{wait}{clear}{spk:0080}{n}だが、たいした依頼もなく{n}ほうっておかれるとは・・・。{n}いったいどういうつもりだ？{n}{wait}{clear}{end}		

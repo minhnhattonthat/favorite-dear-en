@@ -3,7 +3,13 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (visual gate passes on 94fa9887: 277 sheets, 0 unreviewed, 0 not
-  ok; **only textcover is left**: textforce passes running, battle files now covered by their own mode).
+  ok; **only textcover is left**: textforce pass 1 done for events, battles partial).
+  Worker 23 (2026-11-21), build unchanged. Event pass 1 (`force_run3.txt`) finished all 309 files at 09:55.
+  The battle runner (`force_battle.txt`) stopped at 09:26 after 71 files with no final line, probably the host
+  running out of memory (Claude Code also reaped a watcher for low memory). `textforce.py left` is now **5814 of
+  8638 rows unshown in 358 files (180 choice menus)**, down from 6759. Next: when memory allows, re-run the battle
+  command (it skips finished files). Then do pass 2 on events with `--pass 2 --var SKIPKEY=1` at -j 2..4, checking
+  free memory first.
   Worker 22 (2026-11-21), build unchanged (94fa9887, check ok 79). (a) **Throughput:** the old -j 1 pass-1 runner was
   killed and restarted as two runners on disjoint files (no collisions): events `textforce.py run -j 4 --pass 1
   --only $(cat work/qa/event_sectors.txt)` (log `work/qa/force_run3.txt`, 288 files left at 09:20) and battles

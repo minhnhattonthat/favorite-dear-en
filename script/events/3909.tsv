@@ -1,17 +1,17 @@
 id	jp	en	notes
 3909.04A2	{fb:8C80}{n}{spk:0080}{n}クヴァール（６２・４１）で{n}奇妙な魔人があらわれて、{n}旅の人々を困らせています。{n}{wait}{clear}うわさによれば、そこを通る人々に{n}”謎かけ”をしかけてくるとか・・・。{n}この怪事件は解決すべきだと思います。{n}{wait}{clear}{end}		
 3909.0578	{fb:8D80}{n}この件には、ヤルル様が{n}一番の適任かと思います。{n}いかがでしょうか？{n}{wait}{clear}{end}		
-3909.05CA	{fb:8E80}{n}{spk:0080}{n}天使様、ひとまず勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}		
-3909.061E	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}		
+3909.05CA	{fb:8E80}{n}{spk:0080}{n}天使様、ひとまず勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}	{fb:8E80}{n}{spk:0080}{n}Angel, might I suggest sending a hero to{n}the scene for now?{n}{wait}{clear}{end}	
+3909.061E	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}	{fb:8F80}{n}{spk:0080}{n}However, with no heroes at present, I{n}believe finding a suitable person must{n}come first.{n}{wait}{clear}{end}	
 3909.0688	{fb:9680}{n}{spk:0080}{n}クヴァール（６２・４１）で{n}ヘンな魔人があらわれて、旅の人々を{n}困らせてるみたいなんですぅ。{n}{wait}{clear}そこを通る人たちに”謎なぞ”を出して{n}答えられないと、おそってくるんですぅ。{n}なんとかしなくちゃいけませんよね。{n}{wait}{clear}{end}		
 3909.076E	{fb:9780}{n}この事件は、{n}ヤルル様にお願いするといいと{n}思うんですけど、いかがです？{n}{wait}{clear}{end}		
-3909.07C4	{fb:9880}{n}{spk:0080}{n}天使様、{n}まずは、勇者様にお願いしてみては{n}いかがですか？{n}{wait}{clear}{end}		
-3909.0812	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}		
+3909.07C4	{fb:9880}{n}{spk:0080}{n}天使様、{n}まずは、勇者様にお願いしてみては{n}いかがですか？{n}{wait}{clear}{end}	{fb:9880}{n}{spk:0080}{n}Angel, why not ask a hero first?{n}{wait}{clear}{end}	
+3909.0812	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}	{fb:9980}{n}{spk:0080}{n}But we don't have any heroes right now!{n}If we don't find one soon, it'll be{n}terrible, Angeeel!{n}{wait}{clear}{end}	
 3909.0884	{fb:A080}{n}{spk:0080}{n}クヴァール（６２・４１）で{n}ヘンな魔人があらわれて、{n}旅の人々を困らせています。{n}{wait}{clear}うわさによると、そこを通る人に{n}”謎かけ”をしてくるらしくて・・・。{n}とっても迷惑なヤツだと思うんです！{n}{wait}{clear}{end}		
 3909.0956	{fb:A180}{n}この事件って、{n}ヤルル様が適任だと思いますけど、{n}任せてみてはどうですか？{n}{wait}{clear}{end}		
-3909.09AE	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}		
-3909.09F6	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}		
+3909.09AE	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}	{fb:A280}{n}{spk:0080}{n}Angel, you'd better send a hero, quick!{n}{wait}{clear}{end}	
+3909.09F6	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}	{fb:A380}{n}{spk:0080}{n}But we have to find a hero first. Right,{n}Angel?{n}{wait}{clear}{end}	
 3909.0A46	{fb:AA80}{n}{spk:0080}{n}クヴァール（６２・４１）で{n}奇妙な魔人があらわれて、{n}旅の人々を困らせています。{n}{wait}{clear}うわさなのですが、そこを通る人々に{n}”謎かけ”をしかけてくるとか・・・。{n}何か手を打ったほうがいいと思います。{n}{wait}{clear}{end}		
 3909.0B1E	{fb:AB80}{n}この事件はヤルル様が{n}適任かと思います。彼に{n}お任せになられてはいかがでしょうか？{n}{wait}{clear}{end}		
-3909.0B7E	{fb:AC80}{n}{spk:0080}{n}天使様、{n}早急に、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}		
-3909.0BCE	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}		
+3909.0B7E	{fb:AC80}{n}{spk:0080}{n}天使様、{n}早急に、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}	{fb:AC80}{n}{spk:0080}{n}Angel, why not ask a hero without delay?{n}{wait}{clear}{end}	
+3909.0BCE	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}	{fb:AD80}{n}{spk:0080}{n}But if we don't find a hero first,{n}there's nothing we can do, is there?{n}{wait}{clear}{end}	

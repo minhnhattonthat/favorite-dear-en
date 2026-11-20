@@ -1,17 +1,17 @@
 id	jp	en	notes
 38F1.04A2	{fb:8C80}{n}{spk:0080}{n}キンバルト王国の{n}エルバレー街道（２７・４２）に{n}魔物が現れました。{n}{wait}{clear}この魔物は、街道を通る{n}金持ちばかりを狙うようで、{n}被害はかなり大きくなっています。{n}{wait}{clear}{end}		
 38F1.0554	{fb:8D80}{n}この仕事には、グリフィン様が{n}一番の適任かと思いますが。{n}いかがでしょうか？{n}{wait}{clear}{end}		
-38F1.05AE	{fb:8E80}{n}{spk:0080}{n}天使様、ひとまず勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}		
-38F1.0602	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}		
+38F1.05AE	{fb:8E80}{n}{spk:0080}{n}天使様、ひとまず勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}	{fb:8E80}{n}{spk:0080}{n}Angel, might I suggest sending a hero to{n}the scene for now?{n}{wait}{clear}{end}	
+38F1.0602	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}	{fb:8F80}{n}{spk:0080}{n}However, with no heroes at present, I{n}believe finding a suitable person must{n}come first.{n}{wait}{clear}{end}	
 38F1.066C	{fb:9680}{n}{spk:0080}{n}キンバルト王国の{n}エルバレー街道（２７・４２）に{n}魔物が現れましたぁ！{n}{wait}{clear}お金持ちばかりを狙う{n}ちょっとヘンな魔物ですけど、{n}みんなは道が通れなくて困ってますぅ。{n}{wait}{clear}{end}		
 38F1.0724	{fb:9780}{n}この事件なんですけど、{n}グリフィン様にお願いするっていうのは{n}いかがです？{n}{wait}{clear}{end}		
-38F1.077C	{fb:9880}{n}{spk:0080}{n}天使様、{n}まずは、勇者様にお願いしてみては{n}いかがですか？{n}{wait}{clear}{end}		
-38F1.07CA	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}		
+38F1.077C	{fb:9880}{n}{spk:0080}{n}天使様、{n}まずは、勇者様にお願いしてみては{n}いかがですか？{n}{wait}{clear}{end}	{fb:9880}{n}{spk:0080}{n}Angel, why not ask a hero first?{n}{wait}{clear}{end}	
+38F1.07CA	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}	{fb:9980}{n}{spk:0080}{n}But we don't have any heroes right now!{n}If we don't find one soon, it'll be{n}terrible, Angeeel!{n}{wait}{clear}{end}	
 38F1.083C	{fb:A080}{n}{spk:0080}{n}キンバルト王国の{n}エルバレー街道（２７・４２）に{n}魔物が現れました！{n}{wait}{clear}この魔物は、この道を通る{n}お金持ちばかりを狙う、{n}とってもイヤなヤツです。{n}{wait}{clear}{end}		
 38F1.08E4	{fb:A180}{n}この事件は、{n}グリフィン様が適任だと思いますけど、{n}任せてみてはどうですか？{n}{wait}{clear}{end}		
-38F1.093E	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}		
-38F1.0986	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}		
+38F1.093E	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}	{fb:A280}{n}{spk:0080}{n}Angel, you'd better send a hero, quick!{n}{wait}{clear}{end}	
+38F1.0986	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}	{fb:A380}{n}{spk:0080}{n}But we have to find a hero first. Right,{n}Angel?{n}{wait}{clear}{end}	
 38F1.09D6	{fb:AA80}{n}{spk:0080}{n}キンバルト王国の{n}エルバレー街道（２７・４２）に{n}魔物が現れたようです。{n}{wait}{clear}この魔物は、この道を通る{n}お金持ちばかりを狙い、{n}交易の妨げになっているようです。{n}{wait}{clear}{end}		
 38F1.0A8A	{fb:AB80}{n}この事件はグリフィン様が{n}適任かと思います。彼に{n}お任せになられてはいかがでしょうか？{n}{wait}{clear}{end}		
-38F1.0AEE	{fb:AC80}{n}{spk:0080}{n}天使様、{n}早急に、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}		
-38F1.0B3E	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}		
+38F1.0AEE	{fb:AC80}{n}{spk:0080}{n}天使様、{n}早急に、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}	{fb:AC80}{n}{spk:0080}{n}Angel, why not ask a hero without delay?{n}{wait}{clear}{end}	
+38F1.0B3E	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}	{fb:AD80}{n}{spk:0080}{n}But if we don't find a hero first,{n}there's nothing we can do, is there?{n}{wait}{clear}{end}	

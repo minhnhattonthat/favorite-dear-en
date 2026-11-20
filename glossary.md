@@ -105,3 +105,9 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 ## Decisions from earlier batches
 - b001 3498.1550 (the gift-name list, one run of names indexed by the script): kept Japanese (`-`), phase 7 must
   find how the names are cut before it can be translated.
+- b009-b013 files 34F2 34F5 34F8 34FC 3500 3504 3507 350A (about 300 rows, all of each file): codes parse but the
+  text decodes as kana/kanji soup under the main table (a substitution, not a constant shift: most frequent code
+  0x000E sits where 。 belongs; likely a per-scene glyph set), so `-`. Same pattern in parts of 393D, 3976-3986
+  (b099, b103-b105). Phase 7: find the glyph table these files use, re-extract, re-batch, translate.
+- 様 after a hero's name (fairies, maids) is dropped: "I found {name:0180}!", "leave it to Sievas"; the politeness
+  goes into the phrasing. 天使様 stays "Angel".

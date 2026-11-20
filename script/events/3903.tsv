@@ -1,17 +1,17 @@
 id	jp	en	notes
 3903.04A2	{fb:8C80}{n}{spk:0080}{n}オフランド山地（６２・３６）の{n}泉の水を使えば{n}はやり病の特効薬をつくれるそうです！{n}{wait}{clear}{end}		
 3903.050A	{fb:8D80}{n}この仕事には、ディアン様が{n}一番の適任かと思いますが、{n}いかがでしょうか？{n}{wait}{clear}{end}		
-3903.0562	{fb:8E80}{n}{spk:0080}{n}天使様、ひとまず勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}		
-3903.05B6	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}		
+3903.0562	{fb:8E80}{n}{spk:0080}{n}天使様、ひとまず勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}	{fb:8E80}{n}{spk:0080}{n}Angel, might I suggest sending a hero to{n}the scene for now?{n}{wait}{clear}{end}	
+3903.05B6	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}	{fb:8F80}{n}{spk:0080}{n}However, with no heroes at present, I{n}believe finding a suitable person must{n}come first.{n}{wait}{clear}{end}	
 3903.0620	{fb:9680}{n}{spk:0080}{n}オフランド山地（６２・３６）の{n}泉の水を使うと、はやり病の{n}特効薬がつくれるそうですぅ！{n}{wait}{clear}{end}		
 3903.068C	{fb:9780}{n}こういうことは、{n}ディアン様にお願いするのがいいと{n}思いますけど、いかがです？{n}{wait}{clear}{end}		
-3903.06E8	{fb:9880}{n}{spk:0080}{n}天使様、{n}まずは、勇者様にお願いしてみては{n}いかがですか？{n}{wait}{clear}{end}		
-3903.0736	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}		
+3903.06E8	{fb:9880}{n}{spk:0080}{n}天使様、{n}まずは、勇者様にお願いしてみては{n}いかがですか？{n}{wait}{clear}{end}	{fb:9880}{n}{spk:0080}{n}Angel, why not ask a hero first?{n}{wait}{clear}{end}	
+3903.0736	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}	{fb:9980}{n}{spk:0080}{n}But we don't have any heroes right now!{n}If we don't find one soon, it'll be{n}terrible, Angeeel!{n}{wait}{clear}{end}	
 3903.07A8	{fb:A080}{n}{spk:0080}{n}オフランド山地（６２・３６）の{n}泉の水を使うと、はやり病の{n}特効薬がつくれるんだそうです！{n}{wait}{clear}{end}		
 3903.0816	{fb:A180}{n}こういうことは、{n}ディアン様の専門だと思いますから、{n}任せてみてはどうですか？{n}{wait}{clear}{end}		
-3903.0872	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}		
-3903.08BA	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}		
+3903.0872	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}	{fb:A280}{n}{spk:0080}{n}Angel, you'd better send a hero, quick!{n}{wait}{clear}{end}	
+3903.08BA	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}	{fb:A380}{n}{spk:0080}{n}But we have to find a hero first. Right,{n}Angel?{n}{wait}{clear}{end}	
 3903.090A	{fb:AA80}{n}{spk:0080}{n}オフランド山地（６２・３６）の{n}泉の水を使うと、はやり病の{n}特効薬がつくれるのだそうです。{n}{wait}{clear}{end}		
 3903.0978	{fb:AB80}{n}この件はディアン様が{n}適任かと思います。彼に{n}お任せになられてはいかがでしょうか？{n}{wait}{clear}{end}		
-3903.09D8	{fb:AC80}{n}{spk:0080}{n}天使様、{n}早急に、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}		
-3903.0A28	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}		
+3903.09D8	{fb:AC80}{n}{spk:0080}{n}天使様、{n}早急に、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}	{fb:AC80}{n}{spk:0080}{n}Angel, why not ask a hero without delay?{n}{wait}{clear}{end}	
+3903.0A28	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}	{fb:AD80}{n}{spk:0080}{n}But if we don't find a hero first,{n}there's nothing we can do, is there?{n}{wait}{clear}{end}	

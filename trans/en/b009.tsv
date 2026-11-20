@@ -1,0 +1,55 @@
+id	en
+34E3.2092	{fb:7180}{n}Hmm... You want me to go there? All right, I'll go for you.{n}{wait}{clear}But next time you ask something like that, at least tell me why. Understood, my dear angel?{n}{wait}{clear}{end}
+34E3.2138	{fb:7280}{n}Asking me something like that so suddenly... What a bother. I've already booked work.{n}{wait}{clear}Well, the purpose isn't even clear, so it can't be anything important, can it? Then ask another hero.{n}{wait}{clear}{end}
+34E3.21FA	{fb:7980}{n}{spk:0080}{n}Yes, understood, Angel. I just need to go there, right?{n}{wait}{clear}Then I'll do my best to get there as soon as I can.{n}{wait}{clear}{end}
+34E3.227E	{fb:7A80}{n}{spk:0080}{n}{e5:0580}{n}I understand. But please let me pass this time. I do want to be of use...{n}{wait}{clear}Right now I really can't leave what I'm doing... I'm so sorry.{n}{wait}{clear}{e5:0080}{n}{end}
+34E3.2336	{fb:7B80}{n}{spk:0080}{n}Yes, understood, Angel. I just need to go there, right? I'll go and give it my all.{n}{wait}{clear}{end}
+34E3.23A0	{fb:7C80}{n}{spk:0080}{n}Um... I'm sorry! There's an errand I just can't turn down.{n}{wait}{clear}I think I can take the next one, so please forgive me just this once.{n}{wait}{clear}{end}
+34E8.0740	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}Lately, bandits called the "Dark Carriage" have been tormenting people here.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}They say they kidnap girls and sell them off somewhere...{n}{wait}{clear}{end}
+34E8.088C	{fb:0A80}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Why must I go? Surely an incident of that scale can be solved without me?{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}I see... I'd heard a beautiful lady was in danger, but...{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Well, if you don't want to, it can't be helped. I'll ask another hero.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Wait!{n}{wait}{clear}{e0:E0FF}I've changed my mind. I'll go.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}I don't want to force you...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0680}{n}No, a little diversion now and then isn't bad.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}A diversion...?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Come, let's go.{n}{wait}{clear}{e5:0080}{n}{end}
+34E8.0A7C	{fb:0B80}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}...Sorry, but I'm not in the mood this time.{n}{wait}{clear}{end}
+34E8.0AC0	{spk:0080}{n}Try someone else.{n}{wait}{clear}{e5:0080}{n}{end}
+34E8.0AEA	{fb:0C80}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Why must I go? Surely an incident of that scale can be solved without me?{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}I see... I'd heard a beautiful lady was in danger, but...{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Well, if you don't want to, it can't be helped... I'll ask another hero.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Wait!{n}{wait}{clear}{e0:E0FF}I've changed my mind. I'll go.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}I don't want to force you...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0680}{n}No, a little diversion now and then isn't bad.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}A diversion...?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Come, let's go.{n}{wait}{clear}{e5:0080}{n}{end}
+34EA.07F6	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}I've received word that a monster has appeared in the marshes of the Duminas Empire.{n}{wait}{clear}{end}
+34EA.08AA	{fb:4680}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Long story short, it's fine as long as it stops causin' trouble, right?{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Yes. That's right, but why?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I wanna keep beatin' it up as a last resort. It might be the kind you can talk sense into.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Ryudral...{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}{f7:0080}　Urge caution{n}{f7:0080}　Praise his kindness{n}{end}
+34EA.09DC	{fb:4780}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}I get it. But... could you let me think this one over a bit?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}Something about it's bugging me...{n}{wait}{clear}{e5:0080}{n}{end}
+34EA.0A86	{fb:4880}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Long story short, it's fine as long as it stops causin' trouble, right?{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Yes. That's right, but why?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I wanna keep beatin' it up as a last resort. It might be the kind you can talk sense into.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Ryudral...{n}{spk:0080}{n}{wait}{clear}{e0:E0FF}{f7:0080}　Urge caution{n}{f7:0080}　Praise his kindness{n}{end}
+34EA.0BB8	{fb:4980}{n}{e0:E0FF}{spk:0080}{n}I get it. But... could you let me think this one over a bit?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}Something about it's bugging me...{n}{wait}{clear}{e5:0080}{n}{end}
+34EA.0C62	{fb:F481}{n}{e0:E0FF}{fe:E78300800180}{n}{spk:E783}{n}It's dangerous, Ryudral. This creature is clearly disturbing the peace.{n}{wait}{clear}{e0:E0FF}There's no telling what the monsters will do. Please be careful.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}Talking like that... You're colder than I thought.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Even monsters'll listen if you talk to 'em. I'll show you!{n}{wait}{clear}{e5:0080}{n}{end}
+34EA.0DAA	{fb:FE81}{n}{e0:E0FF}{fd:E78300800180}{n}{spk:0080}{n}Did I say somethin' weird? But this is how I do things.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}No, it's not that. You're kind, Ryudral.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}It's not like that. I just don't wanna believe anyone's rotten to the core.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Besides, I don't wanna be the kind of "hero" who just kills monsters...{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}I understand your convictions well, Ryudral. But please don't let your guard down.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Yeah, I know.{n}{wait}{clear}{e5:0080}{n}{end}
+34EA.0FAA	{fb:F581}{n}{e0:E0FF}{fe:E78300800180}{n}{spk:E783}{n}It's dangerous, Ryudral. This creature is clearly disturbing the peace.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}There's no telling what the monsters will do. Please be careful.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}Talking like that... You're colder than I thought.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Even monsters'll listen if you talk to 'em. I'll show you!{n}{wait}{clear}{e5:0080}{n}{end}
+34ED.0742	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}A thieving monster has appeared in Fangam, and many people are suffering.{n}{wait}{clear}{end}
+34ED.080A	{fb:5A80}{n}{e0:E0FF}{spk:0080}{n}{e5:0380}{n}Whaaat?! Why me, at a time like this?! Go ask another hero!{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}I want you to take this one, Ashe.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Reeeally? Isn't it just 'cause I happened to be free, so you came here?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Go ask somebody else for that kinda thing. I'm not just sitting around either. Besides, this is way too sudden.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Please, Ashe. It's your duty as a hero.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}It's for the people who are suffering. Please go.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}Fine, I guess... So, is it strong? That thing?{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}I don't know. Not until we actually go.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}But I believe Ashe the hero can defeat it for sure. So...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Yeah, yeah. Fine. When you beg me like that, I can't say no. Let's do this!{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}So, where is it?{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Thank you, Ashe! It's the village of Copa.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0680}{n}Okay! Once I decide to do something, no dawdling! Let's go!{n}{wait}{clear}{e5:0080}{n}{end}
+34ED.0BE8	{fb:5B80}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Hmm. But I'll pass! Not doing it. I've got a bad feeling about it.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Feels like you only came 'cause I happened to be free.{n}{wait}{clear}{e5:0080}{n}{end}
+34ED.1074	{fb:5D80}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Hmm. But I'll pass! Not doing it. I've got a bad feeling about it.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Feels like you only came here 'cause I happened to be free.{n}{wait}{clear}{e5:0080}{n}{end}
+34F0.0742	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}A mountain bandit calling himself Drakken has appeared in Hebron, and he's attacking traveling merchants one after another.{n}{wait}{clear}{end}
+34F0.081E	{fb:6E80}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}Ah, so noisy... Raising your voice like that, it echoes in my head.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}All right, fine.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I'll make monster hunting my diversion.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}A diversion...?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0680}{n}Come on, come on. Let's go before I change my mind, {name:0080}.{n}{wait}{clear}{e5:0080}{n}{end}
+34F0.0954	{fb:6F80}{n}{spk:0080}{n}{e5:0580}{n}Ah, so noisy... Raising your voice like that, it echoes in my head.{n}{wait}{clear}{spk:0080}{n}Sorry, I'm not in the mood today.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}...Well then. Maybe I'll go have a drink to take my mind off things.{n}{wait}{clear}{e5:0080}{n}{end}
+34F0.0A34	{fb:7080}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}Ah, so noisy... Raising your voice like that, it echoes in my head.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}All right, fine.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I'll make monster hunting my diversion.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}A diversion...?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0680}{n}Come on, come on. Let's go before I change my mind, {name:0080}.{n}{wait}{clear}{e5:0080}{n}{end}
+34F0.0B6C	{fb:7180}{n}{spk:0080}{n}{e5:0580}{n}Ah, so noisy... Raising your voice like that, it echoes in my head.{n}{wait}{clear}{spk:0080}{n}Sorry, I'm not in the mood today.{n}{wait}{clear}{spk:0080}{n}Ah, it's no good. Maybe I'll go have a drink to take my mind off things.{n}{wait}{clear}{e5:0080}{n}{end}
+34F2.039A	-
+34F2.03D6	-
+34F2.0436	-
+34F2.0476	-
+34F2.04CA	-
+34F2.050E	-
+34F2.0584	-
+34F2.05DE	-
+34F2.064E	-
+34F2.06B0	-
+34F2.0710	-
+34F2.075E	-
+34F2.07E0	-
+34F2.081C	-
+34F2.08B2	-
+34F2.0924	-
+34F2.09A4	-
+34F2.0A0A	-
+34F2.0AB4	-
+34F2.0B20	-
+34F2.0BBC	-
+34F2.0C16	-
+34F2.0C96	-
+34F2.0D0A	-
+34F2.0E0E	-
+34F2.0E76	-

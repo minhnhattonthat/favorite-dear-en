@@ -2,16 +2,16 @@ id	jp	en	notes
 3907.04A2	{fb:8C80}{n}{spk:0080}{n}エスパルダ皇国の{n}アンシェ（３０・２８）に悪魔があらわれ、{n}人々をおそっています。{n}{wait}{clear}敵の姿はきちんと確認できませんでしたが、{n}とても気にかかるのですが・・・。{n}とにかく、なんとかしなければなりません。{n}{wait}{clear}{end}		
 3907.0582	{fb:8D80}{n}{spk:0080}{n}天使様、至急、勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}		
 3907.05D4	{fb:8E80}{n}{spk:0080}{n}天使様、至急、勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}		
-3907.0626	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}		
+3907.0626	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}	{fb:8F80}{n}{spk:0080}{n}However, with no heroes at present, I{n}believe finding a suitable person must{n}come first.{n}{wait}{clear}{end}	
 3907.0690	{fb:9680}{n}{spk:0080}{n}エスパルダ皇国の{n}アンシェ（３０・２８）に悪魔が来て、{n}みんなをおそっています！{n}{wait}{clear}姿はちゃんと見れなかったんですけど、{n}とっても気になるんです・・・。{n}でも、なんとかしなくちゃダメですぅ。{n}{wait}{clear}{end}		
 3907.0764	{fb:9780}{n}{spk:0080}{n}天使様、{n}早く、勇者様にお願いしてみて{n}くださぁい！{n}{wait}{clear}{end}		
 3907.07AC	{fb:9880}{n}{spk:0080}{n}天使様、{n}早く、勇者様にお願いしてみて{n}くださぁい！{n}{wait}{clear}{end}		
-3907.07F4	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}		
+3907.07F4	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}	{fb:9980}{n}{spk:0080}{n}But we don't have any heroes right now!{n}If we don't find one soon, it'll be{n}terrible, Angeeel!{n}{wait}{clear}{end}	
 3907.0866	{fb:A080}{n}{spk:0080}{n}エスパルダ皇国の{n}アンシェ（３０・２８）に悪魔があらわれ、{n}人々をおそっているんです！{n}{wait}{clear}敵の姿は見れなかったんですけど、{n}なんだか気になって・・・いえ！{n}早くなんとかしなくちゃダメです！！{n}{wait}{clear}{end}		
-3907.093A	{fb:A180}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}		
-3907.0982	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}		
-3907.09CA	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}		
+3907.093A	{fb:A180}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}	{fb:A180}{n}{spk:0080}{n}Angel, you'd better send a hero, quick!{n}{wait}{clear}{end}	
+3907.0982	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}	{fb:A280}{n}{spk:0080}{n}Angel, you'd better send a hero, quick!{n}{wait}{clear}{end}	
+3907.09CA	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}	{fb:A380}{n}{spk:0080}{n}But we have to find a hero first. Right,{n}Angel?{n}{wait}{clear}{end}	
 3907.0A1A	{fb:AA80}{n}{spk:0080}{n}エスパルダ皇国の{n}アンシェ（３０・２８）に悪魔があらわれ、{n}人々をおそっています。{n}{wait}{clear}敵の姿は見ることができませんでしたが、{n}なんだか気にかかることが・・・しかし、{n}早く手を打つべきではないでしょうか。{n}{wait}{clear}{end}		
 3907.0AFA	{fb:AB80}{n}{spk:0080}{n}天使様、{n}さっそく、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}		
 3907.0B4C	{fb:AC80}{n}{spk:0080}{n}天使様、{n}さっそく、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}		
-3907.0B9E	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}		
+3907.0B9E	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}	{fb:AD80}{n}{spk:0080}{n}But if we don't find a hero first,{n}there's nothing we can do, is there?{n}{wait}{clear}{end}	

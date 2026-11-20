@@ -72,6 +72,8 @@ def allowed(name, orig, new, orig_psx, patterns):
         r = [range(sec * insert.SECTOR, sec * insert.SECTOR + size)
              for sec, size, _, _ in evscript.script_files(orig_psx, orig) if sec in secs]
         r += [range(off, off + size) for off, size in (gfx.slot(orig_psx, e) for e in gfx.entries() if not gfx.is_pss(e))]  # gfx/*.tsv
+        packs = {p for e in gfx.entries() for p, _ in gfx.MIRRORS.get(e, [])}  # packs holding a copy of a gfx image
+        r += [range(off, off + size) for off, size in (gfx.slot(orig_psx, p) for p in packs)]
         return r + [range(len(orig), max(len(orig), len(new)))]
     r = entries(orig, patterns)
     if name == "PSX.EXE":

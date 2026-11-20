@@ -24,6 +24,8 @@ def test_images_fit_and_stay_in_rects():
     exe = (gfx.TREE / "PSX.EXE").read_bytes()
     gdata = (gfx.TREE / "GDATA.BIN").read_bytes()
     for e, (off, size, block) in gfx.images(exe, gdata).items():
+        if e not in gfx.entries():  # a pack holding a mirrored copy: test_mirrored_packs
+            continue
         img, new = gfx.redraw(exe, gdata, e)
         pix, w, h = img.pix, img.w, img.h
         assert len(block) <= size and img.decode(block) == img.raw(new)
@@ -34,6 +36,38 @@ def test_images_fit_and_stay_in_rects():
             inside |= {yy * w + xx for yy in range(y, y + rh) for xx in range(x, x + rw)}
         assert [i for i in range(len(pix)) if pix[i] != new[i] and i not in inside] == []
     assert gfx.gdata_edit(gdata, exe) != gdata
+
+
+@need_disc
+def test_mirrored_packs():
+    """e207 block 3 (the battle's copy of the status stamps) decodes to the redrawn e243; the other blocks are
+    unchanged and the pack keeps its slot size"""
+    exe = (gfx.TREE / "PSX.EXE").read_bytes()
+    gdata = (gfx.TREE / "GDATA.BIN").read_bytes()
+    out = gfx.images(exe, gdata)
+    for e, places in gfx.MIRRORS.items():
+        img, new = gfx.redraw(exe, gdata, e)
+        for pack, index in places:
+            off, size, blob = out[pack]
+            assert len(blob) == size
+            old = gfx.pack_blocks(gdata[off:off + size])
+            got = gfx.pack_blocks(blob)
+            assert len(got) == len(old)
+            assert lzss.decompress(got[index] + bytes(16))[0] == img.raw(new)
+            for i in range(len(old) - 1):
+                if i != index:
+                    assert got[i] == old[i], (pack, i)
+            end = lzss.decompress(old[-1] + bytes(16))[1]
+            assert got[-1][:end] == old[-1][:end]
+
+
+def test_repack_shifts_offsets():
+    blocks = [b"A" * 5, b"B" * 7, b"C" * 3 + bytes(9)]
+    blob = bytes([12, 0, 0, 0, 17, 0, 0, 0, 24, 0, 0, 0]) + b"".join(blocks)
+    out = gfx.repack(blob, 1, b"bb")
+    assert len(out) == len(blob)
+    assert gfx.pack_blocks(out)[:2] == [b"A" * 5, b"bb"]
+    assert gfx.pack_blocks(out)[2].startswith(b"C" * 3)
 
 
 @need_disc

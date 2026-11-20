@@ -328,8 +328,43 @@ def copy(w, pix, r):
         pix[(y + yy) * w + x:(y + yy) * w + x + rw] = line
 
 
+# Images that also live, byte-identical, as one block of a pack entry: {image entry: [(pack entry, block index)]}.
+# A pack = u32 offsets (the first is the table size, so count = first / 4), then the blocks back to back.
+# e207 (battle pack) block 3 is e243, the status stamps: battles draw that copy (ポイズン by the gauge in
+# battle_t0901 after e243 was English), so the redraw goes into both.
+MIRRORS = {243: [(207, 3)]}
+
+
+def pack_blocks(blob):
+    """the blocks of a pack entry (the last one runs to the end of the slot, padding included)"""
+    n = struct.unpack_from("<I", blob, 0)[0] // 4
+    offs = list(struct.unpack_from(f"<{n}I", blob, 0)) + [len(blob)]
+    return [blob[offs[i]:offs[i + 1]] for i in range(n)]
+
+
+def repack(blob, index, block):
+    """pack entry `blob` with block `index` replaced; same length (the slack comes from or goes to the end)"""
+    blocks = pack_blocks(blob)
+    old = len(blocks[index])
+    blocks[index] = block
+    n = len(blocks)
+    offs, at = [], 4 * n
+    for b in blocks:
+        offs.append(at)
+        at += len(b)
+    out = struct.pack(f"<{n}I", *offs) + b"".join(blocks)
+    if len(out) > len(blob):  # the last block's tail is slot padding: trim it, never real data
+        last = blocks[-1]
+        end = lzss.decompress(last + bytes(16))[1]
+        if len(out) - len(blob) > len(last) - end:
+            raise ValueError(f"pack block {index}: {len(block):#x} bytes > {old:#x} and no room at the end")
+        out = out[:len(blob)]
+    return out + bytes(len(blob) - len(out))
+
+
 def images(exe=None, gdata=None):
-    """{entry: (offset, slot size, new slot bytes)} for every gfx/eNNN.tsv and gfx/sNNNNN.tsv"""
+    """{entry: (offset, slot size, new slot bytes)} for every gfx/eNNN.tsv and gfx/sNNNNN.tsv, plus the pack
+    entries holding a copy of one of them (MIRRORS)"""
     exe = exe or (TREE / "PSX.EXE").read_bytes()
     gdata = gdata or (TREE / "GDATA.BIN").read_bytes()
     out = {}
@@ -342,6 +377,13 @@ def images(exe=None, gdata=None):
         if len(block) > size:
             raise ValueError(f"{name(e)}: {len(block):#x} bytes > its {size:#x}-byte slot")
         out[e] = (off, size, block)
+        for pack, index in MIRRORS.get(e, []):
+            poff, psize = slot(exe, pack, gdata)
+            pblob = out[pack][2] if pack in out else gdata[poff:poff + psize]
+            old = pack_blocks(gdata[poff:poff + psize])[index]
+            if lzss.decompress(old + bytes(16))[0] != img.raw(img.pix):
+                raise ValueError(f"{name(pack)} block {index} is not a copy of {name(e)}")
+            out[pack] = (poff, psize, repack(pblob, index, block))
     return out
 
 
@@ -405,6 +447,7 @@ if __name__ == "__main__":
         png(a.out, a.entry)
     else:
         for e, (off, size, block) in images().items():
-            print(f"{name(e)}: {len(block):#x}/{size:#x} bytes, {len(rows(e))} labels")
+            what = f"{len(rows(e))} labels" if e in entries() else "pack holding a copy (MIRRORS)"
+            print(f"{name(e)}: {len(block):#x}/{size:#x} bytes, {what}")
         for path, block in pss_files().items():
             print(f"{path}: {len(block):#x}/{-(-len(block) // SECTOR) * SECTOR:#x} bytes")

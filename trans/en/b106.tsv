@@ -58,7 +58,7 @@ id	en
 3994.0ADC	{fb:6580}{n}{spk:0080}{n}I see. Then take care on your way back.{n}{wait}{clear}{end}
 3994.0BBA	{fb:7880}{n}{spk:0080}{n}Oh, it's the Angel. What are you doing all the way out here!?{n}{wait}{clear}{end}
 3994.0BFC	{fb:7980}{n}{spk:0080}{n}OK. See ya!{n}{wait}{clear}{end}
-3994.0C24	{fb:8280}{n}{spk:0080}{n}Oh, it's you! What are you doing all the way out here!?{n}{wait}{clear}{end}
+3994.0C24	{fb:8280}{n}{spk:0080}{n}Oh, it's Big Sis! What are you doing all the way out here!?{n}{wait}{clear}{end}
 3994.0C92	{fb:8C80}{n}{spk:0080}{n}I'm in the middle of a journey right now. So you need something, right? Since you came to see me.{n}{wait}{clear}{end}
 3994.0CE8	{fb:8D80}{n}{spk:0080}{n}Leaving already? You're pretty busy, huh.{n}{wait}{clear}{end}
 3994.0DB2	{fb:A080}{n}{spk:0080}{n}Oh, it's you. What do you want, all the way out here?{n}{wait}{clear}{end}
@@ -83,7 +83,7 @@ id	en
 3994.18FA	{fb:6580}{n}{spk:0080}{n}Then good night.{n}{wait}{clear}{end}
 3994.19B2	{fb:7880}{n}{spk:0080}{n}Huh, Angel... What's wrong, at this hour?{n}{wait}{clear}{end}
 3994.19F6	{fb:7980}{n}{spk:0080}{n}OK. Good night, then.{n}{wait}{clear}{end}
-3994.1A2C	{fb:8280}{n}{spk:0080}{n}Huh, it's you... What's wrong, at this hour?{n}{wait}{clear}{end}
+3994.1A2C	{fb:8280}{n}{spk:0080}{n}Huh, Big Sis... What's wrong, at this hour?{n}{wait}{clear}{end}
 3994.1AAA	{fb:8C80}{n}{spk:0080}{n}Mmmm? ...{name:0080}? Sorry. I'm really sleepy right now. Come back tomorrow. Night.{n}{fd:E78379830080}{n}{wait}{clear}{end}
 3994.1BD6	{fb:A080}{n}{spk:0080}{n}What is it, you...! There's no need to come at this hour, surely?{n}{wait}{clear}{spk:0080}{n}Think a little, would you... Good night.{n}{fd:E78379830080}{n}{wait}{clear}{end}
 3994.1D46	{fb:B480}{n}{spk:0080}{n}What is it, you stupid angel! Strolling into a maiden's room at this hour!{n}{wait}{clear}{spk:0080}{n}Get out of here this instant.{n}{fd:E78379830080}{n}{wait}{clear}{end}
@@ -106,7 +106,7 @@ id	en
 3994.2748	{fb:6580}{n}{spk:0080}{n}It seems you're heading back. Then excuse me.{n}{wait}{clear}{end}
 3994.282C	{fb:7880}{n}{spk:0080}{n}Oh, Angel. I'm about to go eat. What do you want?{n}{wait}{clear}{end}
 3994.287E	{fb:7980}{n}{spk:0080}{n}That's all? Then let's go eat.{n}{wait}{clear}{end}
-3994.28C0	{fb:8280}{n}{spk:0080}{n}Oh, it's you. I'm about to go eat. What do you want?{n}{wait}{clear}{end}
+3994.28C0	{fb:8280}{n}{spk:0080}{n}Oh, Big Sis. I'm about to go eat. What do you want?{n}{wait}{clear}{end}
 3994.2958	{fb:8C80}{n}{spk:0080}{n}{name:0080}? I was thinking of grabbing a bite. Want to join me?{n}{wait}{clear}{spk:0080}{n}It feels kind of awkward eating all by myself.{n}{wait}{clear}{end}
 3994.29FC	{fb:8D80}{n}{spk:0080}{n}What? You just got here and you're leaving already?{n}{wait}{clear}{spk:0080}{n}...Well, fine. But make sure you eat properly, at least.{n}{wait}{clear}{end}
 3994.2BB8	{fb:A080}{n}{spk:0080}{n}Oh, it was you. I'm just about to eat. Is there work?{n}{wait}{clear}{end}

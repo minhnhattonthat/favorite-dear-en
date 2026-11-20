@@ -63,7 +63,7 @@ id	en
 39E5.2AD4	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800480}{n}Anything but studying is fun. Horseback riding is great!{n}{wait}{clear}{spk:0080}{n}I rode all the time at the castle. When you gallop full speed, the wind feels sooo good!{n}{wait}{clear}{end}
 39E5.2BBE	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Hm? Something I'm careful about? Sure there is. Well, all sorts of things.{n}{wait}{clear}{end}
 39E5.2C40	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Heh heh. Well, yeah. I've been running all over the place one way or another, I guess.{n}{wait}{clear}{end}
-39E5.2CCC	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}Not really... Well, a Lady Ashe with beauty and strength both wouldn't be so bad.{n}{wait}{clear}{end}
+39E5.2CCC	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}Not really... Well, a Ashe-sama with beauty and strength both wouldn't be so bad.{n}{wait}{clear}{end}
 39E5.2D52	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Right. Let's take a break somewhere in a little while.{n}{wait}{clear}{end}
 39E5.2DC4	{fb:7880}{n}{spk:E783}{n}Do you like taking walks?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Yeah. I like them. They're relaxing and they feel nice.{n}{wait}{clear}{end}
 39E5.2E38	{fb:8280}{n}{spk:E783}{n}You're in quite a hurry.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Dawdling is a waste of time. A flower's life is short. Let's hurry up!!{n}{wait}{clear}{end}

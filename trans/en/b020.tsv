@@ -9,16 +9,16 @@ id	en
 3565.119E	{e0:E0FF}{spk:E783}{fa:0180}{n}The Borunga of Duminas are supposed to be gentle monsters that never attack people...?{n}{wait}{clear}{end}
 3565.1208	{spk:E783}{fa:0080}{n}{f7:0080}Borunga:{n}{f7:0380}{n}......{n}{wait}{clear}{e0:E0FF}
 3565.12E2	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the Borunga.{n}{wait}{clear}{end}
-3568.0AF8	{e0:E0FF}{spk:E783}{fa:0080}{n}Gegeh, geh, won't let you get in Lord Macula's way! Human... kill...{n}{wait}{clear}{end}
+3568.0AF8	{e0:E0FF}{spk:E783}{fa:0080}{n}Gegeh, geh, won't let you get in Macula-sama's way! Human... kill...{n}{wait}{clear}{end}
 3568.0B54	{e0:E0FF}{spk:0080}{fa:0180}{n}Why are you wreckin' the village?! Outta my way! If you won't move, I'll make you!{n}{wait}{clear}{end}
 3568.0BBC	{e0:E0FF}{spk:0080}{fa:0180}{n}That Macula...... I'll never forgive him, never!!{n}{wait}{clear}{end}
-3568.0D48	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gegeh, geh, won't let you get in Lord Macula's way! Human... kill...{n}{wait}{clear}{end}
+3568.0D48	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gegeh, geh, won't let you get in Macula-sama's way! Human... kill...{n}{wait}{clear}{end}
 356A.0AAC	{e0:E0FF}{spk:E783}{fa:0080}{n}Gegeh, gegeh.{n}{wait}{clear}{end}
 356A.0AD6	{e0:E0FF}{spk:E783}{fa:0180}{n}Ryudral, look out!{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Please, just stop! What good is doing something like this?!{n}{wait}{clear}{end}
-356A.0C94	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gegeh, geh, won't let you get in Lord Macula's way! Lord Macula... will be chief of dragons...{n}{wait}{clear}{end}
-356C.0FA8	{e0:E0FF}{spk:E783}{fa:0080}{n}Long live Lady Miraya!!{n}{wait}{clear}{end}
+356A.0C94	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gegeh, geh, won't let you get in Macula-sama's way! Macula-sama... will be chief of dragons...{n}{wait}{clear}{end}
+356C.0FA8	{e0:E0FF}{spk:E783}{fa:0080}{n}Long live Miraya-sama!!{n}{wait}{clear}{end}
 356C.0FD6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Duminas Commander:{n}{f7:0380}{n}The enemy is right in front of us. Charge!{n}{wait}{clear}{end}
-356C.1024	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Duminas Commander:{n}{f7:0380}{n}Long... live... Lady Miraya...!{n}{wait}{clear}{end}
+356C.1024	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Duminas Commander:{n}{f7:0380}{n}Long... live... Miraya-sama...!{n}{wait}{clear}{end}
 356C.107E	{e0:1305}{spk:E783}{fa:0080}{n}{f7:0080}Miraya:{n}{f7:0380}{n}How strong you are... Defeating so many monsters and soldiers all by yourself.{n}{wait}{clear}{end}
 356C.10F4	{e0:1405}{spk:0080}{fa:0180}{n}So the commander-in-chief shows up in person, huh? Why are you doing this?!{n}{wait}{clear}{e0:1505}{spk:E783}{fa:0080}{n}{f7:0080}Miraya:{n}{f7:0380}{n}...Doing what, I wonder?{n}{wait}{clear}{e0:1605}{spk:0080}{fa:0180}{n}You don't care one bit about monsters' lives or people's lives! I won't let you get away with this anymore!{n}{wait}{clear}{end}
 356C.11F6	{e0:1705}{spk:E783}{fa:0080}{n}{f7:0080}Miraya:{n}{f7:0380}{n}Hehe... Well, isn't it obvious?{n}{wait}{clear}{e0:1805}If they can't beat a single man even when they gang up on him, then they're worth nothing at all.{n}{wait}{clear}{e0:1905}{spk:E783}{fa:0080}{n}This village is the same. It has no power of its own, yet it lives at ease just because the dragons protect it...{n}{wait}{clear}{e0:1A05}{spk:E783}{fa:0080}{n}Take away the dragons' protection, and it's a trash heap of a village full of helpless people. I hate that sort of thing.{n}{wait}{clear}{e0:1B05}{spk:0080}{fa:0180}{n}That's why you did all this? You're not right in the head... you...{n}{wait}{clear}{e0:1C05}{spk:E783}{fa:0080}{n}{f7:0080}Miraya:{n}{f7:0380}{n}You know, I'm very interested in you. You're so very strong.{n}{wait}{clear}{e0:1D05}I'll reward you as generously as you like. Won't you fight for me?{n}{wait}{clear}{e0:1E05}{spk:0080}{fa:0180}{n}Fight for someone like you? No way in hell!{n}{wait}{clear}{e0:1F05}{spk:0080}{fa:0180}{n}Get outta here, now. If you won't, I'll throw you out myself!{n}{wait}{clear}{e0:2005}{spk:0080}{fa:0180}{n}Dragons' protection or not, as long as I'm here, nobody lays a finger on this village!{n}{wait}{clear}{end}

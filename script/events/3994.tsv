@@ -21,7 +21,7 @@ id	jp	en	notes
 3994.0B76	{fb:6F80}{n}{spk:0080}{n}そうですか。{n}では、お気をつけてお帰りください。{n}{wait}{clear}{end}	{fb:6F80}{n}{spk:0080}{n}I see. Then take care on your way back.{n}{wait}{clear}{end}	
 3994.0BBA	{fb:7880}{n}{spk:0080}{n}あ、天使様だ。{n}どうしたのこんなところまで！？{n}{wait}{clear}{end}	{fb:7880}{n}{spk:0080}{n}Oh, it's the Angel. What are you doing{n}all the way out here!?{n}{wait}{clear}{end}	
 3994.0BFC	{fb:7980}{n}{spk:0080}{n}うん。それじゃあね！{n}{wait}{clear}{end}	{fb:7980}{n}{spk:0080}{n}OK. See ya!{n}{wait}{clear}{end}	
-3994.0C24	{fb:8280}{n}{spk:0080}{n}あ、お姉ちゃんだ。{n}どうしたのこんなところまで！？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh, it's you! What are you doing all the{n}way out here!?{n}{wait}{clear}{end}	
+3994.0C24	{fb:8280}{n}{spk:0080}{n}あ、お姉ちゃんだ。{n}どうしたのこんなところまで！？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh, it's Big Sis! What are you doing all{n}the way out here!?{n}{wait}{clear}{end}	
 3994.0C6A	{fb:8380}{n}{spk:0080}{n}うん。それじゃあね！{n}{wait}{clear}{end}	{fb:8380}{n}{spk:0080}{n}OK. See ya!{n}{wait}{clear}{end}	
 3994.0C92	{fb:8C80}{n}{spk:0080}{n}今、旅の途中なんだけど。{n}で、用事なんだろ？　会いに来たって事は。{n}{wait}{clear}{end}	{fb:8C80}{n}{spk:0080}{n}I'm in the middle of a journey right{n}now. So you need something, right? Since{n}you came to see me.{n}{wait}{clear}{end}	
 3994.0CE8	{fb:8D80}{n}{spk:0080}{n}もう帰るのか？{n}けっこう忙しいんだな。{n}{wait}{clear}{end}	{fb:8D80}{n}{spk:0080}{n}Leaving already? You're pretty busy,{n}huh.{n}{wait}{clear}{end}	
@@ -69,7 +69,7 @@ id	jp	en	notes
 3994.1984	{fb:6F80}{n}{spk:0080}{n}それでは、おやすみなさい。{n}{wait}{clear}{end}	{fb:6F80}{n}{spk:0080}{n}Then good night.{n}{wait}{clear}{end}	
 3994.19B2	{fb:7880}{n}{spk:0080}{n}あれ、天使様・・・。{n}こんな時間に、どうしたの？{n}{wait}{clear}{end}	{fb:7880}{n}{spk:0080}{n}Huh, Angel... What's wrong, at this{n}hour?{n}{wait}{clear}{end}	
 3994.19F6	{fb:7980}{n}{spk:0080}{n}そう。{n}それじゃ、おやすみなさい。{n}{wait}{clear}{end}	{fb:7980}{n}{spk:0080}{n}OK. Good night, then.{n}{wait}{clear}{end}	
-3994.1A2C	{fb:8280}{n}{spk:0080}{n}あれ、お姉ちゃん・・・。{n}こんな時間に、どうしたの？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Huh, it's you... What's wrong, at this{n}hour?{n}{wait}{clear}{end}	
+3994.1A2C	{fb:8280}{n}{spk:0080}{n}あれ、お姉ちゃん・・・。{n}こんな時間に、どうしたの？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Huh, Big Sis... What's wrong, at this{n}hour?{n}{wait}{clear}{end}	
 3994.1A74	{fb:8380}{n}{spk:0080}{n}そう。{n}それじゃ、おやすみなさい。{n}{wait}{clear}{end}	{fb:8380}{n}{spk:0080}{n}OK. Good night, then.{n}{wait}{clear}{end}	
 3994.1AAA	{fb:8C80}{n}{spk:0080}{n}ぅう～ん？　・・・{name:0080}か？{n}悪りぃ。俺、今とっても眠くって。{n}明日また出直してくれ。じゃあ。{n}{fd:E78379830080}{n}{wait}{clear}{end}	{fb:8C80}{n}{spk:0080}{n}Mmmm? ...{name:0080}? Sorry. I'm really{n}sleepy right now. Come back tomorrow.{n}Night.{n}{fd:E78379830080}{n}{wait}{clear}{end}	
 3994.1B24	{fb:8D80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:8D80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
@@ -117,7 +117,7 @@ id	jp	en	notes
 3994.27EE	{fb:6F80}{n}{spk:0080}{n}お帰りのようですね。{n}では、失礼しますよ。{n}{wait}{clear}{end}	{fb:6F80}{n}{spk:0080}{n}It seems you're heading back. Then{n}excuse me.{n}{wait}{clear}{end}	
 3994.282C	{fb:7880}{n}{spk:0080}{n}あ、天使様。{n}僕これからご飯を食べにいくんだけど、{n}なにか用？{n}{wait}{clear}{end}	{fb:7880}{n}{spk:0080}{n}Oh, Angel. I'm about to go eat. What do{n}you want?{n}{wait}{clear}{end}	
 3994.287E	{fb:7980}{n}{spk:0080}{n}それでおしまい？{n}じゃあ、ご飯を食べに行こう。{n}{wait}{clear}{end}	{fb:7980}{n}{spk:0080}{n}That's all? Then let's go eat.{n}{wait}{clear}{end}	
-3994.28C0	{fb:8280}{n}{spk:0080}{n}あ、お姉ちゃん。{n}僕これからご飯を食べにいくんだけど、{n}なにか用？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh, it's you. I'm about to go eat. What{n}do you want?{n}{wait}{clear}{end}	
+3994.28C0	{fb:8280}{n}{spk:0080}{n}あ、お姉ちゃん。{n}僕これからご飯を食べにいくんだけど、{n}なにか用？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh, Big Sis. I'm about to go eat. What{n}do you want?{n}{wait}{clear}{end}	
 3994.2916	{fb:8380}{n}{spk:0080}{n}それでおしまい？{n}じゃあ、ご飯を食べに行こう。{n}{wait}{clear}{end}	{fb:8380}{n}{spk:0080}{n}That's all? Then let's go eat.{n}{wait}{clear}{end}	
 3994.2958	{fb:8C80}{n}{spk:0080}{n}{name:0080}か？　俺、今からメシでも{n}食おうかと思ってんだけど、{n}良かったら一緒にどうだい？{n}{wait}{clear}{spk:0080}{n}俺一人だけ食ってるのも、{n}何だか気がひけるしさ。{n}{wait}{clear}{end}	{fb:8C80}{n}{spk:0080}{n}{name:0080}? I was thinking of grabbing a{n}bite. Want to join me?{n}{wait}{clear}{spk:0080}{n}It feels kind of awkward eating all by{n}myself.{n}{wait}{clear}{end}	
 3994.29FC	{fb:8D80}{n}{spk:0080}{n}なんだ。{n}さっき来たとこなのに、もう帰るって？{n}{wait}{clear}{spk:0080}{n}・・・まあいいけど。{n}メシぐらい、きちんと食べないとダメだぜ。{n}{wait}{clear}{end}	{fb:8D80}{n}{spk:0080}{n}What? You just got here and you're{n}leaving already?{n}{wait}{clear}{spk:0080}{n}...Well, fine. But make sure you eat{n}properly, at least.{n}{wait}{clear}{end}	
@@ -165,7 +165,7 @@ id	jp	en	notes
 3994.389E	{fb:6F80}{n}{spk:0080}{n}そうですか。もっとゆっくり{n}お話ができればよかったのですが、{n}天使様もお忙しいのですね。{n}{wait}{clear}{spk:0080}{n}それでは、またの機会に。{n}{wait}{clear}{end}	{fb:6F80}{n}{spk:0080}{n}I see. I wish we could have talked{n}longer, but you're busy too, Angel.{n}{wait}{clear}{spk:0080}{n}Until next time, then.{n}{wait}{clear}{end}	
 3994.392E	{fb:7880}{n}{spk:0080}{n}あっ！　天使様！{n}僕、今、遊んでたところなんだ。{n}{wait}{clear}{end}	{fb:7880}{n}{spk:0080}{n}Oh! Angel! I was just playing.{n}{wait}{clear}{end}	
 3994.3972	{fb:7980}{n}{spk:0080}{n}それだけ？{n}じゃあ、またね。{n}{wait}{clear}{end}	{fb:7980}{n}{spk:0080}{n}That's it? See ya, then.{n}{wait}{clear}{end}	
-3994.39A2	{fb:8280}{n}{spk:0080}{n}あっ！　お姉ちゃん！{n}僕、今、遊んでたところなんだ。{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh! It's you! I was just playing.{n}{wait}{clear}{end}	
+3994.39A2	{fb:8280}{n}{spk:0080}{n}あっ！　お姉ちゃん！{n}僕、今、遊んでたところなんだ。{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh! Big Sis! I was just playing.{n}{wait}{clear}{end}	
 3994.39EA	{fb:8380}{n}{spk:0080}{n}それだけ？{n}じゃあ、またね。{n}{wait}{clear}{end}	{fb:8380}{n}{spk:0080}{n}That's it? See ya, then.{n}{wait}{clear}{end}	
 3994.3A1A	{fb:8C80}{n}{spk:0080}{n}ああ、{name:0080}。ついさっきまで{n}のんびり釣りをしてたところさ。{n}ちょっと、息抜きにね。{n}{wait}{clear}{spk:0080}{n}で、今日はどうしたんだい？{n}{wait}{clear}{end}	{fb:8C80}{n}{spk:0080}{n}Oh, {name:0080}. I was just doing some{n}lazy fishing until a minute ago. A{n}little break, you know.{n}{wait}{clear}{spk:0080}{n}So, what's up today?{n}{wait}{clear}{end}	
 3994.3AA6	{fb:8D80}{n}{spk:0080}{n}もう帰るのか？　忙しいんだな、{n}{name:0080}って。たまには息抜きも{n}したほうがいいんじゃないか？{n}{wait}{clear}{end}	{fb:8D80}{n}{spk:0080}{n}Leaving already? You're really busy,{n}{name:0080}. Shouldn't you take a break{n}once in a while?{n}{wait}{clear}{end}	
@@ -213,7 +213,7 @@ id	jp	en	notes
 3994.48A2	{fb:6F80}{n}{spk:0080}{n}もうお帰りですか？{n}では、お気をつけて。{n}{wait}{clear}{end}	{fb:6F80}{n}{spk:0080}{n}Leaving already? Take care, then.{n}{wait}{clear}{end}	
 3994.48DE	{fb:7880}{n}{spk:0080}{n}あ、天使様。{n}今、僕、修行中なんだ。{n}なにか用なの？{n}{wait}{clear}{end}	{fb:7880}{n}{spk:0080}{n}Oh, Angel. I'm training right now. Do{n}you need something?{n}{wait}{clear}{end}	
 3994.4926	{fb:7980}{n}{spk:0080}{n}そっか。{n}それじゃ、また今度ね。天使様。{n}{wait}{clear}{end}	{fb:7980}{n}{spk:0080}{n}OK. See you next time, Angel.{n}{wait}{clear}{end}	
-3994.4962	{fb:8280}{n}{spk:0080}{n}あ、お姉ちゃん。{n}今、僕、修行中なんだ。{n}なにか用なの？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh, it's you. I'm training right now. Do{n}you need something?{n}{wait}{clear}{end}	
+3994.4962	{fb:8280}{n}{spk:0080}{n}あ、お姉ちゃん。{n}今、僕、修行中なんだ。{n}なにか用なの？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh, Big Sis. I'm training right now. Do{n}you need something?{n}{wait}{clear}{end}	
 3994.49AE	{fb:8380}{n}{spk:0080}{n}そっか。{n}それじゃ、また今度ね。{n}{wait}{clear}{end}	{fb:8380}{n}{spk:0080}{n}OK. See you next time.{n}{wait}{clear}{end}	
 3994.49E2	{fb:8C80}{n}{spk:0080}{n}あ、{name:0080}じゃないか。{n}今、剣の稽古してるところだよ。{n}{wait}{clear}{spk:0080}{n}で、何だい？　何か困った事でも？{n}{wait}{clear}{end}	{fb:8C80}{n}{spk:0080}{n}Oh, if it isn't {name:0080}. I'm doing{n}some sword practice right now.{n}{wait}{clear}{spk:0080}{n}So, what is it? Got some kind of{n}trouble?{n}{wait}{clear}{end}	
 3994.4A56	{fb:8D80}{n}{spk:0080}{n}もう帰るのかい？{n}じゃあ、気をつけてな。{n}{wait}{clear}{end}	{fb:8D80}{n}{spk:0080}{n}Leaving already? Take care, then.{n}{wait}{clear}{end}	

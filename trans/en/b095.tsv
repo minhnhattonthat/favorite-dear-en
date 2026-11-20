@@ -1,28 +1,28 @@
 id	en
 38F5.086C	{fb:A080}{n}{spk:0080}{n}The castle of a certain lord in Kvaal (50, 48) is being attacked by a monster!{n}{wait}{clear}Lots of people are trapped inside, and it looks really dangerous. Please save them fast!{n}{wait}{clear}{end}
-38F5.091E	{fb:A180}{n}About this case, I think asking Griffin would be best. What do you say, Angel?{n}{wait}{clear}{end}
+38F5.091E	{fb:A180}{n}About this case, I think asking Griffin-sama would be best. What do you say, Angel?{n}{wait}{clear}{end}
 38F5.0A20	{fb:AA80}{n}{spk:0080}{n}The castle of a certain lord in Kvaal (50, 48) is under attack by a monster.{n}{wait}{clear}Many people are trapped inside and appear to be in grave danger. We must go to their rescue without delay.{n}{wait}{clear}{end}
-38F5.0ADA	{fb:AB80}{n}I believe this incident should be entrusted to Griffin. What do you think, Angel?{n}{wait}{clear}{end}
+38F5.0ADA	{fb:AB80}{n}I believe this incident should be entrusted to Griffin-sama. What do you think, Angel?{n}{wait}{clear}{end}
 38F7.04A2	{fb:8C80}{n}{spk:0080}{n}The monster that attacked the village and castle in Kvaal has appeared again, in the Esparda Empire (26, 26).{n}{wait}{clear}{end}
 38F7.0638	{fb:9680}{n}{spk:0080}{n}The monster that attacked the village and the castle in Kvaal showed up again, in the Esparda Empire (26, 26)!{n}{wait}{clear}{end}
 38F7.07DA	{fb:A080}{n}{spk:0080}{n}The monster that attacked the village and castle in Kvaal showed up again, in the Esparda Empire (26, 26)!{n}{wait}{clear}{end}
 38F7.094A	{fb:AA80}{n}{spk:0080}{n}The monster that attacked the village and castle in Kvaal has appeared once more, in the Esparda Empire (26, 26).{n}{wait}{clear}{end}
 38F9.04A2	{fb:8C80}{n}{spk:0080}{n}A mysterious beast has appeared in the Kanoa Nation (51, 21) and is attacking people.{n}{wait}{clear}It is dangerous to leave it be. I believe we must devise a plan at once.{n}{wait}{clear}{end}
-38F9.055A	{fb:8D80}{n}I believe Felimi is best suited for this job. What do you think?{n}{wait}{clear}{end}
+38F9.055A	{fb:8D80}{n}I believe Felimi-sama is best suited for this job. What do you think?{n}{wait}{clear}{end}
 38F9.066E	{fb:9680}{n}{spk:0080}{n}A mysterious beast showed up in the Kanoa Nation (51, 21) and it's attacking people!{n}{wait}{clear}What's so mysterious about it is a mystery too, but we can't just leave something like this alone, right?{n}{wait}{clear}{end}
-38F9.0730	{fb:9780}{n}How about asking Felimi to handle this one?{n}{wait}{clear}{end}
+38F9.0730	{fb:9780}{n}How about asking Felimi-sama to handle this one?{n}{wait}{clear}{end}
 38F9.0834	{fb:A080}{n}{spk:0080}{n}A mysterious beast showed up in the Kanoa Nation (51, 21) and it's attacking people.{n}{wait}{clear}It's dangerous like this! We have to do something about it, right?{n}{wait}{clear}{end}
-38F9.08D8	{fb:A180}{n}I think Felimi is the right one for this. Why not leave it to him?{n}{wait}{clear}{end}
+38F9.08D8	{fb:A180}{n}I think Felimi-sama is the right one for this. Why not leave it to him?{n}{wait}{clear}{end}
 38F9.09C6	{fb:AA80}{n}{spk:0080}{n}A mysterious beast has appeared in the Kanoa Nation (51, 21) and is attacking people.{n}{wait}{clear}It is dangerous to leave it as it is. Shouldn't we act as soon as possible?{n}{wait}{clear}{end}
-38F9.0A78	{fb:AB80}{n}I believe Felimi is the right one for this incident. Why not entrust it to him?{n}{wait}{clear}{end}
+38F9.0A78	{fb:AB80}{n}I believe Felimi-sama is the right one for this incident. Why not entrust it to him?{n}{wait}{clear}{end}
 38FB.04A2	{fb:8C80}{n}{spk:0080}{n}The Duminas Empire's army is invading Fedeco (52, 14) in the Kanoa Nation.{n}{wait}{clear}Innocent people have been caught up in the fighting, and it is terrible. We must help them at once.{n}{wait}{clear}{end}
-38FB.055E	{fb:8D80}{n}I believe it would be best to have Felimi go on this matter. What do you think?{n}{wait}{clear}{end}
+38FB.055E	{fb:8D80}{n}I believe it would be best to have Felimi-sama go on this matter. What do you think?{n}{wait}{clear}{end}
 38FB.0682	{fb:9680}{n}{spk:0080}{n}The Duminas Empire's army is attacking Fedeco (52, 14) in the Kanoa Nation!{n}{wait}{clear}Innocent people got caught up in it and everyone's getting hurt. Please help them fast!{n}{wait}{clear}{end}
-38FB.0736	{fb:9780}{n}I think asking Felimi would be good for this one. What do you think, Angel?{n}{wait}{clear}{end}
+38FB.0736	{fb:9780}{n}I think asking Felimi-sama would be good for this one. What do you think, Angel?{n}{wait}{clear}{end}
 38FB.085E	{fb:A080}{n}{spk:0080}{n}The Duminas Empire's army is attacking Fedeco (52, 14) in the Kanoa Nation!{n}{wait}{clear}Lots of innocent people got caught up in it and everyone's getting hurt. Let's help them fast!{n}{wait}{clear}{end}
-38FB.091A	{fb:A180}{n}I think Felimi is the right one for this case. What do you say, Angel?{n}{wait}{clear}{end}
+38FB.091A	{fb:A180}{n}I think Felimi-sama is the right one for this case. What do you say, Angel?{n}{wait}{clear}{end}
 38FB.0A08	{fb:AA80}{n}{spk:0080}{n}The Duminas Empire's army has begun invading Fedeco (52, 14) in the Kanoa Nation.{n}{wait}{clear}Many innocent people have been caught up in it, and the damage only keeps spreading. I believe we must act quickly.{n}{wait}{clear}{end}
-38FB.0ACC	{fb:AB80}{n}I believe it would be best for Felimi to go on this incident. What do you think, Angel?{n}{wait}{clear}{end}
+38FB.0ACC	{fb:AB80}{n}I believe it would be best for Felimi-sama to go on this incident. What do you think, Angel?{n}{wait}{clear}{end}
 38FD.04A2	{fb:8C80}{n}{spk:0080}{n}The Duminas Empire's army has begun invading the Kanoa Nation (47, 17) again.{n}{wait}{clear}It seems Princess Miraya is leading the Duminas army herself. We must devise a plan at once.{n}{wait}{clear}{end}
 38FD.068A	{fb:9680}{n}{spk:0080}{n}The Duminas Empire's army is attacking the Kanoa Nation (47, 17) yet again!{n}{wait}{clear}It looks like Princess Miraya is leading the Duminas army herself, so it's really dangerous.{n}{wait}{clear}{end}
 38FD.086A	{fb:A080}{n}{spk:0080}{n}The Duminas Empire's army is attacking the Kanoa Nation (47, 17) again!{n}{wait}{clear}It looks like Princess Miraya is leading the Duminas army herself. We can't just leave this alone, right?{n}{wait}{clear}{end}
@@ -36,26 +36,26 @@ id	en
 38FF.099E	{fb:AA80}{n}{spk:0080}{n}The Duminas Empire's army has begun invading the Kanoa Nation (47, 12).{n}{wait}{clear}Something about the person leading the imperial army concerns me... More importantly, people are suffering!{n}{wait}{clear}{end}
 38FF.0AA4	{fb:AC80}{n}{spk:0080}{n}Angel, why not ask a hero right away?{n}{wait}{clear}{end}
 3901.04A2	{fb:8C80}{n}{spk:0080}{n}Soldam (15, 31) in the Esparda Empire is being attacked by bandits.{n}{wait}{clear}They not only steal valuables, but seem to enjoy hurting people. They must be dealt with at once.{n}{wait}{clear}{end}
-3901.0564	{fb:8D80}{n}I believe Dian is best suited for this matter. What do you think?{n}{wait}{clear}{end}
+3901.0564	{fb:8D80}{n}I believe Dian-sama is best suited for this matter. What do you think?{n}{wait}{clear}{end}
 3901.067A	{fb:9680}{n}{spk:0080}{n}Soldam (15, 31) in the Esparda Empire is being attacked by bandits.{n}{wait}{clear}They don't just steal stuff, they hurt everyone for fun! So we absolutely have to do something!{n}{wait}{clear}{end}
-3901.0746	{fb:9780}{n}For a case like this, how about asking Dian?{n}{wait}{clear}{end}
+3901.0746	{fb:9780}{n}For a case like this, how about asking Dian-sama?{n}{wait}{clear}{end}
 3901.0850	{fb:A080}{n}{spk:0080}{n}Soldam (15, 31) in the Esparda Empire is being attacked by bandits!{n}{wait}{clear}They don't just steal valuables, it looks like they enjoy hurting people too! We can't forgive that, right?{n}{wait}{clear}{end}
-3901.090E	{fb:A180}{n}For a case like this, I think Dian is the right one. Why not leave it to him?{n}{wait}{clear}{end}
+3901.090E	{fb:A180}{n}For a case like this, I think Dian-sama is the right one. Why not leave it to him?{n}{wait}{clear}{end}
 3901.0A04	{fb:AA80}{n}{spk:0080}{n}Soldam (15, 31) in the Esparda Empire is being attacked by bandits!{n}{wait}{clear}They not only steal valuables, but seem to take pleasure in hurting people. We cannot simply stand by and watch!{n}{wait}{clear}{end}
-3901.0AC6	{fb:AB80}{n}I believe Dian is the right one for this incident. Why not entrust it to him?{n}{wait}{clear}{end}
+3901.0AC6	{fb:AB80}{n}I believe Dian-sama is the right one for this incident. Why not entrust it to him?{n}{wait}{clear}{end}
 3903.04A2	{fb:8C80}{n}{spk:0080}{n}I hear water from a spring in the Offland Mountains (62, 36) can be used to make a cure for the epidemic!{n}{wait}{clear}{end}
-3903.050A	{fb:8D80}{n}I believe Dian is best suited for this job. What do you think?{n}{wait}{clear}{end}
+3903.050A	{fb:8D80}{n}I believe Dian-sama is best suited for this job. What do you think?{n}{wait}{clear}{end}
 3903.0620	{fb:9680}{n}{spk:0080}{n}They say if you use water from the spring in the Offland Mountains (62, 36), you can make a cure for the epidemic!{n}{wait}{clear}{end}
-3903.068C	{fb:9780}{n}For something like this, I think asking Dian would be good. What do you think?{n}{wait}{clear}{end}
+3903.068C	{fb:9780}{n}For something like this, I think asking Dian-sama would be good. What do you think?{n}{wait}{clear}{end}
 3903.07A8	{fb:A080}{n}{spk:0080}{n}Apparently water from the spring in the Offland Mountains (62, 36) can make a cure for the epidemic!{n}{wait}{clear}{end}
-3903.0816	{fb:A180}{n}This kind of thing is Dian's specialty, so why not leave it to him?{n}{wait}{clear}{end}
+3903.0816	{fb:A180}{n}This kind of thing is Dian-sama's specialty, so why not leave it to him?{n}{wait}{clear}{end}
 3903.090A	{fb:AA80}{n}{spk:0080}{n}It is said that water from the spring in the Offland Mountains (62, 36) can make a cure for the epidemic.{n}{wait}{clear}{end}
-3903.0978	{fb:AB80}{n}I believe Dian is the right one for this matter. Why not entrust it to him?{n}{wait}{clear}{end}
+3903.0978	{fb:AB80}{n}I believe Dian-sama is the right one for this matter. Why not entrust it to him?{n}{wait}{clear}{end}
 3905.04A2	{fb:8C80}{n}{spk:0080}{n}The witch Sierra has appeared in Kvaal (47, 40).{n}{wait}{clear}Sierra is tormenting people with poisons. I believe she must be stopped at once.{n}{wait}{clear}{end}
-3905.0550	{fb:8D80}{n}I believe Dian is best suited for this matter. What do you think?{n}{wait}{clear}{end}
+3905.0550	{fb:8D80}{n}I believe Dian-sama is best suited for this matter. What do you think?{n}{wait}{clear}{end}
 3905.0664	{fb:9680}{n}{spk:0080}{n}The witch Sierra showed up in Kvaal (47, 40).{n}{wait}{clear}That witch Sierra is using poison to make everyone suffer! We have to do something fast!{n}{wait}{clear}{end}
 3905.0836	{fb:A080}{n}{spk:0080}{n}The witch Sierra has appeared in Kvaal (47, 40)!{n}{wait}{clear}The witch Sierra uses poisons to make everyone suffer, so we can't leave someone like her alone, right?{n}{wait}{clear}{end}
-3905.08F6	{fb:A180}{n}I think Dian is the right one for this case. Why not leave it to him?{n}{wait}{clear}{end}
+3905.08F6	{fb:A180}{n}I think Dian-sama is the right one for this case. Why not leave it to him?{n}{wait}{clear}{end}
 3905.09E8	{fb:AA80}{n}{spk:0080}{n}The witch Sierra has appeared in Kvaal (47, 40).{n}{wait}{clear}The witch Sierra seems to be tormenting people with poisons. We cannot let such a witch go unpunished.{n}{wait}{clear}{end}
 3907.04A2	{fb:8C80}{n}{spk:0080}{n}A demon has appeared in Anshe (30, 28) in the Esparda Empire and is attacking people.{n}{wait}{clear}I could not get a clear look at the enemy, but it weighs on my mind... In any case, something must be done.{n}{wait}{clear}{end}
 3907.0582	{fb:8D80}{n}{spk:0080}{n}Angel, why not send a hero there at once?{n}{wait}{clear}{end}

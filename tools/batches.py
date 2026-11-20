@@ -156,6 +156,9 @@ def check_row(rid, jp, en, terms):
         for a in avoid:
             if a and re.search(r"\b" + re.escape(a) + r"\b", text):
                 errs.append(f"{rid}: avoided spelling {a!r} (use {te})")
+    import honorifics  # noqa: E402 (imports this module)
+    nm = {tj: te.split(" (")[0] for tj, te, _ in terms if re.fullmatch(f"[{KATA}]+", tj)}
+    errs += [f"{rid}: {e}" for e in honorifics.missing(jp, en, nm)]
     try:
         for c, ln in wrap.lines_report(wrap.wrap_for(jp, en)):
             if c > wrap.CELLS:

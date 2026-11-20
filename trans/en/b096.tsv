@@ -2,54 +2,54 @@ id	en
 3907.0A1A	{fb:AA80}{n}{spk:0080}{n}A demon has appeared in Anshe (30, 28) in the Esparda Empire and is attacking people.{n}{wait}{clear}I could not see the enemy, but something about it weighs on me... Still, shouldn't we act quickly?{n}{wait}{clear}{end}
 3907.0AFA	{fb:AB80}{n}{spk:0080}{n}Angel, why not ask a hero right away?{n}{wait}{clear}{end}
 3909.04A2	{fb:8C80}{n}{spk:0080}{n}A strange fiend has appeared in Kvaal (62, 41) and is troubling travelers.{n}{wait}{clear}Rumor has it that it challenges those who pass with "riddles"... I believe this odd affair should be resolved.{n}{wait}{clear}{end}
-3909.0578	{fb:8D80}{n}I believe Yaruru is best suited for this matter. What do you think?{n}{wait}{clear}{end}
+3909.0578	{fb:8D80}{n}I believe Yaruru-sama is best suited for this matter. What do you think?{n}{wait}{clear}{end}
 3909.0688	{fb:9680}{n}{spk:0080}{n}A weird fiend showed up in Kvaal (62, 41), and it looks like it's bothering travelers.{n}{wait}{clear}It gives people who pass by "riddles", and if they can't answer, it attacks them. We have to do something, right?{n}{wait}{clear}{end}
-3909.076E	{fb:9780}{n}I think asking Yaruru would be good for this one. What do you think?{n}{wait}{clear}{end}
+3909.076E	{fb:9780}{n}I think asking Yaruru-sama would be good for this one. What do you think?{n}{wait}{clear}{end}
 3909.0884	{fb:A080}{n}{spk:0080}{n}A weird fiend showed up in Kvaal (62, 41) and it's bothering travelers.{n}{wait}{clear}Rumor says it gives "riddles" to people passing by... I think it's a real pest!{n}{wait}{clear}{end}
-3909.0956	{fb:A180}{n}I think Yaruru is the right one for this case. Why not leave it to him?{n}{wait}{clear}{end}
+3909.0956	{fb:A180}{n}I think Yaruru-sama is the right one for this case. Why not leave it to him?{n}{wait}{clear}{end}
 3909.0A46	{fb:AA80}{n}{spk:0080}{n}A strange fiend has appeared in Kvaal (62, 41) and is troubling travelers.{n}{wait}{clear}It is only a rumor, but it challenges those who pass with "riddles"... I think we should take some action.{n}{wait}{clear}{end}
-3909.0B1E	{fb:AB80}{n}I believe Yaruru is the right one for this incident. Why not entrust it to him?{n}{wait}{clear}{end}
+3909.0B1E	{fb:AB80}{n}I believe Yaruru-sama is the right one for this incident. Why not entrust it to him?{n}{wait}{clear}{end}
 390B.04A2	{fb:8C80}{n}{spk:0080}{n}Demons have appeared in Kvaal (60, 45) and are attacking people.{n}{wait}{clear}Many people are already suffering. This must be resolved at once.{n}{wait}{clear}{end}
 390B.0660	{fb:9680}{n}{spk:0080}{n}It looks like demons showed up in Kvaal (60, 45) and they're attacking people.{n}{wait}{clear}Lots of people are already suffering, so if we don't do something it'll be awful!{n}{wait}{clear}{end}
 390B.0830	{fb:A080}{n}{spk:0080}{n}Demons showed up in Kvaal (60, 45) and they're attacking people!{n}{wait}{clear}Lots of people are already suffering, so we have to do something, right?{n}{wait}{clear}{end}
 390B.09CE	{fb:AA80}{n}{spk:0080}{n}It seems demons have appeared in Kvaal (60, 45) and are attacking people.{n}{wait}{clear}Many people already appear to be in dire straits. Shouldn't we take some action?{n}{wait}{clear}{end}
 390D.04A2	{fb:8C80}{n}{spk:0080}{n}Monsters have appeared in Alp (31, 48) in the Kingdom of Kimbalt.{n}{wait}{clear}The area seems to be attacked by monsters often, so the people's fears must be put to rest.{n}{wait}{clear}{end}
-390D.0560	{fb:8D80}{n}I believe it would be best for Yaruru to go on this matter. What do you think, Angel?{n}{wait}{clear}{end}
+390D.0560	{fb:8D80}{n}I believe it would be best for Yaruru-sama to go on this matter. What do you think, Angel?{n}{wait}{clear}{end}
 390D.0680	{fb:9680}{n}{spk:0080}{n}Monsters showed up in Alp (31, 48) in the Kingdom of Kimbalt!{n}{wait}{clear}There are soooo many enemies around there, so nobody can feel safe unless we do something.{n}{wait}{clear}{end}
-390D.0736	{fb:9780}{n}I think asking Yaruru would be best for this one. What do you think, Angel?{n}{wait}{clear}{end}
+390D.0736	{fb:9780}{n}I think asking Yaruru-sama would be best for this one. What do you think, Angel?{n}{wait}{clear}{end}
 390D.0852	{fb:A080}{n}{spk:0080}{n}Monsters showed up in Alp (31, 48) in the Kingdom of Kimbalt.{n}{wait}{clear}That area gets attacked by monsters a lot, so everyone's scared. We can't just leave it, right?{n}{wait}{clear}{end}
-390D.0914	{fb:A180}{n}I think Yaruru should go on this one. What do you say, Angel?{n}{wait}{clear}{end}
+390D.0914	{fb:A180}{n}I think Yaruru-sama should go on this one. What do you say, Angel?{n}{wait}{clear}{end}
 390D.0A0A	{fb:AA80}{n}{spk:0080}{n}It seems monsters have appeared in Alp (31, 48) in the Kingdom of Kimbalt.{n}{wait}{clear}The area is attacked by monsters often, and fears are growing. Shouldn't we take some action?{n}{wait}{clear}{end}
-390D.0ACC	{fb:AB80}{n}I believe Yaruru ought to go on this matter... What do you think, Angel?{n}{wait}{clear}{end}
+390D.0ACC	{fb:AB80}{n}I believe Yaruru-sama ought to go on this matter... What do you think, Angel?{n}{wait}{clear}{end}
 390F.04A2	{fb:8C80}{n}{spk:0080}{n}I hear a monster named Leraje has appeared in Garf (65, 36) in Kvaal and is attacking people.{n}{wait}{clear}It seems to use unusual magic. I believe it must be defeated at once.{n}{wait}{clear}{end}
-390F.0566	{fb:8D80}{n}Garf is Yaruru's hometown, so I think it would be good to ask him. What do you think, Angel?{n}{wait}{clear}{end}
+390F.0566	{fb:8D80}{n}Garf is Yaruru-sama's hometown, so I think it would be good to ask him. What do you think, Angel?{n}{wait}{clear}{end}
 390F.0694	{fb:9680}{n}{spk:0080}{n}A monster named Leraje showed up in Garf (65, 36) in Kvaal, and it's attacking people!{n}{wait}{clear}It looks like it uses weird magic, so I think something awful will happen if we don't do something.{n}{wait}{clear}{end}
-390F.076A	{fb:9780}{n}Garf is Yaruru's hometown, isn't it? Why not try asking him?{n}{wait}{clear}{end}
+390F.076A	{fb:9780}{n}Garf is Yaruru-sama's hometown, isn't it? Why not try asking him?{n}{wait}{clear}{end}
 390F.0880	{fb:A080}{n}{spk:0080}{n}A monster named Leraje showed up in Garf (65, 36) in Kvaal, and it's attacking people.{n}{wait}{clear}It uses weird magic, so the hunting parties can't beat it at all. At this rate something awful's going to happen!{n}{wait}{clear}{end}
-390F.095E	{fb:A180}{n}Garf is Yaruru's hometown, right? So I think it'd be good to try asking him. What do you say?{n}{wait}{clear}{end}
+390F.095E	{fb:A180}{n}Garf is Yaruru-sama's hometown, right? So I think it'd be good to try asking him. What do you say?{n}{wait}{clear}{end}
 390F.0A6A	{fb:AA80}{n}{spk:0080}{n}It seems a monster named Leraje has appeared in Garf (65, 36) in Kvaal and is attacking people.{n}{wait}{clear}It reportedly uses unusual magic. I fear it is very dangerous to leave it be.{n}{wait}{clear}{end}
-390F.0B36	{fb:AB80}{n}This incident is happening in Yaruru's hometown, so why not entrust it to him, Angel?{n}{wait}{clear}{end}
+390F.0B36	{fb:AB80}{n}This incident is happening in Yaruru-sama's hometown, so why not entrust it to him, Angel?{n}{wait}{clear}{end}
 3911.04A2	{fb:8C80}{n}{spk:0080}{n}Leraje has appeared again in Artem (48, 33) in Kvaal and is attacking people.{n}{wait}{clear}Leraje is a monster that attacks people with unusual magic. This must be resolved at once.{n}{wait}{clear}{end}
-3911.056C	{fb:8D80}{n}I believe it would be good for Yaruru to go on this matter. What do you think, Angel?{n}{wait}{clear}{end}
+3911.056C	{fb:8D80}{n}I believe it would be good for Yaruru-sama to go on this matter. What do you think, Angel?{n}{wait}{clear}{end}
 3911.0690	{fb:9680}{n}{spk:0080}{n}Leraje came out again in Artem (48, 33) in Kvaal, and it's attacking people!{n}{wait}{clear}Leraje is a monster that attacks people with weird magic! If we leave it like this it'll be awful!!{n}{wait}{clear}{end}
-3911.0762	{fb:9780}{n}I think asking Yaruru would be good for this one. What do you think, Angel?{n}{wait}{clear}{end}
+3911.0762	{fb:9780}{n}I think asking Yaruru-sama would be good for this one. What do you think, Angel?{n}{wait}{clear}{end}
 3911.0884	{fb:A080}{n}{spk:0080}{n}Leraje showed up again in Artem (48, 33) in Kvaal, and it's attacking people!{n}{wait}{clear}Leraje is that monster that attacks people with weird magic, so we can't just leave it!{n}{wait}{clear}{end}
-3911.095A	{fb:A180}{n}I think Yaruru should go on this one. What do you say, Angel?{n}{wait}{clear}{end}
+3911.095A	{fb:A180}{n}I think Yaruru-sama should go on this one. What do you say, Angel?{n}{wait}{clear}{end}
 3911.0A4A	{fb:AA80}{n}{spk:0080}{n}It seems Leraje has appeared once more in Artem (48, 33) in Kvaal and is attacking people.{n}{wait}{clear}Leraje is a monster that attacks people with unusual magic. Shouldn't we take some action?{n}{wait}{clear}{end}
-3911.0B1C	{fb:AB80}{n}I believe it would be good for Yaruru to go on this incident. What do you think, Angel?{n}{wait}{clear}{end}
+3911.0B1C	{fb:AB80}{n}I believe it would be good for Yaruru-sama to go on this incident. What do you think, Angel?{n}{wait}{clear}{end}
 3913.04A2	{fb:8C80}{n}{spk:0080}{n}A village in the Kanoa Nation (52, 18) was attacked by the demon tree Borunga and wiped out.{n}{wait}{clear}I have heard Borunga is not the kind of monster that attacks humans... I do not know what has happened to it.{n}{wait}{clear}{end}
-3913.056E	{fb:8D80}{n}I believe Ryudral, who can speak with monsters, would be best suited to go on this matter. What do you think?{n}{wait}{clear}{end}
+3913.056E	{fb:8D80}{n}I believe Ryudral-sama, who can speak with monsters, would be best suited to go on this matter. What do you think?{n}{wait}{clear}{end}
 3913.06A4	{fb:9680}{n}{spk:0080}{n}A village in the Kanoa Nation (52, 18) got attacked by the demon tree Borunga and it was wiped out!{n}{wait}{clear}I heard Borunga isn't the kind of monster that does stuff like that. What happened to it?{n}{wait}{clear}{end}
-3913.0770	{fb:9780}{n}For this one, I think asking Ryudral, who can talk with monsters, would be good. What do you think?{n}{wait}{clear}{end}
+3913.0770	{fb:9780}{n}For this one, I think asking Ryudral-sama, who can talk with monsters, would be good. What do you think?{n}{wait}{clear}{end}
 3913.08A8	{fb:A080}{n}{spk:0080}{n}A village in the Kanoa Nation (52, 18) was attacked by the demon tree Borunga and wiped out!{n}{wait}{clear}I heard Borunga isn't the kind of monster that does that, so something must have happened!{n}{wait}{clear}{end}
-3913.0972	{fb:A180}{n}I think Ryudral, who can talk with monsters, is the right one for this case. Why not leave it to him, Angel?{n}{wait}{clear}{end}
+3913.0972	{fb:A180}{n}I think Ryudral-sama, who can talk with monsters, is the right one for this case. Why not leave it to him, Angel?{n}{wait}{clear}{end}
 3913.0A80	{fb:AA80}{n}{spk:0080}{n}A village in the Kanoa Nation (52, 18) was attacked by the demon tree Borunga and wiped out!{n}{wait}{clear}I have heard Borunga is not the kind of monster that attacks humans. I believe something is going on.{n}{wait}{clear}{end}
-3913.0B56	{fb:AB80}{n}I believe it would be best to entrust this matter to Ryudral, who can converse with monsters. What do you think?{n}{wait}{clear}{end}
+3913.0B56	{fb:AB80}{n}I believe it would be best to entrust this matter to Ryudral-sama, who can converse with monsters. What do you think?{n}{wait}{clear}{end}
 3915.04A2	{fb:8C80}{n}{spk:0080}{n}The village of Larousse (67, 18) in the Duminas Empire is being attacked by monsters.{n}{wait}{clear}The monsters seem to be led by a dragon with a black mark. At this rate the village will be wiped out.{n}{wait}{clear}{end}
-3915.0578	{fb:8D80}{n}I believe this matter should be entrusted to Ryudral, who is tied to the dragon clan. What do you think?{n}{wait}{clear}{end}
+3915.0578	{fb:8D80}{n}I believe this matter should be entrusted to Ryudral-sama, who is tied to the dragon clan. What do you think?{n}{wait}{clear}{end}
 3915.06A2	{fb:9680}{n}{spk:0080}{n}Monsters are attacking the village of Larousse (67, 18) in the Duminas Empire.{n}{wait}{clear}Their boss looks like a dragon with a black mark, and at this rate the village is going to be gone!{n}{wait}{clear}{end}
-3915.0772	{fb:9780}{n}The enemy's a dragon, so I think asking Ryudral would be good. What do you think?{n}{wait}{clear}{end}
+3915.0772	{fb:9780}{n}The enemy's a dragon, so I think asking Ryudral-sama would be good. What do you think?{n}{wait}{clear}{end}
 3915.0896	{fb:A080}{n}{spk:0080}{n}Monsters are attacking the village of Larousse (67, 18) in the Duminas Empire!{n}{wait}{clear}Their boss looks like a dragon with a black mark, and at this rate the village will be wiped out!!{n}{wait}{clear}{end}
-3915.095C	{fb:A180}{n}The enemy's a dragon, so I think it'd be good to leave this case to Ryudral.{n}{wait}{clear}{end}
+3915.095C	{fb:A180}{n}The enemy's a dragon, so I think it'd be good to leave this case to Ryudral-sama.{n}{wait}{clear}{end}
 3915.0A58	{fb:AA80}{n}{spk:0080}{n}The village of Larousse (67, 18) in the Duminas Empire is being attacked by monsters.{n}{wait}{clear}The monsters' leader seems to be a dragon with a black mark. At this rate the village will be wiped out.{n}{wait}{clear}{end}
-3915.0B28	{fb:AB80}{n}This incident involves the dragon clan. Why not entrust it to Ryudral, Angel?{n}{wait}{clear}{end}
+3915.0B28	{fb:AB80}{n}This incident involves the dragon clan. Why not entrust it to Ryudral-sama, Angel?{n}{wait}{clear}{end}

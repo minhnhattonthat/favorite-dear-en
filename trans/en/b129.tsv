@@ -50,38 +50,38 @@ id	en
 3ACC.422C	{fb:3C80}{n}{spk:E783}{n}You swing your sword so gallantly.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}...Spare me the flattery. Battles aren't won on looks.{n}{wait}{clear}{end}
 3AD6.13F8	The hero {name:0180} has engaged the final enemy, the fallen angel Gaap.{n}{wait}{clear}For this battle above all, your power is needed!{n}{wait}{clear}Join forces with your hero and save Infos.{n}{wait}{clear}{end}
 3AD6.14A6	{f7:0080}｛Hurry there｝{n}{f7:0080}｛Don't go　　｝{n}{end}
-3AD6.14D0	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}Angel! Lord Sievas has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.153E	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}Angel! Lord Reiv has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.15A8	{fb:0380}{n}{e0:E0FF}{spk:0080}{n}Angel! Griffin has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.1616	{fb:0480}{n}{e0:E0FF}{spk:0080}{n}Angel! Felimi has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.1682	{fb:0580}{n}{e0:E0FF}{spk:0080}{n}Angel! Dian has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.16EE	{fb:0680}{n}{e0:E0FF}{spk:0080}{n}Angel! Yaruru has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.1758	{fb:0780}{n}{e0:E0FF}{spk:0080}{n}Angel! Ryudral has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.17C6	{fb:0880}{n}{e0:E0FF}{spk:0080}{n}Angel! Fiana has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.1832	{fb:0980}{n}{e0:E0FF}{spk:0080}{n}Angel! Ashe has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.189E	{fb:0A80}{n}{e0:E0FF}{spk:0080}{n}Angel! Beasia has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.190A	{fb:0B80}{n}{e0:E0FF}{spk:0080}{n}Angel! Nasadia has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.197A	{fb:0C80}{n}{e0:E0FF}{spk:0080}{n}Angel! Tia has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
-3AD6.19E4	{fb:6580}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Lord Sievas ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1A5A	{fb:6680}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Lord Reiv ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1ACC	{fb:6780}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Griffin ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1B42	{fb:6880}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Felimi ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1BB6	{fb:6980}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Dian ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1C2A	{fb:6A80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Yaruru ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1C9C	{fb:6B80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Ryudral ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1D12	{fb:6C80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Fiana ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1D86	{fb:6D80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Ashe ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1DFA	{fb:6E80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Beasia ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.14D0	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}Angel! Sievas-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.153E	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}Angel! Reiv-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.15A8	{fb:0380}{n}{e0:E0FF}{spk:0080}{n}Angel! Griffin-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.1616	{fb:0480}{n}{e0:E0FF}{spk:0080}{n}Angel! Felimi-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.1682	{fb:0580}{n}{e0:E0FF}{spk:0080}{n}Angel! Dian-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.16EE	{fb:0680}{n}{e0:E0FF}{spk:0080}{n}Angel! Yaruru-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.1758	{fb:0780}{n}{e0:E0FF}{spk:0080}{n}Angel! Ryudral-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.17C6	{fb:0880}{n}{e0:E0FF}{spk:0080}{n}Angel! Fiana-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.1832	{fb:0980}{n}{e0:E0FF}{spk:0080}{n}Angel! Ashe-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.189E	{fb:0A80}{n}{e0:E0FF}{spk:0080}{n}Angel! Beasia-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.190A	{fb:0B80}{n}{e0:E0FF}{spk:0080}{n}Angel! Nasadia-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.197A	{fb:0C80}{n}{e0:E0FF}{spk:0080}{n}Angel! Tia-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.19E4	{fb:6580}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Sievas-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1A5A	{fb:6680}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Reiv-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1ACC	{fb:6780}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Griffin-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1B42	{fb:6880}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Felimi-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1BB6	{fb:6980}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Dian-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1C2A	{fb:6A80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Yaruru-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1C9C	{fb:6B80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Ryudral-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1D12	{fb:6C80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Fiana-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1D86	{fb:6D80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Ashe-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1DFA	{fb:6E80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Beasia-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
 3AD6.1E6E	Angeeel! Are you sure you don't want to go help?!{n}{wait}{clear}{end}
-3AD6.1EA8	{fb:6F80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Nasadia ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1F20	{fb:7080}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Tia ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
-3AD6.1F92	{fb:C980}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Sievas has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.2010	{fb:CA80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Reiv has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.2088	{fb:CB80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Griffin has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.2104	{fb:CC80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Felimi has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.217E	{fb:CD80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Dian has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.21F8	{fb:CE80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Yaruru has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.2270	{fb:CF80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Ryudral has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.22EC	{fb:D080}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Fiana has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.2366	{fb:D180}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Ashe has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
-3AD6.23E0	{fb:D280}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Beasia has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.1EA8	{fb:6F80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Nasadia-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1F20	{fb:7080}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Tia-sama ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1F92	{fb:C980}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Sievas-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2010	{fb:CA80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Reiv-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2088	{fb:CB80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Griffin-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2104	{fb:CC80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Felimi-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.217E	{fb:CD80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Dian-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.21F8	{fb:CE80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Yaruru-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2270	{fb:CF80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Ryudral-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.22EC	{fb:D080}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Fiana-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2366	{fb:D180}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Ashe-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.23E0	{fb:D280}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Beasia-sama has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}

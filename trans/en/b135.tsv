@@ -1,7 +1,7 @@
 id	en
-3B05.18A0	The church in Tambour burned down, but {name:0180} drove off Adramelech, the fire demon!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
-3B05.1998	{fd:0180E3830080}{n}The church in Tambour was attacked again, but {name:0180} drove off Adramelech, the fire demon!{n}{wait}{clear}After the battle with Adramelech, {name:0180} went into hiding.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
-3B05.1A62	{name:0180} drove off Adramelech, the fire demon who appeared at the church in Tambour!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
+3B05.18A0	The church in Tambour burned down, but {name:0180} drove off Adramelech, the fiend of flame!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
+3B05.1998	{fd:0180E3830080}{n}The church in Tambour was attacked again, but {name:0180} drove off Adramelech, the fiend of flame!{n}{wait}{clear}After the battle with Adramelech, {name:0180} went into hiding.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
+3B05.1A62	{name:0180} drove off Adramelech, the fiend of flame who appeared at the church in Tambour!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.1AD8	The rogue dragon Macula Dragon took the life of the Aul Dragon, lord of dragons, and has claimed the title for itself!{n}{wait}{clear}But thanks to {name:0180}, the Macula Dragon's advance has been stopped.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.1BA8	{name:0180} stopped the march of the Miraya army.{n}{wait}{clear}It seems the Miraya army was controlling Duminas monsters to attack towns and villages!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.1C56	{fd:0980E3830080}{n}They say the King of Fangam was assassinated by the traitor Sterens!{n}{wait}{clear}Princess Ashe of Fangam escaped the traitor Sterens and is now missing.{n}{wait}{clear}The people loyal to the royal family of Fangam are pinning their hopes on Princess Ashe, who escaped the traitor Sterens!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
@@ -18,23 +18,23 @@ id	en
 3B0A.134A	The hero candidate Yaruru fell into someone's trap and is no longer a hero candidate!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.13C6	One of the hero candidates fell into someone's trap and is no longer a hero candidate!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.1454	The hero candidate Ryudral fell into someone's trap and is no longer a hero candidate!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
-3B0A.1594	The hero Fiana suddenly coughed up blood and was carried to the church in Kvaal, where she died!{n}{wait}{clear}Word from Heaven is that her soul never reached Lord Remiel, so it may be some kind of curse...{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+3B0A.1594	The hero Fiana suddenly coughed up blood and was carried to the church in Kvaal, where she died!{n}{wait}{clear}Word from Heaven is that her soul never reached Remiel-sama, so it may be some kind of curse...{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.168C	The hero candidate Fiana died from some kind of curse!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
-3B0A.1700	The hero Fiana's soul, which was with Lord Remiel in Heaven, has been lost!{n}{wait}{clear}Lord Remiel says it may be some kind of curse.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+3B0A.1700	The hero Fiana's soul, which was with Remiel-sama in Heaven, has been lost!{n}{wait}{clear}Remiel-sama says it may be some kind of curse.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.17B8	One of the hero candidates of Infos died from some kind of curse!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.185C	One of the hero candidates of Infos was carried off by someone!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
-3B0A.18D4	The hero Reiv's soul, which was with Lord Remiel, was destroyed by someone's hand.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+3B0A.18D4	The hero Reiv's soul, which was with Remiel-sama, was destroyed by someone's hand.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.1954	The hero candidate Reiv was carried off by someone!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.19BC	The missing hero Reiv was carried off by someone!{n}{wait}{clear}{end}
-3B0A.1A98	The hero Tia's soul, which was with Lord Remiel, was destroyed by someone's hand.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+3B0A.1A98	The hero Tia's soul, which was with Remiel-sama, was destroyed by someone's hand.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.1B18	The hero candidate Tia was carried off by someone!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.1B80	The missing hero Tia was carried off by someone!{n}{wait}{clear}{end}
-3B0A.1C32	Received {ins:03800180} AP from Lord Gabriel!{n}{wait}{clear}{end}
+3B0A.1C32	Received {ins:03800180} AP from Gabriel-sama!{n}{wait}{clear}{end}
 3B0A.1C66	Bonus: Requests cleared{f7:0380}{ins:03800280}{f7:0180}{n}　Bonus AP{f7:0380}{ins:03800480}{n}{wait}{clear}{end}
 3B0A.1CAE	{e0:1500}The ten years left to Infos have run out, and time in Infos has stopped forever!{n}{wait}{clear}{end}
 3B0A.1D12	{e0:1500}The heroes who could lift Infos's calamity are lost, and time in Infos has stopped forever!{n}{wait}{clear}{end}
 3B0A.1D72	{e0:1500}The order of Infos's world can no longer be restored, and time in Infos has stopped forever!{n}{wait}{clear}{end}
-3B0A.1DD2	{f7:0080}　This disc ends here!{n}{f7:0080}　In the full game, more heroes{n}{f7:0080}join you on the real adventure.{n}{wait}{clear}{f7:0080}So, Angel {name:0080},{n}{f7:0080}see you again in the full{n}{f7:0080}Favorite Dear!!{n}{wait}{clear}{end}
+3B0A.1DD2	{f7:0080}　This disc ends here!{n}{f7:0080}　In the full game, more heroes{n}{f7:0080}join you on the real adventure.{n}{wait}{clear}{f7:0080}So, Angel {name:0080}-sama,{n}{f7:0080}see you again in the full{n}{f7:0080}Favorite Dear!!{n}{wait}{clear}{end}
 3B0A.1EAA	The hero Reiv heads to Voras for the Festival of Heroic Spirits.{n}{wait}{clear}{end}
 3B0A.1EE4	It seems a coup broke out at Fangam's Founding Festival.{n}{wait}{clear}The King of Fangam was assassinated by the traitor Sterens!{n}{wait}{clear}The traitor Sterens, leading the rebel army, seems to have gone into hiding to proclaim himself the new King of Fangam.{n}{wait}{clear}{end}
 3B0A.1FD6	It seems a coup broke out at Fangam's Founding Festival.{n}{wait}{clear}The King of Fangam was assassinated by the traitor Sterens!{n}{wait}{clear}The traitor Sterens, leading the rebel army, seems to have gone into hiding to proclaim himself the new King of Fangam.{n}{wait}{clear}Princess Ashe also sensed the danger and seems to have gone into hiding.{n}{wait}{clear}{end}

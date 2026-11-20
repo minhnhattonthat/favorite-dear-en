@@ -54,9 +54,9 @@ id	en
 3541.561E	{fb:2880}{n}{spk:E783}{n}Why not rest a little?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}No need to worry. This much is nothing.{n}{wait}{clear}{e5:0080}{n}{end}
 3541.5688	{fb:3280}{n}{spk:E783}{n}Is there a trick to swinging a weapon?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Well, yes, there is. Just swinging it around won't get you anywhere.{n}{wait}{clear}{e5:0080}{n}{end}
 3541.5718	{fb:3C80}{n}{spk:E783}{n}Do you think I could do it too?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}You? Hehe. You'd better not. You'll hurt yourself.{n}{wait}{clear}{e5:0080}{n}{end}
-354D.067A	{fb:0180}{n}{spk:0080}{n}I found {name:0180}! The way things look, if you don't go see them now, they might never come back.{n}{wait}{clear}{end}
-354D.0BBC	{spk:0080}{n}We've lost all trace of {name:0180}...{n}{wait}{clear}{end}
-354D.0BF6	{spk:0080}{n}Angel! I found {name:0180}, who went missing!{n}{wait}{clear}{end}
+354D.067A	{fb:0180}{n}{spk:0080}{n}I found {name:0180}-sama! The way things look, if you don't go see them now, they might never come back.{n}{wait}{clear}{end}
+354D.0BBC	{spk:0080}{n}We've lost all trace of {name:0180}-sama...{n}{wait}{clear}{end}
+354D.0BF6	{spk:0080}{n}Angel! I found {name:0180}-sama, who went missing!{n}{wait}{clear}{end}
 354D.0C34	{e0:1D00}{spk:0080}{n}Angel! I found a hero candidate!{n}{wait}{clear}{end}
 354D.0C6C	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}Angel! In Joost, in the Kingdom of Hebron, I found someone who'd make a perfect-o hero!{n}{wait}{clear}{e0:E0FF}His name is Sievas Volkgang. They say he's a local nobleman.{n}{wait}{clear}{e0:E0FF}He's head and shoulders above everyone with a sword, and on top of that he's elegant and handsome, and super popular with the girls!{n}{wait}{clear}{e0:E0FF}I think he's just the kind of hero you were talking about, Angel. What do you think?{n}{wait}{clear}{end}
 354D.0DEA	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}In Voras, the capital of the Kingdom of Hebron, I found someone who'd make a perfect-o hero!{n}{wait}{clear}{e0:E0FF}His name is Reiv Vincelras, and he's the commander of the Voras Knights.{n}{wait}{clear}{e0:E0FF}He's still young, but he's brilliant with a sword, he has a strong sense of justice, of course, and his men really look up to him!{n}{wait}{clear}{e0:E0FF}I think he's just the kind of hero you were talking about, Angel. What do you think?{n}{wait}{clear}{end}

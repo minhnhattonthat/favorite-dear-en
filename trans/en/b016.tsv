@@ -60,7 +60,7 @@ id	en
 3535.4EC2	{fb:1580}{n}{spk:E783}{n}Are you tired?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Yeah, just a little. But I'm gonna kick back now, so I'm fine.{n}{wait}{clear}{e5:0080}{n}{end}
 3535.5318	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}So! What else?{n}{wait}{clear}{e5:0080}{n}{end}
 3535.5350	{fb:0080}{n}{spk:E783}{n}You're very dedicated, aren't you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}Hmhm. Well, duh. I'm a responsible girl, y'know. When it's time to do it, I do it!{n}{wait}{clear}{e5:0080}{n}{end}
-3535.53EE	{fb:0A80}{n}{spk:E783}{n}You're working hard.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}Kinda. Even against some lame monster, I don't wanna look bad.{n}{wait}{clear}{spk:0080}{n}Lady Ashe's battles always have to be beautiful, right?{n}{wait}{clear}{e5:0080}{n}{end}
+3535.53EE	{fb:0A80}{n}{spk:E783}{n}You're working hard.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}Kinda. Even against some lame monster, I don't wanna look bad.{n}{wait}{clear}{spk:0080}{n}Ashe-sama's battles always have to be beautiful, right?{n}{wait}{clear}{e5:0080}{n}{end}
 3535.54C2	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Sure am. I seem to be on a roll today.{n}{wait}{clear}{e5:0080}{n}{end}
 3535.553A	{fb:1E80}{n}{spk:E783}{n}What kind of training are you doing?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Hmm? Right now? Right now it's dagger throwing. I'm doing pretty well.{n}{wait}{clear}{e5:0080}{n}{end}
 3535.55BE	{fb:2880}{n}{spk:E783}{n}Why not rest a little?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}{e5:0680}{n}Are you worried about me? Then, thanks. But I'll do a little more first.{n}{wait}{clear}{e5:0080}{n}{end}

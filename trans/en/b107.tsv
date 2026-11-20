@@ -9,7 +9,7 @@ id	en
 3994.378E	{fb:6580}{n}{spk:0080}{n}I see. I wish we could have talked longer, but you're busy too, Angel.{n}{wait}{clear}{spk:0080}{n}Until next time, then.{n}{wait}{clear}{end}
 3994.392E	{fb:7880}{n}{spk:0080}{n}Oh! Angel! I was just playing.{n}{wait}{clear}{end}
 3994.3972	{fb:7980}{n}{spk:0080}{n}That's it? See ya, then.{n}{wait}{clear}{end}
-3994.39A2	{fb:8280}{n}{spk:0080}{n}Oh! It's you! I was just playing.{n}{wait}{clear}{end}
+3994.39A2	{fb:8280}{n}{spk:0080}{n}Oh! Big Sis! I was just playing.{n}{wait}{clear}{end}
 3994.3A1A	{fb:8C80}{n}{spk:0080}{n}Oh, {name:0080}. I was just doing some lazy fishing until a minute ago. A little break, you know.{n}{wait}{clear}{spk:0080}{n}So, what's up today?{n}{wait}{clear}{end}
 3994.3AA6	{fb:8D80}{n}{spk:0080}{n}Leaving already? You're really busy, {name:0080}. Shouldn't you take a break once in a while?{n}{wait}{clear}{end}
 3994.3C0A	{fb:A080}{n}{spk:0080}{n}Oh, if it isn't the Angel.{n}{wait}{clear}{spk:0080}{n}I was just thinking of going out to have some fun. Do you need something?{n}{wait}{clear}{end}
@@ -33,7 +33,7 @@ id	en
 3994.47C4	{fb:6580}{n}{spk:0080}{n}Leaving already? Take care, then.{n}{wait}{clear}{end}
 3994.48DE	{fb:7880}{n}{spk:0080}{n}Oh, Angel. I'm training right now. Do you need something?{n}{wait}{clear}{end}
 3994.4926	{fb:7980}{n}{spk:0080}{n}OK. See you next time, Angel.{n}{wait}{clear}{end}
-3994.4962	{fb:8280}{n}{spk:0080}{n}Oh, it's you. I'm training right now. Do you need something?{n}{wait}{clear}{end}
+3994.4962	{fb:8280}{n}{spk:0080}{n}Oh, Big Sis. I'm training right now. Do you need something?{n}{wait}{clear}{end}
 3994.49AE	{fb:8380}{n}{spk:0080}{n}OK. See you next time.{n}{wait}{clear}{end}
 3994.49E2	{fb:8C80}{n}{spk:0080}{n}Oh, if it isn't {name:0080}. I'm doing some sword practice right now.{n}{wait}{clear}{spk:0080}{n}So, what is it? Got some kind of trouble?{n}{wait}{clear}{end}
 3994.4A56	{fb:8D80}{n}{spk:0080}{n}Leaving already? Take care, then.{n}{wait}{clear}{end}

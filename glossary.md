@@ -5,7 +5,12 @@ file. `tools/batches.py check` enforces the tables: a row whose JP holds a term 
 EN form (first word group before " ("), and never a spelling from the Avoid column.
 
 ## Rulings (asked of the user once; options and reasons in docs/decisions.md)
-- Honorifics: kept, hyphenated (Ernest-san). Name order: Western (given name first).
+- Honorifics (D1, applied as D12): kept, hyphenated, on personal names: さん "-san", くん/君 "-kun", ちゃん
+  "-chan", 様/さま "-sama", 殿/どの "-dono" ("Sievas-sama", "{name:0180}-sama", "Griffin-dono", "Nana-chan").
+  The English title they replaced goes ("Lord Sievas" -> "Sievas-sama"). Titles that are words stay English:
+  王子 Prince, 王女/姫 Princess, 卿 Lord ("Lord Busik"), 騎士 knight; address nouns stay English: 天使様/天使さん
+  "Angel", 勇者様 "the hero", お父様 "Father". Common nouns + さん in a childlike voice: "Mister" ("the Mister Orcs",
+  "Kind Mister Human"). Linted by `batches.py check` (`tools/honorifics.py`). Name order: Western.
 - Romanisation source: no official English exists (D10): Western-style spellings of the katakana names, demon and
   angel names in their standard English forms (Apollyon, Gabriel, Belphegor).
 - Credits: English.
@@ -52,6 +57,8 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ディアン | Dian | | hero, Dian Alvis | |
 | アルヴィース | Alvis | | | |
 | ナーサディア | Nasadia | | | |
+| ナーサ | Nasa | | Nasadia's nickname (ナーサさん "Nasa-san") | |
+| ナナ | Nana | | a child at Ellen's church (ナナちゃん "Nana-chan") | |
 | グリフィン | Griffin | | | |
 | ラスエル | Rasuel | | | |
 | エレン | Ellen | | | |
@@ -65,7 +72,8 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ミライヤ | Miraya | | | |
 | ガブリエル | Gabriel | | archangel | |
 | ミカエル | Michael | | archangel; lends the angel his golden sword (黄金の剣) against Apollyon | |
-| レミエル | Remiel | | angel who keeps wandering souls; レミエル様 "Lord Remiel" | Lady Remiel |
+| レミエル | Remiel | | angel who keeps wandering souls; レミエル様 "Remiel-sama" (D12) | Lady Remiel, Lord Remiel |
+| ラミエル | Remiel | | JP typo for レミエル (3B0A soul-lost lines) | |
 | リリィ | Lily | | | |
 | アポルオン | Apollyon | | | |
 | イウヴァート | Iuvart | | fallen angel | |
@@ -163,16 +171,19 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
   text decodes as kana/kanji soup under the main table (a substitution, not a constant shift: most frequent code
   0x000E sits where 。 belongs; likely a per-scene glyph set), so `-`. Same pattern in parts of 393D, 3976-3986
   (b099, b103-b105). Phase 7: find the glyph table these files use, re-extract, re-batch, translate.
-- 様 after a hero's name (fairies, maids) is dropped: "I found {name:0180}!", "leave it to Sievas"; the politeness
-  goes into the phrasing. 天使様 stays "Angel".
+- (Replaced by D12, 2026-11-20: 様 after a name is now "-sama", e.g. "I found {name:0180}-sama!".) 天使様 stays
+  "Angel".
 - b020 3576.06BE-0834 (6 rows): glyph soup like 34F2 etc., `-`; phase 7 re-extract.
 - b046 36FB (47 rows) and 36FD (10 rows, continues in b047): short `{fb:..}` rows of soup ending in a repeated
   `高決｡》｡`/`･》･` pattern (looks like a mission-result table under another glyph set), `-`; phase 7 re-extract.
-- Gendered addresses for the angel are neutralised: Yaruru's お姉ちゃん -> "you" (358B.2332), Griffin's
-  ド派手姉ちゃん -> "Flashy", 娘/女 -> "that one"/"You sure can talk"; Dian's 天使さん -> "Angel".
+- Gendered addresses for the angel in lines that play for either gender are neutralised: Griffin's
+  ド派手姉ちゃん -> "Flashy", 娘/女 -> "that one"/"You sure can talk"; Dian's 天使さん -> "Angel"; 358B.2332
+  (Yaruru's dream, お姉ちゃん) -> "you".
 - 姉さん (Felimi to Miraya, his elder sister; 356C, 3570, 35F0, 35F4): "Sister" / "my sister".
-- Angel-gender variant files (e.g. 35BC = female-angel copy of 358B): where the line is about the angel's gender
-  (Yaruru: お姉ちゃんでいいですよ), keep it ("Big Sis"); elsewhere stay neutral.
+- Yaruru's お姉ちゃん is its own branch: after the angel says お姉ちゃんでいいですよ (35BC, female angel), his rows
+  switch from 天使様 to お姉ちゃん (twins in one file: 3802.057E/0C6A, 3994.282C/28C0). Every お姉ちゃん row to
+  the angel is "Big Sis" (b028, b041, b068-b141). No お兄ちゃん twin exists for a male angel. お兄ちゃん/兄ちゃん
+  to heroes (children to Reiv, 35E5, 37BF, 3A3C) stays "mister"; Tia to her brother (3A46-3A4A) "big brother".
 - Stock battle lines: 魔人 "Fiend", 魔族 "Demon", `{name:0180}はXを倒した` "{name:0180} defeated X.",
   `退けた` "drove off X."; 天使の手先 "the angel's lackey"; 天使の勇者 "the angel's hero".
 - PSX.EXE strings (trans/exe, in-place byte slots, so short forms): default angel name ラビエル "Raviel"; fairy

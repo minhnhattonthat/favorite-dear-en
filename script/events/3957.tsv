@@ -13,7 +13,7 @@ id	jp	en	notes
 3957.15E6	{e0:EB09}{spk:0080}{fa:0180}{n}なぜあなたは私たちと戦うのです？{n}{wait}{clear}{end}		
 3957.1620	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
 3957.1642	{e0:EC09}{spk:0080}{fa:0180}{n}・・・天使様、この悪魔を{n}うち払う力を貸して下さい！{n}{wait}{clear}{end}		
-3957.1690	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{end}		
+3957.1690	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
 3957.16B8	{e0:ED09}{spk:0080}{fa:0180}{n}・・・この声は・・・。{n}{wait}{clear}{end}		
 3957.16E8	{e0:EE09}{spk:0080}{fa:0180}{n}きゃあ！{n}{wait}{clear}{end}	{e0:EE09}{spk:0080}{fa:0180}{n}Eeek!{n}{wait}{clear}{end}	
 3957.170A	{e0:EF09}{spk:0080}{fa:0180}{n}なぜ、私たちのインフォスを襲い、{n}天使様たちと戦うのです？{n}{wait}{clear}{end}		

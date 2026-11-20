@@ -70,6 +70,11 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ベルフェゴール | Belphegor | | | |
 | ドラッケン | Drakken | | mountain bandit / monster preying on merchants in Hebron | |
 | キメラ | Chimera | | monster in the Duminas marshes | |
+| ケルピー | Kelpie | | water monster posing as a girl (Sievas event) | |
+| マキュラ | Macula | | rogue dragon, マキュラドラゴン "Macula Dragon"; dealt with Iuvart | |
+| ボルンガ | Borunga | | gentle Duminas monster (Ryudral event) | |
+| ラッシュ | Rush | | Yaruru's sacred beast ("he") | |
+| グレイ | Gray | | Beasia's family and her dojo ("the Gray-style dojo", グレイ流道場) | |
 
 ## Places
 | JP | EN | max | notes | Avoid |
@@ -104,6 +109,9 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | 神獣 | sacred beast | | Yaruru's companion | |
 | 竜の使い | the Dragon's Messenger | | Ryudral's local title | |
 | 闇馬車 | Dark Carriage | | slaver bandit ring, in quotes ("Dark Carriage") | |
+| ダルク | Dalk | | currency ("1000 Dalk", Fiana's fee) | |
+| 炎王 | Flame King | | Adramelech's title | |
+| ガロンドランク | Gallon Drunk | | tavern where a dancer works (Griffin's mix-up) | |
 
 ## Decisions from earlier batches
 - b001 3498.1550 (the gift-name list, one run of names indexed by the script): kept Japanese (`-`), phase 7 must
@@ -114,3 +122,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
   (b099, b103-b105). Phase 7: find the glyph table these files use, re-extract, re-batch, translate.
 - 様 after a hero's name (fairies, maids) is dropped: "I found {name:0180}!", "leave it to Sievas"; the politeness
   goes into the phrasing. 天使様 stays "Angel".
+- b020 3576.06BE-0834 (6 rows): glyph soup like 34F2 etc., `-`; phase 7 re-extract.
+- Gendered addresses for the angel are neutralised: Yaruru's お姉ちゃん -> "you" (358B.2332), Griffin's
+  ド派手姉ちゃん -> "Flashy", 娘/女 -> "that one"/"You sure can talk"; Dian's 天使さん -> "Angel".
+- 姉さん in the Duminas raid (356C, 3570) is the hero's sister (Miraya's army): "my sister" / "Sis".

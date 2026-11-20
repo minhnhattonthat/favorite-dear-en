@@ -1,6 +1,6 @@
 id	jp	en	notes
 35F0.0DE0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
-35F0.0E0C	{e0:E0FF}{spk:E783}{fa:0080}{n}ミライヤ様、万歳！！{n}{wait}{clear}{end}		
+35F0.0E0C	{e0:E0FF}{spk:E783}{fa:0080}{n}ミライヤ様、万歳！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}Long live Lady Miraya!!{n}{wait}{clear}{end}	
 35F0.0E3A	{e0:E0FF}{spk:0080}{fa:0180}{n}やめるんだ！{n}こんな戦い！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}兵士：{n}{f7:0380}{n}何者だ！　お前は！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}僕のことはどうでもいい、{n}今すぐミライヤにこんな戦いを{n}やめるよう伝えてくれ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}兵士：{n}{f7:0380}{n}軽々しくミライヤ様の名を使うとは{n}無礼な奴だ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}やってしまえ！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・、僕は姉さんに会わなきゃいけない{n}こんな戦いをやめさせるために・・・。{n}だから邪魔しないでくれ！{n}{wait}{clear}{end}		
 35F0.0FF8	{e0:6202}{spk:E783}{fa:0080}{n}{f7:0080}ミライヤ：{n}{f7:0380}{n}フェリミ？　どうしてここへ・・・。{n}{wait}{clear}{end}		
 35F0.104A	{e0:6302}{spk:E783}{fa:0080}{n}{f7:0080}ミライヤ：{n}{f7:0380}{n}戦火に巻き込まれないように{n}手紙で知らせておいたのに・・・。{n}{wait}{clear}{e0:6402}{spk:0080}{fa:0180}{n}姉さん・・・僕は姉さんを{n}止めに来たんだ。{n}{wait}{clear}{e0:6502}{spk:E783}{fa:0080}{n}{f7:0080}ミライヤ：{n}{f7:0380}{n}私を止めに？{n}{wait}{clear}{e0:6602}{spk:0080}{fa:0180}{n}姉さん、もうこんな無意味な戦いは{n}やめるんだ！{n}{wait}{clear}{e0:6702}{spk:0080}{fa:0180}{n}多くの人が苦しんでる・・・。{n}平和に暮らしてる普通のひとが{n}傷つき、不幸になってる！{n}{wait}{clear}{end}		
@@ -10,4 +10,4 @@ id	jp	en	notes
 35F0.16DE	{e0:7802}{spk:E783}{fa:0080}{n}{f7:0080}ミライヤ：{n}{f7:0380}{n}フェリミ！{n}{wait}{clear}{end}		
 35F0.1834	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}兵士：{n}{f7:0380}{n}敵は目の前だ、{n}ミライヤ様にその首捧げてくれよう！{n}{wait}{clear}{end}		
 35F0.1892	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}兵士：{n}{f7:0380}{n}敵は目の前だ、{n}ミライヤ様にその首捧げてくれよう！{n}{wait}{clear}{end}		
-35F0.18F0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はミライヤ軍を倒した。{n}{wait}{clear}{end}		
+35F0.18F0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はミライヤ軍を倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated Miraya's army.{n}{wait}{clear}{end}	

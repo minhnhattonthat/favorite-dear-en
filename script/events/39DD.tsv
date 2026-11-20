@@ -67,7 +67,7 @@ id	jp	en	notes
 39DD.2E78	{fb:2980}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}あははははっ・・・{n}あ、いや、ごめん、ごめん。{n}アンタもそういうこと気にするんだ。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
 39DD.2F12	{fb:3380}{n}{spk:E783}{n}あなたの手料理を食べてみたいですね。{n}{wait}{clear}{spk:0080}{n}ええっ？　私の？{n}・・・うーん・・・。{n}ま。それはまた、今度だね。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
 39DD.2FA2	{fb:3D80}{n}{spk:E783}{n}料理はできるんですか？{n}{wait}{clear}{spk:0080}{n}あっ！！{n}できないと思ってバカにしてるだろ！{n}失礼だな、まったく！{n}{fe:E78300800280}{n}{wait}{clear}{end}		
-39DD.3024	{fb:FE81}{n}{spk:0080}{n}まだ、なにかあるの？{n}{wait}{clear}{end}		
+39DD.3024	{fb:FE81}{n}{spk:0080}{n}まだ、なにかあるの？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Is there something else?{n}{wait}{clear}{end}	
 39DD.304C	{fb:0080}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}別にいいけど・・・。{n}アンタにはつまらないかも。{n}{wait}{clear}{spk:0080}{n}賞金首の張り紙を見にいくんだ。{n}それでもよければね。{n}{wait}{clear}{end}		
 39DD.30F4	{fb:0A80}{n}{spk:E783}{n}疲れはとれますか？{n}{wait}{clear}{spk:0080}{n}まあね・・・。{n}本当はのんびりしてればいいんだけど、{n}じっとしてるのは苦手なんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39DD.3182	{fb:1480}{n}{spk:E783}{n}気分はいかがですか？{n}{wait}{clear}{spk:0080}{n}普通だね。{n}今は変わったこともないし。{n}{wait}{clear}{end}		
@@ -75,7 +75,7 @@ id	jp	en	notes
 39DD.3238	{fb:2880}{n}{spk:E783}{n}ゆっくり休んでくださいね。{n}{wait}{clear}{spk:0080}{n}ありがとう、天使様。{n}そうさせてもらうよ。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
 39DD.32A6	{fb:3280}{n}{spk:E783}{n}服を買ったりしないんですか？{n}{wait}{clear}{spk:0080}{n}私が服を？{n}ガラじゃないよ、そんなの。{n}{wait}{clear}{end}		
 39DD.3308	{fb:3C80}{n}{spk:E783}{n}子供と遊ぶのは好きですか？{n}{wait}{clear}{spk:0080}{n}子供？　ああ、好きだよ。{n}子供達を見てると、私のほうが{n}元気づけられるからね。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
-39DD.339A	{fb:FF81}{n}{spk:0080}{n}まだ、なにかあるの？{n}{wait}{clear}{end}		
+39DD.339A	{fb:FF81}{n}{spk:0080}{n}まだ、なにかあるの？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Is there something else?{n}{wait}{clear}{end}	
 39DD.33C2	{fb:0180}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}別にいいけど・・・。{n}アンタにはつまらないかも。{n}{wait}{clear}{spk:0080}{n}賞金首の張り紙を見にいくんだ。{n}それでもよければね。{n}{wait}{clear}{end}		
 39DD.346A	{fb:0B80}{n}{spk:E783}{n}疲れはとれますか？{n}{wait}{clear}{spk:0080}{n}まあね・・・。{n}本当はのんびりしてればいいんだけど、{n}じっとしてるのは苦手なんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39DD.34F8	{fb:1580}{n}{spk:E783}{n}気分はいかがですか？{n}{wait}{clear}{spk:0080}{n}普通だね。{n}今は変わったこともないし。{n}{wait}{clear}{end}		

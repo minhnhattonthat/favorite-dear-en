@@ -288,13 +288,23 @@ def fullwidth(s):
     return "".join(chr(ord(c) + 0xFEE0) if "!" <= c <= "~" else "　" if c == " " else c for c in s)
 
 
+STAFF_CODES = "&%"  # leading single-byte line codes FIN.EXE reads: '&' closing cards, '%' line starts at x=64
+
+
+def staff_en(en):
+    """an English credits line -> STAFF.TXT bytes: leading '&'/'%' stay single-byte, the rest is FIN pair codes
+    (asm/fin.asm), each byte +1 as the file stores double-byte codes"""
+    body = en.lstrip(STAFF_CODES)
+    return en[:len(en) - len(body)].encode("ascii") + bytes(b + 1 for b in font_en.fin_pairs(body))
+
+
 def staff_text(row, mode):
-    """a credits line: marker/ruler keep the line's leading indent and glyph count; en = the `en` cell, full-width.
-    A leading '&' (the closing cards, STAFF.457-460) is a single-byte code and stays single-byte."""
+    """a credits line: marker/ruler keep the line's leading indent and glyph count, full-width; en = the `en` cell
+    as staff_en bytes. A leading '&' (the closing cards, STAFF.457-460) is a single-byte code and stays."""
     jp = row["jp"]
     code = jp[:len(jp) - len(jp.lstrip("&"))]
     if mode == "en":
-        return code + fullwidth(row["en"].lstrip("&")) if row["en"] else None
+        return staff_en(row["en"]) if row["en"] else None
     body = jp[len(code):].lstrip("　")
     indent = jp[:len(jp) - len(body)]  # the code and the full-width spaces
     if mode == "ruler":
@@ -308,16 +318,16 @@ def staff_edit(data, mode):
     for row in extract.read_tsv(extract.SCRIPT / "staff.tsv"):
         text = staff_text(row, mode)
         if text is not None:
-            lines[int(row["id"].split(".")[1])] = extract.staff_encode(text)
+            lines[int(row["id"].split(".")[1])] = text if isinstance(text, bytes) else extract.staff_encode(text)
     return extract.STAFF_NL.join(lines)
 
 
 def assemble(exe, asm="font.asm"):
-    """EXE bytes with asm/<asm> applied (font.asm: PSX.EXE, epilog.asm: TITLE/EPILOG.EXE)"""
+    """EXE bytes with asm/<asm> applied (font.asm: PSX.EXE, epilog.asm: TITLE/EPILOG.EXE, fin.asm: DATA/FIN.EXE)"""
     with tempfile.TemporaryDirectory() as d:
         d = Path(d)
         (d / "in.exe").write_bytes(exe)
-        (d / "font.bin").write_bytes(font_en.binary())
+        (d / "font.bin").write_bytes(font_en.fin_binary() if asm == "fin.asm" else font_en.binary())
         r = subprocess.run([str(ARMIPS), str(ROOT / "asm" / asm), "-strequ", "EXE_IN", str(d / "in.exe"),
                             "-strequ", "EXE_OUT", str(d / "out.exe"), "-strequ", "FONT_BIN", str(d / "font.bin")],
                            capture_output=True, text=True, cwd=ROOT / "asm")  # .include resolves from the cwd
@@ -332,7 +342,8 @@ def edits(mode="en", report=None):
     relocs = []
     new_gdata = event_edits(gdata, exe, mode, extract.event_table(), report, relocs)
     out = {"PSX.EXE": assemble(exe_text(exe, mode, extract.exe_table())),
-           "TITLE/EPILOG.EXE": assemble((TREE / "TITLE" / "EPILOG.EXE").read_bytes(), "epilog.asm")}
+           "TITLE/EPILOG.EXE": assemble((TREE / "TITLE" / "EPILOG.EXE").read_bytes(), "epilog.asm"),
+           "DATA/FIN.EXE": assemble((TREE / "DATA" / "FIN.EXE").read_bytes(), "fin.asm")}
     if relocs:
         for name in EXE_COPIES:
             out[name] = repoint(out[name] if name in out else (TREE / name).read_bytes(), relocs, name)

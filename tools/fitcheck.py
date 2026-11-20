@@ -7,6 +7,7 @@ Allowed ranges, derived from the inputs rather than the build output:
   armips changes when asm/font.asm is assembled onto the untouched EXE, moved scripts' table entries, and for grown
   strings the pointer-table entries that point at a slot plus insert.REPOINT (where they move).
 - TITLE/EPILOG.EXE: the bytes asm/epilog.asm changes on the untouched EXE (incl. its appended sector), table entries.
+- DATA/FIN.EXE: the bytes asm/fin.asm changes on the untouched EXE (the credits' pair-glyph hook).
 - GOVER/FD_BALL/PS_MOV.EXE: moved scripts' (sector, size) table entries only.
 - GDATA.BIN: the slot of every script that has rows in `script/events/`, plus the appended tail (moved scripts).
 - DATA/STAFF.TXT: the whole file (re-joined lines).
@@ -79,6 +80,8 @@ def allowed(name, orig, new, orig_psx, patterns):
         r += diff_ranges(orig, insert.assemble(orig))
     elif name == "TITLE/EPILOG.EXE":
         r += diff_ranges(orig, insert.assemble(orig, "epilog.asm"))
+    elif name == "DATA/FIN.EXE":
+        r += diff_ranges(orig, insert.assemble(orig, "fin.asm"))
     return r
 
 

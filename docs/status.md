@@ -173,10 +173,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Movies DEMO.STR / ENDING.STR / the end of OP.STR not checked for burned-in text.
 - **Waiting on the user:** (not blocking) abbreviations: the PSX.EXE ones are gone (phase 8 repoint: "Balgador
   Range", "Primse River", "Barba Isle", "Court Angel", "Chief Seraph", "Gigas Earring", "Dark Carriage"); left are
-  "Jr. Power".."Jr. Seraph" (準X翼宮: the rank box holds 12 letters, "Junior Prince" needs 13) and, until the FIN
-  hook lands, credit names cut to an initial and two painter lines in Japanese. Say if "Jr." is fine to keep. (not blocking) Honorifics: D1 is now applied in full (D12: "Sievas-sama", "Tia-san",
+  "Jr. Power".."Jr. Seraph" (準X翼宮: the rank box holds 12 letters, "Junior Prince" needs 13). Say if "Jr." is
+  fine to keep. The credits have no short forms left (FIN pair-glyph hook, phase 8). (not blocking) Honorifics: D1 is now applied in full (D12: "Sievas-sama", "Tia-san",
   "Griffin-dono"); say if you'd rather have English titles. (not blocking) the credits romanize real staff and cast names from kanji by my reading
-  (`trans/staff/en.tsv`, given name first, Hepburn); readings such as 新千恵子 "C. Atarashi", 角田早穂 "Saho
-  Tsunoda", 溝上真紀子 "M. Mizokami", 龍谷修武 "O. Ryutani", 萩原由乃 "Y. Hagiwara", 藤田顕史 "Kenji Fujita" are
-  unverified. Corrections welcome; the build works either way.
+  (`trans/staff/en.tsv`, given name first, Hepburn); given names that were initials until phase 8 are guesses too:
+  新千恵子 "Chieko Atarashi", 戸北宗寛 "Munehiro Tokita", 龍谷修武 "Osamu Ryutani", 萩原由乃 "Yuno Hagiwara",
+  富沢泰光 "Yasumitsu Tomizawa", 高橋佳子 "Keiko Takahashi", 本多柚々 "Yuyu Honda", 角田早穂 "Saho Tsunoda",
+  藤田顕史 "Kenji Fujita". Corrections welcome; the build works either way.
 - **Open bugs:** none.

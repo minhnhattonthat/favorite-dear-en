@@ -4,21 +4,24 @@
     python -X utf8 tools/stafftext.py merge    check, then write `en` into script/staff.tsv
 
 trans/staff/en.tsv: `id<TAB>en`, one row per script/staff.tsv row. FIN.EXE draws only double-byte codes, so
-insert.py turns the ASCII into full-width forms; a line shows 14 full-width letters from x=150, leading spaces
-included (docs/windows.tsv `credits`). A leading '&' (closing cards STAFF.457-460) is a single-byte code kept as is.
-Names: given name first, Hepburn without macrons (decision D2); a name over 14 letters takes the given name's
-initial; lines that hold two names give family names only. `-` keeps the Japanese line."""
+insert.py turns the ASCII into pair codes (two 6-px letters per code, asm/fin.asm); a line shows 28 letters from
+x=148, leading spaces included (docs/windows.tsv `credits`), each Japanese full-width space of indent = 2 spaces.
+A leading '&' (closing cards STAFF.457-460) is a single-byte code kept as is; a leading '%' starts the line at x=64
+(42 letters). Letters: font_en.FIN_CHARSET. Names: given name first, Hepburn without macrons (decision D2).
+`-` keeps the Japanese line."""
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import batches  # noqa: E402
 import extract  # noqa: E402
+import font_en  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 STAFF = ROOT / "script" / "staff.tsv"
 SRC = ROOT / "trans" / "staff" / "en.tsv"
-LETTERS = 14
+LETTERS = 28
+CHARSET = set(font_en.FIN_CHARSET)
 
 
 def check():
@@ -33,12 +36,15 @@ def check():
         if text == "-":  # keep the Japanese line (a name with no English form that fits)
             continue
         body = text[1:] if r["id"] in rows and rows[r["id"]]["jp"].startswith("&") and text.startswith("&") else text
+        limit = LETTERS
+        if body.startswith("%"):  # line starts at x=64 instead of x=148 (FIN 0x80011208)
+            body, limit = body[1:], LETTERS + 14
         if not body.strip():
             errs.append(f"{r['id']}: empty")
-        if len(body) > LETTERS:
-            errs.append(f"{r['id']}: {len(body)} letters > {LETTERS}: {body!r}")
-        if any(not (" " <= c <= "~") for c in body):
-            errs.append(f"{r['id']}: non-ASCII in {body!r}")
+        if len(body) > limit:
+            errs.append(f"{r['id']}: {len(body)} letters > {limit}: {body!r}")
+        if set(body) - CHARSET:
+            errs.append(f"{r['id']}: letters FIN's font lacks {sorted(set(body) - CHARSET)} in {body!r}")
     return errs
 
 

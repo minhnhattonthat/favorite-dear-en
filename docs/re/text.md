@@ -86,10 +86,16 @@ is an empty 256x256 image).
 - Single-byte ASCII in a line hangs the roll (tested); full-width Latin (ＡＢＣ, ａｂｃ, ０-９, ［］) renders. So the credits
   are English in full-width forms (`insert.fullwidth`, 14 letters per line at x=150). The leading `&` of the closing
   cards (STAFF.457-460) is a single-byte code and stays.
-- Option for more room (phase 7): hook `glyph_addr` like PSX's pair glyphs (two 6-px letters ORed into a 22-byte
-  scratch glyph), with pair codes in an unused lead-byte range; the shadow adds 2 px to the right of each letter, so
-  letters must be <= 4 px wide or the shadow joins neighbours. Needs free RAM in FIN (trap test) and FIN's own
-  lead-byte test.
+- Pair glyphs (done, phase 8): `asm/fin.asm` hooks `glyph_addr`. FIN's lead-byte test (0x80011F1C, on the decoded
+  text) takes 0x81-0x9F and 0xE0-0xFC; its font ends at 0x9872, so leads 0xE0-0xFC carry two letters:
+  n = (lead-0xE0)*189 + (trail-0x40), letters `FIN_CHARSET[n/74]`, `[n%74]` (`font_en.fin_pairs`). Code, font
+  (11 bytes per letter, rows 1-11 of en6x12) and scratch sit over the Cyrillic + box-drawing glyphs (indexes
+  426-523 of table A: 0x80025AF8-0x80026364; table A is linear over the 524 defined codes 0x8140-0x84BE). Each
+  character is its own sprite (0x800134CC, 256 slots of 44 bytes at 0x80050190, 16x16 4bpp texture), advance 12 px
+  (0x800113E4), so a pair code halves the sprite count. The shadow is dark on black and does not show; 5-px letters
+  read cleanly. 28 letters from x=148.
+- Line codes (0x80011208..): a leading `%` (0x25) starts the line at x=64 instead of 0x94=148 (arg of 0x80012278);
+  `&` the closing cards; `#`, `\` other modes (not traced). `%` is unused by the original file.
 
 ## Font (verified: traced the glyph writer)
 

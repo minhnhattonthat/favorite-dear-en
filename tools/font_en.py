@@ -1,4 +1,5 @@
-"""font_en.py: the English half-cell font (fonts/en6x12.txt) -> the binary the glyph hook reads (asm/font.asm).
+"""font_en.py: the English half-cell font (fonts/en6x12.txt) -> the binaries the glyph hooks read (asm/font.asm,
+asm/fin.asm via fin_binary/fin_pairs).
 
     python -X utf8 tools/font_en.py bin OUT.bin      12 bytes per glyph, codes FIRST..LAST, bit 0 = leftmost pixel
     python -X utf8 tools/font_en.py png OUT.png      preview sheet (16 per row, 3x zoom)
@@ -44,6 +45,33 @@ def chars():
     """code -> character for every glyph the font has (ASCII + extras)."""
     extra = {0x80: "…", 0x81: "—", 0x82: "♥", 0x83: "♪", 0x84: "é"}
     return {c: extra.get(c, chr(c)) for c in glyphs()}
+
+
+# FIN.EXE (credits) pair glyphs: asm/fin.asm decodes a code to two indexes into this string (74 x 74 pairs fit the
+# 29 lead bytes 0xE0-0xFC x 189 trail bytes 0x40-0xFC); the glyphs are rows 1-11 of the 12-row cell (FIN's are 11).
+FIN_CHARSET = " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,-'&()!?/:0123456789"
+FIN_LEAD, FIN_TRAIL, FIN_TRAILS = 0xE0, 0x40, 189
+
+
+def fin_binary(path=SRC):
+    """11 bytes per FIN_CHARSET letter, bit 5 = leftmost pixel (the hook shifts them into a u16 row)"""
+    g = glyphs(path)
+    out = bytearray()
+    for ch in FIN_CHARSET:
+        for row in g[ord(ch)][1:]:
+            out.append(sum(1 << (5 - x) for x in range(6) if row >> x & 1))
+    return bytes(out)
+
+
+def fin_pairs(text):
+    """an ASCII line -> FIN.EXE pair codes (decoded bytes, before STAFF.TXT's +1); odd length gets a trailing space"""
+    if len(text) % 2:
+        text += " "
+    out = bytearray()
+    for a, b in zip(text[::2], text[1::2]):
+        n = FIN_CHARSET.index(a) * len(FIN_CHARSET) + FIN_CHARSET.index(b)
+        out += bytes([FIN_LEAD + n // FIN_TRAILS, FIN_TRAIL + n % FIN_TRAILS])
+    return bytes(out)
 
 
 def png(out):

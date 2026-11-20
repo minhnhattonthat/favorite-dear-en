@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, 141 of 144 event batches done (b001-b141; `batches.py todo` lists the 3 left; b103-b104 are all glyph soup `-`), pilot checked in game.
+- **Phase:** 6. Translate: in progress, all 144 event batches done (b001-b144, `batches.py todo` empty; b103-b104 are all glyph soup `-`), pilot checked in game; left: exe/staff/sjis text (Next 3) and the review pass (Next 4).
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)
@@ -13,7 +13,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Mission-title tables 3AD6.2C44 (b130), 3B01.0CEC (b134) and 3B05.1212 (b135), left `-`:** one `{fc}`-wrapped row holding every mission title
   (盗賊・闇馬車, タンブール教会襲撃, ...) run together with full-width numbers as fillers for unused ids. The game
   must index into it some other way (no row cuts), so lengths cannot change until phase 7 finds that index; translate
-  it then. Same for the angel-rank title table 3B2F.1100 (b137: 天使見習い幼翼天使準翼天使..., no fillers).
+  it then. Same for the angel-rank title table 3B2F.1100 (b137: 天使見習い幼翼天使準翼天使..., no fillers) and the
+  clear-data save menu 3B77.0260 (b143: 21 fixed lines, はい/いいえ columns, slot names glued as スロット１のスロット２の).
+- **Ending epilogue narration 3B6B-3B76 (b142-b143):** one row per hero, a fixed line per `{f7:0080}`, and lines
+  holding only `〔` (glyph 0x0E) between pages. English keeps the same line count and the `〔` lines (passed through
+  as raw `[0E][00]`, `batches.py` FULL), each line at most 40 letters. Phase 7: check one ending in game (does 0x0E
+  still act as the page marker with the English font, and do 40-letter lines fit).
 - **Pilot (done 2026-11-20):** `warp.py myh16` on the English build (`work/qa/warp/myh16/`, f015540, f015720): Reiv's
   scouting in English, wrap at 40 letters gives clean 3-line boxes, no overflow, continuation pages fine. The warp's
   angel name is the Japanese default ラビエル (phase 7: English default name). Choice box (b001 3498.1CF0) not yet
@@ -30,7 +35,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Next (phase 6):**
   1. Choice box check (b001 row 3498.1CF0 `　｛Go to them　　　｝`, file 3498) once a warp reaches it (find the event
      name via the 0x8003B680 lookup). SS1204 is not file 349C.
-  2. `python -X utf8 tools/batches.py todo` (next: b047; 36FD soup continues there), translate in order per `docs/translator-brief.md` and
+  2. Event batches: done 2026-11-20 (b001-b144). Notes kept for re-batching the glyph soup in phase 7: translate per `docs/translator-brief.md` and
      `docs/style-reference.md`, check, merge, commit after every batch or two. Use `tools/compact.py show|soup|expand`
      (brief item 6): it cuts read/write tokens by about a third, and `soup` pre-fills glyph-soup rows as `-`.
      b026-b033 are recruit/re-recruit scenes and hero story battles; many files exist twice (one per angel gender,

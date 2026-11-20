@@ -122,7 +122,9 @@ def term_in(term, jp):
 # --- check --------------------------------------------------------------------------------------------------------
 
 
-FULL = {"　": "[00][00]", "｛": "[DA][05]", "｝": "[DB][05]"}  # full-width glyphs kept for choice boxes (set B)
+# full-width glyphs kept as raw halfwords: the choice-box frame (set B), and 〔 (0x0E), the page marker on its own
+# line in the ending epilogue narration (3B6B-3B76)
+FULL = {"　": "[00][00]", "｛": "[DA][05]", "｝": "[DB][05]", "〔": "[0E][00]"}
 SKIP = "-"  # translator's mark for a row that is not text to translate (kept Japanese, reason in the glossary)
 
 

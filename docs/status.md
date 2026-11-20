@@ -3,7 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (worker 14: 1-code name bug closed (save.py), battle POISON stamp
-  fixed, build 0da4affb; next: finish re-tour + gate, inkbox, textcover sweep, stress sheets).
+  fixed, slot list centred, build da7916e8; tour + cover sweep killed by the host for low memory; next: finish
+  re-tour + gate, inkbox, textcover sweep, stress sheets).
   Worker 14 (2026-11-21): build **0da4affb58dffa13e5d14fe0c4984b816887dafb** (check ok 79, fitcheck ok, smoke ok).
   (a) **1-code name bug closed, not a game bug:** c1 at save+0x202 is `sum(0x204..0x22B) & 0x0FFF` like c0; save.py
   stored it unmasked, which only differs when the header sum passes 0xFFF (a 1-halfword name has 5 x 0xFFFF padding).
@@ -16,7 +17,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   the only difference to 0da4affb is e207, so after it: `qa_sheets.py`, `qa_gate.py init --build
   work/qa/tour_build/favorite_dear_en.bin`, review, re-run the battle_* scenes on 0da4affb and `qa_gate.py waive`
   with that reason, or re-tour); cover sweep resumed at -j 3 (`work/qa/cover_run6.txt`); JP tour of the compare-JP
-  scenes into `work/qa/tour_jp` (`tour_jp_run2.txt`).
+  scenes into `work/qa/tour_jp` (`tour_jp_run2.txt`, **done**: 14 scenes incl. ev_kaiwa1, ev_s0000ok, ev_s01ok,
+  ev_evfum02, ev_slove01, ev_ss0101, ev_tm02all, ev_bos_clr, epilog_end1/15, battle_t0901). (d) Slot list "Slot 1/2"
+  centred in its red bar (2 leading spaces; inkbox 18/20, JP text fills the bar), build **da7916e8** (check 79,
+  smoke ok). Option-screen card dialog is left-aligned like JP (not a centred box). **At 05:31 the host killed the
+  re-tour (71/103 scenes newer than tour_run3.txt) and the cover sweep (145/444 events) for low memory** (other
+  projects' emulators share the machine). Next worker: re-run the missing tour scenes on build da7916e8 itself (no
+  frozen copy needed now: just re-tour everything still older than tour_run3.txt plus the battle_*, load*, hub_save*
+  scenes), at -j 1, then `cover_sweep.py -j 1` (resumable); then sheets + gate + review with `codex exec`
+  (available, 0.167.1) and inkbox from the fresh shots (choice frames move between runs: pick them from the sheets).
   Worker 13 (2026-11-21): build **816bdf579192cc263f175c544a931b3ad626fe66** (check ok 76, fitcheck ok, smoke ok).
   (a) **t0201 plate bug fixed:** the enemy name table has **254** types (E000-E253, then a zero entry), not 201;
   types 201-253 (sea serpents, dragons, Siren, and the bosses Belphegor, Iuvart, Apollyon, Gaap, Adramelech...)

@@ -1,0 +1,10 @@
+id	jp	en	notes
+3570.0C64	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3570.0C90	{e0:E0FF}{spk:E783}{fa:0080}{n}グゲッ、ゲゲッ。{n}{wait}{clear}{end}		
+3570.0CBA	{e0:E0FF}{spk:0080}{fa:0180}{n}モンスター・・・？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}ミライヤ軍が兵として{n}使役しているようです！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}そんなことのために、こいつらを・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}危ない、リュドラル！{n}{wait}{clear}{end}		
+3570.0D88	{e0:E0FF}{spk:0080}{fa:0180}{n}モンスターを盾にするなんて・・・{n}・・・許さないからなっ！{n}{wait}{clear}{end}		
+3570.0FA2	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グゲッ！　グゲゲゲ！！{n}{wait}{clear}{end}		
+3570.0FEA	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グゲッ！　グゲゲゲ！！{n}{wait}{clear}{end}		
+3570.1032	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		
+3570.1066	{spk:0080}{fa:0180}{n}！？{n}{wait}{clear}これが、デュミナス軍の・・・{n}姉さんの軍隊・・・。{n}{wait}{clear}姉さんは・・・姉さんは・・・{n}こんなモンスター達まで操って{n}いったい何をする気なんだ！{n}{wait}{clear}{end}		
+3570.1110	{spk:0080}{fa:0180}{n}姉さん・・・。{n}{wait}{clear}{end}		

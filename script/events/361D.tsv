@@ -1,0 +1,12 @@
+id	jp	en	notes
+361D.0CE6	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+361D.0D12	{e0:E0FF}{spk:E783}{fa:0080}{n}へっ、ははははは。{n}{wait}{clear}{end}		
+361D.0D3E	{e0:E0FF}{spk:0080}{fa:0180}{n}あいつら・・・！！{n}ラッシュが消えたときの敵だ！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}お前達！！{n}ラッシュをどこにつれて行ったんだ！？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}ラッシュ？{n}{wait}{clear}{e0:E0FF}ああ・・・ボスの言ってた{n}ジャックハウンドのことか・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}ラッシュはどこだ！？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}うるさい小僧だ。{n}{wait}{clear}{e0:E0FF}ジャックハウンドなら、{n}ここに閉じ込めてあるぜ！！{n}{wait}{clear}{end}		
+361D.0EE8	{e0:E0FF}{spk:0080}{fa:0180}{n}ラッシュ！！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}よかった・・・、生きていたのですね。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}ラッシュを今すぐ返せ！！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}うるせえな、小僧！{n}お前みたいなガキはひっこんでろ！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}なんだと！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}ラッシュ！！　待ってて！！{n}今、助けるから！！{n}{wait}{clear}{end}		
+361D.1036	{e0:E0FF}{spk:0080}{fa:0180}{n}ラッシュ！！{n}{wait}{clear}{end}		
+361D.105C	{e0:E0FF}{spk:0080}{fa:0180}{n}よかった！！　ラッシュ！！{n}逢いたかったよ・・・！！{n}{wait}{clear}{end}		
+361D.1242	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}あっ、お前ボスのいってた勇者だな！？{n}{wait}{clear}{e0:E0FF}命令だ、死んでもらうぜ！{n}{wait}{clear}{end}		
+361D.12BA	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}こいつ勇者かな？{n}{wait}{clear}{end}		
+361D.12FC	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}どうだっていい！　やっちまえ！！{n}{wait}{clear}{end}		
+361D.134E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}おう！{n}{wait}{clear}{end}		
+361D.1386	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		

@@ -1,0 +1,14 @@
+id	jp	en	notes
+35D8.0DBE	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35D8.0DEA	{e0:E0FF}{spk:E783}{fa:0080}{n}わ、われわれの邪魔をするからだ・・・。{n}{wait}{clear}{end}		
+35D8.0E2A	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}貴様、誰だ！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}私はヘブロンの騎士団長、{n}レイヴ・ヴィンセルラス。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}なぜ！　なぜヘブロンの騎士が、{n}われわれの邪魔をする！？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}貴様達がしている事は、{n}いずれ、{n}ヘブロンにとって脅威となる。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}何を！　こざかしい！{n}やってしまえ！！{n}{wait}{clear}{end}		
+35D8.0FCE	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}貴様が首謀者か？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}たっ、たっ、助けてくれ！{n}{wait}{clear}{e0:E0FF}もう反乱なんてしない！{n}俺達が、俺達が悪かった！！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}俺はある奴にそそのかされただけなんだ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}だ、だから命だけは助けてくれ！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
+35D8.111C	{e0:E0FF}{spk:0080}{fa:0180}{n}よかろう・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}生きて己の犯した罪を償うがいい。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}ああ、ありがたい・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}でもな、悪いのは俺じゃないんだ・・・{n}そそのかされて・・・。{n}{wait}{clear}{e0:E0FF}いや脅されたから俺は・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・だれだ、その男は？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}名は聞かなかった、顔も見ていない{n}ただ、そいつは・・・。{n}{wait}{clear}{end}		
+35D8.12E0	{e0:E0FF}{spk:0080}{fa:0180}{n}！？{n}{wait}{clear}{end}		
+35D8.12FE	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}う、うぎゃぁーっ！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}！！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}えっ・・・？{n}{wait}{clear}{end}		
+35D8.137A	{e0:1801}{spk:E783}{fa:0080}{n}{f7:0080}黒衣の騎士：{n}{f7:0380}{n}フ・・・。{n}{wait}{clear}{e0:1401}{spk:0080}{fa:0180}{n}・・・。{n}貴様。{n}何者だ・・・？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}黒衣の騎士：{n}{f7:0380}{n}・・・・・・。{n}{wait}{clear}{e0:1501}{spk:0080}{fa:0180}{n}答えろ・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}黒衣の騎士：{n}{f7:0380}{n}・・・・・・。{n}{wait}{clear}{e0:1601}{spk:0080}{fa:0180}{n}死んだ男の言っていた{n}黒幕か・・・。お前が。{n}{wait}{clear}{end}		
+35D8.14C0	{e0:1901}{spk:E783}{fa:0080}{n}{f7:0080}黒衣の騎士：{n}{f7:0380}{n}時は来る・・・。{n}いずれ・・・また会おう。{n}{wait}{clear}{end}		
+35D8.151C	{e0:1701}{spk:0080}{fa:0180}{n}あの声・・・。{n}{wait}{clear}{end}		
+35D8.1688	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}貴様、何者だ！！{n}われわれの邪魔をする気か！？{n}{wait}{clear}{end}		
+35D8.16E6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}なんだお前は！？{n}われわれの邪魔をする気か！？{n}{wait}{clear}{end}		
+35D8.1744	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は反乱兵士を倒した。{n}{wait}{clear}{end}		

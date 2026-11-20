@@ -1,0 +1,14 @@
+id	jp	en	notes
+3565.0D74	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3565.0DA0	{e0:E0FF}{spk:E783}{fa:0080}{n}・・・・・・。{n}{wait}{clear}{end}		
+3565.0DC8	{e0:E0FF}{spk:0080}{fa:0180}{n}そんな・・・本当に！？{n}やめろ、みんな！{n}{wait}{clear}{end}		
+3565.0E0A	{e0:E0FF}{spk:0080}{fa:0180}{n}みんな、どうしちまったんだよ！{n}おまえたちは、そんな事をするような{n}奴らじゃないだろ？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ボルンガ：{n}{f7:0380}{n}・・・・・・。{n}{wait}{clear}{end}		
+3565.0EB2	{e0:E0FF}{spk:0080}{fa:0180}{n}どうして・・・。{n}{wait}{clear}{e0:E0FF}どうして何も言ってくれないんだ・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ボルンガ：{n}{f7:0380}{n}・・・・・・。{n}{wait}{clear}{end}		
+3565.0F44	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・クソッ！{n}やるしかないのかよ・・・{n}やるしか！？{n}{wait}{clear}{end}		
+3565.0F94	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}リュドラル？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}・・・リュドラル！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}こんな・・・。{n}{wait}{clear}{end}		
+3565.1046	{e0:E0FF}{spk:0080}{fa:0180}{n}こんなのって・・・どうして・・・。{n}{wait}{clear}{end}		
+3565.119E	{e0:E0FF}{spk:E783}{fa:0180}{n}デュミナスのボルンガといえば{n}人を襲わないおとなしいモンスターの{n}はずなのに・・・？{n}{wait}{clear}{end}		
+3565.1208	{spk:E783}{fa:0080}{n}{f7:0080}ボルンガ：{n}{f7:0380}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}		
+3565.1240	{e0:E0FF}{spk:E783}{fa:0180}{n}デュミナスのボルンガといえば{n}人を襲わないおとなしいモンスターの{n}はずなのに・・・？{n}{wait}{clear}{end}		entry point inside the previous row's message
+3565.12AA	{spk:E783}{fa:0080}{n}{f7:0080}ボルンガ：{n}{f7:0380}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}		
+3565.12E2	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はボルンガを倒した。{n}{wait}{clear}{end}		entry point inside the previous row's message

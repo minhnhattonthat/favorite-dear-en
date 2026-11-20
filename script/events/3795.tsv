@@ -1,0 +1,11 @@
+id	jp	en	notes
+3795.04C0	{fb:0080}{n}{spk:E783}{n}レイヴ・・・。{n}{wait}{clear}{spk:E783}{n}（あれ、この宿屋にいると思ったの{n}　ですが・・・）{n}{wait}{clear}{spk:E783}{n}（どこかに出かけているのでしょうか？）{n}{wait}{clear}{spk:E783}{n}{f7:0080}　｛森に行ってレイヴを探す｝{n}{f7:0080}　｛今日は帰る　　　　　　｝{n}{end}		
+3795.059C	{fb:0180}{n}{spk:E783}{n}（森に行ってみましょう・・・）{n}{wait}{clear}{end}		
+3795.05CE	{fb:0280}{n}{spk:E783}{n}（ひどい雨・・・{n}　どこにいったのですかね？{n}　レイヴは？）{n}{wait}{clear}{spk:E783}{n}（・・・。）{n}{wait}{clear}{spk:E783}{n}（いました！！）{n}{wait}{clear}{end}		
+3795.0652	{fb:0380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{spk:E783}{n}修行ですか？　レイヴ。{n}{wait}{clear}{spk:0080}{n}・・・。{n}{wait}{clear}{spk:E783}{n}こんな雨の日に外でやらなくとも・・・。{n}{wait}{clear}{spk:0080}{n}俺にかまうな・・・。{n}{wait}{clear}{spk:E783}{n}でも・・・。{n}{wait}{clear}{spk:0080}{n}・・・用が無いのならば、帰れ。{n}{wait}{clear}{spk:E783}{n}・・・・・・・・・。{n}{wait}{clear}{end}		
+3795.0758	{fb:0480}{n}{spk:E783}{n}仕方が無いですね・・・。{n}また出直しますか。{n}{wait}{clear}{end}		
+3795.0798	{fb:6480}{n}{spk:E783}{n}レイヴ・・・。{n}{wait}{clear}{spk:E783}{n}（あれ、この宿屋にいると思ったの{n}　ですが・・・）{n}{wait}{clear}{spk:E783}{n}（どこかに出かけているのでしょうか？）{n}{wait}{clear}{spk:E783}{n}{f7:0080}　｛森に行ってレイヴを探す｝{n}{f7:0080}　｛今日は帰る　　　　　　｝{n}{end}		
+3795.0874	{fb:6580}{n}{spk:E783}{n}（森に行ってみましょう・・・）{n}{wait}{clear}{end}		
+3795.08A6	{fb:6680}{n}{spk:E783}{n}（ひどい雨・・・{n}　どこにいったのでしょう？{n}　レイヴは？）{n}{wait}{clear}{spk:E783}{n}（・・・。）{n}{wait}{clear}{spk:E783}{n}（いました！！）{n}{wait}{clear}{end}		
+3795.092A	{fb:6780}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{spk:E783}{n}修行ですか？　レイヴ。{n}{wait}{clear}{spk:0080}{n}・・・。{n}{wait}{clear}{spk:E783}{n}こんな雨の日に外でやらなくとも・・・。{n}{wait}{clear}{spk:0080}{n}俺にかまうな・・・。{n}{wait}{clear}{spk:E783}{n}でも・・・。{n}{wait}{clear}{spk:0080}{n}・・・用が無いのならば、帰れ。{n}{wait}{clear}{spk:E783}{n}・・・・・・・・・。{n}{wait}{clear}{end}		
+3795.0A30	{fb:6880}{n}{spk:E783}{n}仕方が無いですね・・・。{n}また出直しましょう。{n}{wait}{clear}{end}		

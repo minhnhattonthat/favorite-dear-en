@@ -1,0 +1,14 @@
+id	jp	en	notes
+3659.0E20	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3659.0E4C	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}怪物：{n}{f7:0380}{n}ウオッ！　ウオッ！{n}{wait}{clear}{end}		
+3659.0E8A	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}・・・ティア？{n}{wait}{clear}{e0:AE09}{spk:0080}{fa:0180}{n}えっ、あ！　すみません。{n}なんですか？　天使様。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}・・・。{n}どうかしたんですか？　ティア。{n}{wait}{clear}{e0:AF09}{spk:0080}{fa:0180}{n}・・・前に・・・。{n}前にも、ここへ来た事があるような{n}気がするんです・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}ここはオムロンの近くですから、{n}ティアが小さい頃に来た事が{n}あるんじゃないですか？{n}{wait}{clear}{e0:B009}{spk:0080}{fa:0180}{n}・・・。{n}でも、・・・。{n}・・・なにかしら・・・この感じ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}ティア？{n}{wait}{clear}{e0:B109}{spk:0080}{fa:0180}{n}天使様・・・。{n}・・・私・・・怖い・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}どうしたんです、ティア？{n}{wait}{clear}{end}		
+3659.10EE	{e0:B209}{spk:0080}{fa:0180}{n}怖い・・・。{n}ごめんなさい・・・天使様・・・{n}怖いんです・・・。{n}{wait}{clear}{end}		
+3659.1148	{e0:E0FF}{spk:E783}{fa:0180}{n}ティア！！　怪物が！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}（何でこんな時に　！！！）{n}{wait}{clear}{end}		
+3659.11C2	{e0:B309}{spk:E783}{fa:0080}{n}{f7:0080}怪物：{n}{f7:0380}{n}ウォッ！！　ウォッ！！　ウォッ！！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}怪物がこっちに来ます！！{n}しっかりして！！　ティア！！{n}{wait}{clear}{e0:B409}{spk:0080}{fa:0180}{n}ダメです・・・怖い・・・。{n}・・・いや・・・。{n}{wait}{clear}{end}		
+3659.129C	{e0:E0FF}{spk:E783}{fa:0180}{n}ティア！！　逃げて！！{n}危ないっ！！{n}{wait}{clear}{e0:B509}{spk:0080}{fa:0180}{n}！！{n}あっ！！　いやぁぁーっっ！！{n}{wait}{clear}{end}		
+3659.1310	{e0:E0FF}{spk:E783}{fa:0180}{n}ティアーッ！！{n}{wait}{clear}{end}		
+3659.14B6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}怪物：{n}{f7:0380}{n}ウオッ！　ウオッ！！{n}{wait}{clear}{end}		
+3659.14F6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}怪物：{n}{f7:0380}{n}ウオッ？　ウオッ！？{n}{wait}{clear}{end}		
+3659.1536	{e0:E0FF}{spk:0080}{fa:0180}{n}あっ！？{n}{wait}{clear}{end}		
+3659.1558	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}怪物：{n}{f7:0380}{n}ウオッ！！　ウオオォーーー！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{end}		
+3659.15C4	{e0:E0FF}{spk:0080}{fa:0180}{n}逃げた・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを退けた。{n}{wait}{clear}{end}		

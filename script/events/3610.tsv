@@ -1,0 +1,10 @@
+id	jp	en	notes
+3610.0C9A	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3610.0CC6	{e0:E0FF}{spk:E783}{fa:0080}{n}キシャー。{n}{wait}{clear}{end}		
+3610.0CEA	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}男のひと：{n}{f7:0380}{n}あ、あの魔獣は・・・！{n}{wait}{clear}{e0:E0FF}ひいっ！！{n}たすけておくれっ・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}えっ？{n}{wait}{clear}{end}		
+3610.0D78	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}男のひと：{n}{f7:0380}{n}みんな、早く逃げろっ。{n}殺されてしまうぞ！！{n}{wait}{clear}{end}		
+3610.0DD4	{e0:E0FF}{spk:E783}{fa:0180}{n}なんなんでしょう・・・？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}怪物退治に来たのに、怪物扱い{n}されるなんて思わなかったな・・・。{n}{wait}{clear}{end}		
+3610.0E5A	{e0:E0FF}{spk:0080}{fa:0180}{n}いたいた。{n}街の人はきっと、あいつらと{n}勘違いしたんだ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}よし！　行くよラッシュ！！{n}{wait}{clear}{end}		
+3610.1000	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ヒドラ：{n}{f7:0380}{n}ぐぎゃ、ぐぎゃ。{n}{wait}{clear}{end}		
+3610.103E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ヒドラ：{n}{f7:0380}{n}ぐぎゃ、ぐぎゃ。{n}{wait}{clear}{end}		
+3610.107C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はヒドラを倒した。{n}{wait}{clear}{end}		

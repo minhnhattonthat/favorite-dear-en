@@ -7,6 +7,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/favorite_dear_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 tools/debug/warp.py <scene>|--event <NAME>|--all [--state] [--cue build/favorite_dear_en.cue]` (cold boot, no save; scenes: `tools/debug/scenes.tsv`, how: `docs/re/debug.md`; never ask the user to play to a scene)
+- Extract:  `python -X utf8 tools/extract.py` (disc -> `script/*.tsv`; keeps `en`/`notes`, refuses to drop translated rows; `tools/evscript.py` parses the event scripts)
 - Release:  `python -X utf8 tools/release.py` (xdelta patch against the .bin + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 

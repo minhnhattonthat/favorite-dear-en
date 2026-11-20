@@ -1,0 +1,101 @@
+id	jp	en	notes
+39CB.0F0C	{fb:FE81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		
+39CB.0F2A	{fb:0080}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}うん！{n}すっごく気持ちいいね！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.0F88	{fb:0A80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}僕は、全然平気だよ！{n}天使様は疲れちゃったの？{n}{wait}{clear}{end}		
+39CB.0FEA	{fb:1480}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}うーん。{n}僕はまだ大丈夫だよ。{n}{wait}{clear}{end}		
+39CB.1042	{fb:1E80}{n}{spk:E783}{n}少し、休んでいきますか？{n}{wait}{clear}{spk:0080}{n}そうだね。{n}でも、もう少し先に行ってからに{n}しようよ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.10BA	{fb:2880}{n}{spk:E783}{n}私と一緒だと疲れますか？{n}{wait}{clear}{spk:0080}{n}ん？　なんで？{n}そんなことないよ、天使様。{n}{wait}{clear}{end}		
+39CB.111C	{fb:3280}{n}{spk:E783}{n}もう少し急ぎましょうか。{n}{wait}{clear}{spk:0080}{n}え、そう？{n}これでも結構急いでるんだけどな。{n}よし、走ろうか、天使様！{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.11A4	{fb:3C80}{n}{spk:E783}{n}今、なにかしたい事はありますか？{n}{wait}{clear}{spk:0080}{n}今？　今はね・・・。{n}川で遊びたいな！{n}魚とかとってさ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1226	{fb:4680}{n}{spk:E783}{n}普段、何をしてる時が楽しいですか？{n}{wait}{clear}{spk:0080}{n}そうだね・・・。{n}なんでも楽しいけどな。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.129A	{fb:5080}{n}{spk:E783}{n}気をつけている事ってありますか？{n}{wait}{clear}{spk:0080}{n}うーん・・・なんだろう。{n}べつにないかな・・・。{n}{wait}{clear}{end}		
+39CB.130A	{fb:5A80}{n}{spk:E783}{n}歩き慣れてる感じですね。{n}{wait}{clear}{spk:0080}{n}へへっ。まぁね！{n}いろんなところへ行ってるから、{n}歩くのなんか、全然平気だよ。{n}{wait}{clear}{end}		
+39CB.1390	{fb:6480}{n}{spk:E783}{n}もっと強くなりたいですか？{n}{wait}{clear}{spk:0080}{n}うん！　なりたい！{n}父さんみたいに強くなるんだ！！{n}{fd:E78300800280}{n}{wait}{clear}{end}		
+39CB.1406	{fb:6E80}{n}{spk:E783}{n}喉が渇きませんか？{n}{wait}{clear}{spk:0080}{n}ううん、平気だよ。{n}天使様は大丈夫？{n}{wait}{clear}{end}		
+39CB.145C	{fb:7880}{n}{spk:E783}{n}散歩をするのは好きですか？{n}{wait}{clear}{spk:0080}{n}うーん。そうだね。{n}僕は走ったりするのが好きだけど、{n}あれも、散歩っていうのかな。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.14F2	{fb:8280}{n}{spk:E783}{n}随分、急ぐんですね。{n}{wait}{clear}{spk:0080}{n}あれ？　歩くの速すぎた？{n}僕、いつもこれぐらいなんだけど。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.156A	{fb:8C80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}うん！　あるよ！{n}だって、すっごい気持ちよさそう{n}なんだもん！{n}{wait}{clear}{spk:0080}{n}一度でいいから飛んでみたい！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.161E	{fb:9680}{n}{spk:E783}{n}歌を歌ったりはしませんか？{n}{wait}{clear}{spk:0080}{n}たまにね。{n}歌うっていうより、{n}口ずさむくらいだけど。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1698	{fb:A080}{n}{spk:E783}{n}知らないところへ行くのは怖いですか？{n}{wait}{clear}{spk:0080}{n}全然こわくないよ！{n}だって、知らないところのほうが、{n}なにがあるかわからないからさ。{n}{wait}{clear}{spk:0080}{n}おもしろいことも、{n}きっと、起こるだろし。{n}ワクワクするよ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1782	{fb:FF81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		
+39CB.17A0	{fb:0180}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}うん！{n}すっごく気持ちいいね！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.17FE	{fb:0B80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}僕は、全然平気だよ！{n}天使様は疲れちゃったの？{n}{wait}{clear}{end}		
+39CB.1860	{fb:1580}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}うーん。{n}僕はまだ大丈夫だよ。{n}{wait}{clear}{end}		
+39CB.18B8	{fb:1F80}{n}{spk:E783}{n}少し、休んでいきますか？{n}{wait}{clear}{spk:0080}{n}そうだね。{n}でも、もう少し先に行ってからに{n}しようよ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1930	{fb:2980}{n}{spk:E783}{n}私と一緒だと疲れますか？{n}{wait}{clear}{spk:0080}{n}ん？　なんで？{n}そんなことないよ、天使様。{n}{wait}{clear}{end}		
+39CB.1992	{fb:3380}{n}{spk:E783}{n}もう少し急ぎましょうか。{n}{wait}{clear}{spk:0080}{n}え、そう？{n}これでも結構急いでるんだけどな。{n}よし、走ろうか、天使様！{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.1A1A	{fb:3D80}{n}{spk:E783}{n}今、なにかしたい事はありますか？{n}{wait}{clear}{spk:0080}{n}今？　今はね・・・。{n}川で遊びたいな！{n}魚とかとってさ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1A9C	{fb:4780}{n}{spk:E783}{n}普段、何をしてる時が楽しいですか？{n}{wait}{clear}{spk:0080}{n}そうだね・・・。{n}なんでも楽しいけどな。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1B10	{fb:5180}{n}{spk:E783}{n}気をつけている事ってありますか？{n}{wait}{clear}{spk:0080}{n}うーん・・・なんだろう。{n}べつにないかな・・・。{n}{wait}{clear}{end}		
+39CB.1B80	{fb:5B80}{n}{spk:E783}{n}歩き慣れてる感じですね。{n}{wait}{clear}{spk:0080}{n}へへっ。まぁね！{n}いろんなところへ行ってるから、{n}歩くのなんか、全然平気だよ。{n}{wait}{clear}{end}		
+39CB.1C06	{fb:6580}{n}{spk:E783}{n}もっと強くなりたいですか？{n}{wait}{clear}{spk:0080}{n}うん！　なりたい！{n}父さんみたいに強くなるんだ！！{n}{fd:E78300800280}{n}{wait}{clear}{end}		
+39CB.1C7C	{fb:6F80}{n}{spk:E783}{n}喉が渇きませんか？{n}{wait}{clear}{spk:0080}{n}ううん、平気だよ。{n}天使様は大丈夫？{n}{wait}{clear}{end}		
+39CB.1CD2	{fb:7980}{n}{spk:E783}{n}散歩をするのは好きですか？{n}{wait}{clear}{spk:0080}{n}うーん。そうだね。{n}僕は走ったりするのが好きだけど、{n}あれも、散歩っていうのかな。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1D68	{fb:8380}{n}{spk:E783}{n}随分、急ぐんですね。{n}{wait}{clear}{spk:0080}{n}あれ？　歩くの速すぎた？{n}僕、いつもこれぐらいなんだけど。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.1DE0	{fb:8D80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}うん！　あるよ！{n}だって、すっごい気持ちよさそう{n}なんだもん！{n}{wait}{clear}{spk:0080}{n}一度でいいから飛んでみたい！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1E94	{fb:9780}{n}{spk:E783}{n}歌を歌ったりはしませんか？{n}{wait}{clear}{spk:0080}{n}たまにね。{n}歌うっていうより、{n}口ずさむくらいだけど。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1F0E	{fb:A180}{n}{spk:E783}{n}知らないところへ行くのは怖いですか？{n}{wait}{clear}{spk:0080}{n}全然こわくないよ！{n}だって、知らないところのほうが、{n}なにがあるかわからないからさ。{n}{wait}{clear}{spk:0080}{n}おもしろいことも、{n}きっと、起こるだろし。{n}ワクワクするよ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.1FFA	{fb:FE81}{n}{spk:0080}{n}ほかには、なにかある？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39CB.2024	{fb:0080}{n}{spk:E783}{n}何をしてるのかな？　と思いまして。{n}{wait}{clear}{spk:0080}{n}もうねるんだけど・・・。{n}天使様はまだ寝ないの？{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.20A0	{fb:0A80}{n}{spk:E783}{n}今日もおつかれさまでした。{n}{wait}{clear}{spk:0080}{n}ん・・・。{n}天使様も疲れてるんでしょ。{n}休んだほうがいいんじゃない？{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.2128	{fb:1480}{n}{spk:E783}{n}おじゃま、でしたか・・・？{n}{wait}{clear}{spk:0080}{n}それだけなの？{n}{fe:E78300800280}{n}{wait}{clear}{end}		
+39CB.217A	{fb:1E80}{n}{spk:E783}{n}ゆっくり疲れを取ってくださいね。{n}{wait}{clear}{spk:0080}{n}うん・・・ありがと・・・。{n}{wait}{clear}{end}		
+39CB.21D4	{fb:2880}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{spk:0080}{n}きょうは、ないよ・・・天使様。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.2240	{fb:3280}{n}{spk:E783}{n}眠れない時がありますか？{n}{wait}{clear}{spk:0080}{n}うん・・・。{n}あまりないけど、ときどきね。{n}{wait}{clear}{end}		
+39CB.22A2	{fb:3C80}{n}{spk:E783}{n}夜、寂しくなったりしませんか。{n}{wait}{clear}{spk:0080}{n}ならないよ、そんなの。{n}全然平気だってば。{n}{wait}{clear}{end}		
+39CB.230A	{fb:FF81}{n}{spk:0080}{n}ほかには、なにかある？{n}{wait}{clear}{end}		
+39CB.2334	{fb:0180}{n}{spk:E783}{n}何をしてるのかな？　と思いまして。{n}{wait}{clear}{spk:0080}{n}もうねるんだけど・・・。{n}天使様はまだ寝ないの？{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.23B0	{fb:0B80}{n}{spk:E783}{n}今日もおつかれさまでした。{n}{wait}{clear}{spk:0080}{n}ん・・・。{n}天使様も疲れてるんでしょ。{n}休んだほうがいいんじゃない？{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.2438	{fb:1580}{n}{spk:E783}{n}おじゃま、でしたか・・・？{n}{wait}{clear}{spk:0080}{n}それだけなの？{n}{fe:E78300800280}{n}{wait}{clear}{end}		
+39CB.248A	{fb:1F80}{n}{spk:E783}{n}ゆっくり疲れを取ってくださいね。{n}{wait}{clear}{spk:0080}{n}うん・・・ありがと・・・。{n}{wait}{clear}{end}		
+39CB.24E4	{fb:2980}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{spk:0080}{n}きょうは、ないよ・・・天使様。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.2550	{fb:3380}{n}{spk:E783}{n}眠れない時がありますか？{n}{wait}{clear}{spk:0080}{n}うん・・・。{n}あまりないけど、ときどきね。{n}{wait}{clear}{end}		
+39CB.25B2	{fb:3D80}{n}{spk:E783}{n}夜、寂しくなったりしませんか。{n}{wait}{clear}{spk:0080}{n}ならないよ、そんなの。{n}全然平気だってば。{n}{wait}{clear}{end}		
+39CB.261C	{fb:FE81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39CB.263A	{fb:0080}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{spk:0080}{n}なんにしようかな。{n}すごくおなか空いてるから、なんでも{n}たべられるよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.26C8	{fb:0A80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}うん、いいよ。{n}天使様って何が好きなの？{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2732	{fb:1480}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{spk:0080}{n}さっきは、雑貨屋に行ったんだよ。{n}旅の途中で作った僕の細工物を、{n}売りに行ってきたんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.27D8	{fb:1E80}{n}{spk:E783}{n}いい匂いがしますね。{n}{wait}{clear}{spk:0080}{n}本当だね。{n}早くなにかたべたいな。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2838	{fb:2880}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}う、うん。{n}わかってるよ・・・。{n}{wait}{clear}{end}		
+39CB.2896	{fb:3280}{n}{spk:E783}{n}家では何を食べていましたか？{n}{wait}{clear}{spk:0080}{n}母さんの料理だよ。{n}母さんは料理がとても上手だから、{n}いろんなもの作ってくれるんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2930	{fb:3C80}{n}{spk:E783}{n}ご飯はたくさん食べるほうですか？{n}{wait}{clear}{spk:0080}{n}へへっ。やっぱりそう見える？{n}僕、たくさんたべないと元気、出ないんだ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.29C0	{fb:FF81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		
+39CB.29DE	{fb:0180}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{spk:0080}{n}なんにしようかな。{n}すごくおなか空いてるから、なんでも{n}たべられるよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2A6C	{fb:0B80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}うん、いいよ。{n}天使様って何が好きなの？{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2AD6	{fb:1580}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{spk:0080}{n}さっきは、雑貨屋に行ったんだよ。{n}旅の途中で作った僕の細工物を、{n}売りに行ってきたんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2B7C	{fb:1F80}{n}{spk:E783}{n}いい匂いがしますね。{n}{wait}{clear}{spk:0080}{n}本当だね。{n}早くなにかたべたいな。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2BDC	{fb:2980}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}う、うん。{n}わかってるよ・・・。{n}{wait}{clear}{end}		
+39CB.2C3A	{fb:3380}{n}{spk:E783}{n}家では何を食べていましたか？{n}{wait}{clear}{spk:0080}{n}母さんの料理だよ。{n}母さんは料理がとても上手だから、{n}いろんなもの作ってくれるんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2CD4	{fb:3D80}{n}{spk:E783}{n}ご飯はたくさん食べるほうですか？{n}{wait}{clear}{spk:0080}{n}へへっ。やっぱりそう見える？{n}僕、たくさんたべないと元気、出ないんだ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2D66	{fb:FE81}{n}{spk:0080}{n}まだ、なにかあるの？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39CB.2D8E	{fb:0080}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}うん、いいよ。{n}でもちゃんとついて来てよ！{n}僕、思いっきり走ったりするからさ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2E1E	{fb:0A80}{n}{spk:E783}{n}疲れはとれますか？{n}{wait}{clear}{spk:0080}{n}そうだね。{n}思いっきり遊ぶといい気分になるんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2E8A	{fb:1480}{n}{spk:E783}{n}気分はいかがですか？{n}{wait}{clear}{spk:0080}{n}いい調子だよ。{n}昨日、ちゃーんと寝たからかな。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2EF6	{fb:1E80}{n}{spk:E783}{n}機嫌がよさそうですね。{n}{wait}{clear}{spk:0080}{n}へへっ、そっかな。{n}きょうはなにかいい事が{n}ありそうだなっ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2F72	{fb:2880}{n}{spk:E783}{n}ゆっくり休んでくださいね。{n}{wait}{clear}{spk:0080}{n}うん。ありがとう！{n}天使様も遊んだりして、{n}ゆっくり休んだほうがいいよ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.2FFE	{fb:3280}{n}{spk:E783}{n}お祭りとかは好きですか？{n}{wait}{clear}{spk:0080}{n}うん！　大好きだよ！{n}いつもの街より、いろんなものが{n}売ってるから。{n}{wait}{clear}{spk:0080}{n}そんなに買えないけど、{n}面白いものがあるでしょ、お祭りってさ。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
+39CB.30CE	{fb:3C80}{n}{spk:E783}{n}遊びすぎて疲れたりしませんか？{n}{wait}{clear}{spk:0080}{n}あはは。　大丈夫だよ、天使様！{n}僕、そんなに子供じゃないってば。{n}{wait}{clear}{end}		
+39CB.314C	{fb:FF81}{n}{spk:0080}{n}まだ、なにかあるの？{n}{wait}{clear}{end}		
+39CB.3174	{fb:0180}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}うん、いいよ。{n}でもちゃんとついて来てよ！{n}僕、思いっきり走ったりするからさ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.3204	{fb:0B80}{n}{spk:E783}{n}疲れはとれますか？{n}{wait}{clear}{spk:0080}{n}そうだね。{n}思いっきり遊ぶといい気分になるんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.3270	{fb:1580}{n}{spk:E783}{n}気分はいかがですか？{n}{wait}{clear}{spk:0080}{n}いい調子だよ。{n}昨日、ちゃーんと寝たからかな。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.32DC	{fb:1F80}{n}{spk:E783}{n}機嫌がよさそうですね。{n}{wait}{clear}{spk:0080}{n}へへっ、そっかな。{n}きょうはなにかいい事が{n}ありそうだなっ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.3358	{fb:2980}{n}{spk:E783}{n}ゆっくり休んでくださいね。{n}{wait}{clear}{spk:0080}{n}うん。ありがとう！{n}天使様も遊んだりして、{n}ゆっくり休んだほうがいいよ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.33E4	{fb:3380}{n}{spk:E783}{n}お祭りとかは好きですか？{n}{wait}{clear}{spk:0080}{n}うん！　大好きだよ！{n}いつもの街より、いろんなものが{n}売ってるから。{n}{wait}{clear}{spk:0080}{n}そんなに買えないけど、{n}面白いものがあるでしょ、お祭りってさ。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
+39CB.34B4	{fb:3D80}{n}{spk:E783}{n}遊びすぎて疲れたりしませんか？{n}{wait}{clear}{spk:0080}{n}あはは。　大丈夫だよ、天使様！{n}僕、そんなに子供じゃないってば。{n}{wait}{clear}{end}		
+39CB.3534	{fb:FE81}{n}{spk:0080}{n}まだ、なにかあるの・・・？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39CB.3562	{fb:0080}{n}{spk:E783}{n}あんまり無理しないでくださいね。{n}{wait}{clear}{spk:0080}{n}うん・・・。{n}それは、わかってるけどサ・・・。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.35DA	{fb:0A80}{n}{spk:E783}{n}大変ですね。少し休みませんか？{n}{wait}{clear}{spk:0080}{n}・・・だけど、{n}できないのは、くやしいから。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.364E	{fb:1480}{n}{spk:E783}{n}今日はまだ修行を続けるのですか？{n}{wait}{clear}{spk:0080}{n}うん。早くブーメランを{n}じょうずに投げられるように{n}なりたいからね。{n}{wait}{clear}{end}		
+39CB.36D2	{fb:1E80}{n}{spk:E783}{n}日々学ぶということは大切ですよね。{n}{wait}{clear}{spk:0080}{n}・・・そうだね。{n}父さんもそんなこと言ってた・・・。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.3752	{fb:2880}{n}{spk:E783}{n}・・・来ないほうがよかったですか？{n}{wait}{clear}{spk:0080}{n}そんなことないよ・・・。{n}天使様だって用事があって来たんだから。{n}そうでしょ。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.37EC	{fb:3280}{n}{spk:E783}{n}ケガをしたことってありますか？{n}{wait}{clear}{spk:0080}{n}ブーメランを覚えたばかりの頃は{n}しょっちゅうだったよ。{n}{wait}{clear}{spk:0080}{n}返ってくるブーメランを{n}じょうずに取れなくってさ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.38A8	{fb:3C80}{n}{spk:E783}{n}勉強と修行とどっちが好きですか？{n}{wait}{clear}{spk:0080}{n}うーん・・・。{n}どっちかっていえば、{n}まだ修行のほうかな。{n}{wait}{clear}{end}		
+39CB.3922	{fb:FF81}{n}{spk:0080}{n}まだ、なにかあるの・・・？{n}{wait}{clear}{end}		
+39CB.3950	{fb:0180}{n}{spk:E783}{n}あんまり無理しないでくださいね。{n}{wait}{clear}{spk:0080}{n}うん・・・。{n}それは、わかってるけどサ・・・。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.39C8	{fb:0B80}{n}{spk:E783}{n}大変ですね。少し休みませんか？{n}{wait}{clear}{spk:0080}{n}・・・だけど、{n}できないのは、くやしいから。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.3A3C	{fb:1580}{n}{spk:E783}{n}今日はまだ修行を続けるのですか？{n}{wait}{clear}{spk:0080}{n}うん。早くブーメランを{n}じょうずに投げられるように{n}なりたいからね。{n}{wait}{clear}{end}		
+39CB.3AC0	{fb:1F80}{n}{spk:E783}{n}日々学ぶということは大切ですよね。{n}{wait}{clear}{spk:0080}{n}・・・そうだね。{n}父さんもそんなこと言ってた・・・。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.3B40	{fb:2980}{n}{spk:E783}{n}・・・来ないほうがよかったですか？{n}{wait}{clear}{spk:0080}{n}そんなことないよ・・・。{n}天使様だって用事があって来たんだから。{n}そうでしょ。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
+39CB.3BDA	{fb:3380}{n}{spk:E783}{n}ケガをしたことってありますか？{n}{wait}{clear}{spk:0080}{n}ブーメランを覚えたばかりの頃は{n}しょっちゅうだったよ。{n}{wait}{clear}{spk:0080}{n}返ってくるブーメランを{n}じょうずに取れなくってさ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39CB.3C96	{fb:3D80}{n}{spk:E783}{n}勉強と修行とどっちが好きですか？{n}{wait}{clear}{spk:0080}{n}うーん・・・。{n}どっちかっていえば、{n}まだ修行のほうかな。{n}{wait}{clear}{end}		

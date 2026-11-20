@@ -1,0 +1,9 @@
+id	jp	en	notes
+3676.0742	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}黒衣の騎士が{n}アンデッドを率いて出現しました。{n}{wait}{clear}{end}		
+3676.078C	{spk:E783}{n}向かっていただけますか？{n}{wait}{clear}{end}		
+3676.07B6	{fb:0180}{n}{e0:E0FF}{spk:E783}{n}黒衣の騎士が{n}アンデッドを率いて出現しました。{n}{wait}{clear}{end}		
+3676.0800	{spk:E783}{n}向かっていただけますか？{n}{wait}{clear}{end}		
+3676.082A	{fb:1480}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}黒衣の騎士・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}・・・わかった。{n}俺は奴に会って、{n}確かめねばならんことがある。{n}{wait}{clear}{e5:0080}{n}{end}		
+3676.08D2	{fb:1580}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}・・・すまんが、今は{n}そいつがらみの件に{n}関わりたくない。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}他をあたってくれ。{n}{wait}{clear}{e5:0080}{n}{end}		
+3676.0956	{fb:1680}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}黒衣の騎士・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}・・・わかった。{n}俺は奴に会って、{n}確かめねばならんことがある。{n}{wait}{clear}{e5:0080}{n}{end}		
+3676.09FE	{fb:1780}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}・・・すまんが、今は{n}そいつがらみの件に{n}関わりたくない。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}他をあたってくれ。{n}{wait}{clear}{e5:0080}{n}{end}		

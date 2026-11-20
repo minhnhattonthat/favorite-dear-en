@@ -6,8 +6,7 @@
 
 Recon-grade (phase 1): files are found through three (u32 sector, u32 byte size) tables in PSX.EXE whose entries
 start with the u16 magic 6; text = runs of >= 3 non-zero font codes (< 0x66C) holding >= 2 kana, between 0xFFxx
-opcodes. Opcode argument counts are not decoded yet (an argument that happens to look like a code pair would be
-counted as text), so the totals are an estimate; the extractor (phase 4) must walk the VM grammar instead.
+opcodes, so the totals are an estimate. The exact parser (VM grammar, messages, references) is tools/evscript.py.
 """
 import argparse
 import struct

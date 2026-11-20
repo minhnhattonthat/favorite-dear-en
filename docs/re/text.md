@@ -33,6 +33,24 @@ Control codes (verified: text printer 0x800FC270, `lhu` of the code at text_ptr 
 | 0xFF10 | 1 | `{speed:XXXX}` | stores the arg at obj+0xE (print delay) |
 | 0xFF90 | 2 | `{num:AAAABBBB}` | reads the low bytes a, b, calls 0x800FDE28(a*10+b): face/expression change (strings start with it before a speaker's line, guess) |
 | other 0xFFxx | 0 | `{fffd}` `{fffb}` | skipped by the printer (the event VM at ~0x800CA500 compares FFFD/FFFB) |
+| 0xFF20 | 1 | `{var:XXXX}` | template placeholder for a name (arg 0x0F the hero, 0x0E ...); not the printer's, a formatter fills it (verified: tokenising the regions with it leaves no gaps) |
+| 0xFFE0 | 2 | `{val:XXXXXXXX}` | template placeholder for a number (`FFE0 0000 0001`, "the level became N") |
+
+Event scripts use a different printer with its own codes (`events.md`, `tbl/ev.tbl`).
+
+PSX.EXE strings that end 2 bytes off a 4-byte boundary are followed by one 0x0000 pad (verified: 347 pointers land
+right after it). Name-entry character grids at 0x17DA4 and 0x17E64 use 0xFFFF as an empty cell. Inside the two text
+regions the only non-text is `extract.EXE_DATA` (u32 pointer tables 0x156818, 0x159F78, 0x15C7D8; layout records and
+a palette 0x1656D6-0x1660E0). Shift-JIS appears only as memory-card titles (PSX.EXE 0x1D770 "フェイバリットディア
+ゲームデータ", EPILOG.EXE 0x48330 "...クリアデータ", and a test-build title in FD_BALL/PS_MOV/EPILOG 0x11A4) and the
+credits.
+
+## Extraction (phase 4, `tools/extract.py`, gate `tests/test_extract.py`)
+
+`script/events/<sector>.tsv`, `script/exe.tsv`, `script/staff.tsv`, `script/sjis.tsv`; columns id, jp, en, notes;
+ids are original addresses (`<sector>.<file byte offset>`, `PSX.<offset>`, `STAFF.<line>`). Every row round-trips
+byte-exact; coverage is tested per source. The small EXEs (FD_BALL, GOVER, PS_MOV, EPILOG, FIN, FD_MOV, _LOADE,
+SLPS_01.759) hold no game text in this encoding: their scan hits are code and font-map tables.
 
 Text object: `*(0x8001A4B8)`; +0 u32 text pointer, +4 u16 index, +8 u8 window id, +0xC/+0xE delay, +0x14 column,
 +0x16 line, +0x26 end flag, +0x28 wait flag, +0x2C max columns. The printer calls draw-glyph 0x800FC97C.
@@ -52,8 +70,9 @@ Text object: `*(0x8001A4B8)`; +0 u32 text pointer, +4 u16 index, +8 u8 window id
 - **The bulk of the dialogue is in 468 event-script files in GDATA.BIN** (~550K characters, inline in VM bytecode,
   not FFFF-terminated): `events.md`. A scan for FFFF-terminated strings misses them, which is why the first passes
   found "no script" in GDATA.
-- Other EXEs (FD_BALL, GOVER, PS_MOV, EPILOG, FIN, FD_MOV): 6-31 short strings each; SDATA.BIN: a few false hits.
-  No Shift-JIS sentences anywhere except the credits. XAPACK1.XA (335 MB of XA audio) holds no text.
+- Other EXEs (FD_BALL, GOVER, PS_MOV, EPILOG, FIN, FD_MOV): scan hits only, no game text (phase 4 check); SDATA.BIN:
+  a few false hits. No Shift-JIS sentences anywhere except the credits and memory-card titles. XAPACK1.XA (335 MB of
+  XA audio) holds no text.
 
 ## Credits (verified: decoded the cast list)
 

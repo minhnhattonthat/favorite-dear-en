@@ -1,0 +1,5 @@
+id	jp	en	notes
+3B25.08CE	{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3B25.08F2	{spk:E783}{fa:0080}{n}ぎゃーはっはっは。{n}{wait}{clear}{end}		
+3B25.0916	{spk:E783}{fa:0080}{n}{f7:0080}ワイト：{n}{f7:0380}{n}なんだ！　おまえは？{n}{wait}{clear}{end}		
+3B25.0950	{spk:E783}{fa:0080}{n}{f7:0080}ワイト：{n}{f7:0380}{n}ほう、天使にそそのかされて{n}あの勇者崩れのレイヴを助けにきたのか？{n}おろかなモノだ！{n}{wait}{clear}いくぞ！{n}{wait}{clear}{end}		

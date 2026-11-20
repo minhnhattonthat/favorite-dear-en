@@ -1,0 +1,14 @@
+id	jp	en	notes
+35E2.0DD6	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35E2.0E02	{e0:E0FF}{spk:E783}{fa:0080}{n}ぐががが～！！{n}{wait}{clear}{end}		
+35E2.0E2A	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}商人：{n}{f7:0380}{n}たすけて～！！{n}{wait}{clear}{end}		
+35E2.0E64	{e0:E0FF}{spk:0080}{fa:0180}{n}あいつか・・・。{n}思ったより楽に儲けられそうだな。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ゾンビマチャント：{n}{f7:0380}{n}ぐが～！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}へっ、軽くひねってやるぜ！{n}{wait}{clear}{end}		
+35E2.0F22	{e0:E0FF}{spk:0080}{fa:0180}{n}おっさん、もう大丈夫だぜ。{n}{wait}{clear}{end}		entry point inside the previous row's message
+35E2.0F56	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}商人：{n}{f7:0380}{n}どなたか存じませんが、お助けいただいて{n}ありがとうございました。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}いや、別に礼なんかいらねえよ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}ただ、出すもんは出してもらうぜ。{n}タダであんたを助けたつもりはない。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}いくら出してくれる？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}商人：{n}{f7:0380}{n}・・・いかほどお支払いすれば{n}いいんでしょうか？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}そりゃ出せるだけ出してもらうさ！{n}最も、オレが助けてやらなきゃ、{n}あんた今頃どうなってただろうな・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}商人：{n}{f7:0380}{n}そ、それは・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}あんたの二つと無い命が助かったんだぜ！{n}{wait}{clear}{end}		
+35E2.11B8	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}商人：{n}{f7:0380}{n}じゃ、じゃあこれぐらいで・・・？{n}{wait}{clear}{end}		
+35E2.1204	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・・・・。{n}{wait}{clear}{end}		
+35E2.1232	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}商人：{n}{f7:0380}{n}じゃ、じゃ、じゃあこれぐらいで・・・？{n}{wait}{clear}{end}		
+35E2.1284	{e0:E0FF}{spk:0080}{fa:0180}{n}ちっ、シケてやがんなあ{n}・・・まあ、いいだろ。おっさん！{n}次はもちっと高いぜ！　憶えときな！！{n}{wait}{clear}{end}		
+35E2.142E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ゾンビマチャント：{n}{f7:0380}{n}ぐががががーーー。{n}{wait}{clear}{end}		
+35E2.1478	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ゾンビマチャント：{n}{f7:0380}{n}ぐが、ぐがががが。{n}{wait}{clear}{end}		
+35E2.14C2	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		

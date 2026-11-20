@@ -1,0 +1,10 @@
+id	jp	en	notes
+35E8.0C7C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35E8.0CA8	{e0:E0FF}{spk:E783}{fa:0080}{n}ぐががが～！！{n}{wait}{clear}{end}		
+35E8.0CD0	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・こいつはひでえな。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}まあ、城がどうなろうと知った{n}こっちゃねえが、{n}しゃあねえ、やってやるか。{n}{wait}{clear}{end}		
+35E8.0D60	{e0:E0FF}{spk:0080}{fa:0180}{n}ふう。これで怪物は、{n}ほぼやっつけちまったな。{n}・・・じゃあ、オレは帰るぞ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}待ってください！{n}あそこに誰か倒れています！{n}{wait}{clear}{end}		
+35E8.0E06	{e0:B001}{spk:0080}{fa:0180}{n}こいつは・・・。{n}イダヴェルか・・・。{n}{wait}{clear}{e0:B101}{spk:0080}{fa:0180}{n}ちっ・・・しゃあねえなあ。{n}{wait}{clear}{end}		
+35E8.0E74	{e0:B201}{spk:0080}{fa:0180}{n}おい！　おい！　しっかりしろったら！！{n}{wait}{clear}{e0:B301}{spk:E783}{fa:0080}{n}{f7:0080}イダヴェル：{n}{f7:0380}{n}・・・う、う～ん。{n}{wait}{clear}{end}		
+35E8.1042	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}スカルリーダー：{n}{f7:0380}{n}ぐががが～！！{n}{wait}{clear}{end}		
+35E8.1086	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}スカルリーダー：{n}{f7:0380}{n}ぐが、ぐががが～！！{n}{wait}{clear}{end}		
+35E8.10D0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		

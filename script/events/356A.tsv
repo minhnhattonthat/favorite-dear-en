@@ -1,0 +1,7 @@
+id	jp	en	notes
+356A.0A80	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+356A.0AAC	{e0:E0FF}{spk:E783}{fa:0080}{n}グゲッ、ゲゲッ。{n}{wait}{clear}{end}		
+356A.0AD6	{e0:E0FF}{spk:E783}{fa:0180}{n}リュドラル、危ない！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}もうやめてくれ！{n}こんな事をして、何になるっていうんだ！{n}{wait}{clear}{end}		
+356A.0C94	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グゲッ、ゲッ、マキュラ様の邪魔させない！{n}マキュラ様・・・竜の長になる・・・。{n}{wait}{clear}{end}		
+356A.0D14	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グゲッ、ゲッ、マキュラ様の邪魔させない！{n}マキュラ様・・・竜の長になる・・・。{n}{wait}{clear}{end}		
+356A.0D94	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		

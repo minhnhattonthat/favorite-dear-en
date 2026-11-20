@@ -1,0 +1,101 @@
+id	jp	en	notes
+39FB.0F0C	{fb:FE81}{n}{spk:0080}{n}ほかには、{n}なにかあるかしら？{n}{wait}{clear}{end}		
+39FB.0F3E	{fb:0080}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}あなたって、{n}結構ロマンチックなのね・・・。{n}{wait}{clear}{spk:0080}{n}本当。気持ちいい風だわ・・・。{n}{wait}{clear}{end}		
+39FB.0FD4	{fb:0A80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}だいじょうぶよ。{n}疲れてはいないわ・・・。{n}{wait}{clear}{end}		
+39FB.103C	{fb:1480}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}・・・空いてないわ。{n}天使サマは空いたの？{n}{wait}{clear}{end}		
+39FB.10A0	{fb:1E80}{n}{spk:E783}{n}少し、休んでいきますか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}まだいいわ・・・。{n}もうすこし先に行ってからね。{n}{wait}{clear}{end}		
+39FB.1112	{fb:2880}{n}{spk:E783}{n}私と一緒だと疲れますか？{n}{wait}{clear}{spk:0080}{n}変なコト聞くのね、天使サマって。{n}気にしなくていいわよ・・・。{n}嫌な時は嫌って言うから。{n}{wait}{clear}{end}		
+39FB.11A2	{fb:3280}{n}{spk:E783}{n}もう少し急ぎましょうか。{n}{wait}{clear}{spk:0080}{n}そうね。{n}早く休みたいし・・・。{n}それじゃ、急ぐわね。{n}{wait}{clear}{end}		
+39FB.1210	{fb:3C80}{n}{spk:E783}{n}今、なにかしたい事はありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}別に・・・。{n}やりたいことはすぐにやるから。{n}今は、ないわよ。{n}{wait}{clear}{end}		
+39FB.1298	{fb:4680}{n}{spk:E783}{n}普段、何をしてる時が楽しいですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}踊ってる時よ。{n}なにも考えずにいられるから・・・。{n}{wait}{clear}{end}		
+39FB.1316	{fb:5080}{n}{spk:E783}{n}気をつけている事ってありますか？{n}{wait}{clear}{spk:0080}{n}・・・。{n}ないわよ。そんなにね。{n}{wait}{clear}{end}		
+39FB.1376	{fb:5A80}{n}{spk:E783}{n}歩き慣れてる感じですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}そう？{n}そんなこと言われたのはじめてだわ。{n}{wait}{clear}{end}		
+39FB.13E2	{fb:6480}{n}{spk:E783}{n}もっと強くなりたいですか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}そんなこと・・・{n}思わないわよ・・・。{n}{wait}{clear}{end}		
+39FB.144C	{fb:6E80}{n}{spk:E783}{n}喉が渇きませんか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}平気よ。{n}でも、あとでなにか飲みましょう。{n}いいでしょ？　天使サマ。{n}{wait}{clear}{end}		
+39FB.14CC	{fb:7880}{n}{spk:E783}{n}散歩をするのは好きですか？{n}{wait}{clear}{spk:0080}{n}あんまり好きじゃないわ。{n}ただ、歩くのはね・・・。{n}{wait}{clear}{end}		
+39FB.1538	{fb:8280}{n}{spk:E783}{n}随分、急ぐんですね。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}そう？{n}このくらいなら普通でしょ。{n}{wait}{clear}{end}		
+39FB.1598	{fb:8C80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}そうね・・・。{n}思ったこと・・・あるわよ・・・。{n}{wait}{clear}{spk:0080}{n}ずーっと思っているわ・・・。{n}{wait}{clear}{end}		
+39FB.163E	{fb:9680}{n}{spk:E783}{n}踊りを見に行くことはありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}もちろんあるわ。{n}いろいろな踊りを見るのは、楽しいもの。{n}{wait}{clear}{end}		
+39FB.16C0	{fb:A080}{n}{spk:E783}{n}船や馬での旅は平気ですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ええ、平気よ。{n}船の中で踊りを踊ることだって{n}あるんだから。{n}{wait}{clear}{end}		
+39FB.1740	{fb:FF81}{n}{spk:0080}{n}ほかには、{n}なにかあるかしら？{n}{wait}{clear}{end}		
+39FB.1772	{fb:0180}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}あなたって、{n}結構ロマンチックなのね・・・。{n}{wait}{clear}{spk:0080}{n}本当。気持ちいい風だわ・・・。{n}{wait}{clear}{end}		
+39FB.1808	{fb:0B80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}だいじょうぶよ。{n}疲れてはいないわ・・・。{n}{wait}{clear}{end}		
+39FB.1870	{fb:1580}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}・・・空いてないわ。{n}天使サマは空いたの？{n}{wait}{clear}{end}		
+39FB.18D4	{fb:1F80}{n}{spk:E783}{n}少し、休んでいきますか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}まだいいわ・・・。{n}もうすこし先に行ってからね。{n}{wait}{clear}{end}		
+39FB.1946	{fb:2980}{n}{spk:E783}{n}私と一緒だと疲れますか？{n}{wait}{clear}{spk:0080}{n}変なコト聞くのね、天使サマって。{n}気にしなくていいわよ・・・。{n}嫌な時は嫌って言うから。{n}{wait}{clear}{end}		
+39FB.19D6	{fb:3380}{n}{spk:E783}{n}もう少し急ぎましょうか。{n}{wait}{clear}{spk:0080}{n}そうね。{n}早く休みたいし・・・。{n}それじゃ、急ぐわね。{n}{wait}{clear}{end}		
+39FB.1A44	{fb:3D80}{n}{spk:E783}{n}今、なにかしたい事はありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}別に・・・。{n}やりたいことはすぐにやるから。{n}今は、ないわよ。{n}{wait}{clear}{end}		
+39FB.1ACC	{fb:4780}{n}{spk:E783}{n}普段、何をしてる時が楽しいですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}踊ってる時よ。{n}なにも考えずにいられるから・・・。{n}{wait}{clear}{end}		
+39FB.1B4A	{fb:5180}{n}{spk:E783}{n}気をつけている事ってありますか？{n}{wait}{clear}{spk:0080}{n}・・・。{n}ないわよ。そんなにね。{n}{wait}{clear}{end}		
+39FB.1BAA	{fb:5B80}{n}{spk:E783}{n}歩き慣れてる感じですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}そう？{n}そんなこと言われたのはじめてだわ。{n}{wait}{clear}{end}		
+39FB.1C16	{fb:6580}{n}{spk:E783}{n}もっと強くなりたいですか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}そんなこと・・・{n}思わないわよ・・・。{n}{wait}{clear}{end}		
+39FB.1C80	{fb:6F80}{n}{spk:E783}{n}喉が渇きませんか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}平気よ。{n}でも、あとでなにか飲みましょう。{n}いいでしょ？　天使サマ。{n}{wait}{clear}{end}		
+39FB.1D00	{fb:7980}{n}{spk:E783}{n}散歩をするのは好きですか？{n}{wait}{clear}{spk:0080}{n}あんまり好きじゃないわ。{n}ただ、歩くのはね・・・。{n}{wait}{clear}{end}		
+39FB.1D6C	{fb:8380}{n}{spk:E783}{n}随分、急ぐんですね。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}そう？{n}このくらいなら普通でしょ。{n}{wait}{clear}{end}		
+39FB.1DCC	{fb:8D80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}そうね・・・。{n}思ったこと・・・あるわよ・・・。{n}{wait}{clear}{spk:0080}{n}ずーっと思っているわ・・・。{n}{wait}{clear}{end}		
+39FB.1E72	{fb:9780}{n}{spk:E783}{n}踊りを見に行くことはありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}もちろんあるわ。{n}いろいろな踊りを見るのは、楽しいもの。{n}{wait}{clear}{end}		
+39FB.1EF4	{fb:A180}{n}{spk:E783}{n}船や馬での旅は平気ですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ええ、平気よ。{n}船の中で踊りを踊ることだって{n}あるんだから。{n}{wait}{clear}{end}		
+39FB.1F76	{fb:FE81}{n}{spk:0080}{n}まだ、なにか用があるの？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39FB.1FA2	{fb:0080}{n}{spk:E783}{n}何をしてるのかな？　と思いまして。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}なにって・・・。{n}今日は寝るだけよ・・・もう・・・。{n}{wait}{clear}{end}		
+39FB.2022	{fb:0A80}{n}{spk:E783}{n}今日もおつかれさまでした。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}・・・あのねぇ・・・。{n}わざわざそんなこと、言いにこなくても{n}いいわよ・・・。{n}{wait}{clear}{end}		
+39FB.20B4	{fb:1480}{n}{spk:E783}{n}お邪魔、でしたか・・・？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}ハッキリ言って欲しいの・・・？{n}・・・だったら言ってあげるわ。{n}ジャマよ。{n}{wait}{clear}{end}		
+39FB.2140	{fb:1E80}{n}{spk:E783}{n}ゆっくり疲れを取ってくださいね。{n}{wait}{clear}{spk:0080}{n}・・・そうさせてもらうつもりよ。{n}もういいでしょ・・・。{n}{wait}{clear}{end}		
+39FB.21B8	{fb:2880}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{spk:0080}{n}天使サマ・・・気を使ってるの？{n}・・・だとしたらけっこうよ。{n}私は、もう寝たいの・・・。{n}{wait}{clear}{end}		
+39FB.2254	{fb:3280}{n}{spk:E783}{n}今夜はお酒は飲まれないんですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}飲まないわよ・・・。{n}今日は気分じゃないの・・・。{n}{wait}{clear}{end}		
+39FB.22D0	{fb:3C80}{n}{spk:E783}{n}夜はお好きですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}なによ、突然・・・。{n}・・・ま、でも。夜は嫌いじゃないわ。{n}なんとなく、だけどね・・・ふふっ。{n}{wait}{clear}{end}		
+39FB.236A	{fb:FF81}{n}{spk:0080}{n}まだなにか、ご用かしら？{n}{wait}{clear}{end}		
+39FB.2396	{fb:0180}{n}{spk:E783}{n}何をしてるのかな？　と思いまして。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}なにって・・・。{n}今日は寝るだけよ・・・もう・・・。{n}{wait}{clear}{end}		
+39FB.2416	{fb:0B80}{n}{spk:E783}{n}今日もおつかれさまでした。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}・・・あのねぇ・・・。{n}わざわざそんなこと、言いにこなくても{n}いいわよ・・・。{n}{wait}{clear}{end}		
+39FB.24A8	{fb:1580}{n}{spk:E783}{n}お邪魔、でしたか・・・？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}ハッキリ言って欲しいの・・・？{n}・・・だったら言ってあげるわ。{n}ジャマよ。{n}{wait}{clear}{end}		
+39FB.2534	{fb:1F80}{n}{spk:E783}{n}ゆっくり疲れを取ってくださいね。{n}{wait}{clear}{spk:0080}{n}・・・そうさせてもらうつもりよ。{n}もういいでしょ・・・。{n}{wait}{clear}{end}		
+39FB.25AC	{fb:2980}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{spk:0080}{n}天使サマ・・・気を使ってるの？{n}・・・だとしたらけっこうよ。{n}私は、もう寝たいの・・・。{n}{wait}{clear}{end}		
+39FB.2648	{fb:3380}{n}{spk:E783}{n}今夜はお酒は飲まれないんですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}飲まないわよ・・・。{n}今日は気分じゃないの・・・。{n}{wait}{clear}{end}		
+39FB.26C4	{fb:3D80}{n}{spk:E783}{n}夜はお好きですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}なによ、突然・・・。{n}・・・ま、でも。夜は嫌いじゃないわ。{n}なんとなく、だけどね・・・ふふっ。{n}{wait}{clear}{end}		
+39FB.2760	{fb:FE81}{n}{spk:0080}{n}まだなにか、ご用かしら？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39FB.278C	{fb:0080}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}美味しいものよ。{n}食事ぐらい、ぜいたくしてもいいでしょう？{n}天使サマ。{n}{wait}{clear}{end}		
+39FB.281A	{fb:0A80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ふふっ、なあに？{n}天使サマがおごってくれるのかしら？{n}{wait}{clear}{end}		
+39FB.2890	{fb:1480}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}失礼ね・・・。{n}{wait}{clear}{end}		
+39FB.28EC	{fb:1E80}{n}{spk:E783}{n}いい匂いがしますね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}そうね。{n}天使サマもおなかが{n}空いてきたんじゃない？{n}{wait}{clear}{end}		
+39FB.295E	{fb:2880}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}天使サマってそういうことも{n}気にしないといけないの・・・？{n}タイヘンね・・・。{n}{wait}{clear}{end}		
+39FB.29EA	{fb:3280}{n}{spk:E783}{n}料理はされるんですか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}あら・・・、そんなコトまで{n}答えなくちゃいけないの？{n}{wait}{clear}{end}		
+39FB.2A5E	{fb:3C80}{n}{spk:E783}{n}あなたの手料理を食べてみたいですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}別にいいけど・・・。{n}高いわよ。{n}{wait}{clear}{end}		
+39FB.2ACC	{fb:FF81}{n}{spk:0080}{n}まだなにか、ご用かしら？{n}{wait}{clear}{end}		
+39FB.2AF8	{fb:0180}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}美味しいものよ。{n}食事ぐらい、ぜいたくしてもいいでしょう？{n}天使サマ。{n}{wait}{clear}{end}		
+39FB.2B86	{fb:0B80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ふふっ、なあに？{n}天使サマがおごってくれるのかしら？{n}{wait}{clear}{end}		
+39FB.2BFC	{fb:1580}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}失礼ね・・・。{n}{wait}{clear}{end}		
+39FB.2C58	{fb:1F80}{n}{spk:E783}{n}いい匂いがしますね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}そうね。{n}天使サマもおなかが{n}空いてきたんじゃない？{n}{wait}{clear}{end}		
+39FB.2CCA	{fb:2980}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}天使サマってそういうことも{n}気にしないといけないの・・・？{n}タイヘンね・・・。{n}{wait}{clear}{end}		
+39FB.2D56	{fb:3380}{n}{spk:E783}{n}料理はされるんですか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}あら・・・、そんなコトまで{n}答えなくちゃいけないの？{n}{wait}{clear}{end}		
+39FB.2DCA	{fb:3D80}{n}{spk:E783}{n}あなたの手料理を食べてみたいですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}別にいいけど・・・。{n}高いわよ。{n}{wait}{clear}{end}		
+39FB.2E3A	{fb:FE81}{n}{spk:0080}{n}もういい？{n}まだ、なにかあるの？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39FB.2E6E	{fb:0080}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}ふふっ・・・、なあに？{n}天使サマも遊びにいきたいの？{n}でも、・・・今度ネ。{n}{wait}{clear}{end}		
+39FB.2EF0	{fb:0A80}{n}{spk:E783}{n}疲れはとれますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ええ、そうね。{n}こういう時は、気晴らししないとね。{n}{wait}{clear}{end}		
+39FB.2F5E	{fb:1480}{n}{spk:E783}{n}気分はいかがですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}悪くないわよ。{n}あなたの依頼しだいなんだけど。{n}{wait}{clear}{end}		
+39FB.2FCA	{fb:1E80}{n}{spk:E783}{n}機嫌がよさそうですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ふふっ。そうみえるの？{n}なら、そうかもしれないわね・・・。{n}{wait}{clear}{end}		
+39FB.3044	{fb:2880}{n}{spk:E783}{n}ゆっくり休んでくださいね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}気を使ってくれて、ありがとう。{n}天使サマ。{n}{wait}{clear}{end}		
+39FB.30B2	{fb:3280}{n}{spk:E783}{n}なにか飲まれるんですか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}もう・・・。{n}お酒の話ばかりしないで・・・。{n}そんなんじゃないんだから・・・。{n}{wait}{clear}{end}		
+39FB.3142	{fb:3C80}{n}{spk:E783}{n}遊びの楽しみかたってありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}あら、天使サマもそういうこと{n}気になるの？{n}{wait}{clear}{spk:0080}{n}それじゃ、こんどゆっくり{n}教えてあげるわ。{n}{wait}{clear}{end}		
+39FB.31EC	{fb:FF81}{n}{spk:0080}{n}もういい？{n}まだ、なにかあるの？{n}{wait}{clear}{end}		
+39FB.3220	{fb:0180}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}ふふっ・・・、なあに？{n}天使サマも遊びにいきたいの？{n}でも、・・・今度ネ。{n}{wait}{clear}{end}		
+39FB.32A2	{fb:0B80}{n}{spk:E783}{n}疲れはとれますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ええ、そうね。{n}こういう時は、気晴らししないとね。{n}{wait}{clear}{end}		
+39FB.3310	{fb:1580}{n}{spk:E783}{n}気分はいかがですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}悪くないわよ。{n}あなたの依頼しだいなんだけど。{n}{wait}{clear}{end}		
+39FB.337C	{fb:1F80}{n}{spk:E783}{n}機嫌がよさそうですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ふふっ。そうみえるの？{n}なら、そうかもしれないわね・・・。{n}{wait}{clear}{end}		
+39FB.33F6	{fb:2980}{n}{spk:E783}{n}ゆっくり休んでくださいね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}気を使ってくれて、ありがとう。{n}天使サマ。{n}{wait}{clear}{end}		
+39FB.3464	{fb:3380}{n}{spk:E783}{n}なにか飲まれるんですか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}もう・・・。{n}お酒の話ばかりしないで・・・。{n}そんなんじゃないんだから・・・。{n}{wait}{clear}{end}		
+39FB.34F4	{fb:3D80}{n}{spk:E783}{n}遊びの楽しみかたってありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}あら、天使サマもそういうこと{n}気になるの？{n}{wait}{clear}{spk:0080}{n}それじゃ、こんどゆっくり{n}教えてあげるわ。{n}{wait}{clear}{end}		
+39FB.35A0	{fb:FE81}{n}{spk:0080}{n}ほかには・・・？{n}なにか、あるの？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39FB.35D6	{fb:0080}{n}{spk:E783}{n}あんまり無理しないでくださいね。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}・・・。{n}今は気づかい無用よ。{n}{wait}{clear}{end}		
+39FB.363E	{fb:0A80}{n}{spk:E783}{n}大変ですね。少し休みませんか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}いいのよ・・・。{n}私のことは私が決めるわ・・・。{n}{wait}{clear}{end}		
+39FB.36B6	{fb:1480}{n}{spk:E783}{n}今日はまだ修行を続けるのですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}そうね・・・。{n}納得のいくところまでは、続けるわ。{n}{wait}{clear}{end}		
+39FB.3732	{fb:1E80}{n}{spk:E783}{n}日々学ぶということは大切ですよね。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}こんな時にあまりカタイことは言わないで。{n}気が抜けるから・・・。{n}{wait}{clear}{end}		
+39FB.37BE	{fb:2880}{n}{spk:E783}{n}・・・来ないほうがよかったですか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}どうしたの？　天使サマ・・・。{n}変よ。{n}{wait}{clear}{end}		
+39FB.3830	{fb:3280}{n}{spk:E783}{n}その攻撃は強そうですね。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}そう？　だといいけど。{n}・・・戦うのなら、楽にとどめを{n}刺してあげないとね・・・。{n}{wait}{clear}{end}		
+39FB.38C4	{fb:3C80}{n}{spk:E783}{n}修行する姿も素敵ですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}・・・もう。{n}気が抜けること言うのね・・・。{n}{wait}{clear}{end}		
+39FB.3932	{fb:FF81}{n}{spk:0080}{n}ほかには・・・？{n}なにか、あるの？{n}{wait}{clear}{end}		
+39FB.3968	{fb:0180}{n}{spk:E783}{n}あんまり無理しないでくださいね。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}・・・。{n}今は気づかい無用よ。{n}{wait}{clear}{end}		
+39FB.39D0	{fb:0B80}{n}{spk:E783}{n}大変ですね。少し休みませんか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}いいのよ・・・。{n}私のことは私が決めるわ・・・。{n}{wait}{clear}{end}		
+39FB.3A48	{fb:1580}{n}{spk:E783}{n}今日はまだ修行を続けるのですか？{n}{wait}{clear}{spk:0080}{n}そうね・・・。{n}納得のいくところまでは、続けるわ。{n}{wait}{clear}{end}		
+39FB.3ABA	{fb:1F80}{n}{spk:E783}{n}日々学ぶということは大切ですよね。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}こんな時にあまりカタイことは言わないで。{n}気が抜けるから・・・。{n}{wait}{clear}{end}		
+39FB.3B46	{fb:2980}{n}{spk:E783}{n}・・・来ないほうがよかったですか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}どうしたの？　天使サマ・・・。{n}変よ。{n}{wait}{clear}{end}		
+39FB.3BB8	{fb:3380}{n}{spk:E783}{n}その攻撃は強そうですね。{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}そう？　だといいけど。{n}・・・戦うのなら、楽にとどめを{n}刺してあげないとね・・・。{n}{wait}{clear}{end}		
+39FB.3C4C	{fb:3D80}{n}{spk:E783}{n}修行する姿も素敵ですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}なに言ってるの、もう・・・。{n}{wait}{clear}{end}		

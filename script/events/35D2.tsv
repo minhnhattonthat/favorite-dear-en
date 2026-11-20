@@ -1,0 +1,9 @@
+id	jp	en	notes
+35D2.0BBA	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35D2.0BE6	{e0:E0FF}{spk:E783}{fa:0080}{n}・・・キシャー！！{n}{wait}{clear}{end}		
+35D2.0C12	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・あいつか？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}かたづけるぞ。{n}{wait}{clear}{end}		
+35D2.0C5E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}村人：{n}{f7:0380}{n}ありがとうございました！！{n}レイヴ様！！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}これで村も安心して{n}暮らせます！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}村人：{n}{f7:0380}{n}いやぁ！！　さすが、{n}レイヴ・ヴィンセルラス様だ！！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}お礼の用意ができております。{n}粗末な食事しかございませんが、{n}皆、待っておりますのでどうぞ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}いや・・・。{n}悪いが失礼する。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}城へ戻らねばならない。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}村人：{n}{f7:0380}{n}レイヴ様・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}村人：{n}{f7:0380}{n}そ、そうですか。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}お引き止めして{n}申し訳ありませんでした。{n}{wait}{clear}{end}		
+35D2.0EEE	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}村人：{n}{f7:0380}{n}大国の騎士様は{n}さすが違うなぁ・・・。{n}{wait}{clear}{end}		
+35D2.1084	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}サイレン：{n}{f7:0380}{n}・・・キシャー！！{n}{wait}{clear}{end}		
+35D2.10C6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}サイレン：{n}{f7:0380}{n}・・・キシャー！！{n}{wait}{clear}{end}		
+35D2.1108	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}		

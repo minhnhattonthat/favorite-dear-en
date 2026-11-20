@@ -1,0 +1,7 @@
+id	jp	en	notes
+3634.0AF4	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3634.0B20	{e0:E0FF}{spk:E783}{fa:0080}{n}へへへっ。口ほどにもねえ・・・。{n}{wait}{clear}{end}		
+3634.0B5A	{e0:E0FF}{spk:0080}{fa:0180}{n}お前達か？{n}皆を困らせてる悪党ってのは？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}なんだお前、怪我したくなかったら{n}ひっこんでやがれ！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}わざわざここまで、来てやったんだ。{n}少しはホネのあるヤツなんだろうな！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}ん？　何だオマエ、{n}よく見りゃ女じゃねえか！{n}{wait}{clear}{e0:E0FF}女のくせに俺達に喧嘩売るのかぁ？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}なんだと・・・？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}ハッハッハ！　本当だ！{n}{wait}{clear}{e0:E0FF}すこし男っぽすぎるぜ。嬢ちゃん！{n}ちっとは化粧でもしたらどうだい！？{n}{wait}{clear}{e0:E0FF}さあ、帰んな！{n}ケガするぜ、ねえちゃん！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}やかましいーっ！！{n}{wait}{clear}{end}		
+3634.0F16	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}なんだぁ！　テメー！！{n}やる気かぁ！？{n}{wait}{clear}{end}		
+3634.0F68	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}なんだぁ！　テメー！！{n}やる気かぁ！？{n}{wait}{clear}{end}		
+3634.0FBA	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は盗賊達を倒した。{n}{wait}{clear}{end}		

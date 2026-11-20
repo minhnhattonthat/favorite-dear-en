@@ -9,6 +9,10 @@ FFFF={end}
 90FF={num:4}
 FDFF={fffd}
 FBFF={fffb}
+# Placeholders in PSX.EXE message templates (not the printer's: a formatter fills them before printing).
+# FF20 v = a name (v 0x0F hero, 0x0E ...), FFE0 0000 0001 = a number. Event scripts use tbl/ev.tbl instead.
+20FF={var:2}
+E0FF={val:4}
 0000=　
 0100=､
 0200=｡

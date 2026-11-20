@@ -1,0 +1,7 @@
+id	jp	en	notes
+3672.0742	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}エスパルダの村に魔物がでて{n}花嫁を差し出せといっているのです・・・。{n}{wait}{clear}{end}		orphan script (no file table sizes it)
+3672.07A2	{fb:0180}{n}{e0:E0FF}{spk:E783}{n}エスパルダの村に魔物がでて{n}花嫁を差し出せといっているのです・・・。{n}{wait}{clear}{end}		orphan script (no file table sizes it)
+3672.0802	{fb:1480}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}・・・わかった、引き受けよう。{n}{wait}{clear}{e5:0080}{n}{end}		orphan script (no file table sizes it)
+3672.0848	{fb:1580}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}そんな事か？{n}それぐらい、{n}他の勇者でも解決できる。{n}{wait}{clear}{e5:0080}{n}{end}		orphan script (no file table sizes it)
+3672.08A4	{fb:1680}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}・・・わかった、引き受けよう。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}・・・。{n}行くぞ・・・。{n}{wait}{clear}{e5:0080}{n}{end}		orphan script (no file table sizes it)
+3672.0912	{fb:1780}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}そんな事か？{n}それぐらい、{n}他の勇者でも解決できる。{n}{wait}{clear}{e5:0080}{n}{end}		orphan script (no file table sizes it)

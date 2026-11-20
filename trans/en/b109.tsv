@@ -1,0 +1,77 @@
+id	en
+39AF.249A	{fb:3280}{n}{spk:E783}{n}I heard a noise, you see.{n}{wait}{clear}{spk:0080}{n}You scare easy... Relax, nothing's gonna jump out.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.250E	{fb:3C80}{n}{spk:E783}{n}If you're sleepy, I can come back tomorrow.{n}{wait}{clear}{spk:0080}{n}Look... I'm a thief, remember. Sleepy's nothing to me.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.2988	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}What a pain. Don't keep asking what I'm gonna eat.{n}{wait}{clear}{end}
+39AF.29FC	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}If you want to, suit yourself. Makes no difference to me.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.2A76	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}...Geez, you're noisy. What's wrong with eating more than once?{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39AF.2B0A	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}Want to eat with me, then?{n}{wait}{clear}{spk:0080}{n}But you don't have time for that, right? Then don't worry about it.{n}{wait}{clear}{end}
+39AF.2BA6	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}What I eat is my business. Let me eat what I want... geez.{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39AF.2C30	{fb:3280}{n}{spk:E783}{n}Have you picked a place to eat?{n}{wait}{clear}{spk:0080}{n}Today I have. Once we're done talking, I'm heading straight there.{n}{fd:E78300800280}{n}{wait}{clear}{end}
+39AF.2CB2	{fb:3C80}{n}{spk:E783}{n}Do you ever eat with anyone?{n}{wait}{clear}{spk:0080}{n}Sure! I do!{n}{wait}{clear}{spk:0080}{n}Usually it's with those guys. After a successful job, we have a real feast!{n}{fd:E78300800280}{n}{wait}{clear}{end}
+39AF.318C	{fb:0080}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}...You serious? Forget it, forget it! I don't see you having any fun.{n}{wait}{clear}{end}
+39AF.3208	{fb:0A80}{n}{spk:E783}{n}Does it help you unwind?{n}{wait}{clear}{spk:0080}{n}Yeah. One night of living it up blows all the tiredness right away.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.3282	{fb:1480}{n}{spk:E783}{n}How are you feeling?{n}{wait}{clear}{spk:0080}{n}What kind of question is that!? Of course it's good!{n}{wait}{clear}{end}
+39AF.32DE	{fb:1E80}{n}{spk:E783}{n}You seem to be in a good mood.{n}{wait}{clear}{spk:0080}{n}Sort of. So today I'm gonna go all out and have a blast.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.335A	{fb:2880}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{spk:0080}{n}It's not exactly "relaxing."{n}{wait}{clear}{spk:0080}{n}Well, you wouldn't get it even if I told you...{n}{fd:E78300800280}{n}{wait}{clear}{end}
+39AF.3400	{fb:3280}{n}{spk:E783}{n}No, I'll come see you another time.{n}{wait}{clear}{spk:0080}{n}Yeah? Well, that'd help me out too.{n}{wait}{clear}{spk:0080}{n}But what did you want... Eh, whatever.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.34B2	{fb:3C80}{n}{spk:E783}{n}Could I do that too?{n}{wait}{clear}{spk:0080}{n}No way.{n}{wait}{clear}{spk:0080}{n}When I play, I don't do it halfway. You wouldn't stand a chance.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.3968	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}What a weird thing to say out of nowhere! Kills my motivation!{n}{wait}{clear}{spk:0080}{n}If you don't push a little, it's not training.{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39AF.3A1C	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}Quit yapping at me from the side! You're in the way of my training. Go over there!{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39AF.3AA6	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}Dunno... I'll keep at it if I feel like it, and quit when I get bored.{n}{wait}{clear}{end}
+39AF.3B28	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}I get what you mean, but it kinda sounds like a lecture...{n}{wait}{clear}{spk:0080}{n}I've thought so for a while. You're weirdly stiff, you know.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.3BF4	{fb:2880}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}Don't regret it every time after you show up. Own it.{n}{wait}{clear}{end}
+39AF.3C6A	{fb:3280}{n}{spk:E783}{n}You're working hard.{n}{wait}{clear}{spk:0080}{n}Cut it out. Quit praising me so much!{n}{fd:E78300800280}{n}{wait}{clear}{end}
+39AF.3CCA	{fb:3C80}{n}{spk:E783}{n}I searched all over for you.{n}{wait}{clear}{spk:0080}{n}Training somewhere people can see is embarrassing.{n}{wait}{clear}{spk:0080}{n}For stuff like this, I feel better somewhere out of sight.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.0F0C	{fb:FE81}{n}{spk:0080}{n}Is there anything else?{n}{wait}{clear}{end}
+39B8.0F3C	{fb:0080}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}Yes, it really is... It feels wonderful.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.0FAC	{fb:0A80}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{spk:0080}{n}No, I'm fine. Thank you for your concern.{n}{wait}{clear}{end}
+39B8.1024	{fb:1480}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{spk:0080}{n}No, Angel. I'm all right.{n}{wait}{clear}{end}
+39B8.1082	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}Yes, we've walked quite a way, so let's do that.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.10FC	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}No, not at all. Please don't worry about it, Angel.{n}{wait}{clear}{end}
+39B8.1174	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}Oh, yes... You're right.{n}{wait}{clear}{end}
+39B8.11CA	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Let me see. If I can, I'd like to look for a book in the next town.{n}{wait}{clear}{spk:0080}{n}Something to read a little at night, before bed.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.1296	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}I enjoy visiting all sorts of towns, going to the markets and watching the dancing.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.132E	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}I'm careful not to strain my throat. Otherwise I wouldn't be able to sing.{n}{wait}{clear}{end}
+39B8.13C8	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}Do I? It must be because I travel to so many towns.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.144C	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}If being strong means being able to flaunt power... then I don't wish to be strong.{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39B8.14F4	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}Yes, I'm fine. Are you all right, Angel?{n}{wait}{clear}{end}
+39B8.1554	{fb:7880}{n}{spk:E783}{n}Do you like taking walks?{n}{wait}{clear}{spk:0080}{n}Yes, I like them. I go to town squares and play with the children too.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.15DC	{fb:8280}{n}{spk:E783}{n}You're in quite a hurry.{n}{wait}{clear}{spk:0080}{n}I'm sorry, Angel. I thought it would be better to hurry...{n}{fe:E78300800280}{n}{wait}{clear}{end}
+39B8.165C	{fb:8C80}{n}{spk:E783}{n}Have you ever wanted to fly?{n}{wait}{clear}{spk:0080}{n}Yes, I have.{n}{wait}{clear}{spk:0080}{n}Sometimes I wish I could spread my wings freely, like the birds in the open sky.{n}{wait}{clear}{spk:0080}{n}I envy you very much, Angel, being able to fly.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.1750	{fb:9680}{n}{spk:E783}{n}What were you thinking about just now?{n}{wait}{clear}{spk:0080}{n}Just now? About my harp.{n}{wait}{clear}{spk:0080}{n}When I left the inn, I noticed one of its strings was about to snap.{n}{wait}{clear}{end}
+39B8.17FE	{fb:A080}{n}{spk:E783}{n}Do you enjoy going to faraway towns?{n}{wait}{clear}{spk:0080}{n}Yes, I do. Sometimes I get to hear songs I don't know. I learn so much.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.2230	{fb:FE81}{n}{spk:0080}{n}Is there something else?{n}{wait}{clear}{end}
+39B8.2258	{fb:0080}{n}{spk:E783}{n}I just wondered what you were up to.{n}{wait}{clear}{spk:0080}{n}I was just about to get some rest.{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39B8.22D2	{fb:0A80}{n}{spk:E783}{n}Thank you for your hard work today.{n}{wait}{clear}{spk:0080}{n}Oh, yes. Thank you for your concern, Angel.{n}{wait}{clear}{end}
+39B8.2350	{fb:1480}{n}{spk:E783}{n}Am I... intruding?{n}{wait}{clear}{spk:0080}{n}No, that's not so...{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39B8.23B4	{fb:1E80}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{spk:0080}{n}Yes. Thank you. Please get some rest too, Angel.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.243A	{fb:2880}{n}{spk:E783}{n}I thought we might talk a little...{n}{wait}{clear}{spk:0080}{n}Let me see... Nothing in particular tonight.{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39B8.24C4	{fb:3280}{n}{spk:E783}{n}Do you ever sing at night?{n}{wait}{clear}{spk:0080}{n}Sometimes I'm invited to sing at nobles' mansions.{n}{wait}{clear}{spk:0080}{n}But rather than singing in such places, I prefer having everyone listen under the moonlight.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.25AA	{fb:3C80}{n}{spk:E783}{n}Isn't sleeping outdoors hard?{n}{wait}{clear}{spk:0080}{n}When the rain and wind are strong, it is hard, I admit...{n}{wait}{clear}{spk:0080}{n}But sometimes I find wild rabbits keeping me company... so I'm all right.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.2AFC	{fb:FE81}{n}{spk:0080}{n}Is there something else you'd like to talk about?{n}{wait}{clear}{end}
+39B8.2B36	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}Let me see... I'll think about it as I walk.{n}{wait}{clear}{end}
+39B8.2BA2	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}Yes, I don't mind.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.2BFC	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}No, I just wanted some fresh air. Don't you think the breeze feels nice today?{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.2C9C	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}It does. What could it be? A lovely, savory smell...{n}{wait}{clear}{end}
+39B8.2D10	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}Thank you, Angel. For being so thoughtful.{n}{fd:E78300800280}{n}{wait}{clear}{end}
+39B8.2D9E	{fb:3280}{n}{spk:E783}{n}Do you take your harp to meals too?{n}{wait}{clear}{spk:0080}{n}Yes, as long as it isn't in the way, I take it.{n}{wait}{clear}{spk:0080}{n}Sometimes people suddenly ask me for a song in the middle of a meal.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.2E60	{fb:3C80}{n}{spk:E783}{n}You must end up eating alone a lot.{n}{wait}{clear}{spk:0080}{n}That's true. I eat alone most of the time.{n}{wait}{clear}{spk:0080}{n}But when I'm invited to a noble's banquet, I sometimes dine with them.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.3374	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}
+39B8.3392	{fb:0080}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}As long as it's all right with you, Angel, I don't mind.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.3400	{fb:0A80}{n}{spk:E783}{n}Does it help you unwind?{n}{wait}{clear}{spk:0080}{n}Yes, very much. Songs ease the weariness of the heart too.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.346E	{fb:1480}{n}{spk:E783}{n}How are you feeling?{n}{wait}{clear}{spk:0080}{n}I'm all right. You're looking out for me, aren't you, Angel.{n}{wait}{clear}{end}
+39B8.34E4	{fb:1E80}{n}{spk:E783}{n}You seem to be in a good mood.{n}{wait}{clear}{spk:0080}{n}Oh, yes. It's been a long time since I got to go hear songs.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.3556	{fb:2880}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{spk:0080}{n}Yes, thank you. Why don't you take a break too, Angel?{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.35E4	{fb:3280}{n}{spk:E783}{n}Where do you sing your songs?{n}{wait}{clear}{spk:0080}{n}Let me see. I sing when I'm invited to nobles' mansions, I sing for children in town squares,{n}{wait}{clear}{spk:0080}{n}all sorts of places.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.36A8	{fb:3C80}{n}{spk:E783}{n}What's important to you now?{n}{wait}{clear}{spk:0080}{n}Let me see. For me... my harp is very important...{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.3AF0	{fb:FE81}{n}{spk:0080}{n}Is there... something else?{n}{wait}{clear}{end}
+39B8.3B18	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}Thank you. But I'm all right.{n}{wait}{clear}{end}
+39B8.3B86	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}Thank you. But you don't need to worry about me so much.{n}{wait}{clear}{end}
+39B8.3C14	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}Yes, just a little longer. I'll keep trying.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.3C86	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}Yes. I think what matters in everything is building up a little every day.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39B8.3D18	{fb:2880}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}Not at all. Please don't worry about it, Angel.{n}{wait}{clear}{end}
+39B8.3D96	{fb:3280}{n}{spk:E783}{n}Is handling a bow hard?{n}{wait}{clear}{spk:0080}{n}It isn't difficult. I'm sure even you could do it, Angel, but...{n}{wait}{clear}{spk:0080}{n}I wouldn't want you to draw one...{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39B8.3E56	{fb:3C80}{n}{spk:E783}{n}Do you like exercising?{n}{wait}{clear}{spk:0080}{n}I don't dislike it. It's just... training my body for battle isn't really what I want...{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39C1.0F0C	{fb:FE81}{n}{spk:0080}{n}Is there anything else?{n}{wait}{clear}{end}
+39C1.0F34	{fb:0080}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}Yes, I was just thinking the same thing. A truly pleasant breeze.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39C1.0FC2	{fb:0A80}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{spk:0080}{n}No, I'm not tired for now. Though once we've walked a bit more, it might be wise to rest.{n}{fd:E78300800180}{n}{wait}{clear}{end}

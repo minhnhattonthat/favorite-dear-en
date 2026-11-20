@@ -1,7 +1,7 @@
 id	jp	en	notes
-39C1.0F0C	{fb:FE81}{n}{spk:0080}{n}他にはありませんか？{n}{wait}{clear}{end}		
-39C1.0F34	{fb:0080}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}そうですね。{n}私も先程からそう思っていたところです。{n}実に心地のいい風ですね。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
-39C1.0FC2	{fb:0A80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}いいえ。今のところ疲れはありません。{n}ただ、もう少し歩いたら、{n}休憩したほうがいいかもしれませんね。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39C1.0F0C	{fb:FE81}{n}{spk:0080}{n}他にはありませんか？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Is there anything else?{n}{wait}{clear}{end}	
+39C1.0F34	{fb:0080}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}そうですね。{n}私も先程からそう思っていたところです。{n}実に心地のいい風ですね。{n}{fd:E78300800180}{n}{wait}{clear}{end}	{fb:0080}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}Yes, I was just thinking the same thing.{n}A truly pleasant breeze.{n}{fd:E78300800180}{n}{wait}{clear}{end}	
+39C1.0FC2	{fb:0A80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}いいえ。今のところ疲れはありません。{n}ただ、もう少し歩いたら、{n}休憩したほうがいいかもしれませんね。{n}{fd:E78300800180}{n}{wait}{clear}{end}	{fb:0A80}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{spk:0080}{n}No, I'm not tired for now. Though once{n}we've walked a bit more, it might be{n}wise to rest.{n}{fd:E78300800180}{n}{wait}{clear}{end}	
 39C1.1064	{fb:1480}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}いいえ。大丈夫です。{n}まだ、食事の時間ではないので。{n}{wait}{clear}{end}		
 39C1.10D2	{fb:1E80}{n}{spk:E783}{n}少し、休んでいきますか？{n}{wait}{clear}{spk:0080}{n}いいえ。もう少し歩きましょう。{n}目的地はまだ先ですし、{n}私も、まだ疲れていませんから。{n}{wait}{clear}{end}		
 39C1.1160	{fb:2880}{n}{spk:E783}{n}私と一緒だと疲れますか？{n}{wait}{clear}{spk:0080}{n}そんなことはありませんが・・・。{n}{wait}{clear}{spk:0080}{n}そのようなお話で立ち止まられるのは、{n}遠慮していただきたいですね。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
@@ -17,9 +17,9 @@ id	jp	en	notes
 39C1.1730	{fb:8C80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}人の体は、空を飛べるようには{n}できていないのです。ですから、{n}あまり考えた事はありませんが・・・。{n}{wait}{clear}{spk:0080}{n}もしもいつか人間が、{n}この広い大空を自由に飛ぶことが{n}できるようになったなら・・・。{n}{wait}{clear}{spk:0080}{n}きっと、新しい世界が開けるかも{n}しれませんね。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39C1.187A	{fb:9680}{n}{spk:E783}{n}昨日の夜は勉強をしてたのですか？{n}{wait}{clear}{spk:0080}{n}おや、お気づきでしたか・・・。{n}{wait}{clear}{spk:0080}{n}昨晩は本を読むのに熱中して、{n}つい、寝るのが遅くなってしまいました。{n}そのせいか今、少し眠いのです。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39C1.1952	{fb:A080}{n}{spk:E783}{n}目的地には、いつ着くのでしょう？{n}{wait}{clear}{spk:0080}{n}もう少しで、着くはずなのですが・・・。{n}{wait}{clear}{spk:0080}{n}といっても、旅の途中では何が起こるか{n}わかりませんから、{n}簡単には断言できないですね。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
-39C1.1A24	{fb:FF81}{n}{spk:0080}{n}他にはありませんか？{n}{wait}{clear}{end}		
-39C1.1A4C	{fb:0180}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}そうですね。{n}私も先程からそう思っていたところです。{n}実に心地のいい風ですね。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
-39C1.1ADA	{fb:0B80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}いいえ。今のところ疲れはありません。{n}ただ、もう少し歩いたら、{n}休憩したほうがいいかもしれませんね。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
+39C1.1A24	{fb:FF81}{n}{spk:0080}{n}他にはありませんか？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Is there anything else?{n}{wait}{clear}{end}	
+39C1.1A4C	{fb:0180}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}そうですね。{n}私も先程からそう思っていたところです。{n}実に心地のいい風ですね。{n}{fd:E78300800180}{n}{wait}{clear}{end}	{fb:0180}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}Yes, I was just thinking the same thing.{n}A truly pleasant breeze.{n}{fd:E78300800180}{n}{wait}{clear}{end}	
+39C1.1ADA	{fb:0B80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}いいえ。今のところ疲れはありません。{n}ただ、もう少し歩いたら、{n}休憩したほうがいいかもしれませんね。{n}{fd:E78300800180}{n}{wait}{clear}{end}	{fb:0B80}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{spk:0080}{n}No, I'm not tired for now. Though once{n}we've walked a bit more, it might be{n}wise to rest.{n}{fd:E78300800180}{n}{wait}{clear}{end}	
 39C1.1B7C	{fb:1580}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}いいえ。大丈夫です。{n}まだ、食事の時間ではないので。{n}{wait}{clear}{end}		
 39C1.1BEA	{fb:1F80}{n}{spk:E783}{n}少し、休んでいきますか？{n}{wait}{clear}{spk:0080}{n}いいえ。もう少し歩きましょう。{n}目的地はまだ先ですし、{n}私も、まだ疲れていませんから。{n}{wait}{clear}{end}		
 39C1.1C78	{fb:2980}{n}{spk:E783}{n}私と一緒だと疲れますか？{n}{wait}{clear}{spk:0080}{n}そんなことはありませんが・・・。{n}{wait}{clear}{spk:0080}{n}そのようなお話で立ち止まられるのは、{n}遠慮していただきたいですね。{n}{fe:E78300800180}{n}{wait}{clear}{end}		

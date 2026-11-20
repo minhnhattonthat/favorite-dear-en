@@ -1,5 +1,5 @@
 id	jp	en	notes
-39CB.0F0C	{fb:FE81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		
+39CB.0F0C	{fb:FE81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	
 39CB.0F2A	{fb:0080}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}うん！{n}すっごく気持ちいいね！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.0F88	{fb:0A80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}僕は、全然平気だよ！{n}天使様は疲れちゃったの？{n}{wait}{clear}{end}		
 39CB.0FEA	{fb:1480}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}うーん。{n}僕はまだ大丈夫だよ。{n}{wait}{clear}{end}		
@@ -17,7 +17,7 @@ id	jp	en	notes
 39CB.156A	{fb:8C80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}うん！　あるよ！{n}だって、すっごい気持ちよさそう{n}なんだもん！{n}{wait}{clear}{spk:0080}{n}一度でいいから飛んでみたい！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.161E	{fb:9680}{n}{spk:E783}{n}歌を歌ったりはしませんか？{n}{wait}{clear}{spk:0080}{n}たまにね。{n}歌うっていうより、{n}口ずさむくらいだけど。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.1698	{fb:A080}{n}{spk:E783}{n}知らないところへ行くのは怖いですか？{n}{wait}{clear}{spk:0080}{n}全然こわくないよ！{n}だって、知らないところのほうが、{n}なにがあるかわからないからさ。{n}{wait}{clear}{spk:0080}{n}おもしろいことも、{n}きっと、起こるだろし。{n}ワクワクするよ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
-39CB.1782	{fb:FF81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		
+39CB.1782	{fb:FF81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	
 39CB.17A0	{fb:0180}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}うん！{n}すっごく気持ちいいね！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.17FE	{fb:0B80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}僕は、全然平気だよ！{n}天使様は疲れちゃったの？{n}{wait}{clear}{end}		
 39CB.1860	{fb:1580}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}うーん。{n}僕はまだ大丈夫だよ。{n}{wait}{clear}{end}		
@@ -51,7 +51,7 @@ id	jp	en	notes
 39CB.24E4	{fb:2980}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{spk:0080}{n}きょうは、ないよ・・・天使様。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
 39CB.2550	{fb:3380}{n}{spk:E783}{n}眠れない時がありますか？{n}{wait}{clear}{spk:0080}{n}うん・・・。{n}あまりないけど、ときどきね。{n}{wait}{clear}{end}		
 39CB.25B2	{fb:3D80}{n}{spk:E783}{n}夜、寂しくなったりしませんか。{n}{wait}{clear}{spk:0080}{n}ならないよ、そんなの。{n}全然平気だってば。{n}{wait}{clear}{end}		
-39CB.261C	{fb:FE81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39CB.261C	{fb:FE81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	entry point inside the previous row's message
 39CB.263A	{fb:0080}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{spk:0080}{n}なんにしようかな。{n}すごくおなか空いてるから、なんでも{n}たべられるよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.26C8	{fb:0A80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}うん、いいよ。{n}天使様って何が好きなの？{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.2732	{fb:1480}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{spk:0080}{n}さっきは、雑貨屋に行ったんだよ。{n}旅の途中で作った僕の細工物を、{n}売りに行ってきたんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
@@ -59,7 +59,7 @@ id	jp	en	notes
 39CB.2838	{fb:2880}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}う、うん。{n}わかってるよ・・・。{n}{wait}{clear}{end}		
 39CB.2896	{fb:3280}{n}{spk:E783}{n}家では何を食べていましたか？{n}{wait}{clear}{spk:0080}{n}母さんの料理だよ。{n}母さんは料理がとても上手だから、{n}いろんなもの作ってくれるんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.2930	{fb:3C80}{n}{spk:E783}{n}ご飯はたくさん食べるほうですか？{n}{wait}{clear}{spk:0080}{n}へへっ。やっぱりそう見える？{n}僕、たくさんたべないと元気、出ないんだ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
-39CB.29C0	{fb:FF81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		
+39CB.29C0	{fb:FF81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	
 39CB.29DE	{fb:0180}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{spk:0080}{n}なんにしようかな。{n}すごくおなか空いてるから、なんでも{n}たべられるよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.2A6C	{fb:0B80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}うん、いいよ。{n}天使様って何が好きなの？{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39CB.2AD6	{fb:1580}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{spk:0080}{n}さっきは、雑貨屋に行ったんだよ。{n}旅の途中で作った僕の細工物を、{n}売りに行ってきたんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		

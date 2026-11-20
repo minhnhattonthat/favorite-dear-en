@@ -35,7 +35,7 @@ id	jp	en	notes
 39D3.23F6	{fb:8D80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}俺さ。{n}竜達の背中に乗って{n}空を飛んだことはあるんだよ。{n}{wait}{clear}{spk:0080}{n}すっごく気持ちいいんだよな、{n}空を飛ぶのって！{n}{wait}{clear}{spk:0080}{n}俺も羽を使って自由に飛べたら、{n}きっと、もっと、{n}楽しいんだろうなって思うよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.2510	{fb:9780}{n}{spk:E783}{n}歩くのって、楽しいですか？{n}{wait}{clear}{spk:0080}{n}ああ、楽しいよ。{n}景色を見ながら歩くのは、{n}いいもんだよな。{n}{wait}{clear}{spk:0080}{n}でも、走るのはもっと{n}楽しいんだ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.25BE	{fb:A180}{n}{spk:E783}{n}走るのって、楽しいですか？{n}{wait}{clear}{spk:0080}{n}ああ、すごい楽しいよ。{n}{wait}{clear}{spk:0080}{n}思いっきり走ると、景色があっという間に{n}後ろにすっ飛んでいくだろ。{n}{wait}{clear}{spk:0080}{n}こうやって、{n}景色を見ながら歩くのもいいんだけど、{n}走るのはもっと楽しいんだ。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
-39D3.26C2	{fb:FE81}{n}{spk:0080}{n}他には？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39D3.26C2	{fb:FE81}{n}{spk:0080}{n}他には？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	entry point inside the previous row's message
 39D3.26DE	{fb:0080}{n}{spk:E783}{n}何をしてるのかな？　と思いまして。{n}{wait}{clear}{spk:0080}{n}ああ、ちょうど今、寝る準備を{n}してたところさ。{n}もう、こんな時間だしさ。{n}{wait}{clear}{end}		
 39D3.2768	{fb:0A80}{n}{spk:E783}{n}今日もおつかれさまでした。{n}{wait}{clear}{spk:0080}{n}ああ、お疲れさま。{n}でも、天使様の方が疲れてるだろう？{n}ゆっくり休んだほうがいいよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.2800	{fb:1480}{n}{spk:E783}{n}おじゃま、でしたか・・・？{n}{wait}{clear}{spk:0080}{n}別に、じゃまじゃないけど。{n}今夜、ここに居座るっていうなら、{n}困るけどさ・・・。{n}{wait}{clear}{end}		
@@ -43,7 +43,7 @@ id	jp	en	notes
 39D3.2926	{fb:2880}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{spk:0080}{n}なんだか気をつかわせちまって、{n}悪いなあ・・・。{n}{wait}{clear}{spk:0080}{n}でも、俺、しゃべりたい事は{n}昼間、話してるから、今はないよ。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
 39D3.29EC	{fb:3280}{n}{spk:E783}{n}静かな夜ですね。{n}{wait}{clear}{spk:0080}{n}ああ、静かでいい夜だよな。{n}{wait}{clear}{spk:0080}{n}毎日みんながこんな夜をすごせる{n}平和な世界にしないとな・・・。{n}{wait}{clear}{spk:0080}{n}もっとがんばらなきゃ・・・。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.2AB2	{fb:3C80}{n}{spk:E783}{n}暗闇は、恐くないですか？{n}{wait}{clear}{spk:0080}{n}ああ、全然平気だよ。{n}竜達と一緒のときは、{n}灯りなんてないからな。{n}{wait}{clear}{spk:0080}{n}アウルに教わったんだけど、{n}暗闇のときは、耳と肌で感じるように{n}すればればいいのさ。{n}{wait}{clear}{spk:0080}{n}そうすれば、わからないことなんて{n}何もないから、恐くないよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
-39D3.2BDE	{fb:FF81}{n}{spk:0080}{n}他には？{n}{wait}{clear}{end}		
+39D3.2BDE	{fb:FF81}{n}{spk:0080}{n}他には？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	
 39D3.2BFA	{fb:0180}{n}{spk:E783}{n}何をしてるのかな？　と思いまして。{n}{wait}{clear}{spk:0080}{n}ああ、ちょうど今、寝る準備を{n}してたところさ。{n}もう、こんな時間だしさ。{n}{wait}{clear}{end}		
 39D3.2C84	{fb:0B80}{n}{spk:E783}{n}今日もおつかれさまでした。{n}{wait}{clear}{spk:0080}{n}ああ、お疲れさま。{n}でも、天使様の方が疲れてるだろう？{n}ゆっくり休んだほうがいいよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.2D1C	{fb:1580}{n}{spk:E783}{n}おじゃま、でしたか・・・？{n}{wait}{clear}{spk:0080}{n}別に、じゃまじゃないけど。{n}今夜、ここに居座るっていうなら、{n}困るけどさ・・・。{n}{wait}{clear}{end}		
@@ -67,7 +67,7 @@ id	jp	en	notes
 39D3.37FC	{fb:2980}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}好き嫌いの心配してるんなら、{n}必要ないよ。{n}俺、好き嫌いは全然ないからさ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.388E	{fb:3380}{n}{spk:E783}{n}栄養には気を配っていますか？{n}{wait}{clear}{spk:0080}{n}う～ん・・・。そんな事考えたって、{n}メシがうまくなるわけじゃ{n}ないからなぁ・・・。{n}{wait}{clear}{spk:0080}{n}あんまり考えたことないよ。{n}俺、腹いっぱい食べられれば、{n}それでいいと思ってるから。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.3986	{fb:3D80}{n}{spk:E783}{n}もっとお話ししませんか？{n}{wait}{clear}{spk:0080}{n}いや・・・気持ちはうれしいんだけど、{n}俺、これからメシなんだ。{n}言わなかったっけ・・・？{n}{fe:E78300800180}{n}{wait}{clear}{end}		
-39D3.3A22	{fb:FE81}{n}{spk:0080}{n}他には？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39D3.3A22	{fb:FE81}{n}{spk:0080}{n}他には？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	entry point inside the previous row's message
 39D3.3A3E	{fb:0180}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}いいけど、道具もオレの分しかないぜ。{n}ただ見ててもつまんないと思うけど、{n}それでもいいならついて来るかい？{n}{wait}{clear}{end}		
 39D3.3AE0	{fb:0B80}{n}{spk:E783}{n}疲れはとれますか？{n}{wait}{clear}{spk:0080}{n}むずかしい質問だなあ・・・。{n}{wait}{clear}{spk:0080}{n}釣は楽しいんだけど、{n}一匹も釣れないときって、{n}やっぱり疲れちゃうんだよな・・・。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.3B96	{fb:1580}{n}{spk:E783}{n}気分はいかがですか？{n}{wait}{clear}{spk:0080}{n}今はいい気分だぜ。{n}{wait}{clear}{spk:0080}{n}でも、一匹も釣れなくて{n}がっかりして帰ってきた時に、{n}それだけは聞かないでくれよな。{n}{wait}{clear}{end}		
@@ -75,7 +75,7 @@ id	jp	en	notes
 39D3.3CC2	{fb:2980}{n}{spk:E783}{n}ゆっくり休んでくださいね。{n}{wait}{clear}{spk:0080}{n}ああ、ありがとう。{n}なんか、釣れそうな気が{n}してきたよ。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.3D3E	{fb:3380}{n}{spk:E783}{n}昨日もしていませんでしたか？{n}{wait}{clear}{spk:0080}{n}そうだよ。でも、昨日は{n}一匹も釣れなかったからな。{n}{wait}{clear}{spk:0080}{n}今日は絶対、昨日のぶんも{n}釣ってやるのさ！{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.3DEC	{fb:3D80}{n}{spk:E783}{n}がんばってきてくださいね。{n}{wait}{clear}{spk:0080}{n}ああ。ありがとう！{n}天使様のために、{n}大物釣ってくるよ！{n}{fd:E78300800280}{n}{wait}{clear}{end}		
-39D3.3E68	{fb:FF81}{n}{spk:0080}{n}他には？{n}{wait}{clear}{end}		
+39D3.3E68	{fb:FF81}{n}{spk:0080}{n}他には？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	
 39D3.3E84	{fb:0180}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}いいけど、道具もオレの分しかないぜ。{n}ただ見ててもつまんないと思うけど、{n}それでもいいならついて来るかい？{n}{wait}{clear}{end}		
 39D3.3F26	{fb:0B80}{n}{spk:E783}{n}疲れはとれますか？{n}{wait}{clear}{spk:0080}{n}むずかしい質問だなあ・・・。{n}{wait}{clear}{spk:0080}{n}釣は楽しいんだけど、{n}一匹も釣れないときって、{n}やっぱり疲れちゃうんだよな・・・。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39D3.3FDC	{fb:1580}{n}{spk:E783}{n}気分はいかがですか？{n}{wait}{clear}{spk:0080}{n}今はいい気分だぜ。{n}{wait}{clear}{spk:0080}{n}でも、一匹も釣れなくて{n}がっかりして帰ってきた時に、{n}それだけは聞かないでくれよな。{n}{wait}{clear}{end}		

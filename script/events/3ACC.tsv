@@ -1,5 +1,5 @@
 id	jp	en	notes
-3ACC.24D4	{fb:FE81}{n}{spk:0080}{n}・・・。{n}ほかには？{n}{wait}{clear}{end}		
+3ACC.24D4	{fb:FE81}{n}{spk:0080}{n}・・・。{n}ほかには？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}...Anything else?{n}{wait}{clear}{end}	
 3ACC.24FC	{fb:0080}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}気にするな。{n}用があって来たのだろう。{n}{wait}{clear}{end}		
 3ACC.2564	{fb:0A80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{spk:0080}{n}・・・心配するな。{n}{wait}{clear}{end}		
 3ACC.25A8	{fb:1480}{n}{spk:E783}{n}旅は好きですか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・。{n}そうだな。{n}嫌いではない。{n}{wait}{clear}{end}		
@@ -17,7 +17,7 @@ id	jp	en	notes
 3ACC.2A52	{fb:8C80}{n}{spk:E783}{n}道に迷ってるんじゃないかと思って。{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}なにをくだらないことを言っている。{n}{wait}{clear}{end}		
 3ACC.2AC0	{fb:9680}{n}{spk:E783}{n}旅の楽しさってなんだと思いますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}知らぬ土地を訪れて、{n}己の知識を深めることだと思っているが。{n}{wait}{clear}{end}		
 3ACC.2B48	{fb:A080}{n}{spk:E783}{n}旅で困る事はありますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}長旅の場合は、{n}馬が病気にかかると厄介だが。{n}{wait}{clear}{end}		
-3ACC.2BB6	{fb:FF81}{n}{spk:0080}{n}・・・。{n}ほかには？{n}{wait}{clear}{end}		
+3ACC.2BB6	{fb:FF81}{n}{spk:0080}{n}・・・。{n}ほかには？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}...Anything else?{n}{wait}{clear}{end}	
 3ACC.2BDE	{fb:0180}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}気にするな。{n}用があって来たのだろう。{n}{wait}{clear}{end}		
 3ACC.2C46	{fb:0B80}{n}{spk:E783}{n}疲れていませんか？{n}{wait}{clear}{spk:0080}{n}・・・心配するな。{n}{wait}{clear}{end}		
 3ACC.2C8A	{fb:1580}{n}{spk:E783}{n}旅は好きですか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・。{n}そうだな。{n}嫌いではない。{n}{wait}{clear}{end}		

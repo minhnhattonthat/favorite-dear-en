@@ -51,7 +51,7 @@ id	jp	en	notes
 39DD.273C	{fb:2980}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{spk:0080}{n}こんな時間には、ないよ。{n}{fe:E78300800280}{n}{wait}{clear}{end}		
 39DD.27A2	{fb:3380}{n}{spk:E783}{n}夜は寂しくないですか？{n}{wait}{clear}{spk:0080}{n}なに言ってるんだ、{n}ばかばかしい。{n}{fe:E78300800280}{n}{wait}{clear}{end}		
 39DD.2804	{fb:3D80}{n}{spk:E783}{n}星を見るのは好きですか？{n}{wait}{clear}{spk:0080}{n}嫌いじゃないよ。{n}子供の頃から、{n}よく空を見ていたからね。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
-39DD.2880	{fb:FE81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		
+39DD.2880	{fb:FE81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	
 39DD.289E	{fb:0080}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{spk:0080}{n}まだ決めてないけど。{n}うーん・・・。{n}このあたりは何がおいしいんだろう。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39DD.292E	{fb:0A80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}えっ、一緒に？{n}へーえ・・・。私と食事なんて、{n}アンタもずいぶん物好きだね。{n}{wait}{clear}{end}		
 39DD.29B2	{fb:1480}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{spk:0080}{n}行ってないよ。{n}賞金首の張り紙を探しにいったのさ。{n}{fe:E78300800180}{n}{wait}{clear}{end}		
@@ -59,7 +59,7 @@ id	jp	en	notes
 39DD.2AA6	{fb:2880}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}あははははっ・・・{n}あ、いや、ごめん、ごめん。{n}アンタもそういうこと気にするんだ。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
 39DD.2B40	{fb:3280}{n}{spk:E783}{n}あなたの手料理を食べてみたいですね。{n}{wait}{clear}{spk:0080}{n}ええっ？　私の？{n}・・・うーん・・・。{n}ま。それはまた、今度だね。{n}{fd:E78300800280}{n}{wait}{clear}{end}		
 39DD.2BD0	{fb:3C80}{n}{spk:E783}{n}料理はできるんですか？{n}{wait}{clear}{spk:0080}{n}あっ！！{n}できないと思ってバカにしてるだろ！{n}失礼だな、まったく！{n}{fe:E78300800280}{n}{wait}{clear}{end}		
-39DD.2C52	{fb:FF81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}		
+39DD.2C52	{fb:FF81}{n}{spk:0080}{n}ほかには？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}	
 39DD.2C70	{fb:0180}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{spk:0080}{n}まだ決めてないけど。{n}うーん・・・。{n}このあたりは何がおいしいんだろう。{n}{fd:E78300800180}{n}{wait}{clear}{end}		
 39DD.2D00	{fb:0B80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{spk:0080}{n}えっ、一緒に？{n}へーえ・・・。私と食事なんて、{n}アンタもずいぶん物好きだね。{n}{wait}{clear}{end}		
 39DD.2D84	{fb:1580}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{spk:0080}{n}行ってないよ。{n}賞金首の張り紙を探しにいったのさ。{n}{fe:E78300800180}{n}{wait}{clear}{end}		

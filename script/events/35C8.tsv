@@ -11,6 +11,6 @@ id	jp	en	notes
 35C8.217E	{e0:E0FF}{spk:E783}{n}ビーシア。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ぶつぶつぶつぶつ・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}ビーシア？{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ぶつぶつぶつぶつ・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}あの・・・。{n}{wait}{clear}{end}		
 35C8.2224	{e0:E0FF}{spk:0080}{n}・・・・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}・・・あれ？{n}お前、いつの間に・・・？{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}さっきからです、ビーシア。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}お前って、確か天使だろ？{n}なんでオレの名前・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}ビーシア、{n}お話ししたいことがあるの。{n}実は・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}・・・・・・・・・・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}うーん・・・{n}冗談みたいだけど、{n}信じるしかないんだよなぁ・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}実はさ、オレ、ずっと変だったんだ。{n}なんか忘れてるって気すんだけど、{n}どうしても思い出せなくって。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}・・・うん。オレ、勇者になるよ。{n}前のこと思い出せたわけじゃないけど、{n}そう考えた方がすっきりするし。{n}{wait}{clear}{end}		
 35C8.249E	{e0:E0FF}{spk:0080}{n}うるせえっ！{n}人が考え事してる時くらい、{n}静かにしやがれ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}はいっ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ぶつぶつぶつぶつ・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}ふぅ・・・{n}話す雰囲気じゃないな。{n}{wait}{clear}{end}		
-35C8.2560	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
-35C8.259E	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
-35C8.25DC	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
+35C8.2560	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	
+35C8.259E	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	
+35C8.25DC	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	

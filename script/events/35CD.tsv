@@ -11,6 +11,6 @@ id	jp	en	notes
 35CD.2324	{e0:E0FF}{spk:E783}{n}ティア？{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}・・・・・・！{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}えっと・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}・・・・・・ああ・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ごめんなさいごめんなさいごめんなさい！{n}{wait}{clear}{end}		
 35CD.23DC	{e0:E0FF}{spk:E783}{n}あの、ティア、話を聞いて。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ごめんなさいごめんなさいごめんなさい！{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}ティアっ！{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}はいっ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}あの、私の話を・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}はい。わかりました。聞きます。{n}聞きますから殺さないでください。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}・・・・・・・・・。{n}ティア、実はね・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}・・・・・・・・・・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}はい・・・{n}よくわからないけどやります。{n}勇者やりますから許してください。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}許す、って・・・私の方が・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ごめんなさいごめんなさい。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}堕天使になった気分・・・。{n}{wait}{clear}{end}		
 35CD.2634	{e0:E0FF}{spk:E783}{n}あの・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ごめんなさいごめんなさいごめんなさい！{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}あっ・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ごめんなさいごめんなさい・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}・・・どうして？{n}{wait}{clear}{end}		
-35CD.26F8	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
-35CD.2736	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
-35CD.2774	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
+35CD.26F8	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	
+35CD.2736	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	
+35CD.2774	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	

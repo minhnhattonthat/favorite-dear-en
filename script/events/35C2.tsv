@@ -13,6 +13,6 @@ id	jp	en	notes
 35C2.2632	{e0:E0FF}{spk:E783}{n}フィアナ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}なんだい、急に？{n}アンタ、何者？{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}{name:0080}です。{n}覚えていませんか？{n}{wait}{clear}{end}		
 35C2.26B0	{e0:E0FF}{spk:0080}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}正直言うと、見覚えあるよ。{n}夢の中の話だけど・・・{n}アンタ一体、何なんだい？{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}実は・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}・・・・・・・・・・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ふぅ・・・{n}正直、わけわからない気分だよ。{n}こんなことがあるなんて・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}けど、そっちも必死なんだろ？{n}話しぶり見ればわかるから。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}いずれにせよ、しばらくは、{n}勇者として、働いたげるよ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}ま、そのうち見えてくるだろ。{n}本当のことなんてさ。{n}{wait}{clear}{end}		
 35C2.28A6	{e0:E0FF}{spk:0080}{n}知らないね。{n}さ、あたしは急いでるんだ。{n}そこをどいてもらおうか。{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}あっ、フィアナ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}・・・・・・。{n}{wait}{clear}{end}		
-35C2.293C	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
-35C2.297A	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
-35C2.29B8	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}		
+35C2.293C	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	
+35C2.297A	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	
+35C2.29B8	{e0:E0FF}恋愛関係からのスカウト{n}同性愛はないのでダミー{n}{wait}{clear}{end}	{e0:E0FF}Dummy: no same-sex scouting from a{n}romance.{n}{wait}{clear}{end}	

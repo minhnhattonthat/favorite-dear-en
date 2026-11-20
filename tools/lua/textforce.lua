@@ -46,6 +46,18 @@ local function wr(i, v) w16(BUF + 2 * i, v) end
 -- Point the printer at row t (with a {clear} written just before it when `clear`), and when another wanted row is
 -- left, turn t's terminating 0xFFFF into {wait} (0xFFF3) so the printer stops there instead of ending the message;
 -- the frame handler then chains to the next row.
+-- when another wanted row is left, turn row t's terminating 0xFFFF (searched from buffer index s) into {wait}
+local function arm(hoff, t, s)
+  for k, r in ipairs(rows) do
+    if r.want and k ~= t then
+      for p = s, hoff + rows[t].e - 1 do
+        if rd(p) == 0xFFFF then chainp = p; wr(p, 0xFFF3); break end
+      end
+      return
+    end
+  end
+end
+
 local tries = {}
 local function start(obj, hoff, t, clear, n)
   -- a row the printer never moves into (a choice menu drawn by its own op, a table) gets 2 tries, then is skipped
@@ -71,15 +83,78 @@ local function start(obj, hoff, t, clear, n)
   local nb = BUF + 2 * at
   w16(obj, nb % 65536); w16(obj + 2, math.floor(nb / 65536)); w16(obj + 0x10, 0)
   written = at
-  local more = false
-  for k, r in ipairs(rows) do if r.want and k ~= t then more = true; break end end
-  if more then
-    for p = s, hoff + rows[t].e - 1 do
-      if rd(p) == 0xFFFF then chainp = p; wr(p, 0xFFF3); break end
-    end
-  end
+  arm(hoff, t, s)
   L.log(string.format("FORCE %d f%d%s", t, n, chainp and " chain" or ""))
   return at
+end
+
+-- KEYFORCE (needs warp --debugger): files that print through `0x90 <value> <table>` (a message picked by its FFFB
+-- key: KAIWA*, SxxOK, SEND*, the TxxSEN switch files) print nothing when the cold-boot value matches no key, so the
+-- frame hook never sees the printer in them. The 0x90 handler 0x800CB880 (s4 = code base, s2 = pc) resolves arg 1
+-- to a value and scans from the arg-2 reference to 0xFFFC for `FFFB k` with k & 0x7FFF == value; rewrite both args
+-- in place (an immediate key, a reference to the row) so it prints the next wanted keyed row, and the chain does
+-- the rest.
+local kf_frame = -1
+-- the next wanted row (from `cur`) that opens with its FFFB key, and that key: what a patched 0x90 should print
+local function keyed_target(hoff, cpc)
+  for k = 0, #rows - 1 do
+    local t = ((cur or 1) - 1 + k) % #rows + 1
+    if rows[t].want and rows[t].s >= cpc and rd(hoff + rows[t].s) == 0xFFFB then
+      return t, rd(hoff + rows[t].s + 1) & 0x7FFF
+    end
+  end
+  return nil
+end
+-- KEYPATCH: the same without the debugger: the first frame the file is in the buffer, patch every
+-- `0090 <value> <ref to a row opening with FFFB>` outside the message rows (racy if the VM runs the op that frame)
+local inrow = {}
+for _, r in ipairs(rows) do for p = r.s, r.e - 1 do inrow[p] = true end end
+local rowstart = {}
+for i, r in ipairs(rows) do rowstart[r.s] = i end
+local patched_at = nil
+local kp_why = nil
+local function keypatch(hoff, n)
+  local cpc = math.floor(rd(hoff + 2) / 2)
+  local t, key = keyed_target(hoff, cpc)
+  if rd(hoff) ~= 6 or not t then  -- not loaded yet (every script starts with u16 6), or no keyed row left
+    local why = string.format("KEYPATCH wait hdr %X code %X target %s", rd(hoff), cpc, tostring(t))
+    if why ~= kp_why then kp_why = why; L.log(why .. string.format(" f%d", n)) end
+    return
+  end
+  patched_at = hoff
+  local cnt = 0
+  for p = cpc, rows[#rows].e - 3 do
+    if not inrow[p] and rd(hoff + p) == 0x90 then
+      local a2 = rd(hoff + p + 2)
+      local tgt = (a2 & 0x7FFF) + cpc
+      if a2 >= 0x8000 and rowstart[tgt] and rd(hoff + tgt) == 0xFFFB then
+        wr(hoff + p + 1, key); wr(hoff + p + 2, 0x8000 | (rows[t].s - cpc)); cnt = cnt + 1
+      end
+    end
+  end
+  L.log(string.format("KEYPATCH %d key %X sites %d f%d", t, key, cnt, n))
+end
+if KEYFORCE and DEBUGGER then
+  L.on_exec(0x800CB880, function()
+    if done_at or L.frame == kf_frame then return end
+    local r = PCSX.getRegisters().GPR.n
+    local code, pc = r.s4, r.s2 & 0xFFFF
+    local hoff
+    for s = 0, 9 do
+      local e = 0x8016C5B8 + 8 * s
+      if u16(e) == ID then hoff = u16(e + 2) end
+    end
+    if not hoff then return end
+    local fstart = BUF + 2 * hoff
+    local cpc = math.floor(u16(fstart + 4) / 2)  -- header word 2: byte offset of the code
+    if (code & 0x1FFFFF) ~= ((fstart + 2 * cpc) & 0x1FFFFF) then return end
+    local t, key = keyed_target(hoff, cpc)
+    if not t then return end
+    w16(code + 2 * (pc + 1), key)
+    w16(code + 2 * (pc + 2), 0x8000 | (rows[t].s - cpc))
+    kf_frame = L.frame
+    L.log(string.format("KEYFORCE %d key %X pc %X f%d", t, key, pc, L.frame))
+  end)
 end
 
 L.on_frame(function(n)
@@ -92,6 +167,11 @@ L.on_frame(function(n)
     if id == ID then hoff = off end
   end
   if done_at and n >= done_at then L.finish(0) end
+  if (hoff ~= nil) ~= (patched_at ~= nil or kp_why ~= nil) and KEYPATCH then
+    L.log(string.format("KEYPATCH file %s f%d", hoff and "in" or "out", n))
+  end
+  if KEYPATCH and hoff and hoff ~= patched_at and not done_at then keypatch(hoff, n) end
+  if not hoff then patched_at, kp_why = nil, nil end
   local hi = u16(0x8001A4BA)
   if not (hi >= 0x8000 and hi < 0x8020) then return end
   local obj = u32(0x8001A4B8)
@@ -125,10 +205,25 @@ L.on_frame(function(n)
       L.log(string.format("CHOICE %d f%d", i, n))
       cur = i
     elseif not chainp and i and i ~= cur and idx ~= written then
-      local t = (rows[i].want and rel == rows[i].s) and i or next_want(cur or i)
-      if t == nil then
+      local own = rows[i].want and rel == rows[i].s
+      local t = own and i or next_want(cur or i)
+      if ADOPT then
+        -- obj+0x10 moves a page at a time, so the hook first sees a row when its first page is already drawn
+        -- (+38 of a 40-word row): keep it, credit it, and redirect only at its end, through the {wait} chain
+        if rows[i].want and rel > rows[i].s then
+          rows[i].want = false; left = left - 1
+          L.log(string.format("SHOWN %d f%d", i, n))
+        end
+        if next_want(i) == nil then
+          L.log(string.format("FORCE done f%d", n)); done_at = n + 600
+        else
+          cur = i
+          arm(hoff, i, idx)
+          L.log(string.format("ADOPT %d +%d f%d%s", i, rel - rows[i].s, n, chainp and " chain" or ""))
+        end
+      elseif t == nil then
         L.log(string.format("FORCE done f%d", n)); done_at = n + 600  -- let the last page draw, then stop
-      elseif t == i and rel == rows[t].s then
+      elseif own then
         cur = t
       else
         -- the print op points obj+0 at its message and counts obj+0x10 from 0: move both

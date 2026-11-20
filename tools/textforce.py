@@ -15,6 +15,11 @@ each time the scene starts a message, so the scene's own print ops play the whol
         menus (｛..｝ rows) are printer rows too (tour ev_smen01 logs 3A76.13E0), but forcing into one is untried (a
         menu may need its op's state): the chain never redirects to them, it only lets the scene's own print draw them (flag 2). Battle files
         (the 0x80174A84 table: T0101 ..) run as `warp.py --battle NAME` into <root>/p<N>/bt_<NAME>.
+        Best settings (pass 3, 2026-11-21): `--keypatch --var SKIPKEY=1 --var ADOPT=1`. ADOPT: the printer index
+        moves a page at a time, so never re-point a row the printer entered by itself (that stalled it); credit it
+        and let the {wait}-patched terminator flow on into the next row. KEYPATCH: files printed through op 0x90
+        (a message picked by its FFFB key: KAIWA, SxxOK, SQA, SCQA, SMEN..) get their 0x90 ops patched on load to
+        print the first wanted keyed row (KAIWA1: 0/240 -> 240/240).
     python -X utf8 tools/textforce.py left [--build ..] [--root ..]
         rows still unshown per sector.
 Then: python -X utf8 $SKILL/scripts/textcover.py <root> <build>/strings.tsv --waive docs/text_unshown_unloaded.tsv
@@ -160,6 +165,10 @@ def cmd_run(a):
                "--var", f"TARGETS='{' '.join(cells)}'"]
         for v in a.var or ():
             cmd += ["--var", v]
+        if a.keyforce:
+            cmd += ["--debugger", "--var", "KEYFORCE=1"]
+        if a.keypatch:
+            cmd += ["--var", "KEYPATCH=1"]
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
         d = run_dir(out, nm, battle)
         textcover_map.convert([d], exe, offs)
@@ -202,6 +211,10 @@ def main():
             s.add_argument("--shot-every", type=int, default=1500, help="frames between shots (30 to catch a page)")
             s.add_argument("--var", action="append", help="extra textforce.lua variable, NAME=LUA (e.g. SKIPKEY=1)")
             s.add_argument("--pass", dest="pass_no", type=int, help="resume pass N (default: start the next one)")
+            s.add_argument("--keyforce", action="store_true",
+                           help="interpreter mode + KEYFORCE: point op 0x90 key lookups at wanted rows (KAIWA, SxxOK)")
+            s.add_argument("--keypatch", action="store_true",
+                           help="KEYPATCH: the same by patching the file's 0x90 ops when it loads (no debugger, fast)")
     a = ap.parse_args()
     {"freeze": cmd_freeze, "run": cmd_run, "left": cmd_left}[a.cmd](a)
 

@@ -175,26 +175,82 @@ def _wrap_page(page, max_lines):
         else:
             cur.append(t)
     hard.append(cur)
-    lines = []
+    lines, breaks = [], set()  # breaks: indexes of lines that must start a continuation page
+    count = 0
     for h in hard:
         if has_text(h):
             # leading/trailing codes stay attached to the first/last wrapped line
-            for w in wrap_line(h):
+            ws = wrap_line(h)
+            room = max_lines - count
+            if 0 < room < len(ws):
+                cut = _page_cut(h, room, len(ws) - room, max_lines)
+                if cut:
+                    first, rest = cut
+                    for w in (wrap_line(first) if first else []):
+                        lines.append(_fix_odd(w))
+                    breaks.add(len(lines))
+                    count = max_lines
+                    ws = wrap_line(rest)
+            for w in ws:
+                if count == max_lines:
+                    count = 0
+                count += 1
                 lines.append(_fix_odd(w))
         else:
             lines.append(h)
     # continuation pages
     # lines are joined by {n}, so a continuation reads 'prev{n}{wait}{clear}{spk:X}{n}next' as the JP pages do
     res, count = [], 0
-    for ln in lines:
+    for i, ln in enumerate(lines):
         s = "".join(ln)
         if has_text(ln):
-            if count == max_lines:
+            if count == max_lines or i in breaks:
                 s = "{wait}{clear}" + (spk + "{n}" if spk else "") + s
                 count = 0
             count += 1
         res.append(s)
     return "{n}".join(res)
+
+
+CLAUSE_END = re.compile(r"[.!?,;:][\"')]?(?= )")
+
+
+def _page_cut(h, room, overflow, max_lines):
+    """a hard line too long for the `room` lines left on its page: split it at the last sentence/clause end whose
+    first part fits that room, so the continuation page starts a clause instead of a stray 'shows up.' (phase 8).
+    None when no end fits or the split would need more continuation pages than the greedy break."""
+    pages = lambda n: -(-n // max_lines)  # noqa: E731
+    words = lambda ts: len("".join(t for t in ts if not is_code(t)).split())  # noqa: E731
+    # in order of preference: a sentence end ('.!?') whose first part fills the room ("eventually. / Everything,
+    # just like before." beats "Everything, / just like before."), then the latest end; both leaving the next page
+    # 4+ words ("..., / wasn't he?", "chaos, / destruction and death..." are no better than the greedy break)
+    full = late = short = None
+    for i, t in enumerate(h):
+        if is_code(t):
+            continue
+        for m in CLAUSE_END.finditer(t):
+            first = h[:i] + [t[:m.end()]]
+            rest = [x for x in [t[m.end() + 1:]] + h[i + 1:] if x]
+            if not has_text(first) or not has_text(rest):
+                continue
+            n = len(wrap_line(first))
+            if n <= room and pages(len(wrap_line(rest))) <= pages(overflow):
+                if words(rest) < 4:
+                    short = (first, rest)
+                    continue
+                late = (first, rest)
+                if n == room and m.group(0)[0] in ".!?":
+                    full = late
+    if full or late:
+        return full or late
+    if pages(len(wrap_line(h))) <= pages(overflow):
+        return [], h  # no clause end fits: the whole line opens the next page ("...like to / hear today?")
+    ws = wrap_line(h)
+    if room >= 2 and words(ws[room]) <= 3 and len(ws) == room + 1:
+        # one sentence over a page plus a stray line: give the next page two lines ("...held down / inside her.")
+        join = lambda ls: [t for ln in ls for t in ln + [" "]][:-1]  # noqa: E731
+        return join(ws[:room - 1]), join(ws[room - 1:])
+    return short
 
 
 def page_lines(jp):

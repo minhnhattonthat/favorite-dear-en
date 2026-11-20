@@ -52,7 +52,7 @@ id	en
 34D7.1352	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, gross, gross! Is there seriously something in a place like this?{n}{wait}{clear}{e0:E0FF}Eeek! It's heeere!{n}{wait}{clear}{end}
 34D7.13BE	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, gross, gross! Why do I have to fight something like this?! Angel, think it through a little better, okay?!{n}{wait}{clear}{end}
 34D7.1432	{e0:E0FF}{spk:0080}{fa:0180}{n}...That's awful.{n}{wait}{clear}{end}
-34D7.145A	{e0:C306}{spk:0080}{fa:0180}{n}What a stuck-up jerk!! Don't waste your time on him, {name:0080}!{n}{wait}{clear}{end}
+34D7.145A	{e0:C306}{spk:0080}{fa:0180}{n}What a stuck-up jerk!! Don't waste your time on that guy, {name:0080}!{n}{wait}{clear}{end}
 34D7.14B0	{e0:E003}{spk:0080}{fa:0180}{n}This was for the best... right...?!{n}{wait}{clear}{end}
 34D7.14EC	{e0:C506}{spk:0080}{fa:0180}{n}So what?!{n}{wait}{clear}{end}
 34D7.1514	{e0:C606}{spk:0080}{fa:0180}{n}What do you fallen angels want, attacking the surface? Apollyon!{n}{wait}{clear}{end}
@@ -98,8 +98,8 @@ id	en
 34DB.198E	{spk:0080}{fa:0180}{n}Honestly, they still haven't learned. ...It seems the rest of the monsters are blocking our way out, {name:0080}.{n}{wait}{clear}I'll take care of the ones behind us. I'm leaving the rest to you. Bye now.{n}{wait}{clear}{end}
 34DF.0650	{f7:0080}｛Go to them｝{n}{f7:0080}｛Don't go　｝{n}{end}
 34DF.067E	{fb:0180}{n}{spk:0080}{n}I found {name:0180}-sama! But if you don't go see them now, they might never come back...{n}{wait}{clear}{end}
-34DF.0BF0	{spk:0080}{n}I can't tell where {name:0180}-sama is anymore...{n}{wait}{clear}{end}
-34DF.0C30	{spk:0080}{n}Angeeel! I found {name:0180}-sama, who went missing!{n}{wait}{clear}{end}
+34DF.0BF0	{spk:0080}{n}I can't sense where {name:0180}-sama is anymore...{n}{wait}{clear}{end}
+34DF.0C30	{spk:0080}{n}Angeeeel! I found {name:0180}-sama, who went missing!{n}{wait}{clear}{end}
 34DF.0C70	{e0:1C00}{spk:0080}{n}Angeeel, I found a hero candidate!{n}{wait}{clear}{end}
 34DF.0CAA	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}In Joost, in the Kingdom of Hebron, I found someone who'd make a perfect hero!{n}{wait}{clear}{e0:E0FF}His name is Sievas Volkgang, and they say he's a nobleman.{n}{wait}{clear}{e0:E0FF}They say he's very good with a sword. But... he seems to be a bit of a womanizer...{n}{wait}{clear}{e0:E0FF}But still, Angel, why not go and meet him first?{n}{wait}{clear}{end}
 34DF.0DF6	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}In Voras, the capital of the Kingdom of Hebron, I found someone who'd make a perfect hero!{n}{wait}{clear}{e0:E0FF}His name is Reiv Vincelras, and he's the commander of the kingdom's knights.{n}{wait}{clear}{e0:E0FF}Commander at his age! It must be because he's super amazing with a sword!{n}{wait}{clear}{e0:E0FF}Angel, why not go and meet him first?{n}{wait}{clear}{end}

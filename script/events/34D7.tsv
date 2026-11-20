@@ -2,7 +2,7 @@ id	jp	en	notes
 34D7.1352	{e0:E0FF}{spk:0080}{fa:0180}{n}うー、やだやだ！{n}ホントに、こんな所になにかいるの？{n}{wait}{clear}{e0:E0FF}きゃーっ！　でたぁ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, gross, gross! Is there seriously{n}something in a place like this?{n}{wait}{clear}{e0:E0FF}Eeek! It's heeere!{n}{wait}{clear}{end}	
 34D7.13BE	{e0:E0FF}{spk:0080}{fa:0180}{n}うーん、やだやだ！{n}なんでこんなのが、私の相手なのよ！{n}天使ったら、もう少し考えてよね！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, gross, gross! Why do I have to{n}fight something like this?! Angel, think{n}it through a little better, okay?!{n}{wait}{clear}{end}	
 34D7.1432	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・ひどい。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}...That's awful.{n}{wait}{clear}{end}	
-34D7.145A	{e0:C306}{spk:0080}{fa:0180}{n}エラそーなヤツ！！　こんなヤツに{n}かまうのやめなよ！　{name:0080}。{n}{wait}{clear}{end}	{e0:C306}{spk:0080}{fa:0180}{n}What a stuck-up jerk!! Don't waste your{n}time on him, {name:0080}!{n}{wait}{clear}{end}	
+34D7.145A	{e0:C306}{spk:0080}{fa:0180}{n}エラそーなヤツ！！　こんなヤツに{n}かまうのやめなよ！　{name:0080}。{n}{wait}{clear}{end}	{e0:C306}{spk:0080}{fa:0180}{n}What a stuck-up jerk!! Don't waste your{n}time on that guy, {name:0080}!{n}{wait}{clear}{end}	
 34D7.14B0	{e0:E003}{spk:0080}{fa:0180}{n}これで、よかったのよ、ね・・・！？{n}{wait}{clear}{end}	{e0:E003}{spk:0080}{fa:0180}{n}This was for the best... right...?!{n}{wait}{clear}{end}	
 34D7.14EC	{e0:C506}{spk:0080}{fa:0180}{n}だからなによ！{n}{wait}{clear}{end}	{e0:C506}{spk:0080}{fa:0180}{n}So what?!{n}{wait}{clear}{end}	
 34D7.1514	{e0:C606}{spk:0080}{fa:0180}{n}何が望みで堕天使は地上を{n}襲うの？　アポルオン！{n}{wait}{clear}{end}	{e0:C606}{spk:0080}{fa:0180}{n}What do you fallen angels want,{n}attacking the surface? Apollyon!{n}{wait}{clear}{end}	

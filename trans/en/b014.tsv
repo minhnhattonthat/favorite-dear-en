@@ -31,7 +31,7 @@ id	en
 3518.0C1E	{e0:E0FF}{spk:E783}{fa:0080}{n}Pshhhhh.{n}{wait}{clear}{end}
 3518.0C46	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, gross, gross. Is there seriously something in a place like this?{n}{wait}{clear}{end}
 3518.0C94	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Slime:{n}{f7:0380}{n}Pshhhh.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Ewww! It's heeere!{n}{wait}{clear}{end}
-3518.0CF6	{e0:E0FF}{spk:0080}{fa:0180}{n}What, that was a total breeze! Monster hunting's pretty easy, huh?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Thank you, Ashe. You fought well.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Hey, {name:0080}. Are you... making fun of me?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Huh...?{n}{wait}{clear}{end}
+3518.0CF6	{e0:E0FF}{spk:0080}{fa:0180}{n}What, that was a total breeze! Monster hunting's pretty easy, huh?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Thank you, Ashe. You fought well.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Oh hey, {name:0080}. Are you... making fun of me?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Huh...?{n}{wait}{clear}{end}
 3518.0DF6	{e0:E0FF}{spk:0080}{fa:0180}{n}Seriously, you! Don't make me fight such disgusting things!{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}And it was sooo weak! Get somebody else to do this kinda stuff, not me!!{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}But...{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}No buts! That thing's no match for me at all.{n}{wait}{clear}{end}
 3518.1054	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Slime:{n}{f7:0380}{n}Pshhhh-shhh.{n}{wait}{clear}{end}
 3518.1098	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Slime{n}{f7:0380}{n}Pshhhh-shhh.{n}{wait}{clear}{end}

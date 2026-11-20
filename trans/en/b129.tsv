@@ -48,7 +48,7 @@ id	en
 3ACC.4128	{fb:2880}{n}{spk:E783}{n}Why not rest a little?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}If you're only here to worry needlessly, then leave.{n}{wait}{clear}{end}
 3ACC.418A	{fb:3280}{n}{spk:E783}{n}I really ought to learn swordsmanship too...{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Is that so? I don't really understand what an angel's role involves...{n}{wait}{clear}{end}
 3ACC.422C	{fb:3C80}{n}{spk:E783}{n}You swing your sword so gallantly.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}...Spare me the flattery. Battles aren't won on looks.{n}{wait}{clear}{end}
-3AD6.13F8	The hero {name:0180} has engaged the final enemy, the fallen angel Gaap.{n}{wait}{clear}For this battle above all, your power is needed!{n}{wait}{clear}Join forces with your hero and save Infos.{n}{wait}{clear}{end}
+3AD6.13F8	Your hero {name:0180} has engaged the final enemy, the fallen angel Gaap.{n}{wait}{clear}For this battle above all, your power is needed!{n}{wait}{clear}Join forces with your hero and save Infos.{n}{wait}{clear}{end}
 3AD6.14A6	{f7:0080}｛Hurry there｝{n}{f7:0080}｛Don't go　　｝{n}{end}
 3AD6.14D0	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}Angel! Sievas-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
 3AD6.153E	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}Angel! Reiv-sama has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}

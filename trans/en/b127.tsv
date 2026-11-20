@@ -53,7 +53,7 @@ id	en
 3AB9.1008	{fb:0F80}{n}{e0:1800}{spk:0080}{n}Angel, there's a hero who wishes to see you.{n}{wait}{clear}{end}
 3AB9.1052	{fb:1080}{n}{e0:1900}{spk:0080}{n}Angel, there's a hero who wants to see you.{n}{wait}{clear}{end}
 3AB9.109E	{fb:1180}{n}{e0:1A00}{spk:0080}{n}Angel, someone wishes to see you.{n}{wait}{clear}{end}
-3AB9.10EC	{e0:E0FF}The hero {name:0280} wishes to see you.{n}{wait}{clear}{e0:E0FF}Will you go to see {name:0280}?{n}{wait}{clear}{e0:E0FF}{f7:0080}｛Go　　　｝{n}{f7:0080}｛Don't go｝{n}{end}
+3AB9.10EC	{e0:E0FF}Your hero {name:0280} wishes to see you.{n}{wait}{clear}{e0:E0FF}Will you go and see {name:0280}?{n}{wait}{clear}{e0:E0FF}{f7:0080}｛Go　　　｝{n}{f7:0080}｛Don't go｝{n}{end}
 3AB9.117A	Two heroes, {name:0280}-sama and {name:0380}-sama, wish to see you.{n}{wait}{clear}{e0:E0FF}Will you go to see one of them?{n}{wait}{clear}{f7:0080}｛See {name:0280}｝{n}{f7:0080}｛See {name:0380}｝{n}{f7:0080}｛See no one｝{n}{end}
 3ABC.1270	{spk:0080}{n}Oh, sooner than I expected. Knowing you, I thought you'd show up at a more leisurely pace.{n}{wait}{clear}{end}
 3ABC.12DA	{fb:0080}{n}{spk:E783}{n}What is it you need?{n}{wait}{clear}{end}

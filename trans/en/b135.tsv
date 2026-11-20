@@ -1,6 +1,6 @@
 id	en
 3B05.18A0	The church in Tambour burned down, but {name:0180} drove off Adramelech, the fiend of flame!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
-3B05.1998	{fd:0180E3830080}{n}The church in Tambour was attacked again, but {name:0180} drove off Adramelech, the fiend of flame!{n}{wait}{clear}After the battle with Adramelech, {name:0180} went into hiding.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
+3B05.1998	{fd:0180E3830080}{n}The church in Tambour was attacked again, but then {name:0180} drove off Adramelech, the fiend of flame!{n}{wait}{clear}After the battle with Adramelech, {name:0180} went into hiding.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.1A62	{name:0180} drove off Adramelech, the fiend of flame who appeared at the church in Tambour!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.1AD8	The rogue dragon Macula Dragon took the life of the Aul Dragon, lord of dragons, and has claimed the title for itself!{n}{wait}{clear}But thanks to {name:0180}, the Macula Dragon's advance has been stopped.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.1BA8	{name:0180} stopped the march of the Miraya army.{n}{wait}{clear}It seems the Miraya army was controlling Duminas monsters to attack towns and villages!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
@@ -10,7 +10,7 @@ id	en
 3B05.2054	{fd:0280E3830080}{n}Thanks to {name:0180}, the Knight in Black's advance was driven back!{n}{wait}{clear}But the knight Reiv was carried off by the Knight in Black!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.216C	{name:0180} rescued the lord's daughter, who was held captive by Busik, now a monster.{n}{wait}{clear}Busik seems to have gone into hiding, but the danger of attacks on nearby villages has passed.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.2234	{fd:0680E2830080}{n}Thanks to {name:0180}, the monster was driven off!{n}{wait}{clear}And after what that monster said, Rush left Yaruru's side.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
-3B05.22E8	{name:0180} has stopped the calamity of {name:0380}!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
+3B05.22E8	{name:0180} has stopped the calamity that befell {name:0380}!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.2336	{fd:0680E2830080}{n}Thanks to {name:0180}, the monster was driven off!{n}{wait}{clear}And the sacred beast that appeared here again was killed by the monster, they say!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.2432	Thanks to {name:0180}, the monster was driven off!{n}{wait}{clear}But as it fled, the monster carried off the hero candidate, the daughter of Omron, they say!{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
 3B05.24DE	{fd:0C80E3830080}{n}Thanks to {name:0180}, the monster was driven off!{n}{wait}{clear}The monster's menace was stopped, but the hero Tia was carried off!{n}{wait}{clear}Sylphe, the fairy who'd been with Tia since she was little, never appeared when Tia was in danger. No one knows where Sylphe is either.{n}{wait}{clear}Peace level up 20 points!{n}{wait}{clear}{end}
@@ -29,7 +29,7 @@ id	en
 3B0A.1A98	The hero Tia's soul, which was with Remiel-sama, was destroyed by someone's hand.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.1B18	The hero candidate Tia was carried off by someone!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
 3B0A.1B80	The missing hero Tia was carried off by someone!{n}{wait}{clear}{end}
-3B0A.1C32	Received {ins:03800180} AP from Gabriel-sama!{n}{wait}{clear}{end}
+3B0A.1C32	You got {ins:03800180} AP from Gabriel-sama!{n}{wait}{clear}{end}
 3B0A.1C66	Bonus: Requests cleared{f7:0380}{ins:03800280}{f7:0180}{n}　Bonus AP{f7:0380}{ins:03800480}{n}{wait}{clear}{end}
 3B0A.1CAE	{e0:1500}The ten years left to Infos have run out, and time in Infos has stopped forever!{n}{wait}{clear}{end}
 3B0A.1D12	{e0:1500}The heroes who could lift Infos's calamity are lost, and time in Infos has stopped forever!{n}{wait}{clear}{end}

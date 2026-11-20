@@ -20,6 +20,23 @@ def test_no_one_word_last_line():
     assert all(wrap.cells(ln) <= wrap.CELLS for ln in lines)
 
 
+def test_page_break_at_clause_not_mid_sentence():
+    # phase 8: greedy continuation left "shows up." alone on the next page; split at the last ', '/'. ' that fits
+    en = ("{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Bandit:{n}{f7:0380}{n}Tch... I finally get a fine batch of goods"
+          " together, and some meddler shows up.{n}{wait}{clear}{end}")
+    out = wrap.wrap(en)
+    assert "together,{n}{wait}{clear}{spk:E783}{n}and some meddler shows up." in out, out
+    for cells, _ in wrap.lines_report(out):
+        assert cells <= wrap.CELLS
+
+
+def test_page_break_moves_whole_sentence_when_no_clause_fits():
+    en = ("{spk:0001}{n}Alpha beta.{n}Gamma delta.{n}Whose story would you like to hear today, my dear friend"
+          " Angel?{n}{wait}{clear}{end}")
+    out = wrap.wrap(en)
+    assert "delta.{n}{wait}{clear}{spk:0001}{n}Whose story would you like to hear{n}today, my" in out, out
+
+
 def test_simplify_drops_only_soft_breaks():
     jp = "{e0:1600}{spk:0080}{n}よく来ましたね。{n}何か？{n}{wait}{clear}{end}"
     assert wrap.simplify(jp) == "{e0:1600}{spk:0080}{n}よく来ましたね。何か？{n}{wait}{clear}{end}"
@@ -55,6 +72,18 @@ def test_check_catches_code_mismatch_and_glyphs():
     errs = batches.check_row("x", "あ{n}{wait}{clear}{end}", "Ahあ{n}{wait}{clear}{end}", [])
     assert any("not in the font" in e for e in errs)
     assert batches.check_row("x", "あ{n}{wait}{clear}{end}", "-", []) == []
+
+
+def test_no_stray_page_fragments_or_odd_runs_in_the_script():
+    # phase 8 lints over the real script: a continuation page opening on "shows up." and an odd run before a name
+    # ("My name is  Raviel") both read badly in game
+    import subprocess
+    import pagesplit
+    root = Path(__file__).resolve().parent.parent
+    assert pagesplit.fragments() == []
+    r = subprocess.run([sys.executable, "-X", "utf8", str(root / "tools" / "oddname.py")], capture_output=True,
+                       text=True, encoding="utf-8", cwd=root)
+    assert r.returncode == 0 and r.stdout.strip() == "", r.stdout
 
 
 def test_choice_glyphs_become_escapes():

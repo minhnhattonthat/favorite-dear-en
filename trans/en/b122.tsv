@@ -42,7 +42,7 @@ id	en
 3A76.2684	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}I see... Well, keep it anyway. It may come in handy.{n}{wait}{clear}{spk:0080}{n}...That's all I wanted. Sorry to call you out.{n}{fd:018000800380}{n}{wait}{clear}{end}
 3A76.27E0	{fb:2C81}{n}{spk:0080}{n}{e5:0580}{n}Good grief, you can't even accept such a small gift...{n}{wait}{clear}{spk:0080}{n}My business is done. You may go back.{n}{wait}{clear}{end}
 3A76.2864	{fb:2D81}{n}{spk:0080}{n}{e5:0580}{n}Good grief, you can't even accept such a small gift...{n}{wait}{clear}{spk:0080}{n}My business is done. You're free to go back.{n}{wait}{clear}{end}
-3A76.28EE	{spk:0080}{n}{e5:0380}{n}It's been quite a while, {name:0080}.{n}{wait}{clear}{end}
+3A76.28EE	{spk:0080}{n}{e5:0380}{n}It's been a long while, {name:0080}.{n}{wait}{clear}{end}
 3A76.2922	{fb:0080}{n}{spk:E783}{n}What is it, Sievas?{n}{wait}{clear}{end}
 3A76.2954	{fb:0180}{n}{spk:E783}{n}What's wrong, Sievas?{n}{wait}{clear}{end}
 3A76.2986	{spk:0080}{n}You're the one who asked me to be a hero, aren't you? And yet you hardly come with any requests... What exactly do you intend?{n}{wait}{clear}{end}

@@ -1,0 +1,69 @@
+id	en
+3AA9.34A2	{spk:0080}{n}That's right. And it's your fault. Giving me jobs is fine, but isn't it a bit too much?{n}{wait}{clear}{spk:0080}{n}I get tired too, you know. If you don't let me rest a little, I'm going to collapse...{n}{wait}{clear}{end}
+3AA9.3682	{fb:6480}{n}{spk:0080}{n}{e5:0280}{n}Apologizing won't help...{n}{wait}{clear}{spk:0080}{n}Not noticing until I tell you? Something's wrong with you.{n}{fd:088000800180}{n}{fe:088001800180}{n}{fe:088002800180}{n}{wait}{clear}{end}
+3AA9.37BE	{fb:C880}{n}{spk:0080}{n}{e5:0280}{n}Oh, is that so. ...Jeez, what a hopeless angel!{n}{wait}{clear}{spk:0080}{n}Fine, then I'll work till I drop dead in a ditch. But in exchange, you're paying me back properly.{n}{wait}{clear}{spk:0080}{n}Got it?!{n}{fe:088000800180}{n}{fd:088001800180}{n}{fd:088002800180}{n}{wait}{clear}{end}
+3AA9.399A	{fb:2C81}{n}{spk:0080}{n}{e5:0280}{n}...Jeez, doesn't it occur to you that it must be serious if I'm asking for something like this?{n}{wait}{clear}{spk:0080}{n}Well, if you say so, I'll put up with it a little longer. But next time I ask... you know what I mean?{n}{fd:088001800180}{n}{fe:088002800180}{n}{wait}{clear}{end}
+3AB1.12B8	{spk:0080}{n}Huh? You actually came. Showing up the second you're called, how earnest. Well done, well done.{n}{wait}{clear}{end}
+3AB1.1316	{fb:0080}{n}{spk:E783}{n}...What is it you need?{n}{wait}{clear}{end}
+3AB1.1344	{fb:0180}{n}{spk:E783}{n}...What do you need?{n}{wait}{clear}{end}
+3AB1.1370	{spk:0080}{n}{e5:0080}{n}Nothing really. I just wanted to test whether you'd really come if I called.{n}{wait}{clear}{spk:0080}{n}I don't think many people are as earnest as you. Are all angels like that?{n}{wait}{clear}{end}
+3AB1.142A	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛No, I don't think so.　｝{n}{f7:0080}｛What do you think, Ashe?｝{n}{f7:0080}｛I wouldn't know.　　　　｝{n}{end}
+3AB1.1542	{fb:6480}{n}{spk:0080}{n}{e5:0080}{n}Hmm, so you're special? But why not let loose once in a while? Otherwise you'll wear yourself out, really.{n}{wait}{clear}{spk:0080}{n}Don't overdo the hard work. Well, that's all I wanted. See you.{n}{fd:098000800580}{n}{wait}{clear}{end}
+3AB1.16E6	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}How would I know something like that? Well, since you all serve God, I guess you're all earnest.{n}{wait}{clear}{spk:0080}{n}But when it comes to earnestness, aren't you above average? I really think so.{n}{fd:098000800380}{n}{wait}{clear}{end}
+3AB1.18C2	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}Oh, okay. Well, I don't know either, so whatever.{n}{wait}{clear}{spk:0080}{n}Then that's about all I wanted, so hurry on back to the sky.{n}{wait}{clear}{end}
+3AB1.1A00	{spk:0080}{n}{e5:0680}{n}Oh, here you are. Of course, when a cute girl asks, an angel comes flying.{n}{wait}{clear}{end}
+3AB1.1A64	{fb:0080}{n}{spk:E783}{n}...... Is there something you need, Ashe?{n}{wait}{clear}{spk:0080}{n}What's with the exasperated face? How will you get by if you can't keep up with a little joke?{n}{wait}{clear}{end}
+3AB1.1AFE	{fb:0180}{n}{spk:E783}{n}...... Do you need something... Ashe?{n}{wait}{clear}{spk:0080}{n}What's with the exasperated face? How will you get by if you can't keep up with a little joke?{n}{wait}{clear}{end}
+3AB1.1B9E	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Your jokes are advanced.　　｝{n}{f7:0080}｛So, what do you need?　　　｝{n}{f7:0080}｛Teach me the knack someday.｝{n}{end}
+3AB1.1C9E	{fb:6480}{n}{spk:0080}{n}{e5:0180}{n}That's it. That's how you answer. You can do it if you try!{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}What I mean is, relax your shoulders a bit. Be bold. You're an angel, after all. Good luck!{n}{fd:098000800580}{n}{wait}{clear}{end}
+3AB1.1E5A	{fb:C880}{n}{spk:0080}{n}{e5:0580}{n}You really are serious through and through...{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Oh well. ...Loosen up a little. It's tiring just watching you.{n}{wait}{clear}{end}
+3AB1.1FBA	{fb:2C81}{n}{spk:0080}{n}{e5:0680}{n}Okay. That's the kind of attitude I wanted you to have.{n}{wait}{clear}{spk:0080}{n}You're way too serious. If you relax just a bit more, I bet things will go better! Right?{n}{fd:098000800380}{n}{wait}{clear}{end}
+3AB1.215C	{spk:0080}{n}{e5:0680}{n}Oh... You came...{n}{wait}{clear}{end}
+3AB1.2192	{fb:0080}{n}{spk:E783}{n}What is it, Ashe? Do you need something?{n}{wait}{clear}{end}
+3AB1.21D2	{spk:0080}{n}{e5:0080}{n}Oh... yeah. Kind of... I was wondering what you were doing...{n}{wait}{clear}{end}
+3AB1.222E	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Is there something to talk about?｝{n}{f7:0080}｛You're a bit odd today, Ashe.　　｝{n}{f7:0080}｛Did you eat something bad?　　　　｝{n}{end}
+3AB1.22BA	{fb:6480}{n}{spk:0080}{n}{e5:0480}{n}Huh, oh... Um... It's not really like that...{n}{wait}{clear}{spk:0080}{n}{e5:0180}{n}Ha ha... sorry. Looking at your face somehow calmed me down. It's nothing! Thanks for coming!{n}{fd:098000800580}{n}{wait}{clear}{end}
+3AB1.23A6	{fb:C880}{n}{spk:0080}{n}{e5:0380}{n}Wh-what?! I thought you might have worries too, so I was going to listen to you.{n}{wait}{clear}{spk:0080}{n}...Fine, forget you... Sorry for calling you out over this! Sorry! Bye!{n}{wait}{clear}{end}
+3AB1.249A	{fb:2C81}{n}{spk:0080}{n}{e5:0380}{n}No way... What's that? ...I never thought you'd say something so totally lame...{n}{wait}{clear}{spk:0080}{n}{e5:0180}{n}But that's just like you. ...Somehow it's a relief. Come say silly things again. It's fun.{n}{fd:098000800380}{n}{wait}{clear}{end}
+3AB1.258C	{spk:0080}{n}Glad you came. There's something I want to show you. Look, this.{n}{wait}{clear}{end}
+3AB1.25DE	{spk:E783}{n}A {name:0280}.{n}{wait}{clear}{spk:0080}{n}I was thinking of giving it to you... Will you take it?{n}{wait}{clear}{end}
+3AB1.2738	{fb:6480}{n}{spk:0080}{n}{e5:0080}{n}Good... Then here.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}When you look that happy, I feel like I did something good. It makes me kind of happy too.{n}{fd:098000800580}{n}{wait}{clear}{end}
+3AB1.2890	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}"Since I offer"? Hmm... You don't have to force yourself to take it. ...Just kidding. Here.{n}{wait}{clear}{spk:0080}{n}Now, an order!! Don't let go of that for a while. I gave it to you, after all.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}Heh heh, see you. Take good care of it!{n}{fd:098000800380}{n}{wait}{clear}{end}
+3AB1.2AA4	{fb:2C81}{n}{spk:0080}{n}{e5:0380}{n}Whaaat?! Why? I went to all the trouble...{n}{wait}{clear}{spk:0080}{n}Ugh... fine, I get it, you dumb angel! Can't you do something about those vows? Fix it by next time, no matter what.{n}{wait}{clear}{spk:0080}{n}Promise!{n}{wait}{clear}{end}
+3AB1.2C42	{spk:0080}{n}{e5:0380}{n}There you are, you happy-go-lucky angel. Today I'm finally telling you off.{n}{wait}{clear}{end}
+3AB1.2C92	{fb:0080}{n}{spk:E783}{n}What is it, Ashe?{n}{wait}{clear}{end}
+3AB1.2CC2	{fb:0180}{n}{spk:E783}{n}What's wrong, Ashe?{n}{wait}{clear}{end}
+3AB1.2CF0	{spk:0080}{n}...Listen up! I'm all fired up about my mission as a hero, so ask me for more stuff!{n}{wait}{clear}{spk:0080}{n}Everyone calls me a hero, but like this... don't I look like an idiot?!{n}{wait}{clear}{end}
+3AB1.2EC4	{fb:6480}{n}{spk:0080}{n}{e5:0380}{n}Yeah? Did my enthusiasm get through a little? But that doesn't mean I want only the hard jobs.{n}{wait}{clear}{spk:0080}{n}Give me ones that sound fun. Got it?{n}{fd:098000800180}{n}{fe:098002800180}{n}{wait}{clear}{end}
+3AB1.3020	{fb:C880}{n}{spk:0080}{n}{e5:0380}{n}Really? ...Sounds fishy. Oh well. I'll believe you, just for today.{n}{wait}{clear}{spk:0080}{n}Then I'll be waiting, so bring me some work, properly.{n}{fe:098002800180}{n}{fd:098001800180}{n}{wait}{clear}{end}
+3AB1.31A4	{fb:2C81}{n}{spk:0080}{n}{e5:0380}{n}What's that supposed to mean?! Did you never plan to ask me for anything from the start?!{n}{wait}{clear}{spk:0080}{n}Fine, forget it! Go home, you dumb angel!!{n}{fe:098000800180}{n}{fd:098001800180}{n}{fd:098002800180}{n}{wait}{clear}{end}
+3AB1.3322	{spk:0080}{n}You finally came...{n}{wait}{clear}{end}
+3AB1.3346	{fb:0080}{n}{spk:E783}{n}What is it, Ashe?{n}{wait}{clear}{end}
+3AB1.339E	{spk:0080}{n}{e5:0380}{n}Listen... It's nice that you let me shine, but lately aren't you working me a bit hard?{n}{wait}{clear}{spk:0080}{n}If you don't think about letting me rest once in a while, I'm going to be worn out...{n}{wait}{clear}{end}
+3AB1.346A	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛I'm sorry...　　　　　　　｝{n}{f7:0080}｛Can't you try a bit more?｝{n}{f7:0080}｛Don't complain to me.　　｝{n}{end}
+3AB1.34EA	{fb:0B80}{n}{spk:E783}{n}{f7:0080}｛I'm sorry...　　　　　　　｝{n}{f7:0080}｛Can't you try a bit more?｝{n}{f7:0080}｛Please don't grumble.　　｝{n}{end}
+3AB1.356A	{fb:6480}{n}{spk:0080}{n}{e5:0680}{n}That's it. You catch on quick. Just let me rest a little, that's all.{n}{wait}{clear}{spk:0080}{n}Then it's a promise. If you forget, we're through. Got it?{n}{fd:098000800180}{n}{fe:098001800180}{n}{fe:098002800180}{n}{wait}{clear}{end}
+3AB1.36E6	{fb:C880}{n}{spk:0080}{n}{e5:0580}{n}Yes, yes, I get it. When it comes to your heroes, you really don't hold back...{n}{fe:098001800180}{n}{fd:098002800180}{n}{wait}{clear}{end}
+3AB1.37EE	{fb:2C81}{n}{spk:0080}{n}{e5:0380}{n}Oh, is that so! Fine!! I'll try a little harder. That's what you want, right?{n}{wait}{clear}{spk:0080}{n}Jeez... I'm asking because I'm tired, and you say something even more tiring. What kind of angel are you...{n}{fe:098000800180}{n}{fd:098001800180}{n}{fd:098002800180}{n}{wait}{clear}{end}
+3AB9.0EEA	{fb:0E80}{n}Yes, I'll tell them so.{n}{wait}{clear}{end}
+3AB9.0F18	{fb:0F80}{n}Okay. But are you sure?{n}{wait}{clear}{end}
+3AB9.0F4C	{fb:1080}{n}Okay! Then I'll pass that along.{n}{wait}{clear}{end}
+3AB9.0F84	{fb:1180}{n}I see... But I'm sure they'll be sad.{n}{wait}{clear}{end}
+3AB9.0FC6	{fb:0E80}{n}{e0:1700}{spk:0080}{n}Angel, a hero has asked to see you.{n}{wait}{clear}{end}
+3AB9.1008	{fb:0F80}{n}{e0:1800}{spk:0080}{n}Angel, there's a hero who wishes to see you.{n}{wait}{clear}{end}
+3AB9.1052	{fb:1080}{n}{e0:1900}{spk:0080}{n}Angel, there's a hero who wants to see you.{n}{wait}{clear}{end}
+3AB9.109E	{fb:1180}{n}{e0:1A00}{spk:0080}{n}Angel, someone wishes to see you.{n}{wait}{clear}{end}
+3AB9.10EC	{e0:E0FF}The hero {name:0280} wishes to see you.{n}{wait}{clear}{e0:E0FF}Will you go to see {name:0280}?{n}{wait}{clear}{e0:E0FF}{f7:0080}｛Go　　　｝{n}{f7:0080}｛Don't go｝{n}{end}
+3AB9.117A	Two heroes, {name:0280} and {name:0380}, wish to see you.{n}{wait}{clear}{e0:E0FF}Will you go to see one of them?{n}{wait}{clear}{f7:0080}｛See {name:0280}｝{n}{f7:0080}｛See {name:0380}｝{n}{f7:0080}｛See no one｝{n}{end}
+3ABC.1270	{spk:0080}{n}Oh, sooner than I expected. Knowing you, I thought you'd show up at a more leisurely pace.{n}{wait}{clear}{end}
+3ABC.12DA	{fb:0080}{n}{spk:E783}{n}What is it you need?{n}{wait}{clear}{end}
+3ABC.1332	{spk:0080}{n}Nothing... Nothing in particular. I just felt like calling you...{n}{wait}{clear}{end}
+3ABC.1380	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Since I'm here, shall we talk?　　｝{n}{f7:0080}｛Then call me if anything comes up.｝{n}{f7:0080}｛I see. Then I'll go back.　　　　｝{n}{end}
+3ABC.14B0	{fb:6480}{n}{spk:0080}{n}{e5:0680}{n}Oh my... Are you being considerate of me? You don't have to force yourself.{n}{wait}{clear}{spk:0080}{n}Oh well. I've learned you're someone I can trust, a little.{n}{wait}{clear}{spk:0080}{n}Sorry for teasing you, Angel.{n}{fd:0B8000800580}{n}{wait}{clear}{end}
+3ABC.1680	{fb:C880}{n}{spk:0080}{n}{e5:0680}{n}Heh heh... Are you really fine with that, Angel? You're awfully kind-hearted.{n}{wait}{clear}{spk:0080}{n}Well, if you say so, I'll feel free to call you again.{n}{fd:0B8000800380}{n}{wait}{clear}{end}
+3ABC.1804	{fb:2C81}{n}{spk:0080}{n}{e5:0580}{n}Oh my, are you angry? Fine, but if you lose your temper over this, you'll never get along with humans.{n}{wait}{clear}{spk:0080}{n}Remember this... Humans are all fickle and selfish creatures...{n}{wait}{clear}{end}
+3ABC.19B6	{spk:0080}{n}Oh, Angel. You came. Thanks for your trouble.{n}{wait}{clear}{end}
+3ABC.19F4	{fb:0080}{n}{spk:E783}{n}Is there something you need, Nasadia?{n}{wait}{clear}{spk:0080}{n}I wondered how you were doing. A little break like this is necessary sometimes. Or was I meddling?{n}{wait}{clear}{end}
+3ABC.1B48	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛No, thank you, Nasadia.｝{n}{f7:0080}｛If not, I'll go back...｝{n}{f7:0080}｛Then shall we go out?　｝{n}{end}
+3ABC.1C6C	{fb:6480}{n}{spk:0080}{n}{e5:0680}{n}Heh heh. What's wrong? You don't have to answer so seriously.{n}{wait}{clear}{spk:0080}{n}{e5:0180}{n}But maybe that seriousness is your style... You might be onto something, you know.{n}{fd:0B8000800580}{n}{wait}{clear}{end}
+3ABC.1D46	{fb:6580}{n}{spk:0080}{n}{e5:0680}{n}Heh heh. What's wrong? You don't have to answer so seriously.{n}{wait}{clear}{spk:0080}{n}{e5:0180}{n}Being too serious wears you out, doesn't it...? Take it a little easier, Angel.{n}{fd:0B8000800580}{n}{wait}{clear}{end}

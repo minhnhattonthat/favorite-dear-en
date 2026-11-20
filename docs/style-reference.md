@@ -28,7 +28,7 @@ Examples are from `trans/en/`; reuse the stock lines word for word so repeated s
 - Tia: gentle, timid, polite ("Oh dear...", "I'll do my best."); calls the angel "Angel".
 - Sylphe: bratty fairy, Tia's friend ("Nooothing.", "So there! Hmph!!").
 - Fiana: mercenary, money-minded, breezy ("I kno-ow!", "Sigh... Your jobs never pay, do they, Angel...").
-- Yaruru: young boy, eager ("Okay! Angel, I'll do it."); お姉ちゃん in female-angel variants stays neutral ("you"/"Angel"), "Big Sis" only where the line is about the angel's gender (glossary ruling).
+- Yaruru: young boy, eager ("Okay! Angel, I'll do it."); 天使様 "Angel"; once the angel lets him say お姉ちゃん, every such row is "Big Sis" (D13). Honorifics on names stay (D12: "Sievas-sama", "Tia-san").
 - Mission offers ({fb:..} files): each hero's accept/refuse lines exist per hero; keep the shared JP lines worded
   alike ("I'll take it on", "Try someone else", "I'll pass this time").
 - Rasuel: soft-spoken former angel, calls Nasadia "Nasa".

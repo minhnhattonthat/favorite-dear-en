@@ -104,9 +104,9 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ラッシュ | Rush | | Yaruru's sacred beast ("he") | |
 | グレイ | Gray | | Beasia's family and her dojo ("the Gray-style dojo", グレイ流道場) | |
 | ウォルフラム | Wolfram | | General Wolfram, Fangam royalist commander (Ashe event) | |
-| ステレンス | Sterens | | usurper king of Fangam, empowered by Apollyon (Ashe event); "Lord Sterens" to his soldiers | |
+| ステレンス | Sterens | | usurper king of Fangam, empowered by Apollyon (Ashe event); "Sterens-sama" to his soldiers (D12) | |
 | バーンズ | Barnes | | guardian beast of the fairy world, servant of Iuvart (Tia event); broken speech ("Me... beat you") | |
-| ティタニア | Titania | | fairy queen ("Lady Titania") | |
+| ティタニア | Titania | | fairy queen (ティタニア様 "Titania-sama", D12) | |
 | フェリス | Felice | | noblewoman Sievas jilts at a soiree (Sievas event) | |
 
 ## Places

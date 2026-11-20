@@ -48,9 +48,9 @@ def test_event_scripts():
     exe = (TREE / "PSX.EXE").read_bytes()
     gdata = (TREE / "GDATA.BIN").read_bytes()
     fs = events.files(exe, gdata)
-    assert len(fs) == 468
+    assert len(fs) == 511  # 468 in the event tables + 43 battle scripts in the data table 0x4C50
     # Reiv's scouting scene (event file 18), seen on screen at work/qa/ram5 (docs/re/events.md)
-    data = fs[18][4]
+    data = [f for f in fs if f[0] != 0x4C50][18][4]
     line = "あの、あなたはヴォーラス騎士団の"
     off = data.find(TBL.encode(line))
     assert off == 0xD86

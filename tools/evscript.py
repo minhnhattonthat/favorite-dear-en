@@ -36,6 +36,9 @@ PRINTER_ARGS = {
     0xFFF7: 1, 0xFFF8: 1, 0xFFF9: 2, 0xFFFA: 1, 0xFFFB: 1, 0xFFFC: 0, 0xFFFD: 3, 0xFFFE: 3, 0xFFFF: 0,
 }
 PAD = (0xFFE0, 0xFFE0)
+# (opcode, argument index) whose reference is a message (show-message ops; from the original scripts: 1588 targets
+# of 0x3C arg 0 are message starts or inside messages, and every one the first sweep called an op parses as text).
+MSG_REFS = {(0x3C, 0), (0x3D, 2), (0x3D, 4), (0x90, 1), (0xD5, 1), (0xDE, 1)}
 
 
 class ParseError(ValueError):
@@ -59,6 +62,17 @@ class Script:
         self.tokens = set()  # pc of every token start inside messages
         self.items = self._sweep()
         self.refs = self._refs()
+        # A message may start with a glyph below the opcode count, which the first sweep reads as an op. Re-sweep
+        # until stable: a target of a show-message argument (MSG_REFS) is a message; so is an untargeted word right
+        # after a message that parses as one (code after a message is reached only by a reference).
+        for _ in range(8):
+            self.tokens = set()
+            msg_t = {t for op, i, t in self.refs if (self.code[op], i) in MSG_REFS}
+            items = self._sweep({t for _, _, t in self.refs}, msg_t)
+            if items == self.items:
+                break
+            self.items = items
+            self.refs = self._refs()
         self.segments = self._segments()
 
     def byte(self, pc):
@@ -82,13 +96,29 @@ class Script:
                 raise ParseError(f"pc {j:#x}: {v:04X} is neither a font code nor a printer code")
         return n  # the last message of a file may run to the end without 0xFFFF
 
-    def _sweep(self):
-        """[(kind, start, end)] covering code[start:n]; kind = 'op' | 'msg' | 'pad'."""
+    def _as_message(self, pc):
+        """end of a whole message starting at pc (valid codes up to an 0xFFFF), else None; leaves tokens alone"""
+        saved = set(self.tokens)
+        try:
+            end = self._text_end(pc)
+            ok = self.code[end - 1] == 0xFFFF
+        except ParseError:
+            ok = False
+        self.tokens = saved
+        return end if ok else None
+
+    def _sweep(self, targets=None, msg_targets=()):
+        """[(kind, start, end)] covering code[start:n]; kind = 'op' | 'msg' | 'pad'. With `targets` (all reference
+        targets) and `msg_targets` (show-message targets), a word there that parses as a whole message is one."""
         code, tab, n = self.code, self.tab, self.n
         pc, items = self.start, []
         while pc < n:
             op = code[pc]
-            if op >= 0xFF00 or len(tab) <= op < NCODES or op >= EN_LO:
+            after_msg = items and items[-1][0] in ("msg", "pad")
+            if (op >= 0xFF00 or len(tab) <= op < NCODES or op >= EN_LO
+                    or (pc in msg_targets and self._as_message(pc))
+                    or (targets is not None and after_msg and pc not in targets and op < NCODES
+                        and self._as_message(pc))):
                 end = self._text_end(pc)
                 items.append(("msg", pc, end))
                 pc = end

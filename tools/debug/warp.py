@@ -37,6 +37,7 @@ COLS = ["scene", "kind", "arg", "after", "frames", "card", "post", "proof", "not
 ARG_VAR = {"event": "EVENT", "exec": "EXE", "save": "SAVE"}
 NUMERIC = {"SAVE"}
 EXTRA = []  # extra emu.py args from --lua / --debugger / --var (hooks riding along a warp)
+SHOT_EVERY = 150  # --shot-every
 
 
 def load_scenes():
@@ -96,7 +97,7 @@ def run(sc, cue, state, timeout):
         lua.append(f"STATE='{p}'")
     cmd = [sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "emu.py"), os.path.abspath(cue),
            "--out", out, "--script", os.path.join(HERE, "warp.lua"), "--frames", sc["frames"] or "16000",
-           "--shot-every", "150", "--timeout", str(timeout)] + card
+           "--shot-every", str(SHOT_EVERY), "--timeout", str(timeout)] + card
     for v in lua:
         cmd += ["--var", v]
     cmd += EXTRA
@@ -145,7 +146,10 @@ def main():
     ap.add_argument("--lua", action="append", default=[], help="extra Lua hook appended after warp.lua (repeatable)")
     ap.add_argument("--var", action="append", default=[], help="extra NAME=LUA global (repeatable)")
     ap.add_argument("--debugger", action="store_true", help="interpreter mode (needed for L.on_exec hooks)")
+    ap.add_argument("--shot-every", type=int, default=150, help="frames between shots (default 150)")
     a = ap.parse_args()
+    global SHOT_EVERY
+    SHOT_EVERY = a.shot_every
     for f in a.lua:
         EXTRA.extend(["--script", os.path.abspath(f)])
     for v in a.var:

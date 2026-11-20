@@ -33,7 +33,7 @@ def events(disc):
 
 def test_every_script_parses(disc):
     files = evscript.script_files(*disc)
-    assert len(files) == 470  # 468 table entries + 2 orphans
+    assert len(files) == 513  # 468 event-table entries + 43 battle scripts (data table 0x4C50) + 2 orphans
     for sec, size, data, where in files:
         evscript.Script(data)  # raises ParseError
 

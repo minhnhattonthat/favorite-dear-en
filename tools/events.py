@@ -17,7 +17,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from tbl import Table  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-TABLES = [(0x5988, 229), (0x60B8, 71), (0x62F8, 171)]  # PSX.EXE offset, entries (docs/re/events.md)
+# PSX.EXE offset, entries (docs/re/events.md). 0x4C50 is the data table (images, maps, battle data); its 43 entries
+# 380-422 that start with argtab 6 are battle scripts (loaded by name as BM_xx__.BIN at 0x801CE000), with dialogue.
+TABLES = [(0x4C50, 423), (0x5988, 229), (0x60B8, 71), (0x62F8, 171)]
 NCODES = 0x66C
 LOAD_VA = 0x8016C608  # where the game loads a script file (verified: hero line at file 0xD94 = RAM 0x8016D39C)
 

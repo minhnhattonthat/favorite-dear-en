@@ -2,8 +2,30 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 18: **visual gate passes** on build ddee99dd; left:
-  textcover (textforce passes), hero stress save, a shot of the Sylphe/Gaap inline-speaker pages).
+- **Phase:** 8. QA in the emulator: in progress (worker 19: **hero save made; found a bug: hero skill names are
+  blank**; left: fix the skill drawer, hero sheets through the gate, textcover (textforce passes), Sylphe/Gaap shot).
+  Worker 19 (2026-11-21), build unchanged (ddee99dd). (a) **Hero stress save done:** `work/saves/heroes_w3.mcd` save 2
+  (game-written, week 3, AP 207, heroes Reiv + Griffin). How: `tools/lua/scoutwin.lua` (new, debug only) rewrites
+  the scout test `006D 0016 8002 0001 <yes> <no>` in the script buffer so every scout succeeds; play.py session
+  `work/play/hero4` on the **JP disc** (a JP savestate with the EN disc prints soup) from `work/states/week1.sstate`:
+  fairies hero search -> the week-1 action menu 訪問/スカウト/能力/地図 -> スカウト -> Reiv -> はい, same for
+  Griffin; they join after the week (their own map/"where should I go" scene); end the action phase, System -> Save
+  Data.2. New scenes `stress_hero_week/_week2/_ability/_reiv/_griffin/_save` (scenes.tsv, save 2). **Note:
+  `warp.py` defaults to the JP cue: pass `--cue C:/.../build/favorite_dear_en.cue`.** Shots: `work/qa/stress_hero/`
+  (EN build). Not yet sheeted/reviewed (`qa_sheets.py` + read-only pass + `qa_gate.py init/check`).
+  (b) **BUG (open): hero status screen, Skill 1-3 are blank** (`stress_hero_reiv/final.png`; JP shows レイヴレイク..).
+  Cause: the skill lines are drawn by 0x800C337C (only 3 callers, 0x8010F740/774/7A8): for each halfword it looks
+  the code up in a 256-entry table at 0x80026E18 and draws an 8x8 small-font cell ((i&31)*8, (i>>5)*8+0xC8, 8 px
+  apart); codes not in the table are skipped, so pair codes draw nothing. Strings: PSX.16641C.. (exe.tsv rows
+  823-858, translated, offsets from the u16 table 0x8002DBFC = 3 per hero, unchanged and correct). Box room at x 0xE8:
+  ~9 cells of 8 px. Fix options: hook 0x800C337C to print through the main-font pair path (the Name field next to it
+  already shows "Reiv・Vincelras" in 6-px pair letters, so find that drawer and reuse it), or encode the names in
+  the small font if it has Latin (then shorten to ~9 letters: needs a glossary pass). Also check equipment names
+  (Weapon/Armor/Other: empty on this save, may use the same drawer) and the "・" between given and family name
+  (glossary has no ・ rule; JP keeps it). (c) **Textforce pass 1 restarted** 07:40 (it had died): `work/qa/force_run2.txt`,
+  404 files / 7376 rows left at start, ~2.3 min per file. (d) Sylphe/Gaap: `textforce.py run --only 365E,3A37
+  --shot-every 30` (new option) on a fresh freeze `work/qa/force_build_spk` gave rc 1 for T1205 (battle events don't
+  load through `--event`); a textlog hook in a `--battle` run is still the way.
   Worker 18 (2026-11-21): build **ddee99ddfefd466ad8c41083a7efcc7c9d9c1fcb** (check ok 79, smoke ok).
   (a) b099 merged (3943.1746), rebuilt; re-toured epilog_end14 (its old run had died at f900, no sheets) and
   epilog_end16-23 on the new text; `qa_sheets.py`, `qa_gate.py init --build build/favorite_dear_en.bin`, 6 + 1

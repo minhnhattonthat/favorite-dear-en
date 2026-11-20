@@ -119,7 +119,7 @@ def cmd_run(a):
             cells.append(f"{o // 2},{e // 2},{1 if rid in miss else 0}")
         cmd = [sys.executable, "-X", "utf8", str(ROOT / "tools/debug/warp.py"), "--event", nm, "--cue", cue,
                "--root", str(out), "--frames", str(min(a.frames + 400 * len(miss), 200000)),
-               "--shot-every", "1500", "--timeout", "3600", "--var", f"MASH_EVERY={a.mash}",
+               "--shot-every", str(a.shot_every), "--timeout", "3600", "--var", f"MASH_EVERY={a.mash}",
                "--lua", str(ROOT / "tools/lua/textforce.lua"),
                "--var", f"TARGETS='{' '.join(cells)}'"]
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -160,6 +160,7 @@ def main():
             s.add_argument("--frames", type=int, default=16000, help="base frames; +400 per unshown row (cap 200000)")
             s.add_argument("--mash", type=int, default=20, help="frames between circle presses (warp.lua MASH_EVERY)")
             s.add_argument("--only", help="comma-separated hex sectors")
+            s.add_argument("--shot-every", type=int, default=1500, help="frames between shots (30 to catch a page)")
             s.add_argument("--pass", dest="pass_no", type=int, help="resume pass N (default: start the next one)")
     a = ap.parse_args()
     {"freeze": cmd_freeze, "run": cmd_run, "left": cmd_left}[a.cmd](a)

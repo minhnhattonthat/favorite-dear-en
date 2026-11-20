@@ -21,7 +21,7 @@ id	en
 3498.1470	Pick a present that suits their taste. For {name:0180}, I recommend {name:0380}!{n}{wait}{clear}{end}
 3498.14C0	Give {name:0180} {name:0380} once in a while, and they might see you in a new light.{n}{wait}{clear}{end}
 3498.1502	If I remember right...... {name:0180} cheers up when you give them {name:0380}.{n}{wait}{clear}{end}
-3498.1550	-
+3498.1550	Cookie{n}Rosary{n}Ellen's Charm{n}Tambourine{n}Expander{n}Rare Coin{n}Gold Slime{n}Silver Rosary{n}Mead{n}Rose Coin{n}Elixir{n}Borunga Nut{n}Mead{n}Gold Slime{n}Cypress Ring{n}Cookie{n}Gold Slime{n}Pretty Coin{n}Cypress Bangle{n}Gold Slime{n}Rare Brew{n}Gold Slime{n}Silver Sword{n}Music Box{n}Music Box{n}Rabbit Foot{n}Dragon Scale{n}Music Box{n}Pearl Earring{n}Bouquet{n}Mead{n}Dragon Scale{n}Bouquet{n}Pearl Earring{n}Cypress Ring{n}Music Box{n}{fc}Oh, welcome.{n}Whose story would you like to hear today?{n}{wait}{clear}{end}
 3498.1768	{fb:0080}{n}{name:0180} seems to really like {name:0280}.{n}{wait}{clear}{name:0180} seems very relaxed on the job.{n}{wait}{clear}{end}
 3498.17D8	{fb:0180}{n}{name:0180} and {name:0280} seem to be getting along quite well.{n}{wait}{clear}{end}
 3498.1816	{fb:0280}{n}{name:0180} and {name:0280} feel like they'll get on better from here.{n}{wait}{clear}{end}

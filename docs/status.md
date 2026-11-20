@@ -18,6 +18,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   ~300) and parts of 393D, 3976-3986 decode as kana/kanji soup under `tbl/jp.tbl` (codes parse; a substitution,
   likely a per-scene glyph set). Batched as `-` (b009-b013); find their table, re-extract, re-batch, translate.
   Glossary "Decisions from earlier batches" has the detail.
+- **Update 2026-11-20 (phase 7):** the mission-title rows and the rank row 3B2F.1100 are lists read by op 0xDE
+  (handler 0x800CB770: walks the row counting FFF0 separators up to FFFC, copies line N into a name slot, e.g.
+  `DE 8002 <ref> 3` in AN/ITEM; `DE 8007` in BS3OK), so they are now translated line for line (same `{n}` count;
+  ranks expanded from the EXE short forms). In-game check still owed (events AN, ITEM, BS3OK, SQA0Q are not loaded
+  by id, so `warp.py --event` cannot reach them). 3B77.0260 (END11_2, EPILOG save menu) stays Japanese until an
+  ending's save prompt is checked. Older note:
 - **Mission-title tables 3AD6.2C44 (b130), 3B01.0CEC (b134) and 3B05.1212 (b135), left `-`:** one `{fc}`-wrapped row holding every mission title
   (盗賊・闇馬車, タンブール教会襲撃, ...) run together with full-width numbers as fillers for unused ids. The game
   must index into it some other way (no row cuts), so lengths cannot change until phase 7 finds that index; translate

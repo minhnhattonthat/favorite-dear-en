@@ -790,8 +790,8 @@ PSX.15CA98	ＡＰ１０を消費します。{end}	Costs 10 AP.{end}
 PSX.1660E0	　セーブ{end}	  Save{end}	no direct pointer
 PSX.1660EC	ロード{end}	Load{end}	no direct pointer
 PSX.1660F4	キャンセル{end}	Cancel{end}	no direct pointer
-PSX.166100	スロット１{end}	Slot 1{end}	no direct pointer
-PSX.16610C	スロット２{end}	Slot 2{end}	no direct pointer
+PSX.166100	スロット１{end}	  Slot 1{end}	no direct pointer; 2 leading spaces centre it in the slot list's red bar (inkbox 18/20 px, JP fills the bar)
+PSX.16610C	スロット２{end}	  Slot 2{end}	no direct pointer; leading spaces as Slot 1
 PSX.166118	スロット１の{end}	Slot 1: {end}	no direct pointer
 PSX.166126	スロット２の{end}	Slot 2: {end}	no direct pointer
 PSX.166134	メモリーカードをチェック中です。{end}	Checking memory card.{end}	no direct pointer

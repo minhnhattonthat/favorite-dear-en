@@ -1,6 +1,6 @@
 """Text coverage for the event scripts (phase 8 gate, `$SKILL/scripts/textcover.py`).
 
-    python -X utf8 tools/textcover_map.py strings [--out build/strings.tsv]
+    python -X utf8 tools/textcover_map.py strings [--out build/strings.tsv] [--waive docs/text_unshown.tsv]
         one `row id<TAB>hex key` per text row of the event scripts in the English build; key = original sector << 16 |
         byte offset of the row in the built file. Rows of files that no event id loads come last.
     python -X utf8 tools/textcover_map.py convert LOGDIR [LOGDIR..]
@@ -90,6 +90,10 @@ def cmd_strings(a):
                 (lines if sec in loaded else orphan).append(f"{rid}\t{sec << 16 | off:X}")
     Path(a.out).write_text("".join(x + "\n" for x in lines + orphan), encoding="utf-8")
     print(f"{len(lines) + len(orphan)} rows -> {a.out}; {len(orphan)} in files no event id loads")
+    if a.waive:
+        why = "file in no event id's load path (events.event_names x GDATA name directory): unused leftover"
+        Path(a.waive).write_text("".join(f"{x.split(chr(9))[0]}\t{why}\n" for x in orphan), encoding="utf-8")
+        print(f"{len(orphan)} waivers -> {a.waive}")
 
 
 def cmd_convert(a):
@@ -139,6 +143,7 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("strings")
     s.add_argument("--out", default=str(ROOT / "build/strings.tsv"))
+    s.add_argument("--waive", help="also write the rows of unloaded files as textcover.py waivers (id<TAB>reason)")
     c = sub.add_parser("convert")
     c.add_argument("logdirs", nargs="+")
     a = ap.parse_args()

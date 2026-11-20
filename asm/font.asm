@@ -24,8 +24,8 @@ pair_orig:
 .include "pair_data.inc"
 pair_end:
 
-.if pair_end > 0x80125AF0
-    .error "font hook overflows the free run"
+.if pair_end > 0x80125500
+    .error "font hook overflows into the grown-string space (tools/insert.py REPOINT)"
 .endif
 
 .close

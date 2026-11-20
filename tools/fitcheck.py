@@ -4,7 +4,8 @@
 
 Allowed ranges, derived from the inputs rather than the build output:
 - PSX.EXE: each `script/exe.tsv` string slot (the JP string's byte length; the name-entry grid is skipped), the bytes
-  armips changes when asm/font.asm is assembled onto the untouched EXE, and moved scripts' table entries.
+  armips changes when asm/font.asm is assembled onto the untouched EXE, moved scripts' table entries, and for grown
+  strings the pointer-table entries that point at a slot plus insert.REPOINT (where they move).
 - TITLE/EPILOG.EXE: the bytes asm/epilog.asm changes on the untouched EXE (incl. its appended sector), table entries.
 - GOVER/FD_BALL/PS_MOV.EXE: moved scripts' (sector, size) table entries only.
 - GDATA.BIN: the slot of every script that has rows in `script/events/`, plus the appended tail (moved scripts).
@@ -73,6 +74,8 @@ def allowed(name, orig, new, orig_psx, patterns):
                 continue
             off = int(row["id"].split(".")[1], 16)
             r.append(range(off, off + len(table.encode(row["jp"]))))
+            r += [range(p, p + 4) for p in extract.table_pointers(orig, off)]  # repointed (insert.exe_text)
+        r.append(range(insert.REPOINT[0] - extract.EXE_VA, insert.REPOINT[1] - extract.EXE_VA))
         r += diff_ranges(orig, insert.assemble(orig))
     elif name == "TITLE/EPILOG.EXE":
         r += diff_ranges(orig, insert.assemble(orig, "epilog.asm"))

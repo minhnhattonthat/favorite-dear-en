@@ -240,9 +240,17 @@ def fit_slot(row, mode, size, table):
     return new
 
 
-def exe_text(exe, mode, table):
+# Grown PSX.EXE strings move here: the end of the zero run 0x80124E5D-0x80125AF0 that also holds the font hook
+# (asm/font.asm stops the hook at REPOINT[0]); a 48-letter test string at 0x80125900 drew fine (docs/re/space.md).
+REPOINT = (0x80125500, 0x80125AF0)
+
+
+def exe_text(exe, mode, table, report=None):
+    """PSX.EXE strings in place; in `en` mode a string longer than its slot moves to REPOINT when the pointer tables
+    point straight at it (extract.table_pointers), and its old slot keeps a cut copy. `report` gets one line per move."""
     out = bytearray(exe)
     mode = "marker" if mode == "torture" else mode  # torture: event dialogue only
+    cursor = REPOINT[0]
     for row in extract.read_tsv(extract.SCRIPT / "exe.tsv"):
         if "name-entry grid" in row["notes"]:
             continue  # fixed cells, not a string (phase 7: Latin grid)
@@ -253,8 +261,20 @@ def exe_text(exe, mode, table):
         old = table.encode(row["jp"])
         new = en.encode(text, table)
         if len(new) > len(old):
-            if mode == "en":
-                raise FitError(f"{row['id']}: {len(new)} bytes > {len(old)} (no repointing yet)")
+            ptrs = extract.table_pointers(exe, off) if mode == "en" else []
+            if mode == "en" and not ptrs:
+                raise FitError(f"{row['id']}: {len(new)} bytes > {len(old)} and no table pointer to move it")
+            if ptrs:
+                moved = new + bytes(-len(new) % 4)
+                if cursor + len(moved) > REPOINT[1]:
+                    raise FitError(f"{row['id']}: repoint space 0x{REPOINT[0]:08X}-0x{REPOINT[1]:08X} is full")
+                at = cursor - extract.EXE_VA
+                out[at:at + len(moved)] = moved
+                for p in ptrs:
+                    out[p:p + 4] = struct.pack("<I", cursor)
+                if report is not None:
+                    report.append(f"{row['id']} -> 0x{cursor:08X} ({len(new)} bytes, {len(ptrs)} pointer(s))")
+                cursor += len(moved)
             new = fit_slot(row, mode, len(old), table)
         out[off:off + len(old)] = new + bytes(len(old) - len(new))
     return bytes(out)

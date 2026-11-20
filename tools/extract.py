@@ -87,6 +87,13 @@ EXE_ARGS = {0xFFFE: 0, 0xFFFC: 0, 0xFFFD: 0, 0xFFFB: 0, 0xFF00: 1, 0xFF10: 1, 0x
 EXE_VA = 0x80010000 - 0x800  # vaddr = file offset + EXE_VA
 
 
+def table_pointers(exe, off):
+    """file offsets of the u32 entries in the EXE_DATA pointer tables that point straight at the string at `off`
+    (place names, items, ranks...). A string with one or more can move (tools/insert.py repoints a grown string)."""
+    va = struct.pack("<I", off + EXE_VA)
+    return [p for lo, hi in EXE_DATA for p in range(lo, hi, 4) if exe[p:p + 4] == va]
+
+
 def exe_strings(exe, lo, hi):
     """[(start, end)] FFFF-terminated strings in exe[lo:hi]. A string that ends 2 bytes off a 4-byte boundary is
     followed by one 0x0000 pad (verified: 347 pointers land just after it). Non-string halfwords are skipped."""

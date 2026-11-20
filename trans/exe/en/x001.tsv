@@ -14,13 +14,13 @@ PSX.155FE8	Frente Wood{n}{end}
 PSX.155FF8	Amiral Wood{n}{end}
 PSX.156008	Borsa Wood{n}{end}
 PSX.156018	Gem Wood{n}{end}
-PSX.156028	Ischia Mts.{n}{end}
-PSX.156038	Venera Mts.{n}{end}
-PSX.156048	Balgador Mts.{n}{end}
-PSX.15605C	Brust Mts.{n}{end}
+PSX.156028	Ischia Range{n}{end}
+PSX.156038	Venera Range{n}{end}
+PSX.156048	Balgador Range{n}{end}
+PSX.15605C	Brust Range{n}{end}
 PSX.15606C	Offland Hills{n}{end}
-PSX.156080	Ortenas Mts.{n}{end}
-PSX.156094	Lerche Mts.{n}{end}
+PSX.156080	Ortenas Range{n}{end}
+PSX.156094	Lerche Range{n}{end}
 PSX.1560A4	Bognog Hills{n}{end}
 PSX.1560B4	Mt.Salta{n}{end}
 PSX.1560C0	Mt.Ayutana{n}{end}
@@ -41,31 +41,31 @@ PSX.1561A4	Latinum Peak{n}{end}
 PSX.1561B8	Platea Lands{n}{end}
 PSX.1561C8	Karaza Ice{n}{end}
 PSX.1561D8	Yeltse Ice{n}{end}
-PSX.1561EC	Barba I.{n}{end}
+PSX.1561EC	Barba Isle{n}{end}
 PSX.1561F8	Junese Isle{n}{end}
 PSX.156208	Felize Isle{n}{end}
-PSX.156218	Karei I.{n}{end}
-PSX.156224	Pare I.{n}{end}
+PSX.156218	Karei Isle{n}{end}
+PSX.156224	Pare Isle{n}{end}
 PSX.156230	Tocador Isle{n}{end}
-PSX.156240	Lapsis I.{n}{end}
+PSX.156240	Lapsis Isle{n}{end}
 PSX.156250	Schrank Isle{n}{end}
-PSX.156260	Zecter I.{n}{end}
+PSX.156260	Zecter Isle{n}{end}
 PSX.156270	Jutao Isle{n}{end}
 PSX.156280	Brua Isles{n}{end}
-PSX.156290	Papie I.{n}{end}
+PSX.156290	Papie Isle{n}{end}
 PSX.15629C	Puerta Isle{n}{end}
 PSX.1562AC	Alshada Isle{n}{end}
 PSX.1562C0	Busdam Sands{n}{end}
 PSX.1562D0	Kaktak Sands{n}{end}
 PSX.1562E0	Ritzfeld{n}{end}
-PSX.1562EC	Primse R.{n}{end}
-PSX.1562FC	Borsa R.{n}{end}
-PSX.156308	Zolda R.{n}{end}
-PSX.156314	Drake R.{n}{end}
-PSX.156324	Berceuse R.{n}{end}
-PSX.156334	Tapet R.{n}{end}
-PSX.156344	Marem R.{n}{end}
-PSX.156354	Riera R.{n}{end}
+PSX.1562EC	Primse River{n}{end}
+PSX.1562FC	Borsa River{n}{end}
+PSX.156308	Zolda River{n}{end}
+PSX.156314	Drake River{n}{end}
+PSX.156324	Berceuse River{n}{end}
+PSX.156334	Tapet River{n}{end}
+PSX.156344	Marem River{n}{end}
+PSX.156354	Riera River{n}{end}
 PSX.156364	Paider Floe{n}{end}
 PSX.156374	Gruche{n}{end}
 PSX.156380	Voras{n}{end}

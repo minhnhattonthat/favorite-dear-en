@@ -78,6 +78,28 @@ def test_grown_script_moves(disc):
 
 
 @disc_only
+def test_grown_exe_string_moves(disc):
+    """a PSX.EXE string longer than its slot moves to insert.REPOINT: every table pointer to it now reads the full
+    English, and nothing outside the slots, the pointer entries and REPOINT changes"""
+    exe, _ = disc
+    table = extract.exe_table()
+    report = []
+    new = insert.exe_text(exe, "en", table, report)
+    if not report:
+        pytest.skip("no PSX.EXE string outgrows its slot with the current English")
+    rows = {r["id"]: r for r in extract.read_tsv(extract.SCRIPT / "exe.tsv")}
+    for line in report:
+        rid = line.split()[0]
+        off = int(rid.split(".")[1], 16)
+        ptrs = extract.table_pointers(exe, off)
+        want = en.encode(rows[rid]["en"], table)
+        for p in ptrs:
+            va = struct.unpack_from("<I", new, p)[0]
+            assert insert.REPOINT[0] <= va < insert.REPOINT[1]
+            assert new[va - extract.EXE_VA:va - extract.EXE_VA + len(want)] == want
+
+
+@disc_only
 def test_marker_relocation(disc):
     exe, gdata = disc
     new_gdata = insert.event_edits(gdata, exe, "marker", extract.event_table())

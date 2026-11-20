@@ -5,8 +5,10 @@
     python -X utf8 tools/exetext.py merge            check every output, write `en` into script/exe.tsv
     python -X utf8 tools/exetext.py todo             batches without an output file
 
-PSX.EXE strings are rewritten in place (tools/insert.py exe_text) until phase 7 repoints them, so each English string
-must encode (tools/en.py: two letters per halfword) to no more bytes than the Japanese slot. Batch input:
+PSX.EXE strings are rewritten in place (tools/insert.py exe_text), so each English string must encode (tools/en.py:
+two letters per halfword) to no more bytes than the Japanese slot, unless a pointer table points straight at it
+(place names, items, ranks: extract.table_pointers): such a string may grow and moves to free space, as long as no line
+is wider than the Japanese (2 letters per full-width cell, the room the original window had). Batch input:
 `id<TAB>bytes<TAB>jp` (bytes = the slot). Rows with the same JP form a family: only the first is batched and merge
 copies its English to the rest. Output: `id<TAB>en`, every control code kept in order ({n} = a hard line break in the
 original, kept where the layout needs it), or `-` to keep the Japanese (not text, or no fit until repointing).
@@ -55,6 +57,33 @@ def split():
     print(f"{len(reps)} families in {(len(reps) + PER_BATCH - 1) // PER_BATCH} batches")
 
 
+_EXE = []
+# Lists whose entries share one window, so each window fits the list's widest Japanese entry: place names, items,
+# hobbies, angel ranks, mission titles (file offsets of the strings, end exclusive).
+LISTS = [(0x155F3C, 0x156818), (0x158030, 0x1590D4), (0x1590D4, 0x159174), (0x159174, 0x159398),
+         (0x159B88, 0x159D90)]
+
+
+def cells(jp):
+    return max(map(len, re.sub(r"\{[^}]*\}", "\n", jp).split("\n")))
+
+
+def width_cap(rid, jp):
+    """letters a moved string may take: 2 per full-width cell of the widest Japanese entry in its list"""
+    off = int(rid.split(".")[1], 16)
+    for lo, hi in LISTS:
+        if lo <= off < hi:
+            return 2 * max(cells(r["jp"]) for r in rows() if lo <= int(r["id"].split(".")[1], 16) < hi)
+    return 2 * cells(jp)
+
+
+def movable(rid):
+    """the pointer tables point straight at this string, so tools/insert.py can move it when it grows"""
+    if not _EXE:
+        _EXE.append((ROOT / "work" / "disc" / "tree" / "PSX.EXE").read_bytes())
+    return bool(extract.table_pointers(_EXE[0], int(rid.split(".")[1], 16)))
+
+
 def check_row(rid, budget, jp, text, table, terms):
     if text == SKIP:
         return []
@@ -72,8 +101,12 @@ def check_row(rid, budget, jp, text, table, terms):
             errs.append(f"{rid}: line over {LINE} letters: {ln}")
     try:
         n = len(en.encode(text, table))
-        if n > budget:
-            errs.append(f"{rid}: {n} bytes > slot {budget}")
+        if n > budget and movable(rid):
+            cap = width_cap(rid, jp)
+            if max(map(len, plain.split("\n"))) > cap:
+                errs.append(f"{rid}: moves (grown), but a line is over the Japanese width of {cap} letters")
+        elif n > budget:
+            errs.append(f"{rid}: {n} bytes > slot {budget} (no table pointer, so it can't move)")
     except ValueError as e:
         errs.append(f"{rid}: {e}")
     jpt = re.sub(r"\{[^}]*\}", "", jp)

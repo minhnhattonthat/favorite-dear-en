@@ -186,10 +186,14 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
   to heroes (children to Reiv, 35E5, 37BF, 3A3C) stays "mister"; Tia to her brother (3A46-3A4A) "big brother".
 - Stock battle lines: 魔人 "Fiend", 魔族 "Demon", `{name:0180}はXを倒した` "{name:0180} defeated X.",
   `退けた` "drove off X."; 天使の手先 "the angel's lackey"; 天使の勇者 "the angel's hero".
-- PSX.EXE strings (trans/exe, in-place byte slots, so short forms): default angel name ラビエル "Raviel"; fairy
+- PSX.EXE strings (trans/exe; in-place byte slots, but list entries (places, items, ranks, mission titles) that grow
+  move to free space, up to 2 letters per cell of the list's widest Japanese entry: places 14, items 16, ranks 12,
+  mission titles 16; `exetext.py check` enforces it): default angel name ラビエル "Raviel"; fairy
   commands 待機 "Stand By", 天界へ "To Heaven", 勇者と同行 "Join Hero", 休暇 "Vacation", 勇者の発見 "Find Hero",
-  敵の探索 "Find Foe". Map names: 海 Sea, 森 Wood, 山脈 Mts., 山地 Hills, 山 "Mt.X" (no space), 峡谷 Rift, 峠 Gap,
-  島 Isle (I. when short), 川 R., 湖 "Lake X", 砂漠 Sands, 氷原 Ice. Angel ranks: 天使見習い Apprentice, 幼翼 Novice,
-  準翼/正翼/成翼 Jr.Angel/Angel/Sr.Angel, 翼宮 Court (Ct.), 準X Jr. X, choirs 能 Power, 権 Prince, 主 Lord,
-  座 Throne, 智 Cherub, 熾 Seraph, 大天使 Arch, 聖天使 Saint, X天使長 "HiX", 聖熾天使 Seraphim. Items: ピアス
-  Earring (Studs when short), ブレス Bangle, ビュート Lash, ブレスト Cuirass. Quiz (new game) answers "1 ..."/"2 ...".
+  敵の探索 "Find Foe". Map names: 海 Sea, 森 Wood, 山脈 Range, 山地 Hills, 山 "Mt.X" (no space), 峡谷 Rift, 峠 Gap,
+  島 Isle, 川 River, 湖 "Lake X", 砂漠 Sands, 氷原 Ice. Angel ranks: 天使見習い Apprentice, 幼翼 Novice,
+  準翼/正翼/成翼 Junior Angel/Angel/Senior Angel, 翼宮 Court, 準X翼宮 "Jr. X" (12 letters: "Junior Prince" won't
+  fit), choirs 能 Power, 権 Prince, 主 Lord, 座 Throne, 智 Cherub, 熾 Seraph, 大天使 Arch, 聖天使 Saint, 紫位 Violet,
+  X天使長 "Chief X", 聖熾天使 Seraphim. Items: ピアス Earring, ブレス Bangle, ビュート Lash, ブレスト Cuirass.
+  Mission titles: 盗賊・闇馬車 Dark Carriage, 魔物の罠 Monster's Trap, 教会襲撃 Church Raid. Quiz (new game) answers
+  "1 ..."/"2 ...".

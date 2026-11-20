@@ -26,8 +26,8 @@ PSX.158F00	King's Guard{n}{end}
 PSX.158F14	Lilith Crown{n}{end}
 PSX.158F28	Ras Crown{n}{end}
 PSX.158F38	Mermaid Earring{n}{end}
-PSX.158F4C	Ras Studs{n}{end}
-PSX.158F5C	Gigas Studs{n}{end}
+PSX.158F4C	Ras Earring{n}{end}
+PSX.158F5C	Gigas Earring{n}{end}
 PSX.158F6C	Criss Cross{n}{end}
 PSX.158F7C	Crystal Cross{n}{end}
 PSX.158F90	Ralcon Cross{n}{end}
@@ -61,10 +61,10 @@ PSX.159158	Drinking{n}{end}
 PSX.159168	Cooking{n}{end}
 PSX.159174	Apprentice{n}{end}
 PSX.159184	Novice{n}{end}
-PSX.159190	Jr.Angel{n}{end}
+PSX.159190	Junior Angel{n}{end}
 PSX.15919C	Angel{n}{end}
-PSX.1591A8	Sr.Angel{n}{end}
-PSX.1591B4	Ct.Angel{n}{end}
+PSX.1591A8	Senior Angel{n}{end}
+PSX.1591B4	Court Angel{n}{end}
 PSX.1591C0	Jr. Power{n}{end}
 PSX.1591D0	Court Power{n}{end}
 PSX.1591E0	Power{n}{end}
@@ -84,20 +84,20 @@ PSX.15929C	Jr. Seraph{n}{end}
 PSX.1592AC	Court Seraph{n}{end}
 PSX.1592BC	Seraph{n}{end}
 PSX.1592C8	Arch{n}{end}
-PSX.1592D4	Ct. Arch{n}{end}
+PSX.1592D4	Court Arch{n}{end}
 PSX.1592E4	White Arch{n}{end}
 PSX.1592F4	Saint{n}{end}
-PSX.159300	Ct. Saint{n}{end}
-PSX.159310	Vio.Saint{n}{end}
-PSX.159320	HiPrince{n}{end}
-PSX.15932C	HiPower{n}{end}
-PSX.159338	HiVirtue{n}{end}
-PSX.159344	HiLord{n}{end}
-PSX.159350	HiThrone{n}{end}
-PSX.15935C	HiCherub{n}{end}
-PSX.159368	HiSeraph{n}{end}
-PSX.159374	HiArch{n}{end}
-PSX.159380	HiSaint{n}{end}
+PSX.159300	Court Saint{n}{end}
+PSX.159310	Violet Saint{n}{end}
+PSX.159320	Chief Prince{n}{end}
+PSX.15932C	Chief Power{n}{end}
+PSX.159338	Chief Virtue{n}{end}
+PSX.159344	Chief Lord{n}{end}
+PSX.159350	Chief Throne{n}{end}
+PSX.15935C	Chief Cherub{n}{end}
+PSX.159368	Chief Seraph{n}{end}
+PSX.159374	Chief Arch{n}{end}
+PSX.159380	Chief Saint{n}{end}
 PSX.15938C	Seraphim{n}{end}
 PSX.159398	 can equip this item!{wait}{end}
 PSX.1593B4	Test: non-weapon items{wait}{end}

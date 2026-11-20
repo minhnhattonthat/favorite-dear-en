@@ -14,13 +14,13 @@ PSX.155FE8	フレンテの森{n}{end}	Frente Wood{n}{end}
 PSX.155FF8	アミラルの森{n}{end}	Amiral Wood{n}{end}	
 PSX.156008	ボルサの森{n}{end}	Borsa Wood{n}{end}	
 PSX.156018	ジェムの森{n}{end}	Gem Wood{n}{end}	
-PSX.156028	イスキア山脈{n}{end}	Ischia Mts.{n}{end}	
-PSX.156038	ベネーラ山脈{n}{end}	Venera Mts.{n}{end}	
-PSX.156048	バルガドル山脈{n}{end}	Balgador Mts.{n}{end}	
-PSX.15605C	ブルスト山脈{n}{end}	Brust Mts.{n}{end}	
+PSX.156028	イスキア山脈{n}{end}	Ischia Range{n}{end}	
+PSX.156038	ベネーラ山脈{n}{end}	Venera Range{n}{end}	
+PSX.156048	バルガドル山脈{n}{end}	Balgador Range{n}{end}	
+PSX.15605C	ブルスト山脈{n}{end}	Brust Range{n}{end}	
 PSX.15606C	オフランド山地{n}{end}	Offland Hills{n}{end}	
-PSX.156080	オルテナス山脈{n}{end}	Ortenas Mts.{n}{end}	
-PSX.156094	レルシェ山脈{n}{end}	Lerche Mts.{n}{end}	
+PSX.156080	オルテナス山脈{n}{end}	Ortenas Range{n}{end}	
+PSX.156094	レルシェ山脈{n}{end}	Lerche Range{n}{end}	
 PSX.1560A4	ボグノグ山地{n}{end}	Bognog Hills{n}{end}	
 PSX.1560B4	サルタ山{n}{end}	Mt.Salta{n}{end}	
 PSX.1560C0	アユタナ山{n}{end}	Mt.Ayutana{n}{end}	
@@ -41,31 +41,31 @@ PSX.1561A4	ラティナム雪山{n}{end}	Latinum Peak{n}{end}
 PSX.1561B8	プラテア地方{n}{end}	Platea Lands{n}{end}	
 PSX.1561C8	カラザ氷原{n}{end}	Karaza Ice{n}{end}	
 PSX.1561D8	イェルツェ氷原{n}{end}	Yeltse Ice{n}{end}	
-PSX.1561EC	バルバ島{n}{end}	Barba I.{n}{end}	
+PSX.1561EC	バルバ島{n}{end}	Barba Isle{n}{end}	
 PSX.1561F8	ジュネーズ島{n}{end}	Junese Isle{n}{end}	
 PSX.156208	フェリーゼ島{n}{end}	Felize Isle{n}{end}	
-PSX.156218	カレイ島{n}{end}	Karei I.{n}{end}	
-PSX.156224	パレー島{n}{end}	Pare I.{n}{end}	
+PSX.156218	カレイ島{n}{end}	Karei Isle{n}{end}	
+PSX.156224	パレー島{n}{end}	Pare Isle{n}{end}	
 PSX.156230	トカドール島{n}{end}	Tocador Isle{n}{end}	
-PSX.156240	ラプシス島{n}{end}	Lapsis I.{n}{end}	
+PSX.156240	ラプシス島{n}{end}	Lapsis Isle{n}{end}	
 PSX.156250	シュランク島{n}{end}	Schrank Isle{n}{end}	
-PSX.156260	ゼクター島{n}{end}	Zecter I.{n}{end}	
+PSX.156260	ゼクター島{n}{end}	Zecter Isle{n}{end}	
 PSX.156270	ジュタオ島{n}{end}	Jutao Isle{n}{end}	
 PSX.156280	ブルア群島{n}{end}	Brua Isles{n}{end}	
-PSX.156290	パピエ島{n}{end}	Papie I.{n}{end}	
+PSX.156290	パピエ島{n}{end}	Papie Isle{n}{end}	
 PSX.15629C	ピュエルタ島{n}{end}	Puerta Isle{n}{end}	
 PSX.1562AC	アルシャーダ島{n}{end}	Alshada Isle{n}{end}	
 PSX.1562C0	ブスダム砂漠{n}{end}	Busdam Sands{n}{end}	
 PSX.1562D0	カクタク砂漠{n}{end}	Kaktak Sands{n}{end}	
 PSX.1562E0	リッツ畑{n}{end}	Ritzfeld{n}{end}	
-PSX.1562EC	プリムゼ川{n}{end}	Primse R.{n}{end}	
-PSX.1562FC	ボルサ川{n}{end}	Borsa R.{n}{end}	
-PSX.156308	ゾルダ川{n}{end}	Zolda R.{n}{end}	
-PSX.156314	ドレイク川{n}{end}	Drake R.{n}{end}	
-PSX.156324	ベルスーズ川{n}{end}	Berceuse R.{n}{end}	
-PSX.156334	タペット川{n}{end}	Tapet R.{n}{end}	
-PSX.156344	マーレム川{n}{end}	Marem R.{n}{end}	
-PSX.156354	リエーラ川{n}{end}	Riera R.{n}{end}	
+PSX.1562EC	プリムゼ川{n}{end}	Primse River{n}{end}	
+PSX.1562FC	ボルサ川{n}{end}	Borsa River{n}{end}	
+PSX.156308	ゾルダ川{n}{end}	Zolda River{n}{end}	
+PSX.156314	ドレイク川{n}{end}	Drake River{n}{end}	
+PSX.156324	ベルスーズ川{n}{end}	Berceuse River{n}{end}	
+PSX.156334	タペット川{n}{end}	Tapet River{n}{end}	
+PSX.156344	マーレム川{n}{end}	Marem River{n}{end}	
+PSX.156354	リエーラ川{n}{end}	Riera River{n}{end}	
 PSX.156364	パイダー氷河{n}{end}	Paider Floe{n}{end}	
 PSX.156374	グルーチ{n}{end}	Gruche{n}{end}	
 PSX.156380	ヴォーラス{n}{end}	Voras{n}{end}	
@@ -142,14 +142,14 @@ PSX.156718	エスパルダ{n}{end}	Esparda{n}{end}
 PSX.156728	デュミナス{n}{end}	Duminas{n}{end}	
 PSX.156738	クヴァール{n}{end}	Kvaal{n}{end}	
 PSX.156748	ロルオーロの森{n}{end}	Lorolo Wood{n}{end}	
-PSX.15675C	ハルパス島{n}{end}	Halpas I.{n}{end}	
+PSX.15675C	ハルパス島{n}{end}	Halpas Isle{n}{end}	
 PSX.15676C	ラダール湖{n}{end}	Lake Radal{n}{end}	
-PSX.15677C	アロン島{n}{end}	Aron I.{n}{end}	
+PSX.15677C	アロン島{n}{end}	Aron Isle{n}{end}	
 PSX.156788	ドカドール湾{n}{end}	Docador Bay{n}{end}	
-PSX.156798	イクノス川{n}{end}	Iknos R.{n}{end}	
+PSX.156798	イクノス川{n}{end}	Iknos River{n}{end}	
 PSX.1567A8	トリニテ{n}{end}	Trinite{n}{end}	
 PSX.1567B4	バルドー湖{n}{end}	Lake Baldo{n}{end}	
-PSX.1567C4	パサール川{n}{end}	Pasar R.{n}{end}	
+PSX.1567C4	パサール川{n}{end}	Pasar River{n}{end}	
 PSX.1567D4	アルター{n}{end}	Alter{n}{end}	
 PSX.1567E0	草原{n}{end}	Lea{n}{end}	
 PSX.1567E8	森{n}{end}	Wd{n}{end}	
@@ -363,7 +363,7 @@ PSX.1584BC	シルバークラウン{n}{end}	Silver Crown{n}{end}
 PSX.1584D0	ティアラ{n}{end}	Tiara{n}{end}	
 PSX.1584DC	プリンセスガード{n}{end}	Princess Guard{n}{end}	
 PSX.1584F0	ソーンクラウン{n}{end}	Thorn Crown{n}{end}	
-PSX.158504	トイピアス{n}{end}	Toy Studs{n}{end}	
+PSX.158504	トイピアス{n}{end}	Toy Earring{n}{end}	
 PSX.158514	リングピアス{n}{end}	Hoop Earring{n}{end}	
 PSX.158524	スターピアス{n}{end}	Star Earring{n}{end}	
 PSX.158534	ダイヤピアス{n}{end}	Dia Earring{n}{end}	
@@ -514,8 +514,8 @@ PSX.158F00	キングスガード{n}{end}	King's Guard{n}{end}
 PSX.158F14	リリスクラウン{n}{end}	Lilith Crown{n}{end}	
 PSX.158F28	ラスクラウン{n}{end}	Ras Crown{n}{end}	
 PSX.158F38	マーメイズピアス{n}{end}	Mermaid Earring{n}{end}	
-PSX.158F4C	ラスピアス{n}{end}	Ras Studs{n}{end}	
-PSX.158F5C	ギガスピアス{n}{end}	Gigas Studs{n}{end}	
+PSX.158F4C	ラスピアス{n}{end}	Ras Earring{n}{end}	
+PSX.158F5C	ギガスピアス{n}{end}	Gigas Earring{n}{end}	
 PSX.158F6C	クリスクロス{n}{end}	Criss Cross{n}{end}	
 PSX.158F7C	クリスタルクロス{n}{end}	Crystal Cross{n}{end}	
 PSX.158F90	ラルコンクロス{n}{end}	Ralcon Cross{n}{end}	
@@ -549,10 +549,10 @@ PSX.159158	さけをのむ{n}{end}	Drinking{n}{end}
 PSX.159168	りょうり{n}{end}	Cooking{n}{end}	
 PSX.159174	天使見習い{n}{end}	Apprentice{n}{end}	
 PSX.159184	幼翼天使{n}{end}	Novice{n}{end}	
-PSX.159190	準翼天使{n}{end}	Jr.Angel{n}{end}	
+PSX.159190	準翼天使{n}{end}	Junior Angel{n}{end}	
 PSX.15919C	正翼天使{n}{end}	Angel{n}{end}	
-PSX.1591A8	成翼天使{n}{end}	Sr.Angel{n}{end}	
-PSX.1591B4	翼宮天使{n}{end}	Ct.Angel{n}{end}	
+PSX.1591A8	成翼天使{n}{end}	Senior Angel{n}{end}	
+PSX.1591B4	翼宮天使{n}{end}	Court Angel{n}{end}	
 PSX.1591C0	準能翼宮天使{n}{end}	Jr. Power{n}{end}	
 PSX.1591D0	正能翼宮天使{n}{end}	Court Power{n}{end}	
 PSX.1591E0	能天使{n}{end}	Power{n}{end}	
@@ -572,20 +572,20 @@ PSX.15929C	準熾翼宮天使{n}{end}	Jr. Seraph{n}{end}
 PSX.1592AC	正熾翼宮天使{n}{end}	Court Seraph{n}{end}	
 PSX.1592BC	熾天使{n}{end}	Seraph{n}{end}	
 PSX.1592C8	大天使{n}{end}	Arch{n}{end}	
-PSX.1592D4	翼宮大天使{n}{end}	Ct. Arch{n}{end}	
+PSX.1592D4	翼宮大天使{n}{end}	Court Arch{n}{end}	
 PSX.1592E4	白位大天使{n}{end}	White Arch{n}{end}	
 PSX.1592F4	聖天使{n}{end}	Saint{n}{end}	
-PSX.159300	翼宮聖天使{n}{end}	Ct. Saint{n}{end}	
-PSX.159310	紫位聖天使{n}{end}	Vio.Saint{n}{end}	
-PSX.159320	権天使長{n}{end}	HiPrince{n}{end}	
-PSX.15932C	能天使長{n}{end}	HiPower{n}{end}	
-PSX.159338	力天使長{n}{end}	HiVirtue{n}{end}	
-PSX.159344	主天使長{n}{end}	HiLord{n}{end}	
-PSX.159350	座天使長{n}{end}	HiThrone{n}{end}	
-PSX.15935C	智天使長{n}{end}	HiCherub{n}{end}	
-PSX.159368	熾天使長{n}{end}	HiSeraph{n}{end}	
-PSX.159374	大天使長{n}{end}	HiArch{n}{end}	
-PSX.159380	聖天使長{n}{end}	HiSaint{n}{end}	
+PSX.159300	翼宮聖天使{n}{end}	Court Saint{n}{end}	
+PSX.159310	紫位聖天使{n}{end}	Violet Saint{n}{end}	
+PSX.159320	権天使長{n}{end}	Chief Prince{n}{end}	
+PSX.15932C	能天使長{n}{end}	Chief Power{n}{end}	
+PSX.159338	力天使長{n}{end}	Chief Virtue{n}{end}	
+PSX.159344	主天使長{n}{end}	Chief Lord{n}{end}	
+PSX.159350	座天使長{n}{end}	Chief Throne{n}{end}	
+PSX.15935C	智天使長{n}{end}	Chief Cherub{n}{end}	
+PSX.159368	熾天使長{n}{end}	Chief Seraph{n}{end}	
+PSX.159374	大天使長{n}{end}	Chief Arch{n}{end}	
+PSX.159380	聖天使長{n}{end}	Chief Saint{n}{end}	
 PSX.15938C	聖熾天使{n}{end}	Seraphim{n}{end}	
 PSX.159398	に装備できるアイテムよ！{wait}{end}	 can equip this item!{wait}{end}	
 PSX.1593B4	テスト「武器以外のアイテム」{wait}{end}	Test: non-weapon items{wait}{end}	
@@ -667,15 +667,15 @@ PSX.159ADC	この勇者を生き返らせますか？{n}{end}	Revive this hero?{
 PSX.159AFC	勇者は{n}インフォスの災い取りのぞいた！{n}ボーナスＡＰ　１００{wait}{end}	The heroes{n}lifted the calamity on Infos!{n}Bonus AP 100{wait}{end}	
 PSX.159B3C	インフォスに災いがひろがった。{n}平和度が{val:00000100}悪化！{wait}{end}	Calamity spreads in Infos.{n}Peace level -{val:00000100}!{wait}{end}	
 PSX.159B74	レベルＵＰした。{n}{end}	Level up!{n}{end}	
-PSX.159B88	盗賊・闇馬車{n}{end}		
-PSX.159B98	魔物の罠{n}{end}	Ambush{n}{end}	
-PSX.159BA4	教会襲撃{n}{end}	Arson{n}{end}	
+PSX.159B88	盗賊・闇馬車{n}{end}	Dark Carriage{n}{end}	
+PSX.159B98	魔物の罠{n}{end}	Monster's Trap{n}{end}	
+PSX.159BA4	教会襲撃{n}{end}	Church Raid{n}{end}	
 PSX.159BB0	アドラメレク再び{n}{end}	Adramelech Again{n}{end}	
 PSX.159BC4	湿原の怪物{n}{end}	Bog Beast{n}{end}	
 PSX.159BD4	魔樹ボルンガ反乱{n}{end}	Borunga Revolt{n}{end}	
 PSX.159BE8	魔竜の侵略{n}{end}	Dragon War{n}{end}	
 PSX.159BF8	ミライヤ軍侵略{n}{end}	Miraya Invades{n}{end}	
-PSX.159C0C	魔竜再び{n}{end}	Dragon 2{n}{end}	
+PSX.159C0C	魔竜再び{n}{end}	Dragon Returns{n}{end}	
 PSX.159C18	山賊ドラッケン{n}{end}	Bandit Drakken{n}{end}	
 PSX.159C2C	翼ある者達{n}{end}	The Winged{n}{end}	
 PSX.159C3C	翼ある者達{n}{end}	The Winged{n}{end}	

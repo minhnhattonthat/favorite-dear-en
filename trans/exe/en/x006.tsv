@@ -57,15 +57,15 @@ PSX.159ADC	Revive this hero?{n}{end}
 PSX.159AFC	The heroes{n}lifted the calamity on Infos!{n}Bonus AP 100{wait}{end}
 PSX.159B3C	Calamity spreads in Infos.{n}Peace level -{val:00000100}!{wait}{end}
 PSX.159B74	Level up!{n}{end}
-PSX.159B88	-
-PSX.159B98	Ambush{n}{end}
-PSX.159BA4	Arson{n}{end}
+PSX.159B88	Dark Carriage{n}{end}
+PSX.159B98	Monster's Trap{n}{end}
+PSX.159BA4	Church Raid{n}{end}
 PSX.159BB0	Adramelech Again{n}{end}
 PSX.159BC4	Bog Beast{n}{end}
 PSX.159BD4	Borunga Revolt{n}{end}
 PSX.159BE8	Dragon War{n}{end}
 PSX.159BF8	Miraya Invades{n}{end}
-PSX.159C0C	Dragon 2{n}{end}
+PSX.159C0C	Dragon Returns{n}{end}
 PSX.159C18	Bandit Drakken{n}{end}
 PSX.159C2C	The Winged{n}{end}
 PSX.159C6C	Thief Slime{n}{end}

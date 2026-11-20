@@ -24,6 +24,15 @@ pair_orig:
 .include "pair_data.inc"
 pair_end:
 
+; Status screens' Sex value (function 0x80110FC0 copies these two 4-byte slots, 男{end} 女{end}, to its stack and
+; draws one). Only one 12-px cell of that field reaches the screen: "Male" pointed to from free space drew as "Ma"
+; (2026-11-21, work/qa/p8/sexz.png), so the value is one pair cell: "M" / "F" (docs/decisions.md D15).
+.org 0x80183FA4
+    .ascii  "M "                   ; a pair code is two ASCII bytes per halfword (tools/en.py)
+    .halfword 0xFFFF
+    .ascii  "F "
+    .halfword 0xFFFF
+
 .if pair_end > 0x80125500
     .error "font hook overflows into the grown-string space (tools/insert.py REPOINT)"
 .endif

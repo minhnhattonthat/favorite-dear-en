@@ -7,13 +7,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   line (`|` in `trans/staff/en.tsv`), roll verified to the closing cards (`work/qa/p8/cred_fixed.png`,
   `cred_card.png`). Review #5 is fully done. (b) graphics pipeline: `tools/gfx.py` + `gfx/eNNN.tsv` (rect, ink,
   shadow, jp, en; 4bpp LZSS images redrawn in place with en6x12 set proportionally; `insert.edits` and fitcheck
-  wired; `tests/test_gfx.py`). `gfx/e009.tsv` has 9 small labels (Trust Justice Stress Attack Guard Stamina Speed
-  Faith Wisdom), but **e009 is not what the status screens draw**: `warp.py hub_ability2` (angel) and the new
-  `hub_ability3` (fairy Shelly) are hi-res 640-px screens whose labels (天使/妖精 headers, 信仰心 知力 素早さ, 体力
-  攻撃力 防御力 ストレス, アイテム, 好感度, 能力, 勇者発見 敵の探索, 男) are still Japanese in the English build
-  (`work/qa/p8/status_en.png`). Where e009 shows in game is unknown. **Next:** find that source (VRAM dump with
-  `ppudump.lua`-style probe at hub_ability3 + `vramfind.py` over `work/gfx/gdata` and decompressed LZSS blocks;
-  e012-e014 are 320x240 status backgrounds with printed labels, check them first), add its gfx tsv, verify zoomed.
+  wired; `tests/test_gfx.py`). Worker 4 (2026-11-21): status screens done. Their labels are the 8bpp TIM
+  backgrounds e012 (fairy) e013 (angel) e014 (hero), found by a VRAM dump (`--lua tools/lua/dumpram_at.lua`);
+  `gfx.py` now also redraws raw 8bpp TIMs, columns `x y w h font ink shadow bg align jp en` (`bg ink` = erase only
+  the ink pixels by row inpainting, for textured panels; font `label` = `fonts/label14.txt`, DejaVu Sans Condensed
+  via `tools/labelfont.py`, docs/fonts.md). In game: `work/qa/warp/hub_ability2|3/f010950.png` English; the hero
+  screen (e014) is checked only as an image (`gfx.py png 14`): week2.mcd's third character is a fairy
+  (`hub_ability4`), a card with a hero is needed for it. Sex value 男/女 = PSX.EXE 0x80183FA4, one cell shows on
+  screen, now "M"/"F" (D15). e009 is still not seen anywhere. Build sha1 268ff21f3676ed8acb2808c53395b758483ca4be,
+  fitcheck ok, check ok. **Next:** e008 buttons below, then the rest of graphics.md.
   e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
   area x 10-47 y 91-99 per button; gfx.py needs a `bg` column (it clears to 0 now). Proposed: Plan Visit Status Map
   Scout System Back Mission Talk Gift. Build sha1 ac73a4b73fb8f746817a2bf7067a44b525be7970, fitcheck ok.

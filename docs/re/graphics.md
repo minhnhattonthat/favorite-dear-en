@@ -11,8 +11,8 @@ Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot 
 | Source | Kind | Japanese in it | Where seen |
 |---|---|---|---|
 | GDATA e008 | LZSS 4bpp 256 px | command buttons 予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る | angel/hero menus |
-| GDATA e009 | LZSS 4bpp 256 px | labels 信頼度 正義感 ストレス 攻撃力 防御力 体力 信仰心 知力 勇者 天使 妖精 行方不明 家出中 (English Name/Birth/Level/Class/Sex/Hobby/WEAPON/ARMOR/SPECIAL/EQUIP/PLEASANT already) | status screens |
-| GDATA e012-e014 | TIM 8bpp 320x240 | status-screen backgrounds with printed labels (体力 攻撃力 ... 信頼度 ... 経験値) | hero/fairy status |
+| GDATA e009 (not seen on any screen yet; the status screens draw e012-e014) | LZSS 4bpp 256 px | labels 信頼度 正義感 ストレス 攻撃力 防御力 体力 信仰心 知力 勇者 天使 妖精 行方不明 家出中 (English Name/Birth/Level/Class/Sex/Hobby/WEAPON/ARMOR/SPECIAL/EQUIP/PLEASANT already) | status screens |
+| GDATA e012-e014 | TIM 8bpp 320x240 (raw, one copy on the disc) | status-screen backgrounds: e012 fairy, e013 angel, e014 hero; labels in one ink index (43/203/154) on a textured panel | **English** (phase 8, gfx/e012-e014.tsv, ink erased by row inpainting, `warp.py hub_ability2/3`). Status-screen values: 男/女 is PSX.EXE 0x80183FA4, one cell on screen ("M"/"F") |
 | GDATA e015, e016 | LZSS 4bpp 256 px | name entry: カタカナ ひらがな 英字 END YES NO (months/zodiac English) | new game name entry |
 | GDATA e142 | TIM 4bpp | fairy panel: ストレス 発見 索敵 移動中 待機中 行方不明 | week screen (seen f10000 of ng2) |
 | GDATA e143 | TIM 8bpp | status icons 失 死 (and "Data.1-6") | map/battle sprites |

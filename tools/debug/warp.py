@@ -149,6 +149,8 @@ def main():
     ap.add_argument("--debugger", action="store_true", help="interpreter mode (needed for L.on_exec hooks)")
     ap.add_argument("--shot-every", type=int, default=150, help="frames between shots (default 150)")
     ap.add_argument("--root", default=None, help="output directory (default work/qa/warp)")
+    ap.add_argument("--frames", type=int, default=None,
+                    help="run length for --event/--battle runs (default 16500/17500; text coverage sweeps use more)")
     a = ap.parse_args()
     global SHOT_EVERY, ROOT
     SHOT_EVERY = a.shot_every
@@ -171,10 +173,10 @@ def main():
             sys.exit(f"unknown scene {name}; --list shows them")
         todo.append(table[name])
     for ev in a.event:
-        todo.append({"scene": "ev_" + ev.replace(":", "_"),"kind": "event", "arg": ev, "after": "mash", "frames": "16500",
+        todo.append({"scene": "ev_" + ev.replace(":", "_"),"kind": "event", "arg": ev, "after": "mash", "frames": str(a.frames or 16500),
                      "card": "", "post": "", "proof": "", "note": ""})
     for ev in a.battle:
-        todo.append({"scene": "bt_" + ev, "kind": "battle", "arg": ev, "after": "mash", "frames": "17500",
+        todo.append({"scene": "bt_" + ev, "kind": "battle", "arg": ev, "after": "mash", "frames": str(a.frames or 17500),
                      "card": "", "post": "", "proof": "1200", "note": ""})
     if not todo:
         ap.error("name a scene, --event NAME, --battle NAME or --all")

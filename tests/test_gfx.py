@@ -37,6 +37,29 @@ def test_images_fit_and_stay_in_rects():
 
 
 @need_disc
+def test_pss_files_fit_their_sectors_and_stay_in_rects():
+    files = gfx.pss_files()
+    assert files
+    for e in [e for e in gfx.entries() if gfx.is_pss(e)]:
+        img, new = gfx.redraw(None, None, e)
+        block = files[gfx.pss_path(e)]
+        orig = (gfx.TREE / gfx.pss_path(e)).read_bytes()
+        assert img.kind == "pss4" and img.decode(orig) == img.raw(img.pix)  # the reader roundtrips the original
+        assert -(-len(block) // gfx.SECTOR) <= -(-len(orig) // gfx.SECTOR) and img.decode(block) == img.raw(new)
+        inside = {(yy, xx) for r in gfx.rows(e) for yy in range(int(r["y"]), int(r["y"]) + int(r["h"]))
+                  for xx in range(int(r["x"]), int(r["x"]) + int(r["w"]))}
+        assert [i for i in range(len(new)) if new[i] != img.pix[i] and divmod(i, img.w) not in inside] == []
+
+
+def test_optimal_lzss_roundtrips_and_beats_greedy():
+    import random
+    rnd = random.Random(5)
+    raw = bytes(rnd.choice(b"\0\0\0\x11\x12\x21") for _ in range(6000)) + bytes(3000)
+    opt = lzss.compress_optimal(raw)
+    assert lzss.decompress(opt + bytes(16))[0] == raw and len(opt) <= len(lzss.compress(raw))
+
+
+@need_disc
 def test_ink_erase_leaves_no_japanese():
     """bg `ink` rows: after redraw, every ink-coloured pixel in a rect belongs to the English letters"""
     exe = (gfx.TREE / "PSX.EXE").read_bytes()

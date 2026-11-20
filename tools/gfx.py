@@ -26,9 +26,11 @@ GDATA sector outside the directory, e.g. the tutorial charts s40127: tools/timsc
   order; e203 widens its small boxes this way (border first, then the erased inside).
 Images: the game's LZSS raw images (12-byte header `u32 ?, u32 0, u16 width in halfwords, u16 height`, 4bpp when
 width = 64 halfwords; recompressed back into the entry's own slot, so it must fit the slot's sector-rounded size) and
-raw 8bpp TIMs (pixels replaced in place, same size)."""
+raw 8bpp TIMs (pixels replaced in place, same size), and the title screens' TITLE/*.PSS files (gfx/TTL_OPT.tsv: the
+same LZSS 4bpp form, 256x256, no CLUT; recompressed with lzss.compress_optimal, padded to the file's own size)."""
 import argparse
 import csv
+import re
 import struct
 import sys
 from pathlib import Path
@@ -66,10 +68,28 @@ def slot(exe, entry, gdata=None):
     return off, -(-t["end"] // SECTOR) * SECTOR
 
 
+def is_pss(entry):
+    """a title-screen file TITLE/<entry>.PSS (gfx/TTL_OPT.tsv), not a GDATA image"""
+    return isinstance(entry, str) and not re.fullmatch(r"s\d{5}", entry)
+
+
+def pss_path(entry):
+    return f"TITLE/{entry}.PSS"
+
+
 class Image:
-    """one GDATA image: kind 'lzss4' or 'tim8', width, height, pixel indexes; encode(pix) -> slot bytes"""
+    """one GDATA image or title PSS: kind 'lzss4', 'tim4', 'tim8' or 'pss4', width, height, pixel indexes;
+    encode(pix) -> slot (or file) bytes"""
 
     def __init__(self, exe, gdata, entry):
+        if is_pss(entry):  # LZSS: 12-byte header (u32 raw size, 0, u16 width in halfwords, u16 h), 4bpp, no CLUT
+            blob = (TREE / pss_path(entry)).read_bytes()
+            self.entry, self.size, self.pal = entry, -(-len(blob) // SECTOR) * SECTOR, None
+            raw, _ = lzss.decompress(blob + bytes(16))
+            wh, h = struct.unpack_from("<HH", raw, 8)
+            self.kind, self.w, self.h, self.header = "pss4", wh * 4, h, raw[:12]
+            self.pix = [b >> s & 15 for b in raw[12:12 + wh * 2 * h] for s in (0, 4)]
+            return
         off, size = slot(exe, entry, gdata)
         self.entry, self.size = entry, size
         blob = gdata[off:off + size]
@@ -97,7 +117,9 @@ class Image:
         return self.header + packed
 
     def encode(self, pix):
-        """slot bytes (not padded) for pix"""
+        """slot bytes (not padded) for pix; a PSS takes the optimal parse to stay within its sectors"""
+        if self.kind == "pss4":
+            return lzss.compress_optimal(self.raw(pix))
         return self.raw(pix) if self.kind.startswith("tim") else lzss.compress(self.raw(pix))
 
     def decode(self, block):
@@ -118,9 +140,11 @@ def rows(entry):
 
 
 def entries():
-    """directory entries (ints, gfx/eNNN.tsv) then sector images ('sNNNNN', gfx/sNNNNN.tsv)"""
+    """directory entries (ints, gfx/eNNN.tsv), sector images ('sNNNNN', gfx/sNNNNN.tsv), then title PSS files
+    ('TTL_OPT', gfx/TTL_OPT.tsv = TITLE/TTL_OPT.PSS)"""
     return (sorted(int(p.stem[1:]) for p in GFX.glob("e[0-9][0-9][0-9].tsv"))
-            + sorted(p.stem for p in GFX.glob("s[0-9][0-9][0-9][0-9][0-9].tsv")))
+            + sorted(p.stem for p in GFX.glob("s[0-9][0-9][0-9][0-9][0-9].tsv"))
+            + sorted(p.stem for p in GFX.glob("*.tsv") if re.fullmatch(r"[A-Z][A-Z0-9_]*", p.stem)))
 
 
 def letter(cell):
@@ -310,12 +334,31 @@ def images(exe=None, gdata=None):
     gdata = gdata or (TREE / "GDATA.BIN").read_bytes()
     out = {}
     for e in entries():
+        if is_pss(e):
+            continue
         img, new = redraw(exe, gdata, e)
         block = img.encode(new)
         off, size = slot(exe, e, gdata)
         if len(block) > size:
             raise ValueError(f"{name(e)}: {len(block):#x} bytes > its {size:#x}-byte slot")
         out[e] = (off, size, block)
+    return out
+
+
+def pss_files(exe=None, gdata=None):
+    """{'TITLE/TTL_OPT.PSS': new file bytes} for every gfx/TTL_*.tsv; each must stay within the file's sectors (the
+    files are found by name, but keeping the size keeps every later LBA where it was)"""
+    out = {}
+    for e in entries():
+        if not is_pss(e):
+            continue
+        img, new = redraw(exe, gdata, e)
+        block = img.encode(new)
+        if len(block) > img.size:
+            raise ValueError(f"{pss_path(e)}: {len(block):#x} bytes > its {img.size:#x} bytes of sectors")
+        orig = (TREE / pss_path(e)).stat().st_size
+        # same size when shorter (the decoder stops at the stored raw size), so the directory entry stays as it was
+        out[pss_path(e)] = block + bytes(max(0, orig - len(block)))
     return out
 
 
@@ -355,7 +398,7 @@ def png(out_dir, which):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("cmd", choices=["png", "check"])
-    ap.add_argument("entry", nargs="*", type=lambda s: s if s.startswith("s") else int(s.lstrip("e")))
+    ap.add_argument("entry", nargs="*", type=lambda s: int(s.lstrip("e")) if re.fullmatch(r"e?\d+", s) else s)
     ap.add_argument("--out", type=Path, default=ROOT / "work" / "gfx" / "en")
     a = ap.parse_args()
     if a.cmd == "png":
@@ -363,3 +406,5 @@ if __name__ == "__main__":
     else:
         for e, (off, size, block) in images().items():
             print(f"{name(e)}: {len(block):#x}/{size:#x} bytes, {len(rows(e))} labels")
+        for path, block in pss_files().items():
+            print(f"{path}: {len(block):#x}/{-(-len(block) // SECTOR) * SECTOR:#x} bytes")

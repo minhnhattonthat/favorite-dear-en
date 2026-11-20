@@ -63,11 +63,15 @@ def entries(exe, patterns):
 def allowed(name, orig, new, orig_psx, patterns):
     if name == "DATA/STAFF.TXT":
         return [range(0, max(len(orig), len(new)))]
+    if name in {gfx.pss_path(e) for e in gfx.entries() if gfx.is_pss(e)}:  # gfx/TTL_*.tsv: the whole file is
+        if -(-len(new) // 2048) > -(-len(orig) // 2048):  # recompressed, but must stay within its sectors
+            return []
+        return [range(0, max(len(orig), len(new)))]
     if name == "GDATA.BIN":
         secs = {int(p.stem, 16) for p in (extract.SCRIPT / "events").glob("*.tsv")}
         r = [range(sec * insert.SECTOR, sec * insert.SECTOR + size)
              for sec, size, _, _ in evscript.script_files(orig_psx, orig) if sec in secs]
-        r += [range(off, off + size) for off, size in (gfx.slot(orig_psx, e) for e in gfx.entries())]  # gfx/*.tsv
+        r += [range(off, off + size) for off, size in (gfx.slot(orig_psx, e) for e in gfx.entries() if not gfx.is_pss(e))]  # gfx/*.tsv
         return r + [range(len(orig), max(len(orig), len(new)))]
     r = entries(orig, patterns)
     if name == "PSX.EXE":

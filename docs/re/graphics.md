@@ -28,8 +28,8 @@ Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot 
 | GDATA e243 | LZSS 4bpp | battle status ポイズン チャーム スリープ コンフュ パライズ (e225 has English Poison/Charm/...) | battles. **English** (phase 8, gfx/e243.tsv: POISON CHARM SLEEP CONFUSE PARALYZE, narrow font, D16; checked as an image only: no warp inflicts a status yet) |
 | GDATA e204-e206 | LZSS 4bpp 256x16 x3 | a second, 8x8 font: A-Z 0-9 katakana hiragana (encoding not found yet) | small labels (battle/map?) |
 | TITLE.PSS, TITLE/TTL_LOGO.PSS | LZSS 8bpp | フェイバリット・ディア kana under the English logo | title, load |
-| TITLE/TTL_OPT.PSS | LZSS 8bpp | memory-card notice (メモリーカードのチェックをして...) | title Option |
-| TITLE/TTL_OPT2.PSS, TITLE/TTL_INFO.PSS | LZSS 8bpp | Slime Ball minigame instructions (方向キーで勇者を動かし、...) | title Option > Slime Ball |
+| TITLE/TTL_OPT.PSS | LZSS 4bpp 256x256 (same form as the GDATA LZSS images; no CLUT in the file) | memory-card notice メモリーカードの / チェック中です。/ 抜かないでください。 | title Option. **English** (phase 8, gfx/TTL_OPT.tsv: "Checking the / memory card. / Don't remove it."; checked as an image, `gfx.py png TTL_OPT`: `warp.py option_exit` (card in) and `option_omake` never show it) |
+| TITLE/TTL_OPT2.PSS, TITLE/TTL_INFO.PSS | LZSS 4bpp 256x256 | Slime Ball instructions (方向キーで勇者を動かし、...) | Slime Ball. **English** (phase 8, gfx/TTL_INFO.tsv, TTL_OPT2.tsv; TTL_INFO's box in game: `warp.py minigame` f12450; TTL_OPT2's blue box (X button: speed up) checked as an image only) |
 
 Already English: title menu (TTL_COM.PSS, OPM1.PSS), Now Loading (NOWLOAD.PSS/.TIM), options labels (TTL_OPT/OPT2
 apart from the boxes), NEC Interchannel logos, "Fin." (EPI_OBJ.PSS), credits pictures DATA/01-13.TIM (no text).

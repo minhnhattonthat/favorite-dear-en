@@ -2,6 +2,8 @@ scene	kind	arg	after	frames	card	post	proof	note
 title	title		hold	5000				title menu (New Game / Load Game / Option)
 load	load		hold	6500				title -> Load Game (memory card screen)
 option	option		hold	6000				title -> Option
+option_omake	option		hold	7000		6 down;20 -;6 down;20 -;6 down;20 -;6 circle;20 -;6 circle;900 -		title -> Option -> Omake
+option_exit	option		hold	7000	work/saves/week2.mcd	6 cross;20 -;6 triangle;900 -		title -> Option -> back out, card in (TTL_OPT memory-card notice not shown here, nor with no card)
 newgame	newgame		hold	8000				new game: name entry panel
 newgame_grid	newgame		hold	9000		6 circle;300 -		new game: name entry grid (e015 buttons) after the prompt
 newgame_name10	newgame		hold	14000		6 circle;300 -;6 cross;30 -;6 cross;30 -;6 up;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;60 -;6 down;30 -;6 circle;120 -;6 circle;300 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -		stress: name entry, Raviel -> Ravi + w x6 (10 letters, an 11th refused) -> END -> YES (save name 0x8001F5F6 packed)

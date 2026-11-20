@@ -354,6 +354,8 @@ def edits(mode="en", report=None):
             out[name] = repoint(out[name] if name in out else (TREE / name).read_bytes(), relocs, name)
     if new_gdata != gdata:
         out["GDATA.BIN"] = new_gdata
+    if mode == "en":
+        out.update(gfx.pss_files())  # title-screen PSS text (gfx/TTL_*.tsv), each within its own sectors
     staff = (TREE / "DATA" / "STAFF.TXT").read_bytes()
     new_staff = staff_edit(staff, mode)
     if new_staff != staff:

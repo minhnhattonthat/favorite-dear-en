@@ -111,6 +111,63 @@ def compress(raw):
     return bytes(out)
 
 
+def compress_optimal(raw, cands=256):
+    """LZSS with an optimal parse (literal = 9 bits, match = 17 bits, shortest stream over every split): ~4% smaller
+    than compress(), for files that must stay within their sectors (TITLE/*.PSS)."""
+    raw = bytes(raw)
+    n = len(raw)
+    base = N - F
+    buf = bytes(base) + raw
+    heads = {}
+    for j in range(0, base):
+        heads.setdefault(buf[j:j + 3], []).append(j)
+    best = [(0, 0)] * n  # (longest match length, its stream position) at each data index
+    for i in range(n):
+        j = base + i
+        maxlen = min(F, n - i)
+        if maxlen >= 3:
+            bl, bp = 0, 0
+            lo = j - (N - F)
+            for c in reversed(heads.get(buf[j:j + 3], [])[-cands:]):
+                if c < lo:
+                    break
+                L = 0
+                while L < maxlen and buf[c + L] == buf[j + L]:
+                    L += 1
+                if L > bl:
+                    bl, bp = L, c
+                    if L == maxlen:
+                        break
+            best[i] = (bl, bp)
+        heads.setdefault(buf[j:j + 3], []).append(j)
+    cost = [0] * (n + 1)
+    step = [1] * n
+    for i in range(n - 1, -1, -1):
+        cost[i], step[i] = 9 + cost[i + 1], 1
+        for L in range(3, best[i][0] + 1):
+            if 17 + cost[i + L] < cost[i]:
+                cost[i], step[i] = 17 + cost[i + L], L
+    out = bytearray(n.to_bytes(4, "little"))
+    group, flags, bit, i = bytearray(), 0, 0, 0
+    while i < n:
+        if step[i] == 1:
+            flags |= 1 << bit
+            group.append(raw[i])
+        else:
+            ringpos = (best[i][1] - base + R0) & (N - 1)
+            group += bytes([ringpos & 0xFF, ((ringpos >> 4) & 0xF0) | (step[i] - 3)])
+        i += step[i]
+        bit += 1
+        if bit == 8:
+            out.append(flags)
+            out += group
+            group, flags, bit = bytearray(), 0, 0
+    if bit:
+        out.append(flags)
+        out += group
+    return bytes(out)
+
+
 if __name__ == "__main__":
     import sys
     d = open(sys.argv[1], "rb").read()

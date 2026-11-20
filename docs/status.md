@@ -2,9 +2,30 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 16: tour on da7916e8 complete, all 263 sheets reviewed,
-  gate 23 not ok (6 bugs, list below); forced text viewer `tools/textforce.py` built, pass 1 running; next: fix the
-  6 bugs, re-tour those scenes, finish textforce passes, hero stress save).
+- **Phase:** 8. QA in the emulator: in progress (worker 17: the 6 gate bugs fixed or closed, build 3f8921bc;
+  re-tour killed for low memory at 38/47; next: merge+rebuild (b099 edit), finish the re-tour, sheets, gate init,
+  review, textforce passes, hero stress save).
+  Worker 17 (2026-11-21): build **3f8921bc14034ff2bb995434b7b9b3219c7a2f8f** (check ok 79, smoke ok), commit aa2e6c6.
+  **Gate bugs:** (1) EPILOG slot labels: worker 16 had fixed them in script/events only and `batches.py merge`
+  reverted it; now in `trans/en/b143.tsv` too. **Rule: edit trans/en (events) and trans/exe/en (EXE), then merge;
+  never script/ alone** (the exe rows Slot 1/2 and the 1661D6 card text had drifted the same way; synced). (2)
+  Week-screen actions: one leading space on all six (the list is one window: `exetext.LISTS` gained 0x1579FC-0x157A50);
+  inkbox Stand By 13/12 (was 7/18), To Heaven in the middle box 12/8 (JP 5/9, same 4 px offset). (3) Save/Load box
+  24/25 (was 18/31); scout Yes/No rows 297/298 (PSX.157FDC/FE8; the drawer skips the 4-letter "１．" prefix): Yes
+  +1 space, No +2: hi-res bar now 28/18 (was 18/32; 1 space = ~10 px there, the closest step). (4) name12: **not a
+  bug**: name entry caps at 10 letters (`asm/name.inc` NAME_MAX); the 12-letter card was poked past the cap; 10 W's
+  fit. Give name12_week/_save a `fixed` verdict with that reason. (5) ev_taiken trial message above the box: **same
+  in JP** (`work/qa/tour_jp/ev_taiken/f013500.png`: text above the box, line 3 under the border, ragged indent).
+  (6) Zombie Trader everywhere (D18, glossary). Also: 3943.1746 now "(None: I've been captured!)" (b099, **edited
+  after the build: run `batches.py merge` and rebuild first**). Decisions D18/D19 added. **Re-tour on 3f8921bc**
+  (log `work/qa/tour_run8.txt`) was killed by the host for low memory at 07:00: done 38 scenes (hub*, load*,
+  name*, stress*, ev_sp01/sy0101/syboss1, battle_t0301, epilog_end1-15); missing **epilog_end16-23**. After the
+  rebuild those 38 are on the old build only by the b099 row (not shown in any of them), so: re-tour epilog_end16-23
+  on the new build, `qa_sheets.py`, `qa_gate.py init ... --build build/favorite_dear_en.bin`, review the changed
+  sheets (read-only passes), check. **Textforce pass 1** log has not moved since 06:32 (likely dead; `textforce.py
+  run -j 1 --pass 1` resumes). **Hero stress save:** warping SY0101 (scout, Yes) and running 30000 frames back to
+  the week screen leaves RAM 0x8001DC48+0xBFC and 0x8001E410+0x1000 unchanged and no hero joins (the patched-slot
+  event does not run the join); next idea: find the join in a real week flow (Find Hero action from week2.mcd).
   Worker 16 (2026-11-21): build **667f2e4a5848d71c3da44667cf9f80f0e18883ed** (check ok 79, smoke ok; = da7916e8 +
   the EPILOG slot fix below). (a) **Tour on da7916e8 finished** (17 scenes re-run, epilog_end16 re-run: it had
   been cut mid-run), `qa_sheets.py`, `qa_gate.py init` (11 stale manifest lines for deleted sheet files dropped),

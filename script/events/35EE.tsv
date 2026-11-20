@@ -1,5 +1,5 @@
 id	jp	en	notes
-35EE.0B48	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35EE.0B48	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 35EE.0B74	{e0:E0FF}{spk:E783}{fa:0080}{n}へへへっ。口ほどにもねえ・・・。{n}{wait}{clear}{end}		
 35EE.0BAE	{e0:E0FF}{spk:0080}{fa:0180}{n}あなたたちですか？{n}もう平和に暮らしている人たちを{n}困らせるようなマネはやめて下さい！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}バルバロッサ：{n}{f7:0380}{n}なに、寝ぼけたこと言ってんだ、{n}兄ちゃん。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}相手を見て、口ききな！{n}こっちは他人様がどうなろうと{n}知ったことかよ！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}こうも話が通じないなんて・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}天使様の言う通り戦わないと{n}いけないのですね・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}バルバロッサ：{n}{f7:0380}{n}なんだ、やんのかぁ！？　てめぇ！{n}{wait}{clear}{end}		
 35EE.0D9A	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		

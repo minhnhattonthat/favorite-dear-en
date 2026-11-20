@@ -1,5 +1,5 @@
 id	jp	en	notes
-35E5.0C36	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35E5.0C36	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 35E5.0C62	{e0:E0FF}{spk:E783}{fa:0080}{n}ぐががが～！！{n}{wait}{clear}{end}		
 35E5.0C8A	{e0:E0FF}{spk:0080}{fa:0180}{n}おめえらの好きにはさせねえ！{n}{wait}{clear}{end}		
 35E5.0CC0	{e0:E0FF}{spk:0080}{fa:0180}{n}ちっ、逃げられたか。{n}{wait}{clear}{end}		

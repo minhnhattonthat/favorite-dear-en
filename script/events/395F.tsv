@@ -15,7 +15,7 @@ id	jp	en	notes
 395F.16A4	{e0:C107}{spk:0080}{fa:0180}{n}俺はお前を倒す！　ラスエル！{n}{wait}{clear}{end}		
 395F.16DA	{e0:C207}{spk:0080}{fa:0180}{n}これで終わりだ、ラスエル。{n}お前は滅びるんだ！{n}{wait}{clear}{end}		
 395F.1722	{e0:C307}{spk:0080}{fa:0180}{n}オイ！{n}姿をあらわさねぇなんて、汚ねぇぞ。{n}{wait}{clear}{end}		
-395F.1766	{e0:C407}{spk:0080}{fa:0180}{n}うわっ！{n}{wait}{clear}{end}		
+395F.1766	{e0:C407}{spk:0080}{fa:0180}{n}うわっ！{n}{wait}{clear}{end}	{e0:C407}{spk:0080}{fa:0180}{n}Whoa!{n}{wait}{clear}{end}	
 395F.1788	{e0:C507}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ、天界の天使たちと戦うんだ？{n}{wait}{clear}{end}		
 395F.17E8	{e0:C607}{spk:0080}{fa:0180}{n}これ以上お前ら悪魔に{n}好き勝手やらせるか！{n}{wait}{clear}{end}		
 395F.182C	{e0:C707}{spk:0080}{fa:0180}{n}これで終わったな・・・。{n}{wait}{clear}{end}		

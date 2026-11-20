@@ -1,5 +1,5 @@
 id	jp	en	notes
-3559.0924	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		orphan script (no file table sizes it)
+3559.0924	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	orphan script (no file table sizes it)
 3559.0950	{e0:E0FF}{spk:E783}{fa:0080}{n}フフフ、ザマァないわねぇ。{n}{wait}{clear}{end}		orphan script (no file table sizes it)
 3559.0984	{e0:E0FF}{spk:0080}{fa:0180}{n}なんだここは・・・。{n}{wait}{clear}{e0:E0FF}森といっても沼地じゃないか。{n}こんなところに連れてきていったい・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}女の子：{n}{f7:0380}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}ん？{n}君・・・。{n}{wait}{clear}{end}		orphan script (no file table sizes it)
 3559.0A56	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}女の子：{n}{f7:0380}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}どうかしたのか？{n}{wait}{clear}{end}		orphan script (no file table sizes it)

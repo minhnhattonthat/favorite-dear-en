@@ -1,5 +1,5 @@
 id	jp	en	notes
-3622.0CE8	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3622.0CE8	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 3622.0D14	{e0:E0FF}{spk:E783}{fa:0080}{n}へへへっ。口ほどにもねえ・・・。{n}{wait}{clear}{end}		
 3622.0D4E	{e0:E0FF}{spk:0080}{fa:0180}{n}あんたたちかい？{n}女、子供相手に悪さしてる{n}夜盗ってのは？{n}{wait}{clear}{end}		
 3622.0DA2	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}へへへっ。ゼビア様！{n}こりゃァ結構、いいエモノですぜ。{n}{wait}{clear}{end}		

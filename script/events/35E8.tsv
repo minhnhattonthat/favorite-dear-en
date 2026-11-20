@@ -1,5 +1,5 @@
 id	jp	en	notes
-35E8.0C7C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35E8.0C7C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 35E8.0CA8	{e0:E0FF}{spk:E783}{fa:0080}{n}ぐががが～！！{n}{wait}{clear}{end}		
 35E8.0CD0	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・こいつはひでえな。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}まあ、城がどうなろうと知った{n}こっちゃねえが、{n}しゃあねえ、やってやるか。{n}{wait}{clear}{end}		
 35E8.0D60	{e0:E0FF}{spk:0080}{fa:0180}{n}ふう。これで怪物は、{n}ほぼやっつけちまったな。{n}・・・じゃあ、オレは帰るぞ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}待ってください！{n}あそこに誰か倒れています！{n}{wait}{clear}{end}		

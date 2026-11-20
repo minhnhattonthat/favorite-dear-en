@@ -1,5 +1,5 @@
 id	jp	en	notes
-35EB.0D18	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35EB.0D18	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 35EB.0D44	{e0:E0FF}{spk:E783}{fa:0080}{n}フッ、ハハハハハハ。{n}{wait}{clear}{end}		
 35EB.0D72	{e0:B401}{spk:0080}{fa:0180}{n}てめえら見てるとムナクソ悪ぃぜ！{n}{wait}{clear}{e0:B501}{spk:0080}{fa:0180}{n}覚悟しやがれ！！{n}{wait}{clear}{end}		
 35EB.0DD0	{e0:B601}{spk:0080}{fa:0180}{n}何が不死だ・・・。つまらんもんに{n}とりつかれやがって！{n}{wait}{clear}{e0:B701}{spk:0080}{fa:0180}{n}・・・終わらせてやったぜ。{n}全部な・・・。{n}{wait}{clear}{e0:BD01}{spk:E783}{fa:0080}{n}{f7:0080}謎の声：{n}{f7:0380}{n}ククク、なかなかやるな、貴様。{n}{wait}{clear}{end}		

@@ -1,5 +1,5 @@
 id	jp	en	notes
-3A2E.11D0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3A2E.11D0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 3A2E.11FC	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}イウヴァート：{n}{f7:0380}{n}見たかっ！　これがオレ様の力なのだっ！！{n}フハハハハハハ・・・。{n}{wait}{clear}{end}		
 3A2E.1270	{e0:120B}{spk:E783}{fa:0080}{n}{f7:0080}堕天使：{n}{f7:0380}{n}フハハハハ、お前ら！{n}わざわざ殺されに来たか！{n}{wait}{clear}{end}		
 3A2E.12CC	{e0:130B}{spk:E783}{fa:0080}{n}{f7:0080}イウヴァート：{n}{f7:0380}{n}オレの名は堕天使「イウヴァート」{n}冥界でもっとも勇猛な戦士！！{n}{wait}{clear}{e0:140B}お前らが天使とその勇者だな！{n}{wait}{clear}{end}		

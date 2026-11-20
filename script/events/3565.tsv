@@ -1,5 +1,5 @@
 id	jp	en	notes
-3565.0D74	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3565.0D74	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 3565.0DA0	{e0:E0FF}{spk:E783}{fa:0080}{n}・・・・・・。{n}{wait}{clear}{end}		
 3565.0DC8	{e0:E0FF}{spk:0080}{fa:0180}{n}そんな・・・本当に！？{n}やめろ、みんな！{n}{wait}{clear}{end}		
 3565.0E0A	{e0:E0FF}{spk:0080}{fa:0180}{n}みんな、どうしちまったんだよ！{n}おまえたちは、そんな事をするような{n}奴らじゃないだろ？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}ボルンガ：{n}{f7:0380}{n}・・・・・・。{n}{wait}{clear}{end}		

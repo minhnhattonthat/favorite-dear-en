@@ -57,6 +57,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | シルフェ | Sylphe | | fairy | |
 | シェリー | Shelly | | fairy | |
 | フロリンダ | Florinda | | fairy | |
+| フロリン | Florin | | Florinda's name for herself | |
 | ミライヤ | Miraya | | | |
 | ガブリエル | Gabriel | | archangel | |
 | レミエル | Remiel | | angel who keeps wandering souls | |
@@ -74,11 +75,32 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | インフォス | Infos | | the world the angel protects | |
 | ヴォーラス | Voras | | Voras Knights (ヴォーラス騎士団) | |
 | ラダール | Radal | | Lake Radal | |
+| ヘブロン | Hebron | | Kingdom of Hebron (ヘブロン王国); capital Voras | |
+| ヨースト | Joost | | town in Hebron (Sievas) | |
+| キンバルト | Kimbalt | | Kingdom of Kimbalt | |
+| ニーセン | Niesen | | town in Kimbalt (Griffin) | |
+| カノーア | Kanoa | | the Kanoa Nation (カノーア国) | |
+| フェデコ | Fedeco | | town in Kanoa (Felimi) | |
+| エスパルダ | Esparda | | the Esparda Empire (エスパルダ皇国) | |
+| ブルン | Brun | | town in Esparda (Dian) | |
+| クヴァール | Kvaal | | region/nation (Yaruru, Fiana, Tia) | |
+| ガルフ | Garf | | town in Kvaal (Yaruru) | |
+| デュミナス | Duminas | | the Duminas Empire (デュミナス帝国) | |
+| ラルース | Larousse | | town in Duminas (Ryudral) | |
+| タンブール | Tambour | | town in Kvaal (Fiana) | |
+| ファンガム | Fangam | | Kingdom of Fangam (Ashe's home) | |
+| グルーチ | Gruche | | capital of Fangam | |
+| ノバ | Nova | | town in Kimbalt (Beasia) | |
+| トラスト | Trust | | town in Kanoa (Nasadia) | |
+| オムロン | Omron | | village in Kvaal (Tia) | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
 | 時の淀み | Stagnation of Time | | the calamity eroding Infos ("the Stagnation of Time") | |
+| 神獣 | sacred beast | | Yaruru's companion | |
+| 竜の使い | the Dragon's Messenger | | Ryudral's local title | |
+| 闇馬車 | Dark Carriage | | slaver bandit ring, in quotes ("Dark Carriage") | |
 
 ## Decisions from earlier batches
 - b001 3498.1550 (the gift-name list, one run of names indexed by the script): kept Japanese (`-`), phase 7 must

@@ -1,5 +1,5 @@
 id	jp	en	notes
-35FA.0C10	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35FA.0C10	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 35FA.0C3C	{e0:E0FF}{spk:E783}{fa:0080}{n}なんでえ、口だけかよ！{n}{wait}{clear}{end}		
 35FA.0C6C	{e0:E0FF}{spk:0080}{fa:0180}{n}この人たちですか・・・。{n}人々を困らせる悪人たちは・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}なんだとぉ！　テメー！！{n}やる気かぁ！？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}あまり激しく抵抗しないほうがいいですよ。{n}すばやく斬られたほうが{n}痛みは少ないですから・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}ぬかしやがって、やっちまえ！{n}{wait}{clear}{end}		
 35FA.0DC2	{e0:E0FF}{spk:0080}{fa:0180}{n}どうやら荒療治がお好みのようですね。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}いきますよ！{n}{wait}{clear}{end}		
@@ -7,4 +7,4 @@ id	jp	en	notes
 35FA.0E52	{e0:E0FF}{spk:0080}{fa:0180}{n}ありがとうございます。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}天使様、私は先の村へ急ぎます。{n}彼らに襲われた負傷者が{n}いるかもしれませんので。{n}{wait}{clear}{end}		
 35FA.102A	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}なんだぁ！　テメー！！{n}やる気かぁ！？{n}{wait}{clear}{end}		
 35FA.107C	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}盗賊：{n}{f7:0380}{n}なんだぁ！　テメー！！{n}やる気かぁ！？{n}{wait}{clear}{end}		
-35FA.10CE	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は盗賊を倒した。{n}{wait}{clear}{end}		
+35FA.10CE	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は盗賊を倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the bandit.{n}{wait}{clear}{end}	

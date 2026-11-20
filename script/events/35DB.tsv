@@ -1,5 +1,5 @@
 id	jp	en	notes
-35DB.0F34	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35DB.0F34	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 35DB.0F60	{e0:E0FF}{spk:E783}{fa:0080}{n}・・・。{n}{wait}{clear}{end}		
 35DB.0F82	{e0:1A01}{spk:0080}{fa:0180}{n}・・・。{n}お前・・・。{n}リーガルなのか？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}黒衣の騎士：{n}{f7:0380}{n}・・・・・・。{n}{wait}{clear}{end}		
 35DB.0FFE	{e0:2901}{spk:E783}{fa:0080}{n}{f7:0080}リーガル：{n}{f7:0380}{n}ひさしぶりだな・・・レイヴよ。{n}{wait}{clear}{end}		

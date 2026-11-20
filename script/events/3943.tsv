@@ -1,7 +1,7 @@
 id	jp	en	notes
 3943.12E0	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・？{n}あれか！！{n}{wait}{clear}{end}		
 3943.1314	{e0:E0FF}{spk:0080}{fa:0180}{n}へらず口はそのぐらいにしておけ！{n}ゆくぞ！{n}{wait}{clear}{end}		
-3943.1358	{e0:E0FF}{spk:0080}{fa:0180}{n}これは・・・。{n}{wait}{clear}{end}		
+3943.1358	{e0:E0FF}{spk:0080}{fa:0180}{n}これは・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}What's this...{n}{wait}{clear}{end}	
 3943.1380	{e0:3E01}{spk:0080}{fa:0180}{n}・・・向かって来るのであれば仕方がない。{n}{wait}{clear}{end}		
 3943.13C2	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
 3943.13E4	{e0:3F01}{spk:0080}{fa:0180}{n}・・・答える必要を感じんな・・・。{n}{wait}{clear}{end}		

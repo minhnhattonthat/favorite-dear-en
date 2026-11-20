@@ -1,5 +1,5 @@
 id	jp	en	notes
-3A2A.0F08	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3A2A.0F08	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 3A2A.0F34	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}アポルオン：{n}{f7:0380}{n}ククククク・・・、{n}勇者よ安らかに眠るがいい。{n}{wait}{clear}{end}		
 3A2A.0F94	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・！？{n}{wait}{clear}{e0:C20A}{spk:E783}{fa:0080}{n}{f7:0080}堕天使：{n}{f7:0380}{n}ククク、ようこそ・・・{n}天使の勇者・・・。{n}{wait}{clear}{end}		
 3A2A.100A	{e0:C30A}{spk:0080}{fa:0180}{n}テメェ、アポルオンだな？{n}{wait}{clear}{e0:C40A}{spk:E783}{fa:0080}{n}{f7:0080}アポルオン：{n}{f7:0380}{n}貴様か・・・{n}ここまで来たことは誉めてやろう。{n}{wait}{clear}{e0:C50A}{spk:0080}{fa:0180}{n}ああ、わざわざ来てやったんだよ。{n}テメェをブッ倒さなきゃ{n}俺の気がすまねえからな！{n}{wait}{clear}{end}		

@@ -1,5 +1,5 @@
 id	jp	en	notes
-362B.0E52	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+362B.0E52	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 362B.0E7E	{e0:E0FF}{spk:E783}{fa:0080}{n}グヘヘヘ・・・。{n}{wait}{clear}{end}		
 362B.0EA8	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}グヘヘヘ・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}アイツか・・・。{n}いかにもって感じだわ、ダッサダサ。{n}ゼッタイ倒してやるッ！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}まだ、村の女性を捕まえてはいないわね。{n}遠慮なく剣が振れるわ。{n}さぁ！　やるわよッ！{n}{wait}{clear}{end}		
 362B.0FB4	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}・・・。{n}{wait}{clear}{end}		

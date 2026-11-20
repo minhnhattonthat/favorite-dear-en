@@ -1,5 +1,5 @@
 id	jp	en	notes
-35D8.0DBE	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35D8.0DBE	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 35D8.0DEA	{e0:E0FF}{spk:E783}{fa:0080}{n}わ、われわれの邪魔をするからだ・・・。{n}{wait}{clear}{end}		
 35D8.0E2A	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}貴様、誰だ！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}私はヘブロンの騎士団長、{n}レイヴ・ヴィンセルラス。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}なぜ！　なぜヘブロンの騎士が、{n}われわれの邪魔をする！？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}貴様達がしている事は、{n}いずれ、{n}ヘブロンにとって脅威となる。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}何を！　こざかしい！{n}やってしまえ！！{n}{wait}{clear}{end}		
 35D8.0FCE	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}貴様が首謀者か？{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}反乱兵士：{n}{f7:0380}{n}たっ、たっ、助けてくれ！{n}{wait}{clear}{e0:E0FF}もう反乱なんてしない！{n}俺達が、俺達が悪かった！！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}俺はある奴にそそのかされただけなんだ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}だ、だから命だけは助けてくれ！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		

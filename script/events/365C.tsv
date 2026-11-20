@@ -1,4 +1,4 @@
 id	jp	en	notes
-365C.088A	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+365C.088A	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 365C.08B6	{e0:E0FF}{spk:E783}{fa:0080}{n}ウオッ、ウオオオォォォ・・・。{n}{wait}{clear}{end}		
 365C.08EE	{e0:E0FF}{spk:0080}{fa:0080}{n}あ、ありがとうございます・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}ティア！！　無事でしたか！？{n}{wait}{clear}{e0:B609}{spk:0080}{fa:0080}{n}・・・天使様・・・。{n}{wait}{clear}{e0:B709}{spk:0080}{fa:0080}{n}・・・私、全部思い出したんです。{n}この場所・・・。{n}{wait}{clear}{e0:B809}{spk:0080}{fa:0080}{n}この場所で私に何が起きたのかを・・・。{n}{wait}{clear}{end}		

@@ -1,5 +1,5 @@
 id	jp	en	notes
-35F4.0FBA	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+35F4.0FBA	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 35F4.0FE6	{e0:E0FF}{spk:E783}{fa:0080}{n}・・・・・・。{n}{wait}{clear}{end}		
 35F4.100E	{e0:7902}{spk:0080}{fa:0180}{n}姉さん！　ミライヤ姉さん！{n}{wait}{clear}{end}		
 35F4.1042	{e0:7A02}{spk:E783}{fa:0080}{n}{f7:0080}ミライヤ：{n}{f7:0380}{n}・・・フェリミ？{n}戻ってきてくれたの？{n}{wait}{clear}{end}		

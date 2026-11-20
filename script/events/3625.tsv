@@ -1,5 +1,5 @@
 id	jp	en	notes
-3625.0CC6	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3625.0CC6	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 3625.0CF2	{e0:E0FF}{spk:E783}{fa:0080}{n}フハハハハハ！！！！{n}このまま果ててしまうがいい・・・。{n}{wait}{clear}{end}		
 3625.0D44	{e0:E0FF}{spk:0080}{fa:0180}{n}ウグッ！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}くッ・・・！！{n}こんなっ、ときに・・・！！！{n}{wait}{clear}{end}		
 3625.0DA8	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・まだまだ！　これからよ！！{n}{wait}{clear}{end}		

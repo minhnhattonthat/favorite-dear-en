@@ -1,5 +1,5 @@
 id	jp	en	notes
-356C.0F7C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+356C.0F7C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 356C.0FA8	{e0:E0FF}{spk:E783}{fa:0080}{n}ミライヤ様、万歳！！{n}{wait}{clear}{end}		
 356C.0FD6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}デュミナスしれい：{n}{f7:0380}{n}敵は目の前だ、行くぞ！{n}{wait}{clear}{end}		
 356C.1024	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}デュミナスしれい：{n}{f7:0380}{n}ミライヤ様・・・万・・・歳・・・！{n}{wait}{clear}{end}		

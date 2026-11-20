@@ -1,5 +1,5 @@
 id	jp	en	notes
-360C.0B76	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+360C.0B76	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 360C.0BA2	{e0:E0FF}{spk:E783}{fa:0080}{n}ぐががが～！！{n}{wait}{clear}{end}		
 360C.0BCA	{e0:E0FF}{spk:0080}{fa:0180}{n}なんだ。魔族っていうから、どんなかと{n}思ったんだけど、たいしたこと{n}なさそうだね・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}ヤルル。{n}見かけで判断して、油断するのは{n}危険です。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}判ってるよ、天使様。{n}そんな子供みたいなこと{n}本気で思っていないってば。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}安心して見ていてよ！！{n}ラッシュ！　いくよ！！{n}{wait}{clear}{end}		
 360C.0D22	{e0:E0FF}{spk:0080}{fa:0180}{n}ほら！　天使様！！{n}大丈夫だったでしょ。{n}このくらい全然平気だよ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}敵のリーダーがまだ残っているようです。{n}気を引き締めてお願いします、{n}ヤルル。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}まかせといて！{n}{wait}{clear}{end}		

@@ -1,5 +1,5 @@
 id	jp	en	notes
-3600.0DEA	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+3600.0DEA	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 3600.0E16	{e0:E0FF}{spk:E783}{fa:0080}{n}アラ、口ほどにも無いわね！{n}{wait}{clear}{end}		
 3600.0E4A	{e0:E0FF}{spk:0080}{fa:0180}{n}ここですか。その洞窟というのは。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}ディアン、気をつけて。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・そうですね。でも、{n}気をつけなきゃいけないのは、そこに{n}隠れている人なんじゃないですか？{n}{wait}{clear}{end}		
 3600.0F20	{e0:4B03}{spk:E783}{fa:0080}{n}{f7:0080}シエラ：{n}{f7:0380}{n}物陰からちょっと脅かして{n}やろうかと思ったのに、失敗したわね。{n}{wait}{clear}{e0:4C03}{spk:0080}{fa:0180}{n}シエラ、相変わらず卑怯な・・・。{n}今度こそ逃げられませんよ。{n}{wait}{clear}{e0:4D03}{spk:E783}{fa:0080}{n}{f7:0080}シエラ：{n}{f7:0380}{n}私と戦って勝てるとでも{n}本気で思っているの？　・・・甘いわね。{n}{wait}{clear}{e0:4E03}悪いけど、今回は死んでもらうわ。{n}{wait}{clear}{e0:4F03}{spk:0080}{fa:0180}{n}私も手加減する気はありませんよ！！{n}{wait}{clear}{end}		

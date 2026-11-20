@@ -15,7 +15,7 @@ id	jp	en	notes
 394B.1628	{e0:A602}{spk:0080}{fa:0180}{n}・・・倒さなきゃならない・・・{n}僕はあなたを！{n}{wait}{clear}{end}		
 394B.1670	{e0:A702}{spk:0080}{fa:0180}{n}邪悪な堕天使よ、滅びなさい！{n}{wait}{clear}{end}		
 394B.16A6	{e0:A802}{spk:0080}{fa:0180}{n}この声・・・ガープ！？{n}{wait}{clear}{end}		
-394B.16D6	{e0:A902}{spk:0080}{fa:0180}{n}うわっ！{n}{wait}{clear}{end}		
+394B.16D6	{e0:A902}{spk:0080}{fa:0180}{n}うわっ！{n}{wait}{clear}{end}	{e0:A902}{spk:0080}{fa:0180}{n}Whoa!{n}{wait}{clear}{end}	
 394B.16F8	{e0:AA02}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲ったのです？{n}なぜ天界の天使たちと戦うのです？{n}{wait}{clear}{end}		
 394B.175E	{e0:AB02}{spk:0080}{fa:0180}{n}悪魔め・・・これで最後だ！{n}{wait}{clear}{end}		
 394B.1792	{e0:AC02}{spk:0080}{fa:0180}{n}終わりですね、これで・・・。{n}{wait}{clear}{end}		

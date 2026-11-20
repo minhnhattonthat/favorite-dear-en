@@ -1,5 +1,5 @@
 id	jp	en	notes
-364E.0B9E	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+364E.0B9E	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 364E.0BCA	{e0:E0FF}{spk:E783}{fa:0080}{n}１００年以上も続いた苦痛から、{n}開放してやったんだ。ありがたく思え！{n}・・・フッハッハッハッハ！！！{n}{wait}{clear}{end}		
 364E.0C48	{e0:E0FF}{spk:0080}{fa:0180}{n}！！！{n}{wait}{clear}{end}		
 364E.0C68	{e0:BF08}{spk:0080}{fa:0180}{n}ラスエルーっ！！！{n}{wait}{clear}{end}		
@@ -11,4 +11,4 @@ id	jp	en	notes
 364E.15F8	{e0:DB08}{spk:E783}{fa:0080}{n}{f7:0080}ベルフェゴール：{n}{f7:0380}{n}ぐぁぁぁっ・・・・・・！！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
 364E.1664	{e0:DC08}{spk:0080}{fa:0180}{n}悪魔め！　３度目はもう無いわ！{n}{wait}{clear}{end}		
 364E.169C	{e0:DD08}{spk:E783}{fa:0080}{n}ググ・・・グ・・・{n}ラスエル・・・イウヴァート・・・{n}アポルオン・・・。{n}{wait}{clear}{e0:DE08}{spk:E783}{fa:0080}{n}・・・なぜ滅ぼした・・・？{n}私の忠実な下僕たちよ・・・。{n}{wait}{clear}{e0:DF08}{spk:0080}{fa:0180}{n}ガープ・・・とうとう現れたわね。{n}{wait}{clear}{e0:E008}{spk:E783}{fa:0080}{n}・・・そうか・・・この者たちか・・・{n}天使とその勇者・・・。{n}{wait}{clear}{e0:E108}{spk:E783}{fa:0080}{n}ガブリエルだな・・・相変わらず・・・{n}姑息な真似を・・・。{n}{wait}{clear}{e0:E208}{spk:E783}{fa:0080}{n}・・・天界の者に利用された愚かな{n}人間め・・・我が手で・・・{n}滅ぼさなくてはなるまい・・・。{n}{wait}{clear}{e0:E308}{spk:E783}{fa:0080}{n}・・・我が下僕たち・・・お前らの肉体、{n}力を借りるぞ・・・。{n}{wait}{clear}{end}		
-364E.18DC	{e0:E408}{spk:0080}{fa:0180}{n}・・・これは！？{n}{wait}{clear}{end}		
+364E.18DC	{e0:E408}{spk:0080}{fa:0180}{n}・・・これは！？{n}{wait}{clear}{end}	{e0:E408}{spk:0080}{fa:0180}{n}...What is this?!{n}{wait}{clear}{end}	

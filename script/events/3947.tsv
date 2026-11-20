@@ -16,7 +16,7 @@ id	jp	en	notes
 3947.16A6	{e0:D001}{spk:0080}{fa:0180}{n}どうだ！　ラスエル！{n}{wait}{clear}{end}		
 3947.16D4	{e0:D101}{spk:0080}{fa:0180}{n}ガープだな！　何処にいやがる！{n}{wait}{clear}{end}		
 3947.170C	{e0:D201}{spk:0080}{fa:0180}{n}な、何だ！{n}{wait}{clear}{end}		
-3947.1730	{e0:D301}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ天界の天使たちと戦う？{n}{wait}{clear}{end}		
+3947.1730	{e0:D301}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ天界の天使たちと戦う？{n}{wait}{clear}{end}	{e0:D301}{spk:0080}{fa:0180}{n}Gaap! Why did you attack Infos? Why do{n}you fight the angels of the Heavens?{n}{wait}{clear}{end}	
 3947.178A	{e0:D401}{spk:0080}{fa:0180}{n}そんな勝手なマネをさせるかよ！{n}{wait}{clear}{end}		
 3947.17C2	{e0:D501}{spk:0080}{fa:0180}{n}・・・クソったれが、これで終わりだ！{n}{wait}{clear}{end}		
 3947.17FC	{spk:0080}{fa:0180}{n}どうも、アンデット系ってのは{n}くさくていけないぜ！{n}{wait}{clear}さっさと騎士レイヴを{n}こっちに引き渡してもらおうか！{n}{wait}{clear}{end}		

@@ -1,5 +1,5 @@
 id	jp	en	notes
-365E.1210	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}		
+365E.1210	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
 365E.123C	{e0:E0FF}{spk:E783}{fa:0080}{n}ぐるるるる・・・。{n}{wait}{clear}{end}		
 365E.1268	{e0:B909}{spk:0080}{fa:0180}{n}あれが、村を襲う魔獣・・・。{n}{wait}{clear}{end}		
 365E.129E	{e0:BA09}{spk:E783}{fa:0080}{n}{f7:0080}シルフェ：{n}{f7:0380}{n}あっ！！{n}やっぱり、ここにいたのね・・・！！{n}{wait}{clear}{end}		

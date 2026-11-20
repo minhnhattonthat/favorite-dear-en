@@ -21,4 +21,8 @@ Read in parts (offset/limit): context-mode trims whole-file Reads above ~4 KB.
 5. Quality bar (past mistakes in other projects): names exactly as in the glossary; jokes and character quirks kept
    (rough speech stays rough); no "1th"-style suffixes; no stock "GET!" phrasing; repeated variants of one message
    (rows that differ by one word) translated consistently.
-6. Report `NEW TERM: jp -> en`, `UNSURE: id - note`, `CUT: id - what was dropped`; terms go into glossary.md tables.
+6. Token saver: `python -X utf8 tools/compact.py show bNNN > x.jp` prints the batch with the frequent code runs as
+   one symbol each (¶ = `{n}{wait}{clear}{e0:E0FF}`, ¬ = `{n}{wait}{clear}`, § = `{e0:E0FF}`, Å = `{spk:E783}`,
+   Ø = `{spk:0080}`, Ñ = `{name:0080}`); write the English in the same form and `compact.py expand x.en bNNN`
+   writes `trans/en/bNNN.tsv` exactly. Mind ¶ vs ¬ (the check catches a swap).
+7. Report `NEW TERM: jp -> en`, `UNSURE: id - note`, `CUT: id - what was dropped`; terms go into glossary.md tables.

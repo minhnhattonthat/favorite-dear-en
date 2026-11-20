@@ -140,102 +140,102 @@ id	jp	en	notes
 398A.2C8E	{fb:E680}{n}{spk:0080}{n}あら。{n}天使サマって食事にまで{n}ついてくるのね。ふふっ。{n}{wait}{clear}{end}	{fb:E680}{n}{spk:0080}{n}Oh my. So angels even follow you to{n}meals. Heh heh.{n}{wait}{clear}{end}	
 398A.2CDA	{fb:E780}{n}{spk:0080}{n}もう、いいの？{n}さてと、今日はどこに行こうかしら。{n}{wait}{clear}{end}	{fb:E780}{n}{spk:0080}{n}All done? Now then, where shall I go{n}today?{n}{wait}{clear}{end}	
 398A.2D20	{fb:F080}{n}{spk:0080}{n}今から食事に行こうと思っているのですが。{n}なにかご用ですか？{n}{wait}{clear}{end}	{fb:F080}{n}{spk:0080}{n}I was just about to go have a meal. Is{n}there something you need?{n}{wait}{clear}{end}	
-398A.2D70	{fb:F180}{n}{spk:0080}{n}はい。{n}では、食事にします。{n}{wait}{clear}{end}		
+398A.2D70	{fb:F180}{n}{spk:0080}{n}はい。{n}では、食事にします。{n}{wait}{clear}{end}	{fb:F180}{n}{spk:0080}{n}All right. Then I'll have my meal.{n}{wait}{clear}{end}	
 398A.2DA0	{fb:FA80}{n}{spk:0080}{n}今から食事に行こうと思っているのですが。{n}なにかご用ですか？{n}{wait}{clear}{end}	{fb:FA80}{n}{spk:0080}{n}I was just about to go have a meal. Is{n}there something you need?{n}{wait}{clear}{end}	
-398A.2DF0	{fb:FB80}{n}{spk:0080}{n}はい。{n}では、食事にします。{n}{wait}{clear}{end}		
-398A.2E22	{fb:1480}{n}{spk:0080}{n}なんだ、君か？{n}私がこれから遊びに行くのを知ってて、{n}呼び止めたのではないだろうな？{n}{wait}{clear}{end}		entry point inside the previous row's message
-398A.2E8A	{fb:1580}{n}{spk:0080}{n}もう時間がない。{n}これで失礼する。{n}{wait}{clear}{end}		
-398A.2EC0	{fb:1E80}{n}{spk:0080}{n}なんだ、君か？{n}私がこれから遊びに行くのを知ってて、{n}呼び止めたのではないだろうな？{n}{wait}{clear}{end}		
-398A.2F28	{fb:1F80}{n}{spk:0080}{n}もう時間がない。{n}これで失礼する。{n}{wait}{clear}{end}		
-398A.2F5E	{fb:2880}{n}{spk:0080}{n}お前か。これから「武芸競技大会」を{n}見にいこうと思っていたところだが・・・、{n}なにか仕事か？{n}{wait}{clear}{end}		
-398A.2FCE	{fb:2980}{n}{spk:0080}{n}もういいのだな。{n}{wait}{clear}{end}		
-398A.2FF2	{fb:3280}{n}{spk:0080}{n}お前か。これから「武芸競技大会」を{n}見にいこうと思っていたところだが・・・、{n}なにか仕事か？{n}{wait}{clear}{end}		
-398A.3062	{fb:3380}{n}{spk:0080}{n}もういいのだな。{n}{wait}{clear}{end}		
-398A.3086	{fb:3C80}{n}{spk:0080}{n}お！？　どうした？{n}まさか、オレの遊びについて来る{n}ってんじゃねえだろうな。{n}{wait}{clear}{end}		
-398A.30E6	{fb:3D80}{n}{spk:0080}{n}じゃあな、{n}もう行くぜ。{n}{wait}{clear}{end}		
-398A.3112	{fb:4680}{n}{spk:0080}{n}お！？　どうした？{n}まさか、オレの遊びについて来る{n}ってんじゃねえだろうな。{n}{wait}{clear}{end}		
-398A.3172	{fb:4780}{n}{spk:0080}{n}じゃあな、{n}もう行くぜ。{n}{wait}{clear}{end}		
-398A.319E	{fb:5080}{n}{spk:0080}{n}これは天使様・・・。{n}今日は街で開かれる音楽会へ{n}行ってみようと思っていたところです。{n}{wait}{clear}{spk:0080}{n}なにか、ありましたか？{n}{wait}{clear}{end}		
+398A.2DF0	{fb:FB80}{n}{spk:0080}{n}はい。{n}では、食事にします。{n}{wait}{clear}{end}	{fb:FB80}{n}{spk:0080}{n}All right. Then I'll have my meal.{n}{wait}{clear}{end}	
+398A.2E22	{fb:1480}{n}{spk:0080}{n}なんだ、君か？{n}私がこれから遊びに行くのを知ってて、{n}呼び止めたのではないだろうな？{n}{wait}{clear}{end}	{fb:1480}{n}{spk:0080}{n}Oh, it's you? You didn't stop me knowing{n}I was about to go out and have some fun,{n}did you?{n}{wait}{clear}{end}	entry point inside the previous row's message
+398A.2E8A	{fb:1580}{n}{spk:0080}{n}もう時間がない。{n}これで失礼する。{n}{wait}{clear}{end}	{fb:1580}{n}{spk:0080}{n}I'm out of time. I'll take my leave.{n}{wait}{clear}{end}	
+398A.2EC0	{fb:1E80}{n}{spk:0080}{n}なんだ、君か？{n}私がこれから遊びに行くのを知ってて、{n}呼び止めたのではないだろうな？{n}{wait}{clear}{end}	{fb:1E80}{n}{spk:0080}{n}Oh, it's you? You didn't stop me knowing{n}I was about to go out and have some fun,{n}did you?{n}{wait}{clear}{end}	
+398A.2F28	{fb:1F80}{n}{spk:0080}{n}もう時間がない。{n}これで失礼する。{n}{wait}{clear}{end}	{fb:1F80}{n}{spk:0080}{n}I'm out of time. I'll take my leave.{n}{wait}{clear}{end}	
+398A.2F5E	{fb:2880}{n}{spk:0080}{n}お前か。これから「武芸競技大会」を{n}見にいこうと思っていたところだが・・・、{n}なにか仕事か？{n}{wait}{clear}{end}	{fb:2880}{n}{spk:0080}{n}You. I was about to go watch the Martial{n}Arts Tournament... Is there work?{n}{wait}{clear}{end}	
+398A.2FCE	{fb:2980}{n}{spk:0080}{n}もういいのだな。{n}{wait}{clear}{end}	{fb:2980}{n}{spk:0080}{n}Done, then.{n}{wait}{clear}{end}	
+398A.2FF2	{fb:3280}{n}{spk:0080}{n}お前か。これから「武芸競技大会」を{n}見にいこうと思っていたところだが・・・、{n}なにか仕事か？{n}{wait}{clear}{end}	{fb:3280}{n}{spk:0080}{n}You. I was about to go watch the Martial{n}Arts Tournament... Is there work?{n}{wait}{clear}{end}	
+398A.3062	{fb:3380}{n}{spk:0080}{n}もういいのだな。{n}{wait}{clear}{end}	{fb:3380}{n}{spk:0080}{n}Done, then.{n}{wait}{clear}{end}	
+398A.3086	{fb:3C80}{n}{spk:0080}{n}お！？　どうした？{n}まさか、オレの遊びについて来る{n}ってんじゃねえだろうな。{n}{wait}{clear}{end}	{fb:3C80}{n}{spk:0080}{n}Oh!? What's up? Don't tell me you're{n}tagging along on my night out.{n}{wait}{clear}{end}	
+398A.30E6	{fb:3D80}{n}{spk:0080}{n}じゃあな、{n}もう行くぜ。{n}{wait}{clear}{end}	{fb:3D80}{n}{spk:0080}{n}See ya, I'm off.{n}{wait}{clear}{end}	
+398A.3112	{fb:4680}{n}{spk:0080}{n}お！？　どうした？{n}まさか、オレの遊びについて来る{n}ってんじゃねえだろうな。{n}{wait}{clear}{end}	{fb:4680}{n}{spk:0080}{n}Oh!? What's up? Don't tell me you're{n}tagging along on my night out.{n}{wait}{clear}{end}	
+398A.3172	{fb:4780}{n}{spk:0080}{n}じゃあな、{n}もう行くぜ。{n}{wait}{clear}{end}	{fb:4780}{n}{spk:0080}{n}See ya, I'm off.{n}{wait}{clear}{end}	
+398A.319E	{fb:5080}{n}{spk:0080}{n}これは天使様・・・。{n}今日は街で開かれる音楽会へ{n}行ってみようと思っていたところです。{n}{wait}{clear}{spk:0080}{n}なにか、ありましたか？{n}{wait}{clear}{end}	{fb:5080}{n}{spk:0080}{n}Ah, Angel... I was just thinking of{n}going to the concert being held in town{n}today.{n}{wait}{clear}{spk:0080}{n}Has something happened?{n}{wait}{clear}{end}	
 398A.322A	{fb:5180}{n}{spk:0080}{n}そうですか。それでは。{n}{wait}{clear}{end}	{fb:5180}{n}{spk:0080}{n}I see. Well then.{n}{wait}{clear}{end}	
-398A.3254	{fb:5A80}{n}{spk:0080}{n}これは天使様・・・。{n}今日は街で開かれる音楽会へ{n}行ってみようと思っていたところです。{n}{wait}{clear}{spk:0080}{n}なにか、ありましたか？{n}{wait}{clear}{end}		
+398A.3254	{fb:5A80}{n}{spk:0080}{n}これは天使様・・・。{n}今日は街で開かれる音楽会へ{n}行ってみようと思っていたところです。{n}{wait}{clear}{spk:0080}{n}なにか、ありましたか？{n}{wait}{clear}{end}	{fb:5A80}{n}{spk:0080}{n}Ah, Angel... I was just thinking of{n}going to the concert being held in town{n}today.{n}{wait}{clear}{spk:0080}{n}Has something happened?{n}{wait}{clear}{end}	
 398A.32E0	{fb:5B80}{n}{spk:0080}{n}そうですか。それでは。{n}{wait}{clear}{end}	{fb:5B80}{n}{spk:0080}{n}I see. Well then.{n}{wait}{clear}{end}	
-398A.330A	{fb:6480}{n}{spk:0080}{n}天使様ですか・・・。{n}{wait}{clear}{spk:0080}{n}私は今、考えたいことがあって、{n}あまり話しをする気持ちには{n}なれないんですが・・・。{n}{wait}{clear}{end}		
-398A.3392	{fb:6580}{n}{spk:0080}{n}では、私はもうしばらく、{n}一人でここにいます。{n}{wait}{clear}{end}		
-398A.33D4	{fb:6E80}{n}{spk:0080}{n}天使様ですか・・・。{n}{wait}{clear}{spk:0080}{n}私は今、考えたいことがあって、{n}あまり話しをする気持ちには{n}なれないんですが・・・。{n}{wait}{clear}{end}		
-398A.345C	{fb:6F80}{n}{spk:0080}{n}では、私はもうしばらく、{n}一人でここにいます。{n}{wait}{clear}{end}		
-398A.349E	{fb:7880}{n}{spk:0080}{n}あ！　天使様。{n}これから、山の奥に遊びに行こうと{n}思ってたんだ。{n}{wait}{clear}{end}		
-398A.34F2	{fb:7980}{n}{spk:0080}{n}それだけだね。{n}よぉーし！　それじゃ、{n}探検に行こうっと！！{n}{wait}{clear}{end}		
-398A.3542	{fb:8280}{n}{spk:0080}{n}あ！　天使様。{n}これから、山の奥に遊びに行こうと{n}思ってたんだ。{n}{wait}{clear}{end}		
-398A.3596	{fb:8380}{n}{spk:0080}{n}それだけだね。{n}よぉーし！　それじゃ、{n}探検に行こうっと！！{n}{wait}{clear}{end}		
-398A.35E6	{fb:8C80}{n}{spk:0080}{n}どうしたんだ？　天使様。{n}{wait}{clear}{spk:0080}{n}暇な時間ができたから、{n}釣りにでも行こうかと{n}思ってたんだけど・・・。{n}{wait}{clear}{end}		
-398A.3664	{fb:8D80}{n}{spk:0080}{n}じゃあ、俺はもう行くよ。{n}{wait}{clear}{end}		
-398A.3690	{fb:9680}{n}{spk:0080}{n}どうしたんだ？　天使様。{n}{wait}{clear}{spk:0080}{n}暇な時間ができたから、{n}釣りにでも行こうかと{n}思ってたんだけど・・・。{n}{wait}{clear}{end}		
-398A.370E	{fb:9780}{n}{spk:0080}{n}じゃあ、俺はもう行くよ。{n}{wait}{clear}{end}		
-398A.373A	{fb:A080}{n}{spk:0080}{n}これから街でも回ろうかなと{n}思ってるところなんだけど、{n}なにか用？{n}{wait}{clear}{end}		
-398A.3790	{fb:A180}{n}{spk:0080}{n}それじゃ、そういうことで。{n}{wait}{clear}{end}		
-398A.37BE	{fb:AA80}{n}{spk:0080}{n}これから街でも回ろうかなと{n}思ってるところなんだけど、{n}なにか用？{n}{wait}{clear}{end}		
-398A.3814	{fb:AB80}{n}{spk:0080}{n}それじゃ、そういうことで。{n}{wait}{clear}{end}		
-398A.3842	{fb:B480}{n}{spk:0080}{n}あらら。こんなとこまで付いてきて・・・。{n}今日は私、のんびりしようと思っている{n}ところなんだけど・・・。なにか用？{n}{wait}{clear}{end}		
-398A.38C8	{fb:B580}{n}{spk:0080}{n}あ、そ。{n}じゃ、またあとでね。{n}{wait}{clear}{end}		
-398A.38FA	{fb:BE80}{n}{spk:0080}{n}あらら。こんなとこまで付いてきて・・・。{n}今日は私、のんびりしようと思っている{n}ところなんだけど・・・。なにか用？{n}{wait}{clear}{end}		
-398A.3980	{fb:BF80}{n}{spk:0080}{n}あ、そ。{n}じゃ、またあとでね。{n}{wait}{clear}{end}		
-398A.39B2	{fb:C880}{n}{spk:0080}{n}なんだ、何か用か？{n}散歩に出かけようって時に、{n}呼びとめたりして・・・。{n}{wait}{clear}{end}		
-398A.3A0E	{fb:C980}{n}{spk:0080}{n}話しはもういいのか？{n}じゃあ、オレはもう行くぜ。{n}{wait}{clear}{end}		
-398A.3A52	{fb:D280}{n}{spk:0080}{n}なんだ、何か用か？{n}散歩に出かけようって時に、{n}呼びとめたりして・・・。{n}{wait}{clear}{end}		
-398A.3AAE	{fb:D380}{n}{spk:0080}{n}話しはもういいのか？{n}じゃあ、オレはもう行くぜ。{n}{wait}{clear}{end}		
-398A.3AF2	{fb:DC80}{n}{spk:0080}{n}あら、今から出かけるところだけど・・・。{n}なにか用事ができたのかしら？{n}{wait}{clear}{end}		
-398A.3B4C	{fb:DD80}{n}{spk:0080}{n}わかったわ・・・。{n}{wait}{clear}{end}		
-398A.3B72	{fb:E680}{n}{spk:0080}{n}あら、今から出かけるところだけど・・・。{n}なにか用事ができたのかしら？{n}{wait}{clear}{end}		
-398A.3BCC	{fb:E780}{n}{spk:0080}{n}わかったわ・・・。{n}{wait}{clear}{end}		
-398A.3BF2	{fb:F080}{n}{spk:0080}{n}あっ、天使様！{n}今日はゆっくりさせてもらってます。{n}でも、なにかまた、お仕事でしょうか？{n}{wait}{clear}{end}		
-398A.3C5E	{fb:F180}{n}{spk:0080}{n}そうですか。{n}それでは、また。{n}{wait}{clear}{end}		
-398A.3C90	{fb:FA80}{n}{spk:0080}{n}あっ、天使様！{n}今日はゆっくりさせてもらってます。{n}でも、なにかまた、お仕事でしょうか？{n}{wait}{clear}{end}		
-398A.3CFC	{fb:FB80}{n}{spk:0080}{n}そうですか。{n}それでは、また。{n}{wait}{clear}{end}		
-398A.3D30	{fb:1480}{n}{spk:0080}{n}何か用か？{n}剣の修行中だから、{n}長話しはできないぞ。{n}{wait}{clear}{end}		entry point inside the previous row's message
-398A.3D78	{fb:1580}{n}{spk:0080}{n}では、私はまだやることが{n}残っているんでな。{n}{wait}{clear}{end}		
-398A.3DB8	{fb:1E80}{n}{spk:0080}{n}何か用か？{n}剣の修行中だから、{n}長話しはできないぞ。{n}{wait}{clear}{end}		
-398A.3E00	{fb:1F80}{n}{spk:0080}{n}では、私はまだやることが{n}残っているんでな。{n}{wait}{clear}{end}		
-398A.3E40	{fb:2880}{n}{spk:0080}{n}・・・。今は、修行中だ。{n}あまり近づくと怪我をするぞ。{n}何の用だ。{n}{wait}{clear}{end}		
-398A.3E96	{fb:2980}{n}{spk:0080}{n}・・・。{n}用が済んだのなら、帰れ。{n}{wait}{clear}{end}		
-398A.3ECC	{fb:3280}{n}{spk:0080}{n}・・・。今は、修行中だ。{n}あまり近づくと怪我をするぞ。{n}何の用だ。{n}{wait}{clear}{end}		
-398A.3F22	{fb:3380}{n}{spk:0080}{n}・・・。{n}用が済んだのなら、帰れ。{n}{wait}{clear}{end}		
-398A.3F58	{fb:3C80}{n}{spk:0080}{n}せっかく真面目に{n}剣の修行をしてるってのに・・・。{n}{wait}{clear}{spk:0080}{n}何だよ？　話って？{n}{wait}{clear}{end}		
-398A.3FBC	{fb:3D80}{n}{spk:0080}{n}じゃあな。{n}{wait}{clear}{end}		
-398A.3FDA	{fb:4680}{n}{spk:0080}{n}せっかく真面目に{n}剣の修行をしてるってのに・・・。{n}{wait}{clear}{spk:0080}{n}何だよ？　話って？{n}{wait}{clear}{end}		
-398A.403E	{fb:4780}{n}{spk:0080}{n}じゃあな。{n}{wait}{clear}{end}		
-398A.405C	{fb:5080}{n}{spk:0080}{n}天使様でしたか。{n}修行ってなかなか、大変ですね・・・。{n}{wait}{clear}{spk:0080}{n}なにか、あったんですか？{n}{wait}{clear}{end}		
-398A.40CA	{fb:5180}{n}{spk:0080}{n}そうですか・・・。{n}では、また。{n}{wait}{clear}{end}		
-398A.40FE	{fb:5A80}{n}{spk:0080}{n}天使様でしたか。{n}修行ってなかなか、大変ですね・・・。{n}{wait}{clear}{spk:0080}{n}なにか、あったんですか？{n}{wait}{clear}{end}		
-398A.416C	{fb:5B80}{n}{spk:0080}{n}そうですか・・・。{n}では、また。{n}{wait}{clear}{end}		
-398A.41A0	{fb:6480}{n}{spk:0080}{n}おや、天使様。ちょうど今、{n}医学の書物を読んでいたのですが、{n}何か用事でしょうか？{n}{wait}{clear}{end}		
-398A.4206	{fb:6580}{n}{spk:0080}{n}では、私はもうしばらく{n}書物を読むことにします。{n}{wait}{clear}{end}		
-398A.424A	{fb:6E80}{n}{spk:0080}{n}おや、天使様。ちょうど今、{n}医学の書物を読んでいたのですが、{n}何か用事でしょうか？{n}{wait}{clear}{end}		
-398A.42B0	{fb:6F80}{n}{spk:0080}{n}では、私はもうしばらく{n}書物を読むことにします。{n}{wait}{clear}{end}		
-398A.42F4	{fb:7880}{n}{spk:0080}{n}うーっ・・・。うまくいかないや・・・。{n}むずかしいな・・・。{n}あ、天使様。{n}{wait}{clear}{spk:0080}{n}今、修行してたんだけど・・・。{n}なにかあったの？{n}{wait}{clear}{end}		
-398A.438E	{fb:7980}{n}{spk:0080}{n}それじゃ、またね。{n}{wait}{clear}{end}		
-398A.43B4	{fb:8280}{n}{spk:0080}{n}うーっ・・・。うまくいかないや・・・。{n}むずかしいな・・・。{n}あ、天使様。{n}{wait}{clear}{spk:0080}{n}今、修行してたんだけど・・・。{n}なにかあったの？{n}{wait}{clear}{end}		
-398A.444E	{fb:8380}{n}{spk:0080}{n}それじゃ、またね。{n}{wait}{clear}{end}		
-398A.4474	{fb:8C80}{n}{spk:0080}{n}天使様？{n}・・・まいったなあ。{n}剣の修行中にまで来るなんて・・・。{n}{wait}{clear}{end}		
-398A.44CA	{fb:8D80}{n}{spk:0080}{n}もう、話しは済んだかい？　なら、{n}こっちも修行に専念するよ。{n}{wait}{clear}{end}		
-398A.451A	{fb:9680}{n}{spk:0080}{n}天使様？{n}・・・まいったなあ。{n}剣の修行中にまで来るなんて・・・。{n}{wait}{clear}{end}		
-398A.4570	{fb:9780}{n}{spk:0080}{n}もう、話しは済んだかい？　なら、{n}こっちも修行に専念するよ。{n}{wait}{clear}{end}		
-398A.45C0	{fb:A080}{n}{spk:0080}{n}あれっ？{n}こんなところにまで、くるんだね。{n}修行中だけど、なにか用？{n}{wait}{clear}{end}		
-398A.4618	{fb:A180}{n}{spk:0080}{n}ようし。{n}それじゃ、また、{n}がんばろうかなっ！！{n}{wait}{clear}{end}		
-398A.465C	{fb:AA80}{n}{spk:0080}{n}あれっ？{n}こんなところにまで、くるんだね。{n}修行中だけど、なにか用？{n}{wait}{clear}{end}		
-398A.46B4	{fb:AB80}{n}{spk:0080}{n}ようし。{n}それじゃ、また、{n}がんばろうかなっ！！{n}{wait}{clear}{end}		
-398A.46F8	{fb:B480}{n}{spk:0080}{n}なんだアンタか・・・。{n}で、なに？{n}私、今、修行中なんだけど。{n}{wait}{clear}{end}		
-398A.474A	{fb:B580}{n}{spk:0080}{n}用事が済んだなら、どっか行ってて。{n}じゃぁねッ！{n}{wait}{clear}{end}		
-398A.478E	{fb:BE80}{n}{spk:0080}{n}なんだアンタか・・・。{n}で、なに？{n}私、今、修行中なんだけど。{n}{wait}{clear}{end}		
-398A.47E0	{fb:BF80}{n}{spk:0080}{n}用事が済んだなら、どっか行ってて。{n}じゃぁねッ！{n}{wait}{clear}{end}		
-398A.4824	{fb:C880}{n}{spk:0080}{n}あのさあ、オレ今、修行中なんだ。{n}出来れば一人っきりでやりたいんだよな。{n}{wait}{clear}{spk:0080}{n}だから、悪ィけどまた後にしてくれよ。{n}じゃあな。{n}{wait}{clear}{end}		
+398A.330A	{fb:6480}{n}{spk:0080}{n}天使様ですか・・・。{n}{wait}{clear}{spk:0080}{n}私は今、考えたいことがあって、{n}あまり話しをする気持ちには{n}なれないんですが・・・。{n}{wait}{clear}{end}	{fb:6480}{n}{spk:0080}{n}Is that you, Angel...{n}{wait}{clear}{spk:0080}{n}I have some things to think over just{n}now, and I'm not much in the mood to{n}talk...{n}{wait}{clear}{end}	
+398A.3392	{fb:6580}{n}{spk:0080}{n}では、私はもうしばらく、{n}一人でここにいます。{n}{wait}{clear}{end}	{fb:6580}{n}{spk:0080}{n}Then I'll stay here alone a while{n}longer.{n}{wait}{clear}{end}	
+398A.33D4	{fb:6E80}{n}{spk:0080}{n}天使様ですか・・・。{n}{wait}{clear}{spk:0080}{n}私は今、考えたいことがあって、{n}あまり話しをする気持ちには{n}なれないんですが・・・。{n}{wait}{clear}{end}	{fb:6E80}{n}{spk:0080}{n}Is that you, Angel...{n}{wait}{clear}{spk:0080}{n}I have some things to think over just{n}now, and I'm not much in the mood to{n}talk...{n}{wait}{clear}{end}	
+398A.345C	{fb:6F80}{n}{spk:0080}{n}では、私はもうしばらく、{n}一人でここにいます。{n}{wait}{clear}{end}	{fb:6F80}{n}{spk:0080}{n}Then I'll stay here alone a while{n}longer.{n}{wait}{clear}{end}	
+398A.349E	{fb:7880}{n}{spk:0080}{n}あ！　天使様。{n}これから、山の奥に遊びに行こうと{n}思ってたんだ。{n}{wait}{clear}{end}	{fb:7880}{n}{spk:0080}{n}Oh! Angel. I was gonna go play deep in{n}the mountains.{n}{wait}{clear}{end}	
+398A.34F2	{fb:7980}{n}{spk:0080}{n}それだけだね。{n}よぉーし！　それじゃ、{n}探検に行こうっと！！{n}{wait}{clear}{end}	{fb:7980}{n}{spk:0080}{n}That's it, right? All riiight! Off{n}exploring I go!!{n}{wait}{clear}{end}	
+398A.3542	{fb:8280}{n}{spk:0080}{n}あ！　天使様。{n}これから、山の奥に遊びに行こうと{n}思ってたんだ。{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Oh! Angel. I was gonna go play deep in{n}the mountains.{n}{wait}{clear}{end}	
+398A.3596	{fb:8380}{n}{spk:0080}{n}それだけだね。{n}よぉーし！　それじゃ、{n}探検に行こうっと！！{n}{wait}{clear}{end}	{fb:8380}{n}{spk:0080}{n}That's it, right? All riiight! Off{n}exploring I go!!{n}{wait}{clear}{end}	
+398A.35E6	{fb:8C80}{n}{spk:0080}{n}どうしたんだ？　天使様。{n}{wait}{clear}{spk:0080}{n}暇な時間ができたから、{n}釣りにでも行こうかと{n}思ってたんだけど・・・。{n}{wait}{clear}{end}	{fb:8C80}{n}{spk:0080}{n}What's up, Angel?{n}{wait}{clear}{spk:0080}{n}I've got some free time, so I was{n}thinking of going fishing...{n}{wait}{clear}{end}	
+398A.3664	{fb:8D80}{n}{spk:0080}{n}じゃあ、俺はもう行くよ。{n}{wait}{clear}{end}	{fb:8D80}{n}{spk:0080}{n}I'll be going, then.{n}{wait}{clear}{end}	
+398A.3690	{fb:9680}{n}{spk:0080}{n}どうしたんだ？　天使様。{n}{wait}{clear}{spk:0080}{n}暇な時間ができたから、{n}釣りにでも行こうかと{n}思ってたんだけど・・・。{n}{wait}{clear}{end}	{fb:9680}{n}{spk:0080}{n}What's up, Angel?{n}{wait}{clear}{spk:0080}{n}I've got some free time, so I was{n}thinking of going fishing...{n}{wait}{clear}{end}	
+398A.370E	{fb:9780}{n}{spk:0080}{n}じゃあ、俺はもう行くよ。{n}{wait}{clear}{end}	{fb:9780}{n}{spk:0080}{n}I'll be going, then.{n}{wait}{clear}{end}	
+398A.373A	{fb:A080}{n}{spk:0080}{n}これから街でも回ろうかなと{n}思ってるところなんだけど、{n}なにか用？{n}{wait}{clear}{end}	{fb:A080}{n}{spk:0080}{n}I was just thinking of looking around{n}town. What do you want?{n}{wait}{clear}{end}	
+398A.3790	{fb:A180}{n}{spk:0080}{n}それじゃ、そういうことで。{n}{wait}{clear}{end}	{fb:A180}{n}{spk:0080}{n}Well, that's that, then.{n}{wait}{clear}{end}	
+398A.37BE	{fb:AA80}{n}{spk:0080}{n}これから街でも回ろうかなと{n}思ってるところなんだけど、{n}なにか用？{n}{wait}{clear}{end}	{fb:AA80}{n}{spk:0080}{n}I was just thinking of looking around{n}town. What do you want?{n}{wait}{clear}{end}	
+398A.3814	{fb:AB80}{n}{spk:0080}{n}それじゃ、そういうことで。{n}{wait}{clear}{end}	{fb:AB80}{n}{spk:0080}{n}Well, that's that, then.{n}{wait}{clear}{end}	
+398A.3842	{fb:B480}{n}{spk:0080}{n}あらら。こんなとこまで付いてきて・・・。{n}今日は私、のんびりしようと思っている{n}ところなんだけど・・・。なにか用？{n}{wait}{clear}{end}	{fb:B480}{n}{spk:0080}{n}Oh my. Following me all the way here...{n}I was planning to take it easy today...{n}What do you want?{n}{wait}{clear}{end}	
+398A.38C8	{fb:B580}{n}{spk:0080}{n}あ、そ。{n}じゃ、またあとでね。{n}{wait}{clear}{end}	{fb:B580}{n}{spk:0080}{n}Oh, OK. See you later, then.{n}{wait}{clear}{end}	
+398A.38FA	{fb:BE80}{n}{spk:0080}{n}あらら。こんなとこまで付いてきて・・・。{n}今日は私、のんびりしようと思っている{n}ところなんだけど・・・。なにか用？{n}{wait}{clear}{end}	{fb:BE80}{n}{spk:0080}{n}Oh my. Following me all the way here...{n}I was planning to take it easy today...{n}What do you want?{n}{wait}{clear}{end}	
+398A.3980	{fb:BF80}{n}{spk:0080}{n}あ、そ。{n}じゃ、またあとでね。{n}{wait}{clear}{end}	{fb:BF80}{n}{spk:0080}{n}Oh, OK. See you later, then.{n}{wait}{clear}{end}	
+398A.39B2	{fb:C880}{n}{spk:0080}{n}なんだ、何か用か？{n}散歩に出かけようって時に、{n}呼びとめたりして・・・。{n}{wait}{clear}{end}	{fb:C880}{n}{spk:0080}{n}What, you need something? Stopping me{n}just when I'm heading out for a walk...{n}{wait}{clear}{end}	
+398A.3A0E	{fb:C980}{n}{spk:0080}{n}話しはもういいのか？{n}じゃあ、オレはもう行くぜ。{n}{wait}{clear}{end}	{fb:C980}{n}{spk:0080}{n}Done talking? Then I'm off.{n}{wait}{clear}{end}	
+398A.3A52	{fb:D280}{n}{spk:0080}{n}なんだ、何か用か？{n}散歩に出かけようって時に、{n}呼びとめたりして・・・。{n}{wait}{clear}{end}	{fb:D280}{n}{spk:0080}{n}What, you need something? Stopping me{n}just when I'm heading out for a walk...{n}{wait}{clear}{end}	
+398A.3AAE	{fb:D380}{n}{spk:0080}{n}話しはもういいのか？{n}じゃあ、オレはもう行くぜ。{n}{wait}{clear}{end}	{fb:D380}{n}{spk:0080}{n}Done talking? Then I'm off.{n}{wait}{clear}{end}	
+398A.3AF2	{fb:DC80}{n}{spk:0080}{n}あら、今から出かけるところだけど・・・。{n}なにか用事ができたのかしら？{n}{wait}{clear}{end}	{fb:DC80}{n}{spk:0080}{n}Oh, I was just about to go out... Has{n}something come up?{n}{wait}{clear}{end}	
+398A.3B4C	{fb:DD80}{n}{spk:0080}{n}わかったわ・・・。{n}{wait}{clear}{end}	{fb:DD80}{n}{spk:0080}{n}All right...{n}{wait}{clear}{end}	
+398A.3B72	{fb:E680}{n}{spk:0080}{n}あら、今から出かけるところだけど・・・。{n}なにか用事ができたのかしら？{n}{wait}{clear}{end}	{fb:E680}{n}{spk:0080}{n}Oh, I was just about to go out... Has{n}something come up?{n}{wait}{clear}{end}	
+398A.3BCC	{fb:E780}{n}{spk:0080}{n}わかったわ・・・。{n}{wait}{clear}{end}	{fb:E780}{n}{spk:0080}{n}All right...{n}{wait}{clear}{end}	
+398A.3BF2	{fb:F080}{n}{spk:0080}{n}あっ、天使様！{n}今日はゆっくりさせてもらってます。{n}でも、なにかまた、お仕事でしょうか？{n}{wait}{clear}{end}	{fb:F080}{n}{spk:0080}{n}Oh, Angel! I'm taking it easy today. But{n}is there more work for me?{n}{wait}{clear}{end}	
+398A.3C5E	{fb:F180}{n}{spk:0080}{n}そうですか。{n}それでは、また。{n}{wait}{clear}{end}	{fb:F180}{n}{spk:0080}{n}I see. Well then, see you.{n}{wait}{clear}{end}	
+398A.3C90	{fb:FA80}{n}{spk:0080}{n}あっ、天使様！{n}今日はゆっくりさせてもらってます。{n}でも、なにかまた、お仕事でしょうか？{n}{wait}{clear}{end}	{fb:FA80}{n}{spk:0080}{n}Oh, Angel! I'm taking it easy today. But{n}is there more work for me?{n}{wait}{clear}{end}	
+398A.3CFC	{fb:FB80}{n}{spk:0080}{n}そうですか。{n}それでは、また。{n}{wait}{clear}{end}	{fb:FB80}{n}{spk:0080}{n}I see. Well then, see you.{n}{wait}{clear}{end}	
+398A.3D30	{fb:1480}{n}{spk:0080}{n}何か用か？{n}剣の修行中だから、{n}長話しはできないぞ。{n}{wait}{clear}{end}	{fb:1480}{n}{spk:0080}{n}Do you need something? I'm in the middle{n}of sword practice, so I can't talk long.{n}{wait}{clear}{end}	entry point inside the previous row's message
+398A.3D78	{fb:1580}{n}{spk:0080}{n}では、私はまだやることが{n}残っているんでな。{n}{wait}{clear}{end}	{fb:1580}{n}{spk:0080}{n}Then I still have things left to do.{n}{wait}{clear}{end}	
+398A.3DB8	{fb:1E80}{n}{spk:0080}{n}何か用か？{n}剣の修行中だから、{n}長話しはできないぞ。{n}{wait}{clear}{end}	{fb:1E80}{n}{spk:0080}{n}Do you need something? I'm in the middle{n}of sword practice, so I can't talk long.{n}{wait}{clear}{end}	
+398A.3E00	{fb:1F80}{n}{spk:0080}{n}では、私はまだやることが{n}残っているんでな。{n}{wait}{clear}{end}	{fb:1F80}{n}{spk:0080}{n}Then I still have things left to do.{n}{wait}{clear}{end}	
+398A.3E40	{fb:2880}{n}{spk:0080}{n}・・・。今は、修行中だ。{n}あまり近づくと怪我をするぞ。{n}何の用だ。{n}{wait}{clear}{end}	{fb:2880}{n}{spk:0080}{n}.... I'm training. Come too close and{n}you'll get hurt. What do you want?{n}{wait}{clear}{end}	
+398A.3E96	{fb:2980}{n}{spk:0080}{n}・・・。{n}用が済んだのなら、帰れ。{n}{wait}{clear}{end}	{fb:2980}{n}{spk:0080}{n}.... If your business is done, go back.{n}{wait}{clear}{end}	
+398A.3ECC	{fb:3280}{n}{spk:0080}{n}・・・。今は、修行中だ。{n}あまり近づくと怪我をするぞ。{n}何の用だ。{n}{wait}{clear}{end}	{fb:3280}{n}{spk:0080}{n}.... I'm training. Come too close and{n}you'll get hurt. What do you want?{n}{wait}{clear}{end}	
+398A.3F22	{fb:3380}{n}{spk:0080}{n}・・・。{n}用が済んだのなら、帰れ。{n}{wait}{clear}{end}	{fb:3380}{n}{spk:0080}{n}.... If your business is done, go back.{n}{wait}{clear}{end}	
+398A.3F58	{fb:3C80}{n}{spk:0080}{n}せっかく真面目に{n}剣の修行をしてるってのに・・・。{n}{wait}{clear}{spk:0080}{n}何だよ？　話って？{n}{wait}{clear}{end}	{fb:3C80}{n}{spk:0080}{n}And here I was actually practicing my{n}sword for once...{n}{wait}{clear}{spk:0080}{n}What? Something to talk about?{n}{wait}{clear}{end}	
+398A.3FBC	{fb:3D80}{n}{spk:0080}{n}じゃあな。{n}{wait}{clear}{end}	{fb:3D80}{n}{spk:0080}{n}See ya.{n}{wait}{clear}{end}	
+398A.3FDA	{fb:4680}{n}{spk:0080}{n}せっかく真面目に{n}剣の修行をしてるってのに・・・。{n}{wait}{clear}{spk:0080}{n}何だよ？　話って？{n}{wait}{clear}{end}	{fb:4680}{n}{spk:0080}{n}And here I was actually practicing my{n}sword for once...{n}{wait}{clear}{spk:0080}{n}What? Something to talk about?{n}{wait}{clear}{end}	
+398A.403E	{fb:4780}{n}{spk:0080}{n}じゃあな。{n}{wait}{clear}{end}	{fb:4780}{n}{spk:0080}{n}See ya.{n}{wait}{clear}{end}	
+398A.405C	{fb:5080}{n}{spk:0080}{n}天使様でしたか。{n}修行ってなかなか、大変ですね・・・。{n}{wait}{clear}{spk:0080}{n}なにか、あったんですか？{n}{wait}{clear}{end}	{fb:5080}{n}{spk:0080}{n}Oh, it's you, Angel. Training is hard{n}work, isn't it...{n}{wait}{clear}{spk:0080}{n}Has something happened?{n}{wait}{clear}{end}	
+398A.40CA	{fb:5180}{n}{spk:0080}{n}そうですか・・・。{n}では、また。{n}{wait}{clear}{end}	{fb:5180}{n}{spk:0080}{n}I see... Then, see you.{n}{wait}{clear}{end}	
+398A.40FE	{fb:5A80}{n}{spk:0080}{n}天使様でしたか。{n}修行ってなかなか、大変ですね・・・。{n}{wait}{clear}{spk:0080}{n}なにか、あったんですか？{n}{wait}{clear}{end}	{fb:5A80}{n}{spk:0080}{n}Oh, it's you, Angel. Training is hard{n}work, isn't it...{n}{wait}{clear}{spk:0080}{n}Has something happened?{n}{wait}{clear}{end}	
+398A.416C	{fb:5B80}{n}{spk:0080}{n}そうですか・・・。{n}では、また。{n}{wait}{clear}{end}	{fb:5B80}{n}{spk:0080}{n}I see... Then, see you.{n}{wait}{clear}{end}	
+398A.41A0	{fb:6480}{n}{spk:0080}{n}おや、天使様。ちょうど今、{n}医学の書物を読んでいたのですが、{n}何か用事でしょうか？{n}{wait}{clear}{end}	{fb:6480}{n}{spk:0080}{n}Oh, Angel. I was just reading a medical{n}text. Is there something you need?{n}{wait}{clear}{end}	
+398A.4206	{fb:6580}{n}{spk:0080}{n}では、私はもうしばらく{n}書物を読むことにします。{n}{wait}{clear}{end}	{fb:6580}{n}{spk:0080}{n}Then I'll keep reading a while longer.{n}{wait}{clear}{end}	
+398A.424A	{fb:6E80}{n}{spk:0080}{n}おや、天使様。ちょうど今、{n}医学の書物を読んでいたのですが、{n}何か用事でしょうか？{n}{wait}{clear}{end}	{fb:6E80}{n}{spk:0080}{n}Oh, Angel. I was just reading a medical{n}text. Is there something you need?{n}{wait}{clear}{end}	
+398A.42B0	{fb:6F80}{n}{spk:0080}{n}では、私はもうしばらく{n}書物を読むことにします。{n}{wait}{clear}{end}	{fb:6F80}{n}{spk:0080}{n}Then I'll keep reading a while longer.{n}{wait}{clear}{end}	
+398A.42F4	{fb:7880}{n}{spk:0080}{n}うーっ・・・。うまくいかないや・・・。{n}むずかしいな・・・。{n}あ、天使様。{n}{wait}{clear}{spk:0080}{n}今、修行してたんだけど・・・。{n}なにかあったの？{n}{wait}{clear}{end}	{fb:7880}{n}{spk:0080}{n}Ugh... It's not working... It's hard...{n}Oh, Angel.{n}{wait}{clear}{spk:0080}{n}I was training just now... Did something{n}happen?{n}{wait}{clear}{end}	
+398A.438E	{fb:7980}{n}{spk:0080}{n}それじゃ、またね。{n}{wait}{clear}{end}	{fb:7980}{n}{spk:0080}{n}See you, then.{n}{wait}{clear}{end}	
+398A.43B4	{fb:8280}{n}{spk:0080}{n}うーっ・・・。うまくいかないや・・・。{n}むずかしいな・・・。{n}あ、天使様。{n}{wait}{clear}{spk:0080}{n}今、修行してたんだけど・・・。{n}なにかあったの？{n}{wait}{clear}{end}	{fb:8280}{n}{spk:0080}{n}Ugh... It's not working... It's hard...{n}Oh, Angel.{n}{wait}{clear}{spk:0080}{n}I was training just now... Did something{n}happen?{n}{wait}{clear}{end}	
+398A.444E	{fb:8380}{n}{spk:0080}{n}それじゃ、またね。{n}{wait}{clear}{end}	{fb:8380}{n}{spk:0080}{n}See you, then.{n}{wait}{clear}{end}	
+398A.4474	{fb:8C80}{n}{spk:0080}{n}天使様？{n}・・・まいったなあ。{n}剣の修行中にまで来るなんて・・・。{n}{wait}{clear}{end}	{fb:8C80}{n}{spk:0080}{n}Angel? ...Jeez. Coming even while I'm{n}practicing my sword...{n}{wait}{clear}{end}	
+398A.44CA	{fb:8D80}{n}{spk:0080}{n}もう、話しは済んだかい？　なら、{n}こっちも修行に専念するよ。{n}{wait}{clear}{end}	{fb:8D80}{n}{spk:0080}{n}Done talking? Then I'll focus on my{n}training.{n}{wait}{clear}{end}	
+398A.451A	{fb:9680}{n}{spk:0080}{n}天使様？{n}・・・まいったなあ。{n}剣の修行中にまで来るなんて・・・。{n}{wait}{clear}{end}	{fb:9680}{n}{spk:0080}{n}Angel? ...Jeez. Coming even while I'm{n}practicing my sword...{n}{wait}{clear}{end}	
+398A.4570	{fb:9780}{n}{spk:0080}{n}もう、話しは済んだかい？　なら、{n}こっちも修行に専念するよ。{n}{wait}{clear}{end}	{fb:9780}{n}{spk:0080}{n}Done talking? Then I'll focus on my{n}training.{n}{wait}{clear}{end}	
+398A.45C0	{fb:A080}{n}{spk:0080}{n}あれっ？{n}こんなところにまで、くるんだね。{n}修行中だけど、なにか用？{n}{wait}{clear}{end}	{fb:A080}{n}{spk:0080}{n}Huh? You come all the way out here too?{n}I'm training, but what do you want?{n}{wait}{clear}{end}	
+398A.4618	{fb:A180}{n}{spk:0080}{n}ようし。{n}それじゃ、また、{n}がんばろうかなっ！！{n}{wait}{clear}{end}	{fb:A180}{n}{spk:0080}{n}All right. Guess I'll get back to work!!{n}{wait}{clear}{end}	
+398A.465C	{fb:AA80}{n}{spk:0080}{n}あれっ？{n}こんなところにまで、くるんだね。{n}修行中だけど、なにか用？{n}{wait}{clear}{end}	{fb:AA80}{n}{spk:0080}{n}Huh? You come all the way out here too?{n}I'm training, but what do you want?{n}{wait}{clear}{end}	
+398A.46B4	{fb:AB80}{n}{spk:0080}{n}ようし。{n}それじゃ、また、{n}がんばろうかなっ！！{n}{wait}{clear}{end}	{fb:AB80}{n}{spk:0080}{n}All right. Guess I'll get back to work!!{n}{wait}{clear}{end}	
+398A.46F8	{fb:B480}{n}{spk:0080}{n}なんだアンタか・・・。{n}で、なに？{n}私、今、修行中なんだけど。{n}{wait}{clear}{end}	{fb:B480}{n}{spk:0080}{n}Oh, it's you... So, what? I'm training{n}right now.{n}{wait}{clear}{end}	
+398A.474A	{fb:B580}{n}{spk:0080}{n}用事が済んだなら、どっか行ってて。{n}じゃぁねッ！{n}{wait}{clear}{end}	{fb:B580}{n}{spk:0080}{n}If you're done, go somewhere else. Bye!{n}{wait}{clear}{end}	
+398A.478E	{fb:BE80}{n}{spk:0080}{n}なんだアンタか・・・。{n}で、なに？{n}私、今、修行中なんだけど。{n}{wait}{clear}{end}	{fb:BE80}{n}{spk:0080}{n}Oh, it's you... So, what? I'm training{n}right now.{n}{wait}{clear}{end}	
+398A.47E0	{fb:BF80}{n}{spk:0080}{n}用事が済んだなら、どっか行ってて。{n}じゃぁねッ！{n}{wait}{clear}{end}	{fb:BF80}{n}{spk:0080}{n}If you're done, go somewhere else. Bye!{n}{wait}{clear}{end}	
+398A.4824	{fb:C880}{n}{spk:0080}{n}あのさあ、オレ今、修行中なんだ。{n}出来れば一人っきりでやりたいんだよな。{n}{wait}{clear}{spk:0080}{n}だから、悪ィけどまた後にしてくれよ。{n}じゃあな。{n}{wait}{clear}{end}	{fb:C880}{n}{spk:0080}{n}Look, I'm training right now. I'd rather{n}do it on my own if I can.{n}{wait}{clear}{spk:0080}{n}So sorry, but come back later. See ya.{n}{wait}{clear}{end}	
 398A.48BC	{fb:C980}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:C980}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
-398A.48D8	{fb:D280}{n}{spk:0080}{n}あのさあ、オレ今、修行中なんだ。{n}出来れば一人っきりでやりたいんだよな。{n}{wait}{clear}{spk:0080}{n}だから、悪ィけどまた後にしてくれよ。{n}じゃあな。{n}{wait}{clear}{end}		
+398A.48D8	{fb:D280}{n}{spk:0080}{n}あのさあ、オレ今、修行中なんだ。{n}出来れば一人っきりでやりたいんだよな。{n}{wait}{clear}{spk:0080}{n}だから、悪ィけどまた後にしてくれよ。{n}じゃあな。{n}{wait}{clear}{end}	{fb:D280}{n}{spk:0080}{n}Look, I'm training right now. I'd rather{n}do it on my own if I can.{n}{wait}{clear}{spk:0080}{n}So sorry, but come back later. See ya.{n}{wait}{clear}{end}	
 398A.4970	{fb:D380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:D380}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
-398A.498C	{fb:DC80}{n}{spk:0080}{n}天使サマ、なにか用かしら？{n}今、修行中なのよ・・・。{n}用がないならはなれてて、危ないわよ。{n}{wait}{clear}{end}		
-398A.49FA	{fb:DD80}{n}{spk:0080}{n}そう・・・。{n}・・・それじゃぁね。{n}{wait}{clear}{end}		
-398A.4A30	{fb:E680}{n}{spk:0080}{n}天使サマ、なにか用かしら？{n}今、修行中なのよ・・・。{n}用がないならはなれてて、危ないわよ。{n}{wait}{clear}{end}		
-398A.4A9E	{fb:E780}{n}{spk:0080}{n}そう・・・。{n}・・・それじゃぁね。{n}{wait}{clear}{end}		
-398A.4AD4	{fb:F080}{n}{spk:0080}{n}あ、天使様・・・。{n}え、えっと。今、私、戦いかたの{n}練習をしていたんですけど。{n}{wait}{clear}{end}		
-398A.4B36	{fb:F180}{n}{spk:0080}{n}では、失礼します。{n}なんだか、うまくいかなくて・・・。{n}でも、がんばりますね！{n}{wait}{clear}{end}		
-398A.4B98	{fb:FA80}{n}{spk:0080}{n}あ、天使様・・・。{n}え、えっと。今、私、戦いかたの{n}練習をしていたんですけど。{n}{wait}{clear}{end}		
-398A.4BFA	{fb:FB80}{n}{spk:0080}{n}では、失礼します。{n}なんだか、うまくいかなくて・・・。{n}でも、がんばりますね！{n}{wait}{clear}{end}		
+398A.498C	{fb:DC80}{n}{spk:0080}{n}天使サマ、なにか用かしら？{n}今、修行中なのよ・・・。{n}用がないならはなれてて、危ないわよ。{n}{wait}{clear}{end}	{fb:DC80}{n}{spk:0080}{n}What is it, Angel? I'm training right{n}now... If you don't need anything, stand{n}back. It's dangerous.{n}{wait}{clear}{end}	
+398A.49FA	{fb:DD80}{n}{spk:0080}{n}そう・・・。{n}・・・それじゃぁね。{n}{wait}{clear}{end}	{fb:DD80}{n}{spk:0080}{n}I see... ...Bye, then.{n}{wait}{clear}{end}	
+398A.4A30	{fb:E680}{n}{spk:0080}{n}天使サマ、なにか用かしら？{n}今、修行中なのよ・・・。{n}用がないならはなれてて、危ないわよ。{n}{wait}{clear}{end}	{fb:E680}{n}{spk:0080}{n}What is it, Angel? I'm training right{n}now... If you don't need anything, stand{n}back. It's dangerous.{n}{wait}{clear}{end}	
+398A.4A9E	{fb:E780}{n}{spk:0080}{n}そう・・・。{n}・・・それじゃぁね。{n}{wait}{clear}{end}	{fb:E780}{n}{spk:0080}{n}I see... ...Bye, then.{n}{wait}{clear}{end}	
+398A.4AD4	{fb:F080}{n}{spk:0080}{n}あ、天使様・・・。{n}え、えっと。今、私、戦いかたの{n}練習をしていたんですけど。{n}{wait}{clear}{end}	{fb:F080}{n}{spk:0080}{n}Oh, Angel... U-um. I was just practicing{n}how to fight.{n}{wait}{clear}{end}	
+398A.4B36	{fb:F180}{n}{spk:0080}{n}では、失礼します。{n}なんだか、うまくいかなくて・・・。{n}でも、がんばりますね！{n}{wait}{clear}{end}	{fb:F180}{n}{spk:0080}{n}Then, excuse me. It's not going very{n}well... But I'll keep trying!{n}{wait}{clear}{end}	
+398A.4B98	{fb:FA80}{n}{spk:0080}{n}あ、天使様・・・。{n}え、えっと。今、私、戦いかたの{n}練習をしていたんですけど。{n}{wait}{clear}{end}	{fb:FA80}{n}{spk:0080}{n}Oh, Angel... U-um. I was just practicing{n}how to fight.{n}{wait}{clear}{end}	
+398A.4BFA	{fb:FB80}{n}{spk:0080}{n}では、失礼します。{n}なんだか、うまくいかなくて・・・。{n}でも、がんばりますね！{n}{wait}{clear}{end}	{fb:FB80}{n}{spk:0080}{n}Then, excuse me. It's not going very{n}well... But I'll keep trying!{n}{wait}{clear}{end}	

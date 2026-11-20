@@ -88,6 +88,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ステレンス | Sterens | | usurper king of Fangam, empowered by Apollyon (Ashe event); "Lord Sterens" to his soldiers | |
 | バーンズ | Barnes | | guardian beast of the fairy world, servant of Iuvart (Tia event); broken speech ("Me... beat you") | |
 | ティタニア | Titania | | fairy queen ("Lady Titania") | |
+| フェリス | Felice | | noblewoman Sievas jilts at a soiree (Sievas event) | |
 
 ## Places
 | JP | EN | max | notes | Avoid |

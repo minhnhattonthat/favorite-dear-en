@@ -2,9 +2,11 @@
 
     python -X utf8 tools/build.py              -> build/favorite_dear_en.bin/.cue
     python -X utf8 tools/build.py --identity   -> no edits; exit 1 unless the .bin is byte-identical to rom/
+    python -X utf8 tools/build.py --marker     -> build/favorite_dear_en_marker.* ([id] + filler, phase 5)
+    python -X utf8 tools/build.py --ruler      -> build/favorite_dear_en_ruler.* (width gate)
 
 Steps: check the dump against rom.sha1; unpack it with dumpsxiso into work/disc/ if that is missing; collect the
-edited files (`edits()`, empty until the insert phase) into build/files_<name>/; write build/<name>.xml, a copy
+edited files (`edits()`: tools/insert.py) into build/files_<name>/; write build/<name>.xml, a copy
 of work/disc/layout.xml with absolute paths and a `source=` on every edited file; run mkpsxiso on it.
 work/disc/tree is never written to, so the identity build stays an identity build."""
 import argparse
@@ -42,9 +44,10 @@ def unpack():
     subprocess.run([str(exe("dumpsxiso")), "-x", "tree", "-s", "layout.xml", str(ROM_CUE)], cwd=DISC, check=True)
 
 
-def edits():
-    """{disc path ('DATA/STAFF.TXT'): new bytes}. Empty until the insert phase (status.md)."""
-    return {}
+def edits(mode="en"):
+    """{disc path ('DATA/STAFF.TXT'): new bytes} from tools/insert.py; mode 'marker' = the marker build."""
+    import insert
+    return insert.edits(mode)
 
 
 def file_paths(directory, prefix=""):
@@ -84,18 +87,18 @@ def sha1(path):
         return hashlib.file_digest(f, "sha1").hexdigest()
 
 
-def build(identity=False, changes=None, name=None):
-    """Build the disc; `changes`/`name` replace edits() and the output name (tests)."""
+def build(identity=False, changes=None, name=None, mode="en"):
+    """Build the disc; `changes`/`name` replace edits() and the output name (tests). mode: en | marker | ruler."""
     check_rom.check()
     unpack()
     BUILD.mkdir(exist_ok=True)
-    name = name or (NAME + "_identity" if identity else NAME)
+    name = name or (NAME + "_identity" if identity else NAME if mode == "en" else f"{NAME}_{mode}")
     files = BUILD / ("files_" + name)
     if files.exists():
         shutil.rmtree(files)
     changed = {}
     if changes is None:
-        changes = {} if identity else edits()
+        changes = {} if identity else edits(mode)
     for path, data in changes.items():
         dst = files / path
         dst.parent.mkdir(parents=True, exist_ok=True)
@@ -120,4 +123,9 @@ def build(identity=False, changes=None, name=None):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--identity", action="store_true", help="build with no edits and require a byte-identical .bin")
-    build(ap.parse_args().identity)
+    ap.add_argument("--marker", dest="mode", action="store_const", const="marker", default="en",
+                    help="marker build: [id] + filler in every row -> build/favorite_dear_en_marker.*")
+    ap.add_argument("--ruler", dest="mode", action="store_const", const="ruler",
+                    help="width gate: a 44-letter ruler as each row's first line -> build/favorite_dear_en_ruler.*")
+    a = ap.parse_args()
+    build(a.identity, mode=a.mode)

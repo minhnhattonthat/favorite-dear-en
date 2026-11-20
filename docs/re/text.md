@@ -91,5 +91,17 @@ are MS Gothic's 12 px embedded bitmap (kanji match exactly), kana/Latin/punctuat
   `work/qa/ng/s007500.sstate`.
 - Box: 3 lines of up to ~19 full-width glyphs (the fairy box: "お互い新人みたいだし、" + room); 240 px line buffer.
 
-English plan (phase 5): the cell is 12 px; a half-width or VWF font drawn through the same 1bpp image path is the
-obvious route (widths per glyph in a new table; the glyph writer already takes a per-call width in $s0).
+## English (phase 5, verified in the marker build)
+
+- **Why not VWF:** the event printer places each glyph on its own: 0x800CE248(column, line, ..., code) uploads one
+  12x12 4bpp image to VRAM x = 0x3C0 (or 0x280) + 3*column halfwords, y = 0x100 + 12*line, through 0x800FD3A0. Pixel
+  positions are 4-px steps and nothing composes a line, so a VWF would mean rewriting the printer.
+- **Pair glyphs:** a halfword 0x2020-0xFEFF is two letters (low byte left, high byte right, bytes 0x20-0x84 of
+  `fonts/en6x12.txt`). `asm/font.asm` hooks 0x800FDCA8 (render font cell `code` from the 1bpp image, 24-byte rows):
+  for a pair it ORs both 6x12 glyphs into cell 0 of a 288-byte scratch image and renders that. Every path that draws
+  with this font goes through it. Codes below 0x2000 render the Japanese font as before.
+- So a line holds 2x the Japanese glyph count in letters, text costs 1 byte per letter (the same density as
+  Japanese per halfword), and the engine's column/line/page logic is untouched. `tools/en.py` encodes; an odd letter
+  before a control code is padded with a space.
+- Hook, font (1212 bytes) and scratch live at 0x80124E60 (the free run in `space.md`, under 0x80125AF0, checked by
+  armips).

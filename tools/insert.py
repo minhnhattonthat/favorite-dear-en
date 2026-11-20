@@ -1,0 +1,237 @@
+"""insert.py: put the English (or marker) text into PSX.EXE and the GDATA event scripts. build.py calls edits().
+
+    python -X utf8 tools/insert.py stats [--mode en|marker|ruler]   scripts changed and the tightest files
+
+Modes: 'en' writes each row's `en` cell (rows with an empty `en` stay Japanese); 'marker' writes `[id]` + filler
+into every row (the phase 5 marker build), keeping each row's control codes and its glyph count x 2 letters, so a
+line keeps its width; 'ruler' puts RULER (44 letters) in each row's first line for the width gate (a script it
+doesn't fit gets markers).
+
+Event scripts (docs/re/events.md): a row is a text segment; new text may grow or shrink it. The script's code is
+rebuilt piece by piece and every reference argument (Script.refs, incl. the pc-0 goto) is remapped to the new pc of
+its target. A file must still fit its original sector-rounded size: the loader packs up to 10 scripts into one
+0x7000-byte buffer (0x800C82E8, cap 0x3800 halfwords at 0x800C8380), so growing a file past it is a phase 7 job
+(status.md). PSX.EXE strings are written in place (FFFF-terminated, the rest of the slot zero-filled): they must
+not grow until repointing exists. The pair-glyph hook is assembled into PSX.EXE by armips (asm/font.asm)."""
+import argparse
+import struct
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+import en  # noqa: E402
+import evscript  # noqa: E402
+import extract  # noqa: E402
+import font_en  # noqa: E402
+from tbl import TOKEN  # noqa: E402
+
+ROOT = Path(__file__).resolve().parents[1]
+TREE = ROOT / "work" / "disc" / "tree"
+ARMIPS = ROOT / "tools" / "armips" / "armips.exe"
+FILLER = "The quick brown fox jumps over the lazy dog. "
+SECTOR = 2048
+
+
+class FitError(ValueError):
+    pass
+
+
+# --- text -----------------------------------------------------------------------------------------------------------
+
+
+def runs(jp):
+    """split a row's markup into [(is_text, piece)]: text = glyph characters, else one control/escape token"""
+    out, i, buf = [], 0, []
+    while i < len(jp):
+        m = TOKEN.match(jp, i)
+        if m:
+            if buf:
+                out.append((True, "".join(buf)))
+                buf = []
+            out.append((False, m[0]))
+            i = m.end()
+        else:
+            buf.append(jp[i])
+            i += 1
+    if buf:
+        out.append((True, "".join(buf)))
+    return out
+
+
+def marker(row_id, jp):
+    """`[id]` + filler in place of the row's glyphs: each run of k glyphs becomes 2k letters (the same cells), the
+    first run at least long enough for the id; control codes stay."""
+    tag = "[" + row_id.replace(".", "").replace("PSX", "") + "]"
+    out, first, k = [], True, 0
+    for is_text, piece in runs(jp):
+        if not is_text:
+            out.append(piece)
+            continue
+        n = 2 * len(piece)
+        if first:
+            s = (tag + FILLER * 4)[:max(n, len(tag))]
+            first = False
+        else:
+            s = (FILLER * 4)[k % len(FILLER):][:n]
+            k += n
+        out.append(s)
+    return "".join(out)
+
+
+RULER = "1234567890ABCDEFGHIJ1234567890abcdefghij+-*/"  # 44 letters: the last one visible = the line's limit
+
+
+def ruler(row_id, jp):
+    """the width gate: the row's first text run becomes RULER (one full line), the rest as in marker()"""
+    out, done = [], False
+    for is_text, piece in runs(marker(row_id, jp)):
+        if is_text and not done:
+            piece, done = RULER, True
+        out.append(piece)
+    return "".join(out)
+
+
+def row_text(row, mode):
+    if mode == "marker":
+        return marker(row["id"], row["jp"])
+    if mode == "ruler":
+        return ruler(row["id"], row["jp"])
+    return row["en"] or None
+
+
+# --- event scripts --------------------------------------------------------------------------------------------------
+
+
+def rebuild(sc, repl):
+    """new code halfwords for Script `sc` with segments replaced: repl = {segment start pc: new bytes}."""
+    code, n = sc.code, sc.n
+    seg_end = dict(sc.segments)
+    pieces, pc, new = [], 0, []  # (old start, old end, new start, replaced)
+    for s in sorted(repl):
+        e = seg_end[s]
+        if s > pc:
+            pieces.append((pc, s, len(new), False))
+            new.extend(code[pc:s])
+        data = repl[s]
+        pieces.append((s, e, len(new), True))
+        new.extend(struct.unpack("<%dH" % (len(data) // 2), data))
+        pc = e
+    if pc < n:
+        pieces.append((pc, n, len(new), False))
+        new.extend(code[pc:n])
+
+    def newpos(t):
+        for a, b, ns, replaced in pieces:
+            if a <= t < b:
+                if replaced and t != a:
+                    raise FitError(f"reference to pc {t:#x} inside a replaced segment {a:#x}-{b:#x}")
+                return ns + (t - a)
+        raise FitError(f"reference to pc {t:#x} outside the code")
+
+    for op, i, t in sc.refs:
+        new[newpos(op) + 1 + i] = 0x8000 | newpos(t)
+    if len(new) > 0x7FFF:
+        raise FitError("code past the 15-bit reference range")
+    return new
+
+
+def script_bytes(sc, size, repl):
+    new = rebuild(sc, repl)
+    out = sc.data[:sc.code_off] + struct.pack("<%dH" % len(new), *new)
+    if len(out) > size:
+        raise FitError(f"{len(out):#x} bytes > its {size:#x}-byte slot")
+    return out + bytes(size - len(out))
+
+
+def event_edits(gdata, exe, mode, table, report=None):
+    rows_by_sec = {}
+    for path in sorted((extract.SCRIPT / "events").glob("*.tsv")):
+        rows_by_sec[int(path.stem, 16)] = extract.read_tsv(path)
+    out = bytearray(gdata)
+    for sec, size, data, where in evscript.script_files(exe, gdata):
+        sc = evscript.Script(data)
+
+        def replacements(m):
+            repl = {}
+            for row in rows_by_sec.get(sec, []):
+                text = row_text(row, m)
+                if text is not None:
+                    repl[(int(row["id"].split(".")[1], 16) - sc.code_off) // 2] = en.encode(text, table)
+            return repl
+
+        repl = replacements(mode)
+        if not repl:
+            continue
+        try:
+            new = script_bytes(sc, size, repl)
+        except FitError as e:
+            if mode != "ruler":
+                raise FitError(f"script {sec:04X}: {e}") from None
+            new = script_bytes(sc, size, replacements("marker"))  # ruler doesn't fit: this file gets markers
+        if report is not None:
+            used = len(new.rstrip(b"\0"))
+            report.append((sec, size, sc.code_off + 2 * sc.n, used))
+        out[sec * SECTOR:sec * SECTOR + size] = new
+    return bytes(out)
+
+
+# --- PSX.EXE --------------------------------------------------------------------------------------------------------
+
+
+def exe_text(exe, mode, table):
+    out = bytearray(exe)
+    for row in extract.read_tsv(extract.SCRIPT / "exe.tsv"):
+        if "name-entry grid" in row["notes"]:
+            continue  # fixed cells, not a string (phase 7: Latin grid)
+        text = row_text(row, mode)
+        if text is None:
+            continue
+        off = int(row["id"].split(".")[1], 16)
+        old = table.encode(row["jp"])
+        new = en.encode(text, table)
+        if len(new) > len(old):
+            if mode == "en":
+                raise FitError(f"{row['id']}: {len(new)} bytes > {len(old)} (no repointing yet)")
+            new = new[:len(old) - 2] + b"\xff\xff"  # marker ids in short slots get cut
+        out[off:off + len(old)] = new + bytes(len(old) - len(new))
+    return bytes(out)
+
+
+def assemble(exe):
+    """PSX.EXE bytes with asm/font.asm applied"""
+    with tempfile.TemporaryDirectory() as d:
+        d = Path(d)
+        (d / "in.exe").write_bytes(exe)
+        (d / "font.bin").write_bytes(font_en.binary())
+        r = subprocess.run([str(ARMIPS), str(ROOT / "asm" / "font.asm"), "-strequ", "EXE_IN", str(d / "in.exe"),
+                            "-strequ", "EXE_OUT", str(d / "out.exe"), "-strequ", "FONT_BIN", str(d / "font.bin")],
+                           capture_output=True, text=True)
+        if r.returncode != 0:
+            raise RuntimeError(f"armips failed:\n{r.stdout}\n{r.stderr}")
+        return (d / "out.exe").read_bytes()
+
+
+def edits(mode="en", report=None):
+    exe = (TREE / "PSX.EXE").read_bytes()
+    gdata = (TREE / "GDATA.BIN").read_bytes()
+    new_exe = assemble(exe_text(exe, mode, extract.exe_table()))
+    new_gdata = event_edits(gdata, exe, mode, extract.event_table(), report)
+    out = {"PSX.EXE": new_exe}
+    if new_gdata != gdata:
+        out["GDATA.BIN"] = new_gdata
+    return out
+
+
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("cmd", choices=["stats"])
+    ap.add_argument("--mode", choices=["en", "marker", "ruler"], default="en")
+    a = ap.parse_args()
+    rep = []
+    edits(a.mode, rep)
+    rep.sort(key=lambda r: r[3] - r[1], reverse=True)
+    print(f"{len(rep)} scripts changed")
+    for sec, size, old, used in rep[:10]:
+        print(f"  {sec:04X}: slot {size:#06x}, was {old:#06x}, now {used:#06x} ({size - used:+#x} left)")

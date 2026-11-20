@@ -2,7 +2,7 @@
 the stdlib `re` when run from tools/.
 
     python -X utf8 tools/retools.py dis  EXE VADDR [COUNT]     disassemble COUNT instructions at VADDR
-    python -X utf8 tools/retools.py xref EXE VADDR             code that builds VADDR with lui + addiu/ori/lw/sw...
+    python -X utf8 tools/retools.py xref EXE VADDR [END]       code that builds VADDR (or any address < END) with lui + addiu/ori/lw/sw...
     python -X utf8 tools/retools.py va   EXE FILEOFF           file offset -> vaddr
 
 EXE paths are PS-X EXE files (2048-byte header, t_addr at 0x18)."""
@@ -31,8 +31,10 @@ class Exe:
         o = self.off(va)
         return list(md.disasm(self.data[o:o + 4 * count], va))
 
-    def xref(self, target):
-        """Find lui rX,hi followed within 16 instructions by an op on rX with lo, giving target."""
+    def xref(self, target, end=None):
+        """Find lui rX,hi followed within 16 instructions by an op on rX with lo, giving target
+        (or any address in [target, end) when end is given)."""
+        end = target + 1 if end is None else end
         hits = []
         d = self.data
         n = len(d)
@@ -58,8 +60,8 @@ class Exe:
                     val = hi | imm
                 else:
                     continue
-                if val == target:
-                    hits.append(self.va(o2))
+                if target <= val < end:
+                    hits.append((self.va(o2), val))
         return hits
 
 
@@ -70,8 +72,9 @@ def main(argv):
         for i in e.dis(int(argv[2], 16), int(argv[3]) if len(argv) > 3 else 32):
             print(f"{i.address:08x}  {i.mnemonic:8} {i.op_str}")
     elif cmd == "xref":
-        for h in e.xref(int(argv[2], 16)):
-            print(f"{h:08x}")
+        end = int(argv[3], 16) if len(argv) > 3 else None
+        for h, val in e.xref(int(argv[2], 16), end):
+            print(f"{h:08x}  -> {val:08x}")
     elif cmd == "va":
         print(f"{e.va(int(argv[2], 16)):08x}")
 

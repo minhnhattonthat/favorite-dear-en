@@ -2,8 +2,27 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-20). Last build: 2026-11-20, no edits,
-  sha1 509ffd8fc65852eab028238d06fe23f9f0db7d13 (= original), smoke ok.
+- **Phase:** 5. Engine spike and marker build in progress: marker build boots, in-game check and width gate not done.
+  Last builds 2026-11-20: `build/favorite_dear_en_marker.bin` sha1 984211e0cb04130a778946d101bc33efe9ff8cfd (smoke
+  ok), `build/favorite_dear_en_ruler.bin` sha1 997e05943bdf8b4dc1c33c37d73285068383f224 (not booted yet).
+- **Phase 5 so far (2026-11-20):**
+  - Font/encoding decided (D9, `text.md` §English): pair glyphs, hook `asm/font.asm` at 0x800FDCA8, font
+    `fonts/en6x12.txt` (`tools/font_en.py`), encoder `tools/en.py`.
+  - `tools/insert.py` (called by `build.py`): event scripts rebuilt with reference relocation (each file must fit
+    its original sector-rounded slot); PSX.EXE strings in place. Modes `--marker` and `--ruler` (44-letter ruler
+    `1234567890ABCDEFGHIJ1234567890abcdefghij+-*/` as each row's first line) in `build.py`.
+    `tests/test_insert.py`: identity rebuild, marker relocation (every ref lands on the same item), font widths,
+    EXE writes stay in string slots.
+  - Marker build: smoke ok. Warps to ev_kaiwa1/ev_setumei/ev_item/myh16 reached the scene (fairy shown, f13500)
+    but hit the 900 s wall-clock timeout with -j 4 before the text printed; the -j 2 --timeout 1800 re-run was
+    killed by the harness for low system memory. **Not yet seen: any English letter on screen.**
+- **Next (phase 5):** with memory free, `warp.py ev_kaiwa1 --cue build/favorite_dear_en_marker.cue --timeout 1800
+  --state` (one at a time), check that the pair glyphs render and ids show. Then tour more scenes with the marker
+  build (EXE text: newgame opening, menus, items) and the ruler build to measure each box variant (dialogue,
+  fairy box, choices, menus, item/skill names, name tag) and record it in a window-data file. Then the glyph torture
+  line. Open engine items: name entry grid (PSX.017DA4/017E64, left Japanese) needs Latin letters, and odd-length
+  names give a half-cell gap; credits (FIN.EXE, Shift-JIS) not marked; script growth past a file's slot
+  (159 files at 2.5x English length) needs GDATA relocation plus a larger buffer or a dictionary (phase 7).
 - **Done:**
   - Step 0 and phase 1 recon (see git history; `docs/re/README.md` indexes the notes; `tbl/jp.tbl` complete).
   - Phase 2 (`docs/re/debug.md` has the how and the addresses): `tools/debug/warp.py` + `warp.lua` reach all 86

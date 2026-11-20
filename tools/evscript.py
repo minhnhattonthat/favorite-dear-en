@@ -26,6 +26,7 @@ import events  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 NCODES = 0x66C
+EN_LO = 0x2020  # English pair glyphs 0x2020-0xFEFF (tools/en.py): text in built scripts, never an opcode
 # 0xFFxx -> argument words, from the printer's compare chain at 0x800CCB50 (each handler's pc increments).
 # 0xFFFB is not in that chain; every message starts `FFFB 8xxx` or `FFE0 xxxx`, so it takes one word like 0xFFE0.
 # 0xFFFC (no handler there) occurs alone inside text and as the last word of a file.
@@ -75,7 +76,7 @@ class Script:
                 if v not in PRINTER_ARGS:
                     raise ParseError(f"pc {j:#x}: unknown printer code {v:04X}")
                 j += 1 + PRINTER_ARGS[v]
-            elif v < NCODES:
+            elif v < NCODES or EN_LO <= v:
                 j += 1
             else:
                 raise ParseError(f"pc {j:#x}: {v:04X} is neither a font code nor a printer code")
@@ -87,7 +88,7 @@ class Script:
         pc, items = self.start, []
         while pc < n:
             op = code[pc]
-            if op >= 0xFF00 or len(tab) <= op < NCODES:
+            if op >= 0xFF00 or len(tab) <= op < NCODES or op >= EN_LO:
                 end = self._text_end(pc)
                 items.append(("msg", pc, end))
                 pc = end

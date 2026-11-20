@@ -16,8 +16,12 @@ HEIGHT, BASE, SPACE, SIZE = 15, 11, 3, 14  # BASE: make() places the font's 'H' 
 CAP = (1, 10)
 
 
-def glyphs(path=SRC):
-    """{char: [row bit masks, bit x = column x]} plus widths: {char: (width, rows)}"""
+NARROW = ROOT / "fonts" / "narrow3x7.txt"
+FONTS = {"label": (SRC, HEIGHT, CAP[0]), "narrow": (NARROW, 7, 0)}  # name: (file, rows, first cap row)
+
+
+def glyphs(path=SRC, height=HEIGHT):
+    """{char: (width, [row bit masks, bit x = column x])}"""
     out, cur = {}, None
     for line in Path(path).read_text(encoding="utf-8").splitlines():
         if not line or line.startswith("# "):
@@ -29,14 +33,14 @@ def glyphs(path=SRC):
             cur = [0, []]
             out[chr(int(line.split()[0], 16))] = cur
     for c, (w, rows) in out.items():
-        if len(rows) != HEIGHT:
-            raise ValueError(f"{path}: glyph {c!r} has {len(rows)} rows, not {HEIGHT}")
+        if len(rows) != height:
+            raise ValueError(f"{path}: glyph {c!r} has {len(rows)} rows, not {height}")
     return {c: (w, rows) for c, (w, rows) in out.items()}
 
 
-def columns(text, path=SRC):
+def columns(text, path=SRC, height=HEIGHT):
     """the text as a list of column bit masks (bit y = row y), 1 px between letters"""
-    g = glyphs(path)
+    g = glyphs(path, height)
     cols = []
     for i, ch in enumerate(text):
         if i:
@@ -47,7 +51,7 @@ def columns(text, path=SRC):
         if ch not in g:
             raise ValueError(f"{ch!r} is not in {path.name}")
         w, rows = g[ch]
-        cols += [sum(1 << y for y in range(HEIGHT) if rows[y] >> x & 1) for x in range(w)]
+        cols += [sum(1 << y for y in range(height) if rows[y] >> x & 1) for x in range(w)]
     return cols
 
 

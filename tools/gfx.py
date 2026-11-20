@@ -7,7 +7,7 @@ Rows live in gfx/<entry>.tsv (entry = GDATA directory index at PSX.EXE 0x4C50, e
 `x y w h font ink shadow bg align jp en`.
 - font `6x12`: the en6x12 font set proportionally (blank columns trimmed, 1 px between letters, 3 px space), the cap
   height centred in the rect; font `label`: fonts/label14.txt (tools/labelfont.py), a capital's top row at rect y
-  (make h cover descenders).
+  (make h cover descenders); font `narrow`: fonts/narrow3x7.txt (3 px letters, only the ones a row needs), centred.
 - ink: palette index of the letters (and, with bg `ink`, of the Japanese to erase); shadow: index drawn one pixel
   down-right, `-` = none.
 - bg: a palette index to fill the whole rect with, or `ink` = erase only the ink-coloured pixels in the rect, each
@@ -50,10 +50,10 @@ class Image:
         blob = gdata[off:off + size]
         t = tim.parse(blob)
         if t is not None:
-            if t["bpp"] != 8:
-                raise ValueError(f"e{entry:03d}: {t['bpp']}bpp TIM, only 8bpp is handled")
-            self.kind, self.w, self.h, self.pix = "tim8", t["w"], t["h"], t["pix"]
-            self.blob, self.at = blob, t["end"] - t["w"] * t["h"]
+            if t["bpp"] == 16:
+                raise ValueError(f"e{entry:03d}: 16bpp TIM, only 4/8bpp are handled")
+            self.kind, self.w, self.h, self.pix = f"tim{t['bpp']}", t["w"], t["h"], t["pix"]
+            self.blob, self.at = blob, t["end"] - t["w"] * t["h"] * t["bpp"] // 8
             return
         raw, _ = lzss.decompress(gdata[:off + size + 16], off)
         wh, h = struct.unpack_from("<HH", raw, 8)
@@ -64,17 +64,18 @@ class Image:
 
     def raw(self, pix):
         """the decoded image bytes for pix (LZSS: header + 4bpp; TIM: the whole file)"""
-        if self.kind == "tim8":
-            return self.blob[:self.at] + bytes(pix) + self.blob[self.at + len(pix):]
-        return self.header + bytes(pix[i] | pix[i + 1] << 4 for i in range(0, len(pix), 2))
+        packed = bytes(pix) if self.kind == "tim8" else bytes(pix[i] | pix[i + 1] << 4 for i in range(0, len(pix), 2))
+        if self.kind.startswith("tim"):
+            return self.blob[:self.at] + packed + self.blob[self.at + len(packed):]
+        return self.header + packed
 
     def encode(self, pix):
         """slot bytes (not padded) for pix"""
-        return self.raw(pix) if self.kind == "tim8" else lzss.compress(self.raw(pix))
+        return self.raw(pix) if self.kind.startswith("tim") else lzss.compress(self.raw(pix))
 
     def decode(self, block):
         """raw image bytes from slot bytes, the inverse of encode for checks"""
-        return block if self.kind == "tim8" else lzss.decompress(block + bytes(16))[0]
+        return block if self.kind.startswith("tim") else lzss.decompress(block + bytes(16))[0]
 
 
 def rows(entry):
@@ -84,8 +85,8 @@ def rows(entry):
     for n, r in enumerate(out, 2):
         if list(r) != FIELDS or None in r.values():
             raise ValueError(f"{path}:{n}: columns must be {FIELDS}")
-        if r["font"] not in ("6x12", "label") or r["align"] not in ("l", "c"):
-            raise ValueError(f"{path}:{n}: font must be 6x12|label, align l|c")
+        if r["font"] not in ("6x12", "label", "narrow") or r["align"] not in ("l", "c"):
+            raise ValueError(f"{path}:{n}: font must be 6x12|label|narrow, align l|c")
     return out
 
 
@@ -104,8 +105,9 @@ def letter(cell):
 
 
 def text_columns(text, font="6x12"):
-    if font == "label":
-        return labelfont.columns(text)
+    if font in labelfont.FONTS:
+        path, height, _ = labelfont.FONTS[font]
+        return labelfont.columns(text, path, height)
     g = font_en.glyphs()
     cols = []
     for i, ch in enumerate(text):
@@ -155,6 +157,8 @@ def draw(w, pix, r):
     used = [yy for yy in range(16) if any(c >> yy & 1 for c in cols)]
     if r["font"] == "label":
         y0 = y - labelfont.CAP[0]
+    elif r["font"] == "narrow":
+        y0 = y + (rh - (7 + (shadow is not None))) // 2
     else:
         y0 = y + (rh - (7 + (shadow is not None))) // 2 - font_en.TOP  # centre the cap height (rows 3-9)
     if y0 + used[0] < y or y0 + used[-1] + (shadow is not None) >= y + rh:
@@ -209,7 +213,7 @@ def png(out_dir, which):
     out_dir.mkdir(parents=True, exist_ok=True)
     for e in which or entries():
         img, new = redraw(exe, gdata, e)
-        if img.kind == "tim8":
+        if img.kind.startswith("tim"):
             t = tim.parse(img.blob)
             parts = [tim.to_image(dict(t, pix=p)) for p in (img.pix, new)]
         else:

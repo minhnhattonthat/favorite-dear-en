@@ -1,0 +1,42 @@
+# narrow3x7: drawn for this project (2026-11-21, MIT) for labels in sprites too narrow for en6x12 (the week screen's
+# fairy panel, gfx/e142.tsv). Same format as label14.txt (tools/labelfont.py): 7 rows, a capital spans rows 0-6.
+53 S
+.##
+#..
+#..
+.#.
+..#
+..#
+##.
+65 e
+...
+...
+.#.
+#.#
+###
+#..
+.##
+72 r
+...
+...
+#.#
+##.
+#..
+#..
+#..
+73 s
+...
+...
+.##
+#..
+.#.
+..#
+##.
+74 t
+.#.
+.#.
+###
+.#.
+.#.
+.#.
+..#

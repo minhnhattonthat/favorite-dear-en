@@ -151,3 +151,17 @@ are MS Gothic's 12 px embedded bitmap (kanji match exactly), kana/Latin/punctuat
   moved to 0x80125980+); on commit single letters are packed two per halfword, capped at 5 halfwords. Verified
   (`tools/lua/peek.lua`): default -> 0x8001F5F6 = `Ra vi el FFFF`, week screen shows "Raviel" (`warp.py week1`);
   `warp.py newgame_name10` -> `Ra vi ww ww ww FFFF`, an 11th letter refused.
+
+## Hero skills (phase 8, `asm/skill.inc`)
+
+- The hero status screen's Special box (技１-３) was drawn by 0x800C337C (callers 0x8010F740/774/7A8 only): one
+  8x8 cell of a small kana font per code, found through the 256-entry table at 0x80026E18 (digits, ！？･, kana; no
+  Latin), so English pair codes drew nothing. Strings: u16 table 0x8002DBFC (3 per hero) of halfword offsets from
+  0x80175C1C (= PSX.16641C.., exe.tsv).
+- The screen's main-font strings (Name, the ・+family name, Birth line, Sex) are rendered once into a 256x256 VRAM
+  sheet by 0x80110FBC (ClearImage, then 0x800FD8C4(str, x halfwords, y, 0) per string; hero branch rows 0, 0x0C,
+  0x18) and drawn each frame as sprites: 0x80119348(*(0x80024B74+0x118), u, v, w = glyphs*12, h 12) then
+  0x8003D80C(x, y, *(u16*)0x8017C2E0, 0x80024B74, object 0x46, *(u16*)0x80019C72, colour 0x14, 0).
+- English: the hero branch's exit (0x80111280) also renders the three skills at sheet rows 0x24/0x30/0x3C, and
+  0x800C337C is rewritten in place to draw that row the same way at x 200 (labels now "1:".."3:", gfx/e014.tsv),
+  y-1. 17 letters fit; the longest names (16) checked with `tools/lua/longskill.lua` (`work/qa/skillwide`).

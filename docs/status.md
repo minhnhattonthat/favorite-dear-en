@@ -2,8 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 19: **hero save made; found a bug: hero skill names are
-  blank**; left: fix the skill drawer, hero sheets through the gate, textcover (textforce passes), Sylphe/Gaap shot).
+- **Phase:** 8. QA in the emulator: in progress (worker 20: **hero skill names fixed**; left: hero sheets
+  through the gate (re-tour stress_hero_* on the new build, `qa_sheets.py`, read-only pass, `qa_gate.py init/check
+  --build`), textcover (textforce passes), Sylphe/Gaap shot).
+  Worker 20 (2026-11-21): build **94fa988734a9eb9f0c0f6d12c913d87fdc89ba1c** (check ok 79, smoke ok). Skill names
+  fixed (`asm/skill.inc`, `docs/re/text.md` §Hero skills, D20): rendered into the status text sheet with the Name and
+  drawn by the rewritten 0x800C337C in the main font from x 200; labels now "1:".."3:" (gfx/e014.tsv). In game
+  `work/qa/skillfix/stress_hero_{reiv,griffin}/final.png` (Reiv Rake / Spinning Raid / Ground Zero; Double Pain /
+  Mega Crush / Aerial Shave); widest names via `tools/lua/longskill.lua` -> `work/qa/skillwide` (Double Boomerang
+  fits). Equipment values: the hero screen draws none (no render of them in 0x80110FBC's hero branch, JP shows them
+  empty too), so nothing to fix there. **The gate manifest's build is now stale** (every sheet was shot on ddee99dd;
+  PSX.EXE and GDATA e014 changed only on the hero status screen): re-run `qa_gate.py init --build` after the hero
+  sheets are added, waiving the rest with that reason if the gate demands a re-shoot. `work/states/stress_hero_reiv.sstate`
+  is a JP-disc state now (worker 20 warped the JP disc with --state).
   Worker 19 (2026-11-21), build unchanged (ddee99dd). (a) **Hero stress save done:** `work/saves/heroes_w3.mcd` save 2
   (game-written, week 3, AP 207, heroes Reiv + Griffin). How: `tools/lua/scoutwin.lua` (new, debug only) rewrites
   the scout test `006D 0016 8002 0001 <yes> <no>` in the script buffer so every scout succeeds; play.py session

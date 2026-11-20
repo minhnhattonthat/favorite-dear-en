@@ -43,6 +43,7 @@ NAME_FREE equ 0x80125980          ; tail of the same zero run, after the grown s
     .halfword 0xFFFF
 
 .include "btname.inc"              ; battle name plates
+.include "skill.inc"               ; hero status: skill names in the main font
 
 .if pair_end > 0x80125500
     .error "font hook overflows into the grown-string space (tools/insert.py REPOINT)"

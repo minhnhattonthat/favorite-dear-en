@@ -5,10 +5,10 @@ id	en
 34CC.14C6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Bandit:{n}{f7:0380}{n}Tch... I finally get a fine batch of goods together, and some meddler shows up.{n}{wait}{clear}{e0:E0FF}Whatever. Anybody who gets in the way of business don't get to live, whoever they are. That's the iron law of the "Dark Carriage."{n}{wait}{clear}{end}
 34CC.165E	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the bandit.{n}{wait}{clear}{end}
 34CF.12F0	{e0:E0FF}{spk:0080}{fa:0180}{n}Hm, is there really something in a place like this?{n}{wait}{clear}{end}
-34CF.132C	{e0:E0FF}{spk:0080}{fa:0180}{n}So you're the villain who's been troubling the world! It seems you're destined to rust on my blade!{n}{wait}{clear}{end}
+34CF.132C	{e0:E0FF}{spk:0080}{fa:0180}{n}So you're the villain who's been troubling the world! It seems you're destined to fall to my blade!{n}{wait}{clear}{end}
 34CF.139C	{e0:E0FF}{spk:0080}{fa:0180}{n}What's this...{n}{wait}{clear}{end}
 34CF.13C4	{e0:9900}{spk:0080}{fa:0180}{n}This looks like a troublesome affair... {name:0080}, it seems your persuasion won't work anymore.{n}{wait}{clear}{end}
-34CF.1432	{e0:DA03}{spk:0080}{fa:0180}{n}I shall avenge your bitterness...{n}{wait}{clear}{end}
+34CF.1432	{e0:DA03}{spk:0080}{fa:0180}{n}I shall settle your grudge...{n}{wait}{clear}{end}
 34CF.146C	{e0:9B00}{spk:0080}{fa:0180}{n}And what if I am?{n}{wait}{clear}{end}
 34CF.1498	{e0:9C00}{spk:0080}{fa:0180}{n}Fallen angel! Why do your kind throw the surface into chaos?{n}{wait}{clear}{end}
 34CF.14E2	{e0:9D00}{spk:0080}{fa:0180}{n}So this is the place... How eerie.{n}{wait}{clear}{end}

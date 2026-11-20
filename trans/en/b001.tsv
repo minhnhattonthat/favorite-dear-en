@@ -22,7 +22,7 @@ id	en
 3498.14C0	Give {name:0180} {name:0380} once in a while, and they might see you in a new light.{n}{wait}{clear}{end}
 3498.1502	If I remember right...... {name:0180} cheers up when you give them {name:0380}.{n}{wait}{clear}{end}
 3498.1550	-
-3498.1768	{fb:0080}{n}{name:0180} seems to really like {name:0280}.{n}{wait}{clear}{name:0180} can work very relaxed, it seems.{n}{wait}{clear}{end}
+3498.1768	{fb:0080}{n}{name:0180} seems to really like {name:0280}.{n}{wait}{clear}{name:0180} seems very relaxed on the job.{n}{wait}{clear}{end}
 3498.17D8	{fb:0180}{n}{name:0180} and {name:0280} seem to be getting along quite well.{n}{wait}{clear}{end}
 3498.1816	{fb:0280}{n}{name:0180} and {name:0280} feel like they'll get on better from here.{n}{wait}{clear}{end}
 3498.1852	{fb:0380}{n}{name:0180} and {name:0280} don't seem to be getting along.{n}{wait}{clear}Maybe it's better for {name:0180} if you don't send them out together too often?{n}{wait}{clear}{end}

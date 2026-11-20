@@ -14,15 +14,15 @@ id	en
 3ABC.25DC	{spk:0080}{n}I thought I'd give you this.{n}{wait}{clear}{spk:E783}{n}A {name:0280}?{n}{wait}{clear}{spk:0080}{n}Well? Will you accept it?{n}{wait}{clear}{end}
 3ABC.2650	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Since you offer, thanks.　｝{n}{f7:0080}｛I'll gladly accept.　　　｝{n}{f7:0080}｛Sorry, but I must decline.｝{n}{end}
 3ABC.275C	{fb:6480}{n}{spk:0080}{n}{e5:0680}{n}That's right. Take it, at least for now.{n}{wait}{clear}{spk:0080}{n}You seem a little pleased, so I'm relieved. Take good care of it.{n}{fd:0B8000800580}{n}{wait}{clear}{end}
-3ABC.288C	{fb:C880}{n}{spk:0080}{n}{e5:0680}{n}"Gladly accept"... Well, if it pleases you, that's enough.{n}{wait}{clear}{spk:0080}{n}But since you said so, take responsibility. Don't let it go to waste. Understand, Angel?{n}{fd:0B8000800380}{n}{wait}{clear}{end}
-3ABC.2A3C	{fb:2C81}{n}{spk:0080}{n}{e5:0580}{n}I see... What a shame, after I went to the trouble. Maybe I chose the wrong person to give it to.{n}{wait}{clear}{spk:0080}{n}Next time I'll give you something else. Look forward to it, Angel.{n}{wait}{clear}{end}
+3ABC.288C	{fb:C880}{n}{spk:0080}{n}{e5:0680}{n}"Gladly accept"... Well, if it pleases you, that's enough.{n}{wait}{clear}{spk:0080}{n}But since you said so, take responsibility. Don't let it go to waste. Understand, my dear angel?{n}{fd:0B8000800380}{n}{wait}{clear}{end}
+3ABC.2A3C	{fb:2C81}{n}{spk:0080}{n}{e5:0580}{n}I see... What a shame, after I went to the trouble. Maybe I chose the wrong person to give it to.{n}{wait}{clear}{spk:0080}{n}Next time I'll give you something else. Look forward to it, my dear angel.{n}{wait}{clear}{end}
 3ABC.2B8E	{spk:0080}{n}{e5:0580}{n}...You finally came.{n}{wait}{clear}{end}
 3ABC.2BB8	{fb:0080}{n}{spk:E783}{n}What is it, Nasadia?{n}{wait}{clear}{end}
 3ABC.2BE8	{fb:0180}{n}{spk:E783}{n}What's wrong, Nasadia?{n}{wait}{clear}{end}
 3ABC.2C16	{spk:0080}{n}{e5:0580}{n}So you remember my name, at least...{n}{wait}{clear}{spk:0080}{n}Will you tell me why? I haven't had any work for ages. Does that mean I'm not fit to be a hero?{n}{wait}{clear}{end}
 3ABC.2CCA	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛I thought you were tired.｝{n}{f7:0080}｛Sorry. I'll ask next time.　｝{n}{f7:0080}｛I was just about to visit.　｝{n}{end}
 3ABC.2D5C	{fb:0B80}{n}{spk:E783}{n}{f7:0080}｛I worried you were tired.｝{n}{f7:0080}｛Sorry. I'll ask next time.｝{n}{f7:0080}｛I was just about to visit.｝{n}{end}
-3ABC.2DF4	{fb:6480}{n}{spk:0080}{n}{e5:0580}{n}Yes, yes, what a hopeless Angel.{n}{wait}{clear}{spk:0080}{n}I appreciate the concern, but since you made me a hero, you need at least a little trust. Understand?{n}{fd:0B8000800080}{n}{fe:0B8002800180}{n}{fd:0B8001800080}{n}{wait}{clear}{end}
+3ABC.2DF4	{fb:6480}{n}{spk:0080}{n}{e5:0580}{n}Yes, yes, what a hopeless angel you are, my dear.{n}{wait}{clear}{spk:0080}{n}I appreciate the concern, but since you made me a hero, you need at least a little trust. Understand?{n}{fd:0B8000800080}{n}{fe:0B8002800180}{n}{fd:0B8001800080}{n}{wait}{clear}{end}
 3ABC.2F8C	{fb:C880}{n}{spk:0080}{n}{e5:0580}{n}Yes, yes. Next time, before you apologize, give me some work first.{n}{wait}{clear}{spk:0080}{n}That's the bare minimum. Remember it.{n}{fd:0B8000800180}{n}{fe:0B8002800180}{n}{fd:0B8001800180}{n}{wait}{clear}{end}
 3ABC.30CC	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}Oh... I see. You were just about to visit, so it's not your fault.{n}{wait}{clear}{spk:0080}{n}If you have time for excuses unworthy of an angel, show me with action, and quickly. Understand?{n}{fe:0B8000800180}{n}{fe:0B8002800080}{n}{fe:0B8001800180}{n}{wait}{clear}{end}
 3ABC.328E	{fb:0080}{n}{spk:E783}{n}Is there something you need, Nasadia?{n}{wait}{clear}{end}

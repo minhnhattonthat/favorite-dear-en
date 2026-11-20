@@ -58,7 +58,7 @@ id	en
 3AA9.2400	{fb:C880}{n}{spk:0080}{n}{e5:0480}{n}...What? That's a pretty harsh way to put it.{n}{wait}{clear}{spk:0080}{n}Even you must want to see someone's face sometimes...? Forget it. Sorry to call you out.{n}{wait}{clear}{end}
 3AA9.24BA	{fb:2C81}{n}{spk:0080}{n}{e5:0180}{n}Ha ha, thanks. But you don't really have time for that, do you?{n}{wait}{clear}{spk:0080}{n}Once peace comes back to the world, ask me again. ...I'll be looking forward to it.{n}{fd:088000800380}{n}{wait}{clear}{end}
 3AA9.2574	{spk:0080}{n}{e5:0080}{n}You're late. I've been waiting.{n}{wait}{clear}{end}
-3AA9.25A0	{fb:0080}{n}{spk:E783}{n}What brings me here today?{n}{wait}{clear}{end}
+3AA9.25A0	{fb:0080}{n}{spk:E783}{n}What can I do for you today?{n}{wait}{clear}{end}
 3AA9.2600	{spk:0080}{n}There's something I want to give you. This.{n}{wait}{clear}{end}
 3AA9.2632	{spk:E783}{n}A {name:0280}.{n}{wait}{clear}{spk:0080}{n}If you like it, would you take it?{n}{wait}{clear}{end}
 3AA9.2774	{fb:6480}{n}{spk:0080}{n}{e5:0680}{n}Heh heh... When you make a face like that, even I get happy for giving it.{n}{wait}{clear}{spk:0080}{n}If you keep it safe, thinking it'll bring you luck, that's all I could ask for.{n}{fd:088000800580}{n}{wait}{clear}{end}

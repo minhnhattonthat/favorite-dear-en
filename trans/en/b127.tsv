@@ -59,10 +59,10 @@ id	en
 3ABC.12DA	{fb:0080}{n}{spk:E783}{n}What is it you need?{n}{wait}{clear}{end}
 3ABC.1332	{spk:0080}{n}Nothing... Nothing in particular. I just felt like calling you...{n}{wait}{clear}{end}
 3ABC.1380	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Since I'm here, shall we talk?　　｝{n}{f7:0080}｛Then call me if anything comes up.｝{n}{f7:0080}｛I see. Then I'll go back.　　　　｝{n}{end}
-3ABC.14B0	{fb:6480}{n}{spk:0080}{n}{e5:0680}{n}Oh my... Are you being considerate of me? You don't have to force yourself.{n}{wait}{clear}{spk:0080}{n}Oh well. I've learned you're someone I can trust, a little.{n}{wait}{clear}{spk:0080}{n}Sorry for teasing you, Angel.{n}{fd:0B8000800580}{n}{wait}{clear}{end}
-3ABC.1680	{fb:C880}{n}{spk:0080}{n}{e5:0680}{n}Heh heh... Are you really fine with that, Angel? You're awfully kind-hearted.{n}{wait}{clear}{spk:0080}{n}Well, if you say so, I'll feel free to call you again.{n}{fd:0B8000800380}{n}{wait}{clear}{end}
+3ABC.14B0	{fb:6480}{n}{spk:0080}{n}{e5:0680}{n}Oh my... Are you being considerate of me? You don't have to force yourself.{n}{wait}{clear}{spk:0080}{n}Oh well. I've learned you're someone I can trust, a little.{n}{wait}{clear}{spk:0080}{n}Sorry for teasing you, my dear angel.{n}{fd:0B8000800580}{n}{wait}{clear}{end}
+3ABC.1680	{fb:C880}{n}{spk:0080}{n}{e5:0680}{n}Heh heh... Are you really fine with that, my dear angel? You're awfully kind-hearted.{n}{wait}{clear}{spk:0080}{n}Well, if you say so, I'll feel free to call you again.{n}{fd:0B8000800380}{n}{wait}{clear}{end}
 3ABC.1804	{fb:2C81}{n}{spk:0080}{n}{e5:0580}{n}Oh my, are you angry? Fine, but if you lose your temper over this, you'll never get along with humans.{n}{wait}{clear}{spk:0080}{n}Remember this... Humans are all fickle and selfish creatures...{n}{wait}{clear}{end}
-3ABC.19B6	{spk:0080}{n}Oh, Angel. You came. Thanks for your trouble.{n}{wait}{clear}{end}
+3ABC.19B6	{spk:0080}{n}Oh, my dear angel. You came. Thanks for your trouble.{n}{wait}{clear}{end}
 3ABC.19F4	{fb:0080}{n}{spk:E783}{n}Is there something you need, Nasadia?{n}{wait}{clear}{spk:0080}{n}I wondered how you were doing. A little break like this is necessary sometimes. Or was I meddling?{n}{wait}{clear}{end}
 3ABC.1B48	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛No, thank you, Nasadia.｝{n}{f7:0080}｛If not, I'll go back...｝{n}{f7:0080}｛Then shall we go out?　｝{n}{end}
 3ABC.1C6C	{fb:6480}{n}{spk:0080}{n}{e5:0680}{n}Heh heh. What's wrong? You don't have to answer so seriously.{n}{wait}{clear}{spk:0080}{n}{e5:0180}{n}But maybe that seriousness is your style... You might be onto something, you know.{n}{fd:0B8000800580}{n}{wait}{clear}{end}

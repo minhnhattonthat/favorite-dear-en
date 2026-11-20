@@ -31,7 +31,7 @@ id	en
 3943.171E	{e0:4C01}{spk:0080}{fa:0180}{n}...It's over.{n}{wait}{clear}{end}
 3943.1746	{spk:0080}{fa:0180}{n}(None: not captured!){n}{wait}{clear}{end}
 3943.176E	{spk:0080}{fa:0180}{n}(None){n}{wait}{clear}{end}
-3943.1784	{spk:0080}{fa:0180}{n}{name:0080}, ...it seems this one still has allies about.{n}{wait}{clear}.... I leave the captive girl to you. I'll deal with them...{n}{wait}{clear}{end}
+3943.1784	{spk:0080}{fa:0180}{n}{name:0080}, ...it seems this one still has allies about.{n}{wait}{clear}... I leave the captive girl to you. I'll deal with them...{n}{wait}{clear}{end}
 3947.12F2	{e0:E0FF}{spk:0080}{fa:0180}{n}Is it really somewhere like this?{n}{wait}{clear}{end}
 3947.132A	{e0:E0FF}{spk:0080}{fa:0180}{n}You sure talk a lot! Let's go!{n}{wait}{clear}{end}
 3947.1368	{e0:E0FF}{spk:0080}{fa:0180}{n}...That's ugly.{n}{wait}{clear}{end}

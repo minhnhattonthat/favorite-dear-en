@@ -1,9 +1,9 @@
 id	jp	en	notes
 34CF.12F0	{e0:E0FF}{spk:0080}{fa:0180}{n}む、本当にこんな所に何かいるのか？{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Hm, is there really something in a place{n}like this?{n}{wait}{clear}{end}	
-34CF.132C	{e0:E0FF}{spk:0080}{fa:0180}{n}お前が、世間をさわがせている不届き者か！{n}わたしの剣のサビになるのが{n}運命のようだな！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}So you're the villain who's been{n}troubling the world! It seems you're{n}destined to rust on my blade!{n}{wait}{clear}{end}	
+34CF.132C	{e0:E0FF}{spk:0080}{fa:0180}{n}お前が、世間をさわがせている不届き者か！{n}わたしの剣のサビになるのが{n}運命のようだな！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}So you're the villain who's been{n}troubling the world! It seems you're{n}destined to fall to my blade!{n}{wait}{clear}{end}	
 34CF.139C	{e0:E0FF}{spk:0080}{fa:0180}{n}これは・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}What's this...{n}{wait}{clear}{end}	
 34CF.13C4	{e0:9900}{spk:0080}{fa:0180}{n}めんどうな話のようだが・・・。{n}{name:0080}、どうもお前の{n}説得は、もう通用しないようだな。{n}{wait}{clear}{end}	{e0:9900}{spk:0080}{fa:0180}{n}This looks like a troublesome affair...{n}{name:0080}, it seems your persuasion{n}won't work anymore.{n}{wait}{clear}{end}	
-34CF.1432	{e0:DA03}{spk:0080}{fa:0180}{n}貴様の無念は私が晴らそう・・・。{n}{wait}{clear}{end}	{e0:DA03}{spk:0080}{fa:0180}{n}I shall avenge your bitterness...{n}{wait}{clear}{end}	
+34CF.1432	{e0:DA03}{spk:0080}{fa:0180}{n}貴様の無念は私が晴らそう・・・。{n}{wait}{clear}{end}	{e0:DA03}{spk:0080}{fa:0180}{n}I shall settle your grudge...{n}{wait}{clear}{end}	
 34CF.146C	{e0:9B00}{spk:0080}{fa:0180}{n}だったらどうした？{n}{wait}{clear}{end}	{e0:9B00}{spk:0080}{fa:0180}{n}And what if I am?{n}{wait}{clear}{end}	
 34CF.1498	{e0:9C00}{spk:0080}{fa:0180}{n}堕天使！{n}何のためにお前らは地上を{n}混乱させる？{n}{wait}{clear}{end}	{e0:9C00}{spk:0080}{fa:0180}{n}Fallen angel! Why do your kind throw the{n}surface into chaos?{n}{wait}{clear}{end}	
 34CF.14E2	{e0:9D00}{spk:0080}{fa:0180}{n}ここか・・・不気味だな。{n}{wait}{clear}{end}	{e0:9D00}{spk:0080}{fa:0180}{n}So this is the place... How eerie.{n}{wait}{clear}{end}	

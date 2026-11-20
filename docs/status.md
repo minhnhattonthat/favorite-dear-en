@@ -2,7 +2,11 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, all 144 event batches done (b001-b144, `batches.py todo` empty; b103-b104 are all glyph soup `-`), pilot checked in game; PSX.EXE strings and credits done (Next 3); left: the review pass (Next 4), b001-b013 reviewed, resume at b014.
+- **Phase:** 7. Insert, fit, check: starting. Phase 6 done 2026-11-20: all 144 batches check OK, glossary updated,
+  review pass b001-b144 recorded in `docs/review.tsv` (b057-b144 by 11 read-only Explore/Sonnet reviewer subagents,
+  as codex is out of credits and the plugin reviewer type is not offered; reports' Important findings fixed: 12 batches
+  `fixed`), `docs/polish.md` all ticked. Phase 7 work list: "Phase 7 items already known" below, plus the glyph-soup
+  files, mission-title/rank/clear-data tables, and the never-built b006-b144 text.
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)
@@ -63,7 +67,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
      family-name pair fits; STAFF.459 ＮＥＣインターチャネル stays). Staff name readings are my Hepburn guesses (see
      Waiting on the user). STAFF.TXT grows 4162 -> 5056 bytes: check the roll in game (`warp.py credits`). Not done:
      `script/sjis.tsv` memory-card titles (no insert path yet; phase 7).
-  4. Review pass (in progress; codex is out of credits until 2026-11-26, so self-review): `python -X utf8
+  4. Review pass (done 2026-11-20; b014-b056 self-review, b057-b144 Explore/Sonnet subagents with
+     `work/qa/review/reviewer-dispatch.md`; rulings added: 地上 "on earth" without article, "fiend" lower case,
+     "Lord Remiel", Yaruru お姉ちゃん stays neutral (style-reference aligned to the glossary)). Original notes: `python -X utf8
      tools/pairs.py` writes `work/qa/review/pairs/bNNN.txt` (JP/EN per entry, codes stripped, boxes already shown in
      an earlier batch dropped: 2.0 MB, about 9 KB of JP+EN per batch). Read each with Read `limit` (60-120 lines; the
      context-mode hook refuses whole files over ~10 KB), judge accuracy/voice, fix Critical/Important in

@@ -71,7 +71,7 @@ def make(ttf):
         lost = [y for y in range(32) if not top <= y < top + HEIGHT and any(px[x, y] for x in range(32))]
         if lost:
             print(f"{chr(code)!r}: rows {lost} fall outside the {HEIGHT}-row cell (cap top {cap_top})")
-    SRC.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    SRC.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print(SRC)
 
 

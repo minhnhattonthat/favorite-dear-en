@@ -10,7 +10,7 @@ Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot 
 
 | Source | Kind | Japanese in it | Where seen |
 |---|---|---|---|
-| GDATA e008 | LZSS 4bpp 256 px | command buttons 予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る | angel/hero menus |
+| GDATA e008 | LZSS 4bpp 256 px | command buttons 予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る | angel/hero menus. **English** (phase 8, gfx/e008.tsv: PLAN VISIT STATUS MAP SCOUT SYSTEM BACK MISSION TALK GIFT, upper case so no descender meets the border; the calendar's 4月22 is now 4/22; `warp.py hub`) |
 | GDATA e009 (not seen on any screen yet; the status screens draw e012-e014) | LZSS 4bpp 256 px | labels 信頼度 正義感 ストレス 攻撃力 防御力 体力 信仰心 知力 勇者 天使 妖精 行方不明 家出中 (English Name/Birth/Level/Class/Sex/Hobby/WEAPON/ARMOR/SPECIAL/EQUIP/PLEASANT already) | status screens |
 | GDATA e012-e014 | TIM 8bpp 320x240 (raw, one copy on the disc) | status-screen backgrounds: e012 fairy, e013 angel, e014 hero; labels in one ink index (43/203/154) on a textured panel | **English** (phase 8, gfx/e012-e014.tsv, ink erased by row inpainting, `warp.py hub_ability2/3`). Status-screen values: 男/女 is PSX.EXE 0x80183FA4, one cell on screen ("M"/"F") |
 | GDATA e015, e016 | LZSS 4bpp 256 px | name entry: カタカナ ひらがな 英字 END YES NO (months/zodiac English) | new game name entry |

@@ -15,8 +15,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   screen (e014) is checked only as an image (`gfx.py png 14`): week2.mcd's third character is a fairy
   (`hub_ability4`), a card with a hero is needed for it. Sex value 男/女 = PSX.EXE 0x80183FA4, one cell shows on
   screen, now "M"/"F" (D15). e009 is still not seen anywhere. Build sha1 268ff21f3676ed8acb2808c53395b758483ca4be,
-  fitcheck ok, check ok. **Next:** e008 buttons below, then the rest of graphics.md.
-  e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
+  fitcheck ok, check ok. e008 buttons done too (upper case, `work/qa/warp/hub/post.png`; 月 on the calendar -> "/").
+  **Next:** the rest of `docs/re/graphics.md` (rows without **English**). Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
   area x 10-47 y 91-99 per button; gfx.py needs a `bg` column (it clears to 0 now). Proposed: Plan Visit Status Map
   Scout System Back Mission Talk Gift. Build sha1 ac73a4b73fb8f746817a2bf7067a44b525be7970, fitcheck ok.
   Older, worker 1: review #5 PSX.EXE part. Grown list

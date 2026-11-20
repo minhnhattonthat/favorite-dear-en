@@ -2,7 +2,13 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: full English build green (2026-11-20): every batch inserted; 9 scripts that
+- **Phase:** 8. QA in the emulator: starting (phase 7 done-when met 2026-11-20: build green, batch checks and
+  lint clean, fitcheck/romdiff clean on all 7 edited files). Carried into phase 8: the glyph-soup files (see below:
+  all 20 SMxxK/SWxxK files plus T01SEN2, S_EV_01 and the SS..T/SY1205/SW021 parts use an older script header
+  (argtab 0x1AE/0x1B2, not 0x1D2) and are not in the 462-name event table; a load log (`tools/lua/loadlog.lua`) over
+  19 warp scenes (`warp.py --all ... --debugger`, stopped by the host for low memory) loaded 53 names and none of
+  them: likely unused leftovers, confirm with a full sweep (-j 1) before release; `jp_left.py` must list them as
+  intended); 3B77.0260 save menu; ending narration check; odd-length name gap. Phase 7 log: full English build green (2026-11-20): every batch inserted; 9 scripts that
   outgrew their slot (3529 354D 3551 3555 3634 368F 3964 3A3C 3ACC = SQA07 MYH16 MYH17 MYH14 T1001 S0404OK T9SEN
   TM02001 SMEN11) move to the end of GDATA.BIN with their (sector, size) entry repointed in all five EXEs
   (`insert.event_edits/repoint`, test `test_grown_script_moves`); `tools/fitcheck.py` (romdiff of every edited file

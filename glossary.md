@@ -125,6 +125,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | アーテム | Artem | | town in Kvaal attacked by Leraje (Yaruru mission) | |
 | ボルサ | Borsa | | the Borsa Forest, home of winged monsters (Nasadia mission) | |
 | バルバ | Barba | | Barba Island (バルバ島), where Reiv is held captive | |
+| シュランク | Schrank | | the Schrank Forest, where Yaruru met Rush | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

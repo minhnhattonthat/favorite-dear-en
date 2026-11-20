@@ -118,6 +118,10 @@ def cmd_run(a):
     if a.only:
         keep = {int(x, 16) for x in a.only.split(",")}
         want = {s: v for s, v in want.items() if s in keep}
+    if a.rows:  # only these row ids (a chain that stalls on an earlier row never reaches them otherwise)
+        ids = set(a.rows.split(","))
+        want = {s: [r for r in v if r in ids] for s, v in want.items()}
+        want = {s: v for s, v in want.items() if v}
     n = a.pass_no or 1
     while not a.pass_no and (root / f"p{n}").exists():
         n += 1
@@ -188,6 +192,7 @@ def main():
             s.add_argument("--frames", type=int, default=16000, help="base frames; +400 per unshown row (cap 200000)")
             s.add_argument("--mash", type=int, default=20, help="frames between circle presses (warp.lua MASH_EVERY)")
             s.add_argument("--only", help="comma-separated hex sectors")
+            s.add_argument("--rows", help="comma-separated row ids (365E.1B8A,..): force only these")
             s.add_argument("--shot-every", type=int, default=1500, help="frames between shots (30 to catch a page)")
             s.add_argument("--pass", dest="pass_no", type=int, help="resume pass N (default: start the next one)")
     a = ap.parse_args()

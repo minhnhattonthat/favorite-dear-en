@@ -2,17 +2,28 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 20: **hero skill names fixed; visual gate passes on
-  94fa9887** (277 sheets, 0 unreviewed, 0 not ok); left: textcover (textforce passes; battle files need their own
-  path, below), Sylphe/Gaap shot).
+- **Phase:** 8. QA in the emulator: in progress (visual gate passes on 94fa9887: 277 sheets, 0 unreviewed, 0 not
+  ok; **only textcover is left**: textforce passes running, battle files now covered by their own mode).
+  Worker 21 (2026-11-21), build unchanged (94fa9887, check ok 79, smoke ok). (a) **textforce battle mode:** the 83
+  battle files (0x80174A84 table, `textforce.battles()`) now run as `warp.py --battle NAME` into
+  `<root>/p<N>/bt_<NAME>`, with `FORCE_ID` = the battle's event id (its file loads under that id, not slot 32).
+  T0102 test 3/7 shown (was 0). New `--rows ID,..` forces only those rows (a chain that stalls on row 1 never
+  wraps to the rest). (b) **Battle pass running** into the main root: `textforce.py run -j 1 --pass 1 --only
+  $(cat work/qa/battle_sectors.txt)`, log `work/qa/force_battle.txt` (started 08:45; 15 files in: 17 of 146 rows
+  shown, low: many battle rows are win/lose/run or mid-fight lines that the printer never enters after 2 tries, so
+  the probe SKIPs them, e.g. T0102 "ran away", "serves you right"). Next: once it ends, `textforce.py left`, then
+  for battle rows still unshown try a longer run (`--frames`) or a win/lose hook; waive only with proof they are
+  unreachable. Pass 1 (`force_run2.txt`, -j 1) is still going: 43 files done at 09:20. (c) **Sylphe/Gaap closed:**
+  "Gaap: How could mere humans stop my plan...?" (`work/qa/speaker_space_gaap_f017640.png`, T00GAP) and "Sylphe:
+  It's fine. I'm just really happy / that Tia has become such a fine hero." (`work/qa/speaker_space_sylphe_f016200.png`,
+  T1205 row 2104, via `--rows`); both have the space and fit. (d) **Skill fix:** `$SKILL/scripts/emu.py` kept all
+  emulator output in memory (`communicate()`); one PCSX run grew it to 5.6 GB, likely the earlier low-memory kills.
+  Now a reader thread keeps the last 200 lines (docs/skill-gotchas.md).
   Worker 20 gate: stress_hero_* re-toured on 94fa9887 into `work/qa/tour`, `qa_sheets.py`, `qa_gate.py init --build`,
   9 new sheets reviewed in a fresh read-only pass by the worker itself (codex out of credits until 11-26; verdicts
   `work/qa/verdicts/w20_hero.tsv`), `qa_gate.py check` exit 0. stress_hero_week2 does not reach a hero column:
   heroes have no column on the week screen (right wraps to the angel); its scenes.tsv note overstates it.
-  **Textforce gap (next):** every battle file (T0102, T0103, T0104, T0701-T0704A, T0901, T1101 ..) returns rc 1,
-  shown 0 in pass 1 (`work/qa/force_run2.txt`): `--event` can't load battle scripts, so textforce never covers them.
-  Give textforce a battle mode (`warp.py --battle NAME` per T-file, as worker 18 did for T1205) or waive them
-  with a fitcheck proof. Pass 1 at 08:10: 26 files done, 8251 of 8638 rows unshown, 435 files left.
+  Textforce gap (worker 20, closed by worker 21's battle mode): battle files returned rc 1, shown 0 via `--event`.
   Worker 20 (2026-11-21): build **94fa988734a9eb9f0c0f6d12c913d87fdc89ba1c** (check ok 79, smoke ok). Skill names
   fixed (`asm/skill.inc`, `docs/re/text.md` §Hero skills, D20): rendered into the status text sheet with the Name and
   drawn by the rewritten 0x800C337C in the main font from x 200; labels now "1:".."3:" (gfx/e014.tsv). In game

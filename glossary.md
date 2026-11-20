@@ -67,6 +67,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | イウヴァート | Iuvart | | fallen angel | |
 | アドラメレク | Adramelech | | | |
 | ガープ | Gaap | | | |
+| 勇者の発見 | Find Hero | | menu command (PSX.157A34) the fairies ask for when a hero goes missing | |
 | トロメア | Ptolomea | | place of the fallen angels' exile (Dante); with ジュデッカ Judecca, リンボ Limbo | |
 | ジュデッカ | Judecca | | | |
 | リンボ | Limbo | | | |

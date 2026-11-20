@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, 129 of 144 event batches done (b001-b129; `batches.py todo` lists the 15 left; b103-b104 are all glyph soup `-`), pilot checked in game.
+- **Phase:** 6. Translate: in progress, 131 of 144 event batches done (b001-b131; `batches.py todo` lists the 13 left; b103-b104 are all glyph soup `-`), pilot checked in game.
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)
@@ -10,6 +10,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   ~300) and parts of 393D, 3976-3986 decode as kana/kanji soup under `tbl/jp.tbl` (codes parse; a substitution,
   likely a per-scene glyph set). Batched as `-` (b009-b013); find their table, re-extract, re-batch, translate.
   Glossary "Decisions from earlier batches" has the detail.
+- **Mission-title table 3AD6.2C44 (b130, left `-`):** one `{fc}`-wrapped row holding every mission title
+  (盗賊・闇馬車, タンブール教会襲撃, ...) run together with full-width numbers as fillers for unused ids. The game
+  must index into it some other way (no row cuts), so lengths cannot change until phase 7 finds that index; translate
+  it then.
 - **Pilot (done 2026-11-20):** `warp.py myh16` on the English build (`work/qa/warp/myh16/`, f015540, f015720): Reiv's
   scouting in English, wrap at 40 letters gives clean 3-line boxes, no overflow, continuation pages fine. The warp's
   angel name is the Japanese default ラビエル (phase 7: English default name). Choice box (b001 3498.1CF0) not yet

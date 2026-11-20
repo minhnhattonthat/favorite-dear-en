@@ -1,6 +1,6 @@
 id	jp	en	notes
-39FB.0F0C	{fb:FE81}{n}{spk:0080}{n}ほかには、{n}なにかあるかしら？{n}{wait}{clear}{end}		
-39FB.0F3E	{fb:0080}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}あなたって、{n}結構ロマンチックなのね・・・。{n}{wait}{clear}{spk:0080}{n}本当。気持ちいい風だわ・・・。{n}{wait}{clear}{end}		
+39FB.0F0C	{fb:FE81}{n}{spk:0080}{n}ほかには、{n}なにかあるかしら？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Is there anything else?{n}{wait}{clear}{end}	
+39FB.0F3E	{fb:0080}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}あなたって、{n}結構ロマンチックなのね・・・。{n}{wait}{clear}{spk:0080}{n}本当。気持ちいい風だわ・・・。{n}{wait}{clear}{end}	{fb:0080}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}You're quite the romantic, aren't you...{n}{wait}{clear}{spk:0080}{n}It's true. The breeze feels lovely...{n}{wait}{clear}{end}	
 39FB.0FD4	{fb:0A80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}だいじょうぶよ。{n}疲れてはいないわ・・・。{n}{wait}{clear}{end}		
 39FB.103C	{fb:1480}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}・・・空いてないわ。{n}天使サマは空いたの？{n}{wait}{clear}{end}		
 39FB.10A0	{fb:1E80}{n}{spk:E783}{n}少し、休んでいきますか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}まだいいわ・・・。{n}もうすこし先に行ってからね。{n}{wait}{clear}{end}		
@@ -17,8 +17,8 @@ id	jp	en	notes
 39FB.1598	{fb:8C80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}そうね・・・。{n}思ったこと・・・あるわよ・・・。{n}{wait}{clear}{spk:0080}{n}ずーっと思っているわ・・・。{n}{wait}{clear}{end}		
 39FB.163E	{fb:9680}{n}{spk:E783}{n}踊りを見に行くことはありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}もちろんあるわ。{n}いろいろな踊りを見るのは、楽しいもの。{n}{wait}{clear}{end}		
 39FB.16C0	{fb:A080}{n}{spk:E783}{n}船や馬での旅は平気ですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ええ、平気よ。{n}船の中で踊りを踊ることだって{n}あるんだから。{n}{wait}{clear}{end}		
-39FB.1740	{fb:FF81}{n}{spk:0080}{n}ほかには、{n}なにかあるかしら？{n}{wait}{clear}{end}		
-39FB.1772	{fb:0180}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}あなたって、{n}結構ロマンチックなのね・・・。{n}{wait}{clear}{spk:0080}{n}本当。気持ちいい風だわ・・・。{n}{wait}{clear}{end}		
+39FB.1740	{fb:FF81}{n}{spk:0080}{n}ほかには、{n}なにかあるかしら？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Is there anything else?{n}{wait}{clear}{end}	
+39FB.1772	{fb:0180}{n}{spk:E783}{n}風が気持ちいいですね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}あなたって、{n}結構ロマンチックなのね・・・。{n}{wait}{clear}{spk:0080}{n}本当。気持ちいい風だわ・・・。{n}{wait}{clear}{end}	{fb:0180}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}You're quite the romantic, aren't you...{n}{wait}{clear}{spk:0080}{n}It's true. The breeze feels lovely...{n}{wait}{clear}{end}	
 39FB.1808	{fb:0B80}{n}{spk:E783}{n}疲れましたか・・・？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}だいじょうぶよ。{n}疲れてはいないわ・・・。{n}{wait}{clear}{end}		
 39FB.1870	{fb:1580}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}・・・空いてないわ。{n}天使サマは空いたの？{n}{wait}{clear}{end}		
 39FB.18D4	{fb:1F80}{n}{spk:E783}{n}少し、休んでいきますか？{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}まだいいわ・・・。{n}もうすこし先に行ってからね。{n}{wait}{clear}{end}		

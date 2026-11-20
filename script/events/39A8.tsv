@@ -51,7 +51,7 @@ id	jp	en	notes
 39A8.20CE	{fb:2980}{n}{spk:E783}{n}なにかお話でもあればと思って・・・。{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}・・・。{n}今はない。{n}{wait}{clear}{end}		
 39A8.2130	{fb:3380}{n}{spk:E783}{n}城では夜の警護もあるのですか？{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}・・・。{n}もちろんだ。{n}城の警護に昼も夜もない。{n}{wait}{clear}{end}		
 39A8.21A8	{fb:3D80}{n}{spk:E783}{n}夜の街は好きですか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}ああ・・・好きだ。{n}{wait}{clear}{spk:0080}{n}城から望める街の灯りは、美しいものだ。{n}人々の温かな暮らしがそこに映っている。{n}{wait}{clear}{end}		
-39A8.2254	{fb:FE81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}		entry point inside the previous row's message
+39A8.2254	{fb:FE81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Is that all?{n}{wait}{clear}{end}	entry point inside the previous row's message
 39A8.2274	{fb:0080}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・いつもと同じだ。{n}{wait}{clear}{end}		
 39A8.22D2	{fb:0A80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}そこまで監視されねばならないのか？{n}勇者というものは。{n}{wait}{clear}{end}		
 39A8.234A	{fb:1480}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}・・・お前には関係ない。{n}{wait}{clear}{end}		
@@ -59,7 +59,7 @@ id	jp	en	notes
 39A8.23F8	{fb:2880}{n}{spk:E783}{n}野菜もしっかり食べましょうね。{n}{wait}{clear}{spk:0080}{n}・・・。{n}それを言うために、ついてきたのか。{n}{wait}{clear}{end}		
 39A8.2462	{fb:3280}{n}{spk:E783}{n}食事には気を使われますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}そうだな。{n}偏った食事では、健康な体を{n}保てぬからな。{n}{wait}{clear}{end}		
 39A8.24DC	{fb:3C80}{n}{spk:E783}{n}いつもお一人で食事ですか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}城では、普段、騎士団の仲間と共に{n}食事をしている。{n}{wait}{clear}{end}		
-39A8.2552	{fb:FF81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}		
+39A8.2552	{fb:FF81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Is that all?{n}{wait}{clear}{end}	
 39A8.2572	{fb:0180}{n}{spk:E783}{n}今日は何を召し上がるんですか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・いつもと同じだ。{n}{wait}{clear}{end}		
 39A8.25D0	{fb:0B80}{n}{spk:E783}{n}ご一緒してもいいですか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}そこまで監視されねばならないのか？{n}勇者というものは。{n}{wait}{clear}{end}		
 39A8.2648	{fb:1580}{n}{spk:E783}{n}先ほども食事に行かれませんでしたか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}・・・お前には関係ない。{n}{wait}{clear}{end}		

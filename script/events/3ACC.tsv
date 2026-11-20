@@ -39,7 +39,7 @@ id	jp	en	notes
 3ACC.32AC	{fb:0080}{n}・・・{n}{clear}{end}	{fb:0080}{n}...{n}{clear}{end}	
 3ACC.32BE	{fb:FF81}{n}・・・{n}{clear}{end}	{fb:FF81}{n}...{n}{clear}{end}	
 3ACC.32D0	{fb:0180}{n}・・・{n}{clear}{end}	{fb:0180}{n}...{n}{clear}{end}	
-3ACC.32E4	{fb:FE81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}		entry point inside the previous row's message
+3ACC.32E4	{fb:FE81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Is that all?{n}{wait}{clear}{end}	entry point inside the previous row's message
 3ACC.3304	{fb:0080}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}そうだな・・・。{n}{wait}{clear}{end}		
 3ACC.3356	{fb:0A80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{spk:0080}{n}それだけのために来たのなら、{n}じゃまかもしれんな。{n}{wait}{clear}{end}		
 3ACC.33C0	{fb:1480}{n}{spk:E783}{n}好き嫌いはありますか？{n}{wait}{clear}{spk:0080}{n}・・・。{n}特には無い。{n}{wait}{clear}{end}		
@@ -47,7 +47,7 @@ id	jp	en	notes
 3ACC.3472	{fb:2880}{n}{spk:E783}{n}私もおなかが空いてきました。{n}{wait}{clear}{spk:0080}{n}ならば戻って、食事をとればいい。{n}{wait}{clear}{end}		
 3ACC.34CE	{fb:3280}{n}{spk:E783}{n}お城の食事とちがいますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}そんなことはない。{n}城での食事も、質素なものだ。{n}{wait}{clear}{end}		
 3ACC.3542	{fb:3C80}{n}{spk:E783}{n}体のためを考えて食べる物はありますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}特別ないが・・・。{n}なんでも食べる事がいいと思っている。{n}{wait}{clear}{end}		
-3ACC.35CA	{fb:FF81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}		
+3ACC.35CA	{fb:FF81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Is that all?{n}{wait}{clear}{end}	
 3ACC.35EA	{fb:0180}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}そうだな・・・。{n}{wait}{clear}{end}		
 3ACC.363C	{fb:0B80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{spk:0080}{n}それだけのために来たのなら、{n}じゃまかもしれんな。{n}{wait}{clear}{end}		
 3ACC.36A6	{fb:1580}{n}{spk:E783}{n}好き嫌いはありますか？{n}{wait}{clear}{spk:0080}{n}・・・。{n}特には無い。{n}{wait}{clear}{end}		
@@ -71,7 +71,7 @@ id	jp	en	notes
 3ACC.3DAA	{fb:2980}{n}{spk:E783}{n}それは誰かに教わったのですか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}休息を取ることも、騎士にとって{n}大切な行動のひとつ。{n}自然と身につけていくものだ。{n}{wait}{clear}{end}		
 3ACC.3E44	{fb:3380}{n}{spk:E783}{n}毎日続けていることってありますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・。{n}剣の修行だ。{n}{wait}{clear}{end}		
 3ACC.3EA6	{fb:3D80}{n}{spk:E783}{n}若い騎士と出かけることはありますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・ああ。{n}国の馬上槍試合などにな。{n}{wait}{clear}{end}		
-3ACC.3F1C	{fb:FE81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}		entry point inside the previous row's message
+3ACC.3F1C	{fb:FE81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}Is that all?{n}{wait}{clear}{end}	entry point inside the previous row's message
 3ACC.3F3C	{fb:0080}{n}{spk:E783}{n}ずいぶん熱心なのですね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・。{n}手を抜くつもりはない。{n}それだけのことだ。{n}{wait}{clear}{end}		
 3ACC.3FB2	{fb:0A80}{n}{spk:E783}{n}がんばっているんですね。{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}・・・生ぬるい練習では{n}意味がない。{n}{wait}{clear}{end}		
 3ACC.4018	{fb:1480}{n}{spk:E783}{n}今日はまだ修行を続けるのですか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}・・・。{n}そうだな。{n}まだ、始めたばかりだ。{n}{wait}{clear}{end}		
@@ -79,7 +79,7 @@ id	jp	en	notes
 3ACC.4128	{fb:2880}{n}{spk:E783}{n}少し休んでは？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}余計な心配をするくらいなら、{n}帰ってくれ。{n}{wait}{clear}{end}		
 3ACC.418A	{fb:3280}{n}{spk:E783}{n}私も剣術を身につけるべきなのですが・・・。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・そうなのか？{n}天使の役目というものは、{n}自分にはよくわからないが・・・。{n}{wait}{clear}{end}		
 3ACC.422C	{fb:3C80}{n}{spk:E783}{n}とてもりりしい剣の振り方ですね。{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}・・・。{n}世辞は無用だ。{n}戦いは外見で決まるものではない。{n}{wait}{clear}{end}		
-3ACC.42B0	{fb:FF81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}		
+3ACC.42B0	{fb:FF81}{n}{spk:0080}{n}それだけか？{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}Is that all?{n}{wait}{clear}{end}	
 3ACC.42D0	{fb:0180}{n}{spk:E783}{n}ずいぶん熱心なのですね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・。{n}手を抜くつもりはない。{n}それだけのことだ。{n}{wait}{clear}{end}		
 3ACC.4346	{fb:0B80}{n}{spk:E783}{n}がんばっているんですね。{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}・・・生ぬるい練習では{n}意味がない。{n}{wait}{clear}{end}		
 3ACC.43AC	{fb:1580}{n}{spk:E783}{n}今日はまだ修行を続けるのですか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}・・・。{n}そうだな。{n}まだ、始めたばかりだ。{n}{wait}{clear}{end}		

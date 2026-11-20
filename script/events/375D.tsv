@@ -42,7 +42,7 @@ id	jp	en	notes
 375D.3D64	{fb:FF81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 375D.3D80	{fb:0180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0180}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 375D.3D9C	{fb:0B80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0B80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
-375D.3DBA	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}ほかにはなにか？{n}{wait}{clear}{e5:0080}{n}{end}		entry point inside the previous row's message
+375D.3DBA	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}ほかにはなにか？{n}{wait}{clear}{e5:0080}{n}{end}	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}Is there anything else?{n}{wait}{clear}{e5:0080}{n}{end}	entry point inside the previous row's message
 375D.3DEA	{fb:0080}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}はい、そうですね。{n}{wait}{clear}{spk:0080}{n}一人で食べるよりは二人、{n}二人で食べるよりはもっと大勢で食べると{n}さらにおいしくなりますよね。{n}{wait}{clear}{e5:0080}{n}{end}		
 375D.3EB4	{fb:0A80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}いいえ。そんなことはないです。{n}それに、ちょうど空いている{n}時間ですから。{n}{wait}{clear}{e5:0080}{n}{end}		
 375D.3F42	{fb:1480}{n}{spk:E783}{n}好き嫌いはありますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}いいえ、好き嫌いはありません。{n}食べられるだけでも、感謝しなければ{n}いけないことですから。{n}{wait}{clear}{e5:0080}{n}{end}		
@@ -50,7 +50,7 @@ id	jp	en	notes
 375D.407C	{fb:2880}{n}{spk:E783}{n}私もおなかが空いてきました。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}そうですよね。{n}これだけいい匂いがしてたら、{n}天使様だって、おなかが空きますよね。{n}{wait}{clear}{e5:0080}{n}{end}		
 375D.4120	{fb:3280}{n}{spk:E783}{n}おなかいっぱい食べてますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}天使様って、面白い事を{n}お聞きになるんですね。{n}{wait}{clear}{spk:0080}{n}でも、天使様、知ってますか？{n}おなかいっぱいに食べるのは、本当は{n}体のために良くないんですよ。{n}{wait}{clear}{e5:0080}{n}{end}		
 375D.420A	{fb:3C80}{n}{spk:E783}{n}おいしいお店はありましたか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}{e5:0680}{n}ええ、ありました。{n}先日でかけた、{n}パン屋さんなんですけど。{n}{wait}{clear}{spk:0080}{n}ふっくらとしたパンが、{n}とてもおいしかったですよ。{n}{wait}{clear}{e5:0080}{n}{end}		
-375D.42D6	{fb:FF81}{n}{spk:0080}{n}{e5:0080}{n}ほかにはなにか？{n}{wait}{clear}{e5:0080}{n}{end}		
+375D.42D6	{fb:FF81}{n}{spk:0080}{n}{e5:0080}{n}ほかにはなにか？{n}{wait}{clear}{e5:0080}{n}{end}	{fb:FF81}{n}{spk:0080}{n}{e5:0080}{n}Is there anything else?{n}{wait}{clear}{e5:0080}{n}{end}	
 375D.4306	{fb:0180}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}はい、そうですね。{n}{wait}{clear}{spk:0080}{n}一人で食べるよりは二人、{n}二人で食べるよりはもっと大勢で食べると{n}さらにおいしくなりますよね。{n}{wait}{clear}{e5:0080}{n}{end}		
 375D.43D0	{fb:0B80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}いいえ。そんなことはないです。{n}それに、ちょうど空いている{n}時間ですから。{n}{wait}{clear}{e5:0080}{n}{end}		
 375D.445E	{fb:1580}{n}{spk:E783}{n}好き嫌いはありますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}いいえ、好き嫌いはありません。{n}食べられるだけでも、感謝しなければ{n}いけないことですから。{n}{wait}{clear}{e5:0080}{n}{end}		

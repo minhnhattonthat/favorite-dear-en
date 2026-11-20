@@ -12,7 +12,8 @@ each time the scene starts a message, so the scene's own print ops play the whol
         one pass: every sector with a text row no log under --root shows yet gets a run into <root>/p<N>/ev_<NAME>
         (N = the first pass number with no directory yet, or --pass N to resume one after a crash; pass N uses that
         sector's N-th event name, wrapping). Each run's log is converted (TEXT lines) as soon as it ends. Choice
-        menus (｛..｝ rows) are drawn by the choice op, not the printer: the chain leaves them out.
+        menus (｛..｝ rows) are drawn by the choice op, not the printer: the chain leaves them out. Battle files
+        (the 0x80174A84 table: T0101 ..) run as `warp.py --battle NAME` into <root>/p<N>/bt_<NAME>.
     python -X utf8 tools/textforce.py left [--build ..] [--root ..]
         rows still unshown per sector.
 Then: python -X utf8 $SKILL/scripts/textcover.py <root> <build>/strings.tsv --waive docs/text_unshown_unloaded.tsv
@@ -22,6 +23,7 @@ import json
 import os
 import re
 import shutil
+import struct
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -43,6 +45,27 @@ def load(build):
     offs = {int(s): [(o, r) for o, r in v] for s, v in rows["rows"].items()}
     ends = {int(s): v for s, v in rows["ends"].items()}
     return offs, ends, {int(s): v for s, v in names.items()}, choice
+
+
+BATTLE_TABLE = 0x80174A84  # {u16 key, u16 event id} .., key 0xFFFF ends it (docs/re/debug.md, T-events are battles)
+
+
+def battles(exe):
+    """{event name: event id} for the battle events (T0101 ..), as warp.lua resolves them (first id with the name).
+    Their files load under that id, not warp's slot 32, and `--event` can't start them: run them with `--battle`."""
+    names = events.event_names(exe)
+    o, out = BATTLE_TABLE - 0x80010000 + 0x800, {}
+    while True:
+        key, eid = struct.unpack_from("<HH", exe, o)
+        if key == 0xFFFF:
+            return out
+        if eid < len(names):
+            out[names[eid]] = names.index(names[eid])
+        o += 4
+
+
+def run_dir(out, nm, battle):
+    return out / (("bt_" + nm) if battle else ("ev_" + nm.replace(":", "_")))
 
 
 def shown(root):
@@ -101,8 +124,10 @@ def cmd_run(a):
     out = root / f"p{n}"
     out.mkdir(parents=True, exist_ok=True)
 
+    bt = battles(exe)
+
     def finished(nm):
-        p = out / ("ev_" + nm.replace(":", "_")) / "emu.txt"
+        p = run_dir(out, nm, nm in bt) / "emu.txt"
         return p.exists() and any(x.startswith("exit") for x in p.read_text(errors="replace").splitlines())
 
     want = {s: v for s, v in want.items() if not finished(names[s][(n - 1) % len(names[s])])}
@@ -117,13 +142,16 @@ def cmd_run(a):
         for k, (o, rid) in enumerate(v):
             e = v[k + 1][0] if k + 1 < len(v) else ends[sec]
             cells.append(f"{o // 2},{e // 2},{1 if rid in miss else 0}")
-        cmd = [sys.executable, "-X", "utf8", str(ROOT / "tools/debug/warp.py"), "--event", nm, "--cue", cue,
+        battle = nm in bt
+        # a battle's file loads under its own id (textforce.lua FORCE_ID), after the host event starts the fight
+        how = ["--battle", nm, "--var", f"FORCE_ID={bt[nm]}"] if battle else ["--event", nm]
+        cmd = [sys.executable, "-X", "utf8", str(ROOT / "tools/debug/warp.py"), *how, "--cue", cue,
                "--root", str(out), "--frames", str(min(a.frames + 400 * len(miss), 200000)),
                "--shot-every", str(a.shot_every), "--timeout", "3600", "--var", f"MASH_EVERY={a.mash}",
                "--lua", str(ROOT / "tools/lua/textforce.lua"),
                "--var", f"TARGETS='{' '.join(cells)}'"]
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
-        d = out / ("ev_" + nm.replace(":", "_"))
+        d = run_dir(out, nm, battle)
         textcover_map.convert([d], exe, offs)
         log = (d / "log.txt").read_text(encoding="utf-8", errors="replace") if (d / "log.txt").exists() else ""
         print(f"{sec:04X}\t{nm}\trc {r.returncode}\tforced {log.count('FORCE ') - log.count('FORCE rows')}"

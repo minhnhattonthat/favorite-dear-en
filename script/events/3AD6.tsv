@@ -1,41 +1,41 @@
 id	jp	en	notes
-3AD6.13F8	勇者{name:0180}が最後の敵、{n}堕天使ガープとの戦闘に{n}突入しました。{n}{wait}{clear}この戦いだけは、あなたの力が{n}必要です！{n}{wait}{clear}勇者と力を合わせて、このインフォスを{n}救ってください。{n}{wait}{clear}{end}		
-3AD6.14A6	{f7:0080}｛急行する　｝{n}{f7:0080}｛急行しない｝{n}{end}		
-3AD6.14D0	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　シーヴァス様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.153E	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　レイヴ様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.15A8	{fb:0380}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　グリフィン様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.1616	{fb:0480}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　フェリミ様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.1682	{fb:0580}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ディアン様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.16EE	{fb:0680}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ヤルル様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.1758	{fb:0780}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　リュドラル様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.17C6	{fb:0880}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　フィアナ様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.1832	{fb:0980}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　アーシェ様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.189E	{fb:0A80}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ビーシア様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.190A	{fb:0B80}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ナーサディア様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.197A	{fb:0C80}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ティア様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}		
-3AD6.19E4	{fb:6580}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　シーヴァス様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1A5A	{fb:6680}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　レイヴ様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1ACC	{fb:6780}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　グリフィン様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1B42	{fb:6880}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　フェリミ様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1BB6	{fb:6980}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ディアン様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1C2A	{fb:6A80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ヤルル様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1C9C	{fb:6B80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　リュドラル様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1D12	{fb:6C80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　フィアナ様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1D86	{fb:6D80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　アーシェ様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1DFA	{fb:6E80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ビーシア様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1E6E	天使様ぁ！　援護に行かなくて{n}いいんですか！？{n}{wait}{clear}{end}		
-3AD6.1EA8	{fb:6F80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ナーサディア様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1F20	{fb:7080}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ティア様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}		
-3AD6.1F92	{fb:C980}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　シーヴァス様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.2010	{fb:CA80}{n}{e0:E0FF}{spk:0080}{n}天使様！　レイヴ様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.2088	{fb:CB80}{n}{e0:E0FF}{spk:0080}{n}天使様！　グリフィン様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.2104	{fb:CC80}{n}{e0:E0FF}{spk:0080}{n}天使様！　フェリミ様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.217E	{fb:CD80}{n}{e0:E0FF}{spk:0080}{n}天使様！　ディアン様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.21F8	{fb:CE80}{n}{e0:E0FF}{spk:0080}{n}天使様！　ヤルル様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.2270	{fb:CF80}{n}{e0:E0FF}{spk:0080}{n}天使様！　リュドラル様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.22EC	{fb:D080}{n}{e0:E0FF}{spk:0080}{n}天使様！　フィアナ様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.2366	{fb:D180}{n}{e0:E0FF}{spk:0080}{n}天使様！　アーシェ様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
-3AD6.23E0	{fb:D280}{n}{e0:E0FF}{spk:0080}{n}天使様！　ビーシア様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
+3AD6.13F8	勇者{name:0180}が最後の敵、{n}堕天使ガープとの戦闘に{n}突入しました。{n}{wait}{clear}この戦いだけは、あなたの力が{n}必要です！{n}{wait}{clear}勇者と力を合わせて、このインフォスを{n}救ってください。{n}{wait}{clear}{end}	The hero{name:0180} has engaged the{n}final enemy, the fallen angel Gaap.{n}{wait}{clear}For this battle above all, your power is{n}needed!{n}{wait}{clear}Join forces with your hero and save{n}Infos.{n}{wait}{clear}{end}	
+3AD6.14A6	{f7:0080}｛急行する　｝{n}{f7:0080}｛急行しない｝{n}{end}	{f7:0080}[DA][05]Hurry there[DB][05]{n}{f7:0080}[DA][05]Don't go[00][00][00][00][DB][05]{n}{end}	
+3AD6.14D0	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　シーヴァス様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}Angel! Lord Sievas has made contact with{n}the target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.153E	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　レイヴ様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}Angel! Lord Reiv has made contact with{n}the target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.15A8	{fb:0380}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　グリフィン様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0380}{n}{e0:E0FF}{spk:0080}{n}Angel! Griffin has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.1616	{fb:0480}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　フェリミ様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0480}{n}{e0:E0FF}{spk:0080}{n}Angel! Felimi has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.1682	{fb:0580}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ディアン様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0580}{n}{e0:E0FF}{spk:0080}{n}Angel! Dian has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.16EE	{fb:0680}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ヤルル様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0680}{n}{e0:E0FF}{spk:0080}{n}Angel! Yaruru has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.1758	{fb:0780}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　リュドラル様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0780}{n}{e0:E0FF}{spk:0080}{n}Angel! Ryudral has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.17C6	{fb:0880}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　フィアナ様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0880}{n}{e0:E0FF}{spk:0080}{n}Angel! Fiana has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.1832	{fb:0980}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　アーシェ様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0980}{n}{e0:E0FF}{spk:0080}{n}Angel! Ashe has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.189E	{fb:0A80}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ビーシア様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0A80}{n}{e0:E0FF}{spk:0080}{n}Angel! Beasia has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.190A	{fb:0B80}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ナーサディア様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0B80}{n}{e0:E0FF}{spk:0080}{n}Angel! Nasadia has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.197A	{fb:0C80}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　ティア様が目標の敵と{n}接触しました！！{n}天使様も急行されますか！？{n}{wait}{clear}{end}	{fb:0C80}{n}{e0:E0FF}{spk:0080}{n}Angel! Tia has made contact with the{n}target! Will you hurry there too?!{n}{wait}{clear}{end}	
+3AD6.19E4	{fb:6580}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　シーヴァス様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6580}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Lord Sievas ran into{n}a strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1A5A	{fb:6680}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　レイヴ様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6680}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Lord Reiv ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1ACC	{fb:6780}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　グリフィン様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6780}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Griffin ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1B42	{fb:6880}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　フェリミ様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6880}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Felimi ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1BB6	{fb:6980}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ディアン様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6980}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Dian ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1C2A	{fb:6A80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ヤルル様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6A80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Yaruru ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1C9C	{fb:6B80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　リュドラル様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6B80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Ryudral ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1D12	{fb:6C80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　フィアナ様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6C80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Fiana ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1D86	{fb:6D80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　アーシェ様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6D80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Ashe ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1DFA	{fb:6E80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ビーシア様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6E80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Beasia ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1E6E	天使様ぁ！　援護に行かなくて{n}いいんですか！？{n}{wait}{clear}{end}	Angeeel! Are you sure you don't want to{n}go help?!{n}{wait}{clear}{end}	
+3AD6.1EA8	{fb:6F80}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ナーサディア様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:6F80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Nasadia ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1F20	{fb:7080}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　ティア様が強そうな敵と{n}出会ったみたいですぅ！！{n}援護に行ってくれますか？{n}{wait}{clear}{end}	{fb:7080}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Tia ran into a{n}strong enemy!! Will you go help?{n}{wait}{clear}{end}	
+3AD6.1F92	{fb:C980}{n}{e0:E0FF}{spk:0080}{n}天使様ぁ！　シーヴァス様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:C980}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Sievas has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.2010	{fb:CA80}{n}{e0:E0FF}{spk:0080}{n}天使様！　レイヴ様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:CA80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Reiv has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.2088	{fb:CB80}{n}{e0:E0FF}{spk:0080}{n}天使様！　グリフィン様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:CB80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Griffin has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.2104	{fb:CC80}{n}{e0:E0FF}{spk:0080}{n}天使様！　フェリミ様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:CC80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Felimi has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.217E	{fb:CD80}{n}{e0:E0FF}{spk:0080}{n}天使様！　ディアン様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:CD80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Dian has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.21F8	{fb:CE80}{n}{e0:E0FF}{spk:0080}{n}天使様！　ヤルル様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:CE80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Yaruru has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.2270	{fb:CF80}{n}{e0:E0FF}{spk:0080}{n}天使様！　リュドラル様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:CF80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Ryudral has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.22EC	{fb:D080}{n}{e0:E0FF}{spk:0080}{n}天使様！　フィアナ様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:D080}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Fiana has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.2366	{fb:D180}{n}{e0:E0FF}{spk:0080}{n}天使様！　アーシェ様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:D180}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Ashe has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
+3AD6.23E0	{fb:D280}{n}{e0:E0FF}{spk:0080}{n}天使様！　ビーシア様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}	{fb:D280}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Beasia has met the{n}target! I think you'd better hurry!!{n}{wait}{clear}{end}	
 3AD6.245A	{fb:D380}{n}{e0:E0FF}{spk:0080}{n}天使様！　ナーサディア様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
 3AD6.24D8	{fb:D480}{n}{e0:E0FF}{spk:0080}{n}天使様！　ティア様が目的の相手と{n}接触したみたいです！{n}急行した方がいいと思うんですけど！！{n}{wait}{clear}{end}		
 3AD6.2550	{fb:2D81}{n}{e0:E0FF}{spk:0080}{n}天使様っ！　シーヴァス様が目標と{n}思われる敵と接触したようです！！{n}さっそく急行されますか？{n}{wait}{clear}{end}		

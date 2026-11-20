@@ -1,0 +1,87 @@
+id	en
+3AC4.2E72	{fb:6480}{n}{spk:0080}{n}{e5:0580}{n}Oh... was that it? I'm sorry... I jumped to conclusions.{n}{wait}{clear}{spk:0080}{n}I understand, Angel. I'll be waiting for work. So please keep counting on me.{n}{fe:0C8002800180}{n}{fd:0C8001800180}{n}{wait}{clear}{end}
+3AC4.3046	{fb:C880}{n}{spk:0080}{n}{e5:0280}{n}Is... that so? Then whenever there's work again.{n}{wait}{clear}{spk:0080}{n}Um... if you're worried, I'm all right. I intend to keep doing my best as a hero.{n}{fe:0C8000800180}{n}{fd:0C8002800180}{n}{fd:0C8001800180}{n}{wait}{clear}{end}
+3AC4.31FE	{fb:2C81}{n}{spk:0080}{n}{e5:0580}{n}Oh... I'm sorry! I didn't mean for you to apologize. If you'd just ask me for something, that's enough.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}But thank you. Honestly, I'm relieved. I'll keep doing my best!{n}{fd:0C8000800180}{n}{fe:0C8002800180}{n}{fd:0C8001800080}{n}{wait}{clear}{end}
+3AC4.3414	{spk:0080}{n}Oh... Angel, how are you?{n}{wait}{clear}{end}
+3AC4.3496	{spk:0080}{n}{e5:0280}{n}Yes... Actually, lately I can't seem to put my strength into anything... I think I'm worn out.{n}{wait}{clear}{spk:0080}{n}So... I'd like you to give me some time off, Angel.{n}{wait}{clear}{end}
+3AC4.354C	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Don't complain to me.　　｝{n}{f7:0080}｛I'm sorry about that.　　｝{n}{f7:0080}｛Can't you try a bit more?｝{n}{end}
+3AC4.35CC	{fb:0B80}{n}{spk:E783}{n}{f7:0080}｛Please don't grumble.　　｝{n}{f7:0080}｛I'm sorry about that.　　｝{n}{f7:0080}｛Can't you try a bit more?｝{n}{end}
+3AC4.3646	{fb:6480}{n}{spk:0080}{n}{e5:0280}{n}Oh... please don't misunderstand, Angel. I didn't mean it like that...{n}{wait}{clear}{spk:0080}{n}I understand... It's wrong for me alone to rest while people are suffering. I'll do my best and keep being a hero.{n}{fe:0C8000800180}{n}{fd:0C8002800180}{n}{fd:0C8001800180}{n}{wait}{clear}{end}
+3AC4.3846	{fb:C880}{n}{spk:0080}{n}{e5:0180}{n}Thank you so much! To be honest, I was about to collapse...{n}{wait}{clear}{spk:0080}{n}...I'm sorry. I'll take you up on that and rest. Once I've rested, I can help you again, Angel.{n}{fd:0C8000800180}{n}{fe:0C8002800180}{n}{fe:0C8001800180}{n}{wait}{clear}{end}
+3AC4.3A0A	{fb:2C81}{n}{spk:0080}{n}{e5:0580}{n}A bit more... Yes... I have to try a little harder, don't I?{n}{wait}{clear}{spk:0080}{n}I understand, Angel. I'll manage somehow. So please keep guiding me.{n}{fd:0C8000800080}{n}{fe:0C8002800180}{n}{fd:0C8001800180}{n}{wait}{clear}{end}
+3ACC.24FC	{fb:0080}{n}{spk:E783}{n}Am I bothering you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Don't worry about it. You came here for a reason, I assume.{n}{wait}{clear}{end}
+3ACC.2564	{fb:0A80}{n}{spk:E783}{n}Aren't you tired?{n}{wait}{clear}{spk:0080}{n}...Don't worry.{n}{wait}{clear}{end}
+3ACC.25A8	{fb:1480}{n}{spk:E783}{n}Do you like traveling?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Hm. I suppose. I don't dislike it.{n}{wait}{clear}{end}
+3ACC.2606	{fb:1E80}{n}{spk:E783}{n}Are you getting proper rest?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}I'm fine... ...Angels are a considerate sort, it seems.{n}{wait}{clear}{end}
+3ACC.2680	{fb:2880}{n}{spk:E783}{n}How are you feeling?{n}{wait}{clear}{spk:0080}{n}...Not bad.{n}{wait}{clear}{end}
+3ACC.26CA	{fb:3280}{n}{spk:E783}{n}I was worried, so I came to see you.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}Don't worry about me. I'm more at ease alone...{n}{wait}{clear}{end}
+3ACC.2746	{fb:3C80}{n}{spk:E783}{n}It's nice to walk outside, isn't it?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Yes. I suppose it is.{n}{wait}{clear}{end}
+3ACC.27A2	{fb:4680}{n}{spk:E783}{n}Weren't you hoping to see me?{n}{wait}{clear}{fe:E78300800280}{n}{spk:0080}{n}What are you talking about?{n}{wait}{clear}{end}
+3ACC.2804	{fb:5080}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{spk:0080}{n}...There's no need to fuss over me.{n}{wait}{clear}{end}
+3ACC.2856	{fb:5A80}{n}{spk:E783}{n}It's been a while, hasn't it?{n}{wait}{clear}{spk:0080}{n}...It has.{n}{wait}{clear}{end}
+3ACC.289A	{fb:6480}{n}{spk:E783}{n}Have you come across any beautiful scenery?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Hm. I can't spare the time to take it in properly.{n}{wait}{clear}{spk:0080}{n}But there are places I've come to like.{n}{wait}{clear}{end}
+3ACC.293C	{fb:6E80}{n}{spk:E783}{n}Did I startle you, showing up so suddenly?{n}{wait}{clear}{spk:0080}{n}What are you talking about?{n}{wait}{clear}{end}
+3ACC.2984	{fb:7880}{n}{spk:E783}{n}I was wondering how you were doing.{n}{wait}{clear}{spk:0080}{n}...As you see.{n}{wait}{clear}{end}
+3ACC.29D4	{fb:8280}{n}{spk:E783}{n}If there's anything I can do, I'll help.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...I appreciate the thought. But there's nothing for now.{n}{wait}{clear}{end}
+3ACC.2A52	{fb:8C80}{n}{spk:E783}{n}I thought you might have lost your way.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}What nonsense are you talking?{n}{wait}{clear}{end}
+3ACC.2AC0	{fb:9680}{n}{spk:E783}{n}What do you think makes traveling fun?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Visiting unknown lands and deepening my knowledge, I'd say.{n}{wait}{clear}{end}
+3ACC.2B48	{fb:A080}{n}{spk:E783}{n}Is anything hard about traveling?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}On a long journey, it's trouble if the horse falls ill.{n}{wait}{clear}{end}
+3ACC.3304	{fb:0080}{n}{spk:E783}{n}Meals are fun, aren't they?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Let me see...{n}{wait}{clear}{end}
+3ACC.3356	{fb:0A80}{n}{spk:E783}{n}Am I bothering you?{n}{wait}{clear}{spk:0080}{n}If that's all you came for, perhaps you are.{n}{wait}{clear}{end}
+3ACC.33C0	{fb:1480}{n}{spk:E783}{n}Are there foods you don't like?{n}{wait}{clear}{spk:0080}{n}...... Nothing in particular.{n}{wait}{clear}{end}
+3ACC.340C	{fb:1E80}{n}{spk:E783}{n}Do you ever cook your own meals?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Simple things, yes.{n}{wait}{clear}{end}
+3ACC.3472	{fb:2880}{n}{spk:E783}{n}I'm getting hungry too.{n}{wait}{clear}{spk:0080}{n}Then go back and eat something.{n}{wait}{clear}{end}
+3ACC.34CE	{fb:3280}{n}{spk:E783}{n}Is it different from the food at the castle?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Not at all. The meals at the castle are plain too.{n}{wait}{clear}{end}
+3ACC.3542	{fb:3C80}{n}{spk:E783}{n}Is there anything you eat for your health?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Nothing in particular... I think it's best to eat everything.{n}{wait}{clear}{end}
+3ACC.38B2	{fb:FE81}{n}{spk:0080}{n}Is there something else?{n}{wait}{clear}{end}
+3ACC.38E0	{fb:0080}{n}{spk:E783}{n}Is something troubling you?{n}{wait}{clear}{spk:0080}{n}Did it look that way? You worry too much.{n}{wait}{clear}{end}
+3ACC.3932	{fb:0A80}{n}{spk:E783}{n}Am I bothering you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}I'm resting now. No need to be so careful.{n}{wait}{clear}{end}
+3ACC.399A	{fb:1480}{n}{spk:E783}{n}Are you tired?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Not especially... I simply rest when I can.{n}{wait}{clear}{end}
+3ACC.3A10	{fb:1E80}{n}{spk:E783}{n}You look like you're having fun.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}If I can avoid fighting, so much the better.{n}{wait}{clear}{end}
+3ACC.3A76	{fb:2880}{n}{spk:E783}{n}Did someone teach you that?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Taking rest is one of a knight's important duties too. It's something you pick up naturally.{n}{wait}{clear}{end}
+3ACC.3B10	{fb:3280}{n}{spk:E783}{n}Is there something you do every day?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Sword training.{n}{wait}{clear}{end}
+3ACC.3B72	{fb:3C80}{n}{spk:E783}{n}Do you ever go out with the young knights?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Yes. To the kingdom's jousting tournaments and such.{n}{wait}{clear}{end}
+3ACC.3F3C	{fb:0080}{n}{spk:E783}{n}You're very dedicated, aren't you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...I don't intend to cut corners. That's all.{n}{wait}{clear}{end}
+3ACC.3FB2	{fb:0A80}{n}{spk:E783}{n}You're working hard.{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}...Half-hearted practice is meaningless.{n}{wait}{clear}{end}
+3ACC.4018	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}...Yes. I've only just begun.{n}{wait}{clear}{end}
+3ACC.408E	{fb:1E80}{n}{spk:E783}{n}What kind of training are you doing?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Building arm strength. Lance or sword, a weak arm is useless.{n}{wait}{clear}{end}
+3ACC.4128	{fb:2880}{n}{spk:E783}{n}Why not rest a little?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}If you're only here to worry needlessly, then leave.{n}{wait}{clear}{end}
+3ACC.418A	{fb:3280}{n}{spk:E783}{n}I really ought to learn swordsmanship too...{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Is that so? I don't really understand what an angel's role involves...{n}{wait}{clear}{end}
+3ACC.422C	{fb:3C80}{n}{spk:E783}{n}You swing your sword so gallantly.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}...Spare me the flattery. Battles aren't won on looks.{n}{wait}{clear}{end}
+3AD6.13F8	The hero {name:0180} has engaged the final enemy, the fallen angel Gaap.{n}{wait}{clear}For this battle above all, your power is needed!{n}{wait}{clear}Join forces with your hero and save Infos.{n}{wait}{clear}{end}
+3AD6.14A6	{f7:0080}｛Hurry there｝{n}{f7:0080}｛Don't go　　｝{n}{end}
+3AD6.14D0	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}Angel! Lord Sievas has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.153E	{fb:0280}{n}{e0:E0FF}{spk:0080}{n}Angel! Lord Reiv has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.15A8	{fb:0380}{n}{e0:E0FF}{spk:0080}{n}Angel! Griffin has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.1616	{fb:0480}{n}{e0:E0FF}{spk:0080}{n}Angel! Felimi has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.1682	{fb:0580}{n}{e0:E0FF}{spk:0080}{n}Angel! Dian has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.16EE	{fb:0680}{n}{e0:E0FF}{spk:0080}{n}Angel! Yaruru has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.1758	{fb:0780}{n}{e0:E0FF}{spk:0080}{n}Angel! Ryudral has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.17C6	{fb:0880}{n}{e0:E0FF}{spk:0080}{n}Angel! Fiana has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.1832	{fb:0980}{n}{e0:E0FF}{spk:0080}{n}Angel! Ashe has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.189E	{fb:0A80}{n}{e0:E0FF}{spk:0080}{n}Angel! Beasia has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.190A	{fb:0B80}{n}{e0:E0FF}{spk:0080}{n}Angel! Nasadia has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.197A	{fb:0C80}{n}{e0:E0FF}{spk:0080}{n}Angel! Tia has made contact with the target! Will you hurry there too?!{n}{wait}{clear}{end}
+3AD6.19E4	{fb:6580}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Lord Sievas ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1A5A	{fb:6680}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Lord Reiv ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1ACC	{fb:6780}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Griffin ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1B42	{fb:6880}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Felimi ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1BB6	{fb:6980}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Dian ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1C2A	{fb:6A80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Yaruru ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1C9C	{fb:6B80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Ryudral ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1D12	{fb:6C80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Fiana ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1D86	{fb:6D80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Ashe ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1DFA	{fb:6E80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Beasia ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1E6E	Angeeel! Are you sure you don't want to go help?!{n}{wait}{clear}{end}
+3AD6.1EA8	{fb:6F80}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Nasadia ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1F20	{fb:7080}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Tia ran into a strong enemy!! Will you go help?{n}{wait}{clear}{end}
+3AD6.1F92	{fb:C980}{n}{e0:E0FF}{spk:0080}{n}Angeeel! Looks like Sievas has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2010	{fb:CA80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Reiv has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2088	{fb:CB80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Griffin has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2104	{fb:CC80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Felimi has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.217E	{fb:CD80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Dian has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.21F8	{fb:CE80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Yaruru has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2270	{fb:CF80}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Ryudral has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.22EC	{fb:D080}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Fiana has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.2366	{fb:D180}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Ashe has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}
+3AD6.23E0	{fb:D280}{n}{e0:E0FF}{spk:0080}{n}Angel! Looks like Beasia has met the target! I think you'd better hurry!!{n}{wait}{clear}{end}

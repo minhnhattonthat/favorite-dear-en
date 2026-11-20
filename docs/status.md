@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, all 144 event batches done (b001-b144, `batches.py todo` empty; b103-b104 are all glyph soup `-`), pilot checked in game; PSX.EXE strings and credits done (Next 3); left: the review pass (Next 4).
+- **Phase:** 6. Translate: in progress, all 144 event batches done (b001-b144, `batches.py todo` empty; b103-b104 are all glyph soup `-`), pilot checked in game; PSX.EXE strings and credits done (Next 3); left: the review pass (Next 4), b001-b013 reviewed, resume at b014.
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)
@@ -63,7 +63,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
      family-name pair fits; STAFF.459 ＮＥＣインターチャネル stays). Staff name readings are my Hepburn guesses (see
      Waiting on the user). STAFF.TXT grows 4162 -> 5056 bytes: check the roll in game (`warp.py credits`). Not done:
      `script/sjis.tsv` memory-card titles (no insert path yet; phase 7).
-  4. Review pass (self, fresh read-only, or codex after 11-26): pairs per batch, Critical/Important fixed.
+  4. Review pass (in progress; codex is out of credits until 2026-11-26, so self-review): `python -X utf8
+     tools/pairs.py` writes `work/qa/review/pairs/bNNN.txt` (JP/EN per entry, codes stripped, boxes already shown in
+     an earlier batch dropped: 2.0 MB, about 9 KB of JP+EN per batch). Read each with Read `limit` (60-120 lines; the
+     context-mode hook refuses whole files over ~10 KB), judge accuracy/voice, fix Critical/Important in
+     `trans/en/bNNN.tsv` (Edit), `batches.py check bNNN` + `merge`, record `bNNN<TAB>ok|fixed<TAB>note` in
+     `docs/review.tsv`, Minors as `- [ ]` lines in `docs/polish.md`. Done b001-b013 (one fix: b009 34EA.08AA meaning
+     reversed); resume at b014. Pace: about 13 batches per worker context; quality so far is high (no Critical).
+     Automated scan (doubled words, tail fragments) found nothing real.
   Phase 7 items already known: odd-length runtime names (`{name:0180}` "Tia") leave a half-cell gap before the next
   text ("Tia 's"); re-pair in the name-insert path or pad names. Row 3498.1550 (gift-name list run together, cut by
   the script at offsets) kept Japanese until its indexing is found. script growth past a file's slot (159 files at 2.5x English length) needs GDATA

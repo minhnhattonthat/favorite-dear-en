@@ -1,0 +1,14 @@
+batch	verdict	note
+b001	ok	accurate, voices fine; 1 Minor (polish.md)
+b002	ok	recruit scenes Ryudral/Sievas; Sievas's haughty register kept
+b003	ok	Ashe/Nasadia recruits; Ashe's brat voice and the boring/trivial misunderstanding joke kept
+b004	ok	Nasadia/Sievas re-recruits
+b005	ok	Sievas/Ryudral twins
+b006	ok	Ashe/Nasadia twins, Sievas battle; Minors (polish.md)
+b007	ok	hero battle barks, each voice distinct
+b008	ok	fairy scouting reports, travel accept/refuse per hero; Minor: Florin's ぴたりこん
+b009	fixed	34EA.08AA/0A86 "keep beatin' it up as a last resort" -> "save beatin' it up for a last resort" (meaning was reversed)
+b010	ok	all glyph soup (-), nothing to review until phase 7 re-batches it
+b011	ok	all glyph soup (-)
+b012	ok	all glyph soup (-)
+b013	ok	fairy mission briefings

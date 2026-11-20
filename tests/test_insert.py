@@ -126,3 +126,28 @@ def test_exe_data_untouched(disc, mode):
     new = insert.exe_text(exe, mode, extract.exe_table())
     for lo, hi in [NAME_TABLE, (0x164E7A, 0x1660E0)] + extract.EXE_DATA:
         assert new[lo:hi] == exe[lo:hi], f"{mode} wrote into data {lo:#x}-{hi:#x}"
+
+
+@disc_only
+def test_epilog_patch():
+    """EPILOG.EXE: one sector appended, pc0 -> the copy stub, the renderer's first word jumps to the blob; nothing
+    else in the original image changes"""
+    old = (TREE / "TITLE" / "EPILOG.EXE").read_bytes()
+    new = insert.assemble(old, "epilog.asm")
+    assert len(new) == len(old) + 0x800
+    pc0, _, taddr, tsize = struct.unpack_from("<4I", new, 0x10)
+    assert (pc0, taddr, tsize) == (0x8009F800, 0x80010000, 0x90000)
+    hook = 0x800526E8 - 0x80010000 + 0x800
+    assert struct.unpack_from("<I", new, hook)[0] == 0x08000000 | (0x80170000 & 0x0FFFFFFF) >> 2
+    changed = {i for i in range(len(old)) if old[i] != new[i]}
+    assert changed <= set(range(0x10, 0x14)) | set(range(0x1C, 0x20)) | set(range(hook, hook + 8))
+
+
+def test_staff_text():
+    row = {"id": "STAFF.009", "jp": "　　　　　　小川　雄一郎", "en": "Yuichiro Ogawa"}
+    assert insert.staff_text(row, "en") == "Ｙｕｉｃｈｉｒｏ　Ｏｇａｗａ"
+    assert insert.staff_text(row, "marker") == "　" * 6 + "［００９］Ｔ"  # same glyph count
+    card = {"id": "STAFF.460", "jp": "&　　　　　ＳＯＦＩＸ", "en": "&    SOFIX"}
+    assert insert.staff_text(card, "en") == "&　　　　ＳＯＦＩＸ"  # the single-byte '&' code stays
+    assert insert.staff_text(card, "marker").startswith("&　　　　　［４６０］")
+    assert extract.staff_decode(extract.staff_encode(insert.staff_text(row, "en"))) == insert.staff_text(row, "en")

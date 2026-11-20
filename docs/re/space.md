@@ -26,3 +26,16 @@ Other room:
 - GDATA.BIN can be rebuilt with moved and grown files, since every file is reached through the (sector, size)
   tables in PSX.EXE (`disc.md`, `events.md`); the disc also has DUMMY.BIN (27 MB of zeros) to give back.
 - The hard limit is the event-script RAM buffer (~0x7000 bytes, already filled by the largest file).
+
+## EPILOG.EXE (verified 2026-11-20, trap test)
+
+- The image 0x80010000-0x8009F800 has no free run: its zero runs 0x80010000-0x800109A4 and 0x80099180+ are
+  overwritten after main starts, and filling 0x800671DC-0x80068240 hangs it. crt0 (pc0 0x80013BD0) clears BSS
+  0x80073320-0x800911B8.
+- **0x80160000-0x80180000 is free in all 23 endings**: `trap.lua` armed at f11450 (just after EPILOG's arrival) on
+  `epilog_end1`-`epilog_end23`, 7 checks each to f20000, 0 bytes changed. `asm/epilog.asm` copies its blob
+  (0x678 bytes) to 0x80170000 from a stub in an appended sector (file 0x90000-0x907FF, the new pc0 0x8009F800).
+- Growing EPILOG.EXE by one sector shifts the LBAs of the TITLE/ files after it (EPI_OBJ, FD_MOV, TTL_*.PSS) and
+  DUMMY.BIN. Every program finds them by name (CdSearchFile paths in the EXEs), so title, option, minigame and the
+  endings still load (marker build, 2026-11-20).
+- PSX.EXE: the free run at 0x80124E60 also took a 48-letter test string at 0x80125900 (`hub_help` width test).

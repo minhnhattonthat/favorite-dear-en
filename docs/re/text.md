@@ -77,7 +77,19 @@ Text object: `*(0x8001A4B8)`; +0 u32 text pointer, +4 u16 index, +8 u8 window id
 ## Credits (verified: decoded the cast list)
 
 DATA/STAFF.TXT: Shift-JIS with each byte of a double-byte character +1 (0x82 0x41 = 0x81 0x40 "　"); line break
-0x0E 0x0B; `$` lines are separators/pauses (guess). Read by DATA/FIN.EXE (font 01-13.TIM + FONTCLUT.TIM).
+0x0E 0x0B; `$` lines are separators/pauses (guess). Read by DATA/FIN.EXE (01-13.TIM are the pictures; FONTCLUT.TIM
+is an empty 256x256 image).
+- FIN's font is inside FIN.EXE: a full Shift-JIS 12-px font, 22 bytes per glyph (11 rows, u16 big-endian, bit 15 =
+  leftmost pixel; e.g. FIN file 0x16984). 0x80013BD0 `glyph_addr(char *sjis)` = base (0x8002365C for codes
+  0x8140-0x84BE, 0x80026364 for kanji) + 22 * index, index from 0x80013C5C (SJIS -> index, the BIOS-style table at
+  0x800235DC). 0x80013940 renders the glyph with a shadow (`v | v>>1 | v>>2`) into a buffer; the caller is 0x800134CC.
+- Single-byte ASCII in a line hangs the roll (tested); full-width Latin (ＡＢＣ, ａｂｃ, ０-９, ［］) renders. So the credits
+  are English in full-width forms (`insert.fullwidth`, 14 letters per line at x=150). The leading `&` of the closing
+  cards (STAFF.457-460) is a single-byte code and stays.
+- Option for more room (phase 7): hook `glyph_addr` like PSX's pair glyphs (two 6-px letters ORed into a 22-byte
+  scratch glyph), with pair codes in an unused lead-byte range; the shadow adds 2 px to the right of each letter, so
+  letters must be <= 4 px wide or the shadow joins neighbours. Needs free RAM in FIN (trap test) and FIN's own
+  lead-byte test.
 
 ## Font (verified: traced the glyph writer)
 
@@ -104,4 +116,13 @@ are MS Gothic's 12 px embedded bitmap (kanji match exactly), kana/Latin/punctuat
   Japanese per halfword), and the engine's column/line/page logic is untouched. `tools/en.py` encodes; an odd letter
   before a control code is padded with a space.
 - Hook, font (1212 bytes) and scratch live at 0x80124E60 (the free run in `space.md`, under 0x80125AF0, checked by
-  armips).
+  armips). The hook body is `asm/pair.inc` + `asm/pair_data.inc`, shared with EPILOG.
+- **EPILOG.EXE** (endings) has its own copy of the renderer at 0x800526E8 (same interface: row = code >> 4, column =
+  code & 15, 24-byte rows), reached via 0x800311DC -> 0x80051C98. `asm/epilog.asm` hooks it (displaced
+  `addiu sp,-0x40` / `sw ra,0x3c(sp)`); the blob lives at 0x80170000 (`space.md` §EPILOG). Verified: ending 3 shows
+  clean English, 40 letters x 3 lines (`docs/windows.tsv`).
+- **Glyph torture line** (`build.py --torture`: every font glyph plus double and triple spaces as each event row's
+  first three lines): all 101 glyphs distinct and clean, spaces keep their width (`work/qa/p5/torture/sheet.png`).
+- **FIN.EXE (credits)**: see §Credits below.
+- **Not yet handled:** a runtime-inserted name of odd length (the angel's name, entered on the grid) leaves a half-cell
+  gap after it in dialogue; the name-entry grid must produce pair codes (phase 7).

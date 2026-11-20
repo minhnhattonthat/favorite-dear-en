@@ -5,7 +5,8 @@
 Modes: 'en' writes each row's `en` cell (rows with an empty `en` stay Japanese); 'marker' writes `[id]` + filler
 into every row (the phase 5 marker build), keeping each row's control codes and its glyph count x 2 letters, so a
 line keeps its width; 'ruler' puts RULER (44 letters) in each row's first line for the width gate (a script it
-doesn't fit gets markers).
+doesn't fit gets markers); 'torture' puts TORTURE (every glyph, three lines) in each event row the same way.
+DATA/STAFF.TXT (credits) gets full-width text: FIN.EXE draws only double-byte characters.
 
 Event scripts (docs/re/events.md): a row is a text segment; new text may grow or shrink it. The script's code is
 rebuilt piece by piece and every reference argument (Script.refs, incl. the pc-0 goto) is remapped to the new pc of
@@ -83,12 +84,18 @@ def marker(row_id, jp):
 RULER = "1234567890ABCDEFGHIJ1234567890abcdefghij+-*/"  # 44 letters: the last one visible = the line's limit
 
 
-def ruler(row_id, jp):
+# every glyph of fonts/en6x12.txt plus double spaces, as three 40-letter dialogue lines (the glyph torture line)
+TORTURE = ("{n}".join([" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFG",
+                       "HIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmno",
+                       "pqrstuvwxyz{|}~…—♥♪é  A  B   C  Ww Mm"]))
+
+
+def ruler(row_id, jp, first=RULER):
     """the width gate: the row's first text run becomes RULER (one full line), the rest as in marker()"""
     out, done = [], False
     for is_text, piece in runs(marker(row_id, jp)):
         if is_text and not done:
-            piece, done = RULER, True
+            piece, done = first, True
         out.append(piece)
     return "".join(out)
 
@@ -98,6 +105,8 @@ def row_text(row, mode):
         return marker(row["id"], row["jp"])
     if mode == "ruler":
         return ruler(row["id"], row["jp"])
+    if mode == "torture":
+        return ruler(row["id"], row["jp"], TORTURE)
     return row["en"] or None
 
 
@@ -167,7 +176,7 @@ def event_edits(gdata, exe, mode, table, report=None):
         try:
             new = script_bytes(sc, size, repl)
         except FitError as e:
-            if mode != "ruler":
+            if mode not in ("ruler", "torture"):
                 raise FitError(f"script {sec:04X}: {e}") from None
             new = script_bytes(sc, size, replacements("marker"))  # ruler doesn't fit: this file gets markers
         if report is not None:
@@ -197,6 +206,7 @@ def fit_slot(row, mode, size, table):
 
 def exe_text(exe, mode, table):
     out = bytearray(exe)
+    mode = "marker" if mode == "torture" else mode  # torture: event dialogue only
     for row in extract.read_tsv(extract.SCRIPT / "exe.tsv"):
         if "name-entry grid" in row["notes"]:
             continue  # fixed cells, not a string (phase 7: Latin grid)
@@ -214,15 +224,47 @@ def exe_text(exe, mode, table):
     return bytes(out)
 
 
-def assemble(exe):
-    """PSX.EXE bytes with asm/font.asm applied"""
+# --- DATA/STAFF.TXT (credits) ---------------------------------------------------------------------------------------
+
+
+def fullwidth(s):
+    """ASCII -> Shift-JIS full-width forms (FIN.EXE draws only double-byte characters: docs/re/text.md §Credits)"""
+    return "".join(chr(ord(c) + 0xFEE0) if "!" <= c <= "~" else "　" if c == " " else c for c in s)
+
+
+def staff_text(row, mode):
+    """a credits line: marker/ruler keep the line's leading indent and glyph count; en = the `en` cell, full-width.
+    A leading '&' (the closing cards, STAFF.457-460) is a single-byte code and stays single-byte."""
+    jp = row["jp"]
+    code = jp[:len(jp) - len(jp.lstrip("&"))]
+    if mode == "en":
+        return code + fullwidth(row["en"].lstrip("&")) if row["en"] else None
+    body = jp[len(code):].lstrip("　")
+    indent = jp[:len(jp) - len(body)]  # the code and the full-width spaces
+    if mode == "ruler":
+        return indent + fullwidth(RULER[:24])
+    tag = "[" + row["id"].split(".")[1] + "]"
+    return indent + fullwidth((tag + FILLER * 2)[:max(len(body), len(tag))])
+
+
+def staff_edit(data, mode):
+    lines = extract.staff_lines(data)
+    for row in extract.read_tsv(extract.SCRIPT / "staff.tsv"):
+        text = staff_text(row, mode)
+        if text is not None:
+            lines[int(row["id"].split(".")[1])] = extract.staff_encode(text)
+    return extract.STAFF_NL.join(lines)
+
+
+def assemble(exe, asm="font.asm"):
+    """EXE bytes with asm/<asm> applied (font.asm: PSX.EXE, epilog.asm: TITLE/EPILOG.EXE)"""
     with tempfile.TemporaryDirectory() as d:
         d = Path(d)
         (d / "in.exe").write_bytes(exe)
         (d / "font.bin").write_bytes(font_en.binary())
-        r = subprocess.run([str(ARMIPS), str(ROOT / "asm" / "font.asm"), "-strequ", "EXE_IN", str(d / "in.exe"),
+        r = subprocess.run([str(ARMIPS), str(ROOT / "asm" / asm), "-strequ", "EXE_IN", str(d / "in.exe"),
                             "-strequ", "EXE_OUT", str(d / "out.exe"), "-strequ", "FONT_BIN", str(d / "font.bin")],
-                           capture_output=True, text=True)
+                           capture_output=True, text=True, cwd=ROOT / "asm")  # .include resolves from the cwd
         if r.returncode != 0:
             raise RuntimeError(f"armips failed:\n{r.stdout}\n{r.stderr}")
         return (d / "out.exe").read_bytes()
@@ -233,16 +275,21 @@ def edits(mode="en", report=None):
     gdata = (TREE / "GDATA.BIN").read_bytes()
     new_exe = assemble(exe_text(exe, mode, extract.exe_table()))
     new_gdata = event_edits(gdata, exe, mode, extract.event_table(), report)
-    out = {"PSX.EXE": new_exe}
+    out = {"PSX.EXE": new_exe,
+           "TITLE/EPILOG.EXE": assemble((TREE / "TITLE" / "EPILOG.EXE").read_bytes(), "epilog.asm")}
     if new_gdata != gdata:
         out["GDATA.BIN"] = new_gdata
+    staff = (TREE / "DATA" / "STAFF.TXT").read_bytes()
+    new_staff = staff_edit(staff, mode)
+    if new_staff != staff:
+        out["DATA/STAFF.TXT"] = new_staff
     return out
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("cmd", choices=["stats"])
-    ap.add_argument("--mode", choices=["en", "marker", "ruler"], default="en")
+    ap.add_argument("--mode", choices=["en", "marker", "ruler", "torture"], default="en")
     a = ap.parse_args()
     rep = []
     edits(a.mode, rep)

@@ -127,5 +127,7 @@ if __name__ == "__main__":
                     help="marker build: [id] + filler in every row -> build/favorite_dear_en_marker.*")
     ap.add_argument("--ruler", dest="mode", action="store_const", const="ruler",
                     help="width gate: a 44-letter ruler as each row's first line -> build/favorite_dear_en_ruler.*")
+    ap.add_argument("--torture", dest="mode", action="store_const", const="torture",
+                    help="every English glyph in each event row's first lines -> build/favorite_dear_en_torture.*")
     a = ap.parse_args()
     build(a.identity, mode=a.mode)

@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, 18 of 144 event batches done (b001-b016, b024, b025), pilot checked in game.
+- **Phase:** 6. Translate: in progress, 35 of 144 event batches done (b001-b033), pilot checked in game.
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)
@@ -26,12 +26,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Next (phase 6):**
   1. Choice box check (b001 row 3498.1CF0 `　｛Go to them　　　｝`, file 3498) once a warp reaches it (find the event
      name via the 0x8003B680 lookup). SS1204 is not file 349C.
-  2. `python -X utf8 tools/batches.py todo` (next: b017), translate in order per `docs/translator-brief.md` and
+  2. `python -X utf8 tools/batches.py todo` (next: b034), translate in order per `docs/translator-brief.md` and
      `docs/style-reference.md`, check, merge, commit after every batch or two. Use `tools/compact.py show|soup|expand`
      (brief item 6): it cuts read/write tokens by about a third, and `soup` pre-fills glyph-soup rows as `-`.
-     b014-b017 are the heroes' visit-talk menus (the angel asks a stock question, the hero answers; same questions
-     for every hero, so reuse the angel's wording from b014-b016). Then `docs/synopsis.md`.
-     Pace: one worker context did 11 batches (b006-b016, 4 of them soup) with compact.py.
+     b026-b033 are recruit/re-recruit scenes and hero story battles; many files exist twice (one per angel gender,
+     e.g. 358B/35BC, 3591/35B6, 3585/35C2), so pre-fill from the twin: a scratch helper `work/tx/reuse.py bNNN`
+     (gitignored; copy it from the b028-b033 session if missing: it splits each row on control codes, maps every
+     JP text piece already translated to its EN piece, writes `work/tx/bNNN.pre` in compact form with unknown pieces
+     marked ⟦, and reads extra pieces from `work/tx/manual.tsv`). Check its "he'd/she'd" picks in the stock fairy
+     line. Worth turning into `tools/` if the next worker finds it useful. Then `docs/synopsis.md`.
+     Pace: one worker context did 17 batches (b017-b033) with compact.py + reuse.py.
+     Story facts learned: Miraya is Felimi's elder sister (Duminas army); Rush is the sacred beast Jackhound who
+     killed Yaruru's father Ludock; Regal (Knight in Black) is Reiv's friend; Adramelech burned Sievas's town 15 years
+     ago; Apollyon killed Fiana's parents; Dian's lost love is Liza.
   3. Not yet batched: `script/exe.tsv` (867 PSX.EXE rows, need a variant tag per row from `docs/windows.tsv`: hub help
      40, location 11, list 17, week tag/ACTION 10, save 12, confirm 16 (+6 hidden), yes/no 7), `script/staff.tsv`
      (credits, 14 full-width letters minus indent), `script/sjis.tsv` (memory-card titles).

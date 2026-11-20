@@ -78,6 +78,11 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | イダヴェル | Idavel | | (Griffin event) | |
 | ビュシーク | Busik | | undead monster empowered by Apollyon | |
 | バルバロッサ | Barbarossa | | bandit (Felimi event) | |
+| ライザ | Liza | | Dian's lost love | |
+| ジャックハウンド | Jackhound | | Rush's true name (sacred beast) | |
+| ブロッケン | Brocken | | monster (Yaruru event) | |
+| ゼビア | Zebia | | slaver bandit boss (Fiana event) | |
+| バルト | Balt | | Apollyon's servant (Fiana event) | |
 | ラッシュ | Rush | | Yaruru's sacred beast ("he") | |
 | グレイ | Gray | | Beasia's family and her dojo ("the Gray-style dojo", グレイ流道場) | |
 
@@ -131,3 +136,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 - Gendered addresses for the angel are neutralised: Yaruru's お姉ちゃん -> "you" (358B.2332), Griffin's
   ド派手姉ちゃん -> "Flashy", 娘/女 -> "that one"/"You sure can talk"; Dian's 天使さん -> "Angel".
 - 姉さん (Felimi to Miraya, his elder sister; 356C, 3570, 35F0, 35F4): "Sister" / "my sister".
+- Angel-gender variant files (e.g. 35BC = female-angel copy of 358B): where the line is about the angel's gender
+  (Yaruru: お姉ちゃんでいいですよ), keep it ("Big Sis"); elsewhere stay neutral.
+- Stock battle lines: 魔人 "Fiend", 魔族 "Demon", `{name:0180}はXを倒した` "{name:0180} defeated X.",
+  `退けた` "drove off X."; 天使の手先 "the angel's lackey"; 天使の勇者 "the angel's hero".

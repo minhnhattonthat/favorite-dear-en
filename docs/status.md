@@ -9,7 +9,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   --only $(cat work/qa/event_sectors.txt)` (log `work/qa/force_run3.txt`, 288 files left at 09:20) and battles
   `... -j 1 --pass 1 --only $(cat work/qa/battle_sectors.txt)` (log `force_battle.txt`, it had died after 16 files;
   restarted, 67 left). The memory kills were emu.py's output leak (fixed by worker 21): 5 emulators use ~1.3 GB, the
-  host had 5.6 GB free, so -j 4 or more is safe. Both resume with the same command (finished runs are skipped).
+  host had 5.6 GB free at 08:50, but only 2.4 GB at hand-back with other projects' emulators up (9 PCSX on the
+  host): check free memory before going above -j 4. Both resume with the same command (finished runs are skipped).
   `textforce.py left` at 08:50: 8005 of 8638 loaded rows unshown. (b) **Choice menus are printer rows** (the tour
   ev_smen01 run's PIDX maps to 3A76.13E0; op 0x90 is a message lookup by FFFB key, handler 0x800CB880, not a menu
   drawer). textforce now passes unshown choice rows as flag 2 in TARGETS and textforce.lua lets the scene's own print

@@ -1,0 +1,121 @@
+id	en
+PSX.157B84	Tangeri{n}{end}
+PSX.157B94	Rosa{n}{end}
+PSX.157BA0	Florinda{n}{end}
+PSX.157BB0	Shelly{n}{end}
+PSX.157BBC	Lily{n}{end}
+PSX.157BC8	Gabriel{n}{end}
+PSX.157BD8	Raziel{n}{end}
+PSX.157BE8	Titania{n}{end}
+PSX.157BF8	Remiel{n}{end}
+PSX.157C04	Where should I go?{wait}{end}
+PSX.157C20	Where should I go, hm?{wait}{end}
+PSX.157C40	You want me to go here?{wait}{end}
+PSX.157C5C	I'm to go here, then?{wait}{end}
+PSX.157C78	LV{wait}{end}
+PSX.157C80	Pop.{wait}{end}
+PSX.157C88	Area{wait}{end}
+PSX.157C90	X:{n}{end}
+PSX.157C98	Y:{n}{end}
+PSX.157CA0	Land{n}{end}
+PSX.157CD0	Suburbs{n}{end}
+PSX.157CDC	Aboard{n}{end}
+PSX.157CE8	Bog{n}{end}
+PSX.157CF8	Keep{n}{end}
+PSX.157D00	HP{n}{end}
+PSX.157D08	TARGET{n}{end}
+PSX.157D18	Show me where to go.{wait}{end}
+PSX.157D34	Where am I to go?{wait}{end}
+PSX.157D50	Where do I go?{wait}{end}
+PSX.157D6C	Where are we going?{wait}{end}
+PSX.157D84	Where might we be going?{wait}{end}
+PSX.157DA0	Where should I go?{wait}{end}
+PSX.157DB8	So, where do I go?{wait}{end}
+PSX.157DD4	Where to, then?{wait}{end}
+PSX.157E04	Where am I headed?{wait}{end}
+PSX.157E20	Hey, where am I going?{wait}{end}
+PSX.157E58	So I'm to go here?{wait}{end}
+PSX.157E78	Shall I go here?{wait}{end}
+PSX.157E94	Go here, huh. Got it.{wait}{end}
+PSX.157EB0	I'm to go here, then?{wait}{end}
+PSX.157ED0	I'll go here, then.{wait}{end}
+PSX.157EF0	Oh, so I go here.{wait}{end}
+PSX.157F14	Go here, right?{wait}{end}
+PSX.157F34	Hmm, so I go here, huh.{wait}{end}
+PSX.157F54	Huh, so I go here.{wait}{end}
+PSX.157F74	So you want me here.{wait}{end}
+PSX.157F94	Oh, you want me to go here?{wait}{end}
+PSX.157FB8	Yes. I'm to go here, then?{wait}{end}
+PSX.157FDC	    Yes{wait}{end}
+PSX.157FE8	    No{wait}{end}
+PSX.157FF8	This version ends here.{wait}{end}
+PSX.15801C	Who to meet?{wait}{end}
+PSX.158030	Normal Sword{n}{end}
+PSX.158044	Falchion{n}{end}
+PSX.158054	Broadsword{n}{end}
+PSX.158068	Bastard Sword{n}{end}
+PSX.15807C	Crystal Sword{n}{end}
+PSX.158090	Long Sword{n}{end}
+PSX.1580A0	Zweihander{n}{end}
+PSX.1580B4	Great Sword{n}{end}
+PSX.1580C8	Claymore{n}{end}
+PSX.1580D8	Gran Metallica{n}{end}
+PSX.1580EC	Minimum Dagger{n}{end}
+PSX.158100	Ring Dagger{n}{end}
+PSX.158110	Dirk{n}{end}
+PSX.15811C	Nine Blade{n}{end}
+PSX.158130	Dancing Dagger{n}{end}
+PSX.158144	Wood Boomerang{n}{end}
+PSX.158158	Metal Boomerang{n}{end}
+PSX.15816C	Battle Boomerang{n}{end}
+PSX.158180	Moon Boomerang{n}{end}
+PSX.158194	Gigas Boomerang{n}{end}
+PSX.1581A8	Normal Whip{n}{end}
+PSX.1581BC	Chain Whip{n}{end}
+PSX.1581D0	Wire Lash{n}{end}
+PSX.1581E4	Twin Tails{n}{end}
+PSX.1581F8	Queen Whip{n}{end}
+PSX.15820C	Knuckle Guard{n}{end}
+PSX.158220	Iron Knuckle{n}{end}
+PSX.158234	Baghnakh{n}{end}
+PSX.158240	Solid Knuckle{n}{end}
+PSX.158254	Kaiser Knuckle{n}{end}
+PSX.158268	Short Bow{n}{end}
+PSX.158278	Long Bow{n}{end}
+PSX.158288	Composite Bow{n}{end}
+PSX.15829C	Great Bow{n}{end}
+PSX.1582AC	Elfin Bow{n}{end}
+PSX.1582C0	Normal Hammer{n}{end}
+PSX.1582D4	Metal Hammer{n}{end}
+PSX.1582E8	War Hammer{n}{end}
+PSX.1582FC	Great Hammer{n}{end}
+PSX.158310	Hecaton Grace{n}{end}
+PSX.158324	Hide Cuirass{n}{end}
+PSX.158338	Cloth Jacket{n}{end}
+PSX.15834C	Metal Cuirass{n}{end}
+PSX.158360	Silver Cuirass{n}{end}
+PSX.158374	Rosenhausen{n}{end}
+PSX.158388	Leather Armor{n}{end}
+PSX.15839C	Scale Armor{n}{end}
+PSX.1583B0	Lamellar Armor{n}{end}
+PSX.1583C4	Chain Mail{n}{end}
+PSX.1583D8	Dragon Mail{n}{end}
+PSX.1583E8	Iron Plate{n}{end}
+PSX.1583FC	Plate Armor{n}{end}
+PSX.158410	Knight Armor{n}{end}
+PSX.158424	Suit Armor{n}{end}
+PSX.158438	Defender{n}{end}
+PSX.15844C	Normal Robe{n}{end}
+PSX.158460	Silk Robe{n}{end}
+PSX.158470	Shadow Robe{n}{end}
+PSX.158484	Mithril Mesh{n}{end}
+PSX.158498	Akashic Robe{n}{end}
+PSX.1584AC	Toy Crown{n}{end}
+PSX.1584BC	Silver Crown{n}{end}
+PSX.1584D0	Tiara{n}{end}
+PSX.1584DC	Princess Guard{n}{end}
+PSX.1584F0	Thorn Crown{n}{end}
+PSX.158504	Toy Studs{n}{end}
+PSX.158514	Hoop Earring{n}{end}
+PSX.158524	Star Earring{n}{end}
+PSX.158534	Dia Earring{n}{end}

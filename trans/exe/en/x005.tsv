@@ -1,0 +1,121 @@
+id	en
+PSX.158D48	Saint Wire{n}{end}
+PSX.158D5C	Line Wire{n}{end}
+PSX.158D70	Beast Claw{n}{end}
+PSX.158D84	Saint Knuckle{n}{end}
+PSX.158D98	Line Knuckle{n}{end}
+PSX.158DAC	Ether Bow{n}{end}
+PSX.158DBC	Elemental Bow{n}{end}
+PSX.158DD0	Ral Arch{n}{end}
+PSX.158DE0	Megaton Hammer{n}{end}
+PSX.158DF4	Original Sin{n}{end}
+PSX.158E08	Lariji Sin{n}{end}
+PSX.158E18	Fairy Guard{n}{end}
+PSX.158E2C	Garb of Hells{n}{end}
+PSX.158E40	Raab Hells{n}{end}
+PSX.158E50	Brave Armor{n}{end}
+PSX.158E64	Guard of Soul{n}{end}
+PSX.158E78	Rad of Soul{n}{end}
+PSX.158E8C	Platinum Armor{n}{end}
+PSX.158EA0	Holy Armor{n}{end}
+PSX.158EB4	Ra Armor{n}{end}
+PSX.158EC4	Angel Robe{n}{end}
+PSX.158ED8	Halicon Mesh{n}{end}
+PSX.158EEC	Laricon Mesh{n}{end}
+PSX.158F00	King's Guard{n}{end}
+PSX.158F14	Lilith Crown{n}{end}
+PSX.158F28	Ras Crown{n}{end}
+PSX.158F38	Mermaid Earring{n}{end}
+PSX.158F4C	Ras Studs{n}{end}
+PSX.158F5C	Gigas Studs{n}{end}
+PSX.158F6C	Criss Cross{n}{end}
+PSX.158F7C	Crystal Cross{n}{end}
+PSX.158F90	Ralcon Cross{n}{end}
+PSX.158FA4	Brave Ring{n}{end}
+PSX.158FB8	Shine Bangle{n}{end}
+PSX.158FCC	Line Bangle{n}{end}
+PSX.158FDC	Wonder Ring{n}{end}
+PSX.158FF0	Gospel Ring{n}{end}
+PSX.159000	Lapela Ring{n}{end}
+PSX.159010	Winner's Belt{n}{end}
+PSX.159024	Miracle Champ{n}{end}
+PSX.159038	Ralcon Belt{n}{end}
+PSX.15904C	Denis Shoes{n}{end}
+PSX.159060	Melos Shoes{n}{end}
+PSX.159074	Ras Shoes{n}{end}
+PSX.159084	True Color{n}{end}
+PSX.159098	Thanatos Color{n}{end}
+PSX.1590AC	Ranatos Color{n}{end}
+PSX.1590C0	Merkabah Card{n}{end}
+PSX.1590D4	Womanizing{n}{end}
+PSX.1590E4	Training{n}{end}
+PSX.1590F4	Spending{n}{end}
+PSX.159100	Roam{n}{end}
+PSX.159108	Research{n}{end}
+PSX.159118	Crafting{n}{end}
+PSX.159128	Eating{n}{end}
+PSX.159138	Brawls{n}{end}
+PSX.159144	Escaping{n}{end}
+PSX.159150	Bath{n}{end}
+PSX.159158	Drinking{n}{end}
+PSX.159168	Cooking{n}{end}
+PSX.159174	Apprentice{n}{end}
+PSX.159184	Novice{n}{end}
+PSX.159190	Jr.Angel{n}{end}
+PSX.15919C	Angel{n}{end}
+PSX.1591A8	Sr.Angel{n}{end}
+PSX.1591B4	Ct.Angel{n}{end}
+PSX.1591C0	Jr. Power{n}{end}
+PSX.1591D0	Court Power{n}{end}
+PSX.1591E0	Power{n}{end}
+PSX.1591EC	Jr. Prince{n}{end}
+PSX.1591FC	Court Prince{n}{end}
+PSX.15920C	Prince{n}{end}
+PSX.159218	Jr. Lord{n}{end}
+PSX.159228	Court Lord{n}{end}
+PSX.159238	Lord{n}{end}
+PSX.159244	Jr. Throne{n}{end}
+PSX.159254	Court Throne{n}{end}
+PSX.159264	Throne{n}{end}
+PSX.159270	Jr. Cherub{n}{end}
+PSX.159280	Court Cherub{n}{end}
+PSX.159290	Cherub{n}{end}
+PSX.15929C	Jr. Seraph{n}{end}
+PSX.1592AC	Court Seraph{n}{end}
+PSX.1592BC	Seraph{n}{end}
+PSX.1592C8	Arch{n}{end}
+PSX.1592D4	Ct. Arch{n}{end}
+PSX.1592E4	White Arch{n}{end}
+PSX.1592F4	Saint{n}{end}
+PSX.159300	Ct. Saint{n}{end}
+PSX.159310	Vio.Saint{n}{end}
+PSX.159320	HiPrince{n}{end}
+PSX.15932C	HiPower{n}{end}
+PSX.159338	HiVirtue{n}{end}
+PSX.159344	HiLord{n}{end}
+PSX.159350	HiThrone{n}{end}
+PSX.15935C	HiCherub{n}{end}
+PSX.159368	HiSeraph{n}{end}
+PSX.159374	HiArch{n}{end}
+PSX.159380	HiSaint{n}{end}
+PSX.15938C	Seraphim{n}{end}
+PSX.159398	 can equip this item!{wait}{end}
+PSX.1593B4	Test: non-weapon items{wait}{end}
+PSX.1593D4	{num:01000100}Welcome!{n}What would you like today?{wait}{end}
+PSX.15940C	Oh, you're short on AP.{wait}{end}
+PSX.15942C	Oh, you can't carry any more.{wait}{end}
+PSX.159450	{num:01000200}Oh, welcome.{n}Who would you like to hear about?{wait}{end}
+PSX.15948C	Fae{n}{end}
+PSX.159494	Hero{n}{end}
+PSX.15949C	{num:01000300}Why such a rush?{n}Did you let a hero's soul go astray?{wait}{end}
+PSX.1594EC	Not enough AP to call{n}back a dead soul.{wait}{end}
+PSX.15951C	Too many heroes to{n}call back {var:0F00}'s soul.{wait}{end}
+PSX.15954C	Vault{n}{end}
+PSX.159558	Faerie{n}{end}
+PSX.159564	Church{n}{end}
+PSX.159570	AP{n}{end}
+PSX.159578	Go back?{n}{end}
+PSX.159588	{var:0F00} beat {var:0100}.{wait}{end}
+PSX.1595A4	Lost track of {var:0100}.{n}Local peace level fell.{wait}{end}
+PSX.1595DC	{var:0F00} has gone missing.{wait}{end}
+PSX.1595FC	{var:0F00}'s EXP is now {val:00000100}.{wait}{end}

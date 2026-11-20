@@ -1,0 +1,121 @@
+id	en
+PSX.158544	Soul Earring{n}{end}
+PSX.158554	Toy Pendant{n}{end}
+PSX.158568	Ring Pendant{n}{end}
+PSX.15857C	Star Pendant{n}{end}
+PSX.158590	Dia Pendant{n}{end}
+PSX.1585A4	Soul Pendant{n}{end}
+PSX.1585B8	Chain Bangle{n}{end}
+PSX.1585CC	Iron Bangle{n}{end}
+PSX.1585E0	Crystal Bangle{n}{end}
+PSX.1585F4	Emerald Bangle{n}{end}
+PSX.158608	Platina Bangle{n}{end}
+PSX.15861C	Glass Ring{n}{end}
+PSX.15862C	Pearl Ring{n}{end}
+PSX.15863C	Onyx Ring{n}{end}
+PSX.158650	Dia Ring{n}{end}
+PSX.158660	Protect Ring{n}{end}
+PSX.158674	Leather Belt{n}{end}
+PSX.158684	Silk Belt{n}{end}
+PSX.158694	Power Belt{n}{end}
+PSX.1586A4	Star Belt{n}{end}
+PSX.1586B4	Revenger{n}{end}
+PSX.1586C4	Hide Boots{n}{end}
+PSX.1586D4	Rapid Boots{n}{end}
+PSX.1586E8	Fly Boots{n}{end}
+PSX.1586F8	Feather Boots{n}{end}
+PSX.15870C	Air Maximum{n}{end}
+PSX.158720	Potion{n}{end}
+PSX.158730	Candy{n}{end}
+PSX.158740	Drop{n}{end}
+PSX.15874C	Plume{n}{end}
+PSX.158758	Hi-Potion{n}{end}
+PSX.15876C	Bread{n}{end}
+PSX.158778	Gabriel Plume{n}{end}
+PSX.15878C	Full Potion{n}{end}
+PSX.1587A0	Cake{n}{end}
+PSX.1587AC	Gabriel Wing{n}{end}
+PSX.1587C0	Fae Book{n}{end}
+PSX.1587CC	Fae Wing{n}{end}
+PSX.1587D8	Spirits{n}{end}
+PSX.1587E4	Titania Seal{n}{end}
+PSX.1587F8	Grimoire{n}{end}
+PSX.158804	Titania Scent{n}{end}
+PSX.158818	History{n}{end}
+PSX.158824	Stories{n}{end}
+PSX.158830	Sagas{n}{end}
+PSX.15883C	Veritas{n}{end}
+PSX.158848	Other 1{n}{end}
+PSX.158854	Chateau Wine{n}{end}
+PSX.158868	Silk Gloves{n}{end}
+PSX.15887C	Silk Robe{n}{end}
+PSX.158890	Silk Cloak{n}{end}
+PSX.1588A4	Bouquet{n}{end}
+PSX.1588B4	Bronze Sword{n}{end}
+PSX.1588C8	Iron Sword{n}{end}
+PSX.1588DC	Silver Sword{n}{end}
+PSX.1588F0	Gold Sword{n}{end}
+PSX.158904	Knight Sword{n}{end}
+PSX.158918	Old Coin{n}{end}
+PSX.158928	Pretty Coin{n}{end}
+PSX.15893C	Rare Coin{n}{end}
+PSX.158950	Bronze Coin{n}{end}
+PSX.158964	Rose Coin{n}{end}
+PSX.158974	Bell{n}{end}
+PSX.15897C	Castanets{n}{end}
+PSX.15898C	Tambourine{n}{end}
+PSX.15899C	Harmonica{n}{end}
+PSX.1589AC	Music Box{n}{end}
+PSX.1589BC	Tonic{n}{end}
+PSX.1589C8	Cure-All{n}{end}
+PSX.1589D8	Odd Pill{n}{end}
+PSX.1589E4	Magic Pill{n}{end}
+PSX.1589F4	Elixir{n}{end}
+PSX.158A00	Wood Idol{n}{end}
+PSX.158A10	Wooden Rush{n}{end}
+PSX.158A24	Cypress Ring{n}{end}
+PSX.158A38	Cypress Bangle{n}{end}
+PSX.158A4C	Angel Relief{n}{end}
+PSX.158A60	Borunga Leaf{n}{end}
+PSX.158A74	Borunga Seed{n}{end}
+PSX.158A84	Borunga Nut{n}{end}
+PSX.158A94	Mead{n}{end}
+PSX.158AA0	Dragon Scale{n}{end}
+PSX.158AB4	Charm{n}{end}
+PSX.158AC0	Rosary{n}{end}
+PSX.158ACC	Rabbit Foot{n}{end}
+PSX.158ADC	Silver Rosary{n}{end}
+PSX.158AF0	Ellen's Charm{n}{end}
+PSX.158B04	Red Slime{n}{end}
+PSX.158B14	Blue Slime{n}{end}
+PSX.158B24	Pink Slime{n}{end}
+PSX.158B38	Silver Slime{n}{end}
+PSX.158B48	Gold Slime{n}{end}
+PSX.158B58	Jumprope{n}{end}
+PSX.158B64	Barbell{n}{end}
+PSX.158B70	Expander{n}{end}
+PSX.158B84	Dumbbell{n}{end}
+PSX.158B90	Sandbag{n}{end}
+PSX.158BA0	Show Ticket{n}{end}
+PSX.158BB0	Free Bar Pass{n}{end}
+PSX.158BC4	Rare Brew{n}{end}
+PSX.158BD4	Pearl Earring{n}{end}
+PSX.158BE8	Garter Belt{n}{end}
+PSX.158BFC	Cookie{n}{end}
+PSX.158C08	Home Cookies{n}{end}
+PSX.158C1C	Home Choco{n}{end}
+PSX.158C2C	Knitted Scarf{n}{end}
+PSX.158C40	Knitted Sweater{n}{end}
+PSX.158C54	Zephyrus{n}{end}
+PSX.158C64	Forgis{n}{end}
+PSX.158C74	Largis{n}{end}
+PSX.158C84	Element Sword{n}{end}
+PSX.158C98	Freeze Coffin{n}{end}
+PSX.158CAC	Larys Coffin{n}{end}
+PSX.158CC0	Dark Star{n}{end}
+PSX.158CD0	Halicon Dagger{n}{end}
+PSX.158CE4	Laricon Dagger{n}{end}
+PSX.158CF8	Power Boomerang{n}{end}
+PSX.158D0C	Star Boomerang{n}{end}
+PSX.158D20	Ratar Boomerang{n}{end}
+PSX.158D34	Plasma Lash{n}{end}

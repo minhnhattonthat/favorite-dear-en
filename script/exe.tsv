@@ -239,374 +239,374 @@ PSX.157B50	ビーシア{n}{end}	Beasia{n}{end}
 PSX.157B5C	グレイ{n}{end}	Gray{n}{end}	
 PSX.157B68	ナーサディア{n}{end}	Nasadia{n}{end}	
 PSX.157B78	ティア{n}{end}	Tia{n}{end}	
-PSX.157B84	ターンゲリ{n}{end}		
-PSX.157B94	ローザ{n}{end}		
-PSX.157BA0	フロリンダ{n}{end}		
-PSX.157BB0	シェリー{n}{end}		
-PSX.157BBC	リリィ{n}{end}		
-PSX.157BC8	ガブリエル{n}{end}		
-PSX.157BD8	ラツィエル{n}{end}		
-PSX.157BE8	ティタニア{n}{end}		
-PSX.157BF8	レミエル{n}{end}		
-PSX.157C04	どこにいけばいいんだ？{wait}{end}		
-PSX.157C20	どこにいけばいいのかしら？{wait}{end}		
-PSX.157C40	ここにいけというのだな？{wait}{end}		
-PSX.157C5C	ここにいけというのね？{wait}{end}		
-PSX.157C78	ＬＶ{wait}{end}		
-PSX.157C80	人口{wait}{end}		
-PSX.157C88	地名{wait}{end}		
-PSX.157C90	Ｘ：{n}{end}		
-PSX.157C98	Ｙ：{n}{end}		
-PSX.157CA0	国名{n}{end}		
+PSX.157B84	ターンゲリ{n}{end}	Tangeri{n}{end}	
+PSX.157B94	ローザ{n}{end}	Rosa{n}{end}	
+PSX.157BA0	フロリンダ{n}{end}	Florinda{n}{end}	
+PSX.157BB0	シェリー{n}{end}	Shelly{n}{end}	
+PSX.157BBC	リリィ{n}{end}	Lily{n}{end}	
+PSX.157BC8	ガブリエル{n}{end}	Gabriel{n}{end}	
+PSX.157BD8	ラツィエル{n}{end}	Raziel{n}{end}	
+PSX.157BE8	ティタニア{n}{end}	Titania{n}{end}	
+PSX.157BF8	レミエル{n}{end}	Remiel{n}{end}	
+PSX.157C04	どこにいけばいいんだ？{wait}{end}	Where should I go?{wait}{end}	
+PSX.157C20	どこにいけばいいのかしら？{wait}{end}	Where should I go, hm?{wait}{end}	
+PSX.157C40	ここにいけというのだな？{wait}{end}	You want me to go here?{wait}{end}	
+PSX.157C5C	ここにいけというのね？{wait}{end}	I'm to go here, then?{wait}{end}	
+PSX.157C78	ＬＶ{wait}{end}	LV{wait}{end}	
+PSX.157C80	人口{wait}{end}	Pop.{wait}{end}	
+PSX.157C88	地名{wait}{end}	Area{wait}{end}	
+PSX.157C90	Ｘ：{n}{end}	X:{n}{end}	
+PSX.157C98	Ｙ：{n}{end}	Y:{n}{end}	
+PSX.157CA0	国名{n}{end}	Land{n}{end}	
 PSX.157CA8	草原{n}{end}	Lea{n}{end}	
 PSX.157CB0	森{n}{end}	Wd{n}{end}	
 PSX.157CB8	砂漠{n}{end}	Sand{n}{end}	
 PSX.157CC0	川縁{n}{end}	Bank{n}{end}	
 PSX.157CC8	山{n}{end}	Mt{n}{end}	
-PSX.157CD0	こうがい{n}{end}		
-PSX.157CDC	船の上{n}{end}		
-PSX.157CE8	ぬま{n}{end}		
+PSX.157CD0	こうがい{n}{end}	Suburbs{n}{end}	
+PSX.157CDC	船の上{n}{end}	Aboard{n}{end}	
+PSX.157CE8	ぬま{n}{end}	Bog{n}{end}	
 PSX.157CF0	雪原{n}{end}	Snow{n}{end}	
-PSX.157CF8	城内{n}{end}		
-PSX.157D00	ＨＰ{n}{end}		
-PSX.157D08	ＴＡＲＧＥＴ{n}{end}		
-PSX.157D18	行き先を、示してくれ。{wait}{end}		
-PSX.157D34	どこへ行けばよいのだ？{wait}{end}		
-PSX.157D50	どこへ行けばいいんだ？{wait}{end}		
-PSX.157D6C	行く先はどこですか？{wait}{end}		
-PSX.157D84	行き先はどこでしょうか？{wait}{end}		
-PSX.157DA0	どこに行けばいいの？{wait}{end}		
-PSX.157DB8	どこへ、行けばいいんだ。{wait}{end}		
-PSX.157DD4	どこに行ったらいい？{wait}{end}		
-PSX.157DEC	どこに行けばいいの？{wait}{end}		
-PSX.157E04	どこへ行ったらいいんだ？{wait}{end}		
-PSX.157E20	ねえ、行き先を教えてよ。{wait}{end}		
-PSX.157E3C	行き先はどこでしょうか？{wait}{end}		
-PSX.157E58	ここへ、行けというのだな？{wait}{end}		
-PSX.157E78	ここに、行けばよいのか？{wait}{end}		
-PSX.157E94	ここへ行けってんだな。{wait}{end}		
-PSX.157EB0	ここへ、行けばいいのですね？{wait}{end}		
-PSX.157ED0	ここに、行けばいいのですね。{wait}{end}		
-PSX.157EF0	そっか、ここに行けばいいんだ。{wait}{end}		
-PSX.157F14	ここへ、行ったらいいんだな？{wait}{end}		
-PSX.157F34	ふーん、ここに行けってのね。{wait}{end}		
-PSX.157F54	へー、ここに行けばいいんだ。{wait}{end}		
-PSX.157F74	ここへ行けっていうんだな。{wait}{end}		
-PSX.157F94	あら、ここへ行けっていうのね？{wait}{end}		
-PSX.157FB8	はい。ここへ行けばいいのですね？{wait}{end}		
-PSX.157FDC	１．はい{wait}{end}		
-PSX.157FE8	２．いいえ{wait}{end}		
-PSX.157FF8	このバージョンはここまでです。{wait}{end}		
-PSX.15801C	誰にあいますか？{wait}{end}		
-PSX.158030	ノーマルソード{n}{end}		
-PSX.158044	ファルシオン{n}{end}		
-PSX.158054	ブロードソード{n}{end}		
-PSX.158068	バスタードソード{n}{end}		
-PSX.15807C	クリスタルソード{n}{end}		
-PSX.158090	ロングソード{n}{end}		
-PSX.1580A0	ツヴァイハンダー{n}{end}		
-PSX.1580B4	グレートソード{n}{end}		
-PSX.1580C8	クレイモア{n}{end}		
-PSX.1580D8	グランメタリカ{n}{end}		
-PSX.1580EC	ミニマムダガー{n}{end}		
-PSX.158100	リングダガー{n}{end}		
-PSX.158110	ダーク{n}{end}		
-PSX.15811C	ナインブレード{n}{end}		
-PSX.158130	ダンシングダガー{n}{end}		
-PSX.158144	ウッドブーメラン{n}{end}		
-PSX.158158	メタルブーメラン{n}{end}		
-PSX.15816C	バトルブーメラン{n}{end}		
-PSX.158180	ムーンブーメラン{n}{end}		
-PSX.158194	ギガスブーメラン{n}{end}		
-PSX.1581A8	ノーマルウィップ{n}{end}		
-PSX.1581BC	チェーンウィップ{n}{end}		
-PSX.1581D0	ワイヤービュート{n}{end}		
-PSX.1581E4	ツインテイルズ{n}{end}		
-PSX.1581F8	クィーンウィップ{n}{end}		
-PSX.15820C	ナックルガード{n}{end}		
-PSX.158220	アイアンナックル{n}{end}		
-PSX.158234	バグナク{n}{end}		
-PSX.158240	ソリッドナックル{n}{end}		
-PSX.158254	カイザーナックル{n}{end}		
-PSX.158268	ショートボゥ{n}{end}		
-PSX.158278	ロングボゥ{n}{end}		
-PSX.158288	コンポジットボゥ{n}{end}		
-PSX.15829C	グレートボゥ{n}{end}		
-PSX.1582AC	エルフィンボゥ{n}{end}		
-PSX.1582C0	ノーマルハンマー{n}{end}		
-PSX.1582D4	メタルハンマー{n}{end}		
-PSX.1582E8	ウォーハンマー{n}{end}		
-PSX.1582FC	グレートハンマー{n}{end}		
-PSX.158310	ヘカトングレイス{n}{end}		
-PSX.158324	レザーブレスト{n}{end}		
-PSX.158338	クロスジャケット{n}{end}		
-PSX.15834C	メタルブレスト{n}{end}		
-PSX.158360	シルバーブレスト{n}{end}		
-PSX.158374	ローゼンハウゼン{n}{end}		
-PSX.158388	レザーアーマー{n}{end}		
-PSX.15839C	スケールアーマー{n}{end}		
-PSX.1583B0	ラメラーアーマー{n}{end}		
-PSX.1583C4	チェインメイル{n}{end}		
-PSX.1583D8	ドラグメイル{n}{end}		
-PSX.1583E8	アイアンプレート{n}{end}		
-PSX.1583FC	プレートアーマー{n}{end}		
-PSX.158410	ナイトアーマー{n}{end}		
-PSX.158424	スーツアーマー{n}{end}		
-PSX.158438	ディフェンサー{n}{end}		
-PSX.15844C	ノーマルローブ{n}{end}		
-PSX.158460	シルクローブ{n}{end}		
-PSX.158470	シャドウローブ{n}{end}		
-PSX.158484	ミスリルメッシュ{n}{end}		
-PSX.158498	アカシックローブ{n}{end}		
-PSX.1584AC	トイクラウン{n}{end}		
-PSX.1584BC	シルバークラウン{n}{end}		
-PSX.1584D0	ティアラ{n}{end}		
-PSX.1584DC	プリンセスガード{n}{end}		
-PSX.1584F0	ソーンクラウン{n}{end}		
-PSX.158504	トイピアス{n}{end}		
-PSX.158514	リングピアス{n}{end}		
-PSX.158524	スターピアス{n}{end}		
-PSX.158534	ダイヤピアス{n}{end}		
-PSX.158544	ソウルピアス{n}{end}		
-PSX.158554	トイペンダント{n}{end}		
-PSX.158568	リングペンダント{n}{end}		
-PSX.15857C	スターペンダント{n}{end}		
-PSX.158590	ダイヤペンダント{n}{end}		
-PSX.1585A4	ソウルペンダント{n}{end}		
-PSX.1585B8	チェインブレス{n}{end}		
-PSX.1585CC	アイアンブレス{n}{end}		
-PSX.1585E0	クリスタルブレス{n}{end}		
-PSX.1585F4	エメラルドブレス{n}{end}		
-PSX.158608	プラチナブレス{n}{end}		
-PSX.15861C	グラスリング{n}{end}		
-PSX.15862C	パールリング{n}{end}		
-PSX.15863C	オニキスリング{n}{end}		
-PSX.158650	ダイヤリング{n}{end}		
-PSX.158660	プロテクトリング{n}{end}		
-PSX.158674	レザーベルト{n}{end}		
-PSX.158684	シルクベルト{n}{end}		
-PSX.158694	パワーベルト{n}{end}		
-PSX.1586A4	スターベルト{n}{end}		
-PSX.1586B4	リベンジャー{n}{end}		
-PSX.1586C4	レザーブーツ{n}{end}		
-PSX.1586D4	ラピッドブーツ{n}{end}		
-PSX.1586E8	フライブーツ{n}{end}		
-PSX.1586F8	フェザーブーツ{n}{end}		
-PSX.15870C	エアマキシマム{n}{end}		
-PSX.158720	ポーション{n}{end}		
-PSX.158730	キャンディ{n}{end}		
-PSX.158740	ドロップ{n}{end}		
-PSX.15874C	天使の羽{n}{end}		
-PSX.158758	ハイポーション{n}{end}		
-PSX.15876C	ブレッド{n}{end}		
-PSX.158778	ガブリエルの羽{n}{end}		
-PSX.15878C	オールポーション{n}{end}		
-PSX.1587A0	ケーキ{n}{end}		
-PSX.1587AC	ガブリエルの翼{n}{end}		
-PSX.1587C0	妖精の本{n}{end}		
-PSX.1587CC	妖精の羽{n}{end}		
-PSX.1587D8	精霊の本{n}{end}		
-PSX.1587E4	ティタニアの印{n}{end}		
-PSX.1587F8	精霊の書{n}{end}		
-PSX.158804	ティタニアの香り{n}{end}		
-PSX.158818	歴史の本{n}{end}		
-PSX.158824	物語の本{n}{end}		
-PSX.158830	勇者の本{n}{end}		
-PSX.15883C	真実の書{n}{end}		
-PSX.158848	その他１{n}{end}		
-PSX.158854	シャトーワイン{n}{end}		
-PSX.158868	シルクのてぶくろ{n}{end}		
-PSX.15887C	シルクのローブ{n}{end}		
-PSX.158890	シルクのマント{n}{end}		
-PSX.1588A4	バラの花束{n}{end}		
-PSX.1588B4	ブロンズのソード{n}{end}		
-PSX.1588C8	アイアンのソード{n}{end}		
-PSX.1588DC	シルバーのソード{n}{end}		
-PSX.1588F0	ゴールドのソード{n}{end}		
-PSX.158904	ナイトのソード{n}{end}		
-PSX.158918	ふるいコイン{n}{end}		
-PSX.158928	きれいなコイン{n}{end}		
-PSX.15893C	めずらしいコイン{n}{end}		
-PSX.158950	ブロンズのコイン{n}{end}		
-PSX.158964	バラのコイン{n}{end}		
-PSX.158974	ベル{n}{end}		
-PSX.15897C	カスタネット{n}{end}		
-PSX.15898C	タンバリン{n}{end}		
-PSX.15899C	ハーモニカ{n}{end}		
-PSX.1589AC	オルゴール{n}{end}		
-PSX.1589BC	苦い薬{n}{end}		
-PSX.1589C8	良くきく薬{n}{end}		
-PSX.1589D8	怪しい薬{n}{end}		
-PSX.1589E4	不思議な薬{n}{end}		
-PSX.1589F4	秘密の薬{n}{end}		
-PSX.158A00	木彫りの像{n}{end}		
-PSX.158A10	木彫りのラッシュ{n}{end}		
-PSX.158A24	ヒノキのゆびわ{n}{end}		
-PSX.158A38	ヒノキのうでわ{n}{end}		
-PSX.158A4C	てんしのレリーフ{n}{end}		
-PSX.158A60	ボルンガの葉っぱ{n}{end}		
-PSX.158A74	ボルンガの種{n}{end}		
-PSX.158A84	ボルンガの実{n}{end}		
-PSX.158A94	竜の酒{n}{end}		
-PSX.158AA0	ドラゴンのウロコ{n}{end}		
-PSX.158AB4	おまもり{n}{end}		
-PSX.158AC0	ロザリオ{n}{end}		
-PSX.158ACC	うさぎのあし{n}{end}		
-PSX.158ADC	ぎんのロザリオ{n}{end}		
-PSX.158AF0	エレンのおまもり{n}{end}		
-PSX.158B04	赤いスライム{n}{end}		
-PSX.158B14	青いスライム{n}{end}		
-PSX.158B24	ピンクのスライム{n}{end}		
-PSX.158B38	銀のスライム{n}{end}		
-PSX.158B48	金のスライム{n}{end}		
-PSX.158B58	なわとび{n}{end}		
-PSX.158B64	鉄アレイ{n}{end}		
-PSX.158B70	エキスパンダー{n}{end}		
-PSX.158B84	ダンベル{n}{end}		
-PSX.158B90	サンドバック{n}{end}		
-PSX.158BA0	公演チケット{n}{end}		
-PSX.158BB0	飲み屋の無料けん{n}{end}		
-PSX.158BC4	秘密のお酒{n}{end}		
-PSX.158BD4	パールのピアス{n}{end}		
-PSX.158BE8	ガーターベルト{n}{end}		
-PSX.158BFC	クッキー{n}{end}		
-PSX.158C08	手作りクッキー{n}{end}		
-PSX.158C1C	手作りチョコ{n}{end}		
-PSX.158C2C	てあみのマフラー{n}{end}		
-PSX.158C40	てあみのセーター{n}{end}		
-PSX.158C54	ゼピュロス{n}{end}		
-PSX.158C64	フォルギース{n}{end}		
-PSX.158C74	ラルギース{n}{end}		
-PSX.158C84	エレメントソード{n}{end}		
-PSX.158C98	フリーズコフィン{n}{end}		
-PSX.158CAC	ラリーズコフィン{n}{end}		
-PSX.158CC0	ダークスター{n}{end}		
-PSX.158CD0	ハリコンダガー{n}{end}		
-PSX.158CE4	ラリコンダガー{n}{end}		
-PSX.158CF8	パワーブーメラン{n}{end}		
-PSX.158D0C	スターブーメラン{n}{end}		
-PSX.158D20	ラターブーメラン{n}{end}		
-PSX.158D34	プラズマビュート{n}{end}		
-PSX.158D48	セインワイヤー{n}{end}		
-PSX.158D5C	ラインワイヤー{n}{end}		
-PSX.158D70	ビーストクロー{n}{end}		
-PSX.158D84	セイントナックル{n}{end}		
-PSX.158D98	ラインナックル{n}{end}		
-PSX.158DAC	エーテルボゥ{n}{end}		
-PSX.158DBC	エレメンタルボゥ{n}{end}		
-PSX.158DD0	ラルアーチ{n}{end}		
-PSX.158DE0	メガトンハンマー{n}{end}		
-PSX.158DF4	オリジナルシン{n}{end}		
-PSX.158E08	ラリジシン{n}{end}		
-PSX.158E18	フェアリーガード{n}{end}		
-PSX.158E2C	ガーブオブヘルズ{n}{end}		
-PSX.158E40	ラーブヘルズ{n}{end}		
-PSX.158E50	ブレイブアーマー{n}{end}		
-PSX.158E64	ガードオブソウル{n}{end}		
-PSX.158E78	ラドオブソウル{n}{end}		
-PSX.158E8C	プラチナアーマー{n}{end}		
-PSX.158EA0	ホーリーアーマー{n}{end}		
-PSX.158EB4	ラーアーマー{n}{end}		
-PSX.158EC4	エンジェルローブ{n}{end}		
-PSX.158ED8	ハリコンメッシュ{n}{end}		
-PSX.158EEC	ラリコンメッシュ{n}{end}		
-PSX.158F00	キングスガード{n}{end}		
-PSX.158F14	リリスクラウン{n}{end}		
-PSX.158F28	ラスクラウン{n}{end}		
-PSX.158F38	マーメイズピアス{n}{end}		
-PSX.158F4C	ラスピアス{n}{end}		
-PSX.158F5C	ギガスピアス{n}{end}		
-PSX.158F6C	クリスクロス{n}{end}		
-PSX.158F7C	クリスタルクロス{n}{end}		
-PSX.158F90	ラルコンクロス{n}{end}		
-PSX.158FA4	ブレイブリング{n}{end}		
-PSX.158FB8	シャインブレス{n}{end}		
-PSX.158FCC	ラインブレス{n}{end}		
-PSX.158FDC	ワンダーリング{n}{end}		
-PSX.158FF0	ゴスペリング{n}{end}		
-PSX.159000	ラペラリング{n}{end}		
-PSX.159010	ウィナーズベルト{n}{end}		
-PSX.159024	ミラクルチャンプ{n}{end}		
-PSX.159038	ラルコンベルト{n}{end}		
-PSX.15904C	デニスシューズ{n}{end}		
-PSX.159060	メロスシューズ{n}{end}		
-PSX.159074	ラスシューズ{n}{end}		
-PSX.159084	トゥルーカラー{n}{end}		
-PSX.159098	タナトスカラー{n}{end}		
-PSX.1590AC	ラナトスカラー{n}{end}		
-PSX.1590C0	メルカバカード{n}{end}		
-PSX.1590D4	おんなあそび{n}{end}		
-PSX.1590E4	しゅぎょう〿{n}{end}		
-PSX.1590F4	ごうゆう{n}{end}		
-PSX.159100	たび{n}{end}		
-PSX.159108	けんきゅう{n}{end}		
-PSX.159118	ものづくり{n}{end}		
-PSX.159128	たべること{n}{end}		
-PSX.159138	けんか{n}{end}		
-PSX.159144	だっそう{n}{end}		
-PSX.159150	ふろ{n}{end}		
-PSX.159158	さけをのむ{n}{end}		
-PSX.159168	りょうり{n}{end}		
-PSX.159174	天使見習い{n}{end}		
-PSX.159184	幼翼天使{n}{end}		
-PSX.159190	準翼天使{n}{end}		
-PSX.15919C	正翼天使{n}{end}		
-PSX.1591A8	成翼天使{n}{end}		
-PSX.1591B4	翼宮天使{n}{end}		
-PSX.1591C0	準能翼宮天使{n}{end}		
-PSX.1591D0	正能翼宮天使{n}{end}		
-PSX.1591E0	能天使{n}{end}		
-PSX.1591EC	準権翼宮天使{n}{end}		
-PSX.1591FC	正権翼宮天使{n}{end}		
-PSX.15920C	権天使{n}{end}		
-PSX.159218	準主翼宮天使{n}{end}		
-PSX.159228	正主翼宮天使{n}{end}		
-PSX.159238	主天使{n}{end}		
-PSX.159244	準座翼宮天使{n}{end}		
-PSX.159254	正座翼宮天使{n}{end}		
-PSX.159264	座天使{n}{end}		
-PSX.159270	準智翼宮天使{n}{end}		
-PSX.159280	正智翼宮天使{n}{end}		
-PSX.159290	智天使{n}{end}		
-PSX.15929C	準熾翼宮天使{n}{end}		
-PSX.1592AC	正熾翼宮天使{n}{end}		
-PSX.1592BC	熾天使{n}{end}		
-PSX.1592C8	大天使{n}{end}		
-PSX.1592D4	翼宮大天使{n}{end}		
-PSX.1592E4	白位大天使{n}{end}		
-PSX.1592F4	聖天使{n}{end}		
-PSX.159300	翼宮聖天使{n}{end}		
-PSX.159310	紫位聖天使{n}{end}		
-PSX.159320	権天使長{n}{end}		
-PSX.15932C	能天使長{n}{end}		
-PSX.159338	力天使長{n}{end}		
-PSX.159344	主天使長{n}{end}		
-PSX.159350	座天使長{n}{end}		
-PSX.15935C	智天使長{n}{end}		
-PSX.159368	熾天使長{n}{end}		
-PSX.159374	大天使長{n}{end}		
-PSX.159380	聖天使長{n}{end}		
-PSX.15938C	聖熾天使{n}{end}		
-PSX.159398	に装備できるアイテムよ！{wait}{end}		
-PSX.1593B4	テスト「武器以外のアイテム」{wait}{end}		
-PSX.1593D4	{num:01000100}いらっしゃい！{n}今日は何をお望みなのかしら？{wait}{end}		
-PSX.15940C	あら、ＡＰが足りないようね。{wait}{end}		
-PSX.15942C	あら、それ以上はもてないようね。{wait}{end}		
-PSX.159450	{num:01000200}あら、いらっしゃい。{n}今日は誰のことが聞きたいの？{wait}{end}		
-PSX.15948C	妖精{n}{end}		
-PSX.159494	勇者{n}{end}		
-PSX.15949C	{num:01000300}そんなに慌ててどうしたのです？{n}勇者の魂を迷わせてしまったのですか？{wait}{end}		
-PSX.1594EC	死者の魂を呼び戻すのに{n}ＡＰが足りないわね。{wait}{end}		
-PSX.15951C	勇者が多くて{n}この{var:0F00}の魂を呼び戻せないわ。{wait}{end}		
-PSX.15954C	宝物庫{n}{end}		
-PSX.159558	妖精宮{n}{end}		
-PSX.159564	大聖堂{n}{end}		
-PSX.159570	ＡＰ{n}{end}		
-PSX.159578	戻りますか？{n}{end}		
-PSX.159588	{var:0F00}が{var:0100}を倒しました。{wait}{end}		
-PSX.1595A4	{var:0100}を見失いました。{n}地域の平和度が悪化しました。{wait}{end}		
-PSX.1595DC	{var:0F00}が行方不明になりました。{wait}{end}		
-PSX.1595FC	{var:0F00}の経験値が{val:00000100}になりました。{wait}{end}		
+PSX.157CF8	城内{n}{end}	Keep{n}{end}	
+PSX.157D00	ＨＰ{n}{end}	HP{n}{end}	
+PSX.157D08	ＴＡＲＧＥＴ{n}{end}	TARGET{n}{end}	
+PSX.157D18	行き先を、示してくれ。{wait}{end}	Show me where to go.{wait}{end}	
+PSX.157D34	どこへ行けばよいのだ？{wait}{end}	Where am I to go?{wait}{end}	
+PSX.157D50	どこへ行けばいいんだ？{wait}{end}	Where do I go?{wait}{end}	
+PSX.157D6C	行く先はどこですか？{wait}{end}	Where are we going?{wait}{end}	
+PSX.157D84	行き先はどこでしょうか？{wait}{end}	Where might we be going?{wait}{end}	
+PSX.157DA0	どこに行けばいいの？{wait}{end}	Where should I go?{wait}{end}	
+PSX.157DB8	どこへ、行けばいいんだ。{wait}{end}	So, where do I go?{wait}{end}	
+PSX.157DD4	どこに行ったらいい？{wait}{end}	Where to, then?{wait}{end}	
+PSX.157DEC	どこに行けばいいの？{wait}{end}	Where should I go?{wait}{end}	
+PSX.157E04	どこへ行ったらいいんだ？{wait}{end}	Where am I headed?{wait}{end}	
+PSX.157E20	ねえ、行き先を教えてよ。{wait}{end}	Hey, where am I going?{wait}{end}	
+PSX.157E3C	行き先はどこでしょうか？{wait}{end}	Where might we be going?{wait}{end}	
+PSX.157E58	ここへ、行けというのだな？{wait}{end}	So I'm to go here?{wait}{end}	
+PSX.157E78	ここに、行けばよいのか？{wait}{end}	Shall I go here?{wait}{end}	
+PSX.157E94	ここへ行けってんだな。{wait}{end}	Go here, huh. Got it.{wait}{end}	
+PSX.157EB0	ここへ、行けばいいのですね？{wait}{end}	I'm to go here, then?{wait}{end}	
+PSX.157ED0	ここに、行けばいいのですね。{wait}{end}	I'll go here, then.{wait}{end}	
+PSX.157EF0	そっか、ここに行けばいいんだ。{wait}{end}	Oh, so I go here.{wait}{end}	
+PSX.157F14	ここへ、行ったらいいんだな？{wait}{end}	Go here, right?{wait}{end}	
+PSX.157F34	ふーん、ここに行けってのね。{wait}{end}	Hmm, so I go here, huh.{wait}{end}	
+PSX.157F54	へー、ここに行けばいいんだ。{wait}{end}	Huh, so I go here.{wait}{end}	
+PSX.157F74	ここへ行けっていうんだな。{wait}{end}	So you want me here.{wait}{end}	
+PSX.157F94	あら、ここへ行けっていうのね？{wait}{end}	Oh, you want me to go here?{wait}{end}	
+PSX.157FB8	はい。ここへ行けばいいのですね？{wait}{end}	Yes. I'm to go here, then?{wait}{end}	
+PSX.157FDC	１．はい{wait}{end}	    Yes{wait}{end}	
+PSX.157FE8	２．いいえ{wait}{end}	    No{wait}{end}	
+PSX.157FF8	このバージョンはここまでです。{wait}{end}	This version ends here.{wait}{end}	
+PSX.15801C	誰にあいますか？{wait}{end}	Who to meet?{wait}{end}	
+PSX.158030	ノーマルソード{n}{end}	Normal Sword{n}{end}	
+PSX.158044	ファルシオン{n}{end}	Falchion{n}{end}	
+PSX.158054	ブロードソード{n}{end}	Broadsword{n}{end}	
+PSX.158068	バスタードソード{n}{end}	Bastard Sword{n}{end}	
+PSX.15807C	クリスタルソード{n}{end}	Crystal Sword{n}{end}	
+PSX.158090	ロングソード{n}{end}	Long Sword{n}{end}	
+PSX.1580A0	ツヴァイハンダー{n}{end}	Zweihander{n}{end}	
+PSX.1580B4	グレートソード{n}{end}	Great Sword{n}{end}	
+PSX.1580C8	クレイモア{n}{end}	Claymore{n}{end}	
+PSX.1580D8	グランメタリカ{n}{end}	Gran Metallica{n}{end}	
+PSX.1580EC	ミニマムダガー{n}{end}	Minimum Dagger{n}{end}	
+PSX.158100	リングダガー{n}{end}	Ring Dagger{n}{end}	
+PSX.158110	ダーク{n}{end}	Dirk{n}{end}	
+PSX.15811C	ナインブレード{n}{end}	Nine Blade{n}{end}	
+PSX.158130	ダンシングダガー{n}{end}	Dancing Dagger{n}{end}	
+PSX.158144	ウッドブーメラン{n}{end}	Wood Boomerang{n}{end}	
+PSX.158158	メタルブーメラン{n}{end}	Metal Boomerang{n}{end}	
+PSX.15816C	バトルブーメラン{n}{end}	Battle Boomerang{n}{end}	
+PSX.158180	ムーンブーメラン{n}{end}	Moon Boomerang{n}{end}	
+PSX.158194	ギガスブーメラン{n}{end}	Gigas Boomerang{n}{end}	
+PSX.1581A8	ノーマルウィップ{n}{end}	Normal Whip{n}{end}	
+PSX.1581BC	チェーンウィップ{n}{end}	Chain Whip{n}{end}	
+PSX.1581D0	ワイヤービュート{n}{end}	Wire Lash{n}{end}	
+PSX.1581E4	ツインテイルズ{n}{end}	Twin Tails{n}{end}	
+PSX.1581F8	クィーンウィップ{n}{end}	Queen Whip{n}{end}	
+PSX.15820C	ナックルガード{n}{end}	Knuckle Guard{n}{end}	
+PSX.158220	アイアンナックル{n}{end}	Iron Knuckle{n}{end}	
+PSX.158234	バグナク{n}{end}	Baghnakh{n}{end}	
+PSX.158240	ソリッドナックル{n}{end}	Solid Knuckle{n}{end}	
+PSX.158254	カイザーナックル{n}{end}	Kaiser Knuckle{n}{end}	
+PSX.158268	ショートボゥ{n}{end}	Short Bow{n}{end}	
+PSX.158278	ロングボゥ{n}{end}	Long Bow{n}{end}	
+PSX.158288	コンポジットボゥ{n}{end}	Composite Bow{n}{end}	
+PSX.15829C	グレートボゥ{n}{end}	Great Bow{n}{end}	
+PSX.1582AC	エルフィンボゥ{n}{end}	Elfin Bow{n}{end}	
+PSX.1582C0	ノーマルハンマー{n}{end}	Normal Hammer{n}{end}	
+PSX.1582D4	メタルハンマー{n}{end}	Metal Hammer{n}{end}	
+PSX.1582E8	ウォーハンマー{n}{end}	War Hammer{n}{end}	
+PSX.1582FC	グレートハンマー{n}{end}	Great Hammer{n}{end}	
+PSX.158310	ヘカトングレイス{n}{end}	Hecaton Grace{n}{end}	
+PSX.158324	レザーブレスト{n}{end}	Hide Cuirass{n}{end}	
+PSX.158338	クロスジャケット{n}{end}	Cloth Jacket{n}{end}	
+PSX.15834C	メタルブレスト{n}{end}	Metal Cuirass{n}{end}	
+PSX.158360	シルバーブレスト{n}{end}	Silver Cuirass{n}{end}	
+PSX.158374	ローゼンハウゼン{n}{end}	Rosenhausen{n}{end}	
+PSX.158388	レザーアーマー{n}{end}	Leather Armor{n}{end}	
+PSX.15839C	スケールアーマー{n}{end}	Scale Armor{n}{end}	
+PSX.1583B0	ラメラーアーマー{n}{end}	Lamellar Armor{n}{end}	
+PSX.1583C4	チェインメイル{n}{end}	Chain Mail{n}{end}	
+PSX.1583D8	ドラグメイル{n}{end}	Dragon Mail{n}{end}	
+PSX.1583E8	アイアンプレート{n}{end}	Iron Plate{n}{end}	
+PSX.1583FC	プレートアーマー{n}{end}	Plate Armor{n}{end}	
+PSX.158410	ナイトアーマー{n}{end}	Knight Armor{n}{end}	
+PSX.158424	スーツアーマー{n}{end}	Suit Armor{n}{end}	
+PSX.158438	ディフェンサー{n}{end}	Defender{n}{end}	
+PSX.15844C	ノーマルローブ{n}{end}	Normal Robe{n}{end}	
+PSX.158460	シルクローブ{n}{end}	Silk Robe{n}{end}	
+PSX.158470	シャドウローブ{n}{end}	Shadow Robe{n}{end}	
+PSX.158484	ミスリルメッシュ{n}{end}	Mithril Mesh{n}{end}	
+PSX.158498	アカシックローブ{n}{end}	Akashic Robe{n}{end}	
+PSX.1584AC	トイクラウン{n}{end}	Toy Crown{n}{end}	
+PSX.1584BC	シルバークラウン{n}{end}	Silver Crown{n}{end}	
+PSX.1584D0	ティアラ{n}{end}	Tiara{n}{end}	
+PSX.1584DC	プリンセスガード{n}{end}	Princess Guard{n}{end}	
+PSX.1584F0	ソーンクラウン{n}{end}	Thorn Crown{n}{end}	
+PSX.158504	トイピアス{n}{end}	Toy Studs{n}{end}	
+PSX.158514	リングピアス{n}{end}	Hoop Earring{n}{end}	
+PSX.158524	スターピアス{n}{end}	Star Earring{n}{end}	
+PSX.158534	ダイヤピアス{n}{end}	Dia Earring{n}{end}	
+PSX.158544	ソウルピアス{n}{end}	Soul Earring{n}{end}	
+PSX.158554	トイペンダント{n}{end}	Toy Pendant{n}{end}	
+PSX.158568	リングペンダント{n}{end}	Ring Pendant{n}{end}	
+PSX.15857C	スターペンダント{n}{end}	Star Pendant{n}{end}	
+PSX.158590	ダイヤペンダント{n}{end}	Dia Pendant{n}{end}	
+PSX.1585A4	ソウルペンダント{n}{end}	Soul Pendant{n}{end}	
+PSX.1585B8	チェインブレス{n}{end}	Chain Bangle{n}{end}	
+PSX.1585CC	アイアンブレス{n}{end}	Iron Bangle{n}{end}	
+PSX.1585E0	クリスタルブレス{n}{end}	Crystal Bangle{n}{end}	
+PSX.1585F4	エメラルドブレス{n}{end}	Emerald Bangle{n}{end}	
+PSX.158608	プラチナブレス{n}{end}	Platina Bangle{n}{end}	
+PSX.15861C	グラスリング{n}{end}	Glass Ring{n}{end}	
+PSX.15862C	パールリング{n}{end}	Pearl Ring{n}{end}	
+PSX.15863C	オニキスリング{n}{end}	Onyx Ring{n}{end}	
+PSX.158650	ダイヤリング{n}{end}	Dia Ring{n}{end}	
+PSX.158660	プロテクトリング{n}{end}	Protect Ring{n}{end}	
+PSX.158674	レザーベルト{n}{end}	Leather Belt{n}{end}	
+PSX.158684	シルクベルト{n}{end}	Silk Belt{n}{end}	
+PSX.158694	パワーベルト{n}{end}	Power Belt{n}{end}	
+PSX.1586A4	スターベルト{n}{end}	Star Belt{n}{end}	
+PSX.1586B4	リベンジャー{n}{end}	Revenger{n}{end}	
+PSX.1586C4	レザーブーツ{n}{end}	Hide Boots{n}{end}	
+PSX.1586D4	ラピッドブーツ{n}{end}	Rapid Boots{n}{end}	
+PSX.1586E8	フライブーツ{n}{end}	Fly Boots{n}{end}	
+PSX.1586F8	フェザーブーツ{n}{end}	Feather Boots{n}{end}	
+PSX.15870C	エアマキシマム{n}{end}	Air Maximum{n}{end}	
+PSX.158720	ポーション{n}{end}	Potion{n}{end}	
+PSX.158730	キャンディ{n}{end}	Candy{n}{end}	
+PSX.158740	ドロップ{n}{end}	Drop{n}{end}	
+PSX.15874C	天使の羽{n}{end}	Plume{n}{end}	
+PSX.158758	ハイポーション{n}{end}	Hi-Potion{n}{end}	
+PSX.15876C	ブレッド{n}{end}	Bread{n}{end}	
+PSX.158778	ガブリエルの羽{n}{end}	Gabriel Plume{n}{end}	
+PSX.15878C	オールポーション{n}{end}	Full Potion{n}{end}	
+PSX.1587A0	ケーキ{n}{end}	Cake{n}{end}	
+PSX.1587AC	ガブリエルの翼{n}{end}	Gabriel Wing{n}{end}	
+PSX.1587C0	妖精の本{n}{end}	Fae Book{n}{end}	
+PSX.1587CC	妖精の羽{n}{end}	Fae Wing{n}{end}	
+PSX.1587D8	精霊の本{n}{end}	Spirits{n}{end}	
+PSX.1587E4	ティタニアの印{n}{end}	Titania Seal{n}{end}	
+PSX.1587F8	精霊の書{n}{end}	Grimoire{n}{end}	
+PSX.158804	ティタニアの香り{n}{end}	Titania Scent{n}{end}	
+PSX.158818	歴史の本{n}{end}	History{n}{end}	
+PSX.158824	物語の本{n}{end}	Stories{n}{end}	
+PSX.158830	勇者の本{n}{end}	Sagas{n}{end}	
+PSX.15883C	真実の書{n}{end}	Veritas{n}{end}	
+PSX.158848	その他１{n}{end}	Other 1{n}{end}	
+PSX.158854	シャトーワイン{n}{end}	Chateau Wine{n}{end}	
+PSX.158868	シルクのてぶくろ{n}{end}	Silk Gloves{n}{end}	
+PSX.15887C	シルクのローブ{n}{end}	Silk Robe{n}{end}	
+PSX.158890	シルクのマント{n}{end}	Silk Cloak{n}{end}	
+PSX.1588A4	バラの花束{n}{end}	Bouquet{n}{end}	
+PSX.1588B4	ブロンズのソード{n}{end}	Bronze Sword{n}{end}	
+PSX.1588C8	アイアンのソード{n}{end}	Iron Sword{n}{end}	
+PSX.1588DC	シルバーのソード{n}{end}	Silver Sword{n}{end}	
+PSX.1588F0	ゴールドのソード{n}{end}	Gold Sword{n}{end}	
+PSX.158904	ナイトのソード{n}{end}	Knight Sword{n}{end}	
+PSX.158918	ふるいコイン{n}{end}	Old Coin{n}{end}	
+PSX.158928	きれいなコイン{n}{end}	Pretty Coin{n}{end}	
+PSX.15893C	めずらしいコイン{n}{end}	Rare Coin{n}{end}	
+PSX.158950	ブロンズのコイン{n}{end}	Bronze Coin{n}{end}	
+PSX.158964	バラのコイン{n}{end}	Rose Coin{n}{end}	
+PSX.158974	ベル{n}{end}	Bell{n}{end}	
+PSX.15897C	カスタネット{n}{end}	Castanets{n}{end}	
+PSX.15898C	タンバリン{n}{end}	Tambourine{n}{end}	
+PSX.15899C	ハーモニカ{n}{end}	Harmonica{n}{end}	
+PSX.1589AC	オルゴール{n}{end}	Music Box{n}{end}	
+PSX.1589BC	苦い薬{n}{end}	Tonic{n}{end}	
+PSX.1589C8	良くきく薬{n}{end}	Cure-All{n}{end}	
+PSX.1589D8	怪しい薬{n}{end}	Odd Pill{n}{end}	
+PSX.1589E4	不思議な薬{n}{end}	Magic Pill{n}{end}	
+PSX.1589F4	秘密の薬{n}{end}	Elixir{n}{end}	
+PSX.158A00	木彫りの像{n}{end}	Wood Idol{n}{end}	
+PSX.158A10	木彫りのラッシュ{n}{end}	Wooden Rush{n}{end}	
+PSX.158A24	ヒノキのゆびわ{n}{end}	Cypress Ring{n}{end}	
+PSX.158A38	ヒノキのうでわ{n}{end}	Cypress Bangle{n}{end}	
+PSX.158A4C	てんしのレリーフ{n}{end}	Angel Relief{n}{end}	
+PSX.158A60	ボルンガの葉っぱ{n}{end}	Borunga Leaf{n}{end}	
+PSX.158A74	ボルンガの種{n}{end}	Borunga Seed{n}{end}	
+PSX.158A84	ボルンガの実{n}{end}	Borunga Nut{n}{end}	
+PSX.158A94	竜の酒{n}{end}	Mead{n}{end}	
+PSX.158AA0	ドラゴンのウロコ{n}{end}	Dragon Scale{n}{end}	
+PSX.158AB4	おまもり{n}{end}	Charm{n}{end}	
+PSX.158AC0	ロザリオ{n}{end}	Rosary{n}{end}	
+PSX.158ACC	うさぎのあし{n}{end}	Rabbit Foot{n}{end}	
+PSX.158ADC	ぎんのロザリオ{n}{end}	Silver Rosary{n}{end}	
+PSX.158AF0	エレンのおまもり{n}{end}	Ellen's Charm{n}{end}	
+PSX.158B04	赤いスライム{n}{end}	Red Slime{n}{end}	
+PSX.158B14	青いスライム{n}{end}	Blue Slime{n}{end}	
+PSX.158B24	ピンクのスライム{n}{end}	Pink Slime{n}{end}	
+PSX.158B38	銀のスライム{n}{end}	Silver Slime{n}{end}	
+PSX.158B48	金のスライム{n}{end}	Gold Slime{n}{end}	
+PSX.158B58	なわとび{n}{end}	Jumprope{n}{end}	
+PSX.158B64	鉄アレイ{n}{end}	Barbell{n}{end}	
+PSX.158B70	エキスパンダー{n}{end}	Expander{n}{end}	
+PSX.158B84	ダンベル{n}{end}	Dumbbell{n}{end}	
+PSX.158B90	サンドバック{n}{end}	Sandbag{n}{end}	
+PSX.158BA0	公演チケット{n}{end}	Show Ticket{n}{end}	
+PSX.158BB0	飲み屋の無料けん{n}{end}	Free Bar Pass{n}{end}	
+PSX.158BC4	秘密のお酒{n}{end}	Rare Brew{n}{end}	
+PSX.158BD4	パールのピアス{n}{end}	Pearl Earring{n}{end}	
+PSX.158BE8	ガーターベルト{n}{end}	Garter Belt{n}{end}	
+PSX.158BFC	クッキー{n}{end}	Cookie{n}{end}	
+PSX.158C08	手作りクッキー{n}{end}	Home Cookies{n}{end}	
+PSX.158C1C	手作りチョコ{n}{end}	Home Choco{n}{end}	
+PSX.158C2C	てあみのマフラー{n}{end}	Knitted Scarf{n}{end}	
+PSX.158C40	てあみのセーター{n}{end}	Knitted Sweater{n}{end}	
+PSX.158C54	ゼピュロス{n}{end}	Zephyrus{n}{end}	
+PSX.158C64	フォルギース{n}{end}	Forgis{n}{end}	
+PSX.158C74	ラルギース{n}{end}	Largis{n}{end}	
+PSX.158C84	エレメントソード{n}{end}	Element Sword{n}{end}	
+PSX.158C98	フリーズコフィン{n}{end}	Freeze Coffin{n}{end}	
+PSX.158CAC	ラリーズコフィン{n}{end}	Larys Coffin{n}{end}	
+PSX.158CC0	ダークスター{n}{end}	Dark Star{n}{end}	
+PSX.158CD0	ハリコンダガー{n}{end}	Halicon Dagger{n}{end}	
+PSX.158CE4	ラリコンダガー{n}{end}	Laricon Dagger{n}{end}	
+PSX.158CF8	パワーブーメラン{n}{end}	Power Boomerang{n}{end}	
+PSX.158D0C	スターブーメラン{n}{end}	Star Boomerang{n}{end}	
+PSX.158D20	ラターブーメラン{n}{end}	Ratar Boomerang{n}{end}	
+PSX.158D34	プラズマビュート{n}{end}	Plasma Lash{n}{end}	
+PSX.158D48	セインワイヤー{n}{end}	Saint Wire{n}{end}	
+PSX.158D5C	ラインワイヤー{n}{end}	Line Wire{n}{end}	
+PSX.158D70	ビーストクロー{n}{end}	Beast Claw{n}{end}	
+PSX.158D84	セイントナックル{n}{end}	Saint Knuckle{n}{end}	
+PSX.158D98	ラインナックル{n}{end}	Line Knuckle{n}{end}	
+PSX.158DAC	エーテルボゥ{n}{end}	Ether Bow{n}{end}	
+PSX.158DBC	エレメンタルボゥ{n}{end}	Elemental Bow{n}{end}	
+PSX.158DD0	ラルアーチ{n}{end}	Ral Arch{n}{end}	
+PSX.158DE0	メガトンハンマー{n}{end}	Megaton Hammer{n}{end}	
+PSX.158DF4	オリジナルシン{n}{end}	Original Sin{n}{end}	
+PSX.158E08	ラリジシン{n}{end}	Lariji Sin{n}{end}	
+PSX.158E18	フェアリーガード{n}{end}	Fairy Guard{n}{end}	
+PSX.158E2C	ガーブオブヘルズ{n}{end}	Garb of Hells{n}{end}	
+PSX.158E40	ラーブヘルズ{n}{end}	Raab Hells{n}{end}	
+PSX.158E50	ブレイブアーマー{n}{end}	Brave Armor{n}{end}	
+PSX.158E64	ガードオブソウル{n}{end}	Guard of Soul{n}{end}	
+PSX.158E78	ラドオブソウル{n}{end}	Rad of Soul{n}{end}	
+PSX.158E8C	プラチナアーマー{n}{end}	Platinum Armor{n}{end}	
+PSX.158EA0	ホーリーアーマー{n}{end}	Holy Armor{n}{end}	
+PSX.158EB4	ラーアーマー{n}{end}	Ra Armor{n}{end}	
+PSX.158EC4	エンジェルローブ{n}{end}	Angel Robe{n}{end}	
+PSX.158ED8	ハリコンメッシュ{n}{end}	Halicon Mesh{n}{end}	
+PSX.158EEC	ラリコンメッシュ{n}{end}	Laricon Mesh{n}{end}	
+PSX.158F00	キングスガード{n}{end}	King's Guard{n}{end}	
+PSX.158F14	リリスクラウン{n}{end}	Lilith Crown{n}{end}	
+PSX.158F28	ラスクラウン{n}{end}	Ras Crown{n}{end}	
+PSX.158F38	マーメイズピアス{n}{end}	Mermaid Earring{n}{end}	
+PSX.158F4C	ラスピアス{n}{end}	Ras Studs{n}{end}	
+PSX.158F5C	ギガスピアス{n}{end}	Gigas Studs{n}{end}	
+PSX.158F6C	クリスクロス{n}{end}	Criss Cross{n}{end}	
+PSX.158F7C	クリスタルクロス{n}{end}	Crystal Cross{n}{end}	
+PSX.158F90	ラルコンクロス{n}{end}	Ralcon Cross{n}{end}	
+PSX.158FA4	ブレイブリング{n}{end}	Brave Ring{n}{end}	
+PSX.158FB8	シャインブレス{n}{end}	Shine Bangle{n}{end}	
+PSX.158FCC	ラインブレス{n}{end}	Line Bangle{n}{end}	
+PSX.158FDC	ワンダーリング{n}{end}	Wonder Ring{n}{end}	
+PSX.158FF0	ゴスペリング{n}{end}	Gospel Ring{n}{end}	
+PSX.159000	ラペラリング{n}{end}	Lapela Ring{n}{end}	
+PSX.159010	ウィナーズベルト{n}{end}	Winner's Belt{n}{end}	
+PSX.159024	ミラクルチャンプ{n}{end}	Miracle Champ{n}{end}	
+PSX.159038	ラルコンベルト{n}{end}	Ralcon Belt{n}{end}	
+PSX.15904C	デニスシューズ{n}{end}	Denis Shoes{n}{end}	
+PSX.159060	メロスシューズ{n}{end}	Melos Shoes{n}{end}	
+PSX.159074	ラスシューズ{n}{end}	Ras Shoes{n}{end}	
+PSX.159084	トゥルーカラー{n}{end}	True Color{n}{end}	
+PSX.159098	タナトスカラー{n}{end}	Thanatos Color{n}{end}	
+PSX.1590AC	ラナトスカラー{n}{end}	Ranatos Color{n}{end}	
+PSX.1590C0	メルカバカード{n}{end}	Merkabah Card{n}{end}	
+PSX.1590D4	おんなあそび{n}{end}	Womanizing{n}{end}	
+PSX.1590E4	しゅぎょう〿{n}{end}	Training{n}{end}	
+PSX.1590F4	ごうゆう{n}{end}	Spending{n}{end}	
+PSX.159100	たび{n}{end}	Roam{n}{end}	
+PSX.159108	けんきゅう{n}{end}	Research{n}{end}	
+PSX.159118	ものづくり{n}{end}	Crafting{n}{end}	
+PSX.159128	たべること{n}{end}	Eating{n}{end}	
+PSX.159138	けんか{n}{end}	Brawls{n}{end}	
+PSX.159144	だっそう{n}{end}	Escaping{n}{end}	
+PSX.159150	ふろ{n}{end}	Bath{n}{end}	
+PSX.159158	さけをのむ{n}{end}	Drinking{n}{end}	
+PSX.159168	りょうり{n}{end}	Cooking{n}{end}	
+PSX.159174	天使見習い{n}{end}	Apprentice{n}{end}	
+PSX.159184	幼翼天使{n}{end}	Novice{n}{end}	
+PSX.159190	準翼天使{n}{end}	Jr.Angel{n}{end}	
+PSX.15919C	正翼天使{n}{end}	Angel{n}{end}	
+PSX.1591A8	成翼天使{n}{end}	Sr.Angel{n}{end}	
+PSX.1591B4	翼宮天使{n}{end}	Ct.Angel{n}{end}	
+PSX.1591C0	準能翼宮天使{n}{end}	Jr. Power{n}{end}	
+PSX.1591D0	正能翼宮天使{n}{end}	Court Power{n}{end}	
+PSX.1591E0	能天使{n}{end}	Power{n}{end}	
+PSX.1591EC	準権翼宮天使{n}{end}	Jr. Prince{n}{end}	
+PSX.1591FC	正権翼宮天使{n}{end}	Court Prince{n}{end}	
+PSX.15920C	権天使{n}{end}	Prince{n}{end}	
+PSX.159218	準主翼宮天使{n}{end}	Jr. Lord{n}{end}	
+PSX.159228	正主翼宮天使{n}{end}	Court Lord{n}{end}	
+PSX.159238	主天使{n}{end}	Lord{n}{end}	
+PSX.159244	準座翼宮天使{n}{end}	Jr. Throne{n}{end}	
+PSX.159254	正座翼宮天使{n}{end}	Court Throne{n}{end}	
+PSX.159264	座天使{n}{end}	Throne{n}{end}	
+PSX.159270	準智翼宮天使{n}{end}	Jr. Cherub{n}{end}	
+PSX.159280	正智翼宮天使{n}{end}	Court Cherub{n}{end}	
+PSX.159290	智天使{n}{end}	Cherub{n}{end}	
+PSX.15929C	準熾翼宮天使{n}{end}	Jr. Seraph{n}{end}	
+PSX.1592AC	正熾翼宮天使{n}{end}	Court Seraph{n}{end}	
+PSX.1592BC	熾天使{n}{end}	Seraph{n}{end}	
+PSX.1592C8	大天使{n}{end}	Arch{n}{end}	
+PSX.1592D4	翼宮大天使{n}{end}	Ct. Arch{n}{end}	
+PSX.1592E4	白位大天使{n}{end}	White Arch{n}{end}	
+PSX.1592F4	聖天使{n}{end}	Saint{n}{end}	
+PSX.159300	翼宮聖天使{n}{end}	Ct. Saint{n}{end}	
+PSX.159310	紫位聖天使{n}{end}	Vio.Saint{n}{end}	
+PSX.159320	権天使長{n}{end}	HiPrince{n}{end}	
+PSX.15932C	能天使長{n}{end}	HiPower{n}{end}	
+PSX.159338	力天使長{n}{end}	HiVirtue{n}{end}	
+PSX.159344	主天使長{n}{end}	HiLord{n}{end}	
+PSX.159350	座天使長{n}{end}	HiThrone{n}{end}	
+PSX.15935C	智天使長{n}{end}	HiCherub{n}{end}	
+PSX.159368	熾天使長{n}{end}	HiSeraph{n}{end}	
+PSX.159374	大天使長{n}{end}	HiArch{n}{end}	
+PSX.159380	聖天使長{n}{end}	HiSaint{n}{end}	
+PSX.15938C	聖熾天使{n}{end}	Seraphim{n}{end}	
+PSX.159398	に装備できるアイテムよ！{wait}{end}	 can equip this item!{wait}{end}	
+PSX.1593B4	テスト「武器以外のアイテム」{wait}{end}	Test: non-weapon items{wait}{end}	
+PSX.1593D4	{num:01000100}いらっしゃい！{n}今日は何をお望みなのかしら？{wait}{end}	{num:01000100}Welcome!{n}What would you like today?{wait}{end}	
+PSX.15940C	あら、ＡＰが足りないようね。{wait}{end}	Oh, you're short on AP.{wait}{end}	
+PSX.15942C	あら、それ以上はもてないようね。{wait}{end}	Oh, you can't carry any more.{wait}{end}	
+PSX.159450	{num:01000200}あら、いらっしゃい。{n}今日は誰のことが聞きたいの？{wait}{end}	{num:01000200}Oh, welcome.{n}Who would you like to hear about?{wait}{end}	
+PSX.15948C	妖精{n}{end}	Fae{n}{end}	
+PSX.159494	勇者{n}{end}	Hero{n}{end}	
+PSX.15949C	{num:01000300}そんなに慌ててどうしたのです？{n}勇者の魂を迷わせてしまったのですか？{wait}{end}	{num:01000300}Why such a rush?{n}Did you let a hero's soul go astray?{wait}{end}	
+PSX.1594EC	死者の魂を呼び戻すのに{n}ＡＰが足りないわね。{wait}{end}	Not enough AP to call{n}back a dead soul.{wait}{end}	
+PSX.15951C	勇者が多くて{n}この{var:0F00}の魂を呼び戻せないわ。{wait}{end}	Too many heroes to{n}call back {var:0F00}'s soul.{wait}{end}	
+PSX.15954C	宝物庫{n}{end}	Vault{n}{end}	
+PSX.159558	妖精宮{n}{end}	Faerie{n}{end}	
+PSX.159564	大聖堂{n}{end}	Church{n}{end}	
+PSX.159570	ＡＰ{n}{end}	AP{n}{end}	
+PSX.159578	戻りますか？{n}{end}	Go back?{n}{end}	
+PSX.159588	{var:0F00}が{var:0100}を倒しました。{wait}{end}	{var:0F00} beat {var:0100}.{wait}{end}	
+PSX.1595A4	{var:0100}を見失いました。{n}地域の平和度が悪化しました。{wait}{end}	Lost track of {var:0100}.{n}Local peace level fell.{wait}{end}	
+PSX.1595DC	{var:0F00}が行方不明になりました。{wait}{end}	{var:0F00} has gone missing.{wait}{end}	
+PSX.1595FC	{var:0F00}の経験値が{val:00000100}になりました。{wait}{end}	{var:0F00}'s EXP is now {val:00000100}.{wait}{end}	
 PSX.159624	{var:0F00}のレベルが{val:00000100}になりました。{wait}{end}		
 PSX.15964C	勇者{var:0F00}の魂がこの世から{n}消滅しました。{wait}{end}		
 PSX.159678	{var:0E00}が行方不明になりました。{wait}{end}		

@@ -102,6 +102,8 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ヘブロン | Hebron | | Kingdom of Hebron (ヘブロン王国); capital Voras | |
 | ヨースト | Joost | | town in Hebron (Sievas) | |
 | キンバルト | Kimbalt | | Kingdom of Kimbalt | |
+| エルバレー | Elvalley | | the Elvalley Road (エルバレー街道) in Kimbalt (Griffin mission) | |
+| アンシェ | Anshe | | town in the Esparda Empire attacked by a demon; not アーシェ (Ashe) | |
 | ニーセン | Niesen | | town in Kimbalt (Griffin) | |
 | カノーア | Kanoa | | the Kanoa Nation (カノーア国) | |
 | フェデコ | Fedeco | | town in Kanoa (Felimi) | |

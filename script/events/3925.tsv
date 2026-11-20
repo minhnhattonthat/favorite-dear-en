@@ -1,7 +1,7 @@
 id	jp	en	notes
 3925.04A2	{fb:8C80}{n}{spk:0080}{n}ファンガムのグルーチ近辺（１９・１７）に{n}ステレンスが、自ら反乱軍を率いて{n}進軍をはじめました。{n}{wait}{clear}ステレンスは、前ファンガム国王を殺し、{n}クーデターによって国を制圧した大臣です。{n}{wait}{clear}{end}		
 3925.056C	{fb:8D80}{n}この件は、ファンガムの王女として{n}アーシェ様に依頼すべきかと思います。{n}いかがでしょうか、天使様？{n}{wait}{clear}{end}		
-3925.05DC	{fb:8E80}{n}{spk:0080}{n}天使様、至急、勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}		
+3925.05DC	{fb:8E80}{n}{spk:0080}{n}天使様、至急、勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}	{fb:8E80}{n}{spk:0080}{n}Angel, why not send a hero there at{n}once?{n}{wait}{clear}{end}	
 3925.062E	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}	{fb:8F80}{n}{spk:0080}{n}However, with no heroes at present, I{n}believe finding a suitable person must{n}come first.{n}{wait}{clear}{end}	
 3925.0698	{fb:9680}{n}{spk:0080}{n}ファンガムのグルーチ近辺（１９・１７）に{n}ステレンスが、反乱軍をひきつれて{n}やってきましたぁ！{n}{wait}{clear}ステレンスは、前のファンガム国王を殺し、{n}クーデターを起こした、{n}とっても悪い大臣なんですよ。{n}{wait}{clear}{end}		
 3925.076E	{fb:9780}{n}これは、やっぱりファンガム王女の{n}アーシェ様にお願いするべきだと{n}思うんです！　どうですか、天使様？{n}{wait}{clear}{end}		

@@ -1,0 +1,121 @@
+id	en
+PSX.159624	{var:0F00} is now level {val:00000100}.{wait}{end}
+PSX.15964C	{var:0F00}'s soul{n}has left the world.{wait}{end}
+PSX.159678	{var:0E00} has gone missing.{wait}{end}
+PSX.159698	{var:0E00} is now level {val:00000100}.{wait}{end}
+PSX.1596C0	{var:0F00} asks to see you, Angel.{wait}{end}
+PSX.1596EC	Peace in Infos is now {val:00000100}.{wait}{end}
+PSX.159718	Heal S   AP 20{n}{end}
+PSX.159730	Heals all allies{n}{end}
+PSX.159744	by 60 HP.{n}{end}
+PSX.159758	Heal M   AP100{n}{end}
+PSX.159784	by 200 HP.{n}{end}
+PSX.15979C	Heal L   AP150{n}{end}
+PSX.1597C8	to full.{n}{end}
+PSX.1597DC	Combo    AP200{n}{end}
+PSX.1597F4	The hero attacks{n}{end}
+PSX.15980C	3 times in a row.{n}{end}
+PSX.159824	Vanish   AP150{n}{end}
+PSX.15983C	Attacks on heroes{n}{end}
+PSX.159854	are nullified.{n}{end}
+PSX.159868	Flee  No AP cost{n}{end}
+PSX.159880	Orders the hero{n}{end}
+PSX.159898	to flee.{n}{end}
+PSX.1598A8	Sievas{n}{end}
+PSX.1598BC	Reiv{n}{end}
+PSX.1598CC	Griffin{n}{end}
+PSX.1598E0	Felimi{n}{end}
+PSX.1598F0	Dian{n}{end}
+PSX.159900	Yaruru{n}{end}
+PSX.159910	Ryudral{n}{end}
+PSX.159924	Fiana{n}{end}
+PSX.159934	Ashe{n}{end}
+PSX.159944	Beasia{n}{end}
+PSX.159954	Nasadia{n}{end}
+PSX.159968	Tia{n}{end}
+PSX.159978	Rosa{n}{end}
+PSX.159988	Florinda{n}{end}
+PSX.15999C	Shelly{n}{end}
+PSX.1599AC	Lily{n}{end}
+PSX.1599BC	Rush{n}{end}
+PSX.1599CC	ran away.{n}{end}
+PSX.1599DC	Bethel{n}{end}
+PSX.1599E8	Idle{n}{end}
+PSX.1599F4	Veronica Card{n}{end}
+PSX.159A08	Lania Card{n}{end}
+PSX.159A18	Truth Gem{n}{end}
+PSX.159A28	Story Item 1{n}{end}
+PSX.159A3C	Story Item 2{n}{end}
+PSX.159A50	Story Item 3{n}{end}
+PSX.159A64	Story Item 4{n}{end}
+PSX.159A78	Story Item 5{n}{end}
+PSX.159A8C	Story Item 6{n}{end}
+PSX.159AA0	Story Item 7{n}{end}
+PSX.159AB4	Story Item 8{n}{end}
+PSX.159AC8	Story Item 9{n}{end}
+PSX.159ADC	Revive this hero?{n}{end}
+PSX.159AFC	The heroes{n}lifted the calamity on Infos!{n}Bonus AP 100{wait}{end}
+PSX.159B3C	Calamity spreads in Infos.{n}Peace level -{val:00000100}!{wait}{end}
+PSX.159B74	Level up!{n}{end}
+PSX.159B88	-
+PSX.159B98	Ambush{n}{end}
+PSX.159BA4	Arson{n}{end}
+PSX.159BB0	Adramelech Again{n}{end}
+PSX.159BC4	Bog Beast{n}{end}
+PSX.159BD4	Borunga Revolt{n}{end}
+PSX.159BE8	Dragon War{n}{end}
+PSX.159BF8	Miraya Invades{n}{end}
+PSX.159C0C	Dragon 2{n}{end}
+PSX.159C18	Bandit Drakken{n}{end}
+PSX.159C2C	The Winged{n}{end}
+PSX.159C6C	Thief Slime{n}{end}
+PSX.159C7C	Fangam Escape{n}{end}
+PSX.159C90	Sterens' Coup{n}{end}
+PSX.159CA4	Lake Radal Beast{n}{end}
+PSX.159CB8	Dead Army{n}{end}
+PSX.159CC8	Hellknight{n}{end}
+PSX.159CD8	Captive Knight{n}{end}
+PSX.159CEC	Hellknight II{n}{end}
+PSX.159D00	Road Fiend{n}{end}
+PSX.159D10	Village Fire{n}{end}
+PSX.159D20	Castle Besieged{n}{end}
+PSX.159D34	Final Duel{n}{end}
+PSX.159D44	Gen. Barbarossa{n}{end}
+PSX.159D58	Miraya March{n}{end}
+PSX.159D68	Witch Miraya{n}{end}
+PSX.159D7C	Miraya's Aide{n}{end}
+PSX.159D90	Raided Town{n}{end}
+PSX.159DA0	Hex Spring{n}{end}
+PSX.159DB0	Witch Sierra{n}{end}
+PSX.159DC4	Demon Pawn{n}{end}
+PSX.159DD4	Fiend of Resel{n}{end}
+PSX.159DE8	Beast Raid{n}{end}
+PSX.159E28	Venom Fang{n}{end}
+PSX.159E38	Gen. Zebia{n}{end}
+PSX.159E48	Balt Attacks{n}{end}
+PSX.159E5C	Apollyon Lives{n}{end}
+PSX.159E70	Escaped Convict{n}{end}
+PSX.159E84	Mystery{n}{end}
+PSX.159E90	Fighter Fiend{n}{end}
+PSX.159EA4	Duel the Fiend{n}{end}
+PSX.159EB8	Orc Rampage{n}{end}
+PSX.159ECC	Thievery{n}{end}
+PSX.159ED8	Fiend Raid{n}{end}
+PSX.159EE8	Kidnapped{n}{end}
+PSX.159EF8	Kvaal's Behemoth{n}{end}
+PSX.159F0C	Fallen Gaap{n}{end}
+PSX.159F1C	Apollyon{n}{end}
+PSX.159F2C	Iuvart{n}{end}
+PSX.159F3C	Rasuel{n}{end}
+PSX.159F48	fainted.{n}{end}
+PSX.159F58	Lecher{n}{end}
+PSX.159F64	Stolen Bride{n}{end}
+PSX.15A858	What is it you need,{n}Lord Gabriel?{n}{wait}{end}
+PSX.15A884	{var:0000},{n}{num:00000000}I called you here today{n}for one reason.{n}{wait}{num:00000100}I wish to entrust you{n}with a very important duty.{n}{wait}{end}
+PSX.15A900	...What sort of duty?{n}{wait}{end}
+PSX.15A924	{num:00000200}Guarding Infos, the world below.{n}{wait}{end}
+PSX.15A954	What? Me? I've only just left{n}the Academia...?{n}{wait}{end}
+PSX.15A990	{num:00000300}Yes, you.{n}{wait}{num:00000400}You graduated from the Ars Academia{n}with outstanding marks.{n}{wait}{num:00000500}Above all, the Review judged you{n}better suited to this duty{n}than anyone else.{n}{wait}{end}
+PSX.15AA60	(The Review...?{n} That question on my final exam?){n}{wait}{end}
+PSX.15AAA4	(...It was something{n} like that, I think...){n}{wait}{end}
+PSX.15AAE0	I have reasons for entrusting this{n}to you rather than a senior angel.{n}{wait}Infos, the world below where humans{n}live, is now in grave danger.{n}{wait}Some power has knocked Infos{n}out of the orbit of time, off{n}its proper time axis.{n}{wait}The people living in that world{n}cannot notice it, but....{n}{wait}Infos is caught in a flow of time{n}that never moves forward,{n}repeating endlessly,{n}{wait}so its people relive the same day,{n}the same season, the same year,{n}forever...{n}{wait}If this goes on, the laws{n}of that world will crumble,{n}and Infos will vanish.{n}{wait}We are using the power of the senior{n}angels to hold off the fatal{n}collapse of Infos.{n}{wait}But of course, that solves{n}nothing...{n}{wait}Someone must descend to earth{n}and find the cause of this chaos,{n}this Stagnation of Time.{n}{wait}I want you to do that, in place of{n}the senior angels, who cannot{n}descend to earth.{n}{wait}{end}

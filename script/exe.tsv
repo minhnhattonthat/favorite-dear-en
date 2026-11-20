@@ -607,254 +607,254 @@ PSX.159588	{var:0F00}が{var:0100}を倒しました。{wait}{end}	{var:0F00} be
 PSX.1595A4	{var:0100}を見失いました。{n}地域の平和度が悪化しました。{wait}{end}	Lost track of {var:0100}.{n}Local peace level fell.{wait}{end}	
 PSX.1595DC	{var:0F00}が行方不明になりました。{wait}{end}	{var:0F00} has gone missing.{wait}{end}	
 PSX.1595FC	{var:0F00}の経験値が{val:00000100}になりました。{wait}{end}	{var:0F00}'s EXP is now {val:00000100}.{wait}{end}	
-PSX.159624	{var:0F00}のレベルが{val:00000100}になりました。{wait}{end}		
-PSX.15964C	勇者{var:0F00}の魂がこの世から{n}消滅しました。{wait}{end}		
-PSX.159678	{var:0E00}が行方不明になりました。{wait}{end}		
-PSX.159698	{var:0E00}のレベルが{val:00000100}になりました。{wait}{end}		
-PSX.1596C0	{var:0F00}が天使様に会いたいと申しています。{wait}{end}		
-PSX.1596EC	インフォスの平和は{val:00000100}になりました。{wait}{end}		
-PSX.159718	小回復　ＡＰ　２０{n}{end}		
-PSX.159730	味方全員のＨＰを{n}{end}		
-PSX.159744	６０回復します。{n}{end}		
-PSX.159758	中回復　ＡＰ１００{n}{end}		
-PSX.159770	味方全員のＨＰを{n}{end}		
-PSX.159784	２００回復します。{n}{end}		
-PSX.15979C	大回復　ＡＰ１５０{n}{end}		
-PSX.1597B4	味方全員のＨＰを{n}{end}		
-PSX.1597C8	最大値にします。{n}{end}		
-PSX.1597DC	連撃　　ＡＰ２００{n}{end}		
-PSX.1597F4	発動後、勇者が３回〿{n}{end}		
-PSX.15980C	連続で攻撃します。{n}{end}		
-PSX.159824	透明　　ＡＰ１５０{n}{end}		
-PSX.15983C	勇者に対する攻撃を{n}{end}		
-PSX.159854	無効にします。{n}{end}		
-PSX.159868	逃走　ＡＰ消費なし{n}{end}		
-PSX.159880	勇者に逃走の指示を{n}{end}		
-PSX.159898	与えます。{n}{end}		
-PSX.1598A8	シーヴァスは、{n}{end}		
-PSX.1598BC	レイヴは、{n}{end}		
-PSX.1598CC	グリフィンは、{n}{end}		
-PSX.1598E0	フェリミは、{n}{end}		
-PSX.1598F0	ディアンは、{n}{end}		
-PSX.159900	ヤルルは、{n}{end}		
-PSX.159910	リュドラルは、{n}{end}		
-PSX.159924	フィアナは、{n}{end}		
-PSX.159934	アーシェは、{n}{end}		
-PSX.159944	ビーシアは、{n}{end}		
-PSX.159954	ナーサディアは、{n}{end}		
-PSX.159968	ティアは、{n}{end}		
-PSX.159978	ローザは、{n}{end}		
-PSX.159988	フロリンダは、{n}{end}		
-PSX.15999C	シェリーは、{n}{end}		
-PSX.1599AC	リリィは、{n}{end}		
-PSX.1599BC	ラッシュは、{n}{end}		
-PSX.1599CC	逃げ出した。{n}{end}		
-PSX.1599DC	ベテル宮{n}{end}		
-PSX.1599E8	待機中{n}{end}		
-PSX.1599F4	ヴェロニカカード{n}{end}		
-PSX.159A08	ラニアカード{n}{end}		
-PSX.159A18	真実の宝石{n}{end}		
-PSX.159A28	シナリオアイテ１{n}{end}		
-PSX.159A3C	シナリオアイテ２{n}{end}		
-PSX.159A50	シナリオアイテ３{n}{end}		
-PSX.159A64	シナリオアイテ４{n}{end}		
-PSX.159A78	シナリオアイテ５{n}{end}		
-PSX.159A8C	シナリオアイテ６{n}{end}		
-PSX.159AA0	シナリオアイテ７{n}{end}		
-PSX.159AB4	シナリオアイテ８{n}{end}		
-PSX.159AC8	シナリオアイテ９{n}{end}		
-PSX.159ADC	この勇者を生き返らせますか？{n}{end}		
-PSX.159AFC	勇者は{n}インフォスの災い取りのぞいた！{n}ボーナスＡＰ　１００{wait}{end}		
-PSX.159B3C	インフォスに災いがひろがった。{n}平和度が{val:00000100}悪化！{wait}{end}		
-PSX.159B74	レベルＵＰした。{n}{end}		
+PSX.159624	{var:0F00}のレベルが{val:00000100}になりました。{wait}{end}	{var:0F00} is now level {val:00000100}.{wait}{end}	
+PSX.15964C	勇者{var:0F00}の魂がこの世から{n}消滅しました。{wait}{end}	{var:0F00}'s soul{n}has left the world.{wait}{end}	
+PSX.159678	{var:0E00}が行方不明になりました。{wait}{end}	{var:0E00} has gone missing.{wait}{end}	
+PSX.159698	{var:0E00}のレベルが{val:00000100}になりました。{wait}{end}	{var:0E00} is now level {val:00000100}.{wait}{end}	
+PSX.1596C0	{var:0F00}が天使様に会いたいと申しています。{wait}{end}	{var:0F00} asks to see you, Angel.{wait}{end}	
+PSX.1596EC	インフォスの平和は{val:00000100}になりました。{wait}{end}	Peace in Infos is now {val:00000100}.{wait}{end}	
+PSX.159718	小回復　ＡＰ　２０{n}{end}	Heal S   AP 20{n}{end}	
+PSX.159730	味方全員のＨＰを{n}{end}	Heals all allies{n}{end}	
+PSX.159744	６０回復します。{n}{end}	by 60 HP.{n}{end}	
+PSX.159758	中回復　ＡＰ１００{n}{end}	Heal M   AP100{n}{end}	
+PSX.159770	味方全員のＨＰを{n}{end}	Heals all allies{n}{end}	
+PSX.159784	２００回復します。{n}{end}	by 200 HP.{n}{end}	
+PSX.15979C	大回復　ＡＰ１５０{n}{end}	Heal L   AP150{n}{end}	
+PSX.1597B4	味方全員のＨＰを{n}{end}	Heals all allies{n}{end}	
+PSX.1597C8	最大値にします。{n}{end}	to full.{n}{end}	
+PSX.1597DC	連撃　　ＡＰ２００{n}{end}	Combo    AP200{n}{end}	
+PSX.1597F4	発動後、勇者が３回〿{n}{end}	The hero attacks{n}{end}	
+PSX.15980C	連続で攻撃します。{n}{end}	3 times in a row.{n}{end}	
+PSX.159824	透明　　ＡＰ１５０{n}{end}	Vanish   AP150{n}{end}	
+PSX.15983C	勇者に対する攻撃を{n}{end}	Attacks on heroes{n}{end}	
+PSX.159854	無効にします。{n}{end}	are nullified.{n}{end}	
+PSX.159868	逃走　ＡＰ消費なし{n}{end}	Flee  No AP cost{n}{end}	
+PSX.159880	勇者に逃走の指示を{n}{end}	Orders the hero{n}{end}	
+PSX.159898	与えます。{n}{end}	to flee.{n}{end}	
+PSX.1598A8	シーヴァスは、{n}{end}	Sievas{n}{end}	
+PSX.1598BC	レイヴは、{n}{end}	Reiv{n}{end}	
+PSX.1598CC	グリフィンは、{n}{end}	Griffin{n}{end}	
+PSX.1598E0	フェリミは、{n}{end}	Felimi{n}{end}	
+PSX.1598F0	ディアンは、{n}{end}	Dian{n}{end}	
+PSX.159900	ヤルルは、{n}{end}	Yaruru{n}{end}	
+PSX.159910	リュドラルは、{n}{end}	Ryudral{n}{end}	
+PSX.159924	フィアナは、{n}{end}	Fiana{n}{end}	
+PSX.159934	アーシェは、{n}{end}	Ashe{n}{end}	
+PSX.159944	ビーシアは、{n}{end}	Beasia{n}{end}	
+PSX.159954	ナーサディアは、{n}{end}	Nasadia{n}{end}	
+PSX.159968	ティアは、{n}{end}	Tia{n}{end}	
+PSX.159978	ローザは、{n}{end}	Rosa{n}{end}	
+PSX.159988	フロリンダは、{n}{end}	Florinda{n}{end}	
+PSX.15999C	シェリーは、{n}{end}	Shelly{n}{end}	
+PSX.1599AC	リリィは、{n}{end}	Lily{n}{end}	
+PSX.1599BC	ラッシュは、{n}{end}	Rush{n}{end}	
+PSX.1599CC	逃げ出した。{n}{end}	ran away.{n}{end}	
+PSX.1599DC	ベテル宮{n}{end}	Bethel{n}{end}	
+PSX.1599E8	待機中{n}{end}	Idle{n}{end}	
+PSX.1599F4	ヴェロニカカード{n}{end}	Veronica Card{n}{end}	
+PSX.159A08	ラニアカード{n}{end}	Lania Card{n}{end}	
+PSX.159A18	真実の宝石{n}{end}	Truth Gem{n}{end}	
+PSX.159A28	シナリオアイテ１{n}{end}	Story Item 1{n}{end}	
+PSX.159A3C	シナリオアイテ２{n}{end}	Story Item 2{n}{end}	
+PSX.159A50	シナリオアイテ３{n}{end}	Story Item 3{n}{end}	
+PSX.159A64	シナリオアイテ４{n}{end}	Story Item 4{n}{end}	
+PSX.159A78	シナリオアイテ５{n}{end}	Story Item 5{n}{end}	
+PSX.159A8C	シナリオアイテ６{n}{end}	Story Item 6{n}{end}	
+PSX.159AA0	シナリオアイテ７{n}{end}	Story Item 7{n}{end}	
+PSX.159AB4	シナリオアイテ８{n}{end}	Story Item 8{n}{end}	
+PSX.159AC8	シナリオアイテ９{n}{end}	Story Item 9{n}{end}	
+PSX.159ADC	この勇者を生き返らせますか？{n}{end}	Revive this hero?{n}{end}	
+PSX.159AFC	勇者は{n}インフォスの災い取りのぞいた！{n}ボーナスＡＰ　１００{wait}{end}	The heroes{n}lifted the calamity on Infos!{n}Bonus AP 100{wait}{end}	
+PSX.159B3C	インフォスに災いがひろがった。{n}平和度が{val:00000100}悪化！{wait}{end}	Calamity spreads in Infos.{n}Peace level -{val:00000100}!{wait}{end}	
+PSX.159B74	レベルＵＰした。{n}{end}	Level up!{n}{end}	
 PSX.159B88	盗賊・闇馬車{n}{end}		
-PSX.159B98	魔物の罠{n}{end}		
-PSX.159BA4	教会襲撃{n}{end}		
-PSX.159BB0	アドラメレク再び{n}{end}		
-PSX.159BC4	湿原の怪物{n}{end}		
-PSX.159BD4	魔樹ボルンガ反乱{n}{end}		
-PSX.159BE8	魔竜の侵略{n}{end}		
-PSX.159BF8	ミライヤ軍侵略{n}{end}		
-PSX.159C0C	魔竜再び{n}{end}		
-PSX.159C18	山賊ドラッケン{n}{end}		
-PSX.159C2C	翼ある者達{n}{end}		
-PSX.159C3C	翼ある者達{n}{end}		
-PSX.159C4C	翼ある者達{n}{end}		
-PSX.159C5C	翼ある者達{n}{end}		
-PSX.159C6C	泥棒スライム{n}{end}		
-PSX.159C7C	ファンガム脱出{n}{end}		
-PSX.159C90	逆臣ステレンス{n}{end}		
-PSX.159CA4	ラダール湖の怪物{n}{end}		
-PSX.159CB8	死者の軍団{n}{end}		
-PSX.159CC8	地獄の騎士{n}{end}		
-PSX.159CD8	とらわれの騎士{n}{end}		
-PSX.159CEC	地獄の騎士再び{n}{end}		
-PSX.159D00	街道の魔物{n}{end}		
-PSX.159D10	村の焼き討ち{n}{end}		
-PSX.159D20	襲われた領主の城{n}{end}		
-PSX.159D34	最後の決戦{n}{end}		
-PSX.159D44	魔将バルバロッサ{n}{end}		
-PSX.159D58	ミライヤ進軍{n}{end}		
-PSX.159D68	魔女ミライヤ進軍{n}{end}		
-PSX.159D7C	ミライヤの側近{n}{end}		
-PSX.159D90	襲撃された村{n}{end}		
-PSX.159DA0	のろいの泉{n}{end}		
-PSX.159DB0	魔女シエラ討伐{n}{end}		
-PSX.159DC4	悪魔の手先{n}{end}		
-PSX.159DD4	レーゼル山の魔人{n}{end}		
-PSX.159DE8	魔獣の襲撃{n}{end}		
-PSX.159DF8	魔獣の襲撃{n}{end}		
-PSX.159E08	魔獣の襲撃{n}{end}		
-PSX.159E18	魔獣の襲撃{n}{end}		
-PSX.159E28	花園の毒牙{n}{end}		
-PSX.159E38	魔将ゼビア{n}{end}		
-PSX.159E48	魔将バルト襲撃{n}{end}		
-PSX.159E5C	アポルオン復活{n}{end}		
-PSX.159E70	逃げ出した凶悪犯{n}{end}		
-PSX.159E84	謎の魔人{n}{end}		
-PSX.159E90	武闘魔人の奇襲{n}{end}		
-PSX.159EA4	武闘魔人との対決{n}{end}		
-PSX.159EB8	暴れオーク討伐{n}{end}		
-PSX.159ECC	野菜泥棒{n}{end}		
-PSX.159ED8	魔物の襲来{n}{end}		
-PSX.159EE8	さらわれた娘{n}{end}		
-PSX.159EF8	クヴァールの巨獣{n}{end}		
-PSX.159F0C	堕天使ガープ{n}{end}		
-PSX.159F1C	アポルオン{n}{end}		
-PSX.159F2C	イウヴァート{n}{end}		
-PSX.159F3C	ラスエル{n}{end}		
-PSX.159F48	気絶した。{n}{end}		
-PSX.159F58	乙女の敵{n}{end}		
-PSX.159F64	さらわれた花嫁{n}{end}		
-PSX.15A858	なんのご用件でしょう。{n}ガブリエル様。{n}{wait}{end}		
-PSX.15A884	{var:0000}、{n}{num:00000000}今日、あなたを呼んだのは{n}他でもありません。{n}{wait}{num:00000100}実はあなたにとても重要な任務を{n}まかせたいのです。{n}{wait}{end}		
-PSX.15A900	・・・どんな任務でしょうか？{n}{wait}{end}		
-PSX.15A924	{num:00000200}それは地上界インフォスの守護です。{n}{wait}{end}		
-PSX.15A954	え、まだアカデミアを出たばかりの、{n}私にですか・・・？{n}{wait}{end}		
-PSX.15A990	{num:00000300}ええ、そうです。{n}{wait}{num:00000400}あなたはアルスアカデミアを{n}とても優秀な成績で卒業しています。{n}{wait}{num:00000500}そして、なにより貴方は「審査」に{n}よって今回の任務に他の誰よりも{n}適任であると認められたのです。{n}{wait}{end}		
-PSX.15AA60	（「審査」・・・？　{n}　卒業試験の時のあの問題でしょうか？）{n}{wait}{end}		
-PSX.15AAA4	（・・・というような内容だった{n}　はずですが・・・）{n}{wait}{end}		
-PSX.15AAE0	上級天使でなく、あなたにこのような{n}ことを任せるのには理由があります。{n}{wait}今、人間達の住む地上界インフォスは{n}非常な危機にひんしているのです。{n}{wait}インフォスは何らかの力によって{n}時の軌道からはずれ、正常な時間軸から{n}はずれてしまっています。{n}{wait}その世界の中に住む人々には気付くことが{n}できないのですが・・・・。{n}{wait}インフォスは前進することのない{n}無限に繰り返す時間流に{n}取り込まれていて、{n}{wait}彼らの時は永遠に同じ一日、同じ季節{n}同じ年を繰り返すばかりなのです・・・。{n}{wait}この異常がつづけば、{n}やがて世界の理が崩れ、インフォスは{n}消滅してしまうでしょう。{n}{wait}我々は上級天使達の力を{n}つかってインフォスの致命的な{n}崩壊をとどめています。{n}{wait}しかしそれではもちろん{n}なんの解決にもなりません・・・。{n}{wait}誰かが、地上へと降り{n}この「時の淀み」ともいうべき{n}混乱の原因を探さなければいけません。{n}{wait}それを今、地上へ降りることの出来ない{n}上級天使達に代って{n}あなたにやってもらいたいのです。{n}{wait}{end}		
-PSX.15AE54	はい・・・。{n}{wait}{end}		
-PSX.15AE68	あと、インフォスの崩壊を{n}我々がくい止める事の出来る時間は{n}１０年間です。{n}{wait}あなたにはその期間に{n}任務を果たして欲しいのです。{n}{wait}{end}		
-PSX.15AEF0	１０年ですか・・・。{n}{wait}{end}		
-PSX.15AF0C	あなたには、とても重い任務{n}であることは十分に承知しています。{n}{wait}しかし、このまま地上界を{n}ただ崩壊させる訳にはいかないのです。{n}{wait}あなたしかいないのです。{var:0000}。{n}{wait}行ってくれますね？{n}{wait}はい・・・わかりました。{n}インフォスへ参ります。{n}{wait}ありがとう、{var:0000}。{n}{wait}では、あなたの任務に同行する{n}妖精界からの{n}協力者を紹介しましょう。{n}{wait}{end}		
-PSX.15B05C	{num:00000600}初めまして。ローザといいます。{n}今回、天使様の補佐を任され、{n}光栄に思います。{n}{wait}何かと至らないところも{n}あるかとは思われますが、{n}どうぞよろしくお願い致します。{wait}{end}		
-PSX.15B108	彼女は敵を見つける力が優れています。{n}ただ、勇者を見つけるのは苦手ですが。{n}でも優秀であることに変わりないでしょう。{n}{wait}{end}		
-PSX.15B184	{num:00000700}は・・・初めまして。フロリンダです。{n}この格好ですけど、用途によって{n}着てるモノを変えてるんですぅ。{n}{wait}私は、いたって真面目にやってますので、{n}よろしくお願いします。{n}{wait}{end}		
-PSX.15B238	彼女、見た目はちょっと・・・ですけど、{n}とっても真面目ないい子です。{n}きっと役に立ってくれるでしょう。{n}{wait}{end}		
-PSX.15B2A4	{num:00000800}初めまして！！　シェリーです。{n}{wait}実は今回、初仕事なんですけど、{n}お互い新人みたいだし、{n}同士ってコトでがんばりましょう！！{n}{wait}{end}		
-PSX.15B32C	彼女は勇者探しが得意のようです。{n}少し怠け癖はありますが、持ち前の元気で{n}場を和ましてくれるでしょう。{n}{wait}{end}		
-PSX.15B398	{num:00000900}天使様、初めまして。{n}私、リリィと申します。{n}{wait}今回、大変な職務と聞きますが、{n}精一杯お手伝いさせていただきますので{n}よろしくお願い致します。{n}{wait}{end}		
-PSX.15B434	彼女はまんべんなくこなすタイプです。{n}何があっても冷静な判断が出来るのが、{n}彼女の長所でしょう。{n}{wait}{end}		
-PSX.15B49C	あなた一人では難しい任務も、{n}この二人と力を合わせれば{n}きっと、やり遂げられると思います。{n}{wait}最後に、確認のために、{n}あなたに言っておくことがあります。{n}{wait}知ってのとおり、{n}天使が地上界で直接、力をふるうことは、{n}『掟』によって禁じられています。{n}{wait}そこで、インフォスの心ある者、{n}すなわち『勇者』と呼ばれる者の協力を{n}得ていかなければなりません。{n}{wait}インフォスでは今、{n}様々な混乱が生じています。{n}{wait}その混乱を勇者とともに、{n}解決していって下さい。{n}{wait}それが「時の淀み」という真の混乱の{n}原因を探すための第一歩となるはずです。{n}{wait}さあ、これであなたに伝えることはすべて{n}です。{n}{wait}私はあなたを信じています。{n}かならず、任務をやり遂げると。{n}{wait}頑張って下さい。{var:0000}。{n}{wait}{end}		
-PSX.15B73C	はい。{n}{wait}どこまでご期待にこたえられるかは{n}わかりませんが、{n}できるかぎり努力します。{n}{wait}{end}		
-PSX.15B798	では、お行きなさい。{var:0000}。{n}{wait}{end}		
-PSX.15B7B8	はい。行ってまいります。{n}{wait}{end}		
-PSX.15B7D8	愛しき幼い天使よ。{n}汝に大いなる祝福が与えられますように。{n}{wait}{end}		
-PSX.15B818	なんのご用件でしょう。{n}ガブリエル様。{n}{wait}{end}		
-PSX.15B844	{var:0000}、{n}{num:00000000}今日、あなたを呼んだのは{n}他でもありません。{n}{wait}{num:00000100}実はあなたにとても重要な任務を{n}まかせたいのです。{n}{wait}{end}		
-PSX.15B8C0	・・・どんな任務でしょうか？{n}{wait}{end}		
-PSX.15B8E4	{num:00000200}それは地上界インフォスの守護です。{n}{wait}{end}		
-PSX.15B914	え、まだアカデミアを出たばかりの、{n}私にですか・・・？{n}{wait}{end}		
-PSX.15B950	{num:00000300}ええ、そうです。{n}{wait}{num:00000400}あなたはアルスアカデミアを{n}とても優秀な成績で卒業しています。{n}{wait}{num:00000500}そして、なにより貴方は「審査」に{n}よって今回の任務に他の誰よりも{n}適任であると認められたのです。{n}{wait}{end}		
-PSX.15BA20	（「審査」・・・？　{n}　卒業試験の時のあの問題でしょうか？）{n}{wait}{end}		
-PSX.15BA64	（・・・というような内容だった{n}　はずですが・・・）{n}{wait}{end}		
-PSX.15BAA0	上級天使でなく、あなたにこのような{n}ことを任せるのには理由があります。{n}{wait}今、人間達の住む地上界インフォスは{n}非常な危機にひんしているのです。{n}{wait}インフォスは何らかの力によって{n}時の軌道からはずれ、正常な時間軸から{n}はずれてしまっています。{n}{wait}その世界の中に住む人々には気付くことが{n}できないのですが・・・・。{n}{wait}インフォスは前進することのない{n}無限に繰り返す時間流に{n}取り込まれていて、{n}{wait}彼らの時は永遠に同じ一日、同じ季節{n}同じ年を繰り返すばかりなのです・・・。{n}{wait}この異常がつづけば、{n}やがて世界の理が崩れ、インフォスは{n}消滅してしまうでしょう。{n}{wait}我々は上級天使達の力を{n}つかってインフォスの致命的な{n}崩壊をとどめています。{n}{wait}しかしそれではもちろん{n}なんの解決にもなりません・・・。{n}{wait}誰かが、地上へと降り{n}この「時の淀み」ともいうべき{n}混乱の原因を探さなければいけません。{n}{wait}それを今、地上へ降りることの出来ない{n}上級天使達に代って{n}あなたにやってもらいたいのです。{n}{wait}{end}		
-PSX.15BE14	はい・・・。{n}{wait}{end}		
-PSX.15BE28	あと、インフォスの崩壊を{n}我々がくい止める事の出来る時間は{n}１０年間です。{n}{wait}あなたにはその期間に{n}任務を果たして欲しいのです。{n}{wait}{end}		
-PSX.15BEB0	１０年ですか・・・。{n}{wait}{end}		
-PSX.15BECC	あなたには、とても重い任務{n}であることは十分に承知しています。{n}{wait}しかし、このまま地上界を{n}ただ崩壊させる訳にはいかないのです。{n}{wait}あなたしかいないのです。{var:0000}。{n}{wait}行ってくれますね？{n}{wait}はい・・・わかりました。{n}インフォスへ参ります。{n}{wait}ありがとう、{var:0000}。{n}{wait}では、あなたの任務に同行する{n}妖精界からの{n}協力者を紹介しましょう。{n}{wait}{end}		
-PSX.15C01C	{num:00000600}初めまして。ローザといいます。{n}今回、天使様の補佐を任され、{n}光栄に思います。{n}{wait}何かと至らないところも{n}あるかとは思われますが、{n}どうぞよろしくお願い致します。{wait}{end}		
-PSX.15C0C8	彼女は敵を見つける力が優れています。{n}ただ、勇者を見つけるのは苦手ですが。{n}でも優秀であることに変わりないでしょう。{n}{wait}{end}		
-PSX.15C144	{num:00000700}は・・・初めまして。フロリンダです。{n}この格好ですけど、用途によって{n}着てるモノを変えてるんですぅ。{n}{wait}私は、いたって真面目にやってますので、{n}よろしくお願いします。{n}{wait}{end}		
-PSX.15C1F8	彼女、見た目はちょっと・・・ですけど、{n}とっても真面目ないい子です。{n}きっと役に立ってくれるでしょう。{n}{wait}{end}		
-PSX.15C264	{num:00000800}初めまして！！　シェリーです。{n}{wait}実は今回、初仕事なんですけど、{n}天使様も、新人みたいだし、{n}女同士で、がんばりましょう！！{n}{wait}{end}		
-PSX.15C2EC	彼女は勇者探しが得意のようです。{n}少し怠け癖はありますが、持ち前の元気で{n}場を和ましてくれるでしょう。{n}{wait}{end}		
-PSX.15C358	{num:00000900}天使様、初めまして。{n}私、リリィと申します。{n}{wait}今回、大変な職務と聞きますが、{n}精一杯お手伝いさせていただきますので{n}よろしくお願い致します。{n}{wait}{end}		
-PSX.15C3F4	彼女はまんべんなくこなすタイプです。{n}何があっても冷静な判断が出来るのが、{n}彼女の長所でしょう。{n}{wait}{end}		
-PSX.15C45C	あなた一人では難しい任務も、{n}この二人と力を合わせれば{n}きっと、やり遂げられると思います。{n}{wait}最後に、確認のために、{n}あなたに言っておくことがあります。{n}{wait}知ってのとおり、{n}天使が地上界で直接、力をふるうことは、{n}『掟』によって禁じられています。{n}{wait}そこで、インフォスの心ある者、{n}すなわち『勇者』と呼ばれる者の協力を{n}得ていかなければなりません。{n}{wait}インフォスでは今、{n}様々な混乱が生じています。{n}{wait}その混乱を勇者とともに、{n}解決していって下さい。{n}{wait}それが「時の淀み」という真の混乱の{n}原因を探すための第一歩となるはずです。{n}{wait}さあ、これであなたに伝えることはすべて{n}です。{n}{wait}私はあなたを信じています。{n}かならず、任務をやり遂げると。{n}{wait}頑張って下さい。{var:0000}。{n}{wait}{end}		
-PSX.15C6FC	はい。{n}{wait}どこまでご期待にこたえられるかは{n}わかりませんが、{n}できるかぎり努力します。{n}{wait}{end}		
-PSX.15C758	では、お行きなさい。{var:0000}。{n}{wait}{end}		
-PSX.15C778	はい。行ってまいります。{n}{wait}{end}		
-PSX.15C798	愛しき幼い天使よ。{n}汝に大いなる祝福が与えられますように。{n}{wait}{end}		
-PSX.15C968	　　このターンで進める予定を決めて下さい。{end}		no direct pointer
-PSX.15C998	このターンでの予定を決定できます。{end}		
-PSX.15C9C0	ステータス確認をおこなえます。{end}		
-PSX.15C9E4	現在のインフォスの様子を確認できます。{end}		
-PSX.15CA10	ゲームの記録をおこなえます。{end}		
-PSX.15CA34	勇者に会いに行きます。{end}		
-PSX.15CA4C	勇者レベル分のＡＰを消費します。{end}		
-PSX.15CA70	発見した勇者をスカウトしに行きます。{end}		
-PSX.15CA98	ＡＰ１０を消費します。{end}		
-PSX.1660E0	　セーブ{end}		no direct pointer
-PSX.1660EC	ロード{end}		no direct pointer
-PSX.1660F4	キャンセル{end}		no direct pointer
-PSX.166100	スロット１{end}		no direct pointer
-PSX.16610C	スロット２{end}		no direct pointer
-PSX.166118	スロット１の{end}		no direct pointer
-PSX.166126	スロット２の{end}		no direct pointer
-PSX.166134	メモリーカードをチェック中です。{end}		no direct pointer
-PSX.166156	少しお待ちください。{end}		no direct pointer
-PSX.16616C	メモリーカードが壊れています。{end}		no direct pointer
-PSX.16618C	メモリーカードが初期化されていません。{end}		no direct pointer
-PSX.1661B4	初期化しますか？{end}		no direct pointer
-PSX.1661C6	はい　　いいえ{end}		no direct pointer
-PSX.1661D6	メモリーカードを初期化しています。{end}		no direct pointer
-PSX.1661FA	メモリーカードの初期化が終了しました。{end}		no direct pointer
-PSX.166222	メモリーカードの初期化に失敗しました。{end}		no direct pointer
-PSX.16624A	ロードしますか？{end}		no direct pointer
-PSX.16625C	データが壊れています。{end}		no direct pointer
-PSX.166274	ロードしています。{end}		no direct pointer
-PSX.166288	抜かないでください。{end}		no direct pointer
-PSX.16629E	ロードが失敗しました。{end}		no direct pointer
-PSX.1662B6	セーブしますか？{end}		no direct pointer
-PSX.1662C8	上書きしますか？{end}		no direct pointer
-PSX.1662DA	容量が足りません。{end}		no direct pointer
-PSX.1662EE	セーブしています。{end}		no direct pointer
-PSX.166302	セーブが終了しました。{end}		no direct pointer
-PSX.16631A	セーブが失敗しました。{end}		no direct pointer
-PSX.166334	ラビエル{end}		no direct pointer
-PSX.16633E	訪問、スカウトを終了しますか？{end}		no direct pointer
-PSX.16635E	訪問、スカウトを終了します。{end}		no direct pointer
-PSX.16637C	勇者の訪問を終了しますか？{end}		no direct pointer
+PSX.159B98	魔物の罠{n}{end}	Ambush{n}{end}	
+PSX.159BA4	教会襲撃{n}{end}	Arson{n}{end}	
+PSX.159BB0	アドラメレク再び{n}{end}	Adramelech Again{n}{end}	
+PSX.159BC4	湿原の怪物{n}{end}	Bog Beast{n}{end}	
+PSX.159BD4	魔樹ボルンガ反乱{n}{end}	Borunga Revolt{n}{end}	
+PSX.159BE8	魔竜の侵略{n}{end}	Dragon War{n}{end}	
+PSX.159BF8	ミライヤ軍侵略{n}{end}	Miraya Invades{n}{end}	
+PSX.159C0C	魔竜再び{n}{end}	Dragon 2{n}{end}	
+PSX.159C18	山賊ドラッケン{n}{end}	Bandit Drakken{n}{end}	
+PSX.159C2C	翼ある者達{n}{end}	The Winged{n}{end}	
+PSX.159C3C	翼ある者達{n}{end}	The Winged{n}{end}	
+PSX.159C4C	翼ある者達{n}{end}	The Winged{n}{end}	
+PSX.159C5C	翼ある者達{n}{end}	The Winged{n}{end}	
+PSX.159C6C	泥棒スライム{n}{end}	Thief Slime{n}{end}	
+PSX.159C7C	ファンガム脱出{n}{end}	Fangam Escape{n}{end}	
+PSX.159C90	逆臣ステレンス{n}{end}	Sterens' Coup{n}{end}	
+PSX.159CA4	ラダール湖の怪物{n}{end}	Lake Radal Beast{n}{end}	
+PSX.159CB8	死者の軍団{n}{end}	Dead Army{n}{end}	
+PSX.159CC8	地獄の騎士{n}{end}	Hellknight{n}{end}	
+PSX.159CD8	とらわれの騎士{n}{end}	Captive Knight{n}{end}	
+PSX.159CEC	地獄の騎士再び{n}{end}	Hellknight II{n}{end}	
+PSX.159D00	街道の魔物{n}{end}	Road Fiend{n}{end}	
+PSX.159D10	村の焼き討ち{n}{end}	Village Fire{n}{end}	
+PSX.159D20	襲われた領主の城{n}{end}	Castle Besieged{n}{end}	
+PSX.159D34	最後の決戦{n}{end}	Final Duel{n}{end}	
+PSX.159D44	魔将バルバロッサ{n}{end}	Gen. Barbarossa{n}{end}	
+PSX.159D58	ミライヤ進軍{n}{end}	Miraya March{n}{end}	
+PSX.159D68	魔女ミライヤ進軍{n}{end}	Witch Miraya{n}{end}	
+PSX.159D7C	ミライヤの側近{n}{end}	Miraya's Aide{n}{end}	
+PSX.159D90	襲撃された村{n}{end}	Raided Town{n}{end}	
+PSX.159DA0	のろいの泉{n}{end}	Hex Spring{n}{end}	
+PSX.159DB0	魔女シエラ討伐{n}{end}	Witch Sierra{n}{end}	
+PSX.159DC4	悪魔の手先{n}{end}	Demon Pawn{n}{end}	
+PSX.159DD4	レーゼル山の魔人{n}{end}	Fiend of Resel{n}{end}	
+PSX.159DE8	魔獣の襲撃{n}{end}	Beast Raid{n}{end}	
+PSX.159DF8	魔獣の襲撃{n}{end}	Beast Raid{n}{end}	
+PSX.159E08	魔獣の襲撃{n}{end}	Beast Raid{n}{end}	
+PSX.159E18	魔獣の襲撃{n}{end}	Beast Raid{n}{end}	
+PSX.159E28	花園の毒牙{n}{end}	Venom Fang{n}{end}	
+PSX.159E38	魔将ゼビア{n}{end}	Gen. Zebia{n}{end}	
+PSX.159E48	魔将バルト襲撃{n}{end}	Balt Attacks{n}{end}	
+PSX.159E5C	アポルオン復活{n}{end}	Apollyon Lives{n}{end}	
+PSX.159E70	逃げ出した凶悪犯{n}{end}	Escaped Convict{n}{end}	
+PSX.159E84	謎の魔人{n}{end}	Mystery{n}{end}	
+PSX.159E90	武闘魔人の奇襲{n}{end}	Fighter Fiend{n}{end}	
+PSX.159EA4	武闘魔人との対決{n}{end}	Duel the Fiend{n}{end}	
+PSX.159EB8	暴れオーク討伐{n}{end}	Orc Rampage{n}{end}	
+PSX.159ECC	野菜泥棒{n}{end}	Thievery{n}{end}	
+PSX.159ED8	魔物の襲来{n}{end}	Fiend Raid{n}{end}	
+PSX.159EE8	さらわれた娘{n}{end}	Kidnapped{n}{end}	
+PSX.159EF8	クヴァールの巨獣{n}{end}	Kvaal's Behemoth{n}{end}	
+PSX.159F0C	堕天使ガープ{n}{end}	Fallen Gaap{n}{end}	
+PSX.159F1C	アポルオン{n}{end}	Apollyon{n}{end}	
+PSX.159F2C	イウヴァート{n}{end}	Iuvart{n}{end}	
+PSX.159F3C	ラスエル{n}{end}	Rasuel{n}{end}	
+PSX.159F48	気絶した。{n}{end}	fainted.{n}{end}	
+PSX.159F58	乙女の敵{n}{end}	Lecher{n}{end}	
+PSX.159F64	さらわれた花嫁{n}{end}	Stolen Bride{n}{end}	
+PSX.15A858	なんのご用件でしょう。{n}ガブリエル様。{n}{wait}{end}	What is it you need,{n}Lord Gabriel?{n}{wait}{end}	
+PSX.15A884	{var:0000}、{n}{num:00000000}今日、あなたを呼んだのは{n}他でもありません。{n}{wait}{num:00000100}実はあなたにとても重要な任務を{n}まかせたいのです。{n}{wait}{end}	{var:0000},{n}{num:00000000}I called you here today{n}for one reason.{n}{wait}{num:00000100}I wish to entrust you{n}with a very important duty.{n}{wait}{end}	
+PSX.15A900	・・・どんな任務でしょうか？{n}{wait}{end}	...What sort of duty?{n}{wait}{end}	
+PSX.15A924	{num:00000200}それは地上界インフォスの守護です。{n}{wait}{end}	{num:00000200}Guarding Infos, the world below.{n}{wait}{end}	
+PSX.15A954	え、まだアカデミアを出たばかりの、{n}私にですか・・・？{n}{wait}{end}	What? Me? I've only just left{n}the Academia...?{n}{wait}{end}	
+PSX.15A990	{num:00000300}ええ、そうです。{n}{wait}{num:00000400}あなたはアルスアカデミアを{n}とても優秀な成績で卒業しています。{n}{wait}{num:00000500}そして、なにより貴方は「審査」に{n}よって今回の任務に他の誰よりも{n}適任であると認められたのです。{n}{wait}{end}	{num:00000300}Yes, you.{n}{wait}{num:00000400}You graduated from the Ars Academia{n}with outstanding marks.{n}{wait}{num:00000500}Above all, the Review judged you{n}better suited to this duty{n}than anyone else.{n}{wait}{end}	
+PSX.15AA60	（「審査」・・・？　{n}　卒業試験の時のあの問題でしょうか？）{n}{wait}{end}	(The Review...?{n} That question on my final exam?){n}{wait}{end}	
+PSX.15AAA4	（・・・というような内容だった{n}　はずですが・・・）{n}{wait}{end}	(...It was something{n} like that, I think...){n}{wait}{end}	
+PSX.15AAE0	上級天使でなく、あなたにこのような{n}ことを任せるのには理由があります。{n}{wait}今、人間達の住む地上界インフォスは{n}非常な危機にひんしているのです。{n}{wait}インフォスは何らかの力によって{n}時の軌道からはずれ、正常な時間軸から{n}はずれてしまっています。{n}{wait}その世界の中に住む人々には気付くことが{n}できないのですが・・・・。{n}{wait}インフォスは前進することのない{n}無限に繰り返す時間流に{n}取り込まれていて、{n}{wait}彼らの時は永遠に同じ一日、同じ季節{n}同じ年を繰り返すばかりなのです・・・。{n}{wait}この異常がつづけば、{n}やがて世界の理が崩れ、インフォスは{n}消滅してしまうでしょう。{n}{wait}我々は上級天使達の力を{n}つかってインフォスの致命的な{n}崩壊をとどめています。{n}{wait}しかしそれではもちろん{n}なんの解決にもなりません・・・。{n}{wait}誰かが、地上へと降り{n}この「時の淀み」ともいうべき{n}混乱の原因を探さなければいけません。{n}{wait}それを今、地上へ降りることの出来ない{n}上級天使達に代って{n}あなたにやってもらいたいのです。{n}{wait}{end}	I have reasons for entrusting this{n}to you rather than a senior angel.{n}{wait}Infos, the world below where humans{n}live, is now in grave danger.{n}{wait}Some power has knocked Infos{n}out of the orbit of time, off{n}its proper time axis.{n}{wait}The people living in that world{n}cannot notice it, but....{n}{wait}Infos is caught in a flow of time{n}that never moves forward,{n}repeating endlessly,{n}{wait}so its people relive the same day,{n}the same season, the same year,{n}forever...{n}{wait}If this goes on, the laws{n}of that world will crumble,{n}and Infos will vanish.{n}{wait}We are using the power of the senior{n}angels to hold off the fatal{n}collapse of Infos.{n}{wait}But of course, that solves{n}nothing...{n}{wait}Someone must descend to earth{n}and find the cause of this chaos,{n}this Stagnation of Time.{n}{wait}I want you to do that, in place of{n}the senior angels, who cannot{n}descend to earth.{n}{wait}{end}	
+PSX.15AE54	はい・・・。{n}{wait}{end}	Yes...{n}{wait}{end}	
+PSX.15AE68	あと、インフォスの崩壊を{n}我々がくい止める事の出来る時間は{n}１０年間です。{n}{wait}あなたにはその期間に{n}任務を果たして欲しいのです。{n}{wait}{end}	And we can hold off the collapse{n}of Infos for only{n}ten more years.{n}{wait}I want you to complete{n}your duty within that time.{n}{wait}{end}	
+PSX.15AEF0	１０年ですか・・・。{n}{wait}{end}	Ten years...{n}{wait}{end}	
+PSX.15AF0C	あなたには、とても重い任務{n}であることは十分に承知しています。{n}{wait}しかし、このまま地上界を{n}ただ崩壊させる訳にはいかないのです。{n}{wait}あなたしかいないのです。{var:0000}。{n}{wait}行ってくれますね？{n}{wait}はい・・・わかりました。{n}インフォスへ参ります。{n}{wait}ありがとう、{var:0000}。{n}{wait}では、あなたの任務に同行する{n}妖精界からの{n}協力者を紹介しましょう。{n}{wait}{end}	I know full well how heavy{n}a duty this is for you.{n}{wait}But we cannot simply let{n}the world below crumble.{n}{wait}You are the only one, {var:0000}.{n}{wait}You will go, won't you?{n}{wait}Yes... I understand.{n}I will go to Infos.{n}{wait}Thank you, {var:0000}.{n}{wait}Now, let me introduce the helpers{n}from the fairy world who will{n}join you in your duty.{n}{wait}{end}	
+PSX.15B05C	{num:00000600}初めまして。ローザといいます。{n}今回、天使様の補佐を任され、{n}光栄に思います。{n}{wait}何かと至らないところも{n}あるかとは思われますが、{n}どうぞよろしくお願い致します。{wait}{end}	{num:00000600}How do you do. My name is Rosa.{n}I am honored to be chosen{n}to assist you, Angel.{n}{wait}I may fall short at times,{n}but I look forward{n}to working with you.{wait}{end}	
+PSX.15B108	彼女は敵を見つける力が優れています。{n}ただ、勇者を見つけるのは苦手ですが。{n}でも優秀であることに変わりないでしょう。{n}{wait}{end}	She has a fine talent for finding foes,{n}though she is poor at finding heroes.{n}Still, she is most capable.{n}{wait}{end}	
+PSX.15B184	{num:00000700}は・・・初めまして。フロリンダです。{n}この格好ですけど、用途によって{n}着てるモノを変えてるんですぅ。{n}{wait}私は、いたって真面目にやってますので、{n}よろしくお願いします。{n}{wait}{end}	{num:00000700}H-how do you do. I'm Florinda.{n}About this outfit, I change what{n}I wear depending on the jooob!{n}{wait}I'm totally serious about my work,{n}so pleased to meet you!{n}{wait}{end}	
+PSX.15B238	彼女、見た目はちょっと・・・ですけど、{n}とっても真面目ないい子です。{n}きっと役に立ってくれるでしょう。{n}{wait}{end}	She may look a little... well,{n}but she's a very earnest girl.{n}I'm sure she will be a great help.{n}{wait}{end}	
+PSX.15B2A4	{num:00000800}初めまして！！　シェリーです。{n}{wait}実は今回、初仕事なんですけど、{n}お互い新人みたいだし、{n}同士ってコトでがんばりましょう！！{n}{wait}{end}	{num:00000800}Nice to meet you!! I'm Shelly.{n}{wait}Actually, this is my first job,{n}and you seem new too,{n}so let's do our best together!!{n}{wait}{end}	
+PSX.15B32C	彼女は勇者探しが得意のようです。{n}少し怠け癖はありますが、持ち前の元気で{n}場を和ましてくれるでしょう。{n}{wait}{end}	She seems good at finding heroes.{n}She can be a bit lazy, but her energy{n}will brighten things up.{n}{wait}{end}	
+PSX.15B398	{num:00000900}天使様、初めまして。{n}私、リリィと申します。{n}{wait}今回、大変な職務と聞きますが、{n}精一杯お手伝いさせていただきますので{n}よろしくお願い致します。{n}{wait}{end}	{num:00000900}How do you do, Angel.{n}My name is Lily.{n}{wait}I hear this is a hard task,{n}but I'll help with all I have.{n}I look forward to working with you.{n}{wait}{end}	
+PSX.15B434	彼女はまんべんなくこなすタイプです。{n}何があっても冷静な判断が出来るのが、{n}彼女の長所でしょう。{n}{wait}{end}	She's well-rounded at everything.{n}Her strength is that she stays calm{n}whatever happens.{n}{wait}{end}	
+PSX.15B49C	あなた一人では難しい任務も、{n}この二人と力を合わせれば{n}きっと、やり遂げられると思います。{n}{wait}最後に、確認のために、{n}あなたに言っておくことがあります。{n}{wait}知ってのとおり、{n}天使が地上界で直接、力をふるうことは、{n}『掟』によって禁じられています。{n}{wait}そこで、インフォスの心ある者、{n}すなわち『勇者』と呼ばれる者の協力を{n}得ていかなければなりません。{n}{wait}インフォスでは今、{n}様々な混乱が生じています。{n}{wait}その混乱を勇者とともに、{n}解決していって下さい。{n}{wait}それが「時の淀み」という真の混乱の{n}原因を探すための第一歩となるはずです。{n}{wait}さあ、これであなたに伝えることはすべて{n}です。{n}{wait}私はあなたを信じています。{n}かならず、任務をやり遂げると。{n}{wait}頑張って下さい。{var:0000}。{n}{wait}{end}	A duty too hard for you alone{n}can surely be done if you{n}join forces with these two.{n}{wait}Lastly, there is something I must{n}remind you of.{n}{wait}As you know,{n}angels are forbidden by the Law{n}to wield power directly on earth.{n}{wait}So you must gain the help{n}of Infos's good-hearted people,{n}those called heroes.{n}{wait}Infos is now beset{n}by all sorts of turmoil.{n}{wait}Please resolve that turmoil{n}together with the heroes.{n}{wait}That should be the first step toward{n}finding the cause of the true chaos,{n}the Stagnation of Time.{n}{wait}That is all I have to tell you.{n}{wait}I believe in you.{n}I know you will fulfill your duty.{n}{wait}Do your best, {var:0000}.{n}{wait}{end}	
+PSX.15B73C	はい。{n}{wait}どこまでご期待にこたえられるかは{n}わかりませんが、{n}できるかぎり努力します。{n}{wait}{end}	Yes.{n}{wait}I can't say how well I'll{n}live up to your hopes,{n}but I'll do my best.{n}{wait}{end}	
+PSX.15B798	では、お行きなさい。{var:0000}。{n}{wait}{end}	Now go, {var:0000}.{n}{wait}{end}	
+PSX.15B7B8	はい。行ってまいります。{n}{wait}{end}	Yes. I'm on my way.{n}{wait}{end}	
+PSX.15B7D8	愛しき幼い天使よ。{n}汝に大いなる祝福が与えられますように。{n}{wait}{end}	Dear young angel,{n}may great blessings be upon you.{n}{wait}{end}	
+PSX.15B818	なんのご用件でしょう。{n}ガブリエル様。{n}{wait}{end}	What is it you need,{n}Lord Gabriel?{n}{wait}{end}	
+PSX.15B844	{var:0000}、{n}{num:00000000}今日、あなたを呼んだのは{n}他でもありません。{n}{wait}{num:00000100}実はあなたにとても重要な任務を{n}まかせたいのです。{n}{wait}{end}	{var:0000},{n}{num:00000000}I called you here today{n}for one reason.{n}{wait}{num:00000100}I wish to entrust you{n}with a very important duty.{n}{wait}{end}	
+PSX.15B8C0	・・・どんな任務でしょうか？{n}{wait}{end}	...What sort of duty?{n}{wait}{end}	
+PSX.15B8E4	{num:00000200}それは地上界インフォスの守護です。{n}{wait}{end}	{num:00000200}Guarding Infos, the world below.{n}{wait}{end}	
+PSX.15B914	え、まだアカデミアを出たばかりの、{n}私にですか・・・？{n}{wait}{end}	What? Me? I've only just left{n}the Academia...?{n}{wait}{end}	
+PSX.15B950	{num:00000300}ええ、そうです。{n}{wait}{num:00000400}あなたはアルスアカデミアを{n}とても優秀な成績で卒業しています。{n}{wait}{num:00000500}そして、なにより貴方は「審査」に{n}よって今回の任務に他の誰よりも{n}適任であると認められたのです。{n}{wait}{end}	{num:00000300}Yes, you.{n}{wait}{num:00000400}You graduated from the Ars Academia{n}with outstanding marks.{n}{wait}{num:00000500}Above all, the Review judged you{n}better suited to this duty{n}than anyone else.{n}{wait}{end}	
+PSX.15BA20	（「審査」・・・？　{n}　卒業試験の時のあの問題でしょうか？）{n}{wait}{end}	(The Review...?{n} That question on my final exam?){n}{wait}{end}	
+PSX.15BA64	（・・・というような内容だった{n}　はずですが・・・）{n}{wait}{end}	(...It was something{n} like that, I think...){n}{wait}{end}	
+PSX.15BAA0	上級天使でなく、あなたにこのような{n}ことを任せるのには理由があります。{n}{wait}今、人間達の住む地上界インフォスは{n}非常な危機にひんしているのです。{n}{wait}インフォスは何らかの力によって{n}時の軌道からはずれ、正常な時間軸から{n}はずれてしまっています。{n}{wait}その世界の中に住む人々には気付くことが{n}できないのですが・・・・。{n}{wait}インフォスは前進することのない{n}無限に繰り返す時間流に{n}取り込まれていて、{n}{wait}彼らの時は永遠に同じ一日、同じ季節{n}同じ年を繰り返すばかりなのです・・・。{n}{wait}この異常がつづけば、{n}やがて世界の理が崩れ、インフォスは{n}消滅してしまうでしょう。{n}{wait}我々は上級天使達の力を{n}つかってインフォスの致命的な{n}崩壊をとどめています。{n}{wait}しかしそれではもちろん{n}なんの解決にもなりません・・・。{n}{wait}誰かが、地上へと降り{n}この「時の淀み」ともいうべき{n}混乱の原因を探さなければいけません。{n}{wait}それを今、地上へ降りることの出来ない{n}上級天使達に代って{n}あなたにやってもらいたいのです。{n}{wait}{end}	I have reasons for entrusting this{n}to you rather than a senior angel.{n}{wait}Infos, the world below where humans{n}live, is now in grave danger.{n}{wait}Some power has knocked Infos{n}out of the orbit of time, off{n}its proper time axis.{n}{wait}The people living in that world{n}cannot notice it, but....{n}{wait}Infos is caught in a flow of time{n}that never moves forward,{n}repeating endlessly,{n}{wait}so its people relive the same day,{n}the same season, the same year,{n}forever...{n}{wait}If this goes on, the laws{n}of that world will crumble,{n}and Infos will vanish.{n}{wait}We are using the power of the senior{n}angels to hold off the fatal{n}collapse of Infos.{n}{wait}But of course, that solves{n}nothing...{n}{wait}Someone must descend to earth{n}and find the cause of this chaos,{n}this Stagnation of Time.{n}{wait}I want you to do that, in place of{n}the senior angels, who cannot{n}descend to earth.{n}{wait}{end}	
+PSX.15BE14	はい・・・。{n}{wait}{end}	Yes...{n}{wait}{end}	
+PSX.15BE28	あと、インフォスの崩壊を{n}我々がくい止める事の出来る時間は{n}１０年間です。{n}{wait}あなたにはその期間に{n}任務を果たして欲しいのです。{n}{wait}{end}	And we can hold off the collapse{n}of Infos for only{n}ten more years.{n}{wait}I want you to complete{n}your duty within that time.{n}{wait}{end}	
+PSX.15BEB0	１０年ですか・・・。{n}{wait}{end}	Ten years...{n}{wait}{end}	
+PSX.15BECC	あなたには、とても重い任務{n}であることは十分に承知しています。{n}{wait}しかし、このまま地上界を{n}ただ崩壊させる訳にはいかないのです。{n}{wait}あなたしかいないのです。{var:0000}。{n}{wait}行ってくれますね？{n}{wait}はい・・・わかりました。{n}インフォスへ参ります。{n}{wait}ありがとう、{var:0000}。{n}{wait}では、あなたの任務に同行する{n}妖精界からの{n}協力者を紹介しましょう。{n}{wait}{end}	I know full well how heavy{n}a duty this is for you.{n}{wait}But we cannot simply let{n}the world below crumble.{n}{wait}You are the only one, {var:0000}.{n}{wait}You will go, won't you?{n}{wait}Yes... I understand.{n}I will go to Infos.{n}{wait}Thank you, {var:0000}.{n}{wait}Now, let me introduce the helpers{n}from the fairy world who will{n}join you in your duty.{n}{wait}{end}	
+PSX.15C01C	{num:00000600}初めまして。ローザといいます。{n}今回、天使様の補佐を任され、{n}光栄に思います。{n}{wait}何かと至らないところも{n}あるかとは思われますが、{n}どうぞよろしくお願い致します。{wait}{end}	{num:00000600}How do you do. My name is Rosa.{n}I am honored to be chosen{n}to assist you, Angel.{n}{wait}I may fall short at times,{n}but I look forward{n}to working with you.{wait}{end}	
+PSX.15C0C8	彼女は敵を見つける力が優れています。{n}ただ、勇者を見つけるのは苦手ですが。{n}でも優秀であることに変わりないでしょう。{n}{wait}{end}	She has a fine talent for finding foes,{n}though she is poor at finding heroes.{n}Still, she is most capable.{n}{wait}{end}	
+PSX.15C144	{num:00000700}は・・・初めまして。フロリンダです。{n}この格好ですけど、用途によって{n}着てるモノを変えてるんですぅ。{n}{wait}私は、いたって真面目にやってますので、{n}よろしくお願いします。{n}{wait}{end}	{num:00000700}H-how do you do. I'm Florinda.{n}About this outfit, I change what{n}I wear depending on the jooob!{n}{wait}I'm totally serious about my work,{n}so pleased to meet you!{n}{wait}{end}	
+PSX.15C1F8	彼女、見た目はちょっと・・・ですけど、{n}とっても真面目ないい子です。{n}きっと役に立ってくれるでしょう。{n}{wait}{end}	She may look a little... well,{n}but she's a very earnest girl.{n}I'm sure she will be a great help.{n}{wait}{end}	
+PSX.15C264	{num:00000800}初めまして！！　シェリーです。{n}{wait}実は今回、初仕事なんですけど、{n}天使様も、新人みたいだし、{n}女同士で、がんばりましょう！！{n}{wait}{end}	{num:00000800}Nice to meet you!! I'm Shelly.{n}{wait}Actually, this is my first job,{n}and you're new too, Angel,{n}so let's go for it, girls!!{n}{wait}{end}	
+PSX.15C2EC	彼女は勇者探しが得意のようです。{n}少し怠け癖はありますが、持ち前の元気で{n}場を和ましてくれるでしょう。{n}{wait}{end}	She seems good at finding heroes.{n}She can be a bit lazy, but her energy{n}will brighten things up.{n}{wait}{end}	
+PSX.15C358	{num:00000900}天使様、初めまして。{n}私、リリィと申します。{n}{wait}今回、大変な職務と聞きますが、{n}精一杯お手伝いさせていただきますので{n}よろしくお願い致します。{n}{wait}{end}	{num:00000900}How do you do, Angel.{n}My name is Lily.{n}{wait}I hear this is a hard task,{n}but I'll help with all I have.{n}I look forward to working with you.{n}{wait}{end}	
+PSX.15C3F4	彼女はまんべんなくこなすタイプです。{n}何があっても冷静な判断が出来るのが、{n}彼女の長所でしょう。{n}{wait}{end}	She's well-rounded at everything.{n}Her strength is that she stays calm{n}whatever happens.{n}{wait}{end}	
+PSX.15C45C	あなた一人では難しい任務も、{n}この二人と力を合わせれば{n}きっと、やり遂げられると思います。{n}{wait}最後に、確認のために、{n}あなたに言っておくことがあります。{n}{wait}知ってのとおり、{n}天使が地上界で直接、力をふるうことは、{n}『掟』によって禁じられています。{n}{wait}そこで、インフォスの心ある者、{n}すなわち『勇者』と呼ばれる者の協力を{n}得ていかなければなりません。{n}{wait}インフォスでは今、{n}様々な混乱が生じています。{n}{wait}その混乱を勇者とともに、{n}解決していって下さい。{n}{wait}それが「時の淀み」という真の混乱の{n}原因を探すための第一歩となるはずです。{n}{wait}さあ、これであなたに伝えることはすべて{n}です。{n}{wait}私はあなたを信じています。{n}かならず、任務をやり遂げると。{n}{wait}頑張って下さい。{var:0000}。{n}{wait}{end}	A duty too hard for you alone{n}can surely be done if you{n}join forces with these two.{n}{wait}Lastly, there is something I must{n}remind you of.{n}{wait}As you know,{n}angels are forbidden by the Law{n}to wield power directly on earth.{n}{wait}So you must gain the help{n}of Infos's good-hearted people,{n}those called heroes.{n}{wait}Infos is now beset{n}by all sorts of turmoil.{n}{wait}Please resolve that turmoil{n}together with the heroes.{n}{wait}That should be the first step toward{n}finding the cause of the true chaos,{n}the Stagnation of Time.{n}{wait}That is all I have to tell you.{n}{wait}I believe in you.{n}I know you will fulfill your duty.{n}{wait}Do your best, {var:0000}.{n}{wait}{end}	
+PSX.15C6FC	はい。{n}{wait}どこまでご期待にこたえられるかは{n}わかりませんが、{n}できるかぎり努力します。{n}{wait}{end}	Yes.{n}{wait}I can't say how well I'll{n}live up to your hopes,{n}but I'll do my best.{n}{wait}{end}	
+PSX.15C758	では、お行きなさい。{var:0000}。{n}{wait}{end}	Now go, {var:0000}.{n}{wait}{end}	
+PSX.15C778	はい。行ってまいります。{n}{wait}{end}	Yes. I'm on my way.{n}{wait}{end}	
+PSX.15C798	愛しき幼い天使よ。{n}汝に大いなる祝福が与えられますように。{n}{wait}{end}	Dear young angel,{n}may great blessings be upon you.{n}{wait}{end}	
+PSX.15C968	　　このターンで進める予定を決めて下さい。{end}	  Set the schedule for this turn.{end}	no direct pointer
+PSX.15C998	このターンでの予定を決定できます。{end}	Set this turn's schedule.{end}	
+PSX.15C9C0	ステータス確認をおこなえます。{end}	Check the status screens.{end}	
+PSX.15C9E4	現在のインフォスの様子を確認できます。{end}	See the current state of Infos.{end}	
+PSX.15CA10	ゲームの記録をおこなえます。{end}	Save your game.{end}	
+PSX.15CA34	勇者に会いに行きます。{end}	Go meet a hero.{end}	
+PSX.15CA4C	勇者レベル分のＡＰを消費します。{end}	Costs AP equal to hero level.{end}	
+PSX.15CA70	発見した勇者をスカウトしに行きます。{end}	Go scout a hero you've found.{end}	
+PSX.15CA98	ＡＰ１０を消費します。{end}	Costs 10 AP.{end}	
+PSX.1660E0	　セーブ{end}	  Save{end}	no direct pointer
+PSX.1660EC	ロード{end}	Load{end}	no direct pointer
+PSX.1660F4	キャンセル{end}	Cancel{end}	no direct pointer
+PSX.166100	スロット１{end}	Slot 1{end}	no direct pointer
+PSX.16610C	スロット２{end}	Slot 2{end}	no direct pointer
+PSX.166118	スロット１の{end}	Slot 1: {end}	no direct pointer
+PSX.166126	スロット２の{end}	Slot 2: {end}	no direct pointer
+PSX.166134	メモリーカードをチェック中です。{end}	Checking memory card.{end}	no direct pointer
+PSX.166156	少しお待ちください。{end}	Please wait.{end}	no direct pointer
+PSX.16616C	メモリーカードが壊れています。{end}	Memory card is damaged.{end}	no direct pointer
+PSX.16618C	メモリーカードが初期化されていません。{end}	Memory card is not formatted.{end}	no direct pointer
+PSX.1661B4	初期化しますか？{end}	Format it?{end}	no direct pointer
+PSX.1661C6	はい　　いいえ{end}	Yes     No{end}	no direct pointer
+PSX.1661D6	メモリーカードを初期化しています。{end}	Formatting memory card.{end}	no direct pointer
+PSX.1661FA	メモリーカードの初期化が終了しました。{end}	Memory card formatted.{end}	no direct pointer
+PSX.166222	メモリーカードの初期化に失敗しました。{end}	Formatting failed.{end}	no direct pointer
+PSX.16624A	ロードしますか？{end}	Load this file?{end}	no direct pointer
+PSX.16625C	データが壊れています。{end}	The data is damaged.{end}	no direct pointer
+PSX.166274	ロードしています。{end}	Loading...{end}	no direct pointer
+PSX.166288	抜かないでください。{end}	Don't remove card.{end}	no direct pointer
+PSX.16629E	ロードが失敗しました。{end}	Loading failed.{end}	no direct pointer
+PSX.1662B6	セーブしますか？{end}	Save the game?{end}	no direct pointer
+PSX.1662C8	上書きしますか？{end}	Overwrite?{end}	no direct pointer
+PSX.1662DA	容量が足りません。{end}	Not enough space.{end}	no direct pointer
+PSX.1662EE	セーブしています。{end}	Saving...{end}	no direct pointer
+PSX.166302	セーブが終了しました。{end}	Save complete.{end}	no direct pointer
+PSX.16631A	セーブが失敗しました。{end}	Saving failed.{end}	no direct pointer
+PSX.166334	ラビエル{end}	Raviel{end}	no direct pointer
+PSX.16633E	訪問、スカウトを終了しますか？{end}	End visits and scouting?{end}	no direct pointer
+PSX.16635E	訪問、スカウトを終了します。{end}	Ending visits and scouting.{end}	no direct pointer
+PSX.16637C	勇者の訪問を終了しますか？{end}	End your hero visit?{end}	no direct pointer
 PSX.166398	贈りますか？装備不可　　攻撃力防御力素早さ{end}		no direct pointer
 PSX.1663C4	正義感ストレス体　力アイテム中です。　　　{end}		no direct pointer
-PSX.16641C	スピットファイア{end}		no direct pointer
-PSX.16642E	トライミラージュ{end}		no direct pointer
-PSX.166440	レッドデフィート{end}		no direct pointer
-PSX.166452	レイヴレイク{end}		no direct pointer
-PSX.166460	スピニングレイド{end}		no direct pointer
-PSX.166472	グランドゼロ{end}		no direct pointer
-PSX.166480	ダブルペイン{end}		no direct pointer
-PSX.16648E	メガクラッシュ{end}		no direct pointer
-PSX.16649E	エリアルシェイヴ{end}		no direct pointer
-PSX.1664B0	ラッシュアロー{end}		no direct pointer
-PSX.1664C0	シャインスコール{end}		no direct pointer
-PSX.1664D2	フォースシュート{end}		no direct pointer
-PSX.1664E4	トリプルダガー{end}		no direct pointer
-PSX.1664F4	ダガーフロック{end}		no direct pointer
-PSX.166504	デッドオアライヴ{end}		no direct pointer
-PSX.166516	ダブルブーメラン{end}		no direct pointer
-PSX.166528	リトルタイフーン{end}		no direct pointer
-PSX.16653A	スパークサンダー{end}		no direct pointer
-PSX.16654C	バーニングソード{end}		no direct pointer
-PSX.16655E	ソーラーウィンド{end}		no direct pointer
-PSX.166570	ドラグフォース{end}		no direct pointer
-PSX.166580	ソードラッシュ{end}		no direct pointer
-PSX.166590	ソニックブレード{end}		no direct pointer
-PSX.1665A2	ソルプロミネンス{end}		no direct pointer
-PSX.1665B4	ストライクダガー{end}		no direct pointer
-PSX.1665C6	ダガーウィンド{end}		no direct pointer
-PSX.1665D6	スライムナイツ{end}		no direct pointer
-PSX.1665E6	ヒールキック{end}		no direct pointer
-PSX.1665F4	パワーシュート{end}		no direct pointer
-PSX.166604	アースゲイザー{end}		no direct pointer
-PSX.166614	ラッシングビート{end}		no direct pointer
-PSX.166626	ソウルクラップ{end}		no direct pointer
-PSX.166636	クインズジェイル{end}		no direct pointer
-PSX.166648	ラッキーハンマー{end}		no direct pointer
-PSX.16665A	メガトンハンマー{end}		no direct pointer
-PSX.16666C	テンペストハーツ{end}		no direct pointer
+PSX.16641C	スピットファイア{end}	Spitfire{end}	no direct pointer
+PSX.16642E	トライミラージュ{end}	Tri-Mirage{end}	no direct pointer
+PSX.166440	レッドデフィート{end}	Red Defeat{end}	no direct pointer
+PSX.166452	レイヴレイク{end}	Reiv Rake{end}	no direct pointer
+PSX.166460	スピニングレイド{end}	Spinning Raid{end}	no direct pointer
+PSX.166472	グランドゼロ{end}	Ground Zero{end}	no direct pointer
+PSX.166480	ダブルペイン{end}	Double Pain{end}	no direct pointer
+PSX.16648E	メガクラッシュ{end}	Mega Crush{end}	no direct pointer
+PSX.16649E	エリアルシェイヴ{end}	Aerial Shave{end}	no direct pointer
+PSX.1664B0	ラッシュアロー{end}	Rush Arrow{end}	no direct pointer
+PSX.1664C0	シャインスコール{end}	Shine Squall{end}	no direct pointer
+PSX.1664D2	フォースシュート{end}	Force Shoot{end}	no direct pointer
+PSX.1664E4	トリプルダガー{end}	Triple Dagger{end}	no direct pointer
+PSX.1664F4	ダガーフロック{end}	Dagger Flock{end}	no direct pointer
+PSX.166504	デッドオアライヴ{end}	Dead or Alive{end}	no direct pointer
+PSX.166516	ダブルブーメラン{end}	Double Boomerang{end}	no direct pointer
+PSX.166528	リトルタイフーン{end}	Little Typhoon{end}	no direct pointer
+PSX.16653A	スパークサンダー{end}	Spark Thunder{end}	no direct pointer
+PSX.16654C	バーニングソード{end}	Burning Sword{end}	no direct pointer
+PSX.16655E	ソーラーウィンド{end}	Solar Wind{end}	no direct pointer
+PSX.166570	ドラグフォース{end}	Drag Force{end}	no direct pointer
+PSX.166580	ソードラッシュ{end}	Sword Rush{end}	no direct pointer
+PSX.166590	ソニックブレード{end}	Sonic Blade{end}	no direct pointer
+PSX.1665A2	ソルプロミネンス{end}	Sol Prominence{end}	no direct pointer
+PSX.1665B4	ストライクダガー{end}	Strike Dagger{end}	no direct pointer
+PSX.1665C6	ダガーウィンド{end}	Dagger Wind{end}	no direct pointer
+PSX.1665D6	スライムナイツ{end}	Slime Knights{end}	no direct pointer
+PSX.1665E6	ヒールキック{end}	Heel Kick{end}	no direct pointer
+PSX.1665F4	パワーシュート{end}	Power Shoot{end}	no direct pointer
+PSX.166604	アースゲイザー{end}	Earth Geyser{end}	no direct pointer
+PSX.166614	ラッシングビート{end}	Rushing Beat{end}	no direct pointer
+PSX.166626	ソウルクラップ{end}	Soul Clap{end}	no direct pointer
+PSX.166636	クインズジェイル{end}	Queen's Jail{end}	no direct pointer
+PSX.166648	ラッキーハンマー{end}	Lucky Hammer{end}	no direct pointer
+PSX.16665A	メガトンハンマー{end}	Megaton Hammer{end}	no direct pointer
+PSX.16666C	テンペストハーツ{end}	Tempest Hearts{end}	no direct pointer
 PSX.017DA4	ＡＢＣＤＥＦＧＨａｂｃｄｅｆｇｈＩＪＫＬＭＮＯＰｉｊｋｌｍｎｏｐＱＲＳＴＵＶＷＸｑｒｓｔｕｖｗｘＹＺ{end}		name-entry grid: exactly 51 cells, {end} = empty cell
 PSX.017E64	　　　　　　　　　　　　　　　　アイウエオカキクケコサシスセソ{end}タチツテトナニヌネノハヒフヘホ{end}マミムメモヤ{end}ユ{end}ヨラリルレロ{end}ワ{end}ヲ{end}ンァィゥェォッャュョ{end}{end}ガギグゲゴザジズゼゾダヂヅデド{end}バビブベボパピプペポヴｰ{end}{end}{end}{end}　　　　　　　　　　　　　　　　あいうえおかきくけこさしすせそ{end}たちつてとなにぬねのはひふへほ{end}まみむめもや{end}ゆ{end}よらりるれろ{end}わ{end}を{end}んぁぃぅぇぉっゃゅょ{end}{end}がぎぐげござじずぜぞだぢづでど{end}ばびぶべぼぱぴぷぺぽ{end}		name-entry grid: exactly 219 cells, {end} = empty cell

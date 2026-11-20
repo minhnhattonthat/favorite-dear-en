@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, all 144 event batches done (b001-b144, `batches.py todo` empty; b103-b104 are all glyph soup `-`), pilot checked in game; left: exe/staff/sjis text (Next 3) and the review pass (Next 4).
+- **Phase:** 6. Translate: in progress, all 144 event batches done (b001-b144, `batches.py todo` empty; b103-b104 are all glyph soup `-`), pilot checked in game; PSX.EXE strings and credits done (Next 3); left: the review pass (Next 4).
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)
@@ -55,9 +55,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
      Story facts learned: Miraya is Felimi's elder sister (Duminas army); Rush is the sacred beast Jackhound who
      killed Yaruru's father Ludock; Regal (Knight in Black) is Reiv's friend; Adramelech burned Sievas's town 15 years
      ago; Apollyon killed Fiana's parents; Dian's lost love is Liza.
-  3. Not yet batched: `script/exe.tsv` (867 PSX.EXE rows, need a variant tag per row from `docs/windows.tsv`: hub help
-     40, location 11, list 17, week tag/ACTION 10, save 12, confirm 16 (+6 hidden), yes/no 7), `script/staff.tsv`
-     (credits, 14 full-width letters minus indent), `script/sjis.tsv` (memory-card titles).
+  3. Done 2026-11-20: `script/exe.tsv` via `tools/exetext.py` (816 families in `trans/exe/batches/x001-x007`, outputs
+     `trans/exe/en/`; every string fits its in-place slot, so names and labels are short forms, glossary "PSX.EXE
+     strings"; `-` kept Japanese: mission title PSX.159B88 盗賊・闇馬車 (Dark Carriage does not fit 12 letters) and
+     the offset-indexed field rows PSX.166398/1663C4). Credits via `tools/stafftext.py` (`trans/staff/en.tsv`, 14
+     letters; long names take an initial; the two-name painter lines STAFF.289-292 and 345-347 stay Japanese as no
+     family-name pair fits; STAFF.459 ＮＥＣインターチャネル stays). Staff name readings are my Hepburn guesses (see
+     Waiting on the user). STAFF.TXT grows 4162 -> 5056 bytes: check the roll in game (`warp.py credits`). Not done:
+     `script/sjis.tsv` memory-card titles (no insert path yet; phase 7).
   4. Review pass (self, fresh read-only, or codex after 11-26): pairs per batch, Critical/Important fixed.
   Phase 7 items already known: odd-length runtime names (`{name:0180}` "Tia") leave a half-cell gap before the next
   text ("Tia 's"); re-pair in the name-insert path or pad names. Row 3498.1550 (gift-name list run together, cut by
@@ -106,5 +111,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Event names map to GDATA files through the name lookup at 0x8003B680 (462 ids); useful for naming TSVs in QA.
   - 1824 of 9094 messages are referenced directly; how the rest are reached matters only for message order on insert.
   - Movies DEMO.STR / ENDING.STR / the end of OP.STR not checked for burned-in text.
-- **Waiting on the user:** nothing.
+- **Waiting on the user:** (not blocking) the credits romanize real staff and cast names from kanji by my reading
+  (`trans/staff/en.tsv`, given name first, Hepburn); readings such as 新千恵子 "C. Atarashi", 角田早穂 "Saho
+  Tsunoda", 溝上真紀子 "M. Mizokami", 龍谷修武 "O. Ryutani", 萩原由乃 "Y. Hagiwara", 藤田顕史 "Kenji Fujita" are
+  unverified. Corrections welcome; the build works either way.
 - **Open bugs:** none.

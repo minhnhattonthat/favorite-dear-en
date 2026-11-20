@@ -1,0 +1,97 @@
+id	en
+PSX.15AE54	Yes...{n}{wait}{end}
+PSX.15AE68	And we can hold off the collapse{n}of Infos for only{n}ten more years.{n}{wait}I want you to complete{n}your duty within that time.{n}{wait}{end}
+PSX.15AEF0	Ten years...{n}{wait}{end}
+PSX.15AF0C	I know full well how heavy{n}a duty this is for you.{n}{wait}But we cannot simply let{n}the world below crumble.{n}{wait}You are the only one, {var:0000}.{n}{wait}You will go, won't you?{n}{wait}Yes... I understand.{n}I will go to Infos.{n}{wait}Thank you, {var:0000}.{n}{wait}Now, let me introduce the helpers{n}from the fairy world who will{n}join you in your duty.{n}{wait}{end}
+PSX.15B05C	{num:00000600}How do you do. My name is Rosa.{n}I am honored to be chosen{n}to assist you, Angel.{n}{wait}I may fall short at times,{n}but I look forward{n}to working with you.{wait}{end}
+PSX.15B108	She has a fine talent for finding foes,{n}though she is poor at finding heroes.{n}Still, she is most capable.{n}{wait}{end}
+PSX.15B184	{num:00000700}H-how do you do. I'm Florinda.{n}About this outfit, I change what{n}I wear depending on the jooob!{n}{wait}I'm totally serious about my work,{n}so pleased to meet you!{n}{wait}{end}
+PSX.15B238	She may look a little... well,{n}but she's a very earnest girl.{n}I'm sure she will be a great help.{n}{wait}{end}
+PSX.15B2A4	{num:00000800}Nice to meet you!! I'm Shelly.{n}{wait}Actually, this is my first job,{n}and you seem new too,{n}so let's do our best together!!{n}{wait}{end}
+PSX.15B32C	She seems good at finding heroes.{n}She can be a bit lazy, but her energy{n}will brighten things up.{n}{wait}{end}
+PSX.15B398	{num:00000900}How do you do, Angel.{n}My name is Lily.{n}{wait}I hear this is a hard task,{n}but I'll help with all I have.{n}I look forward to working with you.{n}{wait}{end}
+PSX.15B434	She's well-rounded at everything.{n}Her strength is that she stays calm{n}whatever happens.{n}{wait}{end}
+PSX.15B49C	A duty too hard for you alone{n}can surely be done if you{n}join forces with these two.{n}{wait}Lastly, there is something I must{n}remind you of.{n}{wait}As you know,{n}angels are forbidden by the Law{n}to wield power directly on earth.{n}{wait}So you must gain the help{n}of Infos's good-hearted people,{n}those called heroes.{n}{wait}Infos is now beset{n}by all sorts of turmoil.{n}{wait}Please resolve that turmoil{n}together with the heroes.{n}{wait}That should be the first step toward{n}finding the cause of the true chaos,{n}the Stagnation of Time.{n}{wait}That is all I have to tell you.{n}{wait}I believe in you.{n}I know you will fulfill your duty.{n}{wait}Do your best, {var:0000}.{n}{wait}{end}
+PSX.15B73C	Yes.{n}{wait}I can't say how well I'll{n}live up to your hopes,{n}but I'll do my best.{n}{wait}{end}
+PSX.15B798	Now go, {var:0000}.{n}{wait}{end}
+PSX.15B7B8	Yes. I'm on my way.{n}{wait}{end}
+PSX.15B7D8	Dear young angel,{n}may great blessings be upon you.{n}{wait}{end}
+PSX.15C264	{num:00000800}Nice to meet you!! I'm Shelly.{n}{wait}Actually, this is my first job,{n}and you're new too, Angel,{n}so let's go for it, girls!!{n}{wait}{end}
+PSX.15C968	  Set the schedule for this turn.{end}
+PSX.15C998	Set this turn's schedule.{end}
+PSX.15C9C0	Check the status screens.{end}
+PSX.15C9E4	See the current state of Infos.{end}
+PSX.15CA10	Save your game.{end}
+PSX.15CA34	Go meet a hero.{end}
+PSX.15CA4C	Costs AP equal to hero level.{end}
+PSX.15CA70	Go scout a hero you've found.{end}
+PSX.15CA98	Costs 10 AP.{end}
+PSX.1660E0	  Save{end}
+PSX.1660EC	Load{end}
+PSX.1660F4	Cancel{end}
+PSX.166100	Slot 1{end}
+PSX.16610C	Slot 2{end}
+PSX.166118	Slot 1: {end}
+PSX.166126	Slot 2: {end}
+PSX.166134	Checking memory card.{end}
+PSX.166156	Please wait.{end}
+PSX.16616C	Memory card is damaged.{end}
+PSX.16618C	Memory card is not formatted.{end}
+PSX.1661B4	Format it?{end}
+PSX.1661C6	Yes     No{end}
+PSX.1661D6	Formatting memory card.{end}
+PSX.1661FA	Memory card formatted.{end}
+PSX.166222	Formatting failed.{end}
+PSX.16624A	Load this file?{end}
+PSX.16625C	The data is damaged.{end}
+PSX.166274	Loading...{end}
+PSX.166288	Don't remove card.{end}
+PSX.16629E	Loading failed.{end}
+PSX.1662B6	Save the game?{end}
+PSX.1662C8	Overwrite?{end}
+PSX.1662DA	Not enough space.{end}
+PSX.1662EE	Saving...{end}
+PSX.166302	Save complete.{end}
+PSX.16631A	Saving failed.{end}
+PSX.166334	Raviel{end}
+PSX.16633E	End visits and scouting?{end}
+PSX.16635E	Ending visits and scouting.{end}
+PSX.16637C	End your hero visit?{end}
+PSX.166398	-
+PSX.1663C4	-
+PSX.16641C	Spitfire{end}
+PSX.16642E	Tri-Mirage{end}
+PSX.166440	Red Defeat{end}
+PSX.166452	Reiv Rake{end}
+PSX.166460	Spinning Raid{end}
+PSX.166472	Ground Zero{end}
+PSX.166480	Double Pain{end}
+PSX.16648E	Mega Crush{end}
+PSX.16649E	Aerial Shave{end}
+PSX.1664B0	Rush Arrow{end}
+PSX.1664C0	Shine Squall{end}
+PSX.1664D2	Force Shoot{end}
+PSX.1664E4	Triple Dagger{end}
+PSX.1664F4	Dagger Flock{end}
+PSX.166504	Dead or Alive{end}
+PSX.166516	Double Boomerang{end}
+PSX.166528	Little Typhoon{end}
+PSX.16653A	Spark Thunder{end}
+PSX.16654C	Burning Sword{end}
+PSX.16655E	Solar Wind{end}
+PSX.166570	Drag Force{end}
+PSX.166580	Sword Rush{end}
+PSX.166590	Sonic Blade{end}
+PSX.1665A2	Sol Prominence{end}
+PSX.1665B4	Strike Dagger{end}
+PSX.1665C6	Dagger Wind{end}
+PSX.1665D6	Slime Knights{end}
+PSX.1665E6	Heel Kick{end}
+PSX.1665F4	Power Shoot{end}
+PSX.166604	Earth Geyser{end}
+PSX.166614	Rushing Beat{end}
+PSX.166626	Soul Clap{end}
+PSX.166636	Queen's Jail{end}
+PSX.166648	Lucky Hammer{end}
+PSX.16665A	Megaton Hammer{end}
+PSX.16666C	Tempest Hearts{end}

@@ -2,9 +2,13 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, 1 of 144 event batches done (b001), tooling and glossary in place.
-- **Builds (2026-11-20, phase 6 b001):** `favorite_dear_en.bin` sha1 46995275411792935e8c8c59d92fd4c67d80331b
-  (b001 English, 54 rows in 3495/3498/349C/34BA), smoke ok. Marker/ruler/torture builds as in phase 5.
+- **Phase:** 6. Translate: in progress, 7 of 144 event batches done (b001-b005, b024, b025), pilot checked in game.
+- **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
+  0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5.
+- **Pilot (done 2026-11-20):** `warp.py myh16` on the English build (`work/qa/warp/myh16/`, f015540, f015720): Reiv's
+  scouting in English, wrap at 40 letters gives clean 3-line boxes, no overflow, continuation pages fine. The warp's
+  angel name is the Japanese default ラビエル (phase 7: English default name). Choice box (b001 3498.1CF0) not yet
+  seen: no warp reaches it (event name unknown). Voices: `docs/style-reference.md`.
 - **Phase 6 set-up (done):** `tools/wrap.py` (simplify JP for translators, re-wrap English at 20 cells/40 letters,
   continuation pages `{n}{wait}{clear}{spk}{n}`, odd-run space fix), `tools/batches.py split|check|merge|todo`
   (families: identical rows translated once; `-` = not text; choice glyphs `　｛｝` -> raw escapes),
@@ -15,12 +19,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   loaded in Orca workers, so each worker translates batches itself (about 1-2 batches per worker context besides
   set-up; more if it skips set-up reading). When codex is back, dispatch translators/reviewers through it.
 - **Next (phase 6):**
-  1. Pilot check in game: translate b024/b025 (file 359B = MYH16, Reiv's scouting; the `myh16` warp plays it), merge,
-     build, `warp.py myh16`, and confirm continuation pages (wrap adds `{spk}` pages), line widths and the odd-letter
-     gaps. Then a choice box (b001 row 3498.1CF0 `　｛Go to them　　　｝`, file 3498, event name unknown) if a warp
-     reaches it. SS1204 is not file 349C (warp names map through 0x8003B680, not the 0x4C50 entry number).
-  2. `python -X utf8 tools/batches.py todo`, translate in order per `docs/translator-brief.md`, check, merge, commit
-     after every batch or two. Then `docs/style-reference.md` from the pilot, `docs/synopsis.md`.
+  1. Choice box check (b001 row 3498.1CF0 `　｛Go to them　　　｝`, file 3498) once a warp reaches it (find the event
+     name via the 0x8003B680 lookup). SS1204 is not file 349C.
+  2. `python -X utf8 tools/batches.py todo` (next: b006), translate in order per `docs/translator-brief.md` and
+     `docs/style-reference.md`, check, merge, commit after every batch or two. b002-b005 are the heroes' scouting
+     and re-scouting scenes; many rows repeat with one word changed, so copy the stock lines. Then `docs/synopsis.md`.
+     Pace: one worker context does about 5-6 batches when it skips re-reading set-up docs.
   3. Not yet batched: `script/exe.tsv` (867 PSX.EXE rows, need a variant tag per row from `docs/windows.tsv`: hub help
      40, location 11, list 17, week tag/ACTION 10, save 12, confirm 16 (+6 hidden), yes/no 7), `script/staff.tsv`
      (credits, 14 full-width letters minus indent), `script/sjis.tsv` (memory-card titles).

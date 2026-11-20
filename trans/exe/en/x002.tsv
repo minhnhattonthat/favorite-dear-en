@@ -92,12 +92,12 @@ PSX.157990	Fairy 17 intro{wait}{end}
 PSX.1579AC	Received 30 AP from Lord Gabriel{wait}{end}
 PSX.1579D4	Report{wait}{end}
 PSX.1579E0	      Is this okay?{wait}{end}
-PSX.1579FC	Stand By{n}{end}
-PSX.157A08	To Heaven{n}{end}
-PSX.157A18	Join Hero{n}{end}
-PSX.157A28	Vacation{n}{end}
-PSX.157A34	Find Hero{n}{end}
-PSX.157A44	Find Foe{n}{end}
+PSX.1579FC	 Stand By{n}{end}
+PSX.157A08	 To Heaven{n}{end}
+PSX.157A18	 Join Hero{n}{end}
+PSX.157A28	 Vacation{n}{end}
+PSX.157A34	 Find Hero{n}{end}
+PSX.157A44	 Find Foe{n}{end}
 PSX.157A50	Sievas{n}{end}
 PSX.157A60	Volkgang{n}{end}
 PSX.157A74	Reiv{n}{end}

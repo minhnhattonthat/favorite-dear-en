@@ -46,8 +46,8 @@ PSX.157F54	Huh, so I go here.{wait}{end}
 PSX.157F74	So you want me here.{wait}{end}
 PSX.157F94	Oh, you want me to go here?{wait}{end}
 PSX.157FB8	Yes. I'm to go here, then?{wait}{end}
-PSX.157FDC	    Yes{wait}{end}
-PSX.157FE8	    No{wait}{end}
+PSX.157FDC	     Yes{wait}{end}
+PSX.157FE8	      No{wait}{end}
 PSX.157FF8	This version ends here.{wait}{end}
 PSX.15801C	Who to meet?{wait}{end}
 PSX.158030	Normal Sword{n}{end}

@@ -44,15 +44,15 @@ id	en
 35DF.1236	{spk:E783}{fa:0080}{n}{name:0180} defeated Regal.{n}{wait}{clear}{end}
 35E2.0E02	{e0:E0FF}{spk:E783}{fa:0080}{n}Gugagaga~!!{n}{wait}{clear}{end}
 35E2.0E2A	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Merchant:{n}{f7:0380}{n}Heeelp!!{n}{wait}{clear}{end}
-35E2.0E64	{e0:E0FF}{spk:0080}{fa:0180}{n}That's the guy... Looks like this'll be easier money than I thought.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Zombie Merchant:{n}{f7:0380}{n}Guga~!!{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Heh, I'll take you down easy!{n}{wait}{clear}{end}
+35E2.0E64	{e0:E0FF}{spk:0080}{fa:0180}{n}That's the guy... Looks like this'll be easier money than I thought.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Zombie Trader:{n}{f7:0380}{n}Guga~!!{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Heh, I'll take you down easy!{n}{wait}{clear}{end}
 35E2.0F22	{e0:E0FF}{spk:0080}{fa:0180}{n}You're safe now, old man.{n}{wait}{clear}{end}
 35E2.0F56	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Merchant:{n}{f7:0380}{n}I don't know who you are, but thank you for saving me.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Nah, I don't need your thanks.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}But you're gonna pay up. I didn't save you for free.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}How much you gonna give me?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Merchant:{n}{f7:0380}{n}...How much should I pay?{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}As much as you can, obviously! I mean, if I hadn't saved ya, who knows what'd have happened to you by now...{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Merchant:{n}{f7:0380}{n}W-well...{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}I saved your one and only life, y'know!{n}{wait}{clear}{end}
 35E2.11B8	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Merchant:{n}{f7:0380}{n}Th-then how about this much...?{n}{wait}{clear}{end}
 35E2.1204	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}
 35E2.1232	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Merchant:{n}{f7:0380}{n}Th-th-then how about this much...?{n}{wait}{clear}{end}
 35E2.1284	{e0:E0FF}{spk:0080}{fa:0180}{n}Tch, what a cheapskate... Well, fine. Old man! Next time it'll cost ya more! Remember that!!{n}{wait}{clear}{end}
-35E2.142E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Zombie Merchant:{n}{f7:0380}{n}Gugagagagaaa.{n}{wait}{clear}{end}
-35E2.1478	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Zombie Merchant:{n}{f7:0380}{n}Guga, gugagagaga.{n}{wait}{clear}{end}
+35E2.142E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Zombie Trader:{n}{f7:0380}{n}Gugagagagaaa.{n}{wait}{clear}{end}
+35E2.1478	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Zombie Trader:{n}{f7:0380}{n}Guga, gugagagaga.{n}{wait}{clear}{end}
 35E5.0C8A	{e0:E0FF}{spk:0080}{fa:0180}{n}I ain't lettin' you lot do as you please!{n}{wait}{clear}{end}
 35E5.0CC0	{e0:E0FF}{spk:0080}{fa:0180}{n}Tch, they got away.{n}{wait}{clear}{end}
 35E5.0CEE	{e0:E0FF}{spk:0080}{fa:0180}{n}Hey, you're okay!{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Boy:{n}{f7:0380}{n}Yeah.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}You didn't get hurt?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Boy:{n}{f7:0380}{n}I'm totally fine, mister!{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0080}{n}Mister, you were sooo cool...{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Uh, yeah... R-really? Thanks.{n}{wait}{clear}{end}

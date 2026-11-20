@@ -212,12 +212,12 @@ PSX.157990	ようせい１７のしょうかい{wait}{end}	Fairy 17 intro{wait}{
 PSX.1579AC	ガブリエル様からＡＰ３０をいただいた{wait}{end}	Received 30 AP from Lord Gabriel{wait}{end}	
 PSX.1579D4	結果報告{wait}{end}	Report{wait}{end}	
 PSX.1579E0	これでよろしいですか？{wait}{end}	      Is this okay?{wait}{end}	
-PSX.1579FC	　待　機{n}{end}	Stand By{n}{end}	
-PSX.157A08	天　界　へ{n}{end}	To Heaven{n}{end}	
-PSX.157A18	勇者と同行{n}{end}	Join Hero{n}{end}	
-PSX.157A28	　休　暇{n}{end}	Vacation{n}{end}	
-PSX.157A34	勇者の発見{n}{end}	Find Hero{n}{end}	
-PSX.157A44	敵の探索{n}{end}	Find Foe{n}{end}	
+PSX.1579FC	　待　機{n}{end}	 Stand By{n}{end}	
+PSX.157A08	天　界　へ{n}{end}	 To Heaven{n}{end}	
+PSX.157A18	勇者と同行{n}{end}	 Join Hero{n}{end}	
+PSX.157A28	　休　暇{n}{end}	 Vacation{n}{end}	
+PSX.157A34	勇者の発見{n}{end}	 Find Hero{n}{end}	
+PSX.157A44	敵の探索{n}{end}	 Find Foe{n}{end}	
 PSX.157A50	シーヴァス{n}{end}	Sievas{n}{end}	
 PSX.157A60	フォルクガング{n}{end}	Volkgang{n}{end}	
 PSX.157A74	レイヴ{n}{end}	Reiv{n}{end}	
@@ -294,8 +294,8 @@ PSX.157F54	へー、ここに行けばいいんだ。{wait}{end}	Huh, so I go he
 PSX.157F74	ここへ行けっていうんだな。{wait}{end}	So you want me here.{wait}{end}	
 PSX.157F94	あら、ここへ行けっていうのね？{wait}{end}	Oh, you want me to go here?{wait}{end}	
 PSX.157FB8	はい。ここへ行けばいいのですね？{wait}{end}	Yes. I'm to go here, then?{wait}{end}	
-PSX.157FDC	１．はい{wait}{end}	    Yes{wait}{end}	
-PSX.157FE8	２．いいえ{wait}{end}	    No{wait}{end}	
+PSX.157FDC	１．はい{wait}{end}	     Yes{wait}{end}	
+PSX.157FE8	２．いいえ{wait}{end}	      No{wait}{end}	
 PSX.157FF8	このバージョンはここまでです。{wait}{end}	This version ends here.{wait}{end}	
 PSX.15801C	誰にあいますか？{wait}{end}	Who to meet?{wait}{end}	
 PSX.158030	ノーマルソード{n}{end}	Normal Sword{n}{end}	
@@ -787,8 +787,8 @@ PSX.15CA34	勇者に会いに行きます。{end}	Go meet a hero.{end}
 PSX.15CA4C	勇者レベル分のＡＰを消費します。{end}	Costs AP equal to hero level.{end}	
 PSX.15CA70	発見した勇者をスカウトしに行きます。{end}	Go scout a hero you've found.{end}	
 PSX.15CA98	ＡＰ１０を消費します。{end}	Costs 10 AP.{end}	
-PSX.1660E0	　セーブ{end}	  Save{end}	no direct pointer
-PSX.1660EC	ロード{end}	Load{end}	no direct pointer
+PSX.1660E0	　セーブ{end}	   Save{end}	no direct pointer
+PSX.1660EC	ロード{end}	 Load{end}	no direct pointer
 PSX.1660F4	キャンセル{end}	Cancel{end}	no direct pointer
 PSX.166100	スロット１{end}	  Slot 1{end}	no direct pointer; 2 leading spaces centre it in the slot list's red bar (inkbox 18/20 px, JP fills the bar)
 PSX.16610C	スロット２{end}	  Slot 2{end}	no direct pointer; leading spaces as Slot 1

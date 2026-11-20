@@ -26,11 +26,11 @@ PSX.15CA34	Go meet a hero.{end}
 PSX.15CA4C	Costs AP equal to hero level.{end}
 PSX.15CA70	Go scout a hero you've found.{end}
 PSX.15CA98	Costs 10 AP.{end}
-PSX.1660E0	  Save{end}
-PSX.1660EC	Load{end}
+PSX.1660E0	   Save{end}
+PSX.1660EC	 Load{end}
 PSX.1660F4	Cancel{end}
-PSX.166100	Slot 1{end}
-PSX.16610C	Slot 2{end}
+PSX.166100	  Slot 1{end}
+PSX.16610C	  Slot 2{end}
 PSX.166118	Slot 1: {end}
 PSX.166126	Slot 2: {end}
 PSX.166134	Checking memory card.{end}
@@ -39,7 +39,7 @@ PSX.16616C	Memory card is damaged.{end}
 PSX.16618C	Memory card is not formatted.{end}
 PSX.1661B4	Format it?{end}
 PSX.1661C6	Yes     No{end}
-PSX.1661D6	Formatting memory card.{end}
+PSX.1661D6	Please wait...  Formatting card.{end}
 PSX.1661FA	Memory card formatted.{end}
 PSX.166222	Formatting failed.{end}
 PSX.16624A	Load this file?{end}

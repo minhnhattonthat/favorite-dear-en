@@ -163,6 +163,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ガロンドランク | Gallon Drunk | | tavern where a dancer works (Griffin's mix-up) | |
 | ベイオウルフ | Beowulf | | Griffin's band of noble thieves (義賊) | |
 | 英霊祭 | Festival of Heroic Spirits | | Hebron festival with a soiree (Reiv event) | |
+| ゾンビマチャント | Zombie Trader | | enemy (btname E185 plate "ZOMBIE TRADER"); the b030 speaker label uses the same name | Zombie Merchant |
 
 ## Decisions from earlier batches
 - b001 3498.1550 (the gift-name list, one run of names indexed by the script): kept Japanese (`-`), phase 7 must

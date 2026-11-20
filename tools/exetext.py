@@ -59,9 +59,9 @@ def split():
 
 _EXE = []
 # Lists whose entries share one window, so each window fits the list's widest Japanese entry: place names, items,
-# hobbies, angel ranks, mission titles (file offsets of the strings, end exclusive).
+# hobbies, angel ranks, mission titles, week-screen actions (file offsets of the strings, end exclusive).
 LISTS = [(0x155F3C, 0x156818), (0x158030, 0x1590D4), (0x1590D4, 0x159174), (0x159174, 0x159398),
-         (0x159B88, 0x159D90)]
+         (0x159B88, 0x159D90), (0x1579FC, 0x157A50)]
 
 
 def cells(jp):

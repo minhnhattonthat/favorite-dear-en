@@ -29,7 +29,7 @@ id	en
 3943.168A	{e0:4A01}{spk:0080}{fa:0180}{n}...Gaap! Why do you attack Infos and fight the angels of the Heavens?{n}{wait}{clear}{end}
 3943.16E6	{e0:4B01}{spk:0080}{fa:0180}{n}I will defeat you and protect Infos!{n}{wait}{clear}{end}
 3943.171E	{e0:4C01}{spk:0080}{fa:0180}{n}...It's over.{n}{wait}{clear}{end}
-3943.1746	{spk:0080}{fa:0180}{n}(None: not captured!){n}{wait}{clear}{end}
+3943.1746	{spk:0080}{fa:0180}{n}(None: I've been captured!){n}{wait}{clear}{end}
 3943.176E	{spk:0080}{fa:0180}{n}(None){n}{wait}{clear}{end}
 3943.1784	{spk:0080}{fa:0180}{n}{name:0080}, ...it seems this one still has allies about.{n}{wait}{clear}... I leave the captive girl to you. I'll deal with them...{n}{wait}{clear}{end}
 3947.12F2	{e0:E0FF}{spk:0080}{fa:0180}{n}Is it really somewhere like this?{n}{wait}{clear}{end}

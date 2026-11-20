@@ -18,8 +18,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
   as codex is out of credits and the plugin reviewer type is not offered; reports' Important findings fixed: 12 batches
   `fixed`), `docs/polish.md` all ticked. Phase 7 work list: "Phase 7 items already known" below, plus the glyph-soup
   files, mission-title/rank/clear-data tables, and the never-built b006-b144 text.
-- **Builds (2026-11-20, all batches b001-b144):** `favorite_dear_en.bin` sha1
-  0c367aaf686f05923ae905d143afb6c79ddfa1c9, smoke ok, fitcheck ok. Marker/ruler/torture builds as in phase 5.
+- **Phase 6 review (`.harness/reviews/favorite-dear-en-phase6.md`) fixes, 2026-11-20:** done: #1 Critical D1
+  honorifics applied (D12, 404 rows, `tools/honorifics.py` + lint in `batches.py check`), #2 "Beasia...-dono",
+  #3 Gabriel now "Gabriel-sama" everywhere (no gendered title left), #4 Yaruru お姉ちゃん branch "Big Sis" (D13),
+  #7 `docs/synopsis.md`, #8 fiend of flame, #9 via D12, #10 D14. Build sha1
+  d5754504214f96b3cf84d6f2b94d4d6f2383aa93, fitcheck ok, smoke ok. **Open:** #5 (do first in phase 8): give the
+  PSX.EXE short forms full length (glossary "PSX.EXE strings": Mts., R., I., Ct., Jr.Angel, HiX, Studs; Japanese
+  left at PSX.159B88 盗賊・闇馬車) by repointing to free space (pointer finder first: 78 rows have no direct
+  pointer; `hub_help` test shows the repoint), measure each window's width in game, and give the credits'
+  painter lines STAFF.289-292/345-347 and initial-cut names full length (FIN pair-glyph hook, `text.md`
+  §Credits, 28 letters); whatever must stay short goes to the user (list under Waiting on the user). #6: codex
+  reviewer pass on b014-b056 when codex is back (2026-11-26; probed 2026-11-20: still out). #11: the Explore
+  reports' waived Minor ids were never saved to disk, so they can't be listed (note kept in polish.md). In game
+  check owed in phase 8: odd-length `{name:0180}-sama` (half-cell gap "Tia -sama").
+- **Builds (2026-11-20, all batches b001-b144, after the review fixes):** `favorite_dear_en.bin` sha1
+  d5754504214f96b3cf84d6f2b94d4d6f2383aa93, smoke ok, fitcheck ok. Marker/ruler/torture builds as in phase 5.
 - **Glyph-soup files (found 2026-11-20, phase 7 must fix):** 34F2 34F5 34F8 34FC 3500 3504 3507 350A (all rows,
   ~300) and parts of 393D, 3976-3986 decode as kana/kanji soup under `tbl/jp.tbl` (codes parse; a substitution,
   likely a per-scene glyph set). Batched as `-` (b009-b013); find their table, re-extract, re-batch, translate.
@@ -142,7 +155,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Event names map to GDATA files through the name lookup at 0x8003B680 (462 ids); useful for naming TSVs in QA.
   - 1824 of 9094 messages are referenced directly; how the rest are reached matters only for message order on insert.
   - Movies DEMO.STR / ENDING.STR / the end of OP.STR not checked for burned-in text.
-- **Waiting on the user:** (not blocking) the credits romanize real staff and cast names from kanji by my reading
+- **Waiting on the user:** (not blocking) abbreviations still in the build, kept until the phase 8 repoint
+  (D4 says engine work first; these are the flagged last resort): map names 山脈 "Mts.", 川 "R.", 島 "I." when
+  short; ranks 翼宮 "Ct.", 準翼 "Jr.Angel", X天使長 "HiX"; item ピアス "Studs" when short; mission title
+  盗賊・闇馬車 left Japanese; credit names cut to an initial, two painter lines left Japanese. Say if any short
+  form is fine to keep. (not blocking) Honorifics: D1 is now applied in full (D12: "Sievas-sama", "Tia-san",
+  "Griffin-dono"); say if you'd rather have English titles. (not blocking) the credits romanize real staff and cast names from kanji by my reading
   (`trans/staff/en.tsv`, given name first, Hepburn); readings such as 新千恵子 "C. Atarashi", 角田早穂 "Saho
   Tsunoda", 溝上真紀子 "M. Mizokami", 龍谷修武 "O. Ryutani", 萩原由乃 "Y. Hagiwara", 藤田顕史 "Kenji Fujita" are
   unverified. Corrections welcome; the build works either way.

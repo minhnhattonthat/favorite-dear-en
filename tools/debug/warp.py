@@ -3,6 +3,7 @@
     python -X utf8 tools/debug/warp.py SCENE [SCENE..] [--cue build/favorite_dear_en.cue] [-j 3] [--state]
     python -X utf8 tools/debug/warp.py --all [-j 3] [--state]      regenerate every scene (shots + optional states)
     python -X utf8 tools/debug/warp.py --event NAME                any event script by name (see `events.py names`)
+    python -X utf8 tools/debug/warp.py --battle NAME               a battle by its event (T0101, T0702..)
     python -X utf8 tools/debug/warp.py --list
 
 Each run writes work/qa/warp/<scene>/ (shots every 150 frames, sheet.png, log.txt) and, with --state,
@@ -29,7 +30,8 @@ ORIG_CUE = os.path.join(REPO, "rom", "Favorite Dear (Japan).cue")
 SCENES = os.path.join(HERE, "scenes.tsv")
 COLS = ["scene", "kind", "arg", "after", "frames", "card", "post", "proof", "note"]
 # arg: the event name (kind event; NAME:HERO also sets the current hero, e.g. SS0204:2 for a battle), program name (kind exec: GOVER FD_BALL EPILOG FIN FD_MOV PS_MOV) or save
-# number on the card (kind save). card: a memory card image (repo-relative) given to the emulator as a copy.
+# number on the card (kind save), or a battle's own event (kind battle: T0101, T0206, TM02ALL.., any id in the
+# battle table at 0x80174A84; started from SS0204's battle with the stage entry rewritten, docs/re/debug.md). card: a memory card image (repo-relative) given to the emulator as a copy.
 # post: presses after arrival (route steps joined by ';'), shot as post.png. proof: frames from arrival to
 # arrived.png (default 30).
 ARG_VAR = {"event": "EVENT", "exec": "EXE", "save": "SAVE"}
@@ -65,12 +67,17 @@ def run(sc, cue, state, timeout):
         if f.endswith(".png"):
             os.remove(os.path.join(out, f))
     lua = [f"KIND='{sc['kind']}'", f"AFTER='{sc['after'] or 'mash'}'"]
-    if sc["arg"]:
+    if sc["kind"] == "battle":  # a battle's own event (T0101..): host SS0204 for hero 2 starts it (warp.lua BATTLE)
+        lua = ["KIND='event'", "EVENT='SS0204'", "HERO=2", f"BATTLE='{sc['arg']}'", lua[1]]
+    elif sc["arg"]:
         var = ARG_VAR[sc["kind"]]
         arg = sc["arg"]
         if sc["kind"] == "event" and ":" in arg:  # NAME:HERO runs the event for that hero (warp.lua HERO)
             arg, hero = arg.split(":")
             lua.append(f"HERO={int(hero)}")
+        if sc["kind"] == "exec" and ":" in arg:  # EPILOG:N plays ending N (warp.lua ENDING, docs/re/debug.md)
+            arg, ending = arg.split(":")
+            lua.append(f"ENDING={int(ending)}")
         lua.append(f"{var}={int(arg)}" if var in NUMERIC else f"{var}='{arg}'")
     if sc.get("post"):
         lua.append(f"POST='{sc['post']}'")
@@ -128,6 +135,8 @@ def main():
     ap.add_argument("scenes", nargs="*")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--event", action="append", default=[], help="ad-hoc event name (no scenes.tsv row needed)")
+    ap.add_argument("--battle", action="append", default=[],
+                    help="ad-hoc battle by its event name (T0101, T0206, TM02ALL..; the 0x80174A84 table)")
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--cue", default=ORIG_CUE)
     ap.add_argument("--state", action="store_true", help="also save work/states/<scene>.sstate")
@@ -156,8 +165,11 @@ def main():
     for ev in a.event:
         todo.append({"scene": "ev_" + ev.replace(":", "_"),"kind": "event", "arg": ev, "after": "mash", "frames": "16500",
                      "card": "", "post": "", "proof": "", "note": ""})
+    for ev in a.battle:
+        todo.append({"scene": "bt_" + ev, "kind": "battle", "arg": ev, "after": "mash", "frames": "17500",
+                     "card": "", "post": "", "proof": "1200", "note": ""})
     if not todo:
-        ap.error("name a scene, --event NAME or --all")
+        ap.error("name a scene, --event NAME, --battle NAME or --all")
     with ThreadPoolExecutor(max_workers=a.j) as ex:
         res = list(ex.map(lambda s: run(s, a.cue, a.state, a.timeout), todo))
     os.makedirs(os.path.join(REPO, "work", "qa", "warp"), exist_ok=True)

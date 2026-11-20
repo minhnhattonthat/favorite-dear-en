@@ -27,13 +27,17 @@ def test_scenes_tsv_shape():
         assert len(c) == 9, r
         assert c[0] not in names, c[0]
         names.add(c[0])
-        assert c[1] in {"title", "load", "option", "newgame", "week", "map", "event", "exec", "save"}, r
-        assert (c[1] in {"event", "exec", "save"}) == bool(c[2]), r
+        assert c[1] in {"title", "load", "option", "newgame", "week", "map", "event", "exec", "save", "battle"}, r
+        assert (c[1] in {"event", "exec", "save", "battle"}) == bool(c[2]), r
         if c[1] == "event" and ":" in c[2]:  # NAME:HERO
             name, hero = c[2].split(":")
             assert name and 1 <= int(hero) <= 255, r
+        if c[1] == "battle":  # a battle's own event name (warp.lua BATTLE)
+            assert 1 <= len(c[2]) <= 8 and ":" not in c[2], r
         if c[1] == "exec":
-            assert c[2] in {"GOVER", "FD_BALL", "EPILOG", "FIN", "FD_MOV", "PS_MOV"}, r
+            prog, _, ending = c[2].partition(":")  # EPILOG:N = ending N (warp.lua ENDING)
+            assert prog in {"GOVER", "FD_BALL", "EPILOG", "FIN", "FD_MOV", "PS_MOV"}, r
+            assert not ending or (prog == "EPILOG" and 0 <= int(ending) <= 0xFE), r
         if c[1] == "save":
             assert c[2] in {"1", "2", "3"} and c[5], r
         assert c[3] in {"hold", "mash"}, r

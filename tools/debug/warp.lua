@@ -13,7 +13,11 @@
 --   STATE  absolute path: save a savestate here 60 frames after arrival
 --   TRACE  any value: log every change of the MODE/PHASE flags ("TRACE mode/phase 5/1 f1234")
 --   HERO   KIND 'event': current-hero index (byte 0x80020991) the swapped-in script sees (MYH16 leaves 16, Reiv)
+--   BATTLE KIND 'event': name of a battle's own event (T0101.., T0206, TM02ALL, any id in the battle table
+--          0x80174A84). The host EVENT must start battle STAGE_IDX (SS0204 does, for hero 2): the stage-table entry
+--          is rewritten to BATTLE's id, so battle_start loads that battle's map and script. Arrival = BATTLE loaded.
 local CUR_HERO = 0x80020991
+local STAGES, STAGE_IDX = 0x80174BD8, 0xC0   -- battle_start idx -> event id (u16); SS0204's command D3 uses 0xC0
 -- Shots: arrived.png 30 frames after arrival (the proof); AFTER 'hold' ends the run 90 frames after arrival.
 -- Log lines: "WARP <stage> f<frame>"; "WARP OK" once the scene is reached (warp.py fails the run without it).
 --
@@ -91,13 +95,14 @@ PROOF = PROOF or 30
 local stage = "boot"
 local arrived_at = nil
 local patched = false
+local battle_id = nil
 local map_at = nil
 local post_done = nil
 local function go(s) stage = s; L.log(string.format("WARP %s f%d", s, L.frame)) end
 local function arrive()
   arrived_at = L.frame
   go("arrived")
-  L.log(string.format("WARP OK %s f%d", KIND == "event" and EVENT or KIND == "exec" and EXE or KIND, L.frame))
+  L.log(string.format("WARP OK %s f%d", KIND == "event" and (BATTLE or EVENT) or KIND == "exec" and EXE or KIND, L.frame))
 end
 
 if KIND == "event" then
@@ -137,6 +142,15 @@ L.on_frame(function(n)
     for i = 0, 8 do mem[a + i] = i < #EVENT and EVENT:byte(i + 1) or 0 end
     patched = true
     L.log(string.format("WARP patched slot %d -> %s f%d", SLOT, EVENT, n))
+    if BATTLE then
+      for id = 0, 461 do
+        if rdstr(NAMES + 9 * id, 9) == BATTLE then battle_id = id; break end
+      end
+      assert(battle_id, "BATTLE not in the event-name table: " .. BATTLE)
+      local s = (STAGES + 2 * STAGE_IDX) & 0x1FFFFF
+      mem[s] = battle_id & 0xFF; mem[s + 1] = battle_id >> 8
+      L.log(string.format("WARP stage %d -> %s (id %d) f%d", STAGE_IDX, BATTLE, battle_id, n))
+    end
   end
 
   if stage == "newgame" then
@@ -174,6 +188,17 @@ L.on_frame(function(n)
         assert(rd32(EXEC_FN) == EXEC_FIRST, "exec() moved: no addiu sp at 0x8003C7D4")
         local r = PCSX.getRegisters()
         L.log(string.format("WARP exec %s (a0=%08x, pc was %08x) f%d", path, s, tonumber(r.pc), n))
+        if ENDING or ENDING2 then
+          -- EPILOG.EXE (0x80020A20) reads its ending from the scratchpad: u16 0x14 = ending (0xFF: use byte 0x1C,
+          -- the hero), u16 0x16 == 1: hero + 12 (the second ending set). ENDING = n writes 0x14 = n, 0x16 = 0,
+          -- 0x1C = n; ENDING2 = hero writes 0x14 = 0xFF, 0x16 = 1, 0x1C = hero.
+          local sp = assert(PCSX.getScratchPtr, "no PCSX.getScratchPtr")()
+          local e, alt = ENDING, 0
+          if ENDING2 then e, alt = 0xFF, 1 end
+          sp[0x14] = e & 0xFF; sp[0x15] = 0; sp[0x16] = alt; sp[0x17] = 0
+          sp[0x1C] = ENDING2 or ENDING
+          L.log(string.format("WARP ending scratch 0x14=%d 0x16=%d 0x1C=%d f%d", e, alt, sp[0x1C], n))
+        end
         r.GPR.n.a0 = s
         r.pc = EXEC_FN
         go("exec_wait")
@@ -193,8 +218,18 @@ L.on_frame(function(n)
     if KIND == "map" and rd16(MODE) == 1 then
       if not map_at then map_at = n end
       if n - map_at >= 450 then arrive() end
-    elseif KIND == "event" and event_loaded(SLOT) then
+    elseif KIND == "event" and not BATTLE and event_loaded(SLOT) then
       arrive()
+    elseif BATTLE and battle_id and event_loaded(battle_id) then
+      arrive()
+    elseif BATTLE and event_loaded(SLOT) then
+      local s = (STAGES + 2 * STAGE_IDX) & 0x1FFFFF
+      if rd16(s) ~= battle_id then
+        L.log(string.format("WARP stage %d was %d, rewritten f%d", STAGE_IDX, rd16(s), n))
+        mem[s] = battle_id & 0xFF; mem[s + 1] = battle_id >> 8
+      end
+      if HERO then mem[CUR_HERO & 0x1FFFFF] = HERO end  -- the host reads the hero before it starts the battle
+      if n % 60 == 0 then L.press("circle", 6) end
     elseif not map_at and L.route_done() and n % 60 == 0 then
       L.press("circle", 6)
     end

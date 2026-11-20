@@ -107,9 +107,24 @@ id 32 showing up in the loaded-event table. From cold boot to the event takes ~1
   into VRAM with the display off and then execs \PS_MOV.EXE (the title); nothing execs GOVER.EXE. An exec warp of
   it shows black, then the title (probe 2026-11-20). The images can still be checked from the files (`tim.py`).
 - Event start routines (all call `start_event` 0x800C8688): 0x800CFDC8(a0) = table 0x80174828[a0*2 + byte
-  0x8001F5EA] (SMxx/SWxx hero events, T0101.., TxxSEN); 0x800CFF28(key) searches {u16 idx, u16 key} pairs at
-  0x8017485C (0xFFFF end) and starts 0x801749E4[idx]. Town (T*) events still stick on a blank box when swapped
-  into MYH16's slot; they probably need the town context these routines set (0x80020991 = a0 is stored first).
+  0x8001F5EA] (SMxx/SWxx only: a0 = byte 0x800271A5 + 1); 0x800CFF28(key) searches {u16 idx, u16 key} pairs at
+  0x8017485C (0xFFFF end) and starts 0x801749E4[idx] (SYxxxx).
+- **T-events are battles (verified 2026-11-20).** `0x801132C4(a0 event id, a1 hero)` looks a0 up in the battle table
+  at **0x80174A84** ({u16 key, u16 event id}, 0xFFFF key ends it: T0101 key 0, T0102 key 1 .. T0206 key 0x4F,
+  TM02ALL 0xC9 ..), sets 0x8002099E = 1 (battle mode) and the key in 0x800209A0 / 0x800213AC (the key also picks the
+  map, table 0x80138540 + key*10). The battle screen's init 0x80042BBC then starts the event for that key
+  (0x800D017C -> 0x800C8658) and installs the fade task 0x80044C8C. Script sub-command **0xE0** sets byte 0x80184170
+  = 1 (fade out) and **0xE1** waits until it is 2, which only that fade task writes: out of a battle a T-script hangs
+  there on a blank box (forcing the byte, `tools/lua/townflag.lua`, isn't enough: the task also switches the screen).
+  So kind `battle` (warp.py `--battle NAME`, scenes `battle_t0101` ..) hosts SS0204 for hero 2, whose command D3 calls
+  battle_start(0xC0), and rewrites stage-table entry 0xC0 (0x80174BD8, reset when SS0204 loads, so warp.lua rewrites it
+  every frame until arrival) to the target id. Arrival = the target id in the loaded-event table.
+- **TxxSEN (ids 1-12) are not battles** (not in 0x80174A84). They start from the world-map task 0x8011B92C:
+  `0x800D0128(stage idx = u16 0x80026C18)` -> stage table 0x80174BD8[idx] = id idx. The task is installed after
+  `0x8011B8D0(hero, town, ..)` (sets 0x80020991, 0x800271A5) from world-map code (0x80127340, 0x80128EE0,
+  0x80129170) through the task list (0x800F33BC), so a RAM write can't install it. Swapped into MYH16's slot they stick
+  on a blank box. **Known gap**: no warp yet; their text is checked from the files (phase 4 extractor) until the
+  world-map flow that reaches them is found.
 
 ## Warp kinds `exec` and `save` (tools/debug/warp.lua)
 
@@ -117,6 +132,9 @@ id 32 showing up in the loaded-event table. From cold boot to the event takes ~1
   pc to `exec` 0x8003C7D4 (`PCSX.getRegisters()` is writable; the CPU is then in the vsync wait loop, a safe place).
   Arrival = the pc has been inside _LOADE.EXE and left it. Scenes: credits (FIN), ending_movie (FD_MOV), epilog,
   minigame (FD_BALL).
+- Endings: EPILOG.EXE (0x80020A20) reads scratchpad u16 0x14 = ending (0xFF: use byte 0x1C, the hero), u16 0x16 == 1:
+  ending = hero + 12. Arg `EPILOG:N` (warp.lua `ENDING=N`; `ENDING2=hero` for the +12 set) writes them through
+  `PCSX.getScratchPtr()` before the exec.
 - `save`: title -> Load Game -> slot 1 -> card check -> save N -> "ロードしますか？" (left, circle) -> hub -> circle
   (予定) until the week-screen flag. Card from the scene's `card` column (copied into the run's folder). Hub scenes
   add `post` presses from the week screen (cross twice = hub).

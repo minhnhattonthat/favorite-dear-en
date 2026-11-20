@@ -38,6 +38,7 @@ ARG_VAR = {"event": "EVENT", "exec": "EXE", "save": "SAVE"}
 NUMERIC = {"SAVE"}
 EXTRA = []  # extra emu.py args from --lua / --debugger / --var (hooks riding along a warp)
 SHOT_EVERY = 150  # --shot-every
+ROOT = os.path.join(REPO, "work", "qa", "warp")  # --root (a tour: work/qa/tour, its Japanese twin work/qa/tour_jp)
 
 
 def load_scenes():
@@ -62,7 +63,7 @@ def frame_of(log, tag):
 
 
 def run(sc, cue, state, timeout):
-    out = os.path.join(REPO, "work", "qa", "warp", sc["scene"])
+    out = os.path.join(ROOT, sc["scene"])
     os.makedirs(out, exist_ok=True)
     for f in os.listdir(out):
         if f.endswith(".png"):
@@ -147,9 +148,12 @@ def main():
     ap.add_argument("--var", action="append", default=[], help="extra NAME=LUA global (repeatable)")
     ap.add_argument("--debugger", action="store_true", help="interpreter mode (needed for L.on_exec hooks)")
     ap.add_argument("--shot-every", type=int, default=150, help="frames between shots (default 150)")
+    ap.add_argument("--root", default=None, help="output directory (default work/qa/warp)")
     a = ap.parse_args()
-    global SHOT_EVERY
+    global SHOT_EVERY, ROOT
     SHOT_EVERY = a.shot_every
+    if a.root:
+        ROOT = os.path.abspath(a.root)
     for f in a.lua:
         EXTRA.extend(["--script", os.path.abspath(f)])
     for v in a.var:
@@ -176,8 +180,8 @@ def main():
         ap.error("name a scene, --event NAME, --battle NAME or --all")
     with ThreadPoolExecutor(max_workers=a.j) as ex:
         res = list(ex.map(lambda s: run(s, a.cue, a.state, a.timeout), todo))
-    os.makedirs(os.path.join(REPO, "work", "qa", "warp"), exist_ok=True)
-    with open(os.path.join(REPO, "work", "qa", "warp", "results.tsv"), "a", encoding="utf-8") as f:
+    os.makedirs(ROOT, exist_ok=True)
+    with open(os.path.join(ROOT, "results.tsv"), "a", encoding="utf-8") as f:
         for r in res:
             f.write("\t".join(str(x) for x in r) + "\n")
     bad = 0

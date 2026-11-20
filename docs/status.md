@@ -2,27 +2,46 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build in progress: marker build boots, in-game check and width gate not done.
-  Last builds 2026-11-20: `build/favorite_dear_en_marker.bin` sha1 984211e0cb04130a778946d101bc33efe9ff8cfd (smoke
-  ok), `build/favorite_dear_en_ruler.bin` sha1 997e05943bdf8b4dc1c33c37d73285068383f224 (not booted yet).
+- **Phase:** 5. Engine spike and marker build in progress: English renders in-game, most box widths measured;
+  EPILOG hook, credits, torture line and the remaining width gaps left. Builds 2026-11-20 (commit after df6d21a):
+  `build/favorite_dear_en_marker.bin` sha1 9cfa9ef2cc7838da196d64ed7eda5ff0414d756b, `build/favorite_dear_en_ruler.bin`
+  sha1 5b266f681e9387790673eb2cb3cc3dfd66dafabf (both reach every scene toured below).
 - **Phase 5 so far (2026-11-20):**
   - Font/encoding decided (D9, `text.md` §English): pair glyphs, hook `asm/font.asm` at 0x800FDCA8, font
     `fonts/en6x12.txt` (`tools/font_en.py`), encoder `tools/en.py`.
   - `tools/insert.py` (called by `build.py`): event scripts rebuilt with reference relocation (each file must fit
     its original sector-rounded slot); PSX.EXE strings in place. Modes `--marker` and `--ruler` (44-letter ruler
     `1234567890ABCDEFGHIJ1234567890abcdefghij+-*/` as each row's first line) in `build.py`.
-    `tests/test_insert.py`: identity rebuild, marker relocation (every ref lands on the same item), font widths,
-    EXE writes stay in string slots.
-  - Marker build: smoke ok. Warps to ev_kaiwa1/ev_setumei/ev_item/myh16 reached the scene (fairy shown, f13500)
-    but hit the 900 s wall-clock timeout with -j 4 before the text printed; the -j 2 --timeout 1800 re-run was
-    killed by the harness for low system memory. **Not yet seen: any English letter on screen.**
-- **Next (phase 5):** with memory free, `warp.py ev_kaiwa1 --cue build/favorite_dear_en_marker.cue --timeout 1800
-  --state` (one at a time), check that the pair glyphs render and ids show. Then tour more scenes with the marker
-  build (EXE text: newgame opening, menus, items) and the ruler build to measure each box variant (dialogue,
-  fairy box, choices, menus, item/skill names, name tag) and record it in a window-data file. Then the glyph torture
-  line. Open engine items: name entry grid (PSX.017DA4/017E64, left Japanese) needs Latin letters, and odd-length
-  names give a half-cell gap; credits (FIN.EXE, Shift-JIS) not marked; script growth past a file's slot
-  (159 files at 2.5x English length) needs GDATA relocation plus a larger buffer or a dictionary (phase 7).
+  - **English letters render** (pair glyphs, clean, `work/qa/p5/kaiwa1_boxes.png`). Marker ids show in dialogue,
+    battle dialogue, hub menus, week panels, save menu, name entry, confirm box (`work/qa/marker/<scene>/`).
+  - Fixed: (1) the first marker build crashed loading any event: exe.tsv rows 788-795 were the event-name table's
+    tail and u16 tables (0x164E7A-0x1660E0); region 2 now starts at 0x1660E0 (859 EXE rows),
+    `test_exe_data_untouched`. (2) Ruler/marker text cut to an EXE slot dropped `{wait}{end}` and hung the opening:
+    `insert.fit_slot` trims letters, keeps codes (`test_exe_codes_kept`). (3) **Missed text:** 43 battle scripts in
+    the data table 0x4C50 (BM_xx, 1294 segments) and messages starting with a glyph < 0xE6 that the sweep read as
+    ops (also in 3B01/3B05/3B0A): `events.TABLES` + `evscript.MSG_REFS` re-sweep; 513 scripts, 10023 rows.
+    jp_left on the marker build: GDATA clean (runs >= 16 bytes); PSX.EXE leftovers are kana/kanji conversion tables.
+  - **Width gate:** `docs/windows.tsv` (letters x lines per variant, measured from zoomed shots in `work/qa/p5/`):
+    dialogue and battle boxes 40 x 3 (portrait or not), hub location 11, hub list 17, week name tag / ACTION 10,
+    save menu 12, confirm prompt 16 visible after a hidden 3-cell lead-in (the original hides これで), yes/no 7.
+    Guesses left: hub help line (box 46, VRAM area 42, budget 40), name entry, credits, EPILOG.
+  - Tools: `warp.py --shot-every N`, `tools/lua/crashtrace.lua`, `tools/lua/trap.lua` (trap-byte free-RAM test),
+    `excatch.lua` skips syscalls.
+- **Next (phase 5):**
+  1. **EPILOG.EXE hook** (endings show garbage glyphs, `work/qa/marker/epilog_end3/f012300.png`). Its renderer is
+     0x800526E8 (same interface as PSX 0x800FDCA8, unoptimised build; displaced instructions `addiu sp,-0x40` /
+     `sw ra,0x3c(sp)`), reached via 0x800311DC -> 0x80051C98. EPILOG has no free space in its image (trap test:
+     0x800671DC-0x80068240 is live, filling it hangs; 0x80010000-0x800109A4 and 0x80099180+ are overwritten).
+     Free in ending 3: 0x80140000-0x80180000. Plan: append hook+font after the image (t_size +0x800, file offset
+     0x90000 = 0x8009F800), point the header pc0 (0x80013BD0) at a stub that copies the blob to 0x80170000 and jumps
+     to 0x80013BD0; share the hook body with `asm/font.asm` (macro). Trap-test 0x80170000-0x80171000 across all
+     23 endings (`trap.lua`) first. FD_BALL.EXE: check whether it prints any font text.
+  2. Credits: FIN.EXE prints STAFF.TXT (Shift-JIS, own font); find its glyph path, then mark it.
+  3. Glyph torture line (all printable ASCII + double spaces) in one dialogue row; name-entry Latin grid and the
+     odd-length-name half-cell gap; hub help line real limit (needs EXE repointing, phase 7).
+  4. PSX.EXE hook space 0x80124E60 is only checked by RAM dumps: run `trap.lua` on it across several scenes.
+  Phase 7 items: script growth past a file's slot (159 files at 2.5x English length) needs GDATA relocation plus a
+  larger buffer or a dictionary; battle scripts load at 0x801CE000 (own buffer limit to find).
 - **Done:**
   - Step 0 and phase 1 recon (see git history; `docs/re/README.md` indexes the notes; `tbl/jp.tbl` complete).
   - Phase 2 (`docs/re/debug.md` has the how and the addresses): `tools/debug/warp.py` + `warp.lua` reach all 86

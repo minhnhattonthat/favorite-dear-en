@@ -35,10 +35,10 @@ id	jp	en	notes
 3A03.1F04	{fb:8D80}{n}{spk:E783}{n}空を飛びたいと思った事はありますか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}はい、あります。{n}ずーっと昔から、そう思ってます。{n}{wait}{clear}{end}		
 3A03.1F84	{fb:9780}{n}{spk:E783}{n}知らない町へ行くのは怖くないですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}一人で行くのは、{n}ちょっと怖いです・・・。{n}{wait}{clear}{spk:0080}{n}でも、新しい食べ物を見つけたり、{n}便利な道具が売ってたり・・・。{n}だから大丈夫です。{n}{wait}{clear}{end}		
 3A03.205C	{fb:A180}{n}{spk:E783}{n}海や山は好きですか？{n}{wait}{clear}{spk:0080}{n}ええ、どちらも好きです。{n}あまり海には行ったことがないんですけど。{n}でも、好きです。{n}{wait}{clear}{end}		
-3A03.20E6	{fb:FE81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		entry point inside the previous row's message
+3A03.20E6	{fb:FE81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	entry point inside the previous row's message
 3A03.2102	{spk:0080}{n}{fb:0080}{n}・・・。{n}{wait}{clear}{end}		
 3A03.211E	{spk:0080}{n}{fb:0A80}{n}・・・。{n}{wait}{clear}{end}		
-3A03.213A	{fb:FF81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3A03.213A	{fb:FF81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3A03.2156	{spk:0080}{n}{fb:0080}{n}・・・。{n}{wait}{clear}{end}		
 3A03.2172	{spk:0080}{n}{fb:0A80}{n}・・・。{n}{wait}{clear}{end}		
 3A03.2190	{fb:FE81}{n}{spk:0080}{n}ほかには、なにか？{n}{wait}{clear}{end}		entry point inside the previous row's message

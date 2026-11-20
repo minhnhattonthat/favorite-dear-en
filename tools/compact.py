@@ -2,6 +2,7 @@
 
     python -X utf8 tools/compact.py show bNNN [--from N --to M]   print the batch (JP) in compact form, numbered rows
     python -X utf8 tools/compact.py expand FILE bNNN               FILE: compact `id<TAB>en` rows -> trans/en/bNNN.tsv
+    python -X utf8 tools/compact.py soup bNNN FILE                 glyph-soup rows -> FILE as `id<TAB>-`; prints the rest
 
 The mapping is exact both ways (asserted: no symbol occurs in the source text). Used by a translating agent to cut
 tokens; `trans/en/bNNN.tsv` stays the source of truth and `tools/batches.py check` validates it as usual.
@@ -54,6 +55,19 @@ def main(argv):
         for i, (rid, jp) in enumerate(rows(ROOT / "trans/batches" / f"{argv[1]}.tsv"), 1):
             if lo <= i <= hi:
                 print(f"{rid}\t{compact(jp)}")
+        return 0
+    if len(argv) == 3 and argv[0] == "soup":
+        # rows whose text decodes as glyph soup (glossary: files 34F2-350A etc.) -> `id\t-` in FILE; prints the rest
+        import re
+        soup = []
+        for rid, jp in rows(ROOT / "trans/batches" / f"{argv[1]}.tsv"):
+            txt = re.sub(r"\{[^}]*\}", "", jp)
+            if txt.count("〔") + txt.count("｣") + txt.count("》") >= 2 and "。" not in txt:
+                soup.append(f"{rid}\t-")
+            else:
+                print(f"{rid}\t{compact(jp)}")
+        Path(argv[2]).write_text("".join(s + "\n" for s in soup), encoding="utf-8")
+        print(f"# {len(soup)} soup rows -> {argv[2]} (check the printed rows for soup the heuristic missed)", file=sys.stderr)
         return 0
     if len(argv) == 3 and argv[0] == "expand":
         src = Path(argv[1])

@@ -52,9 +52,9 @@ id	jp	en	notes
 3994.148A	{fb:1E80}{n}{spk:0080}{n}・・・君は、私に何か恨みでも{n}あるのか？　これから眠ろうとした時に{n}突然現れるなんて・・・。{n}{wait}{clear}{spk:0080}{n}用事なら、明日に{n}して欲しいんだが・・・。{n}{wait}{clear}{end}		
 3994.1530	{fb:1F80}{n}{spk:0080}{n}ようやく帰ってくれる{n}気になったか・・・。{n}やれやれ・・・。{n}{wait}{clear}{end}		
 3994.1580	{fb:2880}{n}{spk:0080}{n}・・・こんな時間になんの用だ。{n}もっと考えて行動すべきだな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.15DA	{fb:2980}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.15DA	{fb:2980}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:2980}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.15F6	{fb:3280}{n}{spk:0080}{n}・・・こんな時間になんの用だ。{n}もっと考えて行動すべきだな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.1650	{fb:3380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.1650	{fb:3380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:3380}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.166C	{fb:3C80}{n}{spk:0080}{n}ずいぶん遅くに来るじゃねえか。{n}いったい何の用だ？{n}{wait}{clear}{end}		
 3994.16B2	{fb:3D80}{n}{spk:0080}{n}もう帰るのか。{n}夜遅くまでご苦労なこった。{n}{wait}{clear}{end}		
 3994.16F0	{fb:4680}{n}{spk:0080}{n}ずいぶん遅くに来るじゃねえか。{n}いったい何の用だ？{n}{wait}{clear}{end}		
@@ -72,17 +72,17 @@ id	jp	en	notes
 3994.1A2C	{fb:8280}{n}{spk:0080}{n}あれ、お姉ちゃん・・・。{n}こんな時間に、どうしたの？{n}{wait}{clear}{end}		
 3994.1A74	{fb:8380}{n}{spk:0080}{n}そう。{n}それじゃ、おやすみなさい。{n}{wait}{clear}{end}		
 3994.1AAA	{fb:8C80}{n}{spk:0080}{n}ぅう～ん？　・・・{name:0080}か？{n}悪りぃ。俺、今とっても眠くって。{n}明日また出直してくれ。じゃあ。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.1B24	{fb:8D80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.1B24	{fb:8D80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:8D80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.1B40	{fb:9680}{n}{spk:0080}{n}ぅう～ん？　・・・{name:0080}か？{n}悪りぃ。俺、今とっても眠くって。{n}明日また出直してくれ。じゃあ。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.1BBA	{fb:9780}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.1BBA	{fb:9780}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:9780}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.1BD6	{fb:A080}{n}{spk:0080}{n}なんだい、アンタ・・・！{n}いくらなんでも{n}こんな時間に来ることないだろう？{n}{wait}{clear}{spk:0080}{n}少しは考えなよ、もう・・・。{n}おやすみ。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.1C72	{fb:A180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.1C72	{fb:A180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:A180}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.1C8E	{fb:AA80}{n}{spk:0080}{n}なんだい、アンタ・・・！{n}いくらなんでも{n}こんな時間に来ることないだろう？{n}{wait}{clear}{spk:0080}{n}少しは考えなよ、もう・・・。{n}おやすみ。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.1D2A	{fb:AB80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.1D2A	{fb:AB80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:AB80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.1D46	{fb:B480}{n}{spk:0080}{n}なんなのよぉ、バカ天使！{n}乙女のところに、こんな時間に、{n}ノコノコやってくるなんて！{n}{wait}{clear}{spk:0080}{n}とっとと帰んなさいよっ。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.1DDC	{fb:B580}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.1DDC	{fb:B580}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:B580}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.1DF8	{fb:BE80}{n}{spk:0080}{n}なんなのよぉ、バカ天使！{n}こんな時間に、{n}ノコノコやってくるなんて！{n}{wait}{clear}{spk:0080}{n}とっとと帰んなさいよっ。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.1E7E	{fb:BF80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.1E7E	{fb:BF80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:BF80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.1E9A	{fb:C880}{n}{spk:0080}{n}よう、お前か。{n}こんな夜中にどうしたんだ？{n}{wait}{clear}{end}		
 3994.1ED8	{fb:C980}{n}{spk:0080}{n}帰るのか？{n}・・・まあ、そりゃそうか。{n}こんな時間なんだしな。{n}{wait}{clear}{spk:0080}{n}じゃあな。おやすみ。{n}{wait}{clear}{end}		
 3994.1F4A	{fb:D280}{n}{spk:0080}{n}よう、お前か。{n}こんな夜中にどうしたんだ？{n}{wait}{clear}{end}		
@@ -92,9 +92,9 @@ id	jp	en	notes
 3994.208A	{fb:E680}{n}{spk:0080}{n}あら、天使サマ。{n}こんな時間にくるなんて・・・。{n}なにか用？{n}{wait}{clear}{end}		
 3994.20DA	{fb:E780}{n}{spk:0080}{n}もう、帰るの？{n}・・・つまらないわね・・・。{n}{wait}{clear}{end}		
 3994.211A	{fb:F080}{n}{spk:0080}{n}てっ、天使様・・・！？{n}だ、だめですよ・・・。{n}夜に突然やってくるなんて・・・。{n}{wait}{clear}{spk:0080}{n}なにかご用でしたら、{n}今度にしてください。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.21BE	{fb:F180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.21BE	{fb:F180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:F180}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.21DA	{fb:FA80}{n}{spk:0080}{n}あ、天使様？{n}どうしたんですか、{n}夜に突然やってくるなんて・・・。{n}{wait}{clear}{spk:0080}{n}なにかご用でしたら、{n}今度にしていただけますか。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.2276	{fb:FB80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.2276	{fb:FB80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FB80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.2294	{fb:1480}{n}{spk:0080}{n}何だ、君か。{n}もうすぐ食事の時間だ。{n}用事なら、早めに頼む。{n}{wait}{clear}{end}		entry point inside the previous row's message
 3994.22E4	{fb:1580}{n}{spk:0080}{n}そうか。{n}では、気をつけて帰るんだな。{n}{wait}{clear}{end}		
 3994.231E	{fb:1E80}{n}{spk:0080}{n}何だ、君か。{n}もうすぐ食事の時間だ。{n}用事なら、早めに頼む。{n}{wait}{clear}{end}		
@@ -132,9 +132,9 @@ id	jp	en	notes
 3994.2D58	{fb:BE80}{n}{spk:0080}{n}誰かと思ったら、アンタだったのね。{n}これから食事なんだけど、{n}なにか用？{n}{wait}{clear}{end}		
 3994.2DB4	{fb:BF80}{n}{spk:0080}{n}そ、じゃあねッ！{n}{wait}{clear}{end}		
 3994.2DD8	{fb:C880}{n}{spk:0080}{n}なんだお前か。{n}その様子じゃ、なんか話したい事でも{n}あるみたいだけど・・・。{n}{wait}{clear}{spk:0080}{n}これからメシなんだ。{n}悪いけど、また来てくれよな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.2E80	{fb:C980}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.2E80	{fb:C980}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:C980}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.2E9C	{fb:D280}{n}{spk:0080}{n}なんだお前か。{n}その様子じゃ、なんか話したい事でも{n}あるみたいだけど・・・。{n}{wait}{clear}{spk:0080}{n}これからメシなんだ。{n}悪いけど、また来てくれよな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-3994.2F44	{fb:D380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+3994.2F44	{fb:D380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:D380}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 3994.2F60	{fb:DC80}{n}{spk:0080}{n}あら・・・。{n}今、食事してきたところなの。{n}なにかご用？{n}{wait}{clear}{end}		
 3994.2FAC	{fb:DD80}{n}{spk:0080}{n}それだけなのね。{n}それじゃ。{n}{wait}{clear}{end}		
 3994.2FDC	{fb:E680}{n}{spk:0080}{n}あら・・・。{n}今、食事してきたところなの。{n}なにかご用？{n}{wait}{clear}{end}		

@@ -83,7 +83,7 @@ id	jp	en	notes
 39A8.2CF0	{fb:2980}{n}{spk:E783}{n}ゆっくり休んでくださいね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・。{n}気はつかうな。{n}{wait}{clear}{end}		
 39A8.2D4C	{fb:3380}{n}{spk:E783}{n}騎士団の兵士にもお休みはありますか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}ああ、もちろんだ。{n}騎士とて人間だから、休まねば大変だ。{n}{wait}{clear}{end}		
 39A8.2DD2	{fb:3D80}{n}{spk:E783}{n}いつも、ありがとうございます。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・礼を言うのはまだ早い。{n}皆が平和に暮らせるようになってからだ。{n}{wait}{clear}{end}		
-39A8.2E60	{fb:FE81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		entry point inside the previous row's message
+39A8.2E60	{fb:FE81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	entry point inside the previous row's message
 39A8.2E7C	{fb:0080}{n}{spk:E783}{n}あんまり無理しないでくださいね。{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}・・・それだけの用事なのか。{n}{wait}{clear}{end}		
 39A8.2EE2	{fb:0A80}{n}{spk:E783}{n}大変ですね。少し休みませんか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}心配は無用だ。{n}{wait}{clear}{end}		
 39A8.2F38	{fb:1480}{n}{spk:E783}{n}今日はまだ修行を続けるのですか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}・・・もちろんだ。{n}ほかに用がないのなら・・・帰れ。{n}{wait}{clear}{end}		
@@ -91,7 +91,7 @@ id	jp	en	notes
 39A8.3054	{fb:2880}{n}{spk:E783}{n}・・・来ないほうがよかったですか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}・・・気をつかうことはない。{n}用があってのことなのだろう。{n}{wait}{clear}{end}		
 39A8.30DA	{fb:3280}{n}{spk:E783}{n}小さい頃から剣術をやってたのですか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}そうだ・・・。{n}子供の頃からずっとな。{n}{wait}{clear}{end}		
 39A8.314E	{fb:3C80}{n}{spk:E783}{n}騎士にとって大切な修行とは何ですか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}・・・。{n}努力をし実践を重ねることだ。{n}もちろん、それだけではないがな。{n}{wait}{clear}{end}		
-39A8.31E4	{fb:FF81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+39A8.31E4	{fb:FF81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 39A8.3200	{fb:0180}{n}{spk:E783}{n}あんまり無理しないでくださいね。{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}・・・それだけの用事なのか。{n}{wait}{clear}{end}		
 39A8.3266	{fb:0B80}{n}{spk:E783}{n}大変ですね。少し休みませんか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}心配は無用だ。{n}{wait}{clear}{end}		
 39A8.32BC	{fb:1580}{n}{spk:E783}{n}今日はまだ修行を続けるのですか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}・・・もちろんだ。{n}ほかに用がないのなら・・・帰れ。{n}{wait}{clear}{end}		

@@ -83,9 +83,9 @@ id	jp	en	notes
 39F0.54BA	{fb:2980}{n}{spk:E783}{n}ゆっくり休んでくださいね。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}これって休んでる事になるのかなぁ。{n}まぁ、いいストレス解消には{n}なってるけどさ。{n}{wait}{clear}{end}		
 39F0.554E	{fb:3380}{n}{spk:E783}{n}急がれてたなら、すみません。{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}うん。まあ、ゆっくりできるのは{n}ひさしぶりだし。せっかくの時間を{n}満喫したくってな。{n}{wait}{clear}{end}		
 39F0.55E8	{fb:3D80}{n}{spk:E783}{n}行き先は、決めているのですか？{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}ハハハ！　何言ってんだか。{n}散歩って、行き先を決めてないからこそ{n}楽しいんだぜ。{n}{wait}{clear}{spk:0080}{n}決めてたら、今までの旅と{n}変わらねぇだろ。{n}{wait}{clear}{end}		
-39F0.56B8	{fb:FE81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		entry point inside the previous row's message
-39F0.56D4	{fb:0080}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-39F0.56F0	{fb:0A80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-39F0.570C	{fb:FF81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-39F0.5728	{fb:0180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-39F0.5744	{fb:0B80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+39F0.56B8	{fb:FE81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FE81}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	entry point inside the previous row's message
+39F0.56D4	{fb:0080}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0080}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
+39F0.56F0	{fb:0A80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0A80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
+39F0.570C	{fb:FF81}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FF81}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
+39F0.5728	{fb:0180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0180}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
+39F0.5744	{fb:0B80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0B80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	

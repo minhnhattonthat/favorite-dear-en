@@ -80,9 +80,9 @@ id	jp	en	notes
 398A.1A1A	{fb:AA80}{n}{spk:0080}{n}なんだ、アンタか・・・。{n}・・・なにか用・・・？{n}{wait}{clear}{end}		
 398A.1A5E	{fb:AB80}{n}{spk:0080}{n}そうか・・・。{n}それじゃ、おやすみ・・・。{n}{wait}{clear}{end}		
 398A.1A9C	{fb:B480}{n}{spk:0080}{n}え～、なぁに？{n}わたし、もうねたいんだ・・・。{n}ゴメン！　明日にして。　じゃぁねッ！{n}{wait}{clear}{end}		
-398A.1B04	{fb:B580}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+398A.1B04	{fb:B580}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:B580}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 398A.1B20	{fb:BE80}{n}{spk:0080}{n}え～、なぁに？{n}わたし、もうねたいんだ・・・。{n}ゴメン！　明日にして。　じゃぁねッ！{n}{wait}{clear}{end}		
-398A.1B88	{fb:BF80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+398A.1B88	{fb:BF80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:BF80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 398A.1BA4	{fb:C880}{n}{spk:0080}{n}オイオイ。びっくりさせんなよ。{n}こんな夜中に来るなんて・・・。{n}で、何か話でもあんのか？{n}{wait}{clear}{end}		
 398A.1C10	{fb:C980}{n}{spk:0080}{n}じゃあ、オレも{n}そろそろ寝るとするか。{n}{wait}{clear}{end}		
 398A.1C4A	{fb:D280}{n}{spk:0080}{n}オイオイ。びっくりさせんなよ。{n}こんな夜中に来るなんて・・・。{n}で、何か話でもあんのか？{n}{wait}{clear}{end}		
@@ -92,9 +92,9 @@ id	jp	en	notes
 398A.1DE2	{fb:E680}{n}{spk:0080}{n}なんなのよこんな時間に・・・。{n}いくらあなただからって、ちょっと{n}なれなれしいわよ。・・・何か用なの？{n}{wait}{clear}{end}		
 398A.1E5C	{fb:E780}{n}{spk:0080}{n}そう、それじゃ、おやすみなさい。{n}{wait}{clear}{spk:0080}{n}何か話があるなら起きている時に{n}してちょうだいね・・・。{n}{wait}{clear}{end}		
 398A.1ED4	{fb:F080}{n}{spk:0080}{n}あ・・・、て、天使様・・・。{n}だ、だめですよ・・・こんな時間に・・・。{n}{wait}{clear}{spk:0080}{n}いくら天使様でも、いけません。{n}また、明日にしてください・・・。{n}{wait}{clear}{end}		
-398A.1F7A	{fb:F180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+398A.1F7A	{fb:F180}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:F180}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 398A.1F96	{fb:FA80}{n}{spk:0080}{n}あ、天使様・・・。{n}せっかく来ていただいて{n}申し訳ないのですが・・・。{n}{wait}{clear}{spk:0080}{n}私、とっても眠たいんです。{n}ごめんなさい。{n}{wait}{clear}{end}		
-398A.2026	{fb:FB80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+398A.2026	{fb:FB80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FB80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 398A.2044	{fb:1480}{n}{spk:0080}{n}なんだ、君か？{n}私の食後の会話に、{n}つきあってくれるというのか？{n}{wait}{clear}{end}		entry point inside the previous row's message
 398A.2098	{fb:1580}{n}{spk:0080}{n}では、私はもう少しここで{n}ゆっくりしていよう。{n}{wait}{clear}{end}		
 398A.20DA	{fb:1E80}{n}{spk:0080}{n}なんだ、君か？{n}私の食後の会話に、{n}つきあってくれるというのか？{n}{wait}{clear}{end}		
@@ -228,9 +228,9 @@ id	jp	en	notes
 398A.478E	{fb:BE80}{n}{spk:0080}{n}なんだアンタか・・・。{n}で、なに？{n}私、今、修行中なんだけど。{n}{wait}{clear}{end}		
 398A.47E0	{fb:BF80}{n}{spk:0080}{n}用事が済んだなら、どっか行ってて。{n}じゃぁねッ！{n}{wait}{clear}{end}		
 398A.4824	{fb:C880}{n}{spk:0080}{n}あのさあ、オレ今、修行中なんだ。{n}出来れば一人っきりでやりたいんだよな。{n}{wait}{clear}{spk:0080}{n}だから、悪ィけどまた後にしてくれよ。{n}じゃあな。{n}{wait}{clear}{end}		
-398A.48BC	{fb:C980}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+398A.48BC	{fb:C980}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:C980}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 398A.48D8	{fb:D280}{n}{spk:0080}{n}あのさあ、オレ今、修行中なんだ。{n}出来れば一人っきりでやりたいんだよな。{n}{wait}{clear}{spk:0080}{n}だから、悪ィけどまた後にしてくれよ。{n}じゃあな。{n}{wait}{clear}{end}		
-398A.4970	{fb:D380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+398A.4970	{fb:D380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:D380}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	
 398A.498C	{fb:DC80}{n}{spk:0080}{n}天使サマ、なにか用かしら？{n}今、修行中なのよ・・・。{n}用がないならはなれてて、危ないわよ。{n}{wait}{clear}{end}		
 398A.49FA	{fb:DD80}{n}{spk:0080}{n}そう・・・。{n}・・・それじゃぁね。{n}{wait}{clear}{end}		
 398A.4A30	{fb:E680}{n}{spk:0080}{n}天使サマ、なにか用かしら？{n}今、修行中なのよ・・・。{n}用がないならはなれてて、危ないわよ。{n}{wait}{clear}{end}		

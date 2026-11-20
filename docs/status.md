@@ -20,9 +20,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Worker 5 (2026-11-21): name entry done. `asm/name.inc` (`text.md` §Name entry): Latin page first with pair-code
   letters, default "Raviel", 10 letters drawn 8 px apart, packed two per halfword on commit (verified by
   `tools/lua/peek.lua`: week screen shows "Raviel"; `warp.py newgame_name10` stores `Ra vi ww ww ww`); e015 page
-  buttons Katakana/Hiragana/ABC (`gfx.py` bg `>=N`); new scenes `newgame_grid`, `newgame_name10`.
-  **Next:** the rest of `docs/re/graphics.md` (rows without **English**: e143 失/死, e144,
-  e145 memory card, e203 flow chart, e243 battle status, e204-e206 8x8 font, TITLE PSS files, 平和度 on the map). Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
+  buttons Katakana/Hiragana/ABC (`gfx.py` bg `>=N`); new scenes `newgame_grid`, `newgame_name10`. Also e145
+  memory-card panels (in game: `load_list`, `hub_save_list`), e243 status stamps and e143 MIA/KIA icons (images
+  only; narrow font now has the capitals they use), D16. e144: logo kana kept (Waiting on the user). Build sha1
+  bdde2b23ea6f22f8b905a7ed6fe1ac3934b9a2e1, check ok, smoke ok (name-entry build). `tools/lua/peek.lua` logs RAM
+  halfwords per frame. Name entry left: odd-length names still end in a pair with a space (the old "Tia 's" gap).
+  **Next:** the rest of `docs/re/graphics.md` (rows without **English**: e203 flow chart (tutorial, 8bpp 320x240,
+  lots of text), e204-e206 8x8 font, TTL_OPT/TTL_OPT2/TTL_INFO PSS (option memory-card notice, Slime Ball help),
+  平和度 on the map), then (3) below. Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
   area x 10-47 y 91-99 per button; gfx.py needs a `bg` column (it clears to 0 now). Proposed: Plan Visit Status Map
   Scout System Back Mission Talk Gift. Build sha1 ac73a4b73fb8f746817a2bf7067a44b525be7970, fitcheck ok.
   Older, worker 1: review #5 PSX.EXE part. Grown list
@@ -201,5 +206,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`trans/staff/en.tsv`, given name first, Hepburn); given names that were initials until phase 8 are guesses too:
   新千恵子 "Chieko Atarashi", 戸北宗寛 "Munehiro Tokita", 龍谷修武 "Osamu Ryutani", 萩原由乃 "Yuno Hagiwara",
   富沢泰光 "Yasumitsu Tomizawa", 高橋佳子 "Keiko Takahashi", 本多柚々 "Yuyu Honda", 角田早穂 "Saho Tsunoda",
-  藤田顕史 "Kenji Fujita". Corrections welcome; the build works either way.
+  藤田顕史 "Kenji Fujita". Corrections welcome; the build works either way. (not blocking) The kana reading
+  フェイバリット・ディア under the English FAVORITE DEAR logo (GDATA e144 background watermark, TITLE.PSS,
+  TTL_LOGO.PSS) is kept as part of the logo under D5; say if you want it removed. (not blocking) D16: save-list hero
+  icons read MIA/KIA (11x10 px), status stamps POISON..PARALYZE, name entry keeps the kana pages.
 - **Open bugs:** none.

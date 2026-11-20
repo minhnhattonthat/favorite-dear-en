@@ -5,6 +5,10 @@ How: every GDATA.BIN directory entry (PSX.EXE 0x4C50, 423 entries) decoded as TI
 w = 64 halfwords, else 8bpp; palettes live elsewhere, so sheets were grey), plus every *.PSS / *.TIM on the disc root,
 TITLE/ and DATA/. The other EXEs embed no TIMs. Sheets: work/gfx/{small_a,small_b,big_0..2,lz_0..3,other}.png
 (regenerate with the commands above; work/ is gitignored).
+Phase 8 addition: GDATA also holds ~800 TIMs outside that directory (event pictures, portraits and their eye/mouth
+parts), found by a sector scan: `python -X utf8 tools/timscan.py` (work/gfx/scan/, one PNG per TIM, named by
+sector). All 342 640x240 pictures, the 320x240 one, the 92 480x240 portraits and the 365 small ones (eye/mouth parts) were
+looked at (2026-11-21): only the three tutorial charts and the GAME OVER pictures carry Japanese.
 
 Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot by phase 8, D5):
 
@@ -18,7 +22,9 @@ Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot 
 | GDATA e143 | TIM 8bpp | status icons 失 死 (and "Data.1-6") | map/battle sprites. **English** (phase 8, gfx/e143.tsv: MIA / KIA in the narrow font, D16; checked as an image, `gfx.py png 143`: no warp shows a lost or dead hero yet) |
 | GDATA e144 | TIM 4bpp | patterned background with the logo and フェイバリット・ディア kana | load screen? |
 | GDATA e145 | TIM 4bpp | save/load: この「Data」はこわれています 新規作成 容量がたりません 「Data」がありません | memory-card screens. **English** (phase 8, gfx/e145.tsv, D16; in game: `warp.py load_list` "No Data", `hub_save_list` "New Data") |
-| GDATA e203 | TIM 8bpp 320x240 | game-flow chart (the tutorial's "全体のながれ") | tutorial option at the start |
+| GDATA e203 | TIM 8bpp 320x240 | game-flow chart (the tutorial's "全体のながれ") | tutorial option at the start (the choice "1. Start now. 2. See the overall flow." is PSX.EXE 0x80166390, pointed to from 0x80169798; not reached by any warp yet). **English** (phase 8, gfx/e203.tsv: outlined label font (`oN` shadow), the 予定命令/説得/依頼 boxes widened with `copy` rows, big 勇者 erased with a texture offset; checked as an image, `gfx.py png 203`) |
+| GDATA sectors 40127, 40203, 40279 (outside the directory; `tools/timscan.py`) | TIM 8bpp 640x240 hi-res | tutorial charts ゲームの流れ 其の一/二/三 (white serif lettering, teal titles, over paintings) | SETUMEI event (`warp.py ev_setumei`, f13650-f13950). **English** (phase 8, gfx/s40127.tsv s40203.tsv s40279.tsv: `label2` font (double width), `lum:` erase; in game `work/qa/warp/ev_setumei/f013800.png`) |
+| GDATA sectors 15228, 41039, 41115 (outside the directory) | TIM 8bpp 320x240 / 640x240 | GAME OVER logo with a ゲーム・オーバー kana reading | game over: no game-over screen is reachable (`debug.md` §Programs, Battles), left as is |
 | GDATA e243 | LZSS 4bpp | battle status ポイズン チャーム スリープ コンフュ パライズ (e225 has English Poison/Charm/...) | battles. **English** (phase 8, gfx/e243.tsv: POISON CHARM SLEEP CONFUSE PARALYZE, narrow font, D16; checked as an image only: no warp inflicts a status yet) |
 | GDATA e204-e206 | LZSS 4bpp 256x16 x3 | a second, 8x8 font: A-Z 0-9 katakana hiragana (encoding not found yet) | small labels (battle/map?) |
 | TITLE.PSS, TITLE/TTL_LOGO.PSS | LZSS 8bpp | フェイバリット・ディア kana under the English logo | title, load |

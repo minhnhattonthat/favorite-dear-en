@@ -56,6 +56,26 @@ def test_ink_erase_leaves_no_japanese():
             assert left == [], (e, r["jp"], left[:5])
 
 
+def test_outline_index_erase_and_copy():
+    """e203's ops on a synthetic 40x20 image: `i:` erase (with a texture offset), `oN` outline, `copy`"""
+    w = 40
+    pix = [1] * (w * 20)
+    for xx in range(5, 9):  # "Japanese": fill 7 with outline 8, rows 3-4
+        pix[3 * w + xx], pix[4 * w + xx] = 8, 7
+    pix[17 * w + 6] = 2  # texture under the offset source
+    row = dict(x="4", y="2", w="20", h="16", font="label", ink="7", shadow="o8", bg="i:7,8@0,14", align="l",
+               jp="x", en="-")
+    gfx.clear(w, pix, row)
+    assert 7 not in pix and 8 not in pix and pix[3 * w + 6] == 2
+    gfx.draw(w, pix, dict(row, en="I"))
+    ink = {(i % w, i // w) for i, p in enumerate(pix) if p == 7}
+    ring = {(i % w, i // w) for i, p in enumerate(pix) if p == 8}
+    assert ink and all((x + dx, y + dy) in ink | ring for x, y in ink for dx in (-1, 0, 1) for dy in (-1, 0, 1))
+    assert min(y for _, y in ring) == 2 and min(x for x, _ in ring) == 4  # the outline starts at the rect corner
+    gfx.copy(w, pix, dict(x="30", y="0", w="2", h="20", en="4,0"))
+    assert [pix[y * w + 30] for y in range(20)] == [pix[y * w + 4] for y in range(20)]
+
+
 def test_label_font_has_every_letter():
     import labelfont
     for e in gfx.entries():

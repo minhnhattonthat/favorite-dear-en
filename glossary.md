@@ -57,6 +57,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | シルフェ | Sylphe | | fairy | |
 | シェリー | Shelly | | fairy | |
 | フロリンダ | Florinda | | fairy | |
+| ローザ | Rosa | | fairy (formal, composed) | |
 | フロリン | Florin | | Florinda's name for herself | |
 | ミライヤ | Miraya | | | |
 | ガブリエル | Gabriel | | archangel | |

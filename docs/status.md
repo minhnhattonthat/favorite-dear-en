@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, 35 of 144 event batches done (b001-b033), pilot checked in game.
+- **Phase:** 6. Translate: in progress, 48 of 144 event batches done (b001-b046), pilot checked in game.
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)
@@ -26,7 +26,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Next (phase 6):**
   1. Choice box check (b001 row 3498.1CF0 `　｛Go to them　　　｝`, file 3498) once a warp reaches it (find the event
      name via the 0x8003B680 lookup). SS1204 is not file 349C.
-  2. `python -X utf8 tools/batches.py todo` (next: b034), translate in order per `docs/translator-brief.md` and
+  2. `python -X utf8 tools/batches.py todo` (next: b047; 36FD soup continues there), translate in order per `docs/translator-brief.md` and
      `docs/style-reference.md`, check, merge, commit after every batch or two. Use `tools/compact.py show|soup|expand`
      (brief item 6): it cuts read/write tokens by about a third, and `soup` pre-fills glyph-soup rows as `-`.
      b026-b033 are recruit/re-recruit scenes and hero story battles; many files exist twice (one per angel gender,
@@ -35,7 +35,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
      JP text piece already translated to its EN piece, writes `work/tx/bNNN.pre` in compact form with unknown pieces
      marked ⟦, and reads extra pieces from `work/tx/manual.tsv`). Check its "he'd/she'd" picks in the stock fairy
      line. Worth turning into `tools/` if the next worker finds it useful. Then `docs/synopsis.md`.
-     Pace: one worker context did 17 batches (b017-b033) with compact.py + reuse.py.
+     Pace: one worker context did 17 batches (b017-b033) with compact.py + reuse.py; the next did 13 (b034-b046).
+     b037-b046 are the per-hero mission offers (`{fb:..}` files, accept/refuse per hero; voices in
+     `docs/style-reference.md`). After writing `work/tx/bNNN.en`, `python -X utf8 work/tx/prefer.py bNNN` swaps in
+     rows that `reuse.py` filled completely, so repeated lines match earlier batches word for word (gitignored
+     scratch: it only replaces rows with no ⟦ left; `batches.py check` still catches code slips).
+     Story facts (b034-b036): Sterens usurped Fangam (Apollyon's monster); Beasia's father was possessed by a Fiend;
+     Rasuel's double was Belphegor, the real Rasuel died in the demon world; Gaap is the chief fallen angel; Barnes is
+     the fairy world's guardian beast (Sylphe saved Tia's life).
      Story facts learned: Miraya is Felimi's elder sister (Duminas army); Rush is the sacred beast Jackhound who
      killed Yaruru's father Ludock; Regal (Knight in Black) is Reiv's friend; Adramelech burned Sievas's town 15 years
      ago; Apollyon killed Fiana's parents; Dian's lost love is Liza.

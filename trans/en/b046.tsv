@@ -1,0 +1,101 @@
+id	en
+36F0.0F08	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}I don't quite follow, but surely it hardly needs me to go?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}With that kind of story, someone is usually on the way already. I'll pass.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.0FC2	{spk:0080}{n}{e5:0080}{n}Sorry, but I must refuse.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}It would be faster to send someone else. I'll pass.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.1040	{spk:0080}{n}{e5:0280}{n}Hmm... I get the story, but would I make it in time if I went now?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Shouldn't ya ask somebody else?{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.10D4	{spk:0080}{n}{e5:0080}{n}I see. I understand, but... Angel, would I make it in time if I went?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I think it would be better to ask someone else.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.1178	{spk:0080}{n}{e5:0080}{n}I understand, but...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I'm sorry. I doubt I'd make it in time... Please try someone else.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.1208	{spk:0080}{n}{e5:0580}{n}Hmm... I get it, but would I even make it in time if I went now?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Isn't somebody else already on the way?{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.12AA	{spk:0080}{n}{e5:0580}{n}I get it, but would I even make it in time?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}See, with that kind of thing, somebody's usually first on the scene, right? Better to wait and see, I bet.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.1364	{spk:0080}{n}{e5:0080}{n}I get it, but sorry. I'll pass on this one.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0480}{n}Truth is, I'm a bit tied up right now, so it's bad timing. Could you try somebody else?{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.1420	{spk:0080}{n}{e5:0580}{n}Hmm... but I'll pass. It sounds a little too much for me.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I really think you should ask someone stronger for missions like this.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.14E0	{spk:0080}{n}{e5:0080}{n}I get the situation, but...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I don't think I'd make it in time. Better try somebody else.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.1574	{spk:0080}{n}{e5:0580}{n}I see, but... I'm sorry.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I have my own circumstances. So try someone else. That's the surest way.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.1872	{spk:0080}{n}{e5:0080}{n}I understand. I'll set out at once.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}In cases like this, fall too far behind and what could be saved can't be! Don't worry. I'll save her, you'll see.{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.1936	{spk:0080}{n}{e5:0080}{n}I get it. There's still time, right?! Then I'll go!{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}Don't worry! Rush! Let's go!!{n}{wait}{clear}{e5:0080}{n}{end}
+36F0.19D8	{spk:0080}{n}{e5:0080}{n}Got it. There's still time, right? Then I'll go!{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}Don't worry! You can count on me.{n}{wait}{clear}{e5:0080}{n}{end}
+36F5.0742	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}I've received word that a beast is rampaging in Omron.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}They say it's a very strong beast, and it's dangerous to leave it. Would you go to Omron?{n}{wait}{clear}{end}
+36F5.07F0	{fb:0180}{n}{e0:E0FF}{spk:E783}{n}I've received word that a beast is rampaging in Omron.{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}They say it's a very strong beast, and it's dangerous to leave it. Would you kindly go to Omron?{n}{wait}{clear}{end}
+36F5.08A0	{fb:7880}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}Oh no... Then Grandpa and Grandma...!!{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}... I'll do my best.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}But... what do I do... ...I'm... ......still... scared...{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Please do your best, Tia. I'm counting on you.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}...Yes. I have to save Grandpa and Grandma...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Angel, I'll go to Omron.{n}{wait}{clear}{e5:0080}{n}{end}
+36F5.0A4A	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}......{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}...Tia?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}...I'm sorry. I'm still...... scared......{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}......{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}...Tia. Then it can't be helped. I'll come again.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.0306	{fb:0080}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Yes, I understand. I just have to persuade those people to stop their violence, right?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I don't know if it will go well, but I'll do my best in my own way.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.03CA	{fb:0180}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I'm sorry, Angel. I don't think I could do something like that after all.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}If I accepted too easily here, I'm sure I'd only cause you trouble. ...I'm sorry I can't live up to your hopes.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.04B6	{fb:0A80}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Yes, I understand. I just have to persuade those people to stop their violence, right?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I don't know if it will go well, but I'll do my best in my own way.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.0666	{fb:1480}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I understand, Angel. I'm not very confident, but I'll do my best.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}There are people in trouble, aren't there? If I can be of help, I'll try my very best.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.073A	{fb:1580}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}...I'm sorry, Angel. If possible, could you ask another hero for this request?{n}{wait}{clear}{spk:0080}{n}It's too heavy a burden for me. There's a limit to what I can do. ...I'm sorry to be selfish.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.0824	{fb:1E80}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}I understand. Dealing with a monster...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}I'm a little worried, but if you say I can do it, Angel, I'm sure it'll be all right.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.08E8	{fb:1F80}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I'm sorry... Given my strength right now, I think I'd only cause you trouble on that job.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}If possible, could you ask another hero? I'm sorry... to be selfish.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.09CA	{fb:2880}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}I understand. Dealing with a monster...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}I'm a little worried, but if you say I can do it, Angel, I'm sure it'll be all right.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.0B74	{fb:3280}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}I understand what it's about. In short, I just have to persuade those people, right?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}People like that are human too. I'm sure they'll understand if we talk. It'll be all right, Angel.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.0C5E	{fb:3380}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}I'm sorry. I'm not confident, so could you ask someone else?{n}{wait}{clear}{e0:E0FF}I think it would be very hard for me to persuade those people. I'm sorry to be selfish.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.0D2C	{fb:3C80}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I see. I understand. It's a little frightening, but I'll try.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Helping people in trouble. That's a hero's duty too, isn't it? I'll do my best in my own way.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.0E0A	{fb:3D80}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}...I'm sorry. Could you ask someone else for this job?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I'm not very good at that sort of thing. I can't be so irresponsible as to accept something I'm not confident about.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.0FCE	{fb:4780}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}...I'm sorry. Could you ask someone else for this job?{n}{wait}{clear}{e0:E0FF}I'm not very good at that sort of thing. I can't be so irresponsible as to accept something I'm not confident about.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.10AE	{fb:5080}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Helping people, then. I understand.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}I don't know how far I'll get, but as a hero, I'll do everything I can.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.1160	{fb:5180}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}I understand, but... I'm sorry. Could you ask someone else?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I'm not really up to it... I'll do it properly next time, so... I'm really sorry.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.123E	{fb:5A80}{n}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}I see. What an unusual case. I understand. I'll give it a try. Actually, I rather like cases like this.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Don't worry, I'm sure I can solve it. My intuition says so.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.1316	{fb:5B80}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I understand, but... I'm sorry. Could you ask someone else?{n}{wait}{clear}{e0:E0FF}I'm not really up to it... I'll do it properly next time, so... I'm really sorry.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.13EE	{fb:6480}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}I understand. I'll try my very best.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}I don't mind solving cases like this, you know. So please don't worry.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.14A6	{fb:6580}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I'm sorry, I'll pass this time. I am interested, but...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Right now I really can't get away. I'm sorry I can't help you, Angel. I'll be sure to accept next time.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.1732	{fb:7880}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Yes, I understand. I just have to bring it back, right?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}If I can be of use, I'll gladly accept.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.17CE	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I understand. But this time... please let me pass.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I'd like to help, but... right now I really can't get away... I'm truly sorry.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.189E	{fb:8280}{n}{e0:E0FF}{spk:0080}{n}{e5:0180}{n}What an unusual story. But it seems somehow suited to me. Please, let me take it.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I don't know how far I'll get, but I'll do everything I can in my own way.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.1976	{fb:8380}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I'm sorry. I have something I really can't miss, so could you ask someone else?{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.19EC	{fb:8C80}{n}{e0:E0FF}{spk:0080}{n}{e5:0080}{n}Yes, understood, Angel. I just need to go there, right?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Then I'll do my best to get there as soon as I can.{n}{wait}{clear}{e5:0080}{n}{end}
+36F7.1A8E	{fb:8D80}{n}{e0:E0FF}{spk:0080}{n}{e5:0580}{n}I understand. But please let me pass this time. I do want to be of use...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Right now I really can't leave what I'm doing... I'm so sorry.{n}{wait}{clear}{e5:0080}{n}{end}
+36FB.039A	-
+36FB.03BC	-
+36FB.0404	-
+36FB.042A	-
+36FB.044C	-
+36FB.0472	-
+36FB.0498	-
+36FB.04C2	-
+36FB.04E8	-
+36FB.0512	-
+36FB.0538	-
+36FB.057E	-
+36FB.05A4	-
+36FB.05CE	-
+36FB.05F6	-
+36FB.0620	-
+36FB.0646	-
+36FB.0670	-
+36FB.0696	-
+36FB.06C0	-
+36FB.06E6	-
+36FB.0710	-
+36FB.073A	-
+36FB.0760	-
+36FB.0786	-
+36FB.07AC	-
+36FB.07D2	-
+36FB.07FC	-
+36FB.0822	-
+36FB.0848	-
+36FB.0872	-
+36FB.0898	-
+36FB.08C2	-
+36FB.08EC	-
+36FB.0936	-
+36FB.095C	-
+36FB.0986	-
+36FB.09AC	-
+36FB.09D6	-
+36FB.0A20	-
+36FB.0A3C	-
+36FB.0A5C	-
+36FB.0A86	-
+36FB.0AB0	-
+36FB.0AD6	-
+36FB.0B00	-
+36FB.0B26	-
+36FD.039A	-
+36FD.03C0	-
+36FD.0410	-
+36FD.043A	-
+36FD.0460	-
+36FD.048A	-
+36FD.04B4	-
+36FD.04E2	-
+36FD.050C	-
+36FD.053A	-

@@ -145,6 +145,8 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 - 様 after a hero's name (fairies, maids) is dropped: "I found {name:0180}!", "leave it to Sievas"; the politeness
   goes into the phrasing. 天使様 stays "Angel".
 - b020 3576.06BE-0834 (6 rows): glyph soup like 34F2 etc., `-`; phase 7 re-extract.
+- b046 36FB (47 rows) and 36FD (10 rows, continues in b047): short `{fb:..}` rows of soup ending in a repeated
+  `高決｡》｡`/`･》･` pattern (looks like a mission-result table under another glyph set), `-`; phase 7 re-extract.
 - Gendered addresses for the angel are neutralised: Yaruru's お姉ちゃん -> "you" (358B.2332), Griffin's
   ド派手姉ちゃん -> "Flashy", 娘/女 -> "that one"/"You sure can talk"; Dian's 天使さん -> "Angel".
 - 姉さん (Felimi to Miraya, his elder sister; 356C, 3570, 35F0, 35F4): "Sister" / "my sister".

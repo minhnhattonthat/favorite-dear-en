@@ -47,6 +47,7 @@ pair_hook:
     sb      t7, 0(t2)
     srl     t7, t7, 8
     sb      t7, 1(t2)
+    addiu   t2, t2, 24             ; next scratch row
     addiu   t6, t6, -1
     bnez    t6, @@row
     addiu   t4, t4, 1

@@ -2,9 +2,41 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 15: textcover converter fixed; tour 88/106 and cover sweep
-  172/444 on da7916e8 killed by the host for low memory; next: finish re-tour + sheets + gate + Explore review,
-  inkbox, forced text viewer for textcover, hero stress save).
+- **Phase:** 8. QA in the emulator: in progress (worker 16: tour on da7916e8 complete, all 263 sheets reviewed,
+  gate 23 not ok (6 bugs, list below); forced text viewer `tools/textforce.py` built, pass 1 running; next: fix the
+  6 bugs, re-tour those scenes, finish textforce passes, hero stress save).
+  Worker 16 (2026-11-21): build **667f2e4a5848d71c3da44667cf9f80f0e18883ed** (check ok 79, smoke ok; = da7916e8 +
+  the EPILOG slot fix below). (a) **Tour on da7916e8 finished** (17 scenes re-run, epilog_end16 re-run: it had
+  been cut mid-run), `qa_sheets.py`, `qa_gate.py init` (11 stale manifest lines for deleted sheet files dropped),
+  12 read-only Explore passes, verdicts `work/qa/verdicts/chunk_8b257bb4a64e_*.tsv`. `qa_gate.py check`: 263
+  sheets, 0 unreviewed, **23 not ok = 6 bugs**: (1) EPILOG slot select "Slot 1/2" left in its red bar (3B77.0260
+  line 7, epilog_end3/5/6/7/13/15/17/19): **fixed in 667f2e4a** (2 leading spaces each, Slot 2 keeps its start;
+  `work/qa/fix5/epilog_end15/f017400.png`, text ~42/44 px in the bar): re-tour the epilog_end* scenes on it, then
+  `qa_gate.py init` + review. (2) week-screen ACTION box "Stand By" left-aligned (inkbox 6/19, JP 待機 18/19), "To
+  Heaven" ~4 px left (5/14 vs 5/9): every hub_* sheet; find the strings (exe.tsv) and centre with leading spaces.
+  (3) Save/Load box "Load"/"Save" ~6.5 px left (16/29; hub_system, hub_save_list), and scout confirm "Yes" 18/32 in
+  its red bar (ev_sp01, ev_sy0101, ev_syboss1; JP はい centred, `work/qa/ex2/f001000.png`); epilog "Save the clear
+  data?" Yes 17/33 was passed: decide together. (4) name12_save: 12-letter name "ABCDEFGHIJKL" overflows the
+  week-screen name plate ("KL" onto the next panel): cap the name entry length or check what the JP max (8 kana?)
+  covers; 10 W's fit. (5) ev_taiken f013500: the 3-line "This disc ends here!..." trial message is drawn above the
+  box over the CG, third line struck by the box border (row in the taiken event file: grep "This disc ends"); check
+  the JP layout (no JP tour: `warp.py ev_taiken --root work/qa/tour_jp`). (6) battle_t0301: speaker "Zombie
+  Merchant:" (trans/en/b030.tsv / script/events/35E2.tsv .0E64/.142E/.1478) vs plate "ZOMBIE TRADER" (btname
+  E185): pick one, add it to glossary.md. Also flagged, not gated: credits_roll/qa_sheet_7 empty box on dark red
+  after the roll (likely FIN.EXE warp state; run the warp on the JP disc), 3943.1746 "(None: not captured!)" reads
+  opposite to JP つかまってるのでなし！ ("none, since I've been caught"), epilog_end3 f013500 stray "." after "Griffin:
+  ...Thank you..." (blank {name}?), credits names end at x=315 of 320 (tight, not clipped). (b) **Forced text
+  viewer** for textcover: `tools/lua/textforce.lua` + `tools/textforce.py` (`freeze`, `run`, `left`; doc in the
+  docstrings). Each time the printer starts a row of the warped event's file it is pointed (obj+0 base, obj+0x10 =
+  0: the print op sets the base per message) at the next unshown row; the row's terminator is patched to {wait}
+  and the chain goes on into the next row. MYH16 trial: 13 rows in one run (was 2). Limits: late in an event the
+  printer pointer gets overridden (a second printer object), and choice menus (329 ｛..｝ rows) are drawn by the
+  choice op, not the printer: they are left out of the chain and need their own hook or per-scene shots. Frozen
+  build `work/qa/force_build/` (667f… minus the slot fix = da7916e8 text; rows.json/names.json/strings.tsv),
+  **pass 1 running** at -j 2 into `work/qa/force/p1/` (log `work/qa/force_run1.txt`); if it died: `python -X utf8
+  tools/textforce.py run -j 2 --pass 1` resumes; then `textforce.py run` (pass 2 uses each file's next event name),
+  `textforce.py left`, and `textcover.py work/qa/force work/qa/force_build/strings.tsv --waive
+  docs/text_unshown_unloaded.tsv`. (c) Stress gap unchanged: no hero in any save.
   Worker 15 (2026-11-21, build da7916e8 unchanged): (a) re-tour of all 106 scenes on da7916e8 (`warp.py --all --root
   work/qa/tour -j 2 --lua tools/lua/textlog.lua --cue <abs>/build/favorite_dear_en.cue`, log `work/qa/tour_run6.txt`)
   and `cover_sweep.py -j 1` were **both stopped by the host for low memory at 06:00** (tour 88/106: re-run only the

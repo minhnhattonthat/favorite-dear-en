@@ -58,10 +58,16 @@ def id_sectors(exe):
 
 def row_offsets():
     """{original sector: [(new byte offset, row id)]} for the English build, sorted by offset."""
+    exe, out, _ = row_table()
+    return exe, out
+
+
+def row_table():
+    """(original PSX.EXE, row_offsets' map, {original sector: byte size of the built file})."""
     tree = ROOT / "work/disc/tree"
     exe, gdata = (tree / "PSX.EXE").read_bytes(), (tree / "GDATA.BIN").read_bytes()
     table = extract.event_table()
-    out = {}
+    out, ends = {}, {}
     for sec, size, data, where in evscript.script_files(exe, gdata):
         path = extract.SCRIPT / "events" / f"{sec:04X}.tsv"
         if not path.exists():
@@ -73,13 +79,14 @@ def row_offsets():
             text = insert.row_text(row, "en")
             if text is not None:
                 repl[(int(row["id"].split(".")[1], 16) - sc.code_off) // 2] = en.encode(text, table)
-        _, newpos = insert.rebuild_map(sc, repl)
+        new, newpos = insert.rebuild_map(sc, repl)
+        ends[sec] = sc.code_off + 2 * len(new)
         lst = []
         for row in rows:
             pc = (int(row["id"].split(".")[1], 16) - sc.code_off) // 2
             lst.append((sc.code_off + 2 * newpos(pc), row["id"] if row["en"] else None))  # None: not text
         out[sec] = sorted(lst)
-    return exe, out
+    return exe, out, ends
 
 
 def cmd_strings(a):
@@ -100,9 +107,14 @@ def cmd_strings(a):
 
 def cmd_convert(a):
     exe, offs = row_offsets()
+    convert(a.logdirs, exe, offs)
+
+
+def convert(logdirs, exe, offs):
+    """Append TEXT lines to each run's log.txt; offs = row_offsets()[1] of the build the runs played."""
     ids0, bare = id_sectors(exe), name_sectors(exe)
     starts = {sec: [o for o, _ in v] for sec, v in offs.items()}
-    for d in a.logdirs:
+    for d in logdirs:
         log = Path(d) / "log.txt"
         if not log.exists():
             continue

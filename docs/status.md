@@ -2,9 +2,31 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 17: the 6 gate bugs fixed or closed, build 3f8921bc;
-  re-tour killed for low memory at 38/47; next: merge+rebuild (b099 edit), finish the re-tour, sheets, gate init,
-  review, textforce passes, hero stress save).
+- **Phase:** 8. QA in the emulator: in progress (worker 18: **visual gate passes** on build ddee99dd; left:
+  textcover (textforce passes), hero stress save, a shot of the Sylphe/Gaap inline-speaker pages).
+  Worker 18 (2026-11-21): build **ddee99ddfefd466ad8c41083a7efcc7c9d9c1fcb** (check ok 79, smoke ok).
+  (a) b099 merged (3943.1746), rebuilt; re-toured epilog_end14 (its old run had died at f900, no sheets) and
+  epilog_end16-23 on the new text; `qa_sheets.py`, `qa_gate.py init --build build/favorite_dear_en.bin`, 6 + 1
+  read-only Explore review passes (verdicts `work/qa/verdicts/chunk_f29d42123006_*.tsv`, `chunk_82e57efaa9a5_all.tsv`,
+  `w18_recheck.tsv`). **`qa_gate.py check`: 268 sheets, 0 unreviewed, 0 not ok, exit 0.** name12_* are `fixed`
+  (past the 10-letter cap). credits_roll/qa_sheet_7 closed: the same warp on the JP disc
+  (`work/qa/tour_jp/credits_roll`) shows the same noise, then the box opens empty and a line types in, so it is warp
+  state. ev_taiken closed (same in JP). Honest caveat: most sheets were shot on earlier builds whose text differs
+  from ddee99dd only in rows those scenes don't show (b099 3943.1746; the speaker spaces below, only in
+  epilog_end12, which was re-shot). (b) **Speaker space fix:** 6 pages print the speaker inline ("Tia:I wanted",
+  JP does the same), now "Tia: I wanted" (b141), "Sylphe: " x4 (b037, 365E = battle T1205), "Gaap: " (b116, 3A37 =
+  T00GAP). **Gotcha:** `wrap.wrap_for` drops a space *before* a code (`Tia: {f7:0380}` came out `Tia:{f7:0380}`),
+  so put it after (`Tia:{f7:0380} I`). Tia verified in game (epilog_end12 f013050); `warp.py --battle T1205` /
+  `T00GAP` (`work/qa/fix6/`, shots every 150) never caught the Sylphe/Gaap inline pages: re-run with
+  `--shot-every 30` or a textlog hook if you want a picture. (c) **Hero stress save, still none:** a native MYH16
+  run to 36000 frames (`work/qa/herojoin/`) ends on the week-2 screen with only the angel and two fairies; the
+  angel's own actions are only Stand By / To Heaven. Joining goes through fairy hero search -> scout ("Go scout a
+  hero you've found. Costs 10 AP", the SP01 scout menu VISIT/SCOUT/STATUS/MAP) over several weeks;
+  `play.py work/play/hero` (from week2.sstate + week2.mcd; cross clears an action, circle opens the list) is set
+  up for that. (d) **textforce pass 1 resumed at -j 1** (`work/qa/force_run2.txt`, started 07:00): ~2.3 min per file,
+  ~415 files left, so ~16 h per pass at -j 1; if it died, `python -X utf8 tools/textforce.py run -j 1 --pass 1`
+  resumes. 8493 of 8638 loaded rows were unshown before it. See "Waiting on the user".
+  (e) Older worker notes (16 and before) moved to `docs/phase8_log.md`.
   Worker 17 (2026-11-21): build **3f8921bc14034ff2bb995434b7b9b3219c7a2f8f** (check ok 79, smoke ok), commit aa2e6c6.
   **Gate bugs:** (1) EPILOG slot labels: worker 16 had fixed them in script/events only and `batches.py merge`
   reverted it; now in `trans/en/b143.tsv` too. **Rule: edit trans/en (events) and trans/exe/en (EXE), then merge;
@@ -164,7 +186,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Event names map to GDATA files through the name lookup at 0x8003B680 (462 ids); useful for naming TSVs in QA.
   - 1824 of 9094 messages are referenced directly; how the rest are reached matters only for message order on insert.
   - Movies DEMO.STR / ENDING.STR / the end of OP.STR not checked for burned-in text.
-- **Waiting on the user:** (not blocking) abbreviations: the PSX.EXE ones are gone (phase 8 repoint: "Balgador
+- **Waiting on the user:** (not blocking, worker 18) textcover scale: `textforce.py` shows ~40% of a file's rows per
+  run and pass 1 alone takes ~16 h at -j 1 (memory on the shared host allows little more), so the textcover gate
+  needs several passes (days of emulator time) plus a separate path for the 312 choice-menu rows. Default carried
+  on with: keep running passes. Alternative for the owner to choose: waive rows that `fitcheck.py` proves fit
+  (static width check per box) and keep the in-game pass for rows with codes, names or odd layouts.
+  (not blocking) abbreviations: the PSX.EXE ones are gone (phase 8 repoint: "Balgador
   Range", "Primse River", "Barba Isle", "Court Angel", "Chief Seraph", "Gigas Earring", "Dark Carriage"); left are
   "Jr. Power".."Jr. Seraph" (準X翼宮: the rank box holds 12 letters, "Junior Prince" needs 13). Say if "Jr." is
   fine to keep. The credits have no short forms left (FIN pair-glyph hook, phase 8). (not blocking) Honorifics: D1 is now applied in full (D12: "Sievas-sama", "Tia-san",

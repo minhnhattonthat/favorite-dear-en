@@ -67,6 +67,9 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | イウヴァート | Iuvart | | fallen angel | |
 | アドラメレク | Adramelech | | | |
 | ガープ | Gaap | | | |
+| トロメア | Ptolomea | | place of the fallen angels' exile (Dante); with ジュデッカ Judecca, リンボ Limbo | |
+| ジュデッカ | Judecca | | | |
+| リンボ | Limbo | | | |
 | レライエ | Leraje | | | |
 | ベルフェゴール | Belphegor | | | |
 | ドラッケン | Drakken | | mountain bandit / monster preying on merchants in Hebron | |

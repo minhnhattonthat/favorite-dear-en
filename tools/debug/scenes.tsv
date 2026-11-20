@@ -52,7 +52,17 @@ minigame	exec	FD_BALL	mash	20000			1000	FD_BALL.EXE Slime Ball minigame (menu, t
 battle_castle	event	SS0204:2	mash	17000			1500	story SS0204 for hero 2: command D3 starts battle 192 (castle interior, battle HUD and battle dialogue)
 battle_forest	event	SS0501:5	mash	17000			1500	story SS0501 for hero 5: forest battle
 battle_t0101	battle	T0101	mash	17500			1200	battle T0101 (key 0, rocky plateau): its own map, units and battle dialogue, hosted by SS0204's battle
-battle_t0702	battle	T0702	mash	17500			1200	battle T0702 (forest): map, units, battle dialogue
+battle_t0702	battle	T0702	mash	17500			600	battle T0702 (forest): map, units, battle dialogue
+battle_t0201	battle	T0201	mash	17500			1200	battle T0201 (region 2's first battle)
+battle_t0301	battle	T0301	mash	17500			1200	battle T0301 (region 3)
+battle_t0401	battle	T0401	mash	17500			1200	battle T0401 (region 4)
+battle_t0501	battle	T0501	mash	17500			1200	battle T0501 (region 5)
+battle_t0601	battle	T0601	mash	17500			1200	battle T0601 (region 6)
+battle_t0801	battle	T0801	mash	17500			1200	battle T0801 (region 8)
+battle_t0901	battle	T0901	mash	17500			1200	battle T0901 (region 9)
+battle_t1001	battle	T1001	mash	17500			1200	battle T1001 (region 10)
+battle_t1101	battle	T1101	mash	17500			1200	battle T1101 (region 11)
+battle_t1201	battle	T1201	mash	17500			1200	battle T1201 (region 12)
 epilog_end1	exec	EPILOG:1	mash	20000			1450	EPILOG.EXE ending 1
 epilog_end2	exec	EPILOG:2	mash	20000			1450	EPILOG.EXE ending 2
 epilog_end4	exec	EPILOG:4	mash	20000			1450	EPILOG.EXE ending 4

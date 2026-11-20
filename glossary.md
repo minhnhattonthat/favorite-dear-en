@@ -114,6 +114,9 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | トラスト | Trust | | town in Kanoa (Nasadia) | |
 | オムロン | Omron | | village in Kvaal (Tia) | |
 | コパ | Copa | | village in Fangam (slime thefts) | |
+| サルファ | Sulfa | | region near Hebron where a rebellion breaks out (Reiv mission) | |
+| トリニテ | Trinite | | town linked to Niesen by a highway (Griffin mission) | |
+| ティアズ | Tiaz | | town where "that kid" lives (Griffin mission) | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

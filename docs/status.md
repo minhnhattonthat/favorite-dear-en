@@ -2,8 +2,28 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 11: re-tour + visual QA on a870a1cf done, textcover hook
-  calibrated, fixes in on build 7da42f5a; next: odd-run rewording, re-tour, open sheets, inkbox, stress saves).
+- **Phase:** 8. QA in the emulator: in progress (worker 12: odd runs and page fragments fixed, build 8000adc5;
+  next: plate name bug t0201, re-tour + gate on 8000adc5, open sheets, inkbox, stress saves, textcover).
+  Worker 12 (2026-11-21): build **8000adc5ae2a4ab269618e632e6a2bf788a80b56** (check ok 75, fitcheck ok, smoke ok).
+  (a) Odd runs before {name}/{ins}: all reworded, `oddname.py` 181 -> **0** (fixes in `work/qa/oddname/fix1-5.tsv`;
+  rule learnt: wrap.py carries the word before a name onto the name's line, so that word + space must be even, or
+  put the vocative first: "{name}, think it through carefully."). (b) "a fool!"/"shows up."/"Dark Carriage." pages:
+  `wrap._page_cut` now breaks an overflowing hard line at a sentence/clause end that fits the page (prefers a '.!?'
+  end filling the page, then the latest end leaving 4+ words), else moves the whole line to the next page, else
+  rebalances 3+1 lines to 2+2; `tools/pagesplit.py` lists continuation pages opening on a 1-3 word lower-case
+  fragment: 165 -> **0**. Both lints run in `tests/test_wrap.py`. +12 pages over the script (52759 -> 52771).
+  In game: `work/qa/fix2/battle_t0101` f014850 "That's the iron law of the / "Dark Carriage."" on its own page.
+  (c) **battle_t0201 plate bug** (open): the enemy plates (top left) draw one garbage glyph instead of the name
+  (`work/qa/tour/battle_t0201/f015150.png`, crop 0,0,160,60 zoom 3; t0101 BANDIT/CHIEF fine). Next: find T0201's
+  enemy types (u16 0x80182B2C) and whether their plate goes through the new 0x80042448 renderer or another path
+  that still reads the old table 0x8013BFCC (now overwritten, `docs/re/graphics.md` §Battle name plates).
+  (d) **Text-coverage event sweep restarted** (the first was killed after 18 events): 426 events on the frozen
+  `work/qa/cover_build/` (a870a1cf) into `work/qa/cover/`, -j 2, 30000 frames, log `work/qa/cover_run.txt`, started
+  04:20; done events have `^exit` in `work/qa/cover/ev_*/emu.txt`. If it died, rebuild the todo list the same way
+  (events.txt minus finished dirs) and re-run. Host RAM is tight (1.2 GB free with 3 PCSX): tours at -j 1 while the
+  sweep runs. Note: `warp.py` without `--cue` runs the **Japanese** disc; pass `--cue <abs path>/build/...cue`.
+  The tour verdicts are STALE (build changed twice since a870a1cf): re-tour on 8000adc5, `qa_sheets.py`,
+  `qa_gate.py init`, review the changed sheets.
   Worker 11 (2026-11-21): build **7da42f5ae6eaa065234e2d09abe08d903ab3bd24** (check ok 72, fitcheck ok, smoke ok).
   (a) Tour on a870a1cf finished (all 97 scenes, one run with the new hook; `epilog` alone times out as before),
   `qa_sheets.py` + `qa_gate.py init`; 159 changed sheets reviewed by 6 read-only Explore passes, verdicts

@@ -2,8 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 7: title PSS and map 平和度 English; next find where the
-  e204-e206 8x8 kana font shows, then the tours, item (3)). Worker 7 also: the map box's 平和度 is a PSX.EXE string
+- **Phase:** 8. QA in the emulator: in progress (worker 8: battle name plates English; next the tours, item (3)
+  below). Worker 8 (2026-11-21): e204-e206 = bt_font1-3.pss, the 8x8 font of the battle name plates (every enemy
+  and hero name under its unit was Japanese: さんぞく, おやぶん ...). `asm/btname.inc` replaces the plate routine
+  0x80042448 with an English renderer (upper case, new proportional `fonts/caps4x7.txt`, 64 px, LoadImage);
+  names in `trans/btname.tsv` (201 enemies + 17 heroes, `tools/btname.py extract|check|png`, tests
+  `tests/test_btname.py`), D17, `docs/re/graphics.md` §Battle name plates. In game: `warp.py battle_t0101`
+  f015150 BANDIT/BOSS (build 28b1414e; E051 then renamed CHIEF, data only: the re-run on 64ee6f64 was stopped by
+  the host for low memory, so re-check that plate in the tours), `battle_castle` f014700 WIGHT and hero plate REIV. Build sha1
+  64ee6f6491832d274ed22638ae7f2df5339d31af, check ok (70 tests), fitcheck ok, smoke ok. Not seen in game yet:
+  the longest names (64 px, e.g. Duminas Officer); no warp lists every enemy type. Worker 7 also: the map box's 平和度 is a PSX.EXE string
   at 0x1747B4 (outside EXE_REGIONS, found in a VRAM dump: `warp.py hub_map --lua tools/lua/dumpram_at.lua --var
   DUMP_AT=11150`, render the .vram.bin as 4bpp to read the text engine's drawn labels), now "Peace" in
   asm/font.asm (in game: hub_map post.png). Other text-engine labels in that VRAM dump were all English already.
@@ -47,8 +55,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (double width for 640 hi-res), `copy` rows, en `-` erase-only rows; tests in test_gfx.py. GAME OVER pictures
   (sectors 15228/41039/41115, ゲーム・オーバー kana under English) left: unreachable. Build sha1
   27c9047bedcb52d885d3aa338b7ff4c94c76b735, check ok, smoke ok.
-  **Next:** e204-e206 8x8 kana font (where shown? battles likely: `warp.py --battle T0101`, VRAM dump as above),
-  then (3) below. Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
+  **Next:** (3) below (tours, visual QA, inkbox, stress saves, textcover). e204-e206 done (worker 8). Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
   area x 10-47 y 91-99 per button; gfx.py needs a `bg` column (it clears to 0 now). Proposed: Plan Visit Status Map
   Scout System Back Mission Talk Gift. Build sha1 ac73a4b73fb8f746817a2bf7067a44b525be7970, fitcheck ok.
   Older, worker 1: review #5 PSX.EXE part. Grown list

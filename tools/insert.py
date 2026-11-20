@@ -22,6 +22,7 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import btname  # noqa: E402
 import en  # noqa: E402
 import evscript  # noqa: E402
 import extract  # noqa: E402
@@ -331,8 +332,14 @@ def assemble(exe, asm="font.asm"):
         d = Path(d)
         (d / "in.exe").write_bytes(exe)
         (d / "font.bin").write_bytes(font_en.fin_binary() if asm == "fin.asm" else font_en.binary())
+        bt = btname.read_rows()  # battle name plates (asm/btname.inc, included by font.asm)
+        for name, data in (("btfont", btname.font_bin()), ("bthero", btname.hero_bin(bt)),
+                           ("btenemy", btname.enemy_bin(bt))):
+            (d / f"{name}.bin").write_bytes(data)
         r = subprocess.run([str(ARMIPS), str(ROOT / "asm" / asm), "-strequ", "EXE_IN", str(d / "in.exe"),
-                            "-strequ", "EXE_OUT", str(d / "out.exe"), "-strequ", "FONT_BIN", str(d / "font.bin")],
+                            "-strequ", "EXE_OUT", str(d / "out.exe"), "-strequ", "FONT_BIN", str(d / "font.bin"),
+                            "-strequ", "BTFONT_BIN", str(d / "btfont.bin"), "-strequ", "BTHERO_BIN",
+                            str(d / "bthero.bin"), "-strequ", "BTENEMY_BIN", str(d / "btenemy.bin")],
                            capture_output=True, text=True, cwd=ROOT / "asm")  # .include resolves from the cwd
         if r.returncode != 0:
             raise RuntimeError(f"armips failed:\n{r.stdout}\n{r.stderr}")

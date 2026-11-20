@@ -26,7 +26,7 @@ Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot 
 | GDATA sectors 40127, 40203, 40279 (outside the directory; `tools/timscan.py`) | TIM 8bpp 640x240 hi-res | tutorial charts ゲームの流れ 其の一/二/三 (white serif lettering, teal titles, over paintings) | SETUMEI event (`warp.py ev_setumei`, f13650-f13950). **English** (phase 8, gfx/s40127.tsv s40203.tsv s40279.tsv: `label2` font (double width), `lum:` erase; in game `work/qa/warp/ev_setumei/f013800.png`) |
 | GDATA sectors 15228, 41039, 41115 (outside the directory) | TIM 8bpp 320x240 / 640x240 | GAME OVER logo with a ゲーム・オーバー kana reading | game over: no game-over screen is reachable (`debug.md` §Programs, Battles), left as is |
 | GDATA e243 | LZSS 4bpp | battle status ポイズン チャーム スリープ コンフュ パライズ (e225 has English Poison/Charm/...) | battles. **English** (phase 8, gfx/e243.tsv: POISON CHARM SLEEP CONFUSE PARALYZE, narrow font, D16; checked as an image only: no warp inflicts a status yet) |
-| GDATA e204-e206 | LZSS 4bpp 256x16 x3 | a second, 8x8 font: A-Z 0-9 katakana hiragana, no kanji (encoding not found yet) | small labels (battle?); not the map box (below). Not seen on any screen yet |
+| GDATA e204-e206 (bt_font1-3.pss) | LZSS 4bpp 256x16 x3 | 8x8 battle font: A-Z 0-9 katakana hiragana, no kanji | battle name plates (unit names) and the HUD's digits. **English** (phase 8, §Battle name plates below: the names are now drawn by `asm/btname.inc` in caps4x7, D17; the font images stay, the HUD still uses their digits and Latin; in game `warp.py battle_t0101` f015150 BANDIT / CHIEF, `battle_castle` f014700 WIGHT and the hero plate REIV) |
 | PSX.EXE 0x1747B4 (RAM 0x80183FB4) | string `平和度{end}`, text-engine drawn (VRAM dump `v11150` on the map: next to the other map labels), outside extract.py's EXE_REGIONS | world-map coordinate box "X: Y: 平和度" | **English** (phase 8, asm/font.asm: pair cells "Peace", `warp.py hub_map` post.png "X: 41 Y: 23 Peace 150") |
 | TITLE.PSS, TITLE/TTL_LOGO.PSS | LZSS 8bpp | フェイバリット・ディア kana under the English logo | title, load |
 | TITLE/TTL_OPT.PSS | LZSS 4bpp 256x256 (same form as the GDATA LZSS images; no CLUT in the file) | memory-card notice メモリーカードの / チェック中です。/ 抜かないでください。 | title Option. **English** (phase 8, gfx/TTL_OPT.tsv: "Checking the / memory card. / Don't remove it."; checked as an image, `gfx.py png TTL_OPT`: `warp.py option_exit` (card in) and `option_omake` never show it) |
@@ -44,3 +44,21 @@ Movies: NEIC.STR / SOFIX1.STR are the company logos (English); OP.STR sampled ev
 OP.STR, DEMO.STR, ENDING.STR (burned-in text, lyrics); graphics of
 GOVER.EXE (game over; never shown in play, `debug.md` §Programs: OVER_*.TIM need no translation), FD_BALL.EXE (Slime Ball), EPILOG.EXE, PS_MOV.EXE, FIN.EXE beyond what they load from the disc
 root; the 107 non-image GDATA entries (maps, 3D, battle data). Do these with the debug tool's warps (phase 2/8).
+
+## Battle name plates (found 2026-11-21, phase 8)
+
+- Each unit's plate (enemies top left, heroes bottom right) shows a 64x8 name label from VRAM. The battle init
+  (0x80042180) LoadImages bt_font1-3.pss (GDATA e204-e206) to VRAM (320/384/448, 240); routine 0x80042448 (called
+  from 0x80046098 and 0x8005D5C8) then MoveImaged 8 font cells per unit slot (6 slots, records of 0x78 bytes at
+  0x80196A20, +0x16 > 0 = shown) to x 0x1E0 + (slot&1)*16 halfwords, y 0x40 + (slot>>1)*8.
+- Names are 8 one-byte codes (0 = blank): heroes at the start of the record that 0x80146210[hero id] points to
+  (19 entries; the record also names the hero's battle sprite file), enemies at 0x8013BFCC + type*8 (201 types,
+  type = u16 at 0x80182B2C + (slot-3)*2). A code picks a 0x1C-byte descriptor through 0x80154CF4[code] (page,
+  u, v, ..., w, h) at 0x801537F4 + code*0x1C; `tools/btname.py` decodes them (A-Z = 0x0B-0x24, 0-9 = 0x01-0x0A).
+- The HUD (LV digits, HP; 0x8005AF20, 0x8005B208 -> 0x8003C8A8) reads only codes 0x00-0x24 and the pointer table:
+  a read watch (`probes/watch.lua`, from `work/states/battle_t0101.sstate`, 1800 frames) saw no read of the
+  descriptors 0x80153BE0-0x80154CF3 (codes 0x25-0xBF) while the same watch over the whole table logged the HUD.
+- English (D17): `asm/btname.inc` replaces 0x80042448 in place with a renderer that draws the name from
+  `trans/btname.tsv` (upper case, `fonts/caps4x7.txt`, <= 64 px, `btname.py check`) into a 4bpp buffer and
+  LoadImages it (LoadImage 0x800EC6C0, then DrawSync 0x800EC414, since LoadImage keeps the pointer). Data: the
+  font, hero names and the buffer over the old enemy table, the 16-byte enemy records over descriptors 0x25-0xBF.

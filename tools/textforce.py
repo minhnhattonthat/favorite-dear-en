@@ -158,6 +158,8 @@ def cmd_run(a):
                "--shot-every", str(a.shot_every), "--timeout", "3600", "--var", f"MASH_EVERY={a.mash}",
                "--lua", str(ROOT / "tools/lua/textforce.lua"),
                "--var", f"TARGETS='{' '.join(cells)}'"]
+        for v in a.var or ():
+            cmd += ["--var", v]
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
         d = run_dir(out, nm, battle)
         textcover_map.convert([d], exe, offs)
@@ -198,6 +200,7 @@ def main():
             s.add_argument("--only", help="comma-separated hex sectors")
             s.add_argument("--rows", help="comma-separated row ids (365E.1B8A,..): force only these")
             s.add_argument("--shot-every", type=int, default=1500, help="frames between shots (30 to catch a page)")
+            s.add_argument("--var", action="append", help="extra textforce.lua variable, NAME=LUA (e.g. SKIPKEY=1)")
             s.add_argument("--pass", dest="pass_no", type=int, help="resume pass N (default: start the next one)")
     a = ap.parse_args()
     {"freeze": cmd_freeze, "run": cmd_run, "left": cmd_left}[a.cmd](a)

@@ -60,6 +60,8 @@ local function start(obj, hoff, t, clear, n)
   end
   cur = t
   local s = hoff + rows[t].s
+  -- a row opening with its FFFB key (op 0x90 looks messages up by it and starts the printer after it): start there
+  if SKIPKEY and rd(s) == 0xFFFB then s = s + 2 end
   local at = s
   if clear then
     pendq, saveq = s - 1, rd(s - 1)

@@ -18,7 +18,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   the passes need scenes that reach them, or a forced-choice mode (untried). (c) Many forced rows SKIP because the
   scene's next print op re-points the printer within ~60 frames (`UNCHAIN 1 at 974 idx 1021`, S0402OK): the forced
   row never gets past its first code. Worth looking at next: hold the script (or redirect at the print op that
-  follows a {wait}) so the forced row has time to draw.
+  follows a {wait}) so the forced row has time to draw. Partly found: most rows open with their `{fb:XXXX}` key
+  (FFFB, looked up by op 0x90, which starts the printer after it); new `textforce.py run --var SKIPKEY=1` starts a
+  forced row after a leading FFFB+arg: S0401OK/S0402OK went 0/6 -> 1/6 (row 2 now SHOWN). Use it on pass 2. Row 1
+  of S0402OK still stalls (no PIDX for 60 frames after FORCE, then the script's next message): another cause.
   Worker 21 (2026-11-21), build unchanged (94fa9887, check ok 79, smoke ok). (a) **textforce battle mode:** the 83
   battle files (0x80174A84 table, `textforce.battles()`) now run as `warp.py --battle NAME` into
   `<root>/p<N>/bt_<NAME>`, with `FORCE_ID` = the battle's event id (its file loads under that id, not slot 32).

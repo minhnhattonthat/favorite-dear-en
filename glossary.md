@@ -60,6 +60,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | フロリン | Florin | | Florinda's name for herself | |
 | ミライヤ | Miraya | | | |
 | ガブリエル | Gabriel | | archangel | |
+| ミカエル | Michael | | archangel; lends the angel his golden sword (黄金の剣) against Apollyon | |
 | レミエル | Remiel | | angel who keeps wandering souls | |
 | リリィ | Lily | | | |
 | アポルオン | Apollyon | | | |
@@ -134,6 +135,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | 時の淀み | Stagnation of Time | | the calamity eroding Infos ("the Stagnation of Time") | |
 | 神獣 | sacred beast | | Yaruru's companion | |
 | 竜の使い | the Dragon's Messenger | | Ryudral's local title | |
+| アストラル界 | the Astral Plane | | the inner world of a heart, where an angel can be attacked directly | |
 | 竜の洞 | the Dragon's Den | | Aul's cave; only dragonkind may enter | |
 | 闇馬車 | Dark Carriage | | slaver bandit ring, in quotes ("Dark Carriage") | |
 | ダルク | Dalk | | currency ("1000 Dalk", Fiana's fee) | |

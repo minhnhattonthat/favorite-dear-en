@@ -1,6 +1,6 @@
 id	jp	en	notes
 364B.0CEE	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	
-364B.0D1A	{e0:E0FF}{spk:E783}{fa:0080}{n}・・・キシャー！！{n}{wait}{clear}{end}		
+364B.0D1A	{e0:E0FF}{spk:E783}{fa:0080}{n}・・・キシャー！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}...Kshaaa!!{n}{wait}{clear}{end}	
 364B.0D46	{e0:A508}{spk:0080}{fa:0180}{n}ここね・・・。{n}{wait}{clear}{end}	{e0:A508}{spk:0080}{fa:0180}{n}So this is it...{n}{wait}{clear}{end}	
 364B.0D6E	{e0:A608}{spk:E783}{fa:0080}{n}{f7:0080}ラスエル：{n}{f7:0380}{n}ナーサディア！！{n}{wait}{clear}{e0:A708}{spk:E783}{fa:0080}{n}{f7:0080}ラスエル：{n}{f7:0380}{n}ナーサ・・・。{n}やっと、僕のもとに来てくれたんだね。{n}{wait}{clear}{e0:A808}{spk:0080}{fa:0180}{n}ううん。違うの。{n}私、あなたの本当の姿を{n}確かめにきたのよ・・・。{n}{wait}{clear}{e0:A908}{spk:E783}{fa:0080}{n}{f7:0080}ラスエル：{n}{f7:0380}{n}何を言ってるんだ。ナーサ。{n}堕天使になっても、僕は、僕だ。{n}{wait}{clear}{e0:AA08}そう言っただろう・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{end}		
 364B.0F0A	{e0:AB08}{spk:E783}{fa:0080}{n}{f7:0080}ラスエル：{n}{f7:0380}{n}な、何だ！？{n}{wait}{clear}{e0:AC08}{spk:0080}{fa:0180}{n}この光は貴方の真実の姿を{n}暴くそうよ・・・。{n}{wait}{clear}{e0:AD08}{spk:E783}{fa:0080}{n}{f7:0080}ラスエル：{n}{f7:0380}{n}なんだと！？{n}{wait}{clear}{end}		

@@ -11,7 +11,7 @@ id	jp	en	notes
 3953.17D6	{e0:3D04}{spk:0080}{fa:0180}{n}父さん・・・仇はうったよ。{n}{wait}{clear}{end}		
 3953.180A	{e0:3E04}{spk:0080}{fa:0180}{n}そんなこけおどし、{n}僕は信じないぞ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
 3953.1870	{e0:3F04}{spk:0080}{fa:0180}{n}何で、お前は戦うんだ！{n}{wait}{clear}{end}		
-3953.18A0	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
+3953.18A0	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
 3953.18C2	{spk:0080}{fa:0180}{n}・・・っ！！{n}{wait}{clear}{end}		
 3953.18E4	{e0:4104}{spk:0080}{fa:0180}{n}・・・口ほどにもないヤツ！{n}{wait}{clear}{end}		
 3953.1918	{e0:4204}{spk:0080}{fa:0180}{n}ガープとか言うヤツだな！　出てこい！{n}{wait}{clear}{end}		

@@ -10,6 +10,6 @@ id	jp	en	notes
 362B.13AA	{e0:E0FF}{spk:0080}{fa:0180}{n}答えなさいッ！{n}何処ッ！？{n}{wait}{clear}{end}		
 362B.13DE	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}む・・村の・・・北の・・・、{n}洞・・・窟・・・だ・・・ッ。{n}{wait}{clear}{end}		
 362B.144C	{e0:E0FF}{spk:0080}{fa:0180}{n}あらら。{n}最期までダッサイやつ・・・。{n}{wait}{clear}{end}		
-362B.15B2	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}グヘヘヘヘ。{n}{wait}{clear}{end}		
-362B.15F2	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}グヘヘヘヘ。{n}{wait}{clear}{end}		
+362B.15B2	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}グヘヘヘヘ。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Incubus:{n}{f7:0380}{n}Guhehehehe.{n}{wait}{clear}{end}	
+362B.15F2	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}インキュバス：{n}{f7:0380}{n}グヘヘヘヘ。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Incubus:{n}{f7:0380}{n}Guhehehehe.{n}{wait}{clear}{end}	
 362B.1632	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	

@@ -73,6 +73,11 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ケルピー | Kelpie | | water monster posing as a girl (Sievas event) | |
 | マキュラ | Macula | | rogue dragon, マキュラドラゴン "Macula Dragon"; dealt with Iuvart | |
 | ボルンガ | Borunga | | gentle Duminas monster (Ryudral event) | |
+| シエラ | Sierra | | witch serving Apollyon (Dian event) | |
+| リーガル | Regal | | Reiv's old friend, the Knight in Black (黒衣の騎士) | |
+| イダヴェル | Idavel | | (Griffin event) | |
+| ビュシーク | Busik | | undead monster empowered by Apollyon | |
+| バルバロッサ | Barbarossa | | bandit (Felimi event) | |
 | ラッシュ | Rush | | Yaruru's sacred beast ("he") | |
 | グレイ | Gray | | Beasia's family and her dojo ("the Gray-style dojo", グレイ流道場) | |
 
@@ -125,4 +130,4 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 - b020 3576.06BE-0834 (6 rows): glyph soup like 34F2 etc., `-`; phase 7 re-extract.
 - Gendered addresses for the angel are neutralised: Yaruru's お姉ちゃん -> "you" (358B.2332), Griffin's
   ド派手姉ちゃん -> "Flashy", 娘/女 -> "that one"/"You sure can talk"; Dian's 天使さん -> "Angel".
-- 姉さん in the Duminas raid (356C, 3570) is the hero's sister (Miraya's army): "my sister" / "Sis".
+- 姉さん (Felimi to Miraya, his elder sister; 356C, 3570, 35F0, 35F4): "Sister" / "my sister".

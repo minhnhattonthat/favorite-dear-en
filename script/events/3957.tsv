@@ -11,7 +11,7 @@ id	jp	en	notes
 3957.154C	{e0:E909}{spk:0080}{fa:0180}{n}天使様・・・やりました。{n}{wait}{clear}{end}		
 3957.157E	{e0:EA09}{spk:0080}{fa:0180}{n}まだ、いるんですね・・・。{n}堕天使は。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
 3957.15E6	{e0:EB09}{spk:0080}{fa:0180}{n}なぜあなたは私たちと戦うのです？{n}{wait}{clear}{end}		
-3957.1620	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
+3957.1620	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
 3957.1642	{e0:EC09}{spk:0080}{fa:0180}{n}・・・天使様、この悪魔を{n}うち払う力を貸して下さい！{n}{wait}{clear}{end}		
 3957.1690	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
 3957.16B8	{e0:ED09}{spk:0080}{fa:0180}{n}・・・この声は・・・。{n}{wait}{clear}{end}		

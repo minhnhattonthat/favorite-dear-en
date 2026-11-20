@@ -3,7 +3,7 @@ id	jp	en	notes
 3943.1314	{e0:E0FF}{spk:0080}{fa:0180}{n}へらず口はそのぐらいにしておけ！{n}ゆくぞ！{n}{wait}{clear}{end}		
 3943.1358	{e0:E0FF}{spk:0080}{fa:0180}{n}これは・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}What's this...{n}{wait}{clear}{end}	
 3943.1380	{e0:3E01}{spk:0080}{fa:0180}{n}・・・向かって来るのであれば仕方がない。{n}{wait}{clear}{end}		
-3943.13C2	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
+3943.13C2	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
 3943.13E4	{e0:3F01}{spk:0080}{fa:0180}{n}・・・答える必要を感じんな・・・。{n}{wait}{clear}{end}		
 3943.1420	{e0:4001}{spk:0080}{fa:0180}{n}・・・お前らの目的は何だ、{n}堕天使。{n}{wait}{clear}{end}		
 3943.145E	{e0:4101}{spk:0080}{fa:0180}{n}ここか・・・奴らがいるのは。{n}{wait}{clear}{end}		

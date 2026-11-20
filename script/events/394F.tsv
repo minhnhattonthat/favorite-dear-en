@@ -1,7 +1,7 @@
 id	jp	en	notes
 394F.1274	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・む、何かきます！{n}{wait}{clear}{end}		
 394F.12A4	{e0:E0FF}{spk:0080}{fa:0180}{n}言いたいことはそれだけですか。{n}{wait}{clear}{e0:E0FF}説得という薬はきかないようですね。{n}では、大手術といきますか。{n}{wait}{clear}{end}		
-394F.1324	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}		
+394F.1324	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
 394F.1346	{e0:E0FF}{spk:0080}{fa:0180}{n}！！ＮＧ！！{n}{wait}{clear}{end}		
 394F.136C	{e0:5F03}{spk:0080}{fa:0180}{n}そうですが？{n}{wait}{clear}{end}		
 394F.1392	{e0:6003}{spk:0080}{fa:0180}{n}なぜ、地上に混乱をもたらすのです？{n}堕天使。{n}{wait}{clear}{end}		

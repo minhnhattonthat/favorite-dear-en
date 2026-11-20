@@ -1,0 +1,121 @@
+id	en
+PSX.156618	Manantia{n}{end}
+PSX.156628	Gags{n}{end}
+PSX.156634	Nomen{n}{end}
+PSX.156640	Estage{n}{end}
+PSX.156650	Ristoro{n}{end}
+PSX.156660	Soldam{n}{end}
+PSX.15666C	Mekio{n}{end}
+PSX.156678	Tamio{n}{end}
+PSX.156684	Bahr{n}{end}
+PSX.156690	Gion{n}{end}
+PSX.15669C	Erisso{n}{end}
+PSX.1566A8	Elsham{n}{end}
+PSX.1566B8	Dalcan{n}{end}
+PSX.1566C4	Sauer{n}{end}
+PSX.1566D0	Dragon Den{n}{end}
+PSX.1566E0	Fangam{n}{end}
+PSX.1566F0	Hebron{n}{end}
+PSX.1566FC	Kanoa{n}{end}
+PSX.156708	Kimbalt{n}{end}
+PSX.156718	Esparda{n}{end}
+PSX.156728	Duminas{n}{end}
+PSX.156738	Kvaal{n}{end}
+PSX.156748	Lorolo Wood{n}{end}
+PSX.15675C	Halpas I.{n}{end}
+PSX.15676C	Lake Radal{n}{end}
+PSX.15677C	Aron I.{n}{end}
+PSX.156788	Docador Bay{n}{end}
+PSX.156798	Iknos R.{n}{end}
+PSX.1567A8	Trinite{n}{end}
+PSX.1567B4	Lake Baldo{n}{end}
+PSX.1567C4	Pasar R.{n}{end}
+PSX.1567D4	Alter{n}{end}
+PSX.1567E0	Lea{n}{end}
+PSX.1567E8	Wd{n}{end}
+PSX.1567F0	Mt{n}{end}
+PSX.1567F8	Snow{n}{end}
+PSX.156800	Sand{n}{end}
+PSX.156808	Bank{n}{end}
+PSX.156810	Bog{n}{end}
+PSX.156A94	Please enter your name.{wait}{end}
+PSX.156AB8	Choose your gender.{wait}{end}
+PSX.156AD4	Choose your birth month.{wait}{end}
+PSX.156AF4	Choose your birth day.{wait}{end}
+PSX.156B14	Please set our schedule.{wait}{end}
+PSX.156B38	Opening words 18-1{wait}{end}
+PSX.156B54	Post-quiz words 18-2{wait}{end}
+PSX.156B74	Closing words 18-3{wait}{end}
+PSX.156B90	1. Start now.{n}2. See the overall flow.{wait}{end}
+PSX.156BC4	Angel, to lead the world to peace,{n}we must first find hero candidates{n}and scout them!{wait}Please order us to Find Hero!{wait}{end}
+PSX.156C48	Angel!{n}Unless you find and scout hero{n}candidates, the world's woes won't end!{wait}So first, put Find Hero{n}on our schedule, pleeease!{wait}{end}
+PSX.156CD4	Angel, to rid the world of calamity,{n}you must scout hero candidates{n}and make them heroes!{wait}To scout heroes, please order{n}us to Find Hero.{wait}{end}
+PSX.156D70	First, scout heroes to act as your{n}messengers on earth, Angel!{wait}For that, please order us{n}to Find Hero first.{wait}{end}
+PSX.156E00	A boy stole to get medicine{n}to cure his sick mother.{n}What do you think?{wait}{end}
+PSX.156E54	Sadly, the hero you chose has turned{n}enemy and raised a sword at you.{n}What do you do?{wait}{end}
+PSX.156EB4	Two heroes fell in love and{n}want to quit being heroes.{n}How do you answer them?{wait}{end}
+PSX.156F18	A hero you just scouted ran away{n}when faced with an enemy.{n}What do you think of that hero?{wait}{end}
+PSX.156F7C	Monsters attack the hero's village.{n}What orders do you give the hero?{wait}{end}
+PSX.156FCC	If you could be one,{n}which would you be?{wait}{end}
+PSX.157004	Your hero has at last cornered{n}a sworn enemy.{n}What orders do you give?{wait}{end}
+PSX.15705C	You were climbing a snowy mountain.{n}Near the top, the weather turns bad!{n}What do you do?{wait}{end}
+PSX.1570C0	As you walk down a road,{n}a dog suddenly barks at you.{n}What do you do?{wait}{end}
+PSX.15710C	You're trapped in a cave with many,{n}your dearest love among them...{n}Food is scarce! What do you do?{wait}{end}
+PSX.157178	Two people of the opposite sex ask{n}you favors at the same time.{n}Whom do you help first?{wait}{end}
+PSX.1571E0	Your friend is accused of wrongdoing{n}and blamed by a crowd of people.{n}What do you do?{wait}{end}
+PSX.157240	If you could be either,{n}which would you choose?{wait}{end}
+PSX.15727C	After a hard fight, a hero beat a foe,{n}but someone stole the credit.{n}What do you say to the hero?{wait}{end}
+PSX.1572E8	What do you want to be{n}to your heroes?{wait}{end}
+PSX.157328	You quarreled with a hero{n}over something trivial.{n}How would you make up?{wait}{end}
+PSX.157384	A king wants the hero to serve{n}as his general.{n}What advice do you give the torn hero?{wait}{end}
+PSX.1573E8	1 Stealing is wrong, no matter why!{n}2 It's wrong, but I'll let it go.{wait}{end}
+PSX.157438	1 As long as they're an enemy, fight!{n}2 Persuade the hero, even if I fall.{wait}{end}
+PSX.15748C	1 Duty matters. Urge them to do both!{n}2 For their happiness, let them go.{wait}{end}
+PSX.1574E0	1 What an irresponsible hero.{n}2 Before a hero, they're a person...{wait}{end}
+PSX.157530	1 Slay the monsters, save the village.{n}2 Evacuate the villagers first.{wait}{end}
+PSX.157580	1 A great general who wins wars.{n}2 A peace-loving, just king.{wait}{end}
+PSX.1575D0	1 Seize the chance and finish them off.{n}2 Persuade them to reform.{wait}{end}
+PSX.15761C	1 Almost there. Climb to the top!{n}2 Sadly, give up and head down.{wait}{end}
+PSX.15766C	1 Leave the place right away.{n}2 Offer a hand to make friends.{wait}{end}
+PSX.1576B8	1 Quietly slip food to your love.{n}2 Talk it over and share it fairly.{wait}{end}
+PSX.15770C	1 The one who's your type.{n}2 The one who earnestly relies on you.{wait}{end}
+PSX.157758	1 Trust my friend, no matter what.{n}2 Hear others out, then decide.{wait}{end}
+PSX.1577A4	1 A ship sailing free with wind and sun.{n}2 The sea that warmly invites sailors.{wait}{end}
+PSX.1577FC	1 Proudly claim your achievement.{n}2 Pay no mind to what they say.{wait}{end}
+PSX.157850	1 The sun, bringing new energy.{n}2 A starry sky, quietly embracing.{wait}{end}
+PSX.15789C	1 Apologize first, before anything.{n}2 Wait for their heart to soften.{wait}{end}
+PSX.1578EC	1 It's a chance; why not accept?{n}2 If you're unsure, why not decline?{wait}{end}
+PSX.15793C	Fairy 14 intro{wait}{end}
+PSX.157958	Fairy 15 intro{wait}{end}
+PSX.157974	Fairy 16 intro{wait}{end}
+PSX.157990	Fairy 17 intro{wait}{end}
+PSX.1579AC	Received 30 AP from Lord Gabriel{wait}{end}
+PSX.1579D4	Report{wait}{end}
+PSX.1579E0	      Is this okay?{wait}{end}
+PSX.1579FC	Stand By{n}{end}
+PSX.157A08	To Heaven{n}{end}
+PSX.157A18	Join Hero{n}{end}
+PSX.157A28	Vacation{n}{end}
+PSX.157A34	Find Hero{n}{end}
+PSX.157A44	Find Foe{n}{end}
+PSX.157A50	Sievas{n}{end}
+PSX.157A60	Volkgang{n}{end}
+PSX.157A74	Reiv{n}{end}
+PSX.157A80	Vincelras{n}{end}
+PSX.157A94	Griffin{n}{end}
+PSX.157AA4	Felimi{n}{end}
+PSX.157AB0	MacDill{n}{end}
+PSX.157AC0	Dian{n}{end}
+PSX.157ACC	Alvis{n}{end}
+PSX.157ADC	Yaruru{n}{end}
+PSX.157AE8	Willing{n}{end}
+PSX.157AF8	Ryudral{n}{end}
+PSX.157B08	Algrane{n}{end}
+PSX.157B18	Fiana{n}{end}
+PSX.157B24	Ecliya{n}{end}
+PSX.157B34	Ashe{n}{end}
+PSX.157B40	Bradarik{n}{end}
+PSX.157B50	Beasia{n}{end}
+PSX.157B5C	Gray{n}{end}
+PSX.157B68	Nasadia{n}{end}
+PSX.157B78	Tia{n}{end}

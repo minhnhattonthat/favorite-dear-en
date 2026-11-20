@@ -52,7 +52,7 @@ id	en
 3937.04A2	{fb:8C80}{n}{spk:0080}{n}I hear a monster is rampaging in Kurumena (37, 47), on the Kimbalt border.{n}{wait}{clear}This area is a hub for shipping crops. If left alone, the effects will likely be felt everywhere.{n}{wait}{clear}{end}
 3937.0676	{fb:9680}{n}{spk:0080}{n}It looks like a monster is rampaging in Kurumena (37, 47), on the Kimbalt border!{n}{wait}{clear}All kinds of crops pass through there. If we leave it, it'll be awful!{n}{wait}{clear}{end}
 3937.084C	{fb:A080}{n}{spk:0080}{n}It seems a monster is rampaging in Kurumena (37, 47), on the Kimbalt border.{n}{wait}{clear}Kurumena's where crops get shipped out from, so we can't leave it alone!{n}{wait}{clear}{end}
-3937.0998	{fb:A380}{n}{spk:0080}{n}But we have to find a hero first. Right, Angel?{n}{wait}{clear}{end}
+3937.0998	{fb:A380}{n}{spk:0080}{n}But first we need a hero. Right, Angel?{n}{wait}{clear}{end}
 3937.09E8	{fb:AA80}{n}{spk:0080}{n}I hear a monster is rampaging in Kurumena (37, 47), on the Kimbalt border.{n}{wait}{clear}This area is a hub for shipping crops, so if it is left alone, the effects will spread everywhere. Something must be done.{n}{wait}{clear}{end}
 3939.04A2	{fb:8C80}{n}{spk:0080}{n}A girl from Omron is being held captive in Kurumena (37, 47), on the border of the Kingdom of Kimbalt.{n}{wait}{clear}She is surrounded by monsters, and the only way to save her is with the help of another hero.{n}{wait}{clear}{end}
 3939.0568	{fb:8D80}{n}{spk:0080}{n}Angel, let us hurry and have a hero go there to rescue her!{n}{wait}{clear}{end}

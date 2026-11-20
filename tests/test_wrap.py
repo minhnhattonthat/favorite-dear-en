@@ -6,6 +6,20 @@ import batches  # noqa: E402
 import wrap  # noqa: E402
 
 
+def test_space_before_name_kept():
+    # an odd run before {name} keeps its space ("My name isRaviel" in phase 8); before {n} it still goes
+    assert wrap._fix_odd(["My name is ", "{name:0080}"]) == ["My name is ", "{name:0080}"]
+    assert wrap._fix_odd(["Hello there ", "{n}"]) == ["Hello there ", "{n}"]  # even: untouched
+    assert wrap._fix_odd(["Hi there ", "{wait}"]) == ["Hi there", "{wait}"]
+
+
+def test_no_one_word_last_line():
+    lines = wrap.wrap_line(["Together we overcame many hardships, and I was able to watch them grow."])
+    texts = ["".join(ln) for ln in lines]
+    assert len(texts) == 2 and " " in texts[-1], texts
+    assert all(wrap.cells(ln) <= wrap.CELLS for ln in lines)
+
+
 def test_simplify_drops_only_soft_breaks():
     jp = "{e0:1600}{spk:0080}{n}よく来ましたね。{n}何か？{n}{wait}{clear}{end}"
     assert wrap.simplify(jp) == "{e0:1600}{spk:0080}{n}よく来ましたね。何か？{n}{wait}{clear}{end}"
@@ -25,7 +39,9 @@ def test_odd_run_before_code_drops_its_space():
     out = wrap.wrap("Hi, {name:0080}!{n}{wait}{clear}{end}")
     assert out.startswith("Hi, {name:0080}!")  # 'Hi, ' is 4 letters: kept as is
     out = wrap.wrap("Hey, {name:0080}!{n}{wait}{clear}{end}")
-    assert out.startswith("Hey,{name:0080}!")  # 'Hey, ' is odd: the encoder's pad space stands in
+    # 'Hey, ' is odd, but dropping its space would leave 'Hey,' (even, no pad cell): "Hey,Raviel" on screen.
+    # Before a name the space stays and the encoder pads it to a full cell.
+    assert out.startswith("Hey, {name:0080}!")
 
 
 def test_family_args_put_back():

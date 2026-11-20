@@ -70,10 +70,13 @@ def cells(pieces):
 
 def _fix_odd(pieces):
     """a text run of odd length before a code gets a space partner from the encoder; if it already ends in a
-    space, drop that space so the padding stands in for it (no half-cell double gap)"""
+    space, drop that space so the padding stands in for it (no half-cell double gap). Not before a code that prints
+    text ({name}, {ins}): the name starts on the next cell, so the dropped space would leave none at all
+    ("My name isRaviel"); there the space stays and the gap is one cell."""
     out = list(pieces)
     for i in range(len(out) - 1):
-        if not is_code(out[i]) and is_code(out[i + 1]) and len(out[i]) % 2 and out[i].endswith(" "):
+        if (not is_code(out[i]) and is_code(out[i + 1]) and kind(out[i + 1]) not in INLINE
+                and len(out[i]) % 2 and out[i].endswith(" ")):
             out[i] = out[i][:-1]
     return out
 
@@ -96,17 +99,31 @@ def wrap_line(line):
                 cur.append(p)
     if cur:
         words.append(cur)
-    lines, cur = [], []
+    groups, cur = [], []  # lines as lists of words
     for w in words:
-        trial = _merge(cur + w)
-        if cur and cells(_strip(trial)) > CELLS:
-            lines.append(_strip(_merge(cur)))
-            cur = list(w)
+        if cur and cells(_strip(_merge([t for x in cur + [w] for t in x]))) > CELLS:
+            groups.append(cur)
+            cur = [w]
         else:
-            cur = cur + w
-    if cur or not lines:
-        lines.append(_strip(_merge(cur)))
-    return lines
+            cur = cur + [w]
+    if cur or not groups:
+        groups.append(cur)
+    _balance(groups)
+    return [_strip(_merge([t for x in g for t in x])) for g in groups]
+
+
+def _balance(groups):
+    """no one-word last line: pull the previous line's last word down while it fits and leaves that line 2+ words
+    (same line count, so pages don't change)"""
+    if len(groups) < 2:
+        return
+    prev, last = groups[-2], groups[-1]
+    texty_words = lambda g: sum(1 for w in g if has_text(w))  # noqa: E731
+    while texty_words(last) < 2 and texty_words(prev) > 2:
+        trial = [prev[-1]] + last
+        if cells(_strip(_merge([t for x in trial for t in x]))) > CELLS:
+            break
+        last.insert(0, prev.pop())  # a code-only word moved: the loop pulls the next one too
 
 
 def _merge(ts):

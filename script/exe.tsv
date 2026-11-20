@@ -800,7 +800,7 @@ PSX.16616C	メモリーカードが壊れています。{end}	Memory card is dam
 PSX.16618C	メモリーカードが初期化されていません。{end}	Memory card is not formatted.{end}	no direct pointer
 PSX.1661B4	初期化しますか？{end}	Format it?{end}	no direct pointer
 PSX.1661C6	はい　　いいえ{end}	Yes     No{end}	no direct pointer
-PSX.1661D6	メモリーカードを初期化しています。{end}	Formatting memory card.{end}	no direct pointer
+PSX.1661D6	メモリーカードを初期化しています。{end}	Please wait...  Formatting card.{end}	no direct pointer; its first 8 cells (16 letters) are also drawn as the prefix of PSX.166288 (メモリーカードを+抜かないでください), so they must read as a lead-in
 PSX.1661FA	メモリーカードの初期化が終了しました。{end}	Memory card formatted.{end}	no direct pointer
 PSX.166222	メモリーカードの初期化に失敗しました。{end}	Formatting failed.{end}	no direct pointer
 PSX.16624A	ロードしますか？{end}	Load this file?{end}	no direct pointer

@@ -1,6 +1,6 @@
 id	jp	en	notes
-395B.12DA	{e0:E0FF}{spk:0080}{fa:0180}{n}たしか、話だと・・・{n}この辺なんだけど・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}If I heard right... it should be around{n}here...{n}{wait}{clear}{end}	
-395B.1322	{e0:E0FF}{spk:0080}{fa:0180}{n}ガタガタいってないで{n}かかっといで！{n}その首、高く売ってやるからさ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Quit rattling on and come at me! I'll{n}sell that head of yours for a good{n}price!{n}{wait}{clear}{end}	
+395B.12DA	{e0:E0FF}{spk:0080}{fa:0180}{n}たしか、話だと・・・{n}この辺なんだけど・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}If I heard right... it should be{n}around here...{n}{wait}{clear}{end}	
+395B.1322	{e0:E0FF}{spk:0080}{fa:0180}{n}ガタガタいってないで{n}かかっといで！{n}その首、高く売ってやるからさ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Quit rattling on and come at me! I'll{n}sell that head of yours for a{n}good price!{n}{wait}{clear}{end}	
 395B.1380	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・これは。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}...What's this.{n}{wait}{clear}{end}	
 395B.13A8	{e0:D005}{spk:0080}{fa:0180}{n}何だい、{name:0080}。訳ありかい？{n}でも、こっちもこんなところで{n}殺されるのはごめんなんでね！！{n}{wait}{clear}{end}	{e0:D005}{spk:0080}{fa:0180}{n}What is it, {name:0080}? Some kind of{n}history? Well, I'm not about to get{n}killed in a place like this either!!{n}{wait}{clear}{end}	
 395B.141A	{e0:DF03}{spk:0080}{fa:0180}{n}死ぬのが唯一の救いだったなんて、{n}あたしは信じないよ・・・。{n}{wait}{clear}{end}	{e0:DF03}{spk:0080}{fa:0180}{n}I refuse to believe dying was his only{n}way out...{n}{wait}{clear}{end}	
@@ -12,13 +12,13 @@ id	jp	en	notes
 395B.15C2	{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	
 395B.160E	{e0:D805}{spk:0080}{fa:0180}{n}アンタはなぜ、戦う？{n}{wait}{clear}{end}	{e0:D805}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}	
 395B.163C	{e0:D905}{spk:0080}{fa:0180}{n}・・・こいつ・・・言葉がないね。{n}{wait}{clear}{end}	{e0:D905}{spk:0080}{fa:0180}{n}...This one... leaves me speechless.{n}{wait}{clear}{end}	
-395B.1676	{e0:DA05}{spk:0080}{fa:0180}{n}罰が本当に必要なのはアンタだよ！{n}{wait}{clear}{end}	{e0:DA05}{spk:0080}{fa:0180}{n}You're the one who really needs{n}punishing!{n}{wait}{clear}{end}	
-395B.16B0	{e0:DB05}{spk:0080}{fa:0180}{n}ラスエル、アンタのへらず口も{n}ここまでだね。{n}{wait}{clear}{end}	{e0:DB05}{spk:0080}{fa:0180}{n}Rasuel, this is where your smart mouth{n}ends.{n}{wait}{clear}{end}	
+395B.1676	{e0:DA05}{spk:0080}{fa:0180}{n}罰が本当に必要なのはアンタだよ！{n}{wait}{clear}{end}	{e0:DA05}{spk:0080}{fa:0180}{n}You're the one who really{n}needs punishing!{n}{wait}{clear}{end}	
+395B.16B0	{e0:DB05}{spk:0080}{fa:0180}{n}ラスエル、アンタのへらず口も{n}ここまでだね。{n}{wait}{clear}{end}	{e0:DB05}{spk:0080}{fa:0180}{n}Rasuel, this is where your smart{n}mouth ends.{n}{wait}{clear}{end}	
 395B.16F6	{e0:DC05}{spk:0080}{fa:0180}{n}・・・ガープね？{n}{wait}{clear}{end}	{e0:DC05}{spk:0080}{fa:0180}{n}...Gaap, is it?{n}{wait}{clear}{end}	
 395B.1720	{e0:DD05}{spk:0080}{fa:0180}{n}なに！？{n}{wait}{clear}{end}	{e0:DD05}{spk:0080}{fa:0180}{n}What?!{n}{wait}{clear}{end}	
 395B.1742	{e0:DE05}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを攻め。{n}天界の天使たちと戦うんだ？{n}{wait}{clear}{end}	{e0:DE05}{spk:0080}{fa:0180}{n}Gaap! Why attack Infos and fight the{n}angels of the Heavens?{n}{wait}{clear}{end}	
-395B.179A	{e0:DF05}{spk:0080}{fa:0180}{n}ここで終わりにするんだ・・・{n}ガープ、アンタを倒す！{n}{wait}{clear}{end}	{e0:DF05}{spk:0080}{fa:0180}{n}This ends here... Gaap, I'm taking you{n}down!{n}{wait}{clear}{end}	
+395B.179A	{e0:DF05}{spk:0080}{fa:0180}{n}ここで終わりにするんだ・・・{n}ガープ、アンタを倒す！{n}{wait}{clear}{end}	{e0:DF05}{spk:0080}{fa:0180}{n}This ends here... Gaap, I'm taking{n}you down!{n}{wait}{clear}{end}	
 395B.17E8	{e0:E005}{spk:0080}{fa:0180}{n}終わったな、全部・・・。{n}{wait}{clear}{end}	{e0:E005}{spk:0080}{fa:0180}{n}It's over, all of it...{n}{wait}{clear}{end}	
 395B.1816	{spk:0080}{fa:0180}{n}ほんと臭いわね、アンデットって！{n}こっちは金にもならないこと{n}やってんだから、じゃましないでよ！{n}{wait}{clear}さっさと、騎士レイヴを返しな！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Undead really stink! I'm doing this for{n}no pay, so stay out of my way!{n}{wait}{clear}Hand Reiv the knight back, and be quick{n}about it!{n}{wait}{clear}{end}	
-395B.18AC	{spk:0080}{fa:0180}{n}騎士レイヴは、地下牢にいるようだね。{n}早く行ってあげなよ。{n}{wait}{clear}{name:0080}、あたしは戻らせてもらうよ。{n}逆の立場だったら、{n}弱いとこ見られたくないからさ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Looks like Reiv the knight is in the{n}dungeon. Hurry and go to him.{n}{wait}{clear}{name:0080}, I'm heading back. If it were{n}me, I wouldn't want anyone seeing me{n}weak.{n}{wait}{clear}{end}	
+395B.18AC	{spk:0080}{fa:0180}{n}騎士レイヴは、地下牢にいるようだね。{n}早く行ってあげなよ。{n}{wait}{clear}{name:0080}、あたしは戻らせてもらうよ。{n}逆の立場だったら、{n}弱いとこ見られたくないからさ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Looks like Reiv the knight is in the{n}dungeon. Hurry and go to him.{n}{wait}{clear}{name:0080}, I'm heading back. If it were{n}me, I wouldn't want anyone seeing{n}me weak.{n}{wait}{clear}{end}	
 395B.1952	{spk:0080}{fa:0180}{n}あれ？　後ろの方にも魔物がいるじゃ{n}ないか・・・。親玉を倒したってのに{n}しょうがないな。{n}{wait}{clear}退路の確保はあたしがやってやる。{n}こっから先のことは、天使様に{n}まかせたよ！　じゃあね！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Huh? There are monsters behind us too...{n}We beat the boss and still this. Can't{n}be helped.{n}{wait}{clear}I'll secure our way out. From here on,{n}it's up to you, Angel! See ya!{n}{wait}{clear}{end}	

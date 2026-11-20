@@ -1,15 +1,15 @@
 id	jp	en	notes
 3957.12F2	{e0:E0FF}{spk:0080}{fa:0180}{n}天使様のお話ですと{n}このあたりですね・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}From what the Angel said, it should be{n}around here...{n}{wait}{clear}{end}	
-3957.1338	{e0:E0FF}{spk:0080}{fa:0180}{n}えーっと、では、{n}そろそろ戦ってもよろしいでしょうか？{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Um, well then, may we start fighting{n}now?{n}{wait}{clear}{end}	
+3957.1338	{e0:E0FF}{spk:0080}{fa:0180}{n}えーっと、では、{n}そろそろ戦ってもよろしいでしょうか？{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Um, well then, may we start{n}fighting now?{n}{wait}{clear}{end}	
 3957.1388	{e0:E0FF}{spk:0080}{fa:0180}{n}こんな・・・ひどい・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}This is... so cruel...{n}{wait}{clear}{end}	
 3957.13BC	{e0:E309}{spk:0080}{fa:0180}{n}悲しい眼・・・。{n}あなたとは闘いたくはないですが、{n}・・・しかたありませんね。{n}{wait}{clear}{end}	{e0:E309}{spk:0080}{fa:0180}{n}Such sad eyes... I don't want to fight{n}you, but... it can't be helped.{n}{wait}{clear}{end}	
 3957.1424	{e0:E303}{spk:0080}{fa:0180}{n}私、何と言えばいいのか・・・。{n}{wait}{clear}{end}	{e0:E303}{spk:0080}{fa:0180}{n}I... don't know what to say...{n}{wait}{clear}{end}	
 3957.145C	{e0:E509}{spk:0080}{fa:0180}{n}そうです・・・。{n}{wait}{clear}{end}	{e0:E509}{spk:0080}{fa:0180}{n}That's right...{n}{wait}{clear}{end}	
-3957.1486	{e0:E609}{spk:0080}{fa:0180}{n}あなた達、堕天使はなぜ{n}地上を襲うのです？{n}{wait}{clear}{end}	{e0:E609}{spk:0080}{fa:0180}{n}Why do you fallen angels attack the{n}surface?{n}{wait}{clear}{end}	
+3957.1486	{e0:E609}{spk:0080}{fa:0180}{n}あなた達、堕天使はなぜ{n}地上を襲うのです？{n}{wait}{clear}{end}	{e0:E609}{spk:0080}{fa:0180}{n}Why do you fallen angels attack{n}the surface?{n}{wait}{clear}{end}	
 3957.14CA	{e0:E709}{spk:0080}{fa:0180}{n}ここに堕天使が・・・。{n}{wait}{clear}{end}	{e0:E709}{spk:0080}{fa:0180}{n}A fallen angel is here...{n}{wait}{clear}{end}	
 3957.14FA	{e0:E809}{spk:0080}{fa:0180}{n}私は天使の勇者ティア。{n}・・・あなた達を倒しにきました。{n}{wait}{clear}{end}	{e0:E809}{spk:0080}{fa:0180}{n}I am Tia, the angel's hero. ...I have{n}come to defeat you.{n}{wait}{clear}{end}	
 3957.154C	{e0:E909}{spk:0080}{fa:0180}{n}天使様・・・やりました。{n}{wait}{clear}{end}	{e0:E909}{spk:0080}{fa:0180}{n}Angel... I did it.{n}{wait}{clear}{end}	
-3957.157E	{e0:EA09}{spk:0080}{fa:0180}{n}まだ、いるんですね・・・。{n}堕天使は。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:EA09}{spk:0080}{fa:0180}{n}There are still more of them... fallen{n}angels.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	
+3957.157E	{e0:EA09}{spk:0080}{fa:0180}{n}まだ、いるんですね・・・。{n}堕天使は。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:EA09}{spk:0080}{fa:0180}{n}There are still more of them...{n}fallen angels.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	
 3957.15E6	{e0:EB09}{spk:0080}{fa:0180}{n}なぜあなたは私たちと戦うのです？{n}{wait}{clear}{end}	{e0:EB09}{spk:0080}{fa:0180}{n}Why do you fight us?{n}{wait}{clear}{end}	
 3957.1620	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	
 3957.1642	{e0:EC09}{spk:0080}{fa:0180}{n}・・・天使様、この悪魔を{n}うち払う力を貸して下さい！{n}{wait}{clear}{end}	{e0:EC09}{spk:0080}{fa:0180}{n}...Angel, lend me the strength to drive{n}away this demon!{n}{wait}{clear}{end}	
@@ -18,7 +18,7 @@ id	jp	en	notes
 3957.16E8	{e0:EE09}{spk:0080}{fa:0180}{n}きゃあ！{n}{wait}{clear}{end}	{e0:EE09}{spk:0080}{fa:0180}{n}Eeek!{n}{wait}{clear}{end}	
 3957.170A	{e0:EF09}{spk:0080}{fa:0180}{n}なぜ、私たちのインフォスを襲い、{n}天使様たちと戦うのです？{n}{wait}{clear}{end}	{e0:EF09}{spk:0080}{fa:0180}{n}Why do you attack our Infos and fight{n}the angels?{n}{wait}{clear}{end}	
 3957.175E	{e0:F009}{spk:0080}{fa:0180}{n}・・・最後の戦いですね・・・{n}天使様・・・。{n}{wait}{clear}{end}	{e0:F009}{spk:0080}{fa:0180}{n}...This is the final battle... Angel...{n}{wait}{clear}{end}	
-3957.17A4	{e0:F109}{spk:0080}{fa:0180}{n}これでインフォスは平和になるんですね、{n}天使様！{n}{wait}{clear}{end}	{e0:F109}{spk:0080}{fa:0180}{n}Now Infos will be at peace, won't it,{n}Angel!{n}{wait}{clear}{end}	
+3957.17A4	{e0:F109}{spk:0080}{fa:0180}{n}これでインフォスは平和になるんですね、{n}天使様！{n}{wait}{clear}{end}	{e0:F109}{spk:0080}{fa:0180}{n}Now Infos will be at peace, won't{n}it, Angel!{n}{wait}{clear}{end}	
 3957.17EA	{spk:0080}{fa:0180}{n}どうかみなさん、安らかに永眠して下さい。{n}そして、すぐに騎士レイヴを{n}こちらに、返していただきたいのですが。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Everyone, please rest in eternal peace.{n}And I'd like you to give Reiv the knight{n}back to us right away.{n}{wait}{clear}{end}	
 3957.1868	{spk:0080}{fa:0180}{n}天使様、騎士レイヴはこの先の地下牢に{n}いらっしゃるようです。{n}どうか、行ってあげてください。{n}{wait}{clear}騎士の方は、己の傷ついた姿を{n}人に見られたくはないと思いますので、{n}私、外でまってます。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel, it seems Reiv the knight is in{n}the dungeon ahead. Please go to him.{n}{wait}{clear}I don't think a knight would want anyone{n}to see him hurt, so I'll wait outside.{n}{wait}{clear}{end}	
 3957.1934	{spk:0080}{fa:0180}{n}なし{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}(None){n}{wait}{clear}{end}	

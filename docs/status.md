@@ -2,19 +2,32 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: ready to start (phase 5 done 2026-11-20).
-- **Builds (2026-11-20, commit "Phase 5 done"):** `build/favorite_dear_en_marker.bin` sha1
-  cd6324cd63fe7d72e926bdc72cfcd09270691f95, `_ruler.bin` 50c223e684ded4244886e112ad9ed958a631892d, `_torture.bin`
-  d2f103ef850f431eb345018504bdc833df8562c1, `favorite_dear_en.bin` (no English yet, hooks only)
-  d1fa3e6f852a005d514b45468b769ef37c8b2ae9, smoke ok.
-- **Next (phase 6, `references/translation.md`):**
-  1. Decide the translation unit: rows are whole messages (up to ~4000 chars, many `{wait}{clear}` pages); give
-     translators a per-page view with the 40 x 3 budget per page (`docs/windows.tsv`), or batch by script file.
-  2. Budgets per row come from `docs/windows.tsv` (all variants measured): dialogue/battle/EPILOG 40 x 3, hub help 40,
-     hub location 11, hub list 17, week tag/ACTION 10, save menu 12, confirm 16 (+6 hidden lead-in), yes/no 7, angel
-     name 10, credits 14 full-width (minus the line's indent). Tag each `script/*.tsv` row with its variant first.
-  3. Glossary (`glossary.md`) and `docs/decisions.md` rulings (credits English, names...) before dispatching.
-  Phase 7 items already known: script growth past a file's slot (159 files at 2.5x English length) needs GDATA
+- **Phase:** 6. Translate: in progress, 1 of 144 event batches done (b001), tooling and glossary in place.
+- **Builds (2026-11-20, phase 6 b001):** `favorite_dear_en.bin` sha1 46995275411792935e8c8c59d92fd4c67d80331b
+  (b001 English, 54 rows in 3495/3498/349C/34BA), smoke ok. Marker/ruler/torture builds as in phase 5.
+- **Phase 6 set-up (done):** `tools/wrap.py` (simplify JP for translators, re-wrap English at 20 cells/40 letters,
+  continuation pages `{n}{wait}{clear}{spk}{n}`, odd-run space fix), `tools/batches.py split|check|merge|todo`
+  (families: identical rows translated once; `-` = not text; choice glyphs `　｛｝` -> raw escapes),
+  `tests/test_wrap.py`, `docs/translator-brief.md`, glossary names (D10), decisions D10/D11. Batches:
+  `trans/batches/b001-b144.tsv` (6459 entries from 10023 event rows), outputs `trans/en/bNNN.tsv` (the source of
+  truth; `merge` rewrites `script/events/*.tsv` `en` from them).
+- **No helpers available:** `codex exec` is out of credits until 2026-11-26 and the plugin's translator agents are not
+  loaded in Orca workers, so each worker translates batches itself (about 1-2 batches per worker context besides
+  set-up; more if it skips set-up reading). When codex is back, dispatch translators/reviewers through it.
+- **Next (phase 6):**
+  1. Pilot check in game: translate b024/b025 (file 359B = MYH16, Reiv's scouting; the `myh16` warp plays it), merge,
+     build, `warp.py myh16`, and confirm continuation pages (wrap adds `{spk}` pages), line widths and the odd-letter
+     gaps. Then a choice box (b001 row 3498.1CF0 `　｛Go to them　　　｝`, file 3498, event name unknown) if a warp
+     reaches it. SS1204 is not file 349C (warp names map through 0x8003B680, not the 0x4C50 entry number).
+  2. `python -X utf8 tools/batches.py todo`, translate in order per `docs/translator-brief.md`, check, merge, commit
+     after every batch or two. Then `docs/style-reference.md` from the pilot, `docs/synopsis.md`.
+  3. Not yet batched: `script/exe.tsv` (867 PSX.EXE rows, need a variant tag per row from `docs/windows.tsv`: hub help
+     40, location 11, list 17, week tag/ACTION 10, save 12, confirm 16 (+6 hidden), yes/no 7), `script/staff.tsv`
+     (credits, 14 full-width letters minus indent), `script/sjis.tsv` (memory-card titles).
+  4. Review pass (self, fresh read-only, or codex after 11-26): pairs per batch, Critical/Important fixed.
+  Phase 7 items already known: odd-length runtime names (`{name:0180}` "Tia") leave a half-cell gap before the next
+  text ("Tia 's"); re-pair in the name-insert path or pad names. Row 3498.1550 (gift-name list run together, cut by
+  the script at offsets) kept Japanese until its indexing is found. script growth past a file's slot (159 files at 2.5x English length) needs GDATA
   relocation plus a larger buffer or a dictionary; battle scripts load at 0x801CE000 (own buffer limit to find);
   PSX.EXE strings that grow need repointing (proved: `hub_help` test repointed PSX.15C998 via file 0x15CAB0); the
   name-entry grid must produce pair codes, and odd-length runtime names leave a half-cell gap; optional FIN pair-glyph

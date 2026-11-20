@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: in progress, 46 of 144 event batches done (b001-b046; `batches.py todo` lists the 98 left), pilot checked in game.
+- **Phase:** 6. Translate: in progress, 73 of 144 event batches done (b001-b073; `batches.py todo` lists the 71 left), pilot checked in game.
 - **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
   0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
   into `script/events`, not yet built: phase 7 builds.)

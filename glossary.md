@@ -73,6 +73,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ケルピー | Kelpie | | water monster posing as a girl (Sievas event) | |
 | マキュラ | Macula | | rogue dragon, マキュラドラゴン "Macula Dragon"; dealt with Iuvart | |
 | ボルンガ | Borunga | | gentle Duminas monster (Ryudral event) | |
+| トリシア | Tricia | | village chief's daughter below the Dragon's Den (Ryudral event) | |
 | シエラ | Sierra | | witch serving Apollyon (Dian event) | |
 | リーガル | Regal | | Reiv's old friend, the Knight in Black (黒衣の騎士) | |
 | イダヴェル | Idavel | | (Griffin event) | |
@@ -133,6 +134,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | 時の淀み | Stagnation of Time | | the calamity eroding Infos ("the Stagnation of Time") | |
 | 神獣 | sacred beast | | Yaruru's companion | |
 | 竜の使い | the Dragon's Messenger | | Ryudral's local title | |
+| 竜の洞 | the Dragon's Den | | Aul's cave; only dragonkind may enter | |
 | 闇馬車 | Dark Carriage | | slaver bandit ring, in quotes ("Dark Carriage") | |
 | ダルク | Dalk | | currency ("1000 Dalk", Fiana's fee) | |
 | 炎王 | Flame King | | Adramelech's title | |

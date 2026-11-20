@@ -96,3 +96,8 @@ epilog_end22	exec	EPILOG:22	mash	20000			1450	EPILOG.EXE ending 22
 epilog_end23	exec	EPILOG:23	mash	20000			1450	EPILOG.EXE ending 23 (sepia map with one line; 24 shows the same)
 name12_week	save	1	hold	12000	work/saves/edit/name12.mcd			stress: angel name = 12 pair letters ABCDEFGHIJKL (save.py set week2.mcd --poke 0x204=4142..4C --poke 0x19AE=same) -> week screen
 name12_save	save	1	hold	13000	work/saves/edit/name12.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -		stress: 12-letter angel name -> hub -> システム (save/load menu)
+stress_w10_week	save	1	hold	12000	work/saves/stress_w10.mcd			stress: widest 10-letter name WWWWWWWWWW, AP 999 (save.py set work/saves/week2.mcd work/saves/stress_w10.mcd --name-en WWWWWWWWWW --ap 999) -> week screen
+stress_w10_ability	save	1	hold	13000	work/saves/stress_w10.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -		stress: WWWWWWWWWW / AP 999 -> hub -> abilities (character list)
+stress_w10_save	save	1	hold	14000	work/saves/stress_w10.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -;6 circle;300 -;6 circle;600 -		stress: WWWWWWWWWW -> hub -> system -> Save -> slot 1 (save list shows name, week)
+stress_i_week	save	1	hold	12000	work/saves/stress_i.mcd			stress: short odd name Ivy (2 pair codes), AP 1 (save.py set work/saves/week2.mcd work/saves/stress_i.mcd --name-en Ivy --ap 1) -> week screen. A 1-code name (I, Al) loads as "This Data is corrupted", JP 1-kana too: status.md open bugs
+stress_i_save	save	1	hold	14000	work/saves/stress_i.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -;6 circle;300 -;6 circle;600 -		stress: name Ivy -> hub -> system -> Save -> slot 1

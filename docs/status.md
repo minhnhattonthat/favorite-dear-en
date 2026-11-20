@@ -2,8 +2,34 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 12: odd runs and page fragments fixed, build 8000adc5;
-  next: plate name bug t0201, re-tour + gate on 8000adc5, open sheets, inkbox, stress saves, textcover).
+- **Phase:** 8. QA in the emulator: in progress (worker 13: boss/dragon plates fixed, build 816bdf57, stress saves
+  started; next: finish the re-tour + gate on 816bdf57, 1-code name save bug, open sheets, inkbox, textcover).
+  Worker 13 (2026-11-21): build **816bdf579192cc263f175c544a931b3ad626fe66** (check ok 76, fitcheck ok, smoke ok).
+  (a) **t0201 plate bug fixed:** the enemy name table has **254** types (E000-E253, then a zero entry), not 201;
+  types 201-253 (sea serpents, dragons, Siren, and the bosses Belphegor, Iuvart, Apollyon, Gaap, Adramelech...)
+  read past the 201 English records and drew garbage. `btname.py` N_ENEMY 254, 53 names added to
+  `trans/btname.tsv` (glossary spellings; width forced 3: E204 "Platinum Wyrm", E213 "Lava Lizard", E253 "Duminas
+  Leader" for しれい), tests for SIREN/E253 and the table end. In game: `work/qa/fix3/battle_t0201/f015150.png`
+  SIREN on all three plates. (b) `tools/cover_sweep.py`: resumable text-coverage sweep (skips events whose
+  `emu.txt` has an `exit` line); the old sweep had died at 48/444. **Running** at -j 2 since 04:40 on the frozen
+  `work/qa/cover_build/` (a870a1cf) into `work/qa/cover/`, log `work/qa/cover_run3.txt`, ~1.2 min/event; if it
+  died, just re-run `python -X utf8 tools/cover_sweep.py -j 2`. Then `textcover_map.py convert` + `textcover.py`
+  as in worker 11's note. (c) **Re-tour on 816bdf57 running** at -j 1 (`warp.py --all --root work/qa/tour -j 1
+  --lua tools/lua/textlog.lua --cue <abs>/build/favorite_dear_en.cue`, log `work/qa/tour_run3.txt`, started 04:55).
+  If it died: re-run only the scenes whose `work/qa/tour/<scene>/log.txt` is older than `tour_run3.txt`; then
+  `qa_sheets.py`, `qa_gate.py init ... --build build/favorite_dear_en.bin`, review the changed sheets (read-only
+  passes), `qa_gate.py check`. Do not rebuild while it runs. (d) **Stress saves:** `save.py set --name-en` writes
+  English pair-code names. Cards `work/saves/stress_w10.mcd` (WWWWWWWWWW, AP 999) and `stress_i.mcd` (Ivy, AP 1),
+  regen commands in the scene notes; new scenes `stress_w10_week/_ability/_save`, `stress_i_week/_save` (not in the
+  running tour: they were added after it started). Run in `work/qa/stress/`: 10 W's fit the week-screen name box and
+  the save slot ("WWWWWWWWWW LV01"), AP 999 shows, "Ivy" fine (zoomed by me; add them to a manifest for the gate).
+  **Open bug (name length):** a save whose name is ONE halfword loads as "This Data is corrupted" (EN "I"; JP 1-kana
+  ラ the same on the JP disc; 2 codes load). The JP entry refuses only an empty name (0x80104B80), and in English
+  1-2 letters pack into one code, so a player naming the angel "Al" may get an unloadable save, IF a game-written
+  save fails like the edited one. Next: a new-game route that names the angel "R" and saves (the opening before the
+  hub is longer than 26000 frames; my route stopped in the intro), or find the loader's check (read watch on the
+  loaded save's name; the 0x8003EBEC `andi 0xfff` hits are LZSS, not the c0 check). Fix if real: make `name.inc`
+  refuse END below 3 letters (2 codes), noted on the name screen.
   Worker 12 (2026-11-21): build **8000adc5ae2a4ab269618e632e6a2bf788a80b56** (check ok 75, fitcheck ok, smoke ok).
   (a) Odd runs before {name}/{ins}: all reworded, `oddname.py` 181 -> **0** (fixes in `work/qa/oddname/fix1-5.tsv`;
   rule learnt: wrap.py carries the word before a name onto the name's line, so that word + space must be even, or

@@ -91,6 +91,19 @@ def set_name(f, name, enc):
             struct.pack_into("<H", f, at + 2 * i, c)
 
 
+def set_name_en(f, name):
+    """English name as pair codes (tools/en.py, as asm/name.inc commits them): 2 letters per halfword, 10 letters
+    from the name screen (12 fit the 6 halfwords: a stress case)"""
+    sys.path.insert(0, os.path.join(REPO, "tools"))
+    import en
+    codes = en.pairs(name)
+    assert 1 <= len(codes) <= NAME_LEN, f"name must be 1-{2 * NAME_LEN} letters"
+    codes += [0xFFFF] * (NAME_LEN - len(codes))
+    for at in NAME_AT:
+        for i, c in enumerate(codes):
+            struct.pack_into("<H", f, at + 2 * i, c)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("cmd", choices=["ls", "set", "check"])
@@ -100,6 +113,7 @@ def main():
     ap.add_argument("--week", type=int)
     ap.add_argument("--ap", type=int)
     ap.add_argument("--name")
+    ap.add_argument("--name-en", help="English name, stored as pair codes (e.g. WWWWWWWWWW)")
     ap.add_argument("--poke", action="append", default=[], help="OFFSET=HEXBYTES, e.g. 0x199C=e803")
     ap.add_argument("--bad-sum", action="store_true")
     a = ap.parse_args()
@@ -133,6 +147,8 @@ def main():
                 f[off:off + n] = v.to_bytes(n, "little")
     if a.name:
         set_name(f, a.name, enc)
+    if a.name_en:
+        set_name_en(f, a.name_en)
     for p in a.poke:
         off, hx = p.split("=")
         b = bytes.fromhex(hx)

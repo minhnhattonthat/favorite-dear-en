@@ -24,6 +24,9 @@ pair_orig:
 .include "pair_data.inc"
 pair_end:
 
+NAME_FREE equ 0x80125980          ; tail of the same zero run, after the grown strings (tools/insert.py REPOINT)
+.include "name.inc"
+
 ; Status screens' Sex value (function 0x80110FC0 copies these two 4-byte slots, 男{end} 女{end}, to its stack and
 ; draws one). Only one 12-px cell of that field reaches the screen: "Male" pointed to from free space drew as "Ma"
 ; (2026-11-21, work/qa/p8/sexz.png), so the value is one pair cell: "M" / "F" (docs/decisions.md D15).
@@ -35,6 +38,9 @@ pair_end:
 
 .if pair_end > 0x80125500
     .error "font hook overflows into the grown-string space (tools/insert.py REPOINT)"
+.endif
+.if name_end > 0x80125AF0
+    .error "name-entry code overflows the zero run (docs/re/space.md)"
 .endif
 
 .close

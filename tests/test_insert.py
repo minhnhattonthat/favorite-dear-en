@@ -186,6 +186,21 @@ def test_epilog_patch():
     assert changed <= set(range(0x10, 0x14)) | set(range(0x1C, 0x20)) | set(range(hook, hook + 8))
 
 
+@disc_only
+def test_name_entry_patch():
+    """PSX.EXE name entry (asm/name.inc): the Latin grid page is single-letter pair codes for every letter, the
+    katakana/hiragana pages are untouched, and the code sits after the grown-string space"""
+    old = (TREE / "PSX.EXE").read_bytes()
+    new = insert.assemble(old)
+    grid = new[0x17DA4:0x17E84]
+    cells = {grid[i:i + 2] for i in range(0, len(grid), 2)}
+    for ch in string.ascii_letters + string.digits:
+        assert (ch + " ").encode() in cells, ch
+    assert new[0x17E84:0x18044] == old[0x17E84:0x18044]
+    va = 0x80125980 - 0x80010000 + 0x800
+    assert insert.REPOINT[1] <= 0x80125980 and new[va:va + 4] != old[va:va + 4]
+
+
 def test_staff_text():
     row = {"id": "STAFF.009", "jp": "　　　　　　小川　雄一郎", "en": "Yuichiro Ogawa"}
     assert insert.staff_text(row, "en") == bytes(b + 1 for b in font_en.fin_pairs("Yuichiro Ogawa"))  # pair codes

@@ -3,6 +3,8 @@ title	title		hold	5000				title menu (New Game / Load Game / Option)
 load	load		hold	6500				title -> Load Game (memory card screen)
 option	option		hold	6000				title -> Option
 newgame	newgame		hold	8000				new game: name entry panel
+newgame_grid	newgame		hold	9000		6 circle;300 -		new game: name entry grid (e015 buttons) after the prompt
+newgame_name10	newgame		hold	14000		6 circle;300 -;6 cross;30 -;6 cross;30 -;6 up;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;60 -;6 down;30 -;6 circle;120 -;6 circle;300 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -		stress: name entry, Raviel -> Ravi + w x6 (10 letters, an 11th refused) -> END -> YES (save name 0x8001F5F6 packed)
 week1	week		hold	15000				week 1 management screen (angel + two fairies)
 map	map		hold	16000				world map after the week-1 orders
 myh16	event	MYH16	mash	16500				week 1: the angel scouts Reiv (control: the game's own first event)

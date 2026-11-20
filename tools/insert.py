@@ -243,7 +243,8 @@ def fit_slot(row, mode, size, table):
 
 # Grown PSX.EXE strings move here: the end of the zero run 0x80124E5D-0x80125AF0 that also holds the font hook
 # (asm/font.asm stops the hook at REPOINT[0]); a 48-letter test string at 0x80125900 drew fine (docs/re/space.md).
-REPOINT = (0x80125500, 0x80125AF0)
+# 0x80125980-0x80125AF0 holds the name-entry code and buffers (asm/name.inc, placed by asm/font.asm).
+REPOINT = (0x80125500, 0x80125980)
 
 
 def exe_text(exe, mode, table, report=None):

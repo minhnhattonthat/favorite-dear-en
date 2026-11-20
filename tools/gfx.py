@@ -11,7 +11,8 @@ Rows live in gfx/<entry>.tsv (entry = GDATA directory index at PSX.EXE 0x4C50, e
 - ink: palette index of the letters (and, with bg `ink`, of the Japanese to erase); shadow: index drawn one pixel
   down-right, `-` = none.
 - bg: a palette index to fill the whole rect with, or `ink` = erase only the ink-coloured pixels in the rect, each
-  taking the nearest other pixel of its row (for labels printed on a textured background).
+  taking the nearest other pixel of its row (for labels printed on a textured background), or `>=N` = the same for
+  every pixel of index N or above (lettering in several light indices over a darker texture, e015's buttons).
 - align: `l` left, `c` centred in the rect.
 Images: the game's LZSS raw images (12-byte header `u32 ?, u32 0, u16 width in halfwords, u16 height`, 4bpp when
 width = 64 halfwords; recompressed back into the entry's own slot, so it must fit the slot's sector-rounded size) and
@@ -118,15 +119,17 @@ def text_columns(text, font="6x12"):
 
 
 def erase(w, pix, x, y, rw, rh, ink):
-    """every ink pixel in the rect takes the nearest non-ink pixel of its row (left first at equal distance)"""
+    """every ink pixel in the rect takes the nearest non-ink pixel of its row (left first at equal distance);
+    ink: one index, or a set of them"""
+    inks = ink if isinstance(ink, (set, frozenset)) else {ink}
     for yy in range(y, y + rh):
         row = pix[yy * w:(yy + 1) * w]
         for xx in range(x, x + rw):
-            if row[xx] != ink:
+            if row[xx] not in inks:
                 continue
             for d in range(1, w):
                 for c in (xx - d, xx + d):
-                    if 0 <= c < w and row[c] != ink:
+                    if 0 <= c < w and row[c] not in inks:
                         pix[yy * w + xx] = row[c]
                         break
                 else:
@@ -139,6 +142,8 @@ def clear(w, pix, r):
     x, y, rw, rh = (int(r[k]) for k in "xywh")
     if r["bg"] == "ink":
         erase(w, pix, x, y, rw, rh, int(r["ink"]))
+    elif r["bg"].startswith(">="):
+        erase(w, pix, x, y, rw, rh, set(range(int(r["bg"][2:]), 256)))
     else:
         for yy in range(y, y + rh):
             for xx in range(x, x + rw):

@@ -134,4 +134,20 @@ are MS Gothic's 12 px embedded bitmap (kanji match exactly), kana/Latin/punctuat
   first three lines): all 101 glyphs distinct and clean, spaces keep their width (`work/qa/p5/torture/sheet.png`).
 - **FIN.EXE (credits)**: see §Credits below.
 - **Not yet handled:** a runtime-inserted name of odd length (the angel's name, entered on the grid) leaves a half-cell
-  gap after it in dialogue; the name-entry grid must produce pair codes (phase 7).
+  gap after it in dialogue.
+
+## Name entry (phase 8, `asm/name.inc`)
+
+- Code 0x80104A00-0x80106B40. Grid table 0x800275A4 (file 0x17DA4): three pages of 7 rows x 16 halfword cells,
+  page 2 = Latin 0x800275A4, page 0 = katakana 0x80027684, page 1 = hiragana 0x80027764; 0xFFFF = no cell; row 6 =
+  buttons (cols 0-3, 4-7, 8-11 = the pages, 12+ = END). Page var 0x8002752E, count 0x8002752C, cursor x/y bytes
+  0x80027504/5. Each page is drawn into VRAM (v = 0x100 + 72 * page + 12 * row) by 0x80105844 / 0x801059E4 /
+  0x8010567C; the on-screen name is one sprite per cell copied from that image (u, v kept in a parallel array), 16 px
+  apart (0x801069B0) over underline marks (0x80106A60).
+- Init 0x80104E24 (runs when the grid opens) loads the default name ラビエル (0x80175B34) with the cursor on END; then
+  0x800C0F58 draws the katakana page and sets page 0. On END + YES, 0x801054D4 copies the codes to the save's name
+  0x8001F5F6 (8 halfwords, 0xFFFF-filled first).
+- English: Latin cells are "A " pair codes; the Latin page opens first with "Raviel"; 10 cells, 8 px apart (buffers
+  moved to 0x80125980+); on commit single letters are packed two per halfword, capped at 5 halfwords. Verified
+  (`tools/lua/peek.lua`): default -> 0x8001F5F6 = `Ra vi el FFFF`, week screen shows "Raviel" (`warp.py week1`);
+  `warp.py newgame_name10` -> `Ra vi ww ww ww FFFF`, an 11th letter refused.

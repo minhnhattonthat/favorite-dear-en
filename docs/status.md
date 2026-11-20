@@ -17,7 +17,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   screen, now "M"/"F" (D15). e009 is still not seen anywhere. Build sha1 268ff21f3676ed8acb2808c53395b758483ca4be,
   fitcheck ok, check ok. e008 buttons done too (upper case, `work/qa/warp/hub/post.png`; 月 on the calendar -> "/").
   e142 week-screen fairy panel done (`work/qa/warp/week1/f011250.png`; gfx.py handles 4bpp TIMs, font `narrow`).
-  **Next:** the rest of `docs/re/graphics.md` (rows without **English**: e015/e016 name entry, e143 失/死, e144,
+  Worker 5 (2026-11-21): name entry done. `asm/name.inc` (`text.md` §Name entry): Latin page first with pair-code
+  letters, default "Raviel", 10 letters drawn 8 px apart, packed two per halfword on commit (verified by
+  `tools/lua/peek.lua`: week screen shows "Raviel"; `warp.py newgame_name10` stores `Ra vi ww ww ww`); e015 page
+  buttons Katakana/Hiragana/ABC (`gfx.py` bg `>=N`); new scenes `newgame_grid`, `newgame_name10`.
+  **Next:** the rest of `docs/re/graphics.md` (rows without **English**: e143 失/死, e144,
   e145 memory card, e203 flow chart, e243 battle status, e204-e206 8x8 font, TITLE PSS files, 平和度 on the map). Old note on e008 buttons (予定 訪問 能力 地図 スカウト システム 戻る 任務 会話 贈る; 月): ink 15 on fill 5, no shadow, text
   area x 10-47 y 91-99 per button; gfx.py needs a `bg` column (it clears to 0 now). Proposed: Plan Visit Status Map
   Scout System Back Mission Talk Gift. Build sha1 ac73a4b73fb8f746817a2bf7067a44b525be7970, fitcheck ok.

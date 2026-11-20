@@ -39,6 +39,7 @@ Other room:
   DUMMY.BIN. Every program finds them by name (CdSearchFile paths in the EXEs), so title, option, minigame and the
   endings still load (marker build, 2026-11-20).
 - PSX.EXE: the free run at 0x80124E60 also took a 48-letter test string at 0x80125900 (`hub_help` width test).
-  In use: font hook 0x80124E60-0x80125500 (`asm/font.asm` stops there), grown list strings 0x80125500-0x80125AF0
-  (`tools/insert.py` REPOINT; 39 strings to 0x80125782 on 2026-11-20). Proof: the Apprentice rank pointer poked to
+  In use: font hook 0x80124E60-0x80125500 (`asm/font.asm` stops there), grown list strings 0x80125500-0x80125980
+  (`tools/insert.py` REPOINT; 39 strings to 0x80125782 on 2026-11-20), name-entry code and buffers
+  0x80125980-0x80125AF0 (`asm/name.inc`, 2026-11-21). Proof: the Apprentice rank pointer poked to
   the moved "Chief Seraph" draws it on the status screen (`tools/lua/poke32.lua`, `work/qa/p8/rank_chief_seraph.png`).

@@ -2,9 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 20: **hero skill names fixed**; left: hero sheets
-  through the gate (re-tour stress_hero_* on the new build, `qa_sheets.py`, read-only pass, `qa_gate.py init/check
-  --build`), textcover (textforce passes), Sylphe/Gaap shot).
+- **Phase:** 8. QA in the emulator: in progress (worker 20: **hero skill names fixed; visual gate passes on
+  94fa9887** (277 sheets, 0 unreviewed, 0 not ok); left: textcover (textforce passes; battle files need their own
+  path, below), Sylphe/Gaap shot).
+  Worker 20 gate: stress_hero_* re-toured on 94fa9887 into `work/qa/tour`, `qa_sheets.py`, `qa_gate.py init --build`,
+  9 new sheets reviewed in a fresh read-only pass by the worker itself (codex out of credits until 11-26; verdicts
+  `work/qa/verdicts/w20_hero.tsv`), `qa_gate.py check` exit 0. stress_hero_week2 does not reach a hero column:
+  heroes have no column on the week screen (right wraps to the angel); its scenes.tsv note overstates it.
+  **Textforce gap (next):** every battle file (T0102, T0103, T0104, T0701-T0704A, T0901, T1101 ..) returns rc 1,
+  shown 0 in pass 1 (`work/qa/force_run2.txt`): `--event` can't load battle scripts, so textforce never covers them.
+  Give textforce a battle mode (`warp.py --battle NAME` per T-file, as worker 18 did for T1205) or waive them
+  with a fitcheck proof. Pass 1 at 08:10: 26 files done, 8251 of 8638 rows unshown, 435 files left.
   Worker 20 (2026-11-21): build **94fa988734a9eb9f0c0f6d12c913d87fdc89ba1c** (check ok 79, smoke ok). Skill names
   fixed (`asm/skill.inc`, `docs/re/text.md` §Hero skills, D20): rendered into the status text sheet with the Name and
   drawn by the rewritten 0x800C337C in the main font from x 200; labels now "1:".."3:" (gfx/e014.tsv). In game

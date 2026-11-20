@@ -2,14 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: starting. Phase 6 done 2026-11-20: all 144 batches check OK, glossary updated,
+- **Phase:** 7. Insert, fit, check: full English build green (2026-11-20): every batch inserted; 9 scripts that
+  outgrew their slot (3529 354D 3551 3555 3634 368F 3964 3A3C 3ACC = SQA07 MYH16 MYH17 MYH14 T1001 S0404OK T9SEN
+  TM02001 SMEN11) move to the end of GDATA.BIN with their (sector, size) entry repointed in all five EXEs
+  (`insert.event_edits/repoint`, test `test_grown_script_moves`); `tools/fitcheck.py` (romdiff of every edited file
+  against derived allowed ranges) runs after each build: all 7 files ok; smoke ok; `warp.py myh16` (a moved script)
+  plays in English. Left in phase 7: the content items below (glyph soup, tables, name gap). Phase 6 done 2026-11-20: all 144 batches check OK, glossary updated,
   review pass b001-b144 recorded in `docs/review.tsv` (b057-b144 by 11 read-only Explore/Sonnet reviewer subagents,
   as codex is out of credits and the plugin reviewer type is not offered; reports' Important findings fixed: 12 batches
   `fixed`), `docs/polish.md` all ticked. Phase 7 work list: "Phase 7 items already known" below, plus the glyph-soup
   files, mission-title/rank/clear-data tables, and the never-built b006-b144 text.
-- **Builds (2026-11-20, phase 6 b001-b005/b024/b025):** `favorite_dear_en.bin` sha1
-  0262d61ff1b807ebe1944a3234b560f69696b9ca, smoke ok. Marker/ruler/torture builds as in phase 5. (b006-b016 merged
-  into `script/events`, not yet built: phase 7 builds.)
+- **Builds (2026-11-20, all batches b001-b144):** `favorite_dear_en.bin` sha1
+  0c367aaf686f05923ae905d143afb6c79ddfa1c9, smoke ok, fitcheck ok. Marker/ruler/torture builds as in phase 5.
 - **Glyph-soup files (found 2026-11-20, phase 7 must fix):** 34F2 34F5 34F8 34FC 3500 3504 3507 350A (all rows,
   ~300) and parts of 393D, 3976-3986 decode as kana/kanji soup under `tbl/jp.tbl` (codes parse; a substitution,
   likely a per-scene glyph set). Batched as `-` (b009-b013); find their table, re-extract, re-batch, translate.

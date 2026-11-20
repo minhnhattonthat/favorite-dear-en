@@ -57,6 +57,27 @@ def test_rebuild_identity(disc):
 
 
 @disc_only
+def test_grown_script_moves(disc):
+    """a script that outgrows its slot goes to the end of GDATA (sector-rounded) and its table entry is repointed
+    once per EXE; the moved file re-parses with the same items"""
+    exe, gdata = disc
+    relocs = []
+    new_gdata = insert.event_edits(gdata, exe, "en", extract.event_table(), relocs=relocs)
+    if not relocs:
+        pytest.skip("no script outgrows its slot with the current English")
+    new_exe = insert.repoint(exe, relocs, "PSX.EXE")
+    by_sec = {f[0]: f for f in evscript.script_files(new_exe, new_gdata)}
+    end = -(-len(gdata) // 2048)
+    for sec, size, nsec, nsize in relocs:
+        assert nsec >= end and nsize % 2048 == 0 and size < nsize <= insert.EVENT_BUFFER
+        assert by_sec[nsec][1] == nsize and sec not in by_sec  # the table now points at the moved copy only
+        old, new = evscript.Script(gdata[sec * 2048:sec * 2048 + size]), evscript.Script(by_sec[nsec][2])
+        assert [k for k, *_ in old.items] == [k for k, *_ in new.items]
+    with pytest.raises(insert.FitError):
+        insert.repoint(new_exe, relocs, "PSX.EXE")  # the old entry is gone: a second repoint must fail loudly
+
+
+@disc_only
 def test_marker_relocation(disc):
     exe, gdata = disc
     new_gdata = insert.event_edits(gdata, exe, "marker", extract.event_table())

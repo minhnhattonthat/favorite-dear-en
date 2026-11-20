@@ -10,9 +10,9 @@ DATA/STAFF.TXT (credits) gets full-width text: FIN.EXE draws only double-byte ch
 
 Event scripts (docs/re/events.md): a row is a text segment; new text may grow or shrink it. The script's code is
 rebuilt piece by piece and every reference argument (Script.refs, incl. the pc-0 goto) is remapped to the new pc of
-its target. A file must still fit its original sector-rounded size: the loader packs up to 10 scripts into one
-0x7000-byte buffer (0x800C82E8, cap 0x3800 halfwords at 0x800C8380), so growing a file past it is a phase 7 job
-(status.md). PSX.EXE strings are written in place (FFFF-terminated, the rest of the slot zero-filled): they must
+its target. A file that outgrows its sector-rounded slot moves to the end of GDATA.BIN and its table entry is
+repointed in all five EXEs (event_edits/repoint); no file may pass 0x7000 bytes, the cap of the buffer the loader
+packs up to 10 scripts into (0x800C82E8, cap 0x3800 halfwords at 0x800C8380). PSX.EXE strings are written in place (FFFF-terminated, the rest of the slot zero-filled): they must
 not grow until repointing exists. The pair-glyph hook is assembled into PSX.EXE by armips (asm/font.asm)."""
 import argparse
 import struct
@@ -154,11 +154,21 @@ def script_bytes(sc, size, repl):
     return out + bytes(size - len(out))
 
 
-def event_edits(gdata, exe, mode, table, report=None):
+EVENT_BUFFER = 0x7000  # the loader's cap (0x3800 halfwords at 0x800C8380): no script may be larger
+EXE_COPIES = ("PSX.EXE", "GOVER.EXE", "FD_BALL.EXE", "PS_MOV.EXE", "TITLE/EPILOG.EXE")  # each holds the GDATA tables
+
+
+def event_edits(gdata, exe, mode, table, report=None, relocs=None):
+    """GDATA with the new scripts. A script that outgrows its slot (en/marker) is moved to the end of GDATA.BIN when
+    `relocs` is a list: each move is appended as (old sector, old size, new sector, new size) for repoint(). The
+    loader (0x800C82E8) reads a script's size from the table, appends it to the buffer while it fits under the cap
+    and compacts the buffer otherwise, so a moved file only needs a sector-rounded size <= EVENT_BUFFER."""
     rows_by_sec = {}
     for path in sorted((extract.SCRIPT / "events").glob("*.tsv")):
         rows_by_sec[int(path.stem, 16)] = extract.read_tsv(path)
     out = bytearray(gdata)
+    out += bytes(-len(out) % SECTOR)
+    hi = 0
     for sec, size, data, where in evscript.script_files(exe, gdata):
         sc = evscript.Script(data)
 
@@ -176,13 +186,39 @@ def event_edits(gdata, exe, mode, table, report=None):
         try:
             new = script_bytes(sc, size, repl)
         except FitError as e:
-            if mode not in ("ruler", "torture"):
+            if mode in ("ruler", "torture"):
+                new = script_bytes(sc, size, replacements("marker"))  # ruler doesn't fit: this file gets markers
+            elif relocs is not None and where != "orphan" and "slot" in str(e):
+                body = script_bytes(sc, EVENT_BUFFER, repl).rstrip(b"\0")
+                nsize = -(-len(body) // SECTOR) * SECTOR
+                nsec = len(out) // SECTOR
+                out += body + bytes(nsize - len(body))
+                relocs.append((sec, size, nsec, nsize))
+                if report is not None:
+                    report.append((sec, nsize, sc.code_off + 2 * sc.n, len(body)))
+                continue
+            else:
                 raise FitError(f"script {sec:04X}: {e}") from None
-            new = script_bytes(sc, size, replacements("marker"))  # ruler doesn't fit: this file gets markers
         if report is not None:
             used = len(new.rstrip(b"\0"))
             report.append((sec, size, sc.code_off + 2 * sc.n, used))
         out[sec * SECTOR:sec * SECTOR + size] = new
+        hi = max(hi, sec * SECTOR + size)
+    if not relocs:
+        out = out[:max(len(gdata), hi)]  # nothing moved: no sector padding (the last file may run past the end)
+    return bytes(out)
+
+
+def repoint(exe, relocs, name):
+    """`exe` with each moved script's (u32 sector, u32 size) table entry rewritten; every move must match exactly one
+    4-aligned entry (all five EXEs carry the same tables)."""
+    out = bytearray(exe)
+    for sec, size, nsec, nsize in relocs:
+        old = struct.pack("<II", sec, size)
+        hits = [i for i in range(0, len(out) - 7, 4) if out[i:i + 8] == old]
+        if len(hits) != 1:
+            raise FitError(f"{name}: script {sec:04X} table entry found {len(hits)} times")
+        out[hits[0]:hits[0] + 8] = struct.pack("<II", nsec, nsize)
     return bytes(out)
 
 
@@ -273,10 +309,13 @@ def assemble(exe, asm="font.asm"):
 def edits(mode="en", report=None):
     exe = (TREE / "PSX.EXE").read_bytes()
     gdata = (TREE / "GDATA.BIN").read_bytes()
-    new_exe = assemble(exe_text(exe, mode, extract.exe_table()))
-    new_gdata = event_edits(gdata, exe, mode, extract.event_table(), report)
-    out = {"PSX.EXE": new_exe,
+    relocs = []
+    new_gdata = event_edits(gdata, exe, mode, extract.event_table(), report, relocs)
+    out = {"PSX.EXE": assemble(exe_text(exe, mode, extract.exe_table())),
            "TITLE/EPILOG.EXE": assemble((TREE / "TITLE" / "EPILOG.EXE").read_bytes(), "epilog.asm")}
+    if relocs:
+        for name in EXE_COPIES:
+            out[name] = repoint(out[name] if name in out else (TREE / name).read_bytes(), relocs, name)
     if new_gdata != gdata:
         out["GDATA.BIN"] = new_gdata
     staff = (TREE / "DATA" / "STAFF.TXT").read_bytes()

@@ -131,3 +131,9 @@ if __name__ == "__main__":
                     help="every English glyph in each event row's first lines -> build/favorite_dear_en_torture.*")
     a = ap.parse_args()
     build(a.identity, mode=a.mode)
+    if not a.identity:  # phase 7 gate: no write outside the allowed ranges (tools/fitcheck.py)
+        name = NAME if a.mode == "en" else f"{NAME}_{a.mode}"
+        r = subprocess.run([sys.executable, "-X", "utf8", str(ROOT / "tools" / "fitcheck.py"),
+                            "--build", str(BUILD / ("files_" + name))])
+        if r.returncode:
+            sys.exit("fitcheck failed")

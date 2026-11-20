@@ -1,0 +1,144 @@
+id	en
+3A03.3324	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}But I have to try hard, don't I. I just don't know what to do...{n}{wait}{clear}{end}
+3A03.33BC	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Oh... Thank you. But I'll keep going a bit more...{n}{wait}{clear}{end}
+3A03.3446	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Yes, just a little longer. I feel like I'm not getting stronger the way I'd hoped.{n}{wait}{clear}{end}
+3A03.34D4	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}...You're right. I have to try much, much harder...{n}{wait}{clear}{end}
+3A03.3556	{fb:2880}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}No, not at all! Please don't worry about it...{n}{wait}{clear}{end}
+3A03.35DE	{fb:3280}{n}{spk:E783}{n}Is training hard?{n}{wait}{clear}{spk:0080}{n}...Yes... With this sort of thing, I don't know what I should be learning...{n}{wait}{clear}{end}
+3A03.3668	{fb:3C80}{n}{spk:E783}{n}Do you have stamina?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}Y-yes... I do the housework at home, so that much...{n}{wait}{clear}{spk:0080}{n}But I guess that doesn't have much to do with fighting...{n}{wait}{clear}{end}
+3A0B.0604	{fb:0C80}{n}{e0:7300}{e5:0680}{n}{spk:0080}{n}Oh, a fine piece!{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.063A	{e0:7300}{fb:0B80}{n}{e0:7400}{e5:0080}{n}{spk:0080}{n}Oh, a fine piece.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.0678	{fb:0A80}{n}{e0:7500}{e5:0380}{n}{spk:0080}{n}Oh, a fine piece...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.06B8	{fb:0280}{n}{e0:7600}{e5:0680}{n}{spk:0080}{n}Much obliged!{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.06EA	{fb:0180}{n}{e0:7700}{e5:0080}{n}{spk:0080}{n}Forgive me.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.071C	{fb:0080}{n}{e0:7800}{e5:0380}{n}{spk:0080}{n}Much obliged...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.0754	{fb:7080}{n}{e0:7900}{e5:0180}{n}{spk:0080}{n}I'll gladly accept it!{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.078E	{fb:6F80}{n}{e0:7A00}{e5:0680}{n}{spk:0080}{n}I'll gladly accept it.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.07C8	{fb:6E80}{n}{e0:7B00}{e5:0580}{n}{spk:0080}{n}I'll gladly accept it...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.0808	{fb:6680}{n}{e0:7C00}{e5:0180}{n}{spk:0080}{n}How kind!{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.083C	{fb:6580}{n}{e0:7D00}{e5:0680}{n}{spk:0080}{n}How kind.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0B.0870	{fb:6480}{n}{e0:7E00}{e5:0580}{n}{spk:0080}{n}How kind...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0D.0604	{fb:0C80}{n}{e0:0701}{e5:0080}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0D.0630	{e0:0701}{fb:0B80}{n}{e0:0801}{e5:0080}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0D.0664	{fb:0A80}{n}{e0:0901}{e5:0280}{n}{spk:0080}{n}Thanks...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0D.073C	{fb:7080}{n}{e0:0D01}{e5:0680}{n}{spk:0080}{n}A good thing. I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0D.07B4	{fb:6E80}{n}{e0:0F01}{e5:0580}{n}{spk:0080}{n}A good thing. I'll treasure it...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0D.07F6	{fb:6680}{n}{e0:1001}{e5:0680}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0D.085E	{fb:6480}{n}{e0:1201}{e5:0580}{n}{spk:0080}{n}Thank you...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.0604	{fb:0C80}{n}{e0:9D01}{e5:0180}{n}{spk:0080}{n}Thanks a lot!{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.0630	{e0:9D01}{fb:0B80}{n}{e0:9E01}{e5:0080}{n}{spk:0080}{n}Sorry.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.0664	{fb:0A80}{n}{e0:9F01}{e5:0380}{n}{spk:0080}{n}Thanks a lot...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.069A	{fb:0280}{n}{e0:A001}{e5:0180}{n}{spk:0080}{n}Appreciate it!{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.06CE	{fb:0180}{n}{e0:A101}{e5:0080}{n}{spk:0080}{n}Appreciate it.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.0702	{fb:0080}{n}{e0:A201}{e5:0380}{n}{spk:0080}{n}Appreciate it...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.073C	{fb:7080}{n}{e0:A301}{e5:0180}{n}{spk:0080}{n}You shouldn't have!{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.076E	{fb:6F80}{n}{e0:A401}{e5:0080}{n}{spk:0080}{n}You shouldn't have.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.07A0	{fb:6E80}{n}{e0:A501}{e5:0280}{n}{spk:0080}{n}You shouldn't have...{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.07D8	{fb:6680}{n}{e0:A601}{e5:0180}{n}{spk:0080}{n}Thanks!{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.080A	{fb:6580}{n}{e0:A701}{e5:0080}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}
+3A0F.083C	{fb:6480}{n}{e0:A801}{e5:0280}{n}{spk:0080}{n}Thank you...{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.0604	{fb:0C80}{n}{e0:5302}{e5:0680}{n}{spk:0080}{n}Are you sure!{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.063A	{e0:5302}{fb:0B80}{n}{e0:5402}{e5:0080}{n}{spk:0080}{n}Are you sure?{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.0678	{fb:0A80}{n}{e0:5502}{e5:0380}{n}{spk:0080}{n}Are you sure...?{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.06B8	{fb:0280}{n}{e0:5602}{e5:0680}{n}{spk:0080}{n}I'm sorry for the trouble!{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.06EC	{fb:0180}{n}{e0:5702}{e5:0080}{n}{spk:0080}{n}I'm sorry for the trouble.{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.0720	{fb:0080}{n}{e0:5802}{e5:0380}{n}{spk:0080}{n}I'm sorry for the trouble...{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.075A	{fb:7080}{n}{e0:5902}{e5:0180}{n}{spk:0080}{n}Thank you very much!{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.0798	{fb:6F80}{n}{e0:5A02}{e5:0680}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.07D6	{fb:6E80}{n}{e0:5B02}{e5:0480}{n}{spk:0080}{n}Thank you very much...{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.081A	{fb:6680}{n}{e0:5C02}{e5:0180}{n}{spk:0080}{n}I'll gladly accept!{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.0850	{fb:6580}{n}{e0:5D02}{e5:0680}{n}{spk:0080}{n}I'll gladly accept.{n}{wait}{clear}{e5:0080}{n}{end}
+3A11.0886	{fb:6480}{n}{e0:5E02}{e5:0480}{n}{spk:0080}{n}I'll gladly accept...{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.0604	{fb:0C80}{n}{e0:2703}{e5:0680}{n}{spk:0080}{n}What a fine thing!{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.0638	{e0:2703}{fb:0B80}{n}{e0:2803}{e5:0080}{n}{spk:0080}{n}What a fine thing.{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.0674	{fb:0A80}{n}{e0:2903}{e5:0380}{n}{spk:0080}{n}What a fine thing...{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.06B2	{fb:0280}{n}{e0:2A03}{e5:0680}{n}{spk:0080}{n}I'll accept it gratefully!{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.06EE	{fb:0180}{n}{e0:2B03}{e5:0080}{n}{spk:0080}{n}I'll accept it gratefully.{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.072A	{fb:0080}{n}{e0:2C03}{e5:0380}{n}{spk:0080}{n}I'll accept it gratefully...{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.082C	{fb:6680}{n}{e0:3003}{e5:0680}{n}{spk:0080}{n}You're too kind!{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.0860	{fb:6580}{n}{e0:3103}{e5:0080}{n}{spk:0080}{n}You're too kind.{n}{wait}{clear}{e5:0080}{n}{end}
+3A13.0894	{fb:6480}{n}{e0:3203}{e5:0480}{n}{spk:0080}{n}I'm sorry...{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.0632	{e0:E803}{fb:0B80}{n}{e0:E903}{e5:0680}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.06A0	{fb:0280}{n}{e0:EB03}{e5:0180}{n}{spk:0080}{n}Thanks a bunch!{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.06D4	{fb:0180}{n}{e0:EC03}{e5:0680}{n}{spk:0080}{n}Thanks a bunch.{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.0708	{fb:0080}{n}{e0:ED03}{e5:0280}{n}{spk:0080}{n}Thanks a bunch...{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.0742	{fb:7080}{n}{e0:EE03}{e5:0180}{n}{spk:0080}{n}Yay, I wanted this!{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.0788	{fb:6F80}{n}{e0:EF03}{e5:0680}{n}{spk:0080}{n}Yay, I wanted this.{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.07CE	{fb:6E80}{n}{e0:F003}{e5:0580}{n}{spk:0080}{n}Yay, I wanted this...{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.081A	{fb:6680}{n}{e0:F203}{e5:0180}{n}{spk:0080}{n}Hee hee, thanks!{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.0854	{fb:6580}{n}{e0:F303}{e5:0680}{n}{spk:0080}{n}Hee hee, thanks.{n}{wait}{clear}{e5:0080}{n}{end}
+3A15.088E	{fb:6480}{n}{e0:F103}{e5:0580}{n}{spk:0080}{n}Hee hee, thanks...{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.0604	{fb:0C80}{n}{e0:B804}{e5:0180}{n}{spk:0080}{n}I can really have this!{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.0642	{e0:B804}{fb:0B80}{n}{e0:B904}{e5:0080}{n}{spk:0080}{n}I can really have this?{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.0688	{fb:0A80}{n}{e0:BA04}{e5:0380}{n}{spk:0080}{n}I can really have this...?{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.06D0	{fb:0280}{n}{e0:BB04}{e5:0180}{n}{spk:0080}{n}Thank you!{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.0772	{fb:7080}{n}{e0:BE04}{e5:0180}{n}{spk:0080}{n}Wow, I'll take good care of it!{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.07AE	{fb:6F80}{n}{e0:BF04}{e5:0080}{n}{spk:0080}{n}Wow, I'll take good care of it.{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.07EA	{fb:6E80}{n}{e0:C004}{e5:0580}{n}{spk:0080}{n}Wow, I'll take good care of it...{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.082C	{fb:6680}{n}{e0:C104}{e5:0180}{n}{spk:0080}{n}Thank you kindly!{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.0860	{fb:6580}{n}{e0:C204}{e5:0080}{n}{spk:0080}{n}Thank you kindly.{n}{wait}{clear}{e5:0080}{n}{end}
+3A17.0894	{fb:6480}{n}{e0:C304}{e5:0580}{n}{spk:0080}{n}Thank you kindly...{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.0604	{fb:0C80}{n}{e0:AA05}{e5:0180}{n}{spk:0080}{n}Hmm, I'll take it off your hands!{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.0644	{e0:AA05}{fb:0B80}{n}{e0:AB05}{e5:0080}{n}{spk:0080}{n}Hmm, I'll take it off your hands.{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.068C	{fb:0A80}{n}{e0:AC05}{e5:0280}{n}{spk:0080}{n}Hmm, I'll take it off your hands...{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.06D6	{fb:0280}{n}{e0:AD05}{e5:0180}{n}{spk:0080}{n}Yeah, thanks!{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.0710	{fb:0180}{n}{e0:AE05}{e5:0080}{n}{spk:0080}{n}Yeah, thanks.{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.074A	{fb:0080}{n}{e0:AF05}{e5:0280}{n}{spk:0080}{n}Yeah, thanks...{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.078A	{fb:7080}{n}{e0:B005}{e5:0180}{n}{spk:0080}{n}I'll take it!{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.07C0	{fb:6F80}{n}{e0:B105}{e5:0680}{n}{spk:0080}{n}I'll take it.{n}{wait}{clear}{e5:0080}{n}{end}
+3A19.07F6	{fb:6E80}{n}{e0:B205}{e5:0480}{n}{spk:0080}{n}I'll take it...{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.0604	{fb:0C80}{n}{e0:9506}{e5:0180}{n}{spk:0080}{n}Yay! Thanks!{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.063C	{e0:9506}{fb:0B80}{n}{e0:9606}{e5:0080}{n}{spk:0080}{n}Yay! Thanks.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.067C	{fb:0A80}{n}{e0:9706}{e5:0380}{n}{spk:0080}{n}Yay! Thanks...{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.06BE	{fb:0280}{n}{e0:9806}{e5:0180}{n}{spk:0080}{n}Yeah, just leave it over there!{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.0704	{fb:0180}{n}{e0:9906}{e5:0080}{n}{spk:0080}{n}Yeah, just leave it over there.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.074A	{fb:0080}{n}{e0:9A06}{e5:0380}{n}{spk:0080}{n}Yeah, just leave it over there...{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.0796	{fb:7080}{n}{e0:9C06}{e5:0180}{n}{spk:0080}{n}Hee hee, I'll treasure it!{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.07D4	{fb:6F80}{n}{e0:9B06}{e5:0680}{n}{spk:0080}{n}Hee hee, I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.0812	{fb:6E80}{n}{e0:9D06}{e5:0480}{n}{spk:0080}{n}Hee hee, I'll treasure it...{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.0856	{fb:6680}{n}{e0:9F06}{e5:0180}{n}{spk:0080}{n}Thank you!{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.088A	{fb:6580}{n}{e0:9E06}{e5:0680}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1B.08BE	{fb:6480}{n}{e0:A006}{e5:0480}{n}{spk:0080}{n}Thank you...{n}{wait}{clear}{e5:0080}{n}{end}
+3A1D.0604	{fb:0C80}{n}{e0:5F07}{e5:0680}{n}{spk:0080}{n}You sure I can have this!{n}{wait}{clear}{e5:0080}{n}{end}
+3A1D.0642	{e0:5F07}{fb:0B80}{n}{e0:6007}{e5:0080}{n}{spk:0080}{n}You sure I can have this?{n}{wait}{clear}{e5:0080}{n}{end}
+3A1D.0688	{fb:0A80}{n}{e0:6107}{e5:0280}{n}{spk:0080}{n}You sure I can have this...?{n}{wait}{clear}{e5:0080}{n}{end}
+3A1D.06D0	{fb:0280}{n}{e0:6207}{e5:0680}{n}{spk:0080}{n}Yay, thank you.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1D.070C	{fb:0180}{n}{e0:6307}{e5:0080}{n}{spk:0080}{n}Hah, thank you.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.0604	{fb:0C80}{n}{e0:4808}{e5:0680}{n}{spk:0080}{n}Good taste!{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.0634	{e0:4808}{fb:0B80}{n}{e0:4908}{e5:0080}{n}{spk:0080}{n}Good taste.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.066C	{fb:0A80}{n}{e0:4A08}{e5:0280}{n}{spk:0080}{n}Good taste...{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.06A6	{fb:0280}{n}{e0:4B08}{e5:0680}{n}{spk:0080}{n}How sweet of you!{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.06D8	{fb:0180}{n}{e0:4C08}{e5:0080}{n}{spk:0080}{n}How sweet of you.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.070A	{fb:0080}{n}{e0:4D08}{e5:0280}{n}{spk:0080}{n}How sweet of you...{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.0742	{fb:7080}{n}{e0:4E08}{e5:0180}{n}{spk:0080}{n}Oh, how lovely!{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.077E	{fb:6F80}{n}{e0:4F08}{e5:0680}{n}{spk:0080}{n}Oh, how lovely.{n}{wait}{clear}{e5:0080}{n}{end}
+3A1F.07BA	{fb:6E80}{n}{e0:5008}{e5:0580}{n}{spk:0080}{n}Oh, how lovely...{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.0604	{fb:0C80}{n}{e0:8209}{e5:0180}{n}{spk:0080}{n}I'll treasure it!{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.0636	{e0:8209}{fb:0B80}{n}{e0:8309}{e5:0080}{n}{spk:0080}{n}I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.0670	{fb:0A80}{n}{e0:8509}{e5:0580}{n}{spk:0080}{n}I'll treasure it...{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.076C	{fb:7080}{n}{e0:8809}{e5:0680}{n}{spk:0080}{n}I can really have this!!{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.07AE	{fb:6F80}{n}{e0:8909}{e5:0180}{n}{spk:0080}{n}I can really have this?{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.07EE	{fb:6E80}{n}{e0:8A09}{e5:0580}{n}{spk:0080}{n}I can really have this...?{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.0834	{fb:6680}{n}{e0:8B09}{e5:0680}{n}{spk:0080}{n}I'm so happy!{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.0866	{fb:6580}{n}{e0:8C09}{e5:0180}{n}{spk:0080}{n}I'm so happy.{n}{wait}{clear}{e5:0080}{n}{end}
+3A21.0898	{fb:6480}{n}{e0:8D09}{e5:0580}{n}{spk:0080}{n}I'm so happy...{n}{wait}{clear}{e5:0080}{n}{end}
+3A23.045A	{fb:0180}{n}{e0:E0FF}{f5:FA80}{n}{ea:0081}{n}{e6}{ee:0180}{n}{e8:0180}{n}{e9:0080}{n}{spk:E783}{n}This village...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}This village went through a lot of turmoil, but it seems peaceful for now...{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Are you still worried about this village?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Yeah, sort of.{n}{wait}{clear}{e0:9F05}{ea:0081}{n}{e6}{ee:0180}{n}{e9:0180}{n}{spk:E783}{n}{f7:0080}Tricia: U-um......{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}......{n}{wait}{clear}{e0:A005}{spk:E783}{n}{f7:0080}Tricia: ...Thank you so much.{n}{wait}{clear}{e0:A105}{spk:0080}{n}......Yeah.{n}{wait}{clear}{e0:A205}{spk:E783}{n}{f7:0080}Tricia: I'm sorry about that time...{n}{wait}{clear}{e0:A305}{spk:0080}{n}Forget it... It's over and done...{n}{wait}{clear}{e0:E0FF}{f5:FA80}{n}{ea:0780}{n}{e6}{ee:0080}{n}{e8:0180}{n}{e9:0180}{n}{spk:E783}{n}It seems the misunderstanding has been cleared up...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I hope so...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Come on, let's go.{n}{wait}{clear}{end}
+3A23.071E	{fb:0080}{n}{e0:E0FF}{f5:FA80}{n}{ea:0081}{n}{e6}{ee:0180}{n}{e8:0180}{n}{e9:0080}{n}{spk:E783}{n}This village...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}This village went through a lot of turmoil, but it seems peaceful for now...{n}{wait}{clear}{e0:E0FF}{spk:E783}{n}Are you still worried about this village?{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Yeah, sort of.{n}{wait}{clear}{e0:9F05}{f5:FA80}{n}{ea:0081}{n}{e6}{ee:0180}{n}{e8:0180}{n}{e9:0180}{n}{spk:E783}{n}{f7:0080}Tricia: U-um......{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}......{n}{wait}{clear}{e0:A005}{spk:E783}{n}{f7:0080}Tricia: ...Thank you so much.{n}{wait}{clear}{e0:A105}{spk:0080}{n}......Yeah.{n}{wait}{clear}{e0:A205}{spk:E783}{n}{f7:0080}Tricia: I'm sorry about that time...{n}{wait}{clear}{e0:A305}{spk:0080}{n}Forget it... It's over and done...{n}{wait}{clear}{e0:E0FF}{f5:FA80}{n}{ea:0780}{n}{e6}{ee:0080}{n}{e8:0180}{n}{e9:0180}{n}{spk:E783}{n}It seems the misunderstanding has been cleared up...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}I hope so...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Come on, let's go.{n}{wait}{clear}{end}
+3A25.059E	{spk:0080}{fa:0080}{n}You... Are you Felimi MacDill?{n}{wait}{clear}{spk:0180}{fa:0180}{n}Huh? Yes, that's right. And you are...?{n}{wait}{clear}{spk:0080}{fa:0080}{n}I'm... I'm Ryudral Algrane.{n}{wait}{clear}{spk:0180}{fa:0180}{n}...Ryudral...? Could you be the one from Larousse...?{n}{wait}{clear}{spk:0080}{fa:0080}{n}That's right. ...How long are you going to leave Miraya be?{n}{wait}{clear}{spk:0180}{fa:0180}{n}...That's...{n}{wait}{clear}{end}
+3A25.0710	{spk:0080}{fa:0080}{n}Do you know how many people are crying because of what she's doing!?{n}{wait}{clear}{spk:0180}{fa:0180}{n}...Yes, I know that... But, but to me, Miraya... my sister... is the only family I have!{n}{wait}{clear}{spk:0080}{fa:0080}{n}So you're saying you'll just leave things like this!? Wake up already!{n}{wait}{clear}{end}
+3A25.084C	{spk:0080}{fa:0080}{n}...I thought you of all people might understand, but I guess it was no use...{n}{wait}{clear}{end}
+3A25.08B8	{spk:0180}{fa:0180}{n}Ah...{n}{wait}{clear}{end}
+3A27.04BE	{e0:DC04}{spk:0080}{fa:0180}{n}Hey, Aul! I came to visit.{n}{wait}{clear}{end}
+3A27.04F6	{e0:DD04}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}...... Ryudral, is it. And the Angel with you...{n}{wait}{clear}{e0:DE04}{spk:0080}{fa:0180}{n}Have you been well?{n}{wait}{clear}{e0:DF04}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}...Who knows. As you see.{n}{wait}{clear}{e0:E004}{spk:0080}{n}Hey, hey, come on, pull yourself together.{n}{wait}{clear}{e0:E104}{spk:0080}{fa:0180}{n}Are you not feeling well? I knew it.{n}{wait}{clear}{e0:E204}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}It's... nothing different from usual... Don't worry.{n}{wait}{clear}{e0:E304}{spk:0080}{fa:0180}{n}If you say so.{n}{wait}{clear}{e0:E404}{spk:0080}{fa:0180}{n}Today there's something I want to ask your advice about...{n}{wait}{clear}{e0:E504}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}Yes, what is it?{n}{wait}{clear}{e0:E604}{spk:0080}{fa:0180}{n}The monsters are acting strange. Even the gentle ones have suddenly started attacking people...{n}{wait}{clear}{e0:E704}{spk:0080}{fa:0180}{n}I went out to hunt them as a hero, but I just can't accept it...{n}{wait}{clear}{e0:E804}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}I see...{n}{wait}{clear}{e0:E904}{spk:0080}{fa:0180}{n}Aul, why do you think it is?{n}{wait}{clear}{e0:EA04}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}Let me see... Might the tyranny of some humans be stirring up the monsters?{n}{wait}{clear}{e0:EB04}That happened often in the past...{n}{wait}{clear}{e0:EC04}{spk:0080}{fa:0180}{n}...No, I feel like it's not just that...{n}{wait}{clear}{e0:ED04}{spk:0080}{fa:0180}{n}Sure, there are tyrannical humans, and I know there are violent monsters too.{n}{wait}{clear}{e0:EE04}{spk:0080}{fa:0180}{n}But right now, it feels like things are happening without any reason you can see...{n}{wait}{clear}{e0:EF04}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}...If you have doubts, pursue them to the end...{n}{wait}{clear}{e0:F004}You have legs to move freely, and ears to hear both humans and monsters.{n}{wait}{clear}{e0:F104}Use them, and grasp the truth you seek... if doubt lies there.{n}{wait}{clear}{e0:F204}Angel, that too is a hero's duty, is it not?{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}It is.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}If there's a hidden truth behind why the peace was broken, I think finding it is also a hero's duty.{n}{wait}{clear}{e0:F304}{spk:0080}{fa:0180}{n}Yeah... Got it. I'll do that, Aul.{n}{wait}{clear}{e0:F404}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}Live honorably as a hero, Ryudral. As a bridge between the dragon clan and humans.{n}{wait}{clear}{e0:F504}{spk:0080}{fa:0180}{n}Yeah, I understand, Aul.{n}{wait}{clear}{e0:F604}{spk:0080}{fa:0180}{n}I'll head back, then. Thanks for the advice, Aul.{n}{wait}{clear}{e0:F704}{spk:E783}{fa:0080}{n}{f7:0080}Aul Dragon:{n}{f7:0380}{n}Yes, come back any time...{n}{wait}{clear}{end}
+3A29.04AA	{e0:E0FF}{spk:0080}{fa:0180}{n}Wait. That guy is...{n}{wait}{clear}{end}
+3A29.04E0	{e0:E0FF}{spk:0080}{fa:0180}{n}I knew it.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}......?{n}{wait}{clear}{end}
+3A2A.0F34	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Apollyon:{n}{f7:0380}{n}Heh heh heh heh... Rest in peace, hero.{n}{wait}{clear}{end}
+3A2A.0F94	{e0:E0FF}{spk:0080}{fa:0180}{n}...!?{n}{wait}{clear}{e0:C20A}{spk:E783}{fa:0080}{n}{f7:0080}Fallen Angel:{n}{f7:0380}{n}Heh heh heh, welcome... hero of the angel...{n}{wait}{clear}{end}
+3A2A.100A	{e0:C30A}{spk:0080}{fa:0180}{n}You're Apollyon, aren't you?{n}{wait}{clear}{e0:C40A}{spk:E783}{fa:0080}{n}{f7:0080}Apollyon:{n}{f7:0380}{n}You... I'll commend you for making it this far.{n}{wait}{clear}{e0:C50A}{spk:0080}{fa:0180}{n}Yeah, I came all the way here. I won't be satisfied till I've knocked you flat!{n}{wait}{clear}{end}
+3A2A.10FC	{e0:C60A}{spk:0080}{fa:0180}{n}You're the fallen angel Apollyon!{n}{wait}{clear}{e0:C70A}{spk:E783}{fa:0080}{n}{f7:0080}Apollyon:{n}{f7:0380}{n}The hero Dian...{n}{wait}{clear}{e0:C80A}{spk:E783}{fa:0080}{n}Have you come to be my servant? Beg forgiveness and I might let you take Sierra's place. Heh heh heh.{n}{wait}{clear}{end}
+3A2A.11DC	{e0:C90A}{spk:0080}{fa:0180}{n}...I am the angel's hero.{n}{wait}{clear}{end}
+3A2A.1212	{e0:CA0A}{spk:0080}{fa:0180}{n}And I have come here to defeat you.{n}{wait}{clear}{end}
+3A2A.125C	{e0:CB0A}{spk:0080}{fa:0180}{n}...Apollyon!{n}{wait}{clear}{e0:CC0A}{spk:E783}{fa:0080}{n}{f7:0080}Apollyon:{n}{f7:0380}{n}Foolish woman, to show up just to be killed.{n}{wait}{clear}{e0:CD0A}{spk:E783}{fa:0080}{n}You'll be throwing away a life that was spared once.{n}{wait}{clear}{e0:CE0A}{spk:0080}{fa:0180}{n}I'm not one to be scared by threats like that. In the end, the surface won't know peace until you're beaten.{n}{wait}{clear}{e0:CF0A}{spk:0080}{fa:0180}{n}...Besides, I owe you plenty. I'm paying it all back!{n}{wait}{clear}{end}
+3A2A.13F2	{e0:D00A}{spk:0080}{fa:0180}{n}Apollyon...{n}{wait}{clear}{e0:D10A}{spk:E783}{fa:0080}{n}{f7:0080}Apollyon:{n}{f7:0380}{n}The princess hero. How valiant. What business brings you here?{n}{wait}{clear}{e0:D20A}{spk:0080}{fa:0180}{n}I've come to defeat you, Apollyon.{n}{wait}{clear}{e0:D30A}{spk:0080}{fa:0180}{n}You led Sterens astray and drove my father to his death. I won't forgive you.{n}{wait}{clear}{end}
+3A2A.1518	{e0:D40A}{spk:E783}{fa:0080}{n}{f7:0080}Apollyon:{n}{f7:0380}{n}Heh heh heh, you say amusing things!{n}{wait}{clear}{e0:D50A}{spk:E783}{fa:0080}{n}Defeat me, you say? Laughable.{n}{wait}{clear}{e0:D60A}{spk:E783}{fa:0080}{n}That arrogance of yours won't be cured short of your death.{n}{wait}{clear}{e0:D70A}{spk:E783}{fa:0080}{n}Now, I'll offer your head to Lord Gaap!{n}{wait}{clear}{end}
+3A2A.1624	{e0:D80A}{spk:E783}{fa:0080}{n}{f7:0080}Apollyon:{n}{f7:0380}{n}My name is Apollyon. You will die here.{n}{wait}{clear}{end}

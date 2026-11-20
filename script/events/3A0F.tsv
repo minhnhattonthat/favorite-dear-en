@@ -1,13 +1,13 @@
 id	jp	en	notes
-3A0F.0604	{fb:0C80}{n}{e0:9D01}{e5:0180}{n}{spk:0080}{n}悪いな！{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.0630	{e0:9D01}{fb:0B80}{n}{e0:9E01}{e5:0080}{n}{spk:0080}{n}悪いな。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.0664	{fb:0A80}{n}{e0:9F01}{e5:0380}{n}{spk:0080}{n}悪いな・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.069A	{fb:0280}{n}{e0:A001}{e5:0180}{n}{spk:0080}{n}すまねえな！{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.06CE	{fb:0180}{n}{e0:A101}{e5:0080}{n}{spk:0080}{n}すまねえな。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.0702	{fb:0080}{n}{e0:A201}{e5:0380}{n}{spk:0080}{n}すまねえな・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.073C	{fb:7080}{n}{e0:A301}{e5:0180}{n}{spk:0080}{n}悪りぃな！{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.076E	{fb:6F80}{n}{e0:A401}{e5:0080}{n}{spk:0080}{n}悪りぃな。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.07A0	{fb:6E80}{n}{e0:A501}{e5:0280}{n}{spk:0080}{n}悪りぃな・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.07D8	{fb:6680}{n}{e0:A601}{e5:0180}{n}{spk:0080}{n}ありがと！{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.080A	{fb:6580}{n}{e0:A701}{e5:0080}{n}{spk:0080}{n}ありがと。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0F.083C	{fb:6480}{n}{e0:A801}{e5:0280}{n}{spk:0080}{n}ありがと・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+3A0F.0604	{fb:0C80}{n}{e0:9D01}{e5:0180}{n}{spk:0080}{n}悪いな！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0C80}{n}{e0:9D01}{e5:0180}{n}{spk:0080}{n}Thanks a lot!{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.0630	{e0:9D01}{fb:0B80}{n}{e0:9E01}{e5:0080}{n}{spk:0080}{n}悪いな。{n}{wait}{clear}{e5:0080}{n}{end}	{e0:9D01}{fb:0B80}{n}{e0:9E01}{e5:0080}{n}{spk:0080}{n}Sorry.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.0664	{fb:0A80}{n}{e0:9F01}{e5:0380}{n}{spk:0080}{n}悪いな・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{e0:9F01}{e5:0380}{n}{spk:0080}{n}Thanks a lot...{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.069A	{fb:0280}{n}{e0:A001}{e5:0180}{n}{spk:0080}{n}すまねえな！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0280}{n}{e0:A001}{e5:0180}{n}{spk:0080}{n}Appreciate it!{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.06CE	{fb:0180}{n}{e0:A101}{e5:0080}{n}{spk:0080}{n}すまねえな。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0180}{n}{e0:A101}{e5:0080}{n}{spk:0080}{n}Appreciate it.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.0702	{fb:0080}{n}{e0:A201}{e5:0380}{n}{spk:0080}{n}すまねえな・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{e0:A201}{e5:0380}{n}{spk:0080}{n}Appreciate it...{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.073C	{fb:7080}{n}{e0:A301}{e5:0180}{n}{spk:0080}{n}悪りぃな！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:7080}{n}{e0:A301}{e5:0180}{n}{spk:0080}{n}You shouldn't have!{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.076E	{fb:6F80}{n}{e0:A401}{e5:0080}{n}{spk:0080}{n}悪りぃな。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6F80}{n}{e0:A401}{e5:0080}{n}{spk:0080}{n}You shouldn't have.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.07A0	{fb:6E80}{n}{e0:A501}{e5:0280}{n}{spk:0080}{n}悪りぃな・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6E80}{n}{e0:A501}{e5:0280}{n}{spk:0080}{n}You shouldn't have...{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.07D8	{fb:6680}{n}{e0:A601}{e5:0180}{n}{spk:0080}{n}ありがと！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6680}{n}{e0:A601}{e5:0180}{n}{spk:0080}{n}Thanks!{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.080A	{fb:6580}{n}{e0:A701}{e5:0080}{n}{spk:0080}{n}ありがと。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6580}{n}{e0:A701}{e5:0080}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0F.083C	{fb:6480}{n}{e0:A801}{e5:0280}{n}{spk:0080}{n}ありがと・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6480}{n}{e0:A801}{e5:0280}{n}{spk:0080}{n}Thank you...{n}{wait}{clear}{e5:0080}{n}{end}	

@@ -1,13 +1,13 @@
 id	jp	en	notes
-3A0D.0604	{fb:0C80}{n}{e0:0701}{e5:0080}{n}{spk:0080}{n}すまん。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.0630	{e0:0701}{fb:0B80}{n}{e0:0801}{e5:0080}{n}{spk:0080}{n}すまん。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.0664	{fb:0A80}{n}{e0:0901}{e5:0280}{n}{spk:0080}{n}すまん・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.069A	{fb:0280}{n}{e0:0A01}{e5:0080}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.06CE	{fb:0180}{n}{e0:0B01}{e5:0080}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.0702	{fb:0080}{n}{e0:0C01}{e5:0280}{n}{spk:0080}{n}ありがたい・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.073C	{fb:7080}{n}{e0:0D01}{e5:0680}{n}{spk:0080}{n}いい物だ大切にする。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.0778	{fb:6F80}{n}{e0:0E01}{e5:0080}{n}{spk:0080}{n}いい物だ大切にする。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.07B4	{fb:6E80}{n}{e0:0F01}{e5:0580}{n}{spk:0080}{n}いい物だ大切にする・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.07F6	{fb:6680}{n}{e0:1001}{e5:0680}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.082A	{fb:6580}{n}{e0:1101}{e5:0080}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}		
-3A0D.085E	{fb:6480}{n}{e0:1201}{e5:0580}{n}{spk:0080}{n}ありがとう・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+3A0D.0604	{fb:0C80}{n}{e0:0701}{e5:0080}{n}{spk:0080}{n}すまん。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0C80}{n}{e0:0701}{e5:0080}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.0630	{e0:0701}{fb:0B80}{n}{e0:0801}{e5:0080}{n}{spk:0080}{n}すまん。{n}{wait}{clear}{e5:0080}{n}{end}	{e0:0701}{fb:0B80}{n}{e0:0801}{e5:0080}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.0664	{fb:0A80}{n}{e0:0901}{e5:0280}{n}{spk:0080}{n}すまん・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{e0:0901}{e5:0280}{n}{spk:0080}{n}Thanks...{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.069A	{fb:0280}{n}{e0:0A01}{e5:0080}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0280}{n}{e0:0A01}{e5:0080}{n}{spk:0080}{n}How kind.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.06CE	{fb:0180}{n}{e0:0B01}{e5:0080}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0180}{n}{e0:0B01}{e5:0080}{n}{spk:0080}{n}How kind.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.0702	{fb:0080}{n}{e0:0C01}{e5:0280}{n}{spk:0080}{n}ありがたい・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{e0:0C01}{e5:0280}{n}{spk:0080}{n}How kind...{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.073C	{fb:7080}{n}{e0:0D01}{e5:0680}{n}{spk:0080}{n}いい物だ大切にする。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:7080}{n}{e0:0D01}{e5:0680}{n}{spk:0080}{n}A good thing. I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.0778	{fb:6F80}{n}{e0:0E01}{e5:0080}{n}{spk:0080}{n}いい物だ大切にする。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6F80}{n}{e0:0E01}{e5:0080}{n}{spk:0080}{n}A good thing. I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.07B4	{fb:6E80}{n}{e0:0F01}{e5:0580}{n}{spk:0080}{n}いい物だ大切にする・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6E80}{n}{e0:0F01}{e5:0580}{n}{spk:0080}{n}A good thing. I'll treasure it...{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.07F6	{fb:6680}{n}{e0:1001}{e5:0680}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6680}{n}{e0:1001}{e5:0680}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.082A	{fb:6580}{n}{e0:1101}{e5:0080}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6580}{n}{e0:1101}{e5:0080}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}	
+3A0D.085E	{fb:6480}{n}{e0:1201}{e5:0580}{n}{spk:0080}{n}ありがとう・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6480}{n}{e0:1201}{e5:0580}{n}{spk:0080}{n}Thank you...{n}{wait}{clear}{e5:0080}{n}{end}	

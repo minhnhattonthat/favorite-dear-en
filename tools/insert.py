@@ -117,6 +117,11 @@ def row_text(row, mode):
 
 def rebuild(sc, repl):
     """new code halfwords for Script `sc` with segments replaced: repl = {segment start pc: new bytes}."""
+    return rebuild_map(sc, repl)[0]
+
+
+def rebuild_map(sc, repl):
+    """(new code halfwords, newpos) where newpos(old pc) is that pc's index in the new code (textcover_map.py)."""
     code, n = sc.code, sc.n
     seg_end = dict(sc.segments)
     pieces, pc, new = [], 0, []  # (old start, old end, new start, replaced)
@@ -145,7 +150,7 @@ def rebuild(sc, repl):
         new[newpos(op) + 1 + i] = 0x8000 | newpos(t)
     if len(new) > 0x7FFF:
         raise FitError("code past the 15-bit reference range")
-    return new
+    return new, newpos
 
 
 def script_bytes(sc, size, repl):

@@ -4,6 +4,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (worker 9: first full tour + visual QA done, fixes in; next a
   fresh tour on the new build, the JP tour, the 16 open sheets below, inkbox, stress saves, textcover).
+  Worker 10 (2026-11-21): the re-tour on a870a1cf (`warp.py --all --root work/qa/tour -j 2 --lua
+  tools/lua/textlog.lua`, log `work/qa/tour_run2.txt`) was stopped by the host for low memory after 74/98 scenes
+  (other projects' emulators share this machine): finish it with only the missing scenes (those whose
+  `work/qa/tour/<scene>/log.txt` is older than `tour_run2.txt`), then `qa_sheets.py` + `qa_gate.py init`.
+  Textcover groundwork: `tools/textcover_map.py strings` writes `build/strings.tsv` (8824 text rows, key = original
+  sector << 16 | byte offset in the built file, from `insert.rebuild_map`; 186 rows sit in files no event id loads =
+  the glyph-soup leftovers, to waive); event id -> sector via the GDATA name directory (pointers 0x80013648, 0x39D
+  names, index into the table at 0x80014450; MYH16 -> 354D, SQA07 -> 3529 checked). `tools/lua/textlog.lua` logs
+  the loaded-script table 0x8016C5B8 (`SCR slot id hwoff`; verified: MYH16 = id 32 at offset 0, then SM02 = id 53)
+  and, per frame, u16 obj+0x10 of the task at [0x8001A4B8] (`PIDX`). **Not calibrated:** obj+0x10 is neither a
+  buffer index nor a script pc (values 38..435 in SM02, rows at pc 134/704/...); two task objects alternate in that
+  slot. Next for textcover: dump the printer object (0x30 bytes) while a box types and find the field that points
+  into 0x8016C608.., or use `--debugger` with an exec hook inside the printer at its char fetch; then
+  `textcover_map.py convert` (already maps an index to a row) and `textcover.py work/qa/tour build/strings.tsv`.
+  LuaJIT gotcha: PCSX `getMemPtr()` bytes are signed and bit ops give signed 32-bit, mask with & 0xFF.
   Worker 9 (2026-11-21): `warp.py --all --root work/qa/tour` on build 64ee6f64: 97/98 scenes ok (`epilog`, no
   ending set, times out: covered by epilog_end1-23). `tools/qa_sheets.py` makes full-size review pages (warp's
   sheet.png is half size); 258 pages in `work/qa/manifest.tsv`, all read by 9 read-only reviewer passes (Explore,

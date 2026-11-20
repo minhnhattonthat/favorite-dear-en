@@ -39,6 +39,10 @@ Standing non-bugs, `ok`:
 - honorifics like "-sama", "-san", "-dono" (D12) and "Jr." ranks (12-letter rank box);
 - battle name plates are UPPER CASE by design (8x8 plate font);
 - the angel's default name is "Raviel"; warps that skip name entry may show it.
+- in the `epilog_*` ending warps the angel's name is blank (a lone ":" speaker line, "Hey, ."): the warp sets no
+  name, and the Japanese warp shows the same (`tour_jp/epilog_end3` f012750).
+- the bright-green key colour or a CG cut off at x=560 in event scenes (ev_sm01, ev_sw01, ev_stm0312, ev_ypin) is
+  warp state.
 - <add more as reviewers confirm them>
 
 ## Verdicts

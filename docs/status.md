@@ -2,8 +2,42 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 9: first full tour + visual QA done, fixes in; next a
-  fresh tour on the new build, the JP tour, the 16 open sheets below, inkbox, stress saves, textcover).
+- **Phase:** 8. QA in the emulator: in progress (worker 11: re-tour + visual QA on a870a1cf done, textcover hook
+  calibrated, fixes in on build 7da42f5a; next: odd-run rewording, re-tour, open sheets, inkbox, stress saves).
+  Worker 11 (2026-11-21): build **7da42f5ae6eaa065234e2d09abe08d903ab3bd24** (check ok 72, fitcheck ok, smoke ok).
+  (a) Tour on a870a1cf finished (all 97 scenes, one run with the new hook; `epilog` alone times out as before),
+  `qa_sheets.py` + `qa_gate.py init`; 159 changed sheets reviewed by 6 read-only Explore passes, verdicts
+  `work/qa/verdicts/chunk_7d05558d51d5_*.tsv` + `recheck_2.tsv`. `qa_gate.py check`: 0 unreviewed, 17 not ok (list
+  below), and STALE (build now 7da42f5a: re-tour, then init). (b) **textcover calibrated:** the printer reads
+  `u16 [obj+0] + 2*u16(obj+0x10)` (obj = [0x8001A4B8]; obj+8 set = name/insert sub-stream at [obj+4] + 2*(obj+0xA));
+  `tools/lua/textlog.lua` now logs the absolute halfword index, `textcover_map.py convert` maps it (verified: MYH16
+  rows 354D.0C34/0DEA = Reiv's scouting on screen). `strings --waive` writes `docs/text_unshown_unloaded.tsv` (186
+  rows in files no event id loads). Tour coverage: 66/8824 rows. `warp.py --frames N` added; an **event sweep** of
+  all 444 event names (`--event` each, 30000 frames, mash) was started in the background on a frozen copy
+  `work/qa/cover_build/` (a870a1cf + its `strings.tsv`) into `work/qa/cover/` (log `work/qa/cover_run.txt`,
+  ~70 s/event at -j 2, ~4 h). When done: `textcover_map.py convert work/qa/cover/*`, then
+  `textcover.py work/qa/cover work/qa/cover_build/strings.tsv --waive docs/text_unshown_unloaded.tsv`. A mash plays
+  one branch only (MYH16: 2 of 28 rows), so choice branches/flag variants stay unshown: next, add scenes that pick
+  the other choice, or waive per family with a reason. (c) Fixed: one-word last lines in the epilogues (3B73/3B74);
+  "My name is  Raviel" double gap: an odd run ending in a space before `{name}`/`{ins}` is padded to a whole 12-px
+  cell (pair glyphs, no half cell possible), so the run must be reworded to an even length; `tools/oddname.py` lists
+  them (194 -> **181 families left**, `work/qa/oddname/odd.tsv`; done: "My name's", "I'm the angel"). Next: reword
+  the rest (vocatives "Hey, ", "you, " ...: flip parity inside the run after the last `{n}`, e.g. expand a
+  contraction, then `fixrows.py`, `batches.py check/merge`, re-run oddname until 0). (d) Not bugs: blank angel name
+  in `epilog_*` warps (JP identical), green key colour at x>560 (warp state); added to `docs/visual-qa-brief.md`.
+  **Open sheets now:** battle_castle f014550 and battle_t0101 f014700/f014850: a sentence split across the box
+  scroll leaves "a fool!"/"shows up."/"Dark Carriage." alone (3B25.0950, 34CC.14C6: page breaks by wrap.py, rebalance
+  pages); battle_t0201 plates name missing ("Lv 8" only; all btname rows are filled, look at the frame); battle_t0901
+  ポイズン badge; epilog_end1 f013800 "card." over the Fin. logo (compare JP: `warp.py epilog_end1 --root
+  work/qa/tour_jp`); ev_bos_clr "Peace level up" placement; stray "P1"/". ." (ev_an, ev_kaiwa1, ev_s0000ok,
+  ev_s01ok, ev_evfum02); garbage tiles ev_slove01, ev_ss0101, ev_tm02all (probably warp state: compare JP);
+  hub_save_list ラビエル on the save slot (week2.mcd was written by the JP build: likely ok, confirm). Several of the
+  old ids (ev_an/qa_sheet_3, epilog_end9/qa_sheet_5 ...) are stale sheet files from the first tour that qa_sheets no
+  longer makes: delete `qa_sheet_N.png` files older than the tour's frames and drop their manifest lines.
+  Choice boxes for inkbox (from the reviewers): Yes/No `ev_item/f014100.png 166,182,308,44`, save-slot box in every
+  ending (`epilog_end15/f017400.png 33,169,588,52`; "Slot 1" sits ~24 px left of its red bar's centre: compare JP),
+  `load_list/f005700.png 211,42,74,60`, `option_omake/f004050.png 101,150,118,53`, choices `ev_smen01/f014100.png
+  138,170,488,52`.
   Worker 10 (2026-11-21): the re-tour on a870a1cf (`warp.py --all --root work/qa/tour -j 2 --lua
   tools/lua/textlog.lua`, log `work/qa/tour_run2.txt`) was stopped by the host for low memory after 74/98 scenes
   (other projects' emulators share this machine): finish it with only the missing scenes (those whose

@@ -12,7 +12,8 @@ each time the scene starts a message, so the scene's own print ops play the whol
         one pass: every sector with a text row no log under --root shows yet gets a run into <root>/p<N>/ev_<NAME>
         (N = the first pass number with no directory yet, or --pass N to resume one after a crash; pass N uses that
         sector's N-th event name, wrapping). Each run's log is converted (TEXT lines) as soon as it ends. Choice
-        menus (｛..｝ rows) are drawn by the choice op, not the printer: the chain leaves them out. Battle files
+        menus (｛..｝ rows) are printer rows too (tour ev_smen01 logs 3A76.13E0), but forcing into one is untried (a
+        menu may need its op's state): the chain never redirects to them, it only lets the scene's own print draw them (flag 2). Battle files
         (the 0x80174A84 table: T0101 ..) run as `warp.py --battle NAME` into <root>/p<N>/bt_<NAME>.
     python -X utf8 tools/textforce.py left [--build ..] [--root ..]
         rows still unshown per sector.
@@ -114,7 +115,10 @@ def cmd_run(a):
     build, root = Path(a.build).resolve(), Path(a.root).resolve()
     offs, ends, names, choice = load(build)
     exe = (ROOT / "work/disc/tree/PSX.EXE").read_bytes()
-    want = wanted(offs, names, shown(root), choice)
+    seen = shown(root)
+    want = wanted(offs, names, seen, choice)
+    # unshown choice menus: flag 2 in TARGETS (textforce.lua lets the scene's own print draw them)
+    chmiss = set(choice) - {rid for s, v in offs.items() for o, rid in v if rid in choice and (s << 16 | o) in seen}
     if a.only:
         keep = {int(x, 16) for x in a.only.split(",")}
         want = {s: v for s, v in want.items() if s in keep}
@@ -145,7 +149,7 @@ def cmd_run(a):
         cells = []
         for k, (o, rid) in enumerate(v):
             e = v[k + 1][0] if k + 1 < len(v) else ends[sec]
-            cells.append(f"{o // 2},{e // 2},{1 if rid in miss else 0}")
+            cells.append(f"{o // 2},{e // 2},{1 if rid in miss else 2 if rid in chmiss else 0}")
         battle = nm in bt
         # a battle's file loads under its own id (textforce.lua FORCE_ID), after the host event starts the fight
         how = ["--battle", nm, "--var", f"FORCE_ID={bt[nm]}"] if battle else ["--event", nm]

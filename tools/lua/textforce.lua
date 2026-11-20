@@ -18,7 +18,9 @@ local BUF = 0x8016C608
 local ID = FORCE_ID or 32  -- the event id warp.lua renames (its local SLOT)
 local rows = {}
 for s, e, w in TARGETS:gmatch("(%d+),(%d+),(%d)") do
-  rows[#rows + 1] = {s = tonumber(s), e = tonumber(e), want = w == "1"}
+  -- w = 2: an unshown choice menu (｛..｝): never a redirect target, but when the scene's own print op moves the
+  -- printer into it, the hook leaves it alone so the menu draws and PIDX logs it
+  rows[#rows + 1] = {s = tonumber(s), e = tonumber(e), want = w == "1", choice = w == "2"}
 end
 local left = 0
 for _, r in ipairs(rows) do if r.want then left = left + 1 end end
@@ -116,7 +118,11 @@ L.on_frame(function(n)
       end
     end
     local i = row_of(rel)
-    if not chainp and i and i ~= cur and idx ~= written then
+    if i and rows[i].choice and i ~= cur then
+      rows[i].choice = false
+      L.log(string.format("CHOICE %d f%d", i, n))
+      cur = i
+    elseif not chainp and i and i ~= cur and idx ~= written then
       local t = (rows[i].want and rel == rows[i].s) and i or next_want(cur or i)
       if t == nil then
         L.log(string.format("FORCE done f%d", n)); done_at = n + 600  -- let the last page draw, then stop

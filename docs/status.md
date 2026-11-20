@@ -4,6 +4,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (visual gate passes on 94fa9887: 277 sheets, 0 unreviewed, 0 not
   ok; **only textcover is left**: textforce passes running, battle files now covered by their own mode).
+  Worker 22 (2026-11-21), build unchanged (94fa9887, check ok 79). (a) **Throughput:** the old -j 1 pass-1 runner was
+  killed and restarted as two runners on disjoint files (no collisions): events `textforce.py run -j 4 --pass 1
+  --only $(cat work/qa/event_sectors.txt)` (log `work/qa/force_run3.txt`, 288 files left at 09:20) and battles
+  `... -j 1 --pass 1 --only $(cat work/qa/battle_sectors.txt)` (log `force_battle.txt`, it had died after 16 files;
+  restarted, 67 left). The memory kills were emu.py's output leak (fixed by worker 21): 5 emulators use ~1.3 GB, the
+  host had 5.6 GB free, so -j 4 or more is safe. Both resume with the same command (finished runs are skipped).
+  `textforce.py left` at 08:50: 8005 of 8638 loaded rows unshown. (b) **Choice menus are printer rows** (the tour
+  ev_smen01 run's PIDX maps to 3A76.13E0; op 0x90 is a message lookup by FFFB key, handler 0x800CB880, not a menu
+  drawer). textforce now passes unshown choice rows as flag 2 in TARGETS and textforce.lua lets the scene's own print
+  draw them (logs `CHOICE`), never redirecting into them: test run on SMEN01 logged 3A76.13E0 (key 3A761400). The
+  battle runner started before this change (no flag 2: battles have few choices). Still unshown choice rows after
+  the passes need scenes that reach them, or a forced-choice mode (untried). (c) Many forced rows SKIP because the
+  scene's next print op re-points the printer within ~60 frames (`UNCHAIN 1 at 974 idx 1021`, S0402OK): the forced
+  row never gets past its first code. Worth looking at next: hold the script (or redirect at the print op that
+  follows a {wait}) so the forced row has time to draw.
   Worker 21 (2026-11-21), build unchanged (94fa9887, check ok 79, smoke ok). (a) **textforce battle mode:** the 83
   battle files (0x80174A84 table, `textforce.battles()`) now run as `warp.py --battle NAME` into
   `<root>/p<N>/bt_<NAME>`, with `FORCE_ID` = the battle's event id (its file loads under that id, not slot 32).

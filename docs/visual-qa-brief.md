@@ -43,6 +43,9 @@ Standing non-bugs, `ok`:
   name, and the Japanese warp shows the same (`tour_jp/epilog_end3` f012750).
 - the bright-green key colour or a CG cut off at x=560 in event scenes (ev_sm01, ev_sw01, ev_stm0312, ev_ypin) is
   warp state.
+- `name12_*` sheets: a 12-letter name poked into the save past the game's 10-letter entry cap (`asm/name.inc`
+  NAME_MAX); "KL" running onto the next panel cannot happen in play. The controller marks these `fixed`.
+- ev_taiken's 3-line trial-end message drawn above the box over the CG: the same in JP (`tour_jp/ev_taiken`).
 - <add more as reviewers confirm them>
 
 ## Verdicts

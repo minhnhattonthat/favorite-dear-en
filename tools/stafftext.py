@@ -6,8 +6,10 @@
 trans/staff/en.tsv: `id<TAB>en`, one row per script/staff.tsv row. FIN.EXE draws only double-byte codes, so
 insert.py turns the ASCII into pair codes (two 6-px letters per code, asm/fin.asm); a line shows 28 letters from
 x=148, leading spaces included (docs/windows.tsv `credits`), each Japanese full-width space of indent = 2 spaces.
-A leading '&' (closing cards STAFF.457-460) is a single-byte code kept as is; a leading '%' starts the line at x=64
-(42 letters). Letters: font_en.FIN_CHARSET. Names: given name first, Hepburn without macrons (decision D2).
+A leading '&' (closing cards STAFF.457-460) is a single-byte code kept as is. '|' splits a row into lines of its own
+(insert.staff_en: the two-name painter rows get one name per line; later rows keep their ids). Never a leading '%':
+FIN reads it as "line at x=64", but the roll stops there for good (tested phase 8, `docs/re/text.md` §Credits).
+Letters: font_en.FIN_CHARSET. Names: given name first, Hepburn without macrons (decision D2).
 `-` keeps the Japanese line."""
 import sys
 from pathlib import Path
@@ -36,15 +38,15 @@ def check():
         if text == "-":  # keep the Japanese line (a name with no English form that fits)
             continue
         body = text[1:] if r["id"] in rows and rows[r["id"]]["jp"].startswith("&") and text.startswith("&") else text
-        limit = LETTERS
-        if body.startswith("%"):  # line starts at x=64 instead of x=148 (FIN 0x80011208)
-            body, limit = body[1:], LETTERS + 14
-        if not body.strip():
-            errs.append(f"{r['id']}: empty")
-        if len(body) > limit:
-            errs.append(f"{r['id']}: {len(body)} letters > {limit}: {body!r}")
-        if set(body) - CHARSET:
-            errs.append(f"{r['id']}: letters FIN's font lacks {sorted(set(body) - CHARSET)} in {body!r}")
+        if body.startswith("%"):
+            errs.append(f"{r['id']}: a leading '%' stops the roll; split the line with '|' instead")
+        for line in body.split("|"):
+            if not line.strip():
+                errs.append(f"{r['id']}: empty line in {body!r}")
+            if len(line) > LETTERS:
+                errs.append(f"{r['id']}: {len(line)} letters > {LETTERS}: {line!r}")
+            if set(line) - CHARSET:
+                errs.append(f"{r['id']}: letters FIN's font lacks {sorted(set(line) - CHARSET)} in {line!r}")
     return errs
 
 

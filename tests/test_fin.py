@@ -38,6 +38,14 @@ def test_staff_en_bytes():
     assert bytes(b - 1 for b in raw[1:]) == font_en.fin_pairs("  Hi")
 
 
+def test_staff_split_lines():
+    """'|' makes one line per part (the painter rows); no English row may start with '%', which stops the roll"""
+    a, b = insert.staff_en("Ab Cd|Ef").split(extract.STAFF_NL)
+    assert bytes(x - 1 for x in a) == font_en.fin_pairs("Ab Cd") and bytes(x - 1 for x in b) == font_en.fin_pairs("Ef")
+    rows = extract.read_tsv(extract.SCRIPT / "staff.tsv")
+    assert not [r["id"] for r in rows if r["en"].startswith("%")]
+
+
 def test_font_size():
     assert len(font_en.fin_binary()) == 11 * len(font_en.FIN_CHARSET)
 

@@ -95,7 +95,10 @@ is an empty 256x256 image).
   (0x800113E4), so a pair code halves the sprite count. The shadow is dark on black and does not show; 5-px letters
   read cleanly. 28 letters from x=148.
 - Line codes (0x80011208..): a leading `%` (0x25) starts the line at x=64 instead of 0x94=148 (arg of 0x80012278);
-  `&` the closing cards; `#`, `\` other modes (not traced). `%` is unused by the original file.
+  `&` the closing cards; `#`, `\` other modes (not traced). `%` is unused by the original file, and for good
+  reason: a `%` line stops the roll for good (tested phase 8: with the painter rows as `%A   B` the text after
+  "Backgrounds" never appears and the roll never ends; the same build without `%` runs to the end). The two-name
+  painter rows are now one name per line (`|` in `trans/staff/en.tsv`, `insert.staff_en`).
 
 ## Font (verified: traced the glyph writer)
 

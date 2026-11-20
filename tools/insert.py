@@ -288,14 +288,15 @@ def fullwidth(s):
     return "".join(chr(ord(c) + 0xFEE0) if "!" <= c <= "~" else "　" if c == " " else c for c in s)
 
 
-STAFF_CODES = "&%"  # leading single-byte line codes FIN.EXE reads: '&' closing cards, '%' line starts at x=64
+STAFF_CODES = "&"  # leading single-byte line code FIN.EXE reads: '&' closing cards ('%' = x=64 stops the roll)
 
 
 def staff_en(en):
-    """an English credits line -> STAFF.TXT bytes: leading '&'/'%' stay single-byte, the rest is FIN pair codes
-    (asm/fin.asm), each byte +1 as the file stores double-byte codes"""
+    """an English credits row -> STAFF.TXT bytes: a leading '&' stays single-byte, the rest is FIN pair codes
+    (asm/fin.asm), each byte +1 as the file stores double-byte codes; '|' splits the row into several lines"""
     body = en.lstrip(STAFF_CODES)
-    return en[:len(en) - len(body)].encode("ascii") + bytes(b + 1 for b in font_en.fin_pairs(body))
+    lines = [bytes(b + 1 for b in font_en.fin_pairs(part)) for part in body.split("|")]
+    return en[:len(en) - len(body)].encode("ascii") + extract.STAFF_NL.join(lines)
 
 
 def staff_text(row, mode):

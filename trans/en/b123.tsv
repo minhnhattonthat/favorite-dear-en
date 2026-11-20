@@ -1,0 +1,83 @@
+id	en
+3A7D.13D0	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛No, that's my duty.　　　　　｝{n}{f7:0080}｛Since I'm here, let's talk...｝{n}{f7:0080}｛I'm busy. May I go?　　　　　｝{n}{end}
+3A7D.1500	{fb:6480}{n}{spk:0080}{n}{e5:0080}{n}Sorry... Still, angels certainly are considerate.{n}{wait}{clear}{spk:0080}{n}I don't think you should push yourself too much, but I suppose that's just your nature...{n}{fd:028000800580}{n}{wait}{clear}{end}
+3A7D.167C	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}No... Even when you put it like that, there's nothing in particular to talk about...{n}{wait}{clear}{spk:0080}{n}...... Sorry, after you came all this way...{n}{fd:028000800380}{n}{wait}{clear}{end}
+3A7D.17BC	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}...... Yes.{n}{wait}{clear}{end}
+3A7D.1812	{spk:0080}{n}{e5:0080}{n}...... Ah, you came...{n}{wait}{clear}{end}
+3A7D.1844	{fb:0080}{n}{spk:E783}{n}The fairy told me you had something to talk about...{n}{wait}{clear}{spk:0080}{n}...... Yes... Do you have a moment?{n}{wait}{clear}{end}
+3A7D.18BE	{fb:0180}{n}{spk:E783}{n}The fairy told me you wanted to talk about something...{n}{wait}{clear}{spk:0080}{n}...... Yes... Do you have a moment?{n}{wait}{clear}{end}
+3A7D.1938	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Yes. What is it about?　　　｝{n}{f7:0080}｛Not too long, please...　　｝{n}{f7:0080}｛Is something troubling you?｝{n}{end}
+3A7D.1A44	{fb:6480}{n}{spk:0080}{n}{e5:0080}{n}...... It's nothing so formal...{n}{wait}{clear}{spk:0080}{n}Keep me company a while...{n}{fd:028000800580}{n}{wait}{clear}{end}
+3A7D.1B4C	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}...... I see. I didn't mean to take up your time.{n}{wait}{clear}{spk:0080}{n}If you're busy, go back.{n}{fd:028000800380}{n}{wait}{clear}{end}
+3A7D.1C48	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}...... Nothing is troubling me...{n}{wait}{clear}{spk:0080}{n}I only wanted to talk. Sorry, but keep me company.{n}{wait}{clear}{end}
+3A7D.1D3E	{spk:0080}{n}{e5:0680}{n}Ah, you came... {name:0080}.{n}{wait}{clear}{end}
+3A7D.1D6A	{fb:0180}{n}{spk:E783}{n}What is it, Reiv?{n}{wait}{clear}{end}
+3A7D.1D98	{spk:0080}{n}{e5:0080}{n}No, well... There was something I wanted to talk about.{n}{wait}{clear}{spk:0080}{n}Will you hear me out?{n}{wait}{clear}{end}
+3A7D.1DFE	{fb:0B80}{n}{spk:E783}{n}{f7:0080}｛Yes, what is it...?　｝{n}{f7:0080}｛What is it? So formal.｝{n}{f7:0080}｛Yes, I don't mind...　｝{n}{end}
+3A7D.1E90	{fb:6580}{n}{spk:0080}{n}{e5:0080}{n}No... I'm grateful that you always watch over me...{n}{wait}{clear}{spk:0080}{n}That's exactly why I want to bring peace back to this world soon. Wait for me...{n}{fd:028000800580}{n}{wait}{clear}{end}
+3A7D.1F66	{fb:C980}{n}{spk:0080}{n}{e5:0580}{n}...No... On second thought, never mind.{n}{wait}{clear}{spk:0080}{n}When the moment comes, the words won't come out. Sorry, after you came all this way... Some other time.{n}{fd:028000800380}{n}{wait}{clear}{end}
+3A7D.2022	{fb:2D81}{n}{spk:0080}{n}{e5:0580}{n}What, are you busy? I see... Sorry for calling you out.{n}{wait}{clear}{end}
+3A7D.2082	{spk:0080}{n}{e5:0080}{n}You came...{n}{wait}{clear}{end}
+3A7D.20A4	{fb:0080}{n}{spk:E783}{n}What is it, Reiv?{n}{wait}{clear}{end}
+3A7D.20CE	{fb:0180}{n}{spk:E783}{n}What do you need, Reiv?{n}{wait}{clear}{end}
+3A7D.20F6	{spk:0080}{n}This is for you...{n}{wait}{clear}{end}
+3A7D.211A	{spk:E783}{n}A {name:0280}.{n}{wait}{clear}{spk:0080}{n}I hope it's of some use.{n}{wait}{clear}{end}
+3A7D.215E	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Yes. I'll gladly accept.｝{n}{f7:0080}｛Since you offer, thanks.｝{n}{f7:0080}｛My vows forbid it.　　　｝{n}{end}
+3A7D.2252	{fb:6480}{n}{spk:0080}{n}{e5:0080}{n}...I see.{n}{wait}{clear}{spk:0080}{n}If it pleases you, that's enough.{n}{fd:028000800580}{n}{wait}{clear}{end}
+3A7D.2312	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}...I see. You didn't really need it?{n}{wait}{clear}{spk:0080}{n}Next time I'll find something more fitting.{n}{fd:028000800380}{n}{wait}{clear}{end}
+3A7D.2426	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}Vows... Then it can't be helped.{n}{wait}{clear}{end}
+3A7D.24E0	{fb:0180}{n}{spk:E783}{n}What is it, Reiv?{n}{wait}{clear}{end}
+3A7D.250A	{spk:0080}{n}{e5:0280}{n}I gave you my answer. I said I'd be a hero...{n}{wait}{clear}{spk:0080}{n}Yet you leave me be, with hardly any requests... What do you mean by this?{n}{wait}{clear}{end}
+3A7D.25AA	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Sorry. I'll ask next time.　｝{n}{f7:0080}｛I was just about to visit.　｝{n}{f7:0080}｛I had nothing to ask of you.｝{n}{end}
+3A7D.263C	{fb:0B80}{n}{spk:E783}{n}{f7:0080}｛Sorry. I'll ask next time.　｝{n}{f7:0080}｛I was just about to visit.　｝{n}{f7:0080}｛I had nothing to ask of you.｝{n}{end}
+3A7D.26C8	{fb:6480}{n}{spk:0080}{n}{e5:0080}{n}...... All right. Then I'll wait.{n}{wait}{clear}{spk:0080}{n}Trusting your word...{n}{fd:028000800180}{n}{fe:028002800180}{n}{wait}{clear}{end}
+3A7D.27D0	{fb:C880}{n}{spk:0080}{n}{e5:0280}{n}I don't want to hear words meant only to smooth things over.{n}{wait}{clear}{spk:0080}{n}Trust won't be the only thing you lose.{n}{fe:028002800180}{n}{fd:028001800180}{n}{wait}{clear}{end}
+3A7D.2864	{fb:C980}{n}{spk:0080}{n}{e5:0280}{n}...... I don't want to hear words meant only to smooth things over.{n}{wait}{clear}{spk:0080}{n}Trust won't be the only thing you lose.{n}{fe:028002800180}{n}{fd:028001800180}{n}{wait}{clear}{end}
+3A7D.2902	{fb:2C81}{n}{spk:0080}{n}{e5:0280}{n}Nothing to ask...? Then why did I become a hero? This is pointless. Go home.{n}{fe:028000800180}{n}{fd:028001800180}{n}{fd:028002800180}{n}{wait}{clear}{end}
+3A7D.2A10	{spk:0080}{n}{e5:0280}{n}...... You came...{n}{wait}{clear}{end}
+3A7D.2A90	{spk:0080}{n}...... Of course I'll fight for peace, but I don't recall becoming your servant.{n}{wait}{clear}{spk:0080}{n}I'd like you to think of my side as well... Or is... this how angels do things?{n}{wait}{clear}{end}
+3A7D.2C62	{fb:6480}{n}{spk:0080}{n}{e5:0280}{n}As long as you understand... But I'd like you to see something like this before I have to say it.{n}{fd:028000800180}{n}{fe:028001800180}{n}{fe:028002800180}{n}{wait}{clear}{end}
+3A7D.2D72	{fb:C880}{n}{spk:0080}{n}{e5:0280}{n}...... Do you mean to say this is the crucial moment...?{n}{wait}{clear}{spk:0080}{n}All right... But it can't go on like this. Think it over carefully.{n}{fe:028002800180}{n}{fd:028001800180}{n}{wait}{clear}{end}
+3A7D.2EEA	{fb:2C81}{n}{spk:0080}{n}{e5:0280}{n}...... So you won't understand.{n}{wait}{clear}{spk:0080}{n}I never thought angels were such arrogant beings... It seems talking to you is useless.{n}{fe:028000800180}{n}{fd:028001800180}{n}{fd:028002800180}{n}{wait}{clear}{end}
+3A84.1300	{spk:0080}{n}{e5:0080}{n}Yo.{n}{wait}{clear}{end}
+3A84.131A	{fb:0080}{n}{spk:E783}{n}What is it, Griffin?{n}{wait}{clear}{end}
+3A84.1376	{spk:0080}{n}Nothing... Knowing you, I figured you had time on your hands.{n}{wait}{clear}{spk:0080}{n}{e5:0180}{n}This kind of thing isn't so bad once in a while, right?{n}{wait}{clear}{end}
+3A84.13FE	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛I'm not exactly free...　　　｝{n}{f7:0080}｛If there's no reason, I'll go.｝{n}{f7:0080}｛Call me when you need me.　　｝{n}{end}
+3A84.150A	{fb:6480}{n}{spk:0080}{n}{e5:0280}{n}What? You're busy? ...Oh. Then my bad.{n}{wait}{clear}{spk:0080}{n}I just called because I wanted to see you. Coming to see your hero is your duty, right?{n}{fd:038000800380}{n}{wait}{clear}{end}
+3A84.1696	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}Don't get mad. I just wanted to see you for a bit, that's all.{n}{wait}{clear}{spk:0080}{n}Jeez, you're such a grump.{n}{wait}{clear}{end}
+3A84.179A	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}...F-fine. I can't see you unless I've got business, right? Next time I'll make up some business.{n}{wait}{clear}{spk:0080}{n}{e5:0280}{n}Angels are colder than I thought. Hey, you don't have to get that mad, do you?{n}{fd:038000800580}{n}{wait}{clear}{end}
+3A84.1960	{spk:0080}{n}{e5:0180}{n}...Ah, there you are. Sorry, you're busy, right?{n}{wait}{clear}{end}
+3A84.19A2	{fb:0080}{n}{spk:E783}{n}What is it? The fairy told me you were calling for me...{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Nah, it's nothing big, but there's something I wanted to talk about. Will you keep me company a bit?{n}{wait}{clear}{end}
+3A84.1A70	{fb:0180}{n}{spk:E783}{n}What's wrong? The fairy told me you were calling for me...{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Nah, it's nothing big, but there's something I wanted to talk about. Will you keep me company a bit?{n}{wait}{clear}{end}
+3A84.1B44	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Yes, of course I don't mind.｝{n}{f7:0080}｛Why so suddenly?　　　　　　｝{n}{f7:0080}｛Is something troubling you?｝{n}{end}
+3A84.1C44	{fb:6480}{n}{spk:0080}{n}{e5:0180}{n}Huh. Being honest about it isn't so bad after all...{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Okay, sorry, but you're keeping me company for a bit.{n}{wait}{clear}{end}
+3A84.1CD6	{fb:6580}{n}{spk:0080}{n}{e5:0180}{n}Huh. Well, being honest about it isn't so bad after all...{n}{wait}{clear}{spk:0080}{n}Okay, sorry, but keep me company for a bit.{n}{wait}{clear}{end}
+3A84.1D62	{fb:C880}{n}{spk:0080}{n}{e5:0280}{n}Nah... I figured you were busy too, but I wanted you to hear me out.{n}{wait}{clear}{spk:0080}{n}Shouldn't I have called you? Well, if you say it's not like me, that's that. My bad.{n}{fd:038000800380}{n}{wait}{clear}{end}
+3A84.1E36	{fb:C980}{n}{spk:0080}{n}Nah... I figured you were busy too, but I wanted you to hear me out.{n}{wait}{clear}{spk:0080}{n}Shouldn't I have called you? Well, if you say it's not like me, that's that. My bad.{n}{fd:038000800380}{n}{wait}{clear}{end}
+3A84.1F04	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}Me, troubled? Hey, hey, don't go worrying about nothing. It's not like that.{n}{wait}{clear}{spk:0080}{n}I just wanted to talk. Hey, you'll keep me company, right?{n}{fd:038000800580}{n}{wait}{clear}{end}
+3A84.206E	{spk:0080}{n}{e5:0280}{n}Oh, uh, hey...{n}{wait}{clear}{end}
+3A84.2092	{fb:0180}{n}{spk:E783}{n}Griffin... Did something happen?{n}{wait}{clear}{end}
+3A84.20CE	{spk:0080}{n}Nah, nothing... I just, kind of... had you on my mind...{n}{wait}{clear}{end}
+3A84.2128	{fb:0B80}{n}{spk:E783}{n}{f7:0080}｛Griffin, I think of you too...｝{n}{f7:0080}｛I'm all right.　　　　　　　　｝{n}{f7:0080}｛Oh, you...　　　　　　　　　　｝{n}{end}
+3A84.21AE	{fb:6580}{n}{spk:0080}{n}Huh? Wh-what, no... Oh... Man, you got me...{n}{wait}{clear}{spk:0080}{n}I-I'll work hard for you, so stay by my side...{n}{fd:038000800380}{n}{wait}{clear}{end}
+3A84.2252	{fb:C980}{n}{spk:0080}{n}{e5:0480}{n}I see... Yeah, of course... You're all right, {name:0080}...{n}{wait}{clear}{spk:0080}{n}But hey, rely on me once in a while, okay?{n}{wait}{clear}{end}
+3A84.22E4	{fb:2D81}{n}{spk:0080}{n}{e5:0280}{n}Oh, did I say something wrong? I never know what to say at times like this...{n}{wait}{clear}{spk:0080}{n}S-so don't let it bother you. {name:0080}, sorry about that...{n}{fd:038000800580}{n}{wait}{clear}{end}
+3A84.23B4	{spk:0080}{n}{e5:0080}{n}Hey! You came.{n}{wait}{clear}{end}
+3A84.23D8	{fb:0080}{n}{spk:E783}{n}What is it, Griffin?{n}{wait}{clear}{end}
+3A84.2406	{fb:0180}{n}{spk:E783}{n}What do you need, Griffin?{n}{wait}{clear}{end}
+3A84.2432	{spk:0080}{n}It's nothing big, but I thought I'd give you this. Take it.{n}{wait}{clear}{end}
+3A84.24A6	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Yes. I'll gladly accept.｝{n}{f7:0080}｛Since you offer, thanks.｝{n}{f7:0080}｛My vows forbid it.　　　｝{n}{end}
+3A84.25A6	{fb:6480}{n}{spk:0080}{n}{e5:0180}{n}Ha ha ha... Nah, sorry, sorry. I didn't think you'd get so innocently happy over something like that.{n}{wait}{clear}{spk:0080}{n}Well, I hope it comes in handy.{n}{fd:038000800580}{n}{wait}{clear}{end}
+3A84.2706	{fb:C880}{n}{spk:0080}{n}{e5:0280}{n}"Since I offer"? Something about the way you said that bugs me.{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Eh, whatever. Anyway, take good care of it.{n}{fd:038000800380}{n}{wait}{clear}{end}
+3A84.2816	{fb:2C81}{n}{spk:0080}{n}{e5:0280}{n}Vows?! Hey, hey, just keep quiet about that stuff.{n}{wait}{clear}{spk:0080}{n}Jeez... Can't be helped, I guess.{n}{wait}{clear}{end}
+3A84.2890	{fb:2D81}{n}{spk:0080}{n}Vows?! Hey, hey, just keep quiet about that stuff.{n}{wait}{clear}{spk:0080}{n}Jeez... Can't be helped, I guess.{n}{wait}{clear}{end}
+3A84.2906	{spk:0080}{n}{e5:0380}{n}Hey, long time no see, {name:0080}.{n}{wait}{clear}{end}
+3A84.293E	{fb:0080}{n}{spk:E783}{n}Is there something you need, Griffin?{n}{wait}{clear}{end}
+3A84.29A6	{spk:0080}{n}Don't "something you need" me! Do you really want me to be a hero or not?{n}{wait}{clear}{spk:0080}{n}If you're gonna leave me hanging like this, I'll head straight back to Beowulf!{n}{wait}{clear}{end}
+3A84.2B6C	{fb:6480}{n}{spk:0080}{n}{e5:0380}{n}That's not a lie, is it? I didn't take on this hero job as a joke, you know.{n}{wait}{clear}{spk:0080}{n}Well, get that hammered into your head.{n}{fd:038000800180}{n}{fe:038002800180}{n}{fd:038001800180}{n}{wait}{clear}{end}
+3A84.2CF0	{fb:C880}{n}{spk:0080}{n}{e5:0380}{n}How convenient. ...Jeez, don't just say whatever because I'm standing here.{n}{wait}{clear}{spk:0080}{n}Anyway, I'll wait a little longer. Bring me a mission, quick!{n}{fe:038002800180}{n}{fd:038001800180}{n}{wait}{clear}{end}
+3A84.2DCA	{fb:C980}{n}{spk:0080}{n}How convenient. ...Jeez, don't just say whatever because I'm standing here.{n}{wait}{clear}{spk:0080}{n}Anyway, I'll wait a little longer. Bring me a mission, quick!{n}{fe:038002800180}{n}{fd:038001800180}{n}{wait}{clear}{end}
+3A84.2E9E	{fb:2C81}{n}{spk:0080}{n}{e5:0380}{n}Hey, hey, then there's no point in me being a hero at all!{n}{wait}{clear}{spk:0080}{n}You think lame excuses will bring peace to the world?! Give me a break!{n}{fe:038000800180}{n}{fd:038001800180}{n}{fd:038002800180}{n}{wait}{clear}{end}
+3A84.302C	{spk:0080}{n}{e5:0380}{n}Yo, you came.{n}{wait}{clear}{end}
+3A84.304E	{fb:0080}{n}{spk:E783}{n}What is it, Griffin?{n}{wait}{clear}{end}
+3A84.30A8	{spk:0080}{n}Hey... I know I'm tough, but isn't this a bit much?{n}{wait}{clear}{spk:0080}{n}When you dump every job on me like this, I feel like I'm just a tool. Will you knock it off?!{n}{wait}{clear}{end}

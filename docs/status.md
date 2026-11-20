@@ -2,9 +2,27 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (worker 14: 1-code name bug closed (save.py), battle POISON stamp
-  fixed, slot list centred, build da7916e8; tour + cover sweep killed by the host for low memory; next: finish
-  re-tour + gate, inkbox, textcover sweep, stress sheets).
+- **Phase:** 8. QA in the emulator: in progress (worker 15: textcover converter fixed; tour 88/106 and cover sweep
+  172/444 on da7916e8 killed by the host for low memory; next: finish re-tour + sheets + gate + Explore review,
+  inkbox, forced text viewer for textcover, hero stress save).
+  Worker 15 (2026-11-21, build da7916e8 unchanged): (a) re-tour of all 106 scenes on da7916e8 (`warp.py --all --root
+  work/qa/tour -j 2 --lua tools/lua/textlog.lua --cue <abs>/build/favorite_dear_en.cue`, log `work/qa/tour_run6.txt`)
+  and `cover_sweep.py -j 1` were **both stopped by the host for low memory at 06:00** (tour 88/106: re-run only the
+  scenes whose `log.txt` is older than `tour_run6.txt`; sweep 172/444, resumable). (b) **textcover was mis-mapping
+  every sweep run:** `warp.py --event X` renames event id 32 (MYH16) to X in the name table, but `textcover_map.py
+  convert` mapped id 32 to MYH16's file, so all 147 events "showed" the same MYH16/common rows (42 rows). Fixed
+  (`WARP patched slot N -> NAME` overrides the id, commit 605ff63): 212/8824 rows now. The sweep's logs must be
+  converted with the **a870a1cf text** (commit 8ca4f2a; its `strings` output is byte-identical to
+  `work/qa/cover_build/strings.tsv`): `git worktree add --detach $TEMP/wt 8ca4f2a`, copy the current
+  `tools/textcover_map.py` in, junction `work/disc` to the main repo's, run `convert` there on copies of the logs.
+  (c) **A mash sweep cannot reach the gate:** ~10 rows per event, one branch only; 444 events will give well under
+  1000 of 8824 rows. Next for textcover: a forced text viewer: hook op 0x3C (and friends; 1824 directly referenced
+  messages, `docs/re/events.md` §Format) to substitute each referenced message of a loaded file in turn and mash
+  through, logging PIDX as now; follow-on messages print in sequence from there. (d) `codex exec` is **out of
+  credits until 2026-11-26**: visual QA must use read-only Explore subagents in chunks, as workers 9/11 did. (e) Stress
+  gap: no save has a hero, so the hero status screen (Items/Equip/Skills, longest item names) is unchecked; needs the
+  roster layout in the save (0xB04-0x1804 = RAM 0x801C3DE4+). inkbox: the old rects in this note give 0/0 margins
+  (rects not inside the boxes): pick rects from fresh shots.
   Worker 14 (2026-11-21): build **0da4affb58dffa13e5d14fe0c4984b816887dafb** (check ok 79, fitcheck ok, smoke ok).
   (a) **1-code name bug closed, not a game bug:** c1 at save+0x202 is `sum(0x204..0x22B) & 0x0FFF` like c0; save.py
   stored it unmasked, which only differs when the header sum passes 0xFFF (a 1-halfword name has 5 x 0xFFFF padding).

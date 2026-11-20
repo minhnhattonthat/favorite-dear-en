@@ -124,6 +124,7 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | アルプ | Alp | | place in Kimbalt with frequent monsters (Yaruru mission) | |
 | アーテム | Artem | | town in Kvaal attacked by Leraje (Yaruru mission) | |
 | ボルサ | Borsa | | the Borsa Forest, home of winged monsters (Nasadia mission) | |
+| バルバ | Barba | | Barba Island (バルバ島), where Reiv is held captive | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |
@@ -135,6 +136,8 @@ EN form (first word group before " ("), and never a spelling from the Avoid colu
 | ダルク | Dalk | | currency ("1000 Dalk", Fiana's fee) | |
 | 炎王 | Flame King | | Adramelech's title | |
 | ガロンドランク | Gallon Drunk | | tavern where a dancer works (Griffin's mix-up) | |
+| ベイオウルフ | Beowulf | | Griffin's band of noble thieves (義賊) | |
+| 英霊祭 | Festival of Heroic Spirits | | Hebron festival with a soiree (Reiv event) | |
 
 ## Decisions from earlier batches
 - b001 3498.1550 (the gift-name list, one run of names indexed by the script): kept Japanese (`-`), phase 7 must

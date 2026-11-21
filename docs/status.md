@@ -3,7 +3,10 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (visual gate passes on 94fa9887: 277 sheets, 0 unreviewed, 0 not
-  ok; **only textcover is left: 1182 of 8638 rows unshown in 131 files (101 choice menus)**, down from 5814).
+  ok; **only textcover is left: 1098 of 8638 rows unshown in 125 files (92 choice menus)**, down from 5814).
+  Worker 25 (2026-11-21), build unchanged. Pass 4 (same command, `--pass 4`, log `work/qa/force_p4.txt`) was
+  killed by Claude Code for low host memory after 95 runs: 1182 -> **1098 left in 125 files (92 choice menus)**.
+  Resume with the same command (finished runs are skipped) when free memory allows (-j 2 if under 4 GB free).
   Worker 24 (2026-11-21), build unchanged. (a) **Why forcing failed, fixed:** the printer index obj+0x10 moves a
   page at a time, so the hook first saw a row when its first page was already drawn, then "forced" it again; and
   re-pointing a running printer stalls it (docs/re/events.md). New `ADOPT` (`--var ADOPT=1`): never re-point a row

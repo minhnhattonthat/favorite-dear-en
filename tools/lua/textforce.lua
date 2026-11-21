@@ -20,7 +20,9 @@ local rows = {}
 for s, e, w in TARGETS:gmatch("(%d+),(%d+),(%d)") do
   -- w = 2: an unshown choice menu (｛..｝): never a redirect target, but when the scene's own print op moves the
   -- printer into it, the hook leaves it alone so the menu draws and PIDX logs it
-  rows[#rows + 1] = {s = tonumber(s), e = tonumber(e), want = w == "1", choice = w == "2"}
+  -- FORCECHOICE: choice rows are ordinary targets too (KEYPATCH points the 0x90 lookups at them: SMEN answers)
+  rows[#rows + 1] = {s = tonumber(s), e = tonumber(e), want = w == "1" or (FORCECHOICE and w == "2"),
+                     choice = w == "2" and not FORCECHOICE}
 end
 local left = 0
 for _, r in ipairs(rows) do if r.want then left = left + 1 end end
@@ -153,6 +155,12 @@ local function keypatch(hoff, n)
     local w
     for i, r in ipairs(rows) do if r.want and r.s >= cpc then w = i; break end end
     local cnt = 0
+    -- a row's span in TARGETS runs to the next row's start, but code can sit between a message's 0xFFFF and the
+    -- next message (MAPSYS: `003C <row>` sites after each inline news row): measure the real message here
+    local inrow = {}
+    for _, r in ipairs(rows) do
+      for p = r.s, r.e - 1 do inrow[p] = true; if rd(hoff + p) == 0xFFFF then break end end
+    end
     -- a conditional jump (0x2B-0x2F <a> <b> <ref>) to a print of a wanted row (SQA: "..." on a random roll,
     -- `002E 8002 0002 <ref>`) becomes a goto there
     for p = cpc, rows[1].s - 4 do

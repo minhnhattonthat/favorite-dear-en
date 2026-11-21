@@ -3,17 +3,24 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (visual gate passes on 94fa9887: 277 sheets, 0 unreviewed, 0 not
-  ok; **only textcover is left: 574 of 8638 rows unshown in 51 files (87 choice menus)**, down from 1098).
-  Worker 26 (2026-11-21), build unchanged. **Pass 9 was stopped by Claude Code for low host memory after 36 of 74
-  files** (log `work/qa/force_p9.txt`). **Resume:** check free memory (> 4 GB for -j 3, else -j 2), then
-  `python -X utf8 tools/textforce.py run -j 3 --pass 9 --only $(cat work/qa/left9.txt) --frames 40000 --mash 8
-  --keypatch --var SKIPKEY=1 --var ADOPT=1 --var PRINTPATCH=1 --var RECHOICE=1 --var NOBATTLE=1 --var MASH_ROTATE=3
-  --var ROT_SEED=9 > work/qa/force_p9b.txt` (finished runs are skipped), then `textforce.py left`, then another pass
-  (`--pass 10`, new `ROT_SEED`) on what is left; the SMEN menus gain ~20 rows a run, so they need 2-3 more passes.
-  **Left now:** SMEN01-12 469 (choice-driven), SS0202 24, SS1206 12, SS1004 10, SS1106 8, SS0501/0507 9, MAPSYS 20,
-  EVFUM03-12 7 (1 each), AN 4, HOUMON 3, TM0312A/TM0407B 3+3, MYH14-17 1 each, a few single rows (SW11 "Dummy",
-  T0204, T00IUV, GBUEND, SS singles). Most of them were not yet run with the new options (pass 9 is sorted by
-  sector; it stopped in the SS range).
+  ok; **only textcover is left: 38 of 8638 rows unshown in 7 files (1 choice menu)**, down from 574).
+  Worker 27 (2026-11-21), build unchanged. Pass 9 finished (574 -> 217), passes 10, 13, 14 (same options, new
+  `ROT_SEED`) -> 63; pass 14 gained nothing. **New `textforce.py run --choices`** (lua `FORCECHOICE`): unshown
+  choice-menu rows become ordinary targets that KEYPATCH/PRINTPATCH point the scene's lookups at (SMEN06 3/3 in one
+  run); pass 16 (`--choices`, no RECHOICE) 62 -> 39, pass 18 -> 38. Passes 11/12/15/17/19 are single-file tests.
+  **Left (all "forced 0": the hook never sees the printer in them):** MAPSYS 20, SS1106 8, SS0507 4, TM0312A 3,
+  SW11 1 ("Dummy": case 2 of the `006F 0011 8002` switch at JP pc 0x42, `003C 8CEB` at 0x73; not proven
+  unreachable), T0204 1 (battle "ran away"), SS1202 1 (choice). Rows: `work/qa/left_rows.txt`.
+  **MAPSYS** (world-map news: hero lost/kidnapped, Gabriel bonus AP, 3 game-over lines): entry `007E 8002` reads the
+  news id the EXE passes, a `002B 8002 N <stub>` table picks a `003C <row>` print. Found: TARGETS row spans ran to
+  the next row's start, so the `003C` sites between inline messages counted as text; PRINTPATCH now measures each
+  row to its 0xFFFF (27 sites patched instead of 4). Still 0/20: the scene's own news (rows 22-28) is already
+  printing when the file is first seen (f13462 load, f13487 row 22 at +45), so the patched sites never run in that
+  visit and the file leaves at f14044. JUMPFORCE (debugger) stalled at f6000 for 25 min (killed). Next idea: a
+  warp.lua var that writes the news id the EXE passes to `007E` (find where, or patch `007E 8002` into a
+  constant set before the file loads), one run per id; or waive the game-over rows with proof.
+  **Phase 9 note:** `work/qa/force_build` (da7916e8 text) is older than the current build 94fa9887 (speaker-space
+  edits since); coverage is by row id, so it holds, but phase 9 should run textcover against the frozen strings.
   **Found and fixed this session** (`tools/textforce.py` docstring, `docs/re/events.md`, `docs/re/debug.md`):
   TxxSEN are hero xx's battle lines: a battle with HERO=xx loads them (all 12 shown; T01SEN loads via warp.lua
   `SWAP` in a hero-3 battle). T-battles get HERO from their name (T0703 0 -> 10/10). SSxxyy run as `NAME:xx` with

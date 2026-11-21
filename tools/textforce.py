@@ -185,7 +185,10 @@ def cmd_run(a):
     exe = (ROOT / "work/disc/tree/PSX.EXE").read_bytes()
     sigs = signatures(exe)
     seen = shown(root)
-    want = wanted(offs, names, seen, choice)
+    # --choices: unshown choice menus are wanted rows too (flag 1), forced like the rest (textforce.lua FORCECHOICE)
+    want = wanted(offs, names, seen, () if a.choices else choice)
+    if a.choices:
+        a.var = (a.var or []) + ["FORCECHOICE=1"]
     # unshown choice menus: flag 2 in TARGETS (textforce.lua lets the scene's own print draw them)
     chmiss = set(choice) - {rid for s, v in offs.items() for o, rid in v if rid in choice and (s << 16 | o) in seen}
     if a.only:
@@ -282,6 +285,8 @@ def main():
                            help="interpreter mode + KEYFORCE: point op 0x90 key lookups at wanted rows (KAIWA, SxxOK)")
             s.add_argument("--keypatch", action="store_true",
                            help="KEYPATCH: the same by patching the file's 0x90 ops when it loads (no debugger, fast)")
+            s.add_argument("--choices", action="store_true",
+                           help="force unshown choice-menu rows too (FORCECHOICE: KEYPATCH/PRINTPATCH target them)")
             s.add_argument("--jumpforce", action="store_true",
                            help="interpreter mode + JUMPFORCE: move a waiting script to a print of its rows (TxxSEN)")
     a = ap.parse_args()

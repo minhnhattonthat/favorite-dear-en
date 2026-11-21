@@ -41,6 +41,15 @@
   has one arg word (`FFFB 8xxx` opens 7054 messages).
 - Entry table: 10 x (u16 id, u16 halfword offset, ...) at RAM 0x8016C5B8, looked up by 0x800C7FF4 (returns
   0x8016C608 + 2*offset): up to 10 loaded scripts share the buffer.
+- **Op 0x90 `<value> <table ref>`** (handler 0x800CB880; s4 = code base, s2 = pc; verified by disassembly and by
+  patching it in game, `tools/lua/textforce.lua` KEYPATCH): resolves arg 1 to a value (0x800C855C: a reference
+  reads that code halfword, the "variable slots" at pc 2..), then scans from the arg-2 reference to 0xFFFC for a
+  message opening `FFFB k` with `k & 0x7FFF == value` and starts the printer after the key. KAIWA*, SxxOK, SY*, SQA,
+  SCQA and SMEN files print almost only this way (values from globals such as 0x1A/0x1C/0x1D), so one play shows
+  one row of them.
+- **The printer index obj+0x10 moves a page at a time** (it jumps to the next {wait} or the end), not per letter:
+  a frame hook first sees a message when its first page is already drawn. Re-pointing obj+0/obj+0x10 while the
+  printer is mid-message stalls it (~60 frames, then it resumes elsewhere): obj+0/0x10 are not its whole state.
 - Two scripts have no size in any table: 0x5988 entry 0 (sector 0x3559, size 0) and sector 0x3672 (in no table);
   each runs to the next file and parses. Their 13 rows carry the note "orphan" (possibly unused).
 - **Insertion (phase 5/7) must relocate:** longer text shifts every later halfword, so every reference argument

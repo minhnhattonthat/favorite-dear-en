@@ -112,16 +112,21 @@ for _, r in ipairs(rows) do for p = r.s, r.e - 1 do inrow[p] = true end end
 local rowstart = {}
 for i, r in ipairs(rows) do rowstart[r.s] = i end
 local patched_at = nil
+local startpatch  -- defined below
+local sp_entry = nil
 local kp_why = nil
 local function keypatch(hoff, n)
   local cpc = math.floor(rd(hoff + 2) / 2)
   local t, key = keyed_target(hoff, cpc)
-  if rd(hoff) ~= 6 or not t then  -- not loaded yet (every script starts with u16 6), or no keyed row left
+  -- loaded = header u16 6, a sane code offset, and the last row's sector in (it loads a sector at a time)
+  local loaded = rd(hoff) == 6 and cpc <= rows[1].s and rd(hoff + rows[#rows].s) ~= 0
+  if not loaded or (not t and not STARTPATCH) then
     local why = string.format("KEYPATCH wait hdr %X code %X target %s", rd(hoff), cpc, tostring(t))
     if why ~= kp_why then kp_why = why; L.log(why .. string.format(" f%d", n)) end
     return
   end
   patched_at = hoff
+  if not t then startpatch(hoff, n); return end
   local cnt = 0
   for p = cpc, rows[#rows].e - 3 do
     if not inrow[p] and rd(hoff + p) == 0x90 then
@@ -133,7 +138,56 @@ local function keypatch(hoff, n)
     end
   end
   L.log(string.format("KEYPATCH %d key %X sites %d f%d", t, key, cnt, n))
+  if cnt == 0 and STARTPATCH then startpatch(hoff, n) end
 end
+
+-- STARTPATCH: a file whose script never reaches a print (TxxSEN wait on a world-map task): the first frame it is
+-- loaded, replace its entry with the files' own idiom `00BA; 003C <ref to the first wanted row>; 00B9; 0037`
+-- (open, print, close, end) and let ADOPT play on through the rows. Only when no 0x90 site was patched.
+startpatch = function(hoff, n)
+  local cpc = math.floor(rd(hoff + 2) / 2)
+  local c = hoff + cpc
+  local entry = rd(c) == 0x28 and (rd(c + 1) & 0x7FFF) or 0
+  for t, r in ipairs(rows) do
+    if r.want and r.s >= cpc then
+      local seq = {0x00BA, 0x003C, 0x8000 | (r.s - cpc), 0x00B9, 0x0037}
+      for k, v in ipairs(seq) do wr(c + entry + k - 1, v) end
+      sp_entry = entry  -- the frame hook moves the waiting VM there (task obj+0x12 = pc, obj+0x16 = call depth)
+      L.log(string.format("STARTPATCH %d at pc %X f%d", t, entry, n))
+      return
+    end
+  end
+end
+-- JUMPFORCE (needs warp --debugger): STARTPATCH for a script that already ran its entry and now waits in an op
+-- (TxxSEN): at the next VM command dispatch (0x800CA570, a0 = code base, a1 = &pc) inside the file, write the
+-- print sequence at the entry and move the pc there.
+local jumped = false
+if JUMPFORCE and DEBUGGER then
+  L.on_exec(0x800CA570, function()
+    if jumped or done_at then return end
+    local r = PCSX.getRegisters().GPR.n
+    local hoff
+    for s = 0, 9 do
+      local e = 0x8016C5B8 + 8 * s
+      if u16(e) == ID then hoff = u16(e + 2) end
+    end
+    if not hoff then return end
+    local cpc = math.floor(rd(hoff + 2) / 2)
+    if (r.a0 & 0x1FFFFF) ~= ((BUF + 2 * (hoff + cpc)) & 0x1FFFFF) then return end
+    local entry = rd(hoff + cpc) == 0x28 and (rd(hoff + cpc + 1) & 0x7FFF) or 0
+    for t, row in ipairs(rows) do
+      if row.want and row.s >= cpc then
+        local seq = {0x00BA, 0x003C, 0x8000 | (row.s - cpc), 0x00B9, 0x0037}
+        for k, v in ipairs(seq) do wr(hoff + cpc + entry + k - 1, v) end
+        L.log(string.format("JUMPFORCE %d from pc %X to %X f%d", t, u16(r.a1), entry, L.frame))
+        w16(r.a1, entry)
+        jumped = true
+        return
+      end
+    end
+  end)
+end
+
 if KEYFORCE and DEBUGGER then
   L.on_exec(0x800CB880, function()
     if done_at or L.frame == kf_frame then return end
@@ -171,7 +225,15 @@ L.on_frame(function(n)
     L.log(string.format("KEYPATCH file %s f%d", hoff and "in" or "out", n))
   end
   if KEYPATCH and hoff and hoff ~= patched_at and not done_at then keypatch(hoff, n) end
-  if not hoff then patched_at, kp_why = nil, nil end
+  if not hoff then patched_at, kp_why, sp_entry = nil, nil, nil end
+  if sp_entry and hoff then
+    local o = u32(0x8001A4B8)
+    if o >= 0x80000000 and o < 0x80200000 and u16(o + 6) == ID then
+      L.log(string.format("STARTPATCH jump obj %X pc %X -> %X f%d", o, u16(o + 0x12), sp_entry, n))
+      w16(o + 0x12, sp_entry); w16(o + 0x16, 0)
+      sp_entry = nil
+    end
+  end
   local hi = u16(0x8001A4BA)
   if not (hi >= 0x8000 and hi < 0x8020) then return end
   local obj = u32(0x8001A4B8)

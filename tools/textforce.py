@@ -20,6 +20,9 @@ each time the scene starts a message, so the scene's own print ops play the whol
         and let the {wait}-patched terminator flow on into the next row. KEYPATCH: files printed through op 0x90
         (a message picked by its FFFB key: KAIWA, SxxOK, SQA, SCQA, SMEN..) get their 0x90 ops patched on load to
         print the first wanted keyed row (KAIWA1: 0/240 -> 240/240).
+        `--var STARTPATCH=1` (with --keypatch; untested beyond TxxSEN, where it fails): a file with no 0x90 site gets
+        its entry replaced by `00BA 003C <row> 00B9 0037` and the VM task (obj+0x12 = pc) moved there. TxxSEN still
+        print nothing: they park in op 0x82 (a world-map wait) and moving the pc does not wake them.
     python -X utf8 tools/textforce.py left [--build ..] [--root ..]
         rows still unshown per sector.
 Then: python -X utf8 $SKILL/scripts/textcover.py <root> <build>/strings.tsv --waive docs/text_unshown_unloaded.tsv
@@ -169,6 +172,8 @@ def cmd_run(a):
             cmd += ["--debugger", "--var", "KEYFORCE=1"]
         if a.keypatch:
             cmd += ["--var", "KEYPATCH=1"]
+        if a.jumpforce:
+            cmd += ["--debugger", "--var", "JUMPFORCE=1"]
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
         d = run_dir(out, nm, battle)
         textcover_map.convert([d], exe, offs)
@@ -215,6 +220,8 @@ def main():
                            help="interpreter mode + KEYFORCE: point op 0x90 key lookups at wanted rows (KAIWA, SxxOK)")
             s.add_argument("--keypatch", action="store_true",
                            help="KEYPATCH: the same by patching the file's 0x90 ops when it loads (no debugger, fast)")
+            s.add_argument("--jumpforce", action="store_true",
+                           help="interpreter mode + JUMPFORCE: move a waiting script to a print of its rows (TxxSEN)")
     a = ap.parse_args()
     {"freeze": cmd_freeze, "run": cmd_run, "left": cmd_left}[a.cmd](a)
 

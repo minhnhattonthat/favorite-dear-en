@@ -28,6 +28,12 @@ each time the scene starts a message, so the scene's own print ops play the whol
         SMEN01 10 -> 20 of 26 rows per run), NOBATTLE=1 (SSxxxx: battle op and the end-jumps on its result become
         gotos, SS0204 0 -> 30/30), MASH_ROTATE=3 (warp.lua: 0..2 downs before each circle: battle "ran away" rows,
         other menu answers). TxxSEN run as a battle with hero xx (how_to_run); SSxxyy run with hero xx.
+        Worker 28 (2026-11-21): NOBATTLE also skips jumps and gotos to an end block (`00BF 00C0 0037`: SS1106 8/8).
+        `--var "ENTRYGO='<pc>:<to>'"` writes a goto to code pc <to> at code pc <pc> once the file's code is in;
+        `<pc>:c<at>` takes <to> from the jump `002B a b <ref>` at <at> (a table case). MAPSYS (news id from the EXE,
+        always 2 on a warp): add `--var EG_ID=150` (patch it while the EXE holds it under its own id, before event 32
+        runs it): `6:0x25`/`0x2B`/`0x31` = the 3 game-over lines, `6:c<0x37+4k>` = news case k. T0204 "ran away":
+        `0x53:0x19D` (the battle-result switch). TM0312A: `--hero 3 --keypatch --var STARTPATCH=1`.
     python -X utf8 tools/textforce.py left [--build ..] [--root ..]
         rows still unshown per sector.
 Then: python -X utf8 $SKILL/scripts/textcover.py <root> <build>/strings.tsv --waive docs/text_unshown_unloaded.tsv

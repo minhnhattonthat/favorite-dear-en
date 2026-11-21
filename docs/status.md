@@ -2,8 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (visual gate passes on 94fa9887: 277 sheets, 0 unreviewed, 0 not
-  ok; **only textcover is left: 38 of 8638 rows unshown in 7 files (1 choice menu)**, down from 574).
+- **Phase:** 9. Release: next. Phase 8 done 2026-11-21 (worker 28, build unchanged 94fa9887): `textcover.py
+  work/qa/force work/qa/force_build/strings.tsv --waive docs/text_unshown_unloaded.tsv` exits 0 (8633/8824 shown,
+  191 waived, 0 failing); `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0 (277 sheets); check.py ok
+  (79). **Phase 9 to do:** story-pass verdicts per chapter, `docs/polish.md` unticked lines, release script running
+  both gates + `jp_left.py`, debug tool off, patch build/re-apply/verify, README hashes, zip = patch + README.
+  Run textcover against the frozen strings (`work/qa/force_build` is da7916e8 text; coverage is by row id).
+  Worker 28: the 38 left -> 0. MAPSYS 20/20 via new textforce.lua `ENTRYGO` + `EG_ID=150` (goto into each news
+  case / game-over branch, patched while the EXE holds the file under id 150, before event 32 runs it; passes
+  p21-p43); SS1106 8/8 (NOBATTLE now also skips jumps/gotos to an `00BF 00C0 0037` end block); TM0312A 3/3
+  (`--hero 3 --keypatch --var STARTPATCH=1`); T0204 "ran away" (`ENTRYGO='0x53:0x19D'`, the battle-result
+  switch); SS1202 1/1 (`--choices --keypatch`, works since the SIG fix). Waived with proof in
+  `docs/text_unshown_proven.tsv` (merged into the gate file by `textcover_map.py strings --waive`): SS0507's 4
+  rows (its code is `goto entry; end`) and SW11 "Dummy" (drawn, but runs on into the next row on one page, so
+  the printer index never lands in it: `docs/screenshots/sw11_dummy_shown.png`). Commands: textforce.py docstring.
+  Earlier phase 8 summary (worker 27): only textcover was left, 38 of 8638 rows unshown in 7 files.
   Worker 27 (2026-11-21), build unchanged. Pass 9 finished (574 -> 217), passes 10, 13, 14 (same options, new
   `ROT_SEED`) -> 63; pass 14 gained nothing. **New `textforce.py run --choices`** (lua `FORCECHOICE`): unshown
   choice-menu rows become ordinary targets that KEYPATCH/PRINTPATCH point the scene's lookups at (SMEN06 3/3 in one

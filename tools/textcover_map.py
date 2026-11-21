@@ -101,8 +101,15 @@ def cmd_strings(a):
     print(f"{len(lines) + len(orphan)} rows -> {a.out}; {len(orphan)} in files no event id loads")
     if a.waive:
         why = "file in no event id's load path (events.event_names x GDATA name directory): unused leftover"
-        Path(a.waive).write_text("".join(f"{x.split(chr(9))[0]}\t{why}\n" for x in orphan), encoding="utf-8")
-        print(f"{len(orphan)} waivers -> {a.waive}")
+        out = [f"{x.split(chr(9))[0]}\t{why}\n" for x in orphan]
+        # rows in loaded files proven unreachable by hand (id<TAB>proof), kept in their own file so this rewrite
+        # never drops them
+        proven = ROOT / "docs/text_unshown_proven.tsv"
+        if proven.exists():
+            out += [x + "\n" for x in proven.read_text(encoding="utf-8").splitlines()
+                    if x.strip() and not x.startswith("#")]
+        Path(a.waive).write_text("".join(out), encoding="utf-8")
+        print(f"{len(out)} waivers ({len(orphan)} unloaded) -> {a.waive}")
 
 
 def cmd_convert(a):

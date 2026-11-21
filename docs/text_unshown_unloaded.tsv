@@ -184,3 +184,8 @@
 3B75.0264	file in no event id's load path (events.event_names x GDATA name directory): unused leftover
 3B76.0260	file in no event id's load path (events.event_names x GDATA name directory): unused leftover
 3B77.0260	file in no event id's load path (events.event_names x GDATA name directory): unused leftover
+34C6.2538	shown, not logged: "Dummy{n}" has no 0xFFFF, so the printer runs on into row 34C6.2540 on the same page and its index (moved a page at a time) is first seen there; drawn as the first line in docs/screenshots/sw11_dummy_shown.png (textforce p52 ev_SW11 f13530, PRINTPATCH pointed every print at it)
+37F3.0488	SS0507's code is `0028 0006; 0037` (goto entry, end): no op in the file prints, and an op 0x90/0x3C ref only reaches its own file, so its 4 keyed rows are dead in the original (tools/evscript.py dump 37F3)
+37F3.0734	SS0507's code is `0028 0006; 0037` (goto entry, end): no op in the file prints, and an op 0x90/0x3C ref only reaches its own file, so its 4 keyed rows are dead in the original (tools/evscript.py dump 37F3)
+37F3.09AC	SS0507's code is `0028 0006; 0037` (goto entry, end): no op in the file prints, and an op 0x90/0x3C ref only reaches its own file, so its 4 keyed rows are dead in the original (tools/evscript.py dump 37F3)
+37F3.0C52	SS0507's code is `0028 0006; 0037` (goto entry, end): no op in the file prints, and an op 0x90/0x3C ref only reaches its own file, so its 4 keyed rows are dead in the original (tools/evscript.py dump 37F3)

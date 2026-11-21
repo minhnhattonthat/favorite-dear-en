@@ -138,13 +138,23 @@ local function keypatch(hoff, n)
     -- result checks after it (`002B/002C <a> <b> <ref to an 0037 end>`) then end the event before its text. Turn
     -- both into a goto to the next op (`0028 <ref>`; the leftover args are jumped over).
     local cnt = 0
+    -- an end block: screen-restore ops (00BF, 00C0) then 0037 (SS1106 jumps to `00BF 00C0 0037`, and its
+    -- other-hero branch fights and then `0028`s there: that goto becomes a goto to the next op as well)
+    local function is_end(ref)
+      local q = cpc + (ref & 0x7FFF)
+      while rd(hoff + q) == 0xBF or rd(hoff + q) == 0xC0 do q = q + 1 end
+      return rd(hoff + q) == 0x37
+    end
     for p = cpc, rows[1].s - 4 do
       local op = rd(hoff + p)
       if not inrow[p] and (op == 0xD3 or op == 0xE3) and (rd(hoff + p + 2) & 0xFF00) == 0x8000 then
         wr(hoff + p, 0x28); wr(hoff + p + 1, 0x8000 | (p + 3 - cpc)); cnt = cnt + 1
       elseif not inrow[p] and (op == 0x2B or op == 0x2C) and rd(hoff + p + 3) >= 0x8000
-          and rd(hoff + cpc + (rd(hoff + p + 3) & 0x7FFF)) == 0x37 then
+          and is_end(rd(hoff + p + 3)) then
         wr(hoff + p, 0x28); wr(hoff + p + 1, 0x8000 | (p + 4 - cpc)); cnt = cnt + 1
+      elseif not inrow[p] and op == 0x28 and p > cpc + 1 and rd(hoff + p + 1) >= 0x8000
+          and is_end(rd(hoff + p + 1)) then
+        wr(hoff + p + 1, 0x8000 | (p + 2 - cpc)); cnt = cnt + 1
       end
     end
     L.log(string.format("NOBATTLE sites %d f%d", cnt, n))
@@ -275,6 +285,27 @@ if KEYFORCE and DEBUGGER then
   end)
 end
 
+-- ENTRYGO "<at>:<to>" (MAPSYS: the entry `007E 8002` reads the news id the EXE passes, and a `002B 8002 N <ref>`
+-- table picks the case; a warp always gets the same id): the first frame the file's code words are in the buffer
+-- (SIG, before the later sectors and the VM start), write `0028 <ref to>` (goto) at code pc <at>. "<at>:c<pc>"
+-- takes <to> from the ref of the conditional jump `002B a b <ref>` at code pc <pc> (a table case). Numbers may be hex.
+local function entrygo(hoff, n)
+  if rd(hoff) ~= 6 then return end
+  local cpc = math.floor(rd(hoff + 2) / 2)
+  local at0 = tonumber(ENTRYGO:match("^(%w+)"))
+  if rd(hoff + cpc + at0) == 0x28 then return end  -- patched already
+  if SIG then
+    for pos, v in SIG:gmatch("(%d+):(%d+)") do
+      if rd(hoff + tonumber(pos)) ~= tonumber(v) then return end
+    end
+  end
+  local at, c, to = ENTRYGO:match("(%w+):(c?)(%w+)")
+  at, to = tonumber(at), tonumber(to)
+  if c == "c" then to = rd(hoff + cpc + to + 3) & 0x7FFF end
+  wr(hoff + cpc + at, 0x28); wr(hoff + cpc + at + 1, 0x8000 | to)
+  L.log(string.format("ENTRYGO pc %X -> %X f%d", at, to, n))
+end
+
 L.on_frame(function(n)
   local hoff
   for s = 0, 9 do
@@ -283,7 +314,12 @@ L.on_frame(function(n)
     local v = string.format("%d %d", id, off)
     if tab[s] ~= v then tab[s] = v; L.log(string.format("SCR %d %s", s, v)) end
     if id == ID then hoff = off end
+    -- EG_ID: the file's own id (MAPSYS 150: the EXE loads it at the world map before the warp's event 32 runs
+    -- the same buffer, already past its entry by the frame slot 32 shows): patch it under that id too
+    if ENTRYGO and EG_ID and id == EG_ID then entrygo(off, n) end
   end
+  -- idempotent: once patched, the SIG words at the entry no longer match (a reload from disc matches again)
+  if ENTRYGO and hoff then entrygo(hoff, n) end
   if done_at and n >= done_at then L.finish(0) end
   if (hoff ~= nil) ~= (patched_at ~= nil or kp_why ~= nil) and KEYPATCH then
     L.log(string.format("KEYPATCH file %s f%d", hoff and "in" or "out", n))

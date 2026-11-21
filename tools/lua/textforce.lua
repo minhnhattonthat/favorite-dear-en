@@ -120,6 +120,11 @@ local function keypatch(hoff, n)
   local t, key = keyed_target(hoff, cpc)
   -- loaded = header u16 6, a sane code offset, and the last row's sector in (it loads a sector at a time)
   local loaded = rd(hoff) == 6 and cpc <= rows[1].s and rd(hoff + rows[#rows].s) ~= 0
+  if loaded and SIG then  -- the file's own code words (textforce.signatures): not the last file's stale data
+    for pos, v in SIG:gmatch("(%d+):(%d+)") do
+      if rd(hoff + tonumber(pos)) ~= tonumber(v) then loaded = false; break end
+    end
+  end
   if not loaded or (not t and not STARTPATCH and not PRINTPATCH) then
     local why = string.format("KEYPATCH wait hdr %X code %X target %s", rd(hoff), cpc, tostring(t))
     if why ~= kp_why then kp_why = why; L.log(why .. string.format(" f%d", n)) end
@@ -148,8 +153,26 @@ local function keypatch(hoff, n)
     local w
     for i, r in ipairs(rows) do if r.want and r.s >= cpc then w = i; break end end
     local cnt = 0
+    -- a conditional jump (0x2B-0x2F <a> <b> <ref>) to a print of a wanted row (SQA: "..." on a random roll,
+    -- `002E 8002 0002 <ref>`) becomes a goto there
+    for p = cpc, rows[1].s - 4 do
+      local op, a = rd(hoff + p), rd(hoff + p + 3)
+      if not inrow[p] and op >= 0x2B and op <= 0x2F and a >= 0x8000 then
+        local q = (a & 0x7FFF) + cpc
+        local b = rd(hoff + q + 1)
+        local r = rd(hoff + q) == 0x3C and b >= 0x8000 and rowstart[(b & 0x7FFF) + cpc]
+        if r and rows[r].want then
+          wr(hoff + p, 0x28); wr(hoff + p + 1, a); cnt = cnt + 1
+          L.log(string.format("PRINTPATCH take %X -> %X (row %d) f%d", p - cpc, q - cpc, r, n))
+        end
+      end
+    end
     for p = cpc, (w and rows[#rows].e - 2 or cpc - 1) do
       local a = rd(hoff + p + 1)
+      if PPDEBUG and not inrow[p] and rd(hoff + p) == 0x3C and a >= 0x8000 then
+        L.log(string.format("PPDEBUG p %X ref %X tgt %X row %s", p, a, (a & 0x7FFF) + cpc,
+          tostring(rowstart[(a & 0x7FFF) + cpc])))
+      end
       if not inrow[p] and rd(hoff + p) == 0x3C and a >= 0x8000 and rowstart[(a & 0x7FFF) + cpc]
           and rowstart[(a & 0x7FFF) + cpc] ~= w then
         wr(hoff + p + 1, 0x8000 | (rows[w].s - cpc)); cnt = cnt + 1

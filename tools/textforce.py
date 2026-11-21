@@ -83,13 +83,20 @@ SEN_HOST = "T0101"
 SS = re.compile(r"SS(\d\d)\d+")  # SSxxyy..: hero xx's story events
 
 
-def run_dir(out, nm, battle):
+def run_dir(out, nm, how):
+    """the folder warp.py writes for this run: its --name, else bt_<nm> / ev_<nm> (warp.py's own naming)"""
+    args, battle = how
+    if "--name" in args:
+        return out / args[args.index("--name") + 1]
     return out / (("bt_" + nm) if battle else ("ev_" + nm.replace(":", "_")))
 
 
-def how_to_run(nm, bt):
+def how_to_run(nm, bt, hero=None):
     """(warp.py args, battle?) for event name nm. TxxSEN run as battle SEN_HOST with hero xx in front (HERO=xx),
-    forcing their own file (FORCE_ID=xx): `--event` parks them in op 0x82, a world-map wait."""
+    forcing their own file (FORCE_ID=xx): `--event` parks them in op 0x82, a world-map wait. `hero`: run nm as an
+    event for that current hero (TM12ALL switches on it: op 0x5D), into ev_<nm>_h<hero>."""
+    if hero:
+        return ["--event", f"{nm}:{hero}", "--name", f"ev_{nm}_h{hero}"], False
     m = SEN.fullmatch(nm)
     if m:
         h = int(m[1])
@@ -98,6 +105,8 @@ def how_to_run(nm, bt):
             h, swap = 3, ["--var", f"SWAP='3={nm}'"]
         return ["--battle", SEN_HOST, "--name", "bt_" + nm, "--var", f"HERO={h}", "--var", f"FORCE_ID={h}",
                 *swap], True
+    if nm.startswith("TM"):  # in the battle table, but heroes talking, no fight: as --battle TM0312B/TM12ALL hang
+        return ["--event", nm], False
     if nm in bt:  # a battle's file loads under its own id (textforce.lua FORCE_ID), after the host starts the fight
         return ["--battle", nm, "--var", f"FORCE_ID={bt[nm]}"], True
     m = SS.fullmatch(nm)
@@ -148,10 +157,30 @@ def cmd_freeze(a):
     print(f"frozen into {build}: {len(offs)} files, {len(names)} loaded by an event name")
 
 
+def signatures(exe):
+    """{sector: 'pos:value ..'} the code words (file halfword index: value) at pc 0, 1 and the first ops after the
+    variable area. textforce.lua patches a file only once these are in the buffer: the slot table names a file a
+    few frames before its data replaces the last file's (a patch on that frame hit stale words, TITA 2026-11-21).
+    Code sits before the text, so insertion doesn't move these words."""
+    import evscript
+    gdata = (ROOT / "work/disc/tree/GDATA.BIN").read_bytes()
+    out = {}
+    for sec, _, data, _ in evscript.script_files(exe, gdata):
+        try:
+            sc = evscript.Script(data)
+        except evscript.ParseError:
+            continue
+        base = sc.code_off // 2
+        pcs = [0, 1] + list(range(sc.start, min(sc.start + 6, len(sc.code))))
+        out[sec] = " ".join(f"{base + p}:{sc.code[p]}" for p in pcs)
+    return out
+
+
 def cmd_run(a):
     build, root = Path(a.build).resolve(), Path(a.root).resolve()
     offs, ends, names, choice = load(build)
     exe = (ROOT / "work/disc/tree/PSX.EXE").read_bytes()
+    sigs = signatures(exe)
     seen = shown(root)
     want = wanted(offs, names, seen, choice)
     # unshown choice menus: flag 2 in TARGETS (textforce.lua lets the scene's own print draw them)
@@ -172,7 +201,7 @@ def cmd_run(a):
     bt = battles(exe)
 
     def finished(nm):
-        p = run_dir(out, nm, how_to_run(nm, bt)[1]) / "emu.txt"
+        p = run_dir(out, nm, how_to_run(nm, bt, a.hero)) / "emu.txt"
         return p.exists() and any(x.startswith("exit") for x in p.read_text(errors="replace").splitlines())
 
     want = {s: v for s, v in want.items() if not finished(names[s][(n - 1) % len(names[s])])}
@@ -187,12 +216,14 @@ def cmd_run(a):
         for k, (o, rid) in enumerate(v):
             e = v[k + 1][0] if k + 1 < len(v) else ends[sec]
             cells.append(f"{o // 2},{e // 2},{1 if rid in miss else 2 if rid in chmiss else 0}")
-        how, battle = how_to_run(nm, bt)
+        how, battle = how_to_run(nm, bt, a.hero)
         cmd = [sys.executable, "-X", "utf8", str(ROOT / "tools/debug/warp.py"), *how, "--cue", cue,
                "--root", str(out), "--frames", str(min(a.frames + 400 * len(miss), 200000)),
                "--shot-every", str(a.shot_every), "--timeout", "3600", "--var", f"MASH_EVERY={a.mash}",
                "--lua", str(ROOT / "tools/lua/textforce.lua"),
                "--var", f"TARGETS='{' '.join(cells)}'"]
+        if sec in sigs:
+            cmd += ["--var", f"SIG='{sigs[sec]}'"]
         for v in a.var or ():
             cmd += ["--var", v]
         if a.keyforce:
@@ -202,7 +233,7 @@ def cmd_run(a):
         if a.jumpforce:
             cmd += ["--debugger", "--var", "JUMPFORCE=1"]
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
-        d = run_dir(out, nm, battle)
+        d = run_dir(out, nm, (how, battle))
         textcover_map.convert([d], exe, offs)
         log = (d / "log.txt").read_text(encoding="utf-8", errors="replace") if (d / "log.txt").exists() else ""
         print(f"{sec:04X}\t{nm}\trc {r.returncode}\tforced {log.count('FORCE ') - log.count('FORCE rows')}"
@@ -239,6 +270,7 @@ def main():
             s.add_argument("--frames", type=int, default=16000, help="base frames; +400 per unshown row (cap 200000)")
             s.add_argument("--mash", type=int, default=20, help="frames between circle presses (warp.lua MASH_EVERY)")
             s.add_argument("--only", help="comma-separated hex sectors")
+            s.add_argument("--hero", type=int, help="run each file as an event for this current hero (TM12ALL)")
             s.add_argument("--rows", help="comma-separated row ids (365E.1B8A,..): force only these")
             s.add_argument("--shot-every", type=int, default=1500, help="frames between shots (30 to catch a page)")
             s.add_argument("--var", action="append", help="extra textforce.lua variable, NAME=LUA (e.g. SKIPKEY=1)")

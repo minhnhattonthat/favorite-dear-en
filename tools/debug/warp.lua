@@ -269,7 +269,7 @@ L.on_frame(function(n)
       if MASH_ROTATE then
         -- choice menus: before each circle press 0..MASH_ROTATE-1 downs (pseudo-random, fixed seed), so a scene
         -- that loops through a menu also takes the options below the first one
-        rot_seed = ((rot_seed or 1) * 75 + 74) % 65537   -- ZX81 LCG: exact in doubles (LuaJIT)
+        rot_seed = ((rot_seed or ROT_SEED or 1) * 75 + 74) % 65537   -- ZX81 LCG: exact in doubles (LuaJIT)
         for _ = 1, rot_seed % MASH_ROTATE do L.press("down", 6); L.press("-", 10) end
       end
       L.press("circle", 6)

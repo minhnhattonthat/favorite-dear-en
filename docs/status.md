@@ -3,7 +3,23 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (visual gate passes on 94fa9887: 277 sheets, 0 unreviewed, 0 not
-  ok; **only textcover is left**: textforce pass 1 done for events, battles partial).
+  ok; **only textcover is left: 1182 of 8638 rows unshown in 131 files (101 choice menus)**, down from 5814).
+  Worker 24 (2026-11-21), build unchanged. (a) **Why forcing failed, fixed:** the printer index obj+0x10 moves a
+  page at a time, so the hook first saw a row when its first page was already drawn, then "forced" it again; and
+  re-pointing a running printer stalls it (docs/re/events.md). New `ADOPT` (`--var ADOPT=1`): never re-point a row
+  the printer entered; credit it and let the {wait}-patched terminator flow into the next row. New `--keypatch`:
+  files that print through op 0x90 (a message picked by its FFFB key: KAIWA, SxxOK, SY, SQA, SCQA, SMEN) get their
+  0x90 ops patched on load to print the first wanted keyed row. KAIWA1 0/240 -> 240/240. **Pass 3** (`textforce.py
+  run -j 4 --pass 3 --frames 40000 --mash 8 --keypatch --var SKIPKEY=1 --var ADOPT=1`, log `work/qa/force_p3b.txt`):
+  ~91% of targeted rows shown, 5784 -> 1182 left in ~2 h. Pass 2 (old logic, 12% yield) was stopped.
+  **Left, by family:** SMEN 469 (12 menu files: the run loops through the menu, mashing the first option, so rows
+  behind the other options never play: next try pressing down before circle on a CHOICE, e.g. a MASH pattern
+  that rotates the cursor per loop, or KEYPATCH-like patching of the menu's 0x3C/branch ops); T 328 (TxxSEN ~270:
+  they park in op 0x82, a world-map wait; `--var STARTPATCH=1` rewrites the entry and moves the task pc (obj+0x12)
+  there but the op does not release the task; find what 0x82 waits on, or waive with that proof); SS 198 (28
+  battle-wrapper events: op 0xD3 starts a fight the warp shows black, their text comes after it); TM 52 (TM0312B
+  and TM12ALL hang until the 3600 s timeout); SQA 43, MYH 26, MAPSYS 20, small rest. Next: pass 4 with the same
+  command and `--pass 4` (each file uses its next event name), then the menu strategy above.
   Worker 23 (2026-11-21), build unchanged. Event pass 1 (`force_run3.txt`) finished all 309 files at 09:55.
   The battle runner (`force_battle.txt`) stopped at 09:26 after 71 files with no final line, probably the host
   running out of memory (Claude Code also reaped a watcher for low memory). `textforce.py left` is now **5814 of
@@ -263,11 +279,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Event names map to GDATA files through the name lookup at 0x8003B680 (462 ids); useful for naming TSVs in QA.
   - 1824 of 9094 messages are referenced directly; how the rest are reached matters only for message order on insert.
   - Movies DEMO.STR / ENDING.STR / the end of OP.STR not checked for burned-in text.
-- **Waiting on the user:** (not blocking, worker 18) textcover scale: `textforce.py` shows ~40% of a file's rows per
-  run and pass 1 alone takes ~16 h at -j 1 (memory on the shared host allows little more), so the textcover gate
-  needs several passes (days of emulator time) plus a separate path for the 312 choice-menu rows. Default carried
-  on with: keep running passes. Alternative for the owner to choose: waive rows that `fitcheck.py` proves fit
-  (static width check per box) and keep the in-game pass for rows with codes, names or odd layouts.
+- **Waiting on the user:** (not blocking, worker 18, eased by worker 24) textcover scale: a textforce pass now takes
+  ~2 h at -j 4 and shows ~91% of targeted rows; 1182 rows are left (menus, world-map and battle-wrapper files).
+  Default carried on with: keep closing them in game. Alternative for the owner to choose: waive the rest with
+  `fitcheck.py` proof (static width check per box).
   (not blocking) abbreviations: the PSX.EXE ones are gone (phase 8 repoint: "Balgador
   Range", "Primse River", "Barba Isle", "Court Angel", "Chief Seraph", "Gigas Earring", "Dark Carriage"); left are
   "Jr. Power".."Jr. Seraph" (準X翼宮: the rank box holds 12 letters, "Junior Prince" needs 13). Say if "Jr." is

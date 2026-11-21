@@ -1,9 +1,11 @@
 """asmlint.py: load-delay hazards in the hand-written MIPS (asm/*.asm, asm/*.inc).
 
 The R3000A has no load interlock: the instruction right after a load still sees the register's OLD value. Real
-hardware and DuckStation behave that way; this repo's PCSX-Redux run does not for `jr` (it read the new ra), so a
-hazard there passes every emulator test and crashes players. `lw ra, 4(sp)` + `jr ra` in name.inc's name_latin
-jumped back into name_latin, left sp 8 bytes off and crashed the game at name entry (DuckStation, 2026-11-21).
+hardware, DuckStation and PCSX-Redux all model it, but what the hazard does next depends on stale stack contents
+(input timing), so it can pass emulator tests and still crash players. `lw ra, 4(sp)` + `jr ra` in name.inc's
+name_latin jumped back into name_latin and left sp 8 bytes off: a player's DuckStation froze at name entry
+(2026-11-21); PCSX-Redux carried on in 3 runs and froze the same way in a 4th (arrival 8 frames later).
+tools/lua/namelatin.lua shows the double pass.
 
     python -X utf8 tools/asmlint.py [FILE..]      exit 1 if any load's next instruction reads the loaded register
 

@@ -2,6 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **2026-11-21, after v1.0: name-entry crash fixed (not released yet).** A player on DuckStation froze when the name
+  grid opened (state `rom/fav_name_input.sav`). Cause: `asm/name.inc` name_latin had `lw ra` right before `jr ra`;
+  with no load interlock the `jr` used the old ra, ran the epilogue twice and resumed the task with sp 8 bytes off
+  (unhandled RI exception at 0x8001009C on DuckStation; PCSX-Redux survived it by luck, `tools/lua/namelatin.lua`
+  shows the double pass on v1.0 and one pass now). Fixed, plus `tools/asmlint.py` (load-delay lint over asm/, in
+  check.py via tests/test_asmlint.py; no other hazard). `tools/dsstate.py` reads a DuckStation .sav (RAM, shot,
+  crash registers). New build sha1 0e1a75b3f65286b31f51d09cb6fac00de03c2d4a: smoke ok, check ok (91),
+  `warp.py newgame_grid/newgame_name10 --cue build/...` ok with no CPU exception. **Next:** the user tests in
+  DuckStation, then `tools/release.py --version 1.0.1` (the owner publishes). Note `warp.py` defaults to the
+  original disc: pass `--cue build/favorite_dear_en.cue` to test the patch.
+
 - **Phase:** 9. Release done 2026-11-21 (worker 29): `tools/release.py --version 1.0` exit 0, every gate passed;
   `release/Favorite_Dear_EN_v1.0.zip` (xdelta 1425091 bytes, sha1 a82e8216c819bcb8148ddc53639f9c32b4b705f0, + README.txt),
   re-applied to the original = build sha1 858ac985b50a46d3166a8c18e281045f84af7697. Publishing (`gh release create`)

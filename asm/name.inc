@@ -153,16 +153,19 @@ name_pack:
     jr      ra
     nop
 
-; name_latin: draw the Latin page (0x8010567C, what the 英字 button calls) and make it the current page
+; name_latin: draw the Latin page (0x8010567C, what the 英字 button calls) and make it the current page.
+; Keep an instruction between `lw ra` and `jr ra`: the R3000A has no load interlock, so a `jr ra` right after the
+; load jumps to the old ra (back into this function), runs the epilogue twice and leaves sp 8 bytes off. That crashed
+; the game at name entry on DuckStation and real hardware; PCSX-Redux hid it (tools/asmlint.py checks for it).
 name_latin:
     addiu   sp, sp, -8
     sw      ra, 4(sp)
     jal     0x8010567C
     nop
+    lw      ra, 4(sp)
     addiu   v0, zero, 2
     lui     at, 0x8002
     sh      v0, 0x752E(at)
-    lw      ra, 4(sp)
     jr      ra
     addiu   sp, sp, 8
 

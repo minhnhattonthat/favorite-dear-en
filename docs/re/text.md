@@ -151,6 +151,9 @@ are MS Gothic's 12 px embedded bitmap (kanji match exactly), kana/Latin/punctuat
   moved to 0x80125980+); on commit single letters are packed two per halfword, capped at 5 halfwords. Verified
   (`tools/lua/peek.lua`): default -> 0x8001F5F6 = `Ra vi el FFFF`, week screen shows "Raviel" (`warp.py week1`);
   `warp.py newgame_name10` -> `Ra vi ww ww ww FFFF`, an 11th letter refused.
+- v1.0 crashed here on DuckStation: name_latin (0x80125A40, called from 0x800C0F58 in task 0x800C0E3C) had `jr ra`
+  in the load-delay slot of `lw ra`, so it returned twice and left the task's sp 8 bytes off. Fixed 2026-11-21;
+  `tools/asmlint.py` guards every asm file.
 
 ## Hero skills (phase 8, `asm/skill.inc`)
 

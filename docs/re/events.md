@@ -50,6 +50,12 @@
 - **The printer index obj+0x10 moves a page at a time** (it jumps to the next {wait} or the end), not per letter:
   a frame hook first sees a message when its first page is already drawn. Re-pointing obj+0/obj+0x10 while the
   printer is mid-message stalls it (~60 frames, then it resumes elsewhere): obj+0/0x10 are not its whole state.
+- **Ops seen in branches (2026-11-21, SS0204/EVFUM02):** `0028 <ref>` goto; `002B a b <ref>` and `002C a b <ref>`
+  conditional jumps (a, b: values or work-word refs); `003C <ref>` print the message at ref; `00D3/00E3 <stage>
+  <ref to the hero word>` battle; `0037` end. After a story battle the script reads the result (`005E 000F 8007`)
+  and jumps to its end unless won: a warp's battle ends at once, so the text after it never plays.
+  textforce `NOBATTLE` turns the battle and those end-jumps into gotos to the next op; `PRINTPATCH` points every
+  `003C` at a row still wanted (a branch the cold boot never takes, e.g. EVFUM "returned" vs "quit").
 - Two scripts have no size in any table: 0x5988 entry 0 (sector 0x3559, size 0) and sector 0x3672 (in no table);
   each runs to the next file and parses. Their 13 rows carry the note "orphan" (possibly unused).
 - **Insertion (phase 5/7) must relocate:** longer text shifts every later halfword, so every reference argument

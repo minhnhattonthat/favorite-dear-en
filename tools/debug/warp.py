@@ -149,6 +149,7 @@ def main():
     ap.add_argument("--debugger", action="store_true", help="interpreter mode (needed for L.on_exec hooks)")
     ap.add_argument("--shot-every", type=int, default=150, help="frames between shots (default 150)")
     ap.add_argument("--root", default=None, help="output directory (default work/qa/warp)")
+    ap.add_argument("--name", default=None, help="run folder name for a single --event/--battle run")
     ap.add_argument("--frames", type=int, default=None,
                     help="run length for --event/--battle runs (default 16500/17500; text coverage sweeps use more)")
     a = ap.parse_args()
@@ -180,6 +181,10 @@ def main():
                      "card": "", "post": "", "proof": "1200", "note": ""})
     if not todo:
         ap.error("name a scene, --event NAME, --battle NAME or --all")
+    if a.name:
+        if len(todo) != 1:
+            ap.error("--name takes exactly one run")
+        todo[0]["scene"] = a.name
     with ThreadPoolExecutor(max_workers=a.j) as ex:
         res = list(ex.map(lambda s: run(s, a.cue, a.state, a.timeout), todo))
     os.makedirs(ROOT, exist_ok=True)

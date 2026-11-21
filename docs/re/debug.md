@@ -121,7 +121,11 @@ id 32 showing up in the loaded-event table. From cold boot to the event takes ~1
   So kind `battle` (warp.py `--battle NAME`, scenes `battle_t0101` ..) hosts SS0204 for hero 2, whose command D3 calls
   battle_start(0xC0), and rewrites stage-table entry 0xC0 (0x80174BD8, reset when SS0204 loads, so warp.lua rewrites it
   every frame until arrival) to the target id. Arrival = the target id in the loaded-event table.
-- **TxxSEN (ids 1-12) are not battles** (not in 0x80174A84). They start from the world-map task 0x8011B92C:
+- **TxxSEN = hero xx's battle lines (verified 2026-11-21).** Any battle with hero xx in front loads TxxSEN as event
+  id xx in slot 7 (`warp.py --battle T0101 --var HERO=3` -> `SCR 7 3`); their {e0:XXXX} rows are the hero's lines
+  for battle events. Exception: a hero-1 battle loads no SEN file, so textforce loads T01SEN under id 3 in a hero-3
+  battle (warp.lua `SWAP='3=T01SEN'`). textforce shows all 12 files this way (`textforce.how_to_run`).
+  Older note, still true: they are not in the battle table 0x80174A84, and they are also started from the world-map task 0x8011B92C:
   `0x800D0128(stage idx = u16 0x80026C18)` -> stage table 0x80174BD8[idx] = id idx. The task is installed after
   `0x8011B8D0(hero, town, ..)` (sets 0x80020991, 0x800271A5) from world-map code (0x80127340, 0x80128EE0,
   0x80129170) through the task list (0x800F33BC), so a RAM write can't install it. Swapped into MYH16's slot they stick

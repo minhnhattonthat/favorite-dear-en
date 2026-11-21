@@ -23,6 +23,11 @@ each time the scene starts a message, so the scene's own print ops play the whol
         `--var STARTPATCH=1` (with --keypatch; untested beyond TxxSEN, where it fails): a file with no 0x90 site gets
         its entry replaced by `00BA 003C <row> 00B9 0037` and the VM task (obj+0x12 = pc) moved there. TxxSEN still
         print nothing: they park in op 0x82 (a world-map wait) and moving the pc does not wake them.
+        Pass 6 settings (2026-11-21), each a textforce.lua/warp.lua --var: PRINTPATCH=1 (every `003C` print site
+        points at the first wanted row: rows behind untaken branches), RECHOICE=1 (re-patch after each choice menu:
+        SMEN01 10 -> 20 of 26 rows per run), NOBATTLE=1 (SSxxxx: battle op and the end-jumps on its result become
+        gotos, SS0204 0 -> 30/30), MASH_ROTATE=3 (warp.lua: 0..2 downs before each circle: battle "ran away" rows,
+        other menu answers). TxxSEN run as a battle with hero xx (how_to_run); SSxxyy run with hero xx.
     python -X utf8 tools/textforce.py left [--build ..] [--root ..]
         rows still unshown per sector.
 Then: python -X utf8 $SKILL/scripts/textcover.py <root> <build>/strings.tsv --waive docs/text_unshown_unloaded.tsv
@@ -73,8 +78,32 @@ def battles(exe):
         o += 4
 
 
+SEN = re.compile(r"T(\d\d)SEN")  # hero NN's battle lines (event id NN): loaded in any battle with hero NN in front
+SEN_HOST = "T0101"
+SS = re.compile(r"SS(\d\d)\d+")  # SSxxyy..: hero xx's story events
+
+
 def run_dir(out, nm, battle):
     return out / (("bt_" + nm) if battle else ("ev_" + nm.replace(":", "_")))
+
+
+def how_to_run(nm, bt):
+    """(warp.py args, battle?) for event name nm. TxxSEN run as battle SEN_HOST with hero xx in front (HERO=xx),
+    forcing their own file (FORCE_ID=xx): `--event` parks them in op 0x82, a world-map wait."""
+    m = SEN.fullmatch(nm)
+    if m:
+        h = int(m[1])
+        swap = []
+        if h == 1:  # a hero-1 battle loads no SEN file (2026-11-21 probe): load T01SEN as T03SEN in a hero-3 one
+            h, swap = 3, ["--var", f"SWAP='3={nm}'"]
+        return ["--battle", SEN_HOST, "--name", "bt_" + nm, "--var", f"HERO={h}", "--var", f"FORCE_ID={h}",
+                *swap], True
+    if nm in bt:  # a battle's file loads under its own id (textforce.lua FORCE_ID), after the host starts the fight
+        return ["--battle", nm, "--var", f"FORCE_ID={bt[nm]}"], True
+    m = SS.fullmatch(nm)
+    if m and 1 <= int(m[1]) <= 12:  # hero xx's story event: its battle (op 0xD3) needs hero xx, not MYH16's Reiv
+        return ["--event", f"{nm}:{int(m[1])}", "--name", "ev_" + nm], False
+    return ["--event", nm], False
 
 
 def shown(root):
@@ -143,7 +172,7 @@ def cmd_run(a):
     bt = battles(exe)
 
     def finished(nm):
-        p = run_dir(out, nm, nm in bt) / "emu.txt"
+        p = run_dir(out, nm, how_to_run(nm, bt)[1]) / "emu.txt"
         return p.exists() and any(x.startswith("exit") for x in p.read_text(errors="replace").splitlines())
 
     want = {s: v for s, v in want.items() if not finished(names[s][(n - 1) % len(names[s])])}
@@ -158,9 +187,7 @@ def cmd_run(a):
         for k, (o, rid) in enumerate(v):
             e = v[k + 1][0] if k + 1 < len(v) else ends[sec]
             cells.append(f"{o // 2},{e // 2},{1 if rid in miss else 2 if rid in chmiss else 0}")
-        battle = nm in bt
-        # a battle's file loads under its own id (textforce.lua FORCE_ID), after the host event starts the fight
-        how = ["--battle", nm, "--var", f"FORCE_ID={bt[nm]}"] if battle else ["--event", nm]
+        how, battle = how_to_run(nm, bt)
         cmd = [sys.executable, "-X", "utf8", str(ROOT / "tools/debug/warp.py"), *how, "--cue", cue,
                "--root", str(out), "--frames", str(min(a.frames + 400 * len(miss), 200000)),
                "--shot-every", str(a.shot_every), "--timeout", "3600", "--var", f"MASH_EVERY={a.mash}",

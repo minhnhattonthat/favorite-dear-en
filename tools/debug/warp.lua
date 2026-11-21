@@ -8,6 +8,7 @@
 --   PROOF  frames from arrival to the proof shot arrived.png (default 30)
 --   AFTER  'mash' (default: press circle every MASH_EVERY frames once there) | 'hold' (no input once there)
 --   MASH_EVERY  frames between circle presses after arrival (default 45)
+--   MASH_ROTATE N: press down 0..N-1 times (pseudo-random) before each of those circle presses (choice menus)
 --   POST   presses after arrival, route syntax with ';' between steps ("60 -;6 cross;500 -"): submenus of a
 --          scene. Shot post.png when they are done; STATE is then saved there instead.
 --   STATE  absolute path: save a savestate here 60 frames after arrival
@@ -142,6 +143,14 @@ L.on_frame(function(n)
     for i = 0, 8 do mem[a + i] = i < #EVENT and EVENT:byte(i + 1) or 0 end
     patched = true
     L.log(string.format("WARP patched slot %d -> %s f%d", SLOT, EVENT, n))
+    if SWAP then
+      -- SWAP 'ID=NAME': the loader fetches NAME's file wherever the game loads event ID (textforce: hero 1's battle
+      -- loads no T01SEN, so T01SEN goes under T03SEN's id 3 in a hero-3 battle)
+      local id, nm = SWAP:match("^(%d+)=(%w+)$")
+      local b = (NAMES + 9 * tonumber(id)) & 0x1FFFFF
+      for i = 0, 8 do mem[b + i] = i < #nm and nm:byte(i + 1) or 0 end
+      L.log(string.format("WARP swapped id %s -> %s f%d", id, nm, n))
+    end
     if BATTLE then
       for id = 0, 461 do
         if rdstr(NAMES + 9 * id, 9) == BATTLE then battle_id = id; break end
@@ -256,6 +265,14 @@ L.on_frame(function(n)
       L.save_state(STATE); L.log("WARP state " .. STATE)
     end
     if AFTER == "hold" and dt >= PROOF + 60 and (not POST or post_done) then L.shot("final.png"); L.finish(0) end
-    if AFTER == "mash" and dt > 0 and dt % MASH_EVERY == 0 and L.route_done() then L.press("circle", 6) end
+    if AFTER == "mash" and dt > 0 and dt % MASH_EVERY == 0 and L.route_done() then
+      if MASH_ROTATE then
+        -- choice menus: before each circle press 0..MASH_ROTATE-1 downs (pseudo-random, fixed seed), so a scene
+        -- that loops through a menu also takes the options below the first one
+        rot_seed = ((rot_seed or 1) * 75 + 74) % 65537   -- ZX81 LCG: exact in doubles (LuaJIT)
+        for _ = 1, rot_seed % MASH_ROTATE do L.press("down", 6); L.press("-", 10) end
+      end
+      L.press("circle", 6)
+    end
   end
 end)

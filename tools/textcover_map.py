@@ -123,7 +123,7 @@ def convert(logdirs, exe, offs):
         slots, keys, ids = {}, [], dict(ids0)
         for x in lines:
             # warp.lua --event renames event id SLOT to EVENT in the name table: that id now loads EVENT's file
-            m = re.search(r"WARP patched slot (\d+) -> (\S+)", x)
+            m = re.search(r"WARP (?:patched slot|swapped id) (\d+) -> (\S+)", x)  # swapped: warp.lua SWAP
             if m and m[2].upper() in bare:
                 ids[int(m[1])] = bare[m[2].upper()]
                 continue

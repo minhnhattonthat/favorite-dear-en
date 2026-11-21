@@ -120,12 +120,45 @@ local function keypatch(hoff, n)
   local t, key = keyed_target(hoff, cpc)
   -- loaded = header u16 6, a sane code offset, and the last row's sector in (it loads a sector at a time)
   local loaded = rd(hoff) == 6 and cpc <= rows[1].s and rd(hoff + rows[#rows].s) ~= 0
-  if not loaded or (not t and not STARTPATCH) then
+  if not loaded or (not t and not STARTPATCH and not PRINTPATCH) then
     local why = string.format("KEYPATCH wait hdr %X code %X target %s", rd(hoff), cpc, tostring(t))
     if why ~= kp_why then kp_why = why; L.log(why .. string.format(" f%d", n)) end
     return
   end
   patched_at = hoff
+  if NOBATTLE then
+    -- NOBATTLE (SSxxxx story events): their battle (op 0xD3/0xE3 <stage> <ref>) ends at once in a warp, and the
+    -- result checks after it (`002B/002C <a> <b> <ref to an 0037 end>`) then end the event before its text. Turn
+    -- both into a goto to the next op (`0028 <ref>`; the leftover args are jumped over).
+    local cnt = 0
+    for p = cpc, rows[1].s - 4 do
+      local op = rd(hoff + p)
+      if not inrow[p] and (op == 0xD3 or op == 0xE3) and (rd(hoff + p + 2) & 0xFF00) == 0x8000 then
+        wr(hoff + p, 0x28); wr(hoff + p + 1, 0x8000 | (p + 3 - cpc)); cnt = cnt + 1
+      elseif not inrow[p] and (op == 0x2B or op == 0x2C) and rd(hoff + p + 3) >= 0x8000
+          and rd(hoff + cpc + (rd(hoff + p + 3) & 0x7FFF)) == 0x37 then
+        wr(hoff + p, 0x28); wr(hoff + p + 1, 0x8000 | (p + 4 - cpc)); cnt = cnt + 1
+      end
+    end
+    L.log(string.format("NOBATTLE sites %d f%d", cnt, n))
+  end
+  if PRINTPATCH then
+    -- PRINTPATCH: a row behind a script branch the cold boot never takes (EVFUM: "returned" vs "quit"): point
+    -- every plain print `003C <ref to a row start>` outside the rows at the first wanted row
+    local w
+    for i, r in ipairs(rows) do if r.want and r.s >= cpc then w = i; break end end
+    local cnt = 0
+    for p = cpc, (w and rows[#rows].e - 2 or cpc - 1) do
+      local a = rd(hoff + p + 1)
+      if not inrow[p] and rd(hoff + p) == 0x3C and a >= 0x8000 and rowstart[(a & 0x7FFF) + cpc]
+          and rowstart[(a & 0x7FFF) + cpc] ~= w then
+        wr(hoff + p + 1, 0x8000 | (rows[w].s - cpc)); cnt = cnt + 1
+      end
+    end
+    L.log(string.format("PRINTPATCH %s sites %d f%d", tostring(w), cnt, n))
+    if cnt > 0 and not t then return end  -- keyed rows too: the 0x90 sites below
+  end
+  if not t and not STARTPATCH then return end
   if not t then startpatch(hoff, n); return end
   local cnt = 0
   for p = cpc, rows[#rows].e - 3 do
@@ -266,6 +299,8 @@ L.on_frame(function(n)
       rows[i].choice = false
       L.log(string.format("CHOICE %d f%d", i, n))
       cur = i
+      -- the answer's 0x90/0x3C lookups come next: re-patch them at the rows still wanted after this point
+      if KEYPATCH and RECHOICE then patched_at = nil end
     elseif not chainp and i and i ~= cur and idx ~= written then
       local own = rows[i].want and rel == rows[i].s
       local t = own and i or next_want(cur or i)

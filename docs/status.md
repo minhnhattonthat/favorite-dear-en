@@ -9,9 +9,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   shows the double pass on v1.0 and one pass now). Fixed, plus `tools/asmlint.py` (load-delay lint over asm/, in
   check.py via tests/test_asmlint.py; no other hazard). `tools/dsstate.py` reads a DuckStation .sav (RAM, shot,
   crash registers). New build sha1 0e1a75b3f65286b31f51d09cb6fac00de03c2d4a: smoke ok, check ok (91),
-  `warp.py newgame_grid/newgame_name10 --cue build/...` ok with no CPU exception. **Next:** the user tests in
-  DuckStation, then `tools/release.py --version 1.0.1` (the owner publishes). Note `warp.py` defaults to the
-  original disc: pass `--cue build/favorite_dear_en.cue` to test the patch.
+  `warp.py newgame_grid/newgame_name10 --cue build/...` ok with no CPU exception. Released as v1.0 (owner's call,
+  replacing the unpublished v1.0 zip): `tools/release.py --version 1.0 --force` exit 0, tour gate waived for this
+  hotfix build; xdelta sha1 92f4de4612efbdbfa07a92dc57ca43a220f3dd36 (1425096 bytes), re-apply = 0e1a75b3. Published
+  on GitHub (repo made public, release v1.0). Note `warp.py` defaults to the original disc: pass
+  `--cue build/favorite_dear_en.cue` to test the patch.
 
 - **Phase:** 9. Release done 2026-11-21 (worker 29): `tools/release.py --version 1.0` exit 0, every gate passed;
   `release/Favorite_Dear_EN_v1.0.zip` (xdelta 1425091 bytes, sha1 a82e8216c819bcb8148ddc53639f9c32b4b705f0, + README.txt),

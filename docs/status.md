@@ -3,7 +3,27 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (visual gate passes on 94fa9887: 277 sheets, 0 unreviewed, 0 not
-  ok; **only textcover is left: 1098 of 8638 rows unshown in 125 files (92 choice menus)**, down from 5814).
+  ok; **only textcover is left: 574 of 8638 rows unshown in 51 files (87 choice menus)**, down from 1098).
+  Worker 26 (2026-11-21), build unchanged. **Pass 9 was stopped by Claude Code for low host memory after 36 of 74
+  files** (log `work/qa/force_p9.txt`). **Resume:** check free memory (> 4 GB for -j 3, else -j 2), then
+  `python -X utf8 tools/textforce.py run -j 3 --pass 9 --only $(cat work/qa/left9.txt) --frames 40000 --mash 8
+  --keypatch --var SKIPKEY=1 --var ADOPT=1 --var PRINTPATCH=1 --var RECHOICE=1 --var NOBATTLE=1 --var MASH_ROTATE=3
+  --var ROT_SEED=9 > work/qa/force_p9b.txt` (finished runs are skipped), then `textforce.py left`, then another pass
+  (`--pass 10`, new `ROT_SEED`) on what is left; the SMEN menus gain ~20 rows a run, so they need 2-3 more passes.
+  **Left now:** SMEN01-12 469 (choice-driven), SS0202 24, SS1206 12, SS1004 10, SS1106 8, SS0501/0507 9, MAPSYS 20,
+  EVFUM03-12 7 (1 each), AN 4, HOUMON 3, TM0312A/TM0407B 3+3, MYH14-17 1 each, a few single rows (SW11 "Dummy",
+  T0204, T00IUV, GBUEND, SS singles). Most of them were not yet run with the new options (pass 9 is sorted by
+  sector; it stopped in the SS range).
+  **Found and fixed this session** (`tools/textforce.py` docstring, `docs/re/events.md`, `docs/re/debug.md`):
+  TxxSEN are hero xx's battle lines: a battle with HERO=xx loads them (all 12 shown; T01SEN loads via warp.lua
+  `SWAP` in a hero-3 battle). T-battles get HERO from their name (T0703 0 -> 10/10). SSxxyy run as `NAME:xx` with
+  NOBATTLE (the battle op and its result end-jumps become gotos: SS0204 30/30). PRINTPATCH points every `003C`
+  print at a wanted row and turns conditional jumps (0x2B-0x2F) into a wanted print into gotos (EVFUM, SQA "..."
+  random roll, TITA 25/25). RECHOICE re-patches after each choice (SMEN01 10 -> 20 rows a run). MASH_ROTATE (warp.lua)
+  presses 0-2 downs before each circle: battle "ran away" rows. TM files run as events (TM12ALL switches on the
+  hero, `--hero N`; 31/31 with hero 1). **Bug fixed:** the slot table names a file frames before its data replaces
+  the last one, so KEYPATCH patched stale words; now `SIG` (the file's own code words) must match first. Earlier
+  passes were hurt by this, so re-running files that "failed" before is worth it.
   Worker 25 (2026-11-21), build unchanged. Pass 4 (same command, `--pass 4`, log `work/qa/force_p4.txt`) was
   killed by Claude Code for low host memory after 95 runs: 1182 -> **1098 left in 125 files (92 choice menus)**.
   Resume with the same command (finished runs are skipped) when free memory allows (-j 2 if under 4 GB free).

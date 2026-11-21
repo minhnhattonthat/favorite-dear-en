@@ -80,6 +80,7 @@ def battles(exe):
 
 SEN = re.compile(r"T(\d\d)SEN")  # hero NN's battle lines (event id NN): loaded in any battle with hero NN in front
 SEN_HOST = "T0101"
+BHERO = re.compile(r"T(\d\d)\d\d")
 SS = re.compile(r"SS(\d\d)\d+")  # SSxxyy..: hero xx's story events
 
 
@@ -108,7 +109,9 @@ def how_to_run(nm, bt, hero=None):
     if nm.startswith("TM"):  # in the battle table, but heroes talking, no fight: as --battle TM0312B/TM12ALL hang
         return ["--event", nm], False
     if nm in bt:  # a battle's file loads under its own id (textforce.lua FORCE_ID), after the host starts the fight
-        return ["--battle", nm, "--var", f"FORCE_ID={bt[nm]}"], True
+        m = BHERO.match(nm)  # Txxyy: hero xx's battle, whose dialogue needs hero xx on the field (T0703: Ryudral)
+        hero = ["--var", f"HERO={int(m[1])}"] if m and 1 <= int(m[1]) <= 12 else []
+        return ["--battle", nm, "--var", f"FORCE_ID={bt[nm]}", *hero], True
     m = SS.fullmatch(nm)
     if m and 1 <= int(m[1]) <= 12:  # hero xx's story event: its battle (op 0xD3) needs hero xx, not MYH16's Reiv
         return ["--event", f"{nm}:{int(m[1])}", "--name", "ev_" + nm], False

@@ -1,6 +1,6 @@
-# <Game title> English translation
+# Favorite Dear English translation
 
-Unofficial English fan translation of **<Game title>** (<platform>, <publisher>, <year>): the source text and tools
+Unofficial English fan translation of **Favorite Dear** (PlayStation, NEC Interchannel, 1998): the source text and tools
 that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
@@ -13,13 +13,19 @@ helps most.
 
 | Part | Status |
 |---|---|
-| <Dialogue / story> | <Translated> |
-| <Menus, items, skills, system messages> | <Translated> |
-| <Title screen, logos, graphics with text> | <Translated / Left in Japanese> |
-| <Name entry> | <Translated / Japanese kana only> |
-| <Songs, voiced lines, credits roll> | <Left in Japanese> |
+| Dialogue and story, battle text, the 23 endings | Translated |
+| Menus, items, places, system messages | Translated (two short status-label strings in PSX.EXE are still Japanese: their layout is not known yet) |
+| Title screen, menus and labels drawn as graphics | Translated (the small kana reading under the title logo is kept) |
+| Name entry | English letter page by default; the kana pages are kept |
+| Staff credits | Translated (names romanized) |
+| Voice acting, songs | Left in Japanese (audio) |
+| Memory-card titles (console memory-card manager) | Left in Japanese |
 
-Known issues: <none known / see [Issues](../../issues)>.
+Base disc: `Favorite Dear (Japan).bin` (Redump, SLPS-01759), 594696144 bytes, CRC32 8269851F,
+MD5 8151d2c66c6d8978324a0c872dedc21d, SHA-1 509ffd8fc65852eab028238d06fe23f9f0db7d13. Tested in PCSX-Redux; start
+from a cold boot, not a savestate made with the Japanese game.
+
+Known issues: see [Issues](../../issues).
 
 ## What's here
 
@@ -40,11 +46,11 @@ Known issues: <none known / see [Issues](../../issues)>.
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/<repo>
-cd <repo>
-# copy your dump to: rom/<file>
-#   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+git clone https://github.com/minhnhattonthat/favorite-dear-en
+cd favorite-dear-en
+# copy your dump to: rom/Favorite Dear (Japan).bin and .cue
+#   (594696144 bytes, SHA-1 509ffd8fc65852eab028238d06fe23f9f0db7d13; the build refuses any other dump, see rom.sha1)
+python -X utf8 tools/build.py                          # -> build/favorite_dear_en.bin/.cue
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
@@ -56,8 +62,8 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 ## Licence
 
-Tools and English translation: MIT. The original Japanese text in `script/` is <publisher>'s and is included only so
-the translation can be checked against it. <Game title> is (c) <publisher>; this project is not affiliated with them.
+Tools and English translation: MIT. The original Japanese text in `script/` is NEC Interchannel's and is included only
+so the translation can be checked against it. Favorite Dear is (c) NEC Interchannel; this project is not affiliated with them.
 Do not share patched ROMs.
 
 The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.

@@ -2,7 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: next. Phase 8 done 2026-11-21 (worker 28, build unchanged 94fa9887): `textcover.py
+- **Phase:** 9. Release done 2026-11-21 (worker 29): `tools/release.py --version 1.0` exit 0, every gate passed;
+  `release/Favorite_Dear_EN_v1.0.zip` (xdelta 1425091 bytes, sha1 a82e8216c819bcb8148ddc53639f9c32b4b705f0, + README.txt),
+  re-applied to the original = build sha1 858ac985b50a46d3166a8c18e281045f84af7697. Publishing (`gh release create`)
+  is the owner's call. Ad-hoc warps `--event SS1102:11` / `S0705OK` did not reach their scenes (not needed: the tour
+  gate is waived for this text-only build with the static checks). Phase 9 work: story pass, all 17 chapter files
+  (`tools/pairs.py --chapters`, chapters from `docs/synopsis.md`, split at batch boundaries above 160 KB;
+  `work/qa/story/`: brief.md, manifest, verdicts; Explore/Sonnet read-only reviewers since codex is out until
+  2026-11-26). Important fixes: 358B.2332 and 3802.12A6 Yaruru "Big Sis" (D13), 36BB.07DA Ryudral "Took you long
+  enough", Nasadia 天使サマ -> "my dear angel" on her teasing rows (38A0, 38A6, 39FB), gift-choice callback quotes
+  "Since you offer" (3A84/3A9A/3AB1). A ch06a "Critical" (Opponent: label on Nasadia's lines, 3899.14D0) was false:
+  the EN already drops it. Minors: fixed or waived in `docs/polish.md` (all ticked). New `tools/jpcheck.py`
+  (leftover-Japanese gate: rows + jp_left on STAFF.TXT and the PSX.EXE row spans; kept-on-purpose rows in
+  `docs/jp_kept.tsv`: two offset-indexed label rows PSX.166398/1663C4, name-entry kana grid, two memory-card
+  titles), new `tools/release.py`, README filled (hashes, status table). Visual-tour gate waived for this text-only
+  build (see below). Phase 8 summary: done 2026-11-21 (worker 28, build unchanged 94fa9887): `textcover.py
   work/qa/force work/qa/force_build/strings.tsv --waive docs/text_unshown_unloaded.tsv` exits 0 (8633/8824 shown,
   191 waived, 0 failing); `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0 (277 sheets); check.py ok
   (79). **Phase 9 to do:** story-pass verdicts per chapter, `docs/polish.md` unticked lines, release script running

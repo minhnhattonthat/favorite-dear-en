@@ -68,7 +68,7 @@ id	en
 3A84.2432	{spk:0080}{n}It's nothing big, but I thought I'd give you this. Take it.{n}{wait}{clear}{end}
 3A84.24A6	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Yes. I'll gladly accept.｝{n}{f7:0080}｛Since you offer, thanks.｝{n}{f7:0080}｛My vows forbid it.　　　｝{n}{end}
 3A84.25A6	{fb:6480}{n}{spk:0080}{n}{e5:0180}{n}Ha ha ha... Nah, sorry, sorry. I didn't think you'd get so innocently happy over something like that.{n}{wait}{clear}{spk:0080}{n}Well, I hope it comes in handy.{n}{fd:038000800580}{n}{wait}{clear}{end}
-3A84.2706	{fb:C880}{n}{spk:0080}{n}{e5:0280}{n}"Since I offer"? Something about the way you said that bugs me.{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Eh, whatever. Anyway, take good care of it.{n}{fd:038000800380}{n}{wait}{clear}{end}
+3A84.2706	{fb:C880}{n}{spk:0080}{n}{e5:0280}{n}"Since you offer"? Something about the way you said that bugs me.{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Eh, whatever. Anyway, take good care of it.{n}{fd:038000800380}{n}{wait}{clear}{end}
 3A84.2816	{fb:2C81}{n}{spk:0080}{n}{e5:0280}{n}Vows?! Hey, hey, just keep quiet about that stuff.{n}{wait}{clear}{spk:0080}{n}Jeez... Can't be helped, I guess.{n}{wait}{clear}{end}
 3A84.2890	{fb:2D81}{n}{spk:0080}{n}Vows?! Hey, hey, just keep quiet about that stuff.{n}{wait}{clear}{spk:0080}{n}Jeez... Can't be helped, I guess.{n}{wait}{clear}{end}
 3A84.2906	{spk:0080}{n}{e5:0380}{n}Hey, it's been a while, {name:0080}.{n}{wait}{clear}{end}

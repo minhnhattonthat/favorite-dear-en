@@ -1,0 +1,5 @@
+PSX.166398	offset-indexed field strings (贈りますか？装備不可 攻撃力防御力素早さ): no pointer reaches them, code indexes them from an unknown base, so the field layout is unknown and an in-place change could shift a field; kept Japanese since phase 6 (README known issues)
+PSX.1663C4	offset-indexed field strings (正義感ストレス体力アイテム中です): as PSX.166398
+PSX.017E64	name-entry kana grid: the katakana and hiragana pages stay usable by D16 (the Latin page is the default)
+PSX.01D770	memory-card title (Shift-JIS, shown only by the console's memory-card manager); the game appends the slot digit, kept so existing saves look the same
+EPILOG.048330	clear-data memory-card title (Shift-JIS, memory-card manager only), kept as PSX.01D770

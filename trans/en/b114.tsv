@@ -1,6 +1,6 @@
 id	en
 39FB.0FD4	{fb:0A80}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}I'm fine. I'm not tired...{n}{wait}{clear}{end}
-39FB.103C	{fb:1480}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{spk:0080}{n}...I'm not hungry. Are you hungry, Angel?{n}{wait}{clear}{end}
+39FB.103C	{fb:1480}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{spk:0080}{n}...I'm not hungry. Are you, my dear angel?{n}{wait}{clear}{end}
 39FB.10A0	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Not yet... Once we're a little further along.{n}{wait}{clear}{end}
 39FB.1112	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}You ask strange things, Angel. Don't worry about it... When I don't like something, I'll say so.{n}{wait}{clear}{end}
 39FB.11A2	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}Right. I want to rest soon anyway... I'll hurry, then.{n}{wait}{clear}{end}
@@ -9,7 +9,7 @@ id	en
 39FB.1316	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}... Not really. Not much.{n}{wait}{clear}{end}
 39FB.1376	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Really? That's the first time anyone's said that to me.{n}{wait}{clear}{end}
 39FB.13E2	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}I don't... think that...{n}{wait}{clear}{end}
-39FB.144C	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}I'm fine. But let's have something to drink later. All right, Angel?{n}{wait}{clear}{end}
+39FB.144C	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}I'm fine. But let's have something to drink later. All right, my dear angel?{n}{wait}{clear}{end}
 39FB.14CC	{fb:7880}{n}{spk:E783}{n}Do you like taking walks?{n}{wait}{clear}{spk:0080}{n}I don't like them much. Just walking, that is...{n}{wait}{clear}{end}
 39FB.1538	{fb:8280}{n}{spk:E783}{n}You're in quite a hurry.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Am I? This much is normal, isn't it?{n}{wait}{clear}{end}
 39FB.1598	{fb:8C80}{n}{spk:E783}{n}Have you ever wanted to fly?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Let me see... I have wished it... yes...{n}{wait}{clear}{spk:0080}{n}I wish it all the time...{n}{wait}{clear}{end}
@@ -24,21 +24,21 @@ id	en
 39FB.2254	{fb:3280}{n}{spk:E783}{n}You're not drinking tonight?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}No... I'm not in the mood today...{n}{wait}{clear}{end}
 39FB.22D0	{fb:3C80}{n}{spk:E783}{n}Do you like the night?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}What, all of a sudden... ...Well, I don't dislike the night. Just because... heh heh.{n}{wait}{clear}{end}
 39FB.236A	{fb:FF81}{n}{spk:0080}{n}Is there something else you need?{n}{wait}{clear}{end}
-39FB.278C	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Something delicious. I can splurge on a meal at least, can't I, Angel?{n}{wait}{clear}{end}
-39FB.281A	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Heh heh, what's this? Are you treating me, Angel?{n}{wait}{clear}{end}
+39FB.278C	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Something delicious. I can splurge on a meal at least, can't I, my dear angel?{n}{wait}{clear}{end}
+39FB.281A	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Heh heh, what's this? Are you treating me, my dear angel?{n}{wait}{clear}{end}
 39FB.2890	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}How rude...{n}{wait}{clear}{end}
-39FB.28EC	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}It does. Aren't you getting hungry too, Angel?{n}{wait}{clear}{end}
+39FB.28EC	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}It does. Aren't you getting hungry too, my dear angel?{n}{wait}{clear}{end}
 39FB.295E	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}Do angels have to worry about that sort of thing too...? How tiresome...{n}{wait}{clear}{end}
 39FB.29EA	{fb:3280}{n}{spk:E783}{n}Do you cook?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Oh my... Do I have to answer even that?{n}{wait}{clear}{end}
 39FB.2A5E	{fb:3C80}{n}{spk:E783}{n}I'd love to try your cooking.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}I don't mind... But it'll cost you.{n}{wait}{clear}{end}
 39FB.2E3A	{fb:FE81}{n}{spk:0080}{n}Done? Is there something else?{n}{wait}{clear}{end}
-39FB.2E6E	{fb:0080}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}Heh heh... What's this? You want to come out and play too, Angel? But... next time.{n}{wait}{clear}{end}
+39FB.2E6E	{fb:0080}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}Heh heh... What's this? You want to come out and play too, my dear angel? Next time.{n}{wait}{clear}{end}
 39FB.2EF0	{fb:0A80}{n}{spk:E783}{n}Does it help you unwind?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Yes, that's right. At times like this, you need some diversion.{n}{wait}{clear}{end}
 39FB.2F5E	{fb:1480}{n}{spk:E783}{n}How are you feeling?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Not bad. Though that depends on your requests.{n}{wait}{clear}{end}
 39FB.2FCA	{fb:1E80}{n}{spk:E783}{n}You seem to be in a good mood.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Heh heh. Do I look it? Then maybe I am...{n}{wait}{clear}{end}
-39FB.3044	{fb:2880}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Thank you for looking out for me, Angel.{n}{wait}{clear}{end}
+39FB.3044	{fb:2880}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Thank you for looking out for me, my dear angel.{n}{wait}{clear}{end}
 39FB.30B2	{fb:3280}{n}{spk:E783}{n}Are you going to have a drink?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}Honestly... Stop talking about drinking all the time... It's not like that...{n}{wait}{clear}{end}
-39FB.3142	{fb:3C80}{n}{spk:E783}{n}Is there a trick to having fun?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Oh, you're curious about that sort of thing too, Angel?{n}{wait}{clear}{spk:0080}{n}Then I'll teach you properly next time.{n}{wait}{clear}{end}
+39FB.3142	{fb:3C80}{n}{spk:E783}{n}Is there a trick to having fun?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Oh, you're curious about that sort of thing too, my dear angel?{n}{wait}{clear}{spk:0080}{n}Then I'll teach you properly next time.{n}{wait}{clear}{end}
 39FB.35A0	{fb:FE81}{n}{spk:0080}{n}Anything else...? Is there something?{n}{wait}{clear}{end}
 39FB.35D6	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}... I don't need your concern right now.{n}{wait}{clear}{end}
 39FB.363E	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}It's fine... I decide things for myself...{n}{wait}{clear}{end}

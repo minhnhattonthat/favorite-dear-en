@@ -44,7 +44,7 @@ id	en
 3A9A.25DC	{fb:0A80}{n}{spk:E783}{n}{f7:0080}｛Yes, I'll gladly accept.｝{n}{f7:0080}｛Since you offer, thanks.｝{n}{f7:0080}｛My vows forbid it.　　　｝{n}{end}
 3A9A.26D0	{fb:6480}{n}{spk:0080}{n}{e5:0180}{n}Phew. I was kind of nervous about what I'd do if you said no.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}I really want to give you something even better... Look forward to the next one!{n}{fd:068000800580}{n}{wait}{clear}{end}
 3A9A.278E	{fb:6580}{n}{spk:0080}{n}{e5:0680}{n}Phew. I was kind of nervous about what I'd do if you said no.{n}{wait}{clear}{spk:0080}{n}I really want to give you something even better... Look forward to the next one!{n}{fd:068000800580}{n}{wait}{clear}{end}
-3A9A.2846	{fb:C880}{n}{spk:0080}{n}{e5:0580}{n}Huh...?! Oh... I see. Just "since I offer"...{n}{wait}{clear}{spk:0080}{n}I wanted to give you something you'd like more. Next time I'll make something like that.{n}{fd:068000800380}{n}{wait}{clear}{end}
+3A9A.2846	{fb:C880}{n}{spk:0080}{n}{e5:0580}{n}Huh...?! Oh... I see. Just "since you offer"...{n}{wait}{clear}{spk:0080}{n}I wanted to give you something you'd like more. Next time I'll make something like that.{n}{fd:068000800380}{n}{wait}{clear}{end}
 3A9A.29D2	{fb:2C81}{n}{spk:0080}{n}{e5:0580}{n}What?! Really? Oh... I had no idea.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}Um... next time I'll give you something different... So accept it then, okay?{n}{wait}{clear}{end}
 3A9A.2B40	{spk:0080}{n}{e5:0280}{n}Oh, Angel.{n}{wait}{clear}{end}
 3A9A.2B60	{fb:0080}{n}{spk:E783}{n}What is it, Yaruru?{n}{wait}{clear}{end}

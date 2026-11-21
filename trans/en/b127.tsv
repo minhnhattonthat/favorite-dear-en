@@ -28,7 +28,7 @@ id	en
 3AB1.258C	{spk:0080}{n}Glad you came. There's something I want to show you. Look, this.{n}{wait}{clear}{end}
 3AB1.25DE	{spk:E783}{n}A {name:0280}.{n}{wait}{clear}{spk:0080}{n}I was thinking of giving it to you... Will you take it?{n}{wait}{clear}{end}
 3AB1.2738	{fb:6480}{n}{spk:0080}{n}{e5:0080}{n}Good... Then here.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}When you look that happy, I feel like I did something good. It makes me kind of happy too.{n}{fd:098000800580}{n}{wait}{clear}{end}
-3AB1.2890	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}"Since I offer"? Hmm... You don't have to force yourself to take it. ...Just kidding. Here.{n}{wait}{clear}{spk:0080}{n}Now, an order!! Don't let go of that for a while. I gave it to you, after all.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}Heh heh, see you. Take good care of it!{n}{fd:098000800380}{n}{wait}{clear}{end}
+3AB1.2890	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}"Since you offer"? Hmm... You don't have to force yourself to take it. ...Just kidding. Here.{n}{wait}{clear}{spk:0080}{n}Now, an order!! Don't let go of that for a while. I gave it to you, after all.{n}{wait}{clear}{spk:0080}{n}{e5:0680}{n}Heh heh, see you. Take good care of it!{n}{fd:098000800380}{n}{wait}{clear}{end}
 3AB1.2AA4	{fb:2C81}{n}{spk:0080}{n}{e5:0380}{n}Whaaat?! Why? I went to all the trouble...{n}{wait}{clear}{spk:0080}{n}Ugh... fine, I get it, you dumb angel! Can't you do something about those vows? Fix it by next time, no matter what.{n}{wait}{clear}{spk:0080}{n}Promise!{n}{wait}{clear}{end}
 3AB1.2C42	{spk:0080}{n}{e5:0380}{n}There you are, you happy-go-lucky angel. Today I'm finally telling you off.{n}{wait}{clear}{end}
 3AB1.2C92	{fb:0080}{n}{spk:E783}{n}What is it, Ashe?{n}{wait}{clear}{end}

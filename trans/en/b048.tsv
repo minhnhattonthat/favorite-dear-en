@@ -9,11 +9,11 @@ id	en
 370B.28AC	{fb:4680}{n}{spk:E783}{n}Weren't you hoping to see me?{n}{wait}{clear}{fe:E78300800280}{n}{spk:0080}{n}{e5:0280}{n}What are you talking about?{n}{wait}{clear}{e5:0080}{n}{end}
 370B.291A	{fb:5080}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}...There's no need to fuss over me.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.2978	{fb:5A80}{n}{spk:E783}{n}It's been a while, hasn't it?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}...It has.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.29C8	{fb:6480}{n}{spk:E783}{n}Have you come across any beautiful scenery?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...Hm. I can't spare the time to take it in properly.{n}{wait}{clear}{spk:0080}{n}But there are places I've come to like.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.2A76	{fb:6E80}{n}{spk:E783}{n}Did I startle you, showing up so suddenly?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}What are you talking about?{n}{wait}{clear}{e5:0080}{n}{end}
+370B.29C8	{fb:6480}{n}{spk:E783}{n}Have you seen any beautiful scenery?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...Hm. I can't spare the time to take it in properly.{n}{wait}{clear}{spk:0080}{n}But there are places I've come to like.{n}{wait}{clear}{e5:0080}{n}{end}
+370B.2A76	{fb:6E80}{n}{spk:E783}{n}Did my sudden visit startle you?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}What are you talking about?{n}{wait}{clear}{e5:0080}{n}{end}
 370B.2ACA	{fb:7880}{n}{spk:E783}{n}I was wondering how you were doing.{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}...As you see.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.2B26	{fb:8280}{n}{spk:E783}{n}If there's anything I can do, I'll help.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...I appreciate the thought. But there's nothing for now.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.2BB0	{fb:8C80}{n}{spk:E783}{n}I thought you might have lost your way.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}What nonsense are you talking?{n}{wait}{clear}{e5:0080}{n}{end}
+370B.2B26	{fb:8280}{n}{spk:E783}{n}If I can do anything, I'll help.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...I appreciate the thought. But there's nothing for now.{n}{wait}{clear}{e5:0080}{n}{end}
+370B.2BB0	{fb:8C80}{n}{spk:E783}{n}I thought you might be lost.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}What nonsense are you talking?{n}{wait}{clear}{e5:0080}{n}{end}
 370B.2C2A	{fb:9680}{n}{spk:E783}{n}What do you think makes traveling fun?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Visiting unknown lands and deepening my knowledge, I'd say.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.2CBE	{fb:A080}{n}{spk:E783}{n}Is anything hard about traveling?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}On a long journey, it's trouble if the horse falls ill.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.353E	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}Is that all?{n}{wait}{clear}{e5:0080}{n}{end}
@@ -22,9 +22,9 @@ id	en
 370B.363E	{fb:1480}{n}{spk:E783}{n}Are there foods you don't like?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}...Not really.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.3696	{fb:1E80}{n}{spk:E783}{n}Do you ever cook your own meals?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...Simple things, yes.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.3708	{fb:2880}{n}{spk:E783}{n}I'm getting hungry too.{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Then go back and eat something.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.3770	{fb:3280}{n}{spk:E783}{n}Is it different from the food at the castle?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Not at all. The meals at the castle are plain too.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.37F0	{fb:3C80}{n}{spk:E783}{n}Is there anything you eat for your health?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Nothing in particular... I think it's best to eat everything.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.3B34	{fb:3D80}{n}{spk:E783}{n}Is there anything you eat for your health?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Nothing in particular...{n}{e5:0080}{n}I think it's best to eat everything.{n}{wait}{clear}{e5:0080}{n}{end}
+370B.3770	{fb:3280}{n}{spk:E783}{n}Is it different from castle food?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Not at all. The meals at the castle are plain too.{n}{wait}{clear}{e5:0080}{n}{end}
+370B.37F0	{fb:3C80}{n}{spk:E783}{n}Do you eat anything for your health?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Nothing in particular... I think it's best to eat everything.{n}{wait}{clear}{e5:0080}{n}{end}
+370B.3B34	{fb:3D80}{n}{spk:E783}{n}Do you eat anything for your health?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Nothing in particular...{n}{e5:0080}{n}I think it's best to eat everything.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.3BC8	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}Is there something else?{n}{wait}{clear}{e5:0080}{n}{end}
 370B.3C02	{fb:0080}{n}{spk:E783}{n}Is something troubling you?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Did it look that way? You worry too much.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.3C60	{fb:0A80}{n}{spk:E783}{n}Am I bothering you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}I'm resting now. No need to be so careful.{n}{wait}{clear}{e5:0080}{n}{end}
@@ -32,7 +32,7 @@ id	en
 370B.3D56	{fb:1E80}{n}{spk:E783}{n}You look like you're having fun.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}If I can avoid fighting, so much the better.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.3DC8	{fb:2880}{n}{spk:E783}{n}Did someone teach you that?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Taking rest is one of a knight's important duties too. It's something you pick up naturally.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.3E6E	{fb:3280}{n}{spk:E783}{n}Is there something you do every day?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...Sword training.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.3EDC	{fb:3C80}{n}{spk:E783}{n}Do you ever go out with the young knights?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...Yes. To the kingdom's jousting tournaments and such.{n}{wait}{clear}{e5:0080}{n}{end}
+370B.3EDC	{fb:3C80}{n}{spk:E783}{n}Do you go out with the young knights?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...Yes. To the kingdom's jousting tournaments and such.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.3FF4	{fb:0B80}{n}{spk:E783}{n}{e5:0080}{n}Am I bothering you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}I'm resting now. No need to be so careful.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.42F8	{fb:FE81}{n}{spk:0080}{n}Is that all?{n}{wait}{clear}{end}
 370B.4318	{fb:0080}{n}{spk:E783}{n}You're very dedicated, aren't you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...I don't intend to cut corners. That's all.{n}{wait}{clear}{e5:0080}{n}{end}
@@ -40,7 +40,7 @@ id	en
 370B.440C	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}{e5:0080}{n}...Yes. I've only just begun.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.448E	{fb:1E80}{n}{spk:E783}{n}What kind of training are you doing?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Building arm strength. Lance or sword, a weak arm is useless.{n}{wait}{clear}{e5:0080}{n}{end}
 370B.4534	{fb:2880}{n}{spk:E783}{n}Why not rest a little?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}If you're only here to worry needlessly, then leave.{n}{wait}{clear}{e5:0080}{n}{end}
-370B.45A2	{fb:3280}{n}{spk:E783}{n}I should learn swordsmanship too, but...{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...Is that so? I don't really understand what an angel's role involves...{n}{wait}{clear}{e5:0080}{n}{end}
+370B.45A2	{fb:3280}{n}{spk:E783}{n}I should learn the sword too, but...{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}...Is that so? I don't really understand what an angel's role involves...{n}{wait}{clear}{e5:0080}{n}{end}
 370B.464C	{fb:3C80}{n}{spk:E783}{n}You swing your sword so gallantly.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}...Spare me the flattery. Battles aren't won on looks.{n}{wait}{clear}{e5:0080}{n}{end}
 3715.0FB6	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}Somethin' else?{n}{wait}{clear}{e5:0080}{n}{end}
 3715.0FEA	{fb:0080}{n}{spk:E783}{n}Am I bothering you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Nah, it's fine. But quit bein' so stiff, y'know? It wears me out too.{n}{wait}{clear}{e5:0080}{n}{end}
@@ -53,11 +53,11 @@ id	en
 3715.144E	{fb:4680}{n}{spk:E783}{n}Weren't you hoping to see me?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}Huh? Don't be stupid. Where'd you get that idea? You're a weird one.{n}{wait}{clear}{e5:0080}{n}{end}
 3715.14FC	{fb:5080}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}...Y'know, it's always the hungry one who asks that first.{n}{wait}{clear}{spk:0080}{n}Ain't you the one who's hungry?{n}{wait}{clear}{e5:0080}{n}{end}
 3715.15C2	{fb:5A80}{n}{spk:E783}{n}It's been a while, hasn't it?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}Yeah. Guess so.{n}{wait}{clear}{e5:0080}{n}{end}
-3715.161C	{fb:6480}{n}{spk:E783}{n}Have you come across any beautiful scenery?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}Listen to you, all sunshine. Folks like you are what I call airheads.{n}{wait}{clear}{e5:0080}{n}{end}
-3715.16BA	{fb:6E80}{n}{spk:E783}{n}Did I startle you, showing up so suddenly?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}You always barge in outta nowhere. Why get polite about it now?{n}{wait}{clear}{e5:0080}{n}{end}
+3715.161C	{fb:6480}{n}{spk:E783}{n}Have you seen any beautiful scenery?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}Listen to you, all sunshine. Folks like you are what I call airheads.{n}{wait}{clear}{e5:0080}{n}{end}
+3715.16BA	{fb:6E80}{n}{spk:E783}{n}Did my sudden visit startle you?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}You always barge in outta nowhere. Why get polite about it now?{n}{wait}{clear}{e5:0080}{n}{end}
 3715.1740	{fb:7880}{n}{spk:E783}{n}I was wondering how you were doing.{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}Nothin' much. Like you see, I'm just walkin'.{n}{wait}{clear}{e5:0080}{n}{end}
-3715.17B8	{fb:8280}{n}{spk:E783}{n}If there's anything I can do, I'll help.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0180}{n}Oh yeah? Thanks. Then how 'bout helpin' me with a little theft?{n}{wait}{clear}{spk:0080}{n}...Kiddin', just kiddin'.{n}{wait}{clear}{e5:0080}{n}{end}
-3715.187A	{fb:8C80}{n}{spk:E783}{n}I thought you might have lost your way.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0380}{n}Hey, hey, you got the wrong guy! That's somethin' you say to a kid!{n}{wait}{clear}{e5:0080}{n}{end}
+3715.17B8	{fb:8280}{n}{spk:E783}{n}If I can do anything, I'll help.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0180}{n}Oh yeah? Thanks. Then how 'bout helpin' me with a little theft?{n}{wait}{clear}{spk:0080}{n}...Kiddin', just kiddin'.{n}{wait}{clear}{e5:0080}{n}{end}
+3715.187A	{fb:8C80}{n}{spk:E783}{n}I thought you might be lost.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0380}{n}Hey, hey, you got the wrong guy! That's somethin' you say to a kid!{n}{wait}{clear}{e5:0080}{n}{end}
 3715.1922	{fb:9680}{n}{spk:E783}{n}How do you feel about becoming a hero?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}{e5:0080}{n}Let's see... Mostly it's a pain in the neck.{n}{wait}{clear}{spk:0080}{n}{e5:0180}{n}But when folks thank me, it kinda tickles. Ain't really like me...{n}{wait}{clear}{e5:0080}{n}{end}
 3715.1A26	{fb:A080}{n}{spk:E783}{n}Are you still working as a thief?{n}{wait}{clear}{spk:0080}{n}{e5:0380}{n}Yeah, got a problem with that? I do your jobs right. You got no business naggin' me.{n}{wait}{clear}{e5:0080}{n}{end}
 3715.1F70	{fb:4780}{n}{spk:E783}{n}Weren't you hoping to see me?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0280}{n}Huh? Don't be stupid. Where'd you get that idea? You're a weird one.{n}{wait}{clear}{e5:0080}{n}{end}

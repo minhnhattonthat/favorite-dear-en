@@ -11,13 +11,13 @@ id	en
 399F.3870	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}You needn't tell me.{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}However hard you try, when it won't work, it won't work.{n}{wait}{clear}{end}
 399F.3918	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}{fe:018000800180}{n}Leave me be, if you please. One shouldn't say things that sap a person's drive.{n}{wait}{clear}{end}
 399F.39AA	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}I'll keep at it as far as I can. But I don't intend to overdo it.{n}{wait}{clear}{end}
-399F.3A2C	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}Oh? You do say something sensible once in a while.{n}{wait}{clear}{spk:0080}{n}But you needn't tell me such obvious things.{n}{wait}{clear}{end}
-399F.3AEE	{fb:3280}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}Do as you like. But I can't give you much attention.{n}{wait}{clear}{end}
-399F.3B6A	{fb:3280}{n}{spk:E783}{n}Are you confident in your swordsmanship?{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}I have a fair amount of confidence in myself as I am... But there is always someone better.{n}{wait}{clear}{end}
+399F.3A2C	{fb:1E80}{n}{spk:E783}{n}Daily learning is important, isn't it?{n}{wait}{clear}{spk:0080}{n}Oh? You do say something sensible once in a while.{n}{wait}{clear}{spk:0080}{n}But you needn't tell me such obvious things.{n}{wait}{clear}{end}
+399F.3AEE	{fb:3280}{n}{spk:E783}{n}...Should I not have come?{n}{wait}{clear}{spk:0080}{n}Do as you like. But I can't give you much attention.{n}{wait}{clear}{end}
+399F.3B6A	{fb:3280}{n}{spk:E783}{n}Are you confident with the sword?{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}I have a fair amount of confidence in myself as I am... But there is always someone better.{n}{wait}{clear}{end}
 399F.3BF2	{fb:3C80}{n}{spk:E783}{n}I heard some noise, you see.{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}So that's how you found me. ...I see. Did I startle you?{n}{wait}{clear}{end}
 399F.3C9E	{fb:0180}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}You needn't tell me.{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}However hard you try, when it won't work, it won't work.{n}{wait}{clear}{end}
 399F.3DD8	{fb:1580}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}I'll keep at it as far as I can. But I don't intend to overdo it.{n}{wait}{clear}{end}
-399F.3F98	{fb:3380}{n}{spk:E783}{n}Are you confident in your swordsmanship?{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}I have a fair amount of confidence in myself as I am... But there is always someone better.{n}{wait}{clear}{end}
+399F.3F98	{fb:3380}{n}{spk:E783}{n}Are you confident with the sword?{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}I have a fair amount of confidence in myself as I am... But there is always someone better.{n}{wait}{clear}{end}
 39A8.0F50	{fb:FE81}{n}{spk:0080}{n}...Anything else?{n}{wait}{clear}{end}
 39A8.0F78	{fb:0080}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}...It has.{n}{wait}{clear}{end}
 39A8.0FBE	{fb:0A80}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}I'm fine.{n}{wait}{clear}{end}
@@ -25,9 +25,9 @@ id	en
 39A8.1060	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}There's no need.{n}{wait}{clear}{end}
 39A8.10B2	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}You stopped just to ask me that?{n}{wait}{clear}{end}
 39A8.111E	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...It has.{n}{wait}{clear}{end}
-39A8.1170	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Right now, I'm only heading for our destination.{n}{wait}{clear}{end}
+39A8.1170	{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Right now, I'm only heading for our destination.{n}{wait}{clear}{end}
 39A8.11CA	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...I suppose. When I cross swords with the squires.{n}{wait}{clear}{end}
-39A8.1248	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}... Matters concerning the kingdom weigh on me.{n}{wait}{clear}{end}
+39A8.1248	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}... Matters concerning the kingdom weigh on me.{n}{wait}{clear}{end}
 39A8.12B8	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Yes. It's fundamental.{n}{wait}{clear}{end}
 39A8.130C	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}......{n}{wait}{clear}{end}
 39A8.134E	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}I'm fine for now.{n}{wait}{clear}{end}
@@ -44,11 +44,11 @@ id	en
 39A8.1CF0	{fb:1480}{n}{spk:E783}{n}Am I... intruding?{n}{wait}{clear}{fe:E78300800280}{n}{spk:0080}{n}You came all this way to say that?{n}{wait}{clear}{end}
 39A8.1D50	{fb:1E80}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{spk:0080}{n}... That is what I intend to do.{n}{wait}{clear}{end}
 39A8.1DB6	{fb:2880}{n}{spk:E783}{n}I thought we might talk a little...{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}... Not now.{n}{wait}{clear}{end}
-39A8.1E18	{fb:3280}{n}{spk:E783}{n}Do you stand night guard at the castle too?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}... Of course. Guarding the castle knows no day or night.{n}{wait}{clear}{end}
+39A8.1E18	{fb:3280}{n}{spk:E783}{n}Do you guard the castle at night too?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}... Of course. Guarding the castle knows no day or night.{n}{wait}{clear}{end}
 39A8.1E90	{fb:3C80}{n}{spk:E783}{n}Do you like the town at night?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}Yes... I do.{n}{wait}{clear}{spk:0080}{n}The town lights seen from the castle are beautiful. They reflect the warmth of people's lives.{n}{wait}{clear}{end}
 39A8.2274	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Same as always.{n}{wait}{clear}{end}
 39A8.22D2	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}Must a hero be watched that closely?{n}{wait}{clear}{end}
-39A8.234A	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}...That's none of your concern.{n}{wait}{clear}{end}
+39A8.234A	{fb:1480}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}...That's none of your concern.{n}{wait}{clear}{end}
 39A8.23B0	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}I suppose so.{n}{wait}{clear}{end}
 39A8.23F8	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}... You followed me just to say that?{n}{wait}{clear}{end}
 39A8.2462	{fb:3280}{n}{spk:E783}{n}Are you careful about what you eat?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}I am. An unbalanced diet won't keep the body healthy.{n}{wait}{clear}{end}
@@ -59,15 +59,15 @@ id	en
 39A8.294A	{fb:1480}{n}{spk:E783}{n}How are you feeling?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...Not bad.{n}{wait}{clear}{end}
 39A8.299A	{fb:1E80}{n}{spk:E783}{n}You seem to be in a good mood.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Let me see...{n}{wait}{clear}{end}
 39A8.29EA	{fb:2880}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}... Don't fuss over me.{n}{wait}{clear}{end}
-39A8.2A46	{fb:3280}{n}{spk:E783}{n}Do the soldiers of the order get days off too?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}Yes, of course. Knights are only human. Without rest, they'd be in trouble.{n}{wait}{clear}{end}
+39A8.2A46	{fb:3280}{n}{spk:E783}{n}Do the order's soldiers get days off?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}Yes, of course. Knights are only human. Without rest, they'd be in trouble.{n}{wait}{clear}{end}
 39A8.2ACC	{fb:3C80}{n}{spk:E783}{n}Thank you, as always.{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...It's too early for thanks. Wait until everyone can live in peace.{n}{wait}{clear}{end}
 39A8.2E7C	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}...Was that all you came for?{n}{wait}{clear}{end}
 39A8.2EE2	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}No need to worry.{n}{wait}{clear}{end}
 39A8.2F38	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}...Of course. If you have no other business... go.{n}{wait}{clear}{end}
-39A8.2FB6	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}That's right. Steady effort is needed in all things. Neglect it and you won't grow.{n}{wait}{clear}{end}
-39A8.3054	{fb:2880}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...No need for concern. You must have come for a reason.{n}{wait}{clear}{end}
-39A8.30DA	{fb:3280}{n}{spk:E783}{n}Have you practiced the sword since you were small?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Yes... Ever since I was a child.{n}{wait}{clear}{end}
-39A8.314E	{fb:3C80}{n}{spk:E783}{n}What training matters most to a knight?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}... Effort, and building up real experience. Though of course, that isn't all.{n}{wait}{clear}{end}
+39A8.2FB6	{fb:1E80}{n}{spk:E783}{n}Daily learning is important, isn't it?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}That's right. Steady effort is needed in all things. Neglect it and you won't grow.{n}{wait}{clear}{end}
+39A8.3054	{fb:2880}{n}{spk:E783}{n}...Should I not have come?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}...No need for concern. You must have come for a reason.{n}{wait}{clear}{end}
+39A8.30DA	{fb:3280}{n}{spk:E783}{n}Have you used a sword since childhood?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}Yes... Ever since I was a child.{n}{wait}{clear}{end}
+39A8.314E	{fb:3C80}{n}{spk:E783}{n}What's a knight's most vital training?{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}... Effort, and building up real experience. Though of course, that isn't all.{n}{wait}{clear}{end}
 39AF.0F0C	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}
 39AF.0F28	{fb:0080}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}Honestly... you're a carefree one.{n}{wait}{clear}{end}
 39AF.0F7E	{fb:0A80}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{spk:0080}{n}It's nothing you need to worry about.{n}{wait}{clear}{end}
@@ -75,9 +75,9 @@ id	en
 39AF.1056	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}If you want to rest, that's fine by me. Suit yourself.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39AF.10D6	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}It's tiring, like being watched. Well, maybe you've got it rough too.{n}{wait}{clear}{end}
 39AF.115E	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}No way. I've got my own pace, and I don't want it thrown off.{n}{fe:E78300800180}{n}{wait}{clear}{end}
-39AF.11E6	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}I'd like to have a drink with my thief buddies. Things have been way too refined lately. It's stifling.{n}{wait}{clear}{spk:0080}{n}When it comes to letting loose and raising hell, those guys are the best.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.11E6	{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}I'd like to have a drink with my thief buddies. Things have been way too refined lately. It's stifling.{n}{wait}{clear}{spk:0080}{n}When it comes to letting loose and raising hell, those guys are the best.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39AF.12B6	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}When I'm out having a blast, obviously. That's the most fun there is.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39AF.1342	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Let's see... I try to stay away from knights and guards when I run into them.{n}{wait}{clear}{spk:0080}{n}But I worry more about the guys I left behind than about myself. Lots of them were dimwits...{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39AF.1342	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Let's see... I try to stay away from knights and guards when I run into them.{n}{wait}{clear}{spk:0080}{n}But I worry more about the guys I left behind than about myself. Lots of them were dimwits...{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39AF.1442	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}That's some kind of flattery, right?{n}{wait}{clear}{end}
 39AF.1496	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}I hate losing too. Being strong never hurts.{n}{wait}{clear}{spk:0080}{n}Not that I'd lose to any of the usual riffraff even now.{n}{wait}{clear}{end}
 39AF.1544	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}Quit whining! You're the one who tagged along.{n}{wait}{clear}{end}

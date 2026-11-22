@@ -2,6 +2,36 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **2026-11-23, issue #4 (not released yet; branch `fix/issue-4` stacked on `fix/issue-2`, PR #6 still open):
+  hero-visit topic menu cut options off.** The visit menu (`00D4` + op 0x90 per option) prints each option row's
+  first page as one menu line with a one-cell cursor indent: one line, 19 cells (JP options are at most 19 glyphs).
+  wrap.py allowed 20 cells and 2 lines, so 302 rows (45 distinct lines) overflowed ("...I'll hel", "...lost your way"
+  without its ".", two-line options pushing the next one under the wrong cursor slot). Shortened all 45 in
+  `trans/en` (fixrows + merge); new `tools/menuopts.py` (option rows from the scripts, overflow lint) and
+  `tests/test_wrap.py::test_hero_visit_choices_fit_the_menu`. Repro: `warp.py --event SQA04 --state`, then emu.py
+  `--state-in work/states/sqa04_*.sstate --shot-every 10`: the menu is up ~200 frames after the state; new
+  `tools/lua/setmenu.lua` forces the second option's key (`--var MENU_B=0x64`; slot 9 is already fixed by then).
+  Verified on build 2e77b172 against the v1.0 build: "...I'll hel" -> "If I can do anything, I'll help.", the
+  two-line scenery option now one line (`work/qa/issue4/*_old_vs_fix.png`); check ok (93), smoke ok.
+
+- **2026-11-23, issue #2 (not released yet): hero status Equip box showed no item names.** PR #3 (issue #1)
+  merged first. The names were drawn by 0x80110E58, a small-kana cell copier with no Latin (docs/re/text.md §Hero
+  equipment); worker 20's "the hero screen draws none" was wrong: its save had nothing equipped. Fixed by
+  `asm/equip.inc` (D21, the user's choice): names in caps4x7 capitals from x 77, labels moved to x 25,
+  `tests/test_equip.py` checks every equippable name fits. Verified on build 5132f613: `warp.py stress_hero_reiv
+  --cue build/... --lua tools/lua/setequip.lua` (new: holds the widest names) shows BATTLE BOOMERANG / KNITTED
+  SWEATER / MERMAID EARRING inside the box (`work/qa/issue2/after2_vs_empty.png`); empty slots clean; fairy status
+  (`hub_ability4`) and battle plates (`battle_t0101`) unchanged; check ok (92), smoke ok.
+
+- **2026-11-22, issue #1 (not released yet): hero-visit GIFT window was Japanese.** The item stat window
+  (装備不可 / 攻撃力 防御力 素早さ, アイテム / 体力 正義感 ストレス) and the 贈りますか？ prompt came from the two
+  jp_kept rows PSX.166398 / PSX.1663C4. Their "unknown field layout" is now mapped (docs/re/text.md §Hero visit GIFT
+  window): sprite descriptors at 0x8002DA34 cut them from a VRAM strip, so `asm/gift.inc` repoints u/w and the rows
+  are English in exe.tsv (removed from docs/jp_kept.tsv). Reproduced and verified on the EN build with the new scene
+  `warp.py stress_hero_gift --cue build/... --lua tools/lua/giveitems.lua --var ITEMS_AT=12000` (the heroes save has
+  an empty bag; `tools/lua/giveitems.lua` fills it): "Equip: No/OK", Attack/Guard/Speed, Items/Stamina/Justice/Stress,
+  "Give this?"; "Equip: Using" (already equipped) checked by forcing state 0x8002801A = 2 (not reached naturally).
+
 - **2026-11-21, after v1.0: name-entry crash fixed (not released yet).** A player on DuckStation froze when the name
   grid opened (state `rom/fav_name_input.sav`). Cause: `asm/name.inc` name_latin had `lw ra` right before `jr ra`;
   with no load interlock the `jr` used the old ra, ran the epilogue twice and resumed the task with sp 8 bytes off

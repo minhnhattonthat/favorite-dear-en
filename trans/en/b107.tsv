@@ -53,9 +53,9 @@ id	en
 399F.10C8	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}There's no need for such concern. When I want to rest, I'll rest.{n}{wait}{clear}{end}
 399F.1136	{fb:1E80}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}How could being with you not tire me out? And you'll keep following me around anyway, won't you?{n}{wait}{clear}{end}
 399F.11C4	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}Now, don't rush me. I like to think I am hurrying.{n}{wait}{clear}{end}
-399F.122E	{spk:E783}{n}{fb:3C80}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Let me see...{n}{wait}{clear}{spk:0080}{n}Something I'd like to do right now... Nothing comes to mind...{n}{wait}{clear}{end}
+399F.122E	{spk:E783}{n}{fb:3C80}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Let me see...{n}{wait}{clear}{spk:0080}{n}Something I'd like to do right now... Nothing comes to mind...{n}{wait}{clear}{end}
 399F.12C6	{spk:E783}{n}{fb:4680}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}Not usually, as such... but exchanging words with beautiful ladies is a true delight.{n}{wait}{clear}{end}
-399F.1364	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}I take care with my appearance. Looking slovenly would be rude to the ladies.{n}{wait}{clear}{end}
+399F.1364	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}I take care with my appearance. Looking slovenly would be rude to the ladies.{n}{wait}{clear}{end}
 399F.13FA	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}What an odd way to flatter someone. Very like you, I suppose...{n}{wait}{clear}{end}
 399F.1480	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}I am a knight, after all. Being strong never hurts.{n}{wait}{clear}{end}
 399F.14F8	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}You may mean well, but being fussed over too much is stifling.{n}{wait}{clear}{end}
@@ -63,14 +63,14 @@ id	en
 399F.1614	{fb:8280}{n}{spk:E783}{n}You're in quite a hurry.{n}{wait}{clear}{spk:0080}{n}{fe:018000800180}{n}Good grief. You tag along uninvited, and now you complain?{n}{wait}{clear}{end}
 399F.1682	{fb:8C80}{n}{spk:E783}{n}Have you ever wanted to fly?{n}{wait}{clear}{spk:0080}{n}Wanting to fly won't make me fly. It's a waste even to wish it.{n}{wait}{clear}{end}
 399F.1712	{fb:9680}{n}{spk:E783}{n}We've walked a long way.{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}Indeed. But it's too early to relax. I'm afraid our destination is still a little further.{n}{wait}{clear}{end}
-399F.179C	{fb:A080}{n}{spk:E783}{n}We haven't seen any other travelers like us.{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}True. I suppose there are few travelers because the world is in turmoil.{n}{wait}{clear}{spk:0080}{n}Unpleasant times.{n}{wait}{clear}{end}
+399F.179C	{fb:A080}{n}{spk:E783}{n}We've seen no other travelers like us.{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}True. I suppose there are few travelers because the world is in turmoil.{n}{wait}{clear}{spk:0080}{n}Unpleasant times.{n}{wait}{clear}{end}
 399F.1874	{fb:0180}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}{fd:018000800280}{n}It does. Not bad at all.{n}{wait}{clear}{end}
 399F.18CE	{fb:1580}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{spk:0080}{n}Spare me your needless worry. Besides, we still have a way to go. We can hardly rest here.{n}{wait}{clear}{end}
-399F.1B26	{spk:E783}{n}{fb:3D80}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Let me see...{n}{wait}{clear}{spk:0080}{n}Something I'd like to do right now... Nothing comes to mind...{n}{wait}{clear}{end}
+399F.1B26	{spk:E783}{n}{fb:3D80}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Let me see...{n}{wait}{clear}{spk:0080}{n}Something I'd like to do right now... Nothing comes to mind...{n}{wait}{clear}{end}
 399F.1BB4	{fb:4780}{n}{spk:E783}{n}Weren't you hoping to see me?{n}{wait}{clear}{fe:018000800180}{n}{spk:0080}{n}I wasn't particularly hoping to see you...?{n}{wait}{clear}{end}
 399F.1D4E	{fb:6580}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}I am a knight, after all. Being strong never hurts.{n}{wait}{clear}{end}
 399F.1FE0	{spk:E783}{n}{fb:9780}{n}We've walked a long way.{n}{wait}{clear}{spk:0080}{n}{fd:018000800180}{n}Indeed. But it's too early to relax. I'm afraid our destination is still a little further.{n}{wait}{clear}{end}
-399F.206A	{fb:A180}{n}{spk:E783}{n}We haven't seen any other travelers like us.{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}True. I suppose there are few travelers because the world is in turmoil.{n}{wait}{clear}{spk:0080}{n}Unpleasant times.{n}{wait}{clear}{end}
+399F.206A	{fb:A180}{n}{spk:E783}{n}We've seen no other travelers like us.{n}{wait}{clear}{fd:018000800180}{n}{spk:0080}{n}True. I suppose there are few travelers because the world is in turmoil.{n}{wait}{clear}{spk:0080}{n}Unpleasant times.{n}{wait}{clear}{end}
 399F.2168	{fb:0080}{n}{spk:E783}{n}I just wondered what you were up to.{n}{wait}{clear}{spk:0080}{n}{fe:018000800180}{n}Even so, good manners say you don't come at this hour.{n}{wait}{clear}{end}
 399F.21EE	{fb:0A80}{n}{spk:E783}{n}Thank you for your hard work today.{n}{wait}{clear}{spk:0080}{n}Is that your business? ...Then I understand perfectly.{n}{wait}{clear}{spk:0080}{n}I understand perfectly, so that will do, won't it?{n}{wait}{clear}{end}
 399F.2282	{fb:1480}{n}{spk:E783}{n}Am I... intruding?{n}{wait}{clear}{spk:0080}{n}{fe:018000800180}{n}Must I spell it out for you?{n}{wait}{clear}{end}
@@ -81,7 +81,7 @@ id	en
 399F.285E	{fb:FE81}{n}{spk:0080}{n}So, anything else?{n}{wait}{clear}{end}
 399F.2884	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}{fe:018000800180}{n}...What are you saying? I've only just eaten. You ought to listen when people talk.{n}{wait}{clear}{end}
 399F.2914	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}Unfortunately, I've already eaten. Could you make it another time?{n}{wait}{clear}{end}
-399F.2984	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}I'm not such a glutton that I go out to eat that often. You must have me confused with someone else.{n}{wait}{clear}{end}
+399F.2984	{fb:1480}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{spk:0080}{n}I'm not such a glutton that I go out to eat that often. You must have me confused with someone else.{n}{wait}{clear}{end}
 399F.2A14	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}I'm already full. I've had quite enough even of the smell.{n}{wait}{clear}{end}
 399F.2A84	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}I understand you mean well, but too much of it is meddling.{n}{wait}{clear}{end}
 399F.2B02	{fb:3280}{n}{spk:E783}{n}Was the meal good?{n}{wait}{clear}{spk:0080}{n}{fd:018000800280}{n}Yes, I'm satisfied. I'd like to relax like this a while longer.{n}{wait}{clear}{end}

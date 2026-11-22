@@ -1,6 +1,8 @@
 import sys
 from pathlib import Path
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import batches  # noqa: E402
 import wrap  # noqa: E402
@@ -84,6 +86,16 @@ def test_no_stray_page_fragments_or_odd_runs_in_the_script():
     r = subprocess.run([sys.executable, "-X", "utf8", str(root / "tools" / "oddname.py")], capture_output=True,
                        text=True, encoding="utf-8", cwd=root)
     assert r.returncode == 0 and r.stdout.strip() == "", r.stdout
+
+
+@pytest.mark.skipif(not (Path(__file__).resolve().parent.parent / "work/disc/tree/PSX.EXE").is_file(),
+                    reason="disc not unpacked to work/disc/tree")
+def test_hero_visit_choices_fit_the_menu():
+    # issue #4: the visit topic menu shows each option's first page on one 19-cell line ("...I'll hel" cut, a
+    # two-line option pushed the next one under the wrong cursor slot)
+    import menuopts
+    assert len(menuopts.option_ids()) > 2000
+    assert menuopts.overflows() == []
 
 
 def test_choice_glyphs_become_escapes():

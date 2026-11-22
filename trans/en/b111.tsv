@@ -1,7 +1,7 @@
 id	en
 39CB.263A	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}What should I get? I'm super hungry, so I could eat anything.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.26C8	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}Yeah, sure. What do you like, Angel?{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39CB.2732	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}Earlier I went to the general store. I went to sell the carvings I made on my trip.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39CB.2732	{fb:1480}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{spk:0080}{n}Earlier I went to the general store. I went to sell the carvings I made on my trip.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.27D8	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}It really does. I wanna eat something soon.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.2838	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}Y-yeah. I know...{n}{wait}{clear}{end}
 39CB.2896	{fb:3280}{n}{spk:E783}{n}What did you eat at home?{n}{wait}{clear}{spk:0080}{n}My mom's cooking. Mom's a really good cook, so she makes all kinds of stuff.{n}{fd:E78300800180}{n}{wait}{clear}{end}
@@ -13,15 +13,15 @@ id	en
 39CB.2EF6	{fb:1E80}{n}{spk:E783}{n}You seem to be in a good mood.{n}{wait}{clear}{spk:0080}{n}Heh heh, you think so? I bet something good's gonna happen today.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.2F72	{fb:2880}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{spk:0080}{n}Yeah. Thanks! You should play and get some rest too, Angel!{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.2FFE	{fb:3280}{n}{spk:E783}{n}Do you like festivals?{n}{wait}{clear}{spk:0080}{n}Yeah! I love them! They sell way more stuff than usual in town.{n}{wait}{clear}{spk:0080}{n}I can't buy much, but festivals have all kinds of fun things, right?{n}{fd:E78300800280}{n}{wait}{clear}{end}
-39CB.30CE	{fb:3C80}{n}{spk:E783}{n}Don't you get tired from playing too much?{n}{wait}{clear}{spk:0080}{n}Ahaha. I'm fine, Angel! I told you, I'm not that much of a kid.{n}{wait}{clear}{end}
+39CB.30CE	{fb:3C80}{n}{spk:E783}{n}Don't you get tired playing so much?{n}{wait}{clear}{spk:0080}{n}Ahaha. I'm fine, Angel! I told you, I'm not that much of a kid.{n}{wait}{clear}{end}
 39CB.3534	{fb:FE81}{n}{spk:0080}{n}Is there... something else?{n}{wait}{clear}{end}
 39CB.3562	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}Yeah... I know that, but...{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39CB.35DA	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}...But it's frustrating when I can't do it.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39CB.364E	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}Yeah. 'Cause I wanna get good at throwing the boomerang soon.{n}{wait}{clear}{end}
-39CB.36D2	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}...Yeah. My dad used to say that too...{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39CB.3752	{fb:2880}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}That's not true... You came 'cause you had something to do, Angel. Right?{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39CB.36D2	{fb:1E80}{n}{spk:E783}{n}Daily learning is important, isn't it?{n}{wait}{clear}{spk:0080}{n}...Yeah. My dad used to say that too...{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39CB.3752	{fb:2880}{n}{spk:E783}{n}...Should I not have come?{n}{wait}{clear}{spk:0080}{n}That's not true... You came 'cause you had something to do, Angel. Right?{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39CB.37EC	{fb:3280}{n}{spk:E783}{n}Have you ever been hurt?{n}{wait}{clear}{spk:0080}{n}All the time, back when I'd just learned the boomerang.{n}{wait}{clear}{spk:0080}{n}I couldn't catch it right when it came back.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39CB.38A8	{fb:3C80}{n}{spk:E783}{n}Which do you like more, studying or training?{n}{wait}{clear}{spk:0080}{n}Hmm... If I had to pick, training, I guess.{n}{wait}{clear}{end}
+39CB.38A8	{fb:3C80}{n}{spk:E783}{n}Do you like studying or training more?{n}{wait}{clear}{spk:0080}{n}Hmm... If I had to pick, training, I guess.{n}{wait}{clear}{end}
 39D3.0F0C	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}
 39D3.0F38	{fb:0080}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}Yeah. Walking along like this, it's hard to believe the world's in chaos.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39D3.0FC8	{fb:0A80}{n}{spk:E783}{n}Are you tired...?{n}{wait}{clear}{spk:0080}{n}I'm all right. What about you, Angel? Aren't you tired? If you are, tell me.{n}{fd:E78300800180}{n}{wait}{clear}{end}
@@ -29,9 +29,9 @@ id	en
 39D3.10FE	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}Nah, I'm fine. Thanks for looking out for me, Angel.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39D3.1182	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}Not really. What about you, Angel, aren't you tired? I tend to go at my own pace.{n}{wait}{clear}{end}
 39D3.11FA	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}Yeah? I don't think we need to rush... This pace'll be fine, I'm sure.{n}{wait}{clear}{end}
-39D3.1282	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Well... you can't spring that on me all of a sudden... I was just walking...{n}{wait}{clear}{end}
+39D3.1282	{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Well... you can't spring that on me all of a sudden... I was just walking...{n}{wait}{clear}{end}
 39D3.131A	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}When I'm lying on my back looking at the sky. Looking at nothing but sky, it feels like I'm floating in it. Feels great.{n}{wait}{clear}{spk:0080}{n}So I kinda envy you, Angel, since you can actually fly.{n}{fd:E78300800280}{n}{wait}{clear}{end}
-39D3.1420	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Not getting worked up over things, maybe? Never panicking, no matter what. Having some slack is pretty important.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39D3.1420	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Not getting worked up over things, maybe? Never panicking, no matter what. Having some slack is pretty important.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39D3.14D4	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}Huh? ...Was I walking too fast?{n}{wait}{clear}{spk:0080}{n}I thought I was keeping to your pace, at least...{n}{wait}{clear}{end}
 39D3.158C	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}Well... I guess it's better to get stronger, but...{n}{wait}{clear}{spk:0080}{n}Even if I do, I'd rather not use that strength if I can help it.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39D3.166A	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}I'm not thirsty myself.{n}{wait}{clear}{spk:0080}{n}But if you're thirsty, Angel, let's take a little break.{n}{wait}{clear}{end}
@@ -50,7 +50,7 @@ id	en
 39D3.30FC	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}
 39D3.3128	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}Nothing fancy. ...Same as yesterday is fine by me.{n}{wait}{clear}{spk:0080}{n}As long as I get to eat, I'm happy.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39D3.31E2	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}Sure. Eating with two is more fun than eating alone.{n}{fe:E78300800180}{n}{wait}{clear}{end}
-39D3.325A	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}Yeah, a little while ago. What I'm going for now is a snack. I'm hungry today.{n}{wait}{clear}{end}
+39D3.325A	{fb:1480}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{spk:0080}{n}Yeah, a little while ago. What I'm going for now is a snack. I'm hungry today.{n}{wait}{clear}{end}
 39D3.32F0	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}Right! That great smell makes me even hungrier.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39D3.336A	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}If you're worried I'm picky, don't be. I'm not picky at all.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39D3.33FC	{fb:3280}{n}{spk:E783}{n}Do you pay attention to nutrition?{n}{wait}{clear}{spk:0080}{n}Hmm... Thinking about that won't make the food taste any better...{n}{wait}{clear}{spk:0080}{n}I've never really thought about it. As long as I can eat my fill, I'm good.{n}{fd:E78300800180}{n}{wait}{clear}{end}

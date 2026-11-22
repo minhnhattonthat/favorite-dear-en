@@ -1,6 +1,6 @@
 id	en
-39D3.4496	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}...Spare me the sound advice. Truth is, I don't even want to do sword training.{n}{wait}{clear}{spk:0080}{n}I don't want people thinking I enjoy swinging a sword around...{n}{fe:E78300800280}{n}{wait}{clear}{end}
-39D3.4574	{fb:2880}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}Well... I guess it comes to that, but don't think badly of me...{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39D3.4496	{fb:1E80}{n}{spk:E783}{n}Daily learning is important, isn't it?{n}{wait}{clear}{spk:0080}{n}...Spare me the sound advice. Truth is, I don't even want to do sword training.{n}{wait}{clear}{spk:0080}{n}I don't want people thinking I enjoy swinging a sword around...{n}{fe:E78300800280}{n}{wait}{clear}{end}
+39D3.4574	{fb:2880}{n}{spk:E783}{n}...Should I not have come?{n}{wait}{clear}{spk:0080}{n}Well... I guess it comes to that, but don't think badly of me...{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39D3.45F8	{fb:3280}{n}{spk:E783}{n}Will you eat something after training?{n}{wait}{clear}{spk:0080}{n}Huh? You'll make me something? Then I'd better work a little harder so it tastes even better.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39D3.469C	{fb:3C80}{n}{spk:E783}{n}Do you train on rainy days too?{n}{wait}{clear}{spk:0080}{n}Nah, not that far. Getting soaked in cold rain and catching a cold would be bad, right?{n}{wait}{clear}{spk:0080}{n}You shouldn't go against nature. Even animals stay put when it rains.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39D3.48AA	{fb:1580}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}Well, I can't stop at this much. I've got to keep going a bit longer.{n}{wait}{clear}{spk:0080}{n}Training's not that easy, you know.{n}{wait}{clear}{end}
@@ -11,16 +11,16 @@ id	en
 39DD.1088	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}Nah, not now. This much is nothing to me.{n}{fe:E78300800280}{n}{wait}{clear}{end}
 39DD.1102	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}You ask weird things. You don't need to worry so much. That kind of thing is what wears me out.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39DD.11A2	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}Yeah? All right. If the Angel says so, no need to hold back. Let's keep moving!{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39DD.1232	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}...... I need to earn big money. Any good jobs around?{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39DD.1232	{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}...... I need to earn big money. Any good jobs around?{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.12B8	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}Let's see. When I'm talking with the kids in town. They're all so lively.{n}{fd:E78300800280}{n}{wait}{clear}{end}
-39DD.134A	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Bounty hunters get targeted themselves sometimes, so I always watch my surroundings.{n}{wait}{clear}{spk:0080}{n}To the bad guys, we're their natural enemy.{n}{fd:E78300800280}{n}{wait}{clear}{end}
+39DD.134A	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Bounty hunters get targeted themselves sometimes, so I always watch my surroundings.{n}{wait}{clear}{spk:0080}{n}To the bad guys, we're their natural enemy.{n}{fd:E78300800280}{n}{wait}{clear}{end}
 39DD.140E	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}Ha ha. Of course. Legwork is the basics.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.147A	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}Well, sure I do. Then I could earn big money.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.14F8	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}I'm fine. Well, let's take a little break in a bit.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.156E	{fb:7880}{n}{spk:E783}{n}Do you like taking walks?{n}{wait}{clear}{spk:0080}{n}Not really. Unless I've got company.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.15E0	{fb:8280}{n}{spk:E783}{n}You're in quite a hurry.{n}{wait}{clear}{spk:0080}{n}Sort of. You've got lots you want to do too, right? So I don't want to dawdle.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39DD.1676	{fb:8C80}{n}{spk:E783}{n}Have you ever wanted to fly?{n}{wait}{clear}{spk:0080}{n}The sky...? Romantic talk like that has nothing to do with me.{n}{fe:E78300800180}{n}{wait}{clear}{end}
-39DD.16FE	{fb:9680}{n}{spk:E783}{n}What did you want to be when you were little?{n}{wait}{clear}{spk:0080}{n}What? Out of nowhere? You're a strange one too... Well, I'll tell you if I feel like it.{n}{fe:E78300800280}{n}{wait}{clear}{end}
+39DD.16FE	{fb:9680}{n}{spk:E783}{n}What did you want to be as a child?{n}{wait}{clear}{spk:0080}{n}What? Out of nowhere? You're a strange one too... Well, I'll tell you if I feel like it.{n}{fe:E78300800280}{n}{wait}{clear}{end}
 39DD.179C	{fb:A080}{n}{spk:E783}{n}Are you all right sleeping outdoors?{n}{wait}{clear}{spk:0080}{n}I wouldn't say all right. If I can rest at an inn, all the better.{n}{wait}{clear}{spk:0080}{n}But when I'm catching night raiders and such, camping on the edge of town is sometimes handier.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.2200	{fb:FE81}{n}{spk:0080}{n}There's more?{n}{wait}{clear}{end}
 39DD.2220	{fb:0080}{n}{spk:E783}{n}I just wondered what you were up to.{n}{wait}{clear}{spk:0080}{n}You came all this way to ask that? Give me a break...{n}{fe:E78300800280}{n}{wait}{clear}{end}
@@ -32,7 +32,7 @@ id	en
 39DD.24C4	{fb:3C80}{n}{spk:E783}{n}Do you like looking at the stars?{n}{wait}{clear}{spk:0080}{n}I don't dislike it. I used to look at the sky a lot as a kid.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.289E	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}I haven't decided yet. Hmm... What's good around here, I wonder.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.292E	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}What, together? Huh... Eating with me? You've got odd tastes.{n}{wait}{clear}{end}
-39DD.29B2	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}I didn't go. I went to look for wanted posters.{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39DD.29B2	{fb:1480}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{spk:0080}{n}I didn't go. I went to look for wanted posters.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39DD.2A32	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}You're right. Something smells good. What could that be?{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.2AA6	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}Ahahaha... Oh, no, sorry, sorry. So you worry about that kind of thing too.{n}{fd:E78300800280}{n}{wait}{clear}{end}
 39DD.2B40	{fb:3280}{n}{spk:E783}{n}I'd love to try your cooking.{n}{wait}{clear}{spk:0080}{n}Huh? Mine? ...Hmm... Well. Maybe another time.{n}{fd:E78300800280}{n}{wait}{clear}{end}
@@ -48,8 +48,8 @@ id	en
 39DD.3734	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}Yeah, thanks. But I'm fine. I hate doing things halfway. So I have to go all the way.{n}{fd:E78300800280}{n}{wait}{clear}{end}
 39DD.37DA	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}Thanks. But I've only just started. I've got a long way to go.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.3864	{fb:1480}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}Yeah, a bit more. I'm a hero now, after all, so I can't slack off, right?{n}{fd:E78300800280}{n}{wait}{clear}{end}
-39DD.38F8	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}Well, yeah. If you keep at it, good things'll come. With anything.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39DD.3992	{fb:2880}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}It's not that. But if you're going to watch, stand back. It's dangerous up close.{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39DD.38F8	{fb:1E80}{n}{spk:E783}{n}Daily learning is important, isn't it?{n}{wait}{clear}{spk:0080}{n}Well, yeah. If you keep at it, good things'll come. With anything.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39DD.3992	{fb:2880}{n}{spk:E783}{n}...Should I not have come?{n}{wait}{clear}{spk:0080}{n}It's not that. But if you're going to watch, stand back. It's dangerous up close.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39DD.3A30	{fb:3280}{n}{spk:E783}{n}Is there a trick to fighting?{n}{wait}{clear}{spk:0080}{n}Let's see... Don't let your opponent look down on you, I guess.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39DD.3AA8	{fb:3C80}{n}{spk:E783}{n}Is bounty hunting hard?{n}{wait}{clear}{spk:0080}{n}Not really. It's just about how to catch the bad guys. As long as you've got a sword and a brain, it's easy.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39E5.26F4	{fb:FE81}{n}{spk:0080}{n}Hm? What? Is there something else?{n}{wait}{clear}{end}
@@ -59,9 +59,9 @@ id	en
 39E5.28B8	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}Right. But we can't really take it easy. Not now.{n}{wait}{clear}{end}
 39E5.2932	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Hmm? Not reeeally. You don't nag, so it's fine. It's easier than at the castle.{n}{wait}{clear}{end}
 39E5.29C6	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Right. I'd hate for it to rain, so let's do that.{n}{wait}{clear}{end}
-39E5.2A3A	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Right now? Hmm... I'd like to sit back and drink some tea. I'm thirsty.{n}{wait}{clear}{end}
+39E5.2A3A	{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Right now? Hmm... I'd like to sit back and drink some tea. I'm thirsty.{n}{wait}{clear}{end}
 39E5.2AD4	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800480}{n}Anything but studying is fun. Horseback riding is great!{n}{wait}{clear}{spk:0080}{n}I rode all the time at the castle. When you gallop full speed, the wind feels sooo good!{n}{wait}{clear}{end}
-39E5.2BBE	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Hm? Something I'm careful about? Sure there is. Well, all sorts of things.{n}{wait}{clear}{end}
+39E5.2BBE	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Hm? Something I'm careful about? Sure there is. Well, all sorts of things.{n}{wait}{clear}{end}
 39E5.2C40	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Heh heh. Well, yeah. I've been running all over the place one way or another, I guess.{n}{wait}{clear}{end}
 39E5.2CCC	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}Not really... Well, a Ashe-sama with beauty and strength both wouldn't be so bad.{n}{wait}{clear}{end}
 39E5.2D52	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Right. Let's take a break somewhere in a little while.{n}{wait}{clear}{end}

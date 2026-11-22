@@ -818,8 +818,8 @@ PSX.166334	ラビエル{end}	Raviel{end}	no direct pointer
 PSX.16633E	訪問、スカウトを終了しますか？{end}	End visits and scouting?{end}	no direct pointer
 PSX.16635E	訪問、スカウトを終了します。{end}	Ending visits and scouting.{end}	no direct pointer
 PSX.16637C	勇者の訪問を終了しますか？{end}	End your hero visit?{end}	no direct pointer
-PSX.166398	贈りますか？装備不可　　攻撃力防御力素早さ{end}		no direct pointer
-PSX.1663C4	正義感ストレス体　力アイテム中です。　　　{end}		no direct pointer
+PSX.166398	贈りますか？装備不可　　攻撃力防御力素早さ{end}	Give this?Equip:p: No OKAttackGuardSpeed  {end}	no direct pointer; gift screen sprite strip, letters packed for asm/gift.inc (u/w per word): keep every letter position
+PSX.1663C4	正義感ストレス体　力アイテム中です。　　　{end}	JusticeStressStaminaItemsp: Using         {end}	no direct pointer; gift screen sprite strip, letters packed for asm/gift.inc (u/w per word): keep every letter position
 PSX.16641C	スピットファイア{end}	Spitfire{end}	no direct pointer
 PSX.16642E	トライミラージュ{end}	Tri-Mirage{end}	no direct pointer
 PSX.166440	レッドデフィート{end}	Red Defeat{end}	no direct pointer

@@ -2,6 +2,15 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **2026-11-22, issue #1 (not released yet): hero-visit GIFT window was Japanese.** The item stat window
+  (装備不可 / 攻撃力 防御力 素早さ, アイテム / 体力 正義感 ストレス) and the 贈りますか？ prompt came from the two
+  jp_kept rows PSX.166398 / PSX.1663C4. Their "unknown field layout" is now mapped (docs/re/text.md §Hero visit GIFT
+  window): sprite descriptors at 0x8002DA34 cut them from a VRAM strip, so `asm/gift.inc` repoints u/w and the rows
+  are English in exe.tsv (removed from docs/jp_kept.tsv). Reproduced and verified on the EN build with the new scene
+  `warp.py stress_hero_gift --cue build/... --lua tools/lua/giveitems.lua --var ITEMS_AT=12000` (the heroes save has
+  an empty bag; `tools/lua/giveitems.lua` fills it): "Equip: No/OK", Attack/Guard/Speed, Items/Stamina/Justice/Stress,
+  "Give this?"; "Equip: Using" (already equipped) checked by forcing state 0x8002801A = 2 (not reached naturally).
+
 - **2026-11-21, after v1.0: name-entry crash fixed (not released yet).** A player on DuckStation froze when the name
   grid opened (state `rom/fav_name_input.sav`). Cause: `asm/name.inc` name_latin had `lw ra` right before `jr ra`;
   with no load interlock the `jr` used the old ra, ran the epilogue twice and resumed the task with sp 8 bytes off

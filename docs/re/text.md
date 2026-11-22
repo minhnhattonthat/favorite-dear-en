@@ -168,3 +168,18 @@ are MS Gothic's 12 px embedded bitmap (kanji match exactly), kana/Latin/punctuat
 - English: the hero branch's exit (0x80111280) also renders the three skills at sheet rows 0x24/0x30/0x3C, and
   0x800C337C is rewritten in place to draw that row the same way at x 200 (labels now "1:".."3:", gfx/e014.tsv),
   y-1. 17 letters fit; the longest names (16) checked with `tools/lua/longskill.lua` (`work/qa/skillwide`).
+
+## Hero visit GIFT window (issue #1, `asm/gift.inc`)
+
+- Pool strings at 0x80175B34 (PSX.166334..), u16 offsets in halfwords from it at 0x8002DBEC (ラビエル, the three
+  visit/scout prompts, then entries 4-6 = the GIFT rows PSX.166398 / PSX.1663C4 / an empty row). 0x800C24DC renders
+  entries 4-6 into VRAM at (0x3C0 halfwords, 0x100 + 12*row); the stat window 0x800C27F0 and the Yes/No prompt draw
+  pieces of that strip with 0x801186E4(0, x, y, index), index -> descriptor via the pointer table 0x8002DB84
+  (+4 u, +8 v, +0x14 w, +0x18 h). Pieces and x: header 1 装備 at 0xDA + 2 不可 at 0xF2 / 3 可 at 0xFE, or (item already
+  equipped, state u16 0x8002801A = 2) 1 at 0xD4 + 11 中です。 at 0xEC; consumables 10 アイテム at 0xDA; labels 4-6 or
+  7-9 at 0xBB, numbers from 0xF5; prompt 0. Found by marking every pool cell with a distinct glyph in RAM.
+- English: the rows are packed letter by letter (6 px each) and the descriptors' u/w point at each word. Pieces 2
+  and 11 start 24 px into piece 1 "Equip:", so they begin with the same "p:" and overdraw it identically: "Equip: No",
+  "Equip: OK", "Equip: Using"; labels Attack/Guard/Speed, Stamina/Justice/Stress, header Items, prompt "Give this?".
+  Repro: `warp.py stress_hero_gift --cue build/favorite_dear_en.cue --lua tools/lua/giveitems.lua --var
+  ITEMS_AT=12000`.

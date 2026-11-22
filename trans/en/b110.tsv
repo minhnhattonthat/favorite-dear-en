@@ -3,9 +3,9 @@ id	en
 39C1.10D2	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}No, let's walk a little more. Our destination is still ahead, and I'm not tired yet either.{n}{wait}{clear}{end}
 39C1.1160	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}Not at all, but...{n}{wait}{clear}{spk:0080}{n}I'd rather you didn't stop us for that kind of talk.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39C1.1210	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}...Why the hurry? We'll reach our destination in good time without rushing.{n}{fe:E78300800180}{n}{wait}{clear}{end}
-39C1.12A6	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Let me see... Perhaps just that I'm a little curious how the medical text I read yesterday continues.{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39C1.12A6	{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Let me see... Perhaps just that I'm a little curious how the medical text I read yesterday continues.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39C1.133E	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}If I can spend a leisurely time reading a book, I'm content.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39C1.13C4	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Let me see. Never neglecting my studies as a doctor, I suppose.{n}{wait}{clear}{end}
+39C1.13C4	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Let me see. Never neglecting my studies as a doctor, I suppose.{n}{wait}{clear}{end}
 39C1.1442	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}Do I? I'm not very confident about long stretches of exercise...{n}{wait}{clear}{spk:0080}{n}Perhaps it's you who isn't getting enough exercise, Angel?{n}{wait}{clear}{end}
 39C1.14E2	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}Yes. There are times when strength is needed.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39C1.1554	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}Then shall we take a break? You may be tired...{n}{wait}{clear}{end}
@@ -25,11 +25,11 @@ id	en
 39C1.2D68	{fb:FE81}{n}{spk:0080}{n}Is there anything else?{n}{wait}{clear}{end}
 39C1.2D92	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}The usual meal. With nutrition in mind.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39C1.2E08	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}I don't mind... So you haven't eaten yet, Angel.{n}{wait}{clear}{spk:0080}{n}For your health, I recommend eating at the same time every day, even if you're alone.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39C1.2F04	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}No. Perhaps you're mistaken, Angel?{n}{wait}{clear}{spk:0080}{n}I only ever eat at set times.{n}{wait}{clear}{end}
+39C1.2F04	{fb:1480}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{spk:0080}{n}No. Perhaps you're mistaken, Angel?{n}{wait}{clear}{spk:0080}{n}I only ever eat at set times.{n}{wait}{clear}{end}
 39C1.2FBA	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}Is it? It's the usual smell to me, so it doesn't really strike me...{n}{wait}{clear}{end}
 39C1.3040	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}It seems you understand, Angel.{n}{wait}{clear}{spk:0080}{n}What matters in a meal is how well-balanced the nutrition is.{n}{wait}{clear}{end}
 39C1.30FA	{fb:3280}{n}{spk:E783}{n}What did you eat yesterday?{n}{wait}{clear}{spk:0080}{n}Yesterday and today, nearly the same thing.{n}{wait}{clear}{spk:0080}{n}But it's a meal planned for nutrition, so I'm always satisfied with it.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39C1.31B8	{fb:3C80}{n}{spk:E783}{n}What kind of meals do you usually have?{n}{wait}{clear}{spk:0080}{n}I choose nourishing things and eat much the same each time.{n}{wait}{clear}{spk:0080}{n}Eating all sorts of things means nothing if the balance is poor.{n}{fe:E78300800180}{n}{wait}{clear}{end}
+39C1.31B8	{fb:3C80}{n}{spk:E783}{n}What do you usually eat?{n}{wait}{clear}{spk:0080}{n}I choose nourishing things and eat much the same each time.{n}{wait}{clear}{spk:0080}{n}Eating all sorts of things means nothing if the balance is poor.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39C1.37E6	{fb:FE81}{n}{spk:0080}{n}Is there something else to discuss?{n}{wait}{clear}{end}
 39C1.3818	{fb:0080}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}That, at least, I must decline...{n}{fe:E78300800280}{n}{wait}{clear}{end}
 39C1.3886	{fb:0A80}{n}{spk:E783}{n}Does it help you unwind?{n}{wait}{clear}{spk:0080}{n}Well... who can say? I doubt idle brooding does much to ease fatigue...{n}{fe:E78300800180}{n}{wait}{clear}{end}
@@ -41,8 +41,8 @@ id	en
 39C1.3FAE	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}Reading medical texts is part of my daily life. I'm not overdoing it.{n}{wait}{clear}{end}
 39C1.402C	{fb:0A80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}It's not hard at all. If anything, it's an enjoyable time.{n}{wait}{clear}{spk:0080}{n}I take breaks as needed, so don't worry.{n}{wait}{clear}{end}
 39C1.40D6	{fb:1480}{n}{spk:E783}{n}Are you going to keep studying today?{n}{wait}{clear}{spk:0080}{n}Yes, a little longer. This text is just getting to the interesting part.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39C1.4162	{fb:1E80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}Yes. I think so too.{n}{wait}{clear}{spk:0080}{n}Medicine advances every day, and with it, many lives can be saved,{n}{wait}{clear}{spk:0080}{n}so I can't be the only one taking it easy.{n}{fd:E78300800280}{n}{wait}{clear}{end}
-39C1.424E	{fb:2880}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}No, not at all. If you like, would you care to read it?{n}{wait}{clear}{spk:0080}{n}It might spark an interest in medicine.{n}{wait}{clear}{end}
+39C1.4162	{fb:1E80}{n}{spk:E783}{n}Daily learning is important, isn't it?{n}{wait}{clear}{spk:0080}{n}Yes. I think so too.{n}{wait}{clear}{spk:0080}{n}Medicine advances every day, and with it, many lives can be saved,{n}{wait}{clear}{spk:0080}{n}so I can't be the only one taking it easy.{n}{fd:E78300800280}{n}{wait}{clear}{end}
+39C1.424E	{fb:2880}{n}{spk:E783}{n}...Should I not have come?{n}{wait}{clear}{spk:0080}{n}No, not at all. If you like, would you care to read it?{n}{wait}{clear}{spk:0080}{n}It might spark an interest in medicine.{n}{wait}{clear}{end}
 39C1.4322	{fb:3280}{n}{spk:E783}{n}Do you like studying?{n}{wait}{clear}{spk:0080}{n}Yes. Learning things and deepening my understanding feels very worthwhile.{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39C1.43B2	{fb:3C80}{n}{spk:E783}{n}Carrying books around must be hard.{n}{wait}{clear}{spk:0080}{n}It is. Besides books, I carry a basic set of medical instruments too.{n}{wait}{clear}{spk:0080}{n}If I met a sick person on the road and couldn't help them, being a doctor would mean nothing.{n}{fd:E78300800280}{n}{wait}{clear}{end}
 39CB.0F2A	{fb:0080}{n}{spk:E783}{n}The breeze feels nice.{n}{wait}{clear}{spk:0080}{n}Yeah! It feels super nice!{n}{fd:E78300800180}{n}{wait}{clear}{end}
@@ -51,9 +51,9 @@ id	en
 39CB.1042	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}Yeah. But let's go a bit farther first!{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.10BA	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}Hm? Why? That's not true, Angel.{n}{wait}{clear}{end}
 39CB.111C	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}Huh, really? I'm going pretty fast already. OK, wanna run, Angel?{n}{fe:E78300800180}{n}{wait}{clear}{end}
-39CB.11A4	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Right now? Right now... I wanna play in the river! Catch fish and stuff!{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39CB.11A4	{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Right now? Right now... I wanna play in the river! Catch fish and stuff!{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.1226	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}Let's see... Everything's fun, I guess.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39CB.129A	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Hmm... What, I wonder. Nothing really, I guess...{n}{wait}{clear}{end}
+39CB.129A	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Hmm... What, I wonder. Nothing really, I guess...{n}{wait}{clear}{end}
 39CB.130A	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}Heh heh. Sorta! I go all kinds of places, so walking's no problem at all.{n}{wait}{clear}{end}
 39CB.1390	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}Yeah! I do! I'm gonna be strong like my dad!!{n}{fd:E78300800280}{n}{wait}{clear}{end}
 39CB.1406	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}Nope, I'm fine. Are you OK, Angel?{n}{wait}{clear}{end}
@@ -61,7 +61,7 @@ id	en
 39CB.14F2	{fb:8280}{n}{spk:E783}{n}You're in quite a hurry.{n}{wait}{clear}{spk:0080}{n}Huh? Was I walking too fast? I always go about this fast.{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39CB.156A	{fb:8C80}{n}{spk:E783}{n}Have you ever wanted to fly?{n}{wait}{clear}{spk:0080}{n}Yeah! I have! It looks like it'd feel sooo good!{n}{wait}{clear}{spk:0080}{n}I wanna fly, even just once!{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.161E	{fb:9680}{n}{spk:E783}{n}Do you ever sing?{n}{wait}{clear}{spk:0080}{n}Sometimes. More like humming than singing, though.{n}{fd:E78300800180}{n}{wait}{clear}{end}
-39CB.1698	{fb:A080}{n}{spk:E783}{n}Are you scared of going places you don't know?{n}{wait}{clear}{spk:0080}{n}Not scared at all! In places you don't know, you never know what's there.{n}{wait}{clear}{spk:0080}{n}Something fun's bound to happen too. It's exciting!{n}{fd:E78300800180}{n}{wait}{clear}{end}
+39CB.1698	{fb:A080}{n}{spk:E783}{n}Are you scared of unfamiliar places?{n}{wait}{clear}{spk:0080}{n}Not scared at all! In places you don't know, you never know what's there.{n}{wait}{clear}{spk:0080}{n}Something fun's bound to happen too. It's exciting!{n}{fd:E78300800180}{n}{wait}{clear}{end}
 39CB.1FFA	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}
 39CB.2024	{fb:0080}{n}{spk:E783}{n}I just wondered what you were up to.{n}{wait}{clear}{spk:0080}{n}I'm about to go to bed... Aren't you going to sleep yet, Angel?{n}{fe:E78300800180}{n}{wait}{clear}{end}
 39CB.20A0	{fb:0A80}{n}{spk:E783}{n}Thank you for your hard work today.{n}{wait}{clear}{spk:0080}{n}Mm... You're tired too, right, Angel? Shouldn't you get some rest?{n}{fe:E78300800180}{n}{wait}{clear}{end}

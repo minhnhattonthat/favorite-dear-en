@@ -1,12 +1,12 @@
 id	en
-39E5.3D56	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}I did not!! Honestly, as if a girl would eat that much in one day!!{n}{wait}{clear}{end}
+39E5.3D56	{fb:1480}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}I did not!! Honestly, as if a girl would eat that much in one day!!{n}{wait}{clear}{end}
 39E5.3E00	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Right? Ugh, I wanna eat something sooo bad!{n}{wait}{clear}{end}
 39E5.3E6A	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}...??? Huh? Did you... know I don't like vegetables?{n}{wait}{clear}{end}
 39E5.3EF6	{fb:3280}{n}{spk:E783}{n}I'd love to try your cooking.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Huh, mine...? Wh-what's this, all of a sudden...{n}{wait}{clear}{spk:0080}{n}...Well, I'll think about it.{n}{wait}{clear}{end}
-39E5.3F9E	{fb:3C80}{n}{spk:E783}{n}If you eat too much, you'll gain weight.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Don't say things like that to a maiden!! Idiot!!{n}{wait}{clear}{end}
-39E5.4172	{fb:1580}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}I did not!! As if I'd eat that much in one day!!{n}{wait}{clear}{end}
+39E5.3F9E	{fb:3C80}{n}{spk:E783}{n}Eat too much and you'll gain weight.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Don't say things like that to a maiden!! Idiot!!{n}{wait}{clear}{end}
+39E5.4172	{fb:1580}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}I did not!! As if I'd eat that much in one day!!{n}{wait}{clear}{end}
 39E5.42FC	{fb:3380}{n}{spk:E783}{n}I'd love to try your cooking.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Whaaat. Really? Then another time.{n}{wait}{clear}{end}
-39E5.4372	{fb:3D80}{n}{spk:E783}{n}If you eat too much, you'll gain weight.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Don't say things like that before a meal!!{n}{wait}{clear}{end}
+39E5.4372	{fb:3D80}{n}{spk:E783}{n}Eat too much and you'll gain weight.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Don't say things like that before a meal!!{n}{wait}{clear}{end}
 39E5.43EA	{fb:FE81}{n}{spk:0080}{n}Anything else?{n}{wait}{clear}{end}
 39E5.4410	{fb:0080}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}Hm? Sure, fine. We're together anyway, so once in a while.{n}{wait}{clear}{end}
 39E5.4488	{fb:0A80}{n}{spk:E783}{n}Does it help you unwind?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Right. Being a hero takes a lot of stamina. I have to relax once in a while.{n}{wait}{clear}{end}
@@ -14,14 +14,14 @@ id	en
 39E5.4566	{fb:1E80}{n}{spk:E783}{n}You seem to be in a good mood.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Am I? I'm normal. Nor-mal.{n}{wait}{clear}{end}
 39E5.45BE	{fb:2880}{n}{spk:E783}{n}Please get some good rest.{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Yeah, I will. I'm taking it easy today.{n}{wait}{clear}{end}
 39E5.4632	{fb:3280}{n}{spk:E783}{n}What will you do to relax?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800280}{n}Today I'm going around town. There are sooo many cute clothes around here!{n}{wait}{clear}{end}
-39E5.46C2	{fb:3C80}{n}{spk:E783}{n}After your rest, keep up the good work.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}You...!! Don't say that while I'm resting!! You stupid angel!!{n}{wait}{clear}{end}
+39E5.46C2	{fb:3C80}{n}{spk:E783}{n}Rest, then keep up the good work.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}You...!! Don't say that while I'm resting!! You stupid angel!!{n}{wait}{clear}{end}
 39E5.4804	{fb:0B80}{n}{spk:E783}{n}Does it help you unwind?{n}{wait}{clear}{spk:0080}{n}Right. Being a hero takes a lot of stamina. I have to relax once in a while.{n}{wait}{clear}{end}
 39E5.4ADA	{fb:FE81}{n}{spk:0080}{n}Is there something else?{n}{wait}{clear}{end}
 39E5.4B02	{fb:0080}{n}{spk:E783}{n}Please don't push yourself too hard.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}Obviously. I'm not overdoing it. Wrecking my body over this would be just stupid!!{n}{wait}{clear}{end}
 39E5.4BA6	{fb:0B80}{n}{spk:E783}{n}That looks hard. Why not rest a bit?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}...... I just took a break... Hmph!{n}{wait}{clear}{end}
 39E5.4C24	{fb:1580}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}I only just started!! Jeez!{n}{wait}{clear}{end}
-39E5.4C8A	{fb:1F80}{n}{spk:E783}{n}Learning something every day is important, isn't it?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}I know that! But listen! Everyone has things they're bad at!!{n}{wait}{clear}{end}
-39E5.4D20	{fb:2980}{n}{spk:E783}{n}...Would it have been better if I hadn't come?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}If that's what you think, you know what to do, right!?{n}{wait}{clear}{end}
+39E5.4C8A	{fb:1F80}{n}{spk:E783}{n}Daily learning is important, isn't it?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}I know that! But listen! Everyone has things they're bad at!!{n}{wait}{clear}{end}
+39E5.4D20	{fb:2980}{n}{spk:E783}{n}...Should I not have come?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}If that's what you think, you know what to do, right!?{n}{wait}{clear}{end}
 39E5.4DA4	{fb:3280}{n}{spk:E783}{n}Could you teach me later too?{n}{wait}{clear}{spk:0080}{n}No, no! I don't have time for that! If you want to, do it yourself!{n}{wait}{clear}{end}
 39E5.4E28	{fb:3C80}{n}{spk:E783}{n}Are you... a little angry?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800280}{n}Angry!? Me!? I'm not angry at all!! Is that what you came to ask!?{n}{wait}{clear}{end}
 39E5.5018	{fb:1580}{n}{spk:E783}{n}Are you going to keep training today?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}I only just started!! Jeez!{n}{wait}{clear}{end}
@@ -34,9 +34,9 @@ id	en
 39F0.2950	{fb:1E80}{n}{spk:E783}{n}Shall we rest a bit?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}I'm not tired at all. But if you're tired, want to take a break?{n}{wait}{clear}{end}
 39F0.29D6	{fb:2880}{n}{spk:E783}{n}Does being with me tire you out?{n}{wait}{clear}{spk:0080}{n}Sure, sometimes it does get tiring...{n}{wait}{clear}{spk:0080}{n}But that happens to everybody. Don't worry about it so much.{n}{wait}{clear}{end}
 39F0.2A8A	{fb:3280}{n}{spk:E783}{n}Shall we hurry a little more?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Huh, you're awfully fired up. But shouldn't you take it easy?{n}{wait}{clear}{end}
-39F0.2B24	{fb:3C80}{n}{spk:E783}{n}Is there anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Let's see. I'd like a bath, I guess.{n}{wait}{clear}{spk:0080}{n}I train every day, right? Training makes me sweat more than most, so I love baths.{n}{wait}{clear}{end}
+39F0.2B24	{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Let's see. I'd like a bath, I guess.{n}{wait}{clear}{spk:0080}{n}I train every day, right? Training makes me sweat more than most, so I love baths.{n}{wait}{clear}{end}
 39F0.2BEE	{fb:4680}{n}{spk:E783}{n}What do you usually enjoy doing?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}When I'm training, I guess. Well, it's not exactly fun, but it's time well spent.{n}{wait}{clear}{end}
-39F0.2C90	{fb:5080}{n}{spk:E783}{n}Is there anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Yeah. I try not to blow up over little things. I've got a short temper...{n}{wait}{clear}{end}
+39F0.2C90	{fb:5080}{n}{spk:E783}{n}Anything you're careful about?{n}{wait}{clear}{spk:0080}{n}Yeah. I try not to blow up over little things. I've got a short temper...{n}{wait}{clear}{end}
 39F0.2D2E	{fb:5A80}{n}{spk:E783}{n}You seem used to walking.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}...That's just 'cause you're not used to walking...{n}{wait}{clear}{end}
 39F0.2DA2	{fb:6480}{n}{spk:E783}{n}Do you want to get stronger?{n}{wait}{clear}{spk:0080}{n}Obviously! There's no martial artist who doesn't want that!{n}{wait}{clear}{end}
 39F0.2E18	{fb:6E80}{n}{spk:E783}{n}Aren't you thirsty?{n}{wait}{clear}{spk:0080}{n}Nah, not really. Besides, we just had a drink. Drink too much and you'll wear out.{n}{wait}{clear}{end}
@@ -56,10 +56,10 @@ id	en
 39F0.45D4	{fb:FE81}{n}{spk:0080}{n}Well, that's enough, right?{n}{wait}{clear}{end}
 39F0.45FC	{fb:0080}{n}{spk:E783}{n}What will you be eating today?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}What does it matter! You're not the one eating it, so quit asking!{n}{wait}{clear}{end}
 39F0.468C	{fb:0A80}{n}{spk:E783}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Well... fine. But don't talk to me too much. It's distracting.{n}{wait}{clear}{end}
-39F0.4710	{fb:1480}{n}{spk:E783}{n}Didn't you just go for a meal a little while ago?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Ugh! ...Don't go remembering every little thing!!{n}{wait}{clear}{spk:0080}{n}...I was hungry, so what can I do?{n}{wait}{clear}{end}
+39F0.4710	{fb:1480}{n}{spk:E783}{n}Didn't you just eat a while ago?{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Ugh! ...Don't go remembering every little thing!!{n}{wait}{clear}{spk:0080}{n}...I was hungry, so what can I do?{n}{wait}{clear}{end}
 39F0.47D4	{fb:1E80}{n}{spk:E783}{n}Something smells good.{n}{wait}{clear}{spk:0080}{n}Right? Just smelling this makes me even hungrier.{n}{wait}{clear}{end}
 39F0.4844	{fb:2880}{n}{spk:E783}{n}Be sure to eat your vegetables too.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}What I eat is my business! Geez, that's exactly what I mean by butting in.{n}{wait}{clear}{end}
-39F0.48D0	{fb:3280}{n}{spk:E783}{n}Is there anything you're careful about when you eat?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Let's see... I skip oily stuff. Extra fat would slow me down.{n}{wait}{clear}{end}
+39F0.48D0	{fb:3280}{n}{spk:E783}{n}Are you careful about what you eat?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Let's see... I skip oily stuff. Extra fat would slow me down.{n}{wait}{clear}{end}
 39F0.496C	{fb:3C80}{n}{spk:E783}{n}Make sure you eat plenty.{n}{wait}{clear}{spk:0080}{n}{fe:E78300800180}{n}Yeah. Gotta eat lots of good food and build up my strength.{n}{wait}{clear}{end}
 39F0.4AA4	{spk:E783}{n}{fb:0B80}{n}May I join you?{n}{wait}{clear}{spk:0080}{n}{fd:E78300800180}{n}Well... fine. But don't talk to me too much. It's distracting.{n}{wait}{clear}{end}
 39F0.4E06	{fb:FE81}{n}{spk:0080}{n}...So, what else do you want?{n}{wait}{clear}{end}

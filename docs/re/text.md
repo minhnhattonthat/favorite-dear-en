@@ -183,3 +183,19 @@ are MS Gothic's 12 px embedded bitmap (kanji match exactly), kana/Latin/punctuat
   "Equip: OK", "Equip: Using"; labels Attack/Guard/Speed, Stamina/Justice/Stress, header Items, prompt "Give this?".
   Repro: `warp.py stress_hero_gift --cue build/favorite_dear_en.cue --lua tools/lua/giveitems.lua --var
   ITEMS_AT=12000`.
+
+## Hero equipment (issue #2, `asm/equip.inc`, D21)
+
+- Hero records 0x8001F6E4 + 0x6C * hero (0-11): u16 equipped item codes at +0x2A/+0x2C/+0x2E (weapon, armor,
+  other; 0xFFFF = none). Item records 0x800213D0, 20 bytes: +1 type (0-18 = equipment, 27 = consumable...),
+  +3/+4/+5 Attack/Guard/Speed bonus (summed by 0x801042CC for the status screen's "+ n").
+- Names: 0x80110CFC (called once from 0x8011CBFC as the status screen opens) ClearImages a 4bpp sheet at VRAM
+  (0x240 halfwords, 0), 256x200, and renders each slot's name (string = *(0x80169778 + 4 * (code + 0x8C)), or
+  code + 0x100 for codes >= 0xED) at sheet rows 0x10/0x18/0x20 with 0x80110E58, an 8x8 small-kana cell copier
+  (same 256-entry table 0x80026E18 as the old skill drawer), so English drew nothing. The screen draws the rows as
+  sprites of object 0x47 (+0x11C) at x 0x50, y 0xBC/0xC8/0xD4 (0x8010F63C-0x8010F6FC, w 0x40, h 8).
+- English: 0x80110E58 is rewritten in place to decode the pair codes, upper-case them and render them in the
+  caps4x7 battle-plate font (`bt_font`, asm/btname.inc; its buffer grew to 320 bytes) into an 80x8 row, LoadImaged
+  to the same place; sprites 80 px wide from x 77; labels moved to x 25 (gfx/e014.tsv). Box interior x 23-152.
+  Repro: `warp.py stress_hero_reiv --cue build/favorite_dear_en.cue --lua tools/lua/setequip.lua` (the heroes save
+  has nothing equipped; setequip.lua holds the three widest names in every hero's slots).

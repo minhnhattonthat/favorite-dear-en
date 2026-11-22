@@ -2,6 +2,15 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **2026-11-23, issue #2 (not released yet): hero status Equip box showed no item names.** PR #3 (issue #1)
+  merged first. The names were drawn by 0x80110E58, a small-kana cell copier with no Latin (docs/re/text.md §Hero
+  equipment); worker 20's "the hero screen draws none" was wrong: its save had nothing equipped. Fixed by
+  `asm/equip.inc` (D21, the user's choice): names in caps4x7 capitals from x 77, labels moved to x 25,
+  `tests/test_equip.py` checks every equippable name fits. Verified on build 5132f613: `warp.py stress_hero_reiv
+  --cue build/... --lua tools/lua/setequip.lua` (new: holds the widest names) shows BATTLE BOOMERANG / KNITTED
+  SWEATER / MERMAID EARRING inside the box (`work/qa/issue2/after2_vs_empty.png`); empty slots clean; fairy status
+  (`hub_ability4`) and battle plates (`battle_t0101`) unchanged; check ok (92), smoke ok.
+
 - **2026-11-22, issue #1 (not released yet): hero-visit GIFT window was Japanese.** The item stat window
   (装備不可 / 攻撃力 防御力 素早さ, アイテム / 体力 正義感 ストレス) and the 贈りますか？ prompt came from the two
   jp_kept rows PSX.166398 / PSX.1663C4. Their "unknown field layout" is now mapped (docs/re/text.md §Hero visit GIFT

@@ -119,14 +119,25 @@ Dialogue and story, menus, items, system messages, battle text, endings, staff c
 Title screen and graphics with text: English (the small kana reading under the title logo is kept).
 Name entry: opens on an English letter page; the kana pages are still there.
 Left in Japanese: the voice acting and songs; the memory-card titles shown by the console's
-memory-card manager; two short status-label strings in the EXE whose layout is not yet known
-(they may show in an item/status window).
+memory-card manager.
 
 Known issues: see https://github.com/minhnhattonthat/favorite-dear-en/issues
+
+Changes
+-------
+v1.1
+- Hero visit, GIFT window: the item stat labels and the "Give this?" prompt are now English
+  (were Japanese). Issues #1, #5.
+- Hero status screen: the Equip box now shows the equipped item names (it was blank). Issue #2.
+- Hero visit topic menu: every option fits on one line (some were cut off or pushed the next
+  option down). Issues #4, #5.
+v1.0
+- First release.
 
 Credits
 -------
 Translation, hacking and tools: minhnhattonthat, with extensive AI assistance (Claude by Anthropic).
+Bug reports: ahassmoto-boop (#1, #2, #4), Centurionzo12 (#5). Thank you!
 Corrections are very welcome.
 
 This is an unofficial fan work, not affiliated with NEC Interchannel. Favorite Dear is (c) NEC

@@ -2,7 +2,13 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **2026-11-23, issue #4 (not released yet; branch `fix/issue-4` stacked on `fix/issue-2`, PR #6 still open):
+- **2026-11-23, v1.1 published (D22).** Bug-fix release with issues #1 (gift window Japanese), #2 (Equip box names),
+  #4 (topic-menu overflow); #5 (player on v1.0: gift window + two Ashe visit options, 3535.40CA / 3535.564A) was
+  the same two bugs, already fixed on main. Reporters credited in README.md (Thanks), README.txt (Credits, plus a
+  Changes section in `tools/release.py` README_TXT) and the release notes. The "two status-label strings still
+  Japanese" caveat is gone from both READMEs (they were the gift-window rows).
+
+- **2026-11-23, issue #4 (released in v1.1; PRs #6/#7 merged):
   hero-visit topic menu cut options off.** The visit menu (`00D4` + op 0x90 per option) prints each option row's
   first page as one menu line with a one-cell cursor indent: one line, 19 cells (JP options are at most 19 glyphs).
   wrap.py allowed 20 cells and 2 lines, so 302 rows (45 distinct lines) overflowed ("...I'll hel", "...lost your way"

@@ -14,7 +14,7 @@ helps most.
 | Part | Status |
 |---|---|
 | Dialogue and story, battle text, the 23 endings | Translated |
-| Menus, items, places, system messages | Translated (two short status-label strings in PSX.EXE are still Japanese: their layout is not known yet) |
+| Menus, items, places, system messages | Translated |
 | Title screen, menus and labels drawn as graphics | Translated (the small kana reading under the title logo is kept) |
 | Name entry | English letter page by default; the kana pages are kept |
 | Staff credits | Translated (names romanized) |
@@ -53,6 +53,10 @@ cd favorite-dear-en
 python -X utf8 tools/build.py                          # -> build/favorite_dear_en.bin/.cue
 python -X utf8 tools/check.py                          # tests + text lint
 ```
+
+## Thanks
+
+Bug reports that shaped v1.1: ahassmoto-boop (#1, #2, #4) and Centurionzo12 (#5).
 
 ## Support
 

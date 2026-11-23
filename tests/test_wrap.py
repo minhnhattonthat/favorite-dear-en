@@ -98,5 +98,24 @@ def test_hero_visit_choices_fit_the_menu():
     assert menuopts.overflows() == []
 
 
+def test_choice_items_each_on_their_own_line():
+    # issue #8: '｛Promise to stay｝｛Can't promise｝' (the JP {n} between them dropped as soft) drew on one line
+    out = wrap.wrap("{spk:E783}{n}｛Promise to stay｝｛Can't promise｝{n}{end}")
+    assert out == "{spk:E783}{n}｛Promise to stay｝{n}｛Can't promise｝{n}{end}", out
+    assert wrap.wrap("{n}　｛Yes｝{n}　｛No｝{n}{end}") == "{n}　｛Yes｝{n}　｛No｝{n}{end}"
+
+
+def test_no_two_choice_items_on_one_line_in_the_script():
+    import re
+    root = Path(__file__).resolve().parent.parent
+    bad = []
+    for p in sorted((root / "script").rglob("*.tsv")):
+        for r in batches.read_tsv(p):
+            for ln in re.split(r"\{n\}|\{clear\}", r.get("en") or ""):
+                if ln.count("[DA][05]") > 1:
+                    bad.append(f"{r['id']}: {ln}")
+    assert bad == []
+
+
 def test_choice_glyphs_become_escapes():
     assert batches.to_printer("　｛Go｝") == "[00][00][DA][05]Go[DB][05]"

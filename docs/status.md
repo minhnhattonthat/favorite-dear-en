@@ -2,6 +2,15 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **2026-11-24, issue #8 (not released yet): two choice options on one line.** SLOVE01-12 ("Promise to stay" /
+  "Can't promise", the hero asks the angel to stay before the last battle) drew both items on one line under one
+  cursor bar. Cause: `wrap.simplify()` drops the JP `{n}` between `｝` and `｛` as soft, so translators wrote
+  `｛A｝｛B｝` and `wrap()` packed them. `wrap()` now starts every choice item on its own line; `batches.py merge`
+  fixed 27 rows (SLOVE01-12, SS0202 3964.*, SS0202T 396D.*: three also had an item split mid-text). Lint
+  `test_no_two_choice_items_on_one_line_in_the_script`. Verified: `warp.py ev_slove01` before/after
+  (`work/qa/warp/slove01_dense/f014730.png`: two lines, bar on line 1); SS0202's mash path skips its menus
+  (lint only). check ok (94), smoke ok, build sha1 edbb98a1.
+
 - **2026-11-23, v1.1 published (D22).** Bug-fix release with issues #1 (gift window Japanese), #2 (Equip box names),
   #4 (topic-menu overflow); #5 (player on v1.0: gift window + two Ashe visit options, 3535.40CA / 3535.564A) was
   the same two bugs, already fixed on main. Reporters credited in README.md (Thanks), README.txt (Credits, plus a

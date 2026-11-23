@@ -56,7 +56,7 @@ python -X utf8 tools/check.py                          # tests + text lint
 
 ## Thanks
 
-Bug reports that shaped v1.1: ahassmoto-boop (#1, #2, #4) and Centurionzo12 (#5).
+Bug reports that shaped v1.1 and v1.2: ahassmoto-boop (#1, #2, #4, #8) and Centurionzo12 (#5).
 
 ## Support
 

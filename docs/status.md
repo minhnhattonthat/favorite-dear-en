@@ -2,7 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **2026-11-24, issue #8 (not released yet): two choice options on one line.** SLOVE01-12 ("Promise to stay" /
+- **2026-11-24, v1.2 (D23): issue #8 fix.** PR #9 merged (8a28a45), #8 closed. `release.py --version 1.2` exit 0
+  (tour gate waived for hotfix build edbb98a1): patch sha1 a0bc8c66..., image CRC32 E2FEEA42. Notes ready; the
+  GitHub release is run by the user (the guard hook blocks `gh release create` from a worktree session).
+- **2026-11-24, issue #8 (released in v1.2): two choice options on one line.** SLOVE01-12 ("Promise to stay" /
   "Can't promise", the hero asks the angel to stay before the last battle) drew both items on one line under one
   cursor bar. Cause: `wrap.simplify()` drops the JP `{n}` between `｝` and `｛` as soft, so translators wrote
   `｛A｝｛B｝` and `wrap()` packed them. `wrap()` now starts every choice item on its own line; `batches.py merge`

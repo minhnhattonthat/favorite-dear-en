@@ -125,6 +125,10 @@ Known issues: see https://github.com/minhnhattonthat/favorite-dear-en/issues
 
 Changes
 -------
+v1.2
+- Choice menus: menus that drew both choices on one line under a single cursor bar (such as
+  "Promise to stay / Can't promise" before the last battle) now give each choice its own
+  line. Issue #8.
 v1.1
 - Hero visit, GIFT window: the item stat labels and the "Give this?" prompt are now English
   (were Japanese). Issues #1, #5.
@@ -137,7 +141,7 @@ v1.0
 Credits
 -------
 Translation, hacking and tools: minhnhattonthat, with extensive AI assistance (Claude by Anthropic).
-Bug reports: ahassmoto-boop (#1, #2, #4), Centurionzo12 (#5). Thank you!
+Bug reports: ahassmoto-boop (#1, #2, #4, #8), Centurionzo12 (#5). Thank you!
 Corrections are very welcome.
 
 This is an unofficial fan work, not affiliated with NEC Interchannel. Favorite Dear is (c) NEC
